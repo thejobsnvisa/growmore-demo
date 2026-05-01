@@ -2,6 +2,15 @@ const base = import.meta.env.BASE_URL;
 
 export const blogs = [
   {
+    id: 34,
+    slug: "vic-invitation-round-01-may-2026-occupations-points-and-key-trends",
+    title: "VIC Invitation Round 01 May 2026: Occupations, Points, and Key Trends",
+    metaTitle: "VIC Invitation Round 01 May 2026: Key Trends",
+    metaDescription: "VIC 01 May 2026 invitation round insights, occupations, points trends, and what actually matters beyond points for Australia PR.",
+     date: "May 1, 2026",
+    image: `${base}assets/34.png`,
+  },
+  {
     id: 33,
     slug: "nsw-491-pathway-2-invitation-round-latest-results-are-out",
     title: "NSW 491 Pathway 2 Invitation Round Latest Results Are Out",
