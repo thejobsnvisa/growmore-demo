@@ -2,6 +2,15 @@ const base = import.meta.env.BASE_URL;
 
 export const blogs = [
   {
+    id: 35,
+    slug: "south-australia-latest-may-invitation-round-official-numbers-released",
+    title: "South Australia Latest May Invitation Round: Official Numbers Released",
+    metaTitle: "South Australia May 2026 Invitation Round Results",
+    metaDescription: "South Australia released May 2026 invitation results with 509 skilled visa invites across Subclass 190 and 491, focusing on key priority occupations.",
+     date: "May 4, 2026",
+    image: `${base}assets/35.png`,
+  },  
+  {
     id: 34,
     slug: "vic-invitation-round-01-may-2026-occupations-points-and-key-trends",
     title: "VIC Invitation Round 01 May 2026: Occupations, Points, and Key Trends",
