@@ -1,5 +1,14 @@
 export const blogs = [
    {
+    id: 24,
+    slug: "can-you-get-a-work-visa-sponsorship-in-australia-check-your-eligibility",
+    title: "Can You Get a Work Visa Sponsorship in Australia? Check Your Eligibility",
+    metaTitle: "Can You Get Work Visa Sponsorship in Australia?",
+    metaDescription: "Find out how sponsorship in Australia works, who is eligible, and what improves your chances for visas like 482, 186, and 494.",
+     date: "May 5, 2026",
+    image: `${base}assets/24.png`,
+  }, 
+  {
     id: 23,
     slug: "australian-visa-processing-times-update-february-2026-vs-april-2026",
     title: "Australian Visa Processing Times Update (February 2026 vs April 2026)",
