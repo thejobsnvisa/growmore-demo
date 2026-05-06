@@ -1,16 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script>
-      const path = window.location.pathname;
-
-      // Only redirect if not already processed
-      if (!window.location.search.includes("p=")) {
-        window.location.replace(
-          "/?p=" + path.replace(/\//g, "~and~")
-        );
-      }
-    </script>
+    <title>Page Not Found</title>
   </head>
-  <body></body>
+  <body>
+    <h1>404 - Page Not Found</h1>
+  </body>
 </html>
