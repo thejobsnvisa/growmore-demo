@@ -2,11 +2,14 @@
 <html>
   <head>
     <script>
-      var path = window.location.pathname;
+      const path = window.location.pathname;
 
-      sessionStorage.setItem("redirect", path);
-
-      window.location.href = "/";
+      // Only redirect if not already processed
+      if (!window.location.search.includes("p=")) {
+        window.location.replace(
+          "/?p=" + path.replace(/\//g, "~and~")
+        );
+      }
     </script>
   </head>
   <body></body>
