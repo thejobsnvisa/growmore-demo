@@ -1,5 +1,14 @@
 export const blogs = [
-   {
+ {
+    id: 25,
+    slug: "tra-skills-assessment-australia-complete-guide-for-trade-occupations",
+    title: "TRA Skills Assessment Australia: Complete Guide for Trade Occupations",
+    metaTitle: "TRA Assessment for Skilled Trades in Australia Guide",
+    metaDescription: " Step-by-step guide to TRA Skills Assessment for trade occupations in Australia, covering programs, eligibility, documents, and assessment process.",
+    date: "May 6, 2026",
+    image: `${import.meta.env.BASE_URL}assets/bg25.png`,
+  }, 
+  {
     id: 24,
     slug: "can-you-get-a-work-visa-sponsorship-in-australia-check-your-eligibility",
     title: "Can You Get a Work Visa Sponsorship in Australia? Check Your Eligibility",
