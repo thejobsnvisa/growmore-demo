@@ -5,8 +5,8 @@ export const blogs = [
     title: "Can You Get a Work Visa Sponsorship in Australia? Check Your Eligibility",
     metaTitle: "Can You Get Work Visa Sponsorship in Australia?",
     metaDescription: "Find out how sponsorship in Australia works, who is eligible, and what improves your chances for visas like 482, 186, and 494.",
-     date: "May 5, 2026",
-    image: `${base}assets/24.png`,
+    date: "May 5, 2026",
+    image: `${import.meta.env.BASE_URL}assets/bg24.png`,
   }, 
   {
     id: 23,
