@@ -151,16 +151,6 @@ const Navbar = () => {
               </ul>
             </li>
 
-            <li>
-              <Link
-                to="/points-calculator"
-                onClick={closeAll}
-                className="hover:text-[#8FD07D] transition"
-              >
-                Points Calculator
-              </Link>
-            </li>
-
             {/* Latest Updates */}
             <li className="relative">
               <button
@@ -343,13 +333,6 @@ const Navbar = () => {
             )}
           </div>
 
-          <Link
-            to="/points-calculator"
-            onClick={closeAll}
-            className="block px-4 py-2 rounded-lg hover:bg-[#8FD07D] hover:text-white"
-          >
-            Points Calculator
-          </Link>
 
           <Link
             to="/contact-us"
