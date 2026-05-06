@@ -2,10 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
   <meta name="author" content="Riddhi Upadhyay" />
   <meta name="copyright" content="Growmore Immigration" />
@@ -24,59 +21,114 @@
 
   <!-- Preconnect -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link
-    rel="preconnect"
-    href="https://fonts.gstatic.com"
-    crossorigin
-  />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
   <!-- Preload Hero Image -->
   <link rel="preload" as="image" href="/assets/img2.webp" />
 
-  <!-- Optimized Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
-    rel="stylesheet"
-  />
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-  <!-- Font Awesome Async -->
-  <link
-    rel="preload"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    as="style"
-    onload="this.onload=null;this.rel='stylesheet'"
-  />
-
+  <!-- Font Awesome -->
+  <link rel="preload"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'"/>
   <noscript>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
   </noscript>
 
   <!-- Favicons -->
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="icon" type="image/png" href="/logo.webp" />
 
-  <!-- Delay Google Analytics -->
+  <!-- Google Analytics (Delayed) -->
   <script>
     window.addEventListener("load", function () {
       const script = document.createElement("script");
-      script.src =
-        "https://www.googletagmanager.com/gtag/js?id=G-3DV6ZX6W9M";
+      script.src = "https://www.googletagmanager.com/gtag/js?id=G-3DV6ZX6W9M";
       script.async = true;
       document.head.appendChild(script);
 
       window.dataLayer = window.dataLayer || [];
-
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-
+      function gtag(){dataLayer.push(arguments);}
       gtag("js", new Date());
       gtag("config", "G-3DV6ZX6W9M");
     });
   </script>
+
+  <!-- ✅ FIXED STRUCTURED DATA -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "GrowMore Immigration Melbourne Australia",
+    "image": "https://www.growmore.one/wp-content/uploads/2025/01/New-Logo.png.webp",
+    "url": "https://www.growmore.one",
+    "telephone": "0387643334",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "313/101 Overton Road",
+      "addressLocality": "Williams Landing",
+      "addressRegion": "VIC",
+      "postalCode": "3027",
+      "addressCountry": "AU"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -37.8667811,
+      "longitude": 144.7450264
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"
+      ],
+      "opens": "09:00",
+      "closes": "17:00"
+    },
+    "sameAs": [
+      "https://www.facebook.com/growmore.one/",
+      "https://x.com/GrowMore_AU",
+      "https://www.instagram.com/growmore.one",
+      "https://www.youtube.com/@growmoreimmigration",
+      "https://www.linkedin.com/company/75631549/"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "147",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Darshan Nayak" },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "reviewBody": "Excellent support and smooth visa process. Highly professional team.",
+        "datePublished": "2026-02-02"
+      },
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Hiya Bhatt" },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "reviewBody": "Great guidance and timely updates. Highly recommended.",
+        "datePublished": "2026-01-02"
+      }
+    ]
+  }
+  </script>
+
 </head>
 
 <body>
