@@ -3,17 +3,15 @@ import "react-circular-progressbar/dist/styles.css";
 import React from "react";
 
 export default function ScorePanel({ scores, total }) {
-
   // 🎯 eligibility check
   const isEligible = total >= 65;
 
   // dynamic colors
-  const progressColor = isEligible ? "#22c55e" : "#20604a";   // green : teal
+  const progressColor = isEligible ? "#22c55e" : "#20604a"; // green : teal
   const textColor = isEligible ? "#16a34a" : "#111";
 
   return (
     <div className={`score-panel ${isEligible ? "eligible" : ""}`}>
-      
       {/* CIRCLE SCORE */}
       <div className="circle-wrapper">
         <div className="circle">
@@ -26,7 +24,7 @@ export default function ScorePanel({ scores, total }) {
               pathColor: progressColor,
               textColor: textColor,
               trailColor: "#e5e7eb",
-              pathTransitionDuration: 0.6
+              pathTransitionDuration: 0.6,
             })}
           />
 
@@ -44,16 +42,36 @@ export default function ScorePanel({ scores, total }) {
           <ScoreRow title="Age" value={scores.age} />
           <ScoreRow title="English Language" value={scores.english} />
           <ScoreRow title="Overseas Work Experience" value={scores.overseas} />
-          <ScoreRow title="Australian Work Experience" value={scores.australian}/>
-          <ScoreRow title="Educational Qualifications" value={scores.education}/>
-          <ScoreRow title="Australian Educational Qualification" value={scores.australianEdu}/>
-          <ScoreRow title="Specialist Educational Qualification" value={scores.specialEdu}/>
-          <ScoreRow title="Accredited Community Language" value={scores.community}/>
-          <ScoreRow title="Partner Qualifications" value={scores.partnerQualification}/>
-          <ScoreRow title="Professional Year in Australia" value={scores.professional}/>
+          <ScoreRow
+            title="Australian Work Experience"
+            value={scores.australian}
+          />
+          <ScoreRow
+            title="Educational Qualifications"
+            value={scores.education}
+          />
+          <ScoreRow
+            title="Australian Educational Qualification"
+            value={(scores.australianEdu || 0) + (scores.regionalStudy || 0)}
+          />{" "}
+          <ScoreRow
+            title="Specialist Educational Qualification"
+            value={scores.specialEdu}
+          />
+          <ScoreRow
+            title="Accredited Community Language"
+            value={scores.community}
+          />
+          <ScoreRow
+            title="Partner Qualifications"
+            value={scores.partnerQualification}
+          />
+          <ScoreRow
+            title="Professional Year in Australia"
+            value={scores.professional}
+          />
         </tbody>
       </table>
-
     </div>
   );
 }

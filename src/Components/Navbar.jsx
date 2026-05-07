@@ -151,6 +151,15 @@ const Navbar = () => {
               </ul>
             </li>
 
+            <li>
+              <Link
+                to="/points-calculator"
+                onClick={closeAll}
+                className="block px-4 py-2 hover:text-[#8FD07D] transition"
+              >
+                Points Calculator
+              </Link>
+            </li>
             {/* Latest Updates */}
             <li className="relative">
               <button
@@ -174,19 +183,31 @@ const Navbar = () => {
                 }`}
               >
                 <li>
-                  <Link to="/videos" onClick={closeAll} className="block px-4 py-2 hover:text-[#8FD07D] transition">
+                  <Link
+                    to="/videos"
+                    onClick={closeAll}
+                    className="block px-4 py-2 hover:text-[#8FD07D] transition"
+                  >
                     Videos
                   </Link>
                 </li>
 
                 <li>
-                  <Link to="/news" onClick={closeAll} className="block px-4 py-2 hover:text-[#8FD07D] transition">
+                  <Link
+                    to="/news"
+                    onClick={closeAll}
+                    className="block px-4 py-2 hover:text-[#8FD07D] transition"
+                  >
                     News
                   </Link>
                 </li>
 
                 <li>
-                  <Link to="/blogs" onClick={closeAll} className="block px-4 py-2 hover:text-[#8FD07D] transition">
+                  <Link
+                    to="/blogs"
+                    onClick={closeAll}
+                    className="block px-4 py-2 hover:text-[#8FD07D] transition"
+                  >
                     Blogs
                   </Link>
                 </li>
@@ -251,17 +272,29 @@ const Navbar = () => {
 
             {openMenu === "mobileAbout" && (
               <div className="ml-4 mt-2 space-y-2 text-sm">
-                <Link to="/who-we-are" onClick={closeAll} className="block px-4 py-2 rounded-lg hover:bg-[#8FD07D] hover:text-white">
+                <Link
+                  to="/who-we-are"
+                  onClick={closeAll}
+                  className="block px-4 py-2 rounded-lg hover:bg-[#8FD07D] hover:text-white"
+                >
                   Who We Are
                 </Link>
-                <Link to="/who-we-are#teams" onClick={closeAll} className="block px-4 py-2 rounded-lg hover:bg-[#8FD07D] hover:text-white">
+                <Link
+                  to="/who-we-are#teams"
+                  onClick={closeAll}
+                  className="block px-4 py-2 rounded-lg hover:bg-[#8FD07D] hover:text-white"
+                >
                   Teams
                 </Link>
               </div>
             )}
           </div>
 
-          <Link to="/migrate-to-australia" onClick={closeAll} className="block px-4 py-2 rounded-lg hover:bg-[#8FD07D] hover:text-white">
+          <Link
+            to="/migrate-to-australia"
+            onClick={closeAll}
+            className="block px-4 py-2 rounded-lg hover:bg-[#8FD07D] hover:text-white"
+          >
             Migrate to Australia
           </Link>
 
@@ -283,12 +316,24 @@ const Navbar = () => {
             {openMenu === "mobileServices" && (
               <div className="ml-4 mt-2 space-y-2 text-sm">
                 {[
-                  { to: "/our-services/individual", label: "Individual Sponsored Visa" },
-                  { to: "/our-services/employers", label: "Employer Sponsored Visa" },
+                  {
+                    to: "/our-services/individual",
+                    label: "Individual Sponsored Visa",
+                  },
+                  {
+                    to: "/our-services/employers",
+                    label: "Employer Sponsored Visa",
+                  },
                   { to: "/our-services/student-visa", label: "Student Visa" },
-                  { to: "/our-services/gsm-general-skilled-migration", label: "General Skilled Migration" },
+                  {
+                    to: "/our-services/gsm-general-skilled-migration",
+                    label: "General Skilled Migration",
+                  },
                   { to: "/our-services/dama", label: "DAMA" },
-                  { to: "/our-services/labour-agreement", label: "Labour Agreement" },
+                  {
+                    to: "/our-services/labour-agreement",
+                    label: "Labour Agreement",
+                  },
                 ].map((item, index) => (
                   <Link
                     key={index}
@@ -320,19 +365,37 @@ const Navbar = () => {
 
             {openMenu === "mobileUpdates" && (
               <div className="ml-4 mt-2 space-y-2 text-sm">
-                <Link to="/videos" onClick={closeAll} className="block px-4 py-2 rounded-lg hover:bg-[#8FD07D] hover:text-white">
+                <Link
+                  to="/videos"
+                  onClick={closeAll}
+                  className="block px-4 py-2 rounded-lg hover:bg-[#8FD07D] hover:text-white"
+                >
                   Videos
                 </Link>
-                <Link to="/news" onClick={closeAll} className="block px-4 py-2 rounded-lg hover:bg-[#8FD07D] hover:text-white">
+                <Link
+                  to="/news"
+                  onClick={closeAll}
+                  className="block px-4 py-2 rounded-lg hover:bg-[#8FD07D] hover:text-white"
+                >
                   News
                 </Link>
-                <Link to="/blogs" onClick={closeAll} className="block px-4 py-2 rounded-lg hover:bg-[#8FD07D] hover:text-white">
+                <Link
+                  to="/blogs"
+                  onClick={closeAll}
+                  className="block px-4 py-2 rounded-lg hover:bg-[#8FD07D] hover:text-white"
+                >
                   Blogs
                 </Link>
               </div>
             )}
           </div>
-
+          <Link
+            to="/points-calculator"
+            onClick={closeAll}
+            className="block px-4 py-2 rounded-lg hover:bg-[#8FD07D] hover:text-white"
+          >
+            Points Calculator
+          </Link>
 
           <Link
             to="/contact-us"
