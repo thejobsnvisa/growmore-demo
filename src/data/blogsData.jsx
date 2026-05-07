@@ -1,5 +1,14 @@
 export const blogs = [
- {
+   {
+    id: 26,
+    slug: "idp-shares-at-record-lows-what-this-means-for-international-education-and-migration",
+    title: "IDP Shares at Record Lows – What This Means for International Education and Migration",
+    metaTitle: "What IDP’s Share Fall Means for Australia’s Migration Sector",
+    metaDescription: " IDP’s share decline highlights growing pressure on Australia’s international education industry, student visa policies, and migration sector.",
+    date: "May 7, 2026",
+    image: `${import.meta.env.BASE_URL}assets/bg26.png`,
+  },
+  {
     id: 25,
     slug: "tra-skills-assessment-australia-complete-guide-for-trade-occupations",
     title: "TRA Skills Assessment Australia: Complete Guide for Trade Occupations",
