@@ -60,6 +60,9 @@
   <url>
     <loc>https://www.growmore.one/book-consultation</loc>
   </url>
+  <url>
+    <loc>https://www.growmore.one/brochures</loc>
+  </url>
 
   <!-- Policies -->
   <url>
@@ -70,6 +73,86 @@
   </url>
   <url>
     <loc>https://www.growmore.one/cancellation-and-refund-policy</loc>
+  </url>
+  <url>
+    <loc>https://www.growmore.one/artificial-intelligence-use-policy</loc>
+  </url>
+
+  <!-- Checklists -->
+  <url>
+    <loc>https://www.growmore.one/checklist-for-dama</loc>
+  </url>
+  <url>
+    <loc>https://www.growmore.one/checklist-for-gsm-general-skilled-migration</loc>
+  </url>
+  <url>
+    <loc>https://www.growmore.one/checklist-for-labour-agreement</loc>
+  </url>
+
+  <!-- Student -->
+  <url>
+    <loc>https://www.growmore.one/our-services/student-visa/student-visa-australia</loc>
+  </url>
+  <url>
+    <loc>https://www.growmore.one/our-services/student-visa/student-visa-dubai</loc>
+  </url>
+  <url>
+    <loc>https://www.growmore.one/our-services/student-visa/student-visa-uk</loc>
+  </url>
+
+  <!-- Employer -->
+  <url>
+    <loc>https://www.growmore.one/our-services/employers/standard-business-sponsorship</loc>
+  </url>
+  <url>
+    <loc>https://www.growmore.one/our-services/employers/labour-agreement</loc>
+  </url>
+  <url>
+    <loc>https://www.growmore.one/our-services/employers/nomination-application</loc>
+  </url>
+  <url>
+    <loc>https://www.growmore.one/our-services/employers/regional-certifying-body-approval</loc>
+  </url>
+  <url>
+    <loc>https://www.growmore.one/our-services/employers/business-case-preparation</loc>
+  </url>
+  <url>
+    <loc>https://www.growmore.one/our-services/employers/training-plan</loc>
+  </url>
+  <url>
+    <loc>https://www.growmore.one/our-services/employers/labour-market-testing-lmt-for-sc494-and-sc482-visas</loc>
+  </url>
+
+  <!-- Individual -->
+  <url>
+    <loc>https://www.growmore.one/our-services/individual/employer-sponsored-visa</loc>
+  </url>
+  <url>
+    <loc>https://www.growmore.one/our-services/individual/general-skilled-visa</loc>
+  </url>
+  <url>
+    <loc>https://www.growmore.one/our-services/individual/family-visa</loc>
+  </url>
+  <url>
+    <loc>https://www.growmore.one/our-services/individual/temporary-work-short-stay-visa</loc>
+  </url>
+  <url>
+    <loc>https://www.growmore.one/our-services/individual/global-talent-visa</loc>
+  </url>
+  <url>
+    <loc>https://www.growmore.one/our-services/individual/working-holiday-work-holiday-visa</loc>
+  </url>
+  <url>
+    <loc>https://www.growmore.one/our-services/individual/business-investor-visa</loc>
+  </url>
+  <url>
+    <loc>https://www.growmore.one/our-services/individual/refugee-visa</loc>
+  </url>
+  <url>
+    <loc>https://www.growmore.one/our-services/individual/visitor-evisitor-eta-visa</loc>
+  </url>
+  <url>
+    <loc>https://www.growmore.one/our-services/individual/student-guardian-visa</loc>
   </url>
 
 </urlset>
