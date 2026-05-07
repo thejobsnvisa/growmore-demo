@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 
 export default function FinalResult({ prevStep, reset, totalScore }) {
   const score = Number(totalScore);
+  const isEligible = Number.isFinite(score) && score >= 65;
 
   // If score is not eligible, return only buttons
-  if (score < 65) {
+  if (!isEligible) {
     return (
-      <div className="bg-white rounded-3xl shadow-xl p-12 text-center w-full max-w-5xl mx-auto">
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-6">
+      <div className="bg-white rounded-3xl shadow-xl w-full max-w-5xl mx-auto flex flex-col min-h-[620px]">
+        <div className="flex flex-col sm:flex-row justify-between items-center gap-4 p-6 mt-140">
           <button
             onClick={prevStep}
             className="w-full sm:w-auto px-8 py-3 rounded-full bg-[#6dc7d1] text-white font-medium hover:opacity-90 transition"
