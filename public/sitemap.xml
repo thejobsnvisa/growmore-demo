@@ -50,7 +50,13 @@
     <loc>https://www.growmore.one/news</loc>
   </url>
   <url>
+    <loc>https://www.growmore.one/news/:slug</loc>
+  </url>
+  <url>
     <loc>https://www.growmore.one/blogs</loc>
+  </url>
+  <url>
+    <loc>https://www.growmore.one/blogs/:slug</loc>
   </url>
 
   <!-- Contact -->
