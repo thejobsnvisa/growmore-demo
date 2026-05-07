@@ -2,6 +2,15 @@ const base = import.meta.env.BASE_URL;
 
 export const blogs = [
   {
+    id: 37,
+    slug: "tasmania-weekly-invitation-round-results-07-may-2026",
+    title: "Tasmania Weekly Invitation Round Results: 07 May 2026",
+    metaTitle: "Tasmania Weekly Invitation Round Results – 07 May 2026",
+    metaDescription: "Tasmania issued 62 invitations in its 07 May 2026 skilled migration round across Subclass 190 and 491. Check latest selection trends and scores.",
+     date: "May 7, 2026",
+    image: `${base}assets/37.png`,
+  },
+  {
     id: 36,
     slug: "nsw-190-visa-intake-now-closed-for-this-program-year",
     title: "NSW 190 Visa Intake Now Closed for This Program Year",
