@@ -2,6 +2,15 @@ const base = import.meta.env.BASE_URL;
 
 export const blogs = [
   {
+    id: 36,
+    slug: "nsw-190-visa-intake-now-closed-for-this-program-year",
+    title: "NSW 190 Visa Intake Now Closed for This Program Year",
+    metaTitle: "NSW 190 Visa Intake Closed for 2025–26 Program Year",
+    metaDescription: "NSW 190 visa intake is now closed for 2025–26. Learn what this means for EOIs, subclass 491 Pathway 2, and skilled migrants.",
+     date: "May 7, 2026",
+    image: `${base}assets/36.png`,
+  }, 
+  {
     id: 35,
     slug: "south-australia-latest-may-invitation-round-official-numbers-released",
     title: "South Australia Latest May Invitation Round: Official Numbers Released",
