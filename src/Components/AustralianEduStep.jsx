@@ -85,10 +85,12 @@ export default function AustralianEduStep({ updateScore, nextStep, prevStep }) {
       {selected === "5" && (
         <>
           <p className="question" style={{ marginTop: "25px" }}>
-            Designated Regional Area Study Did you live and study in a
-            ‘designated regional area’ of Australia and complete a course which
-            meets the ‘Australian study requirement’ at the time of invitation
-            to apply for the visa?
+            Designated Regional Area Study
+          </p>
+          <p className="question" style={{ marginTop: "20px" }}>
+            Degree, diploma, advanced diploma or trade qualification from an
+            Australian educational institution which took at least 2 years of
+            full-time study and was taught in English.
           </p>
 
           {/* YES */}
