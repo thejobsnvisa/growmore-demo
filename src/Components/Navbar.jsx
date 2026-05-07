@@ -347,7 +347,13 @@ const Navbar = () => {
               </div>
             )}
           </div>
-
+          <Link
+            to="/points-calculator"
+            onClick={closeAll}
+            className="block px-4 py-2 rounded-lg hover:bg-[#8FD07D] hover:text-white"
+          >
+            Points Calculator
+          </Link>
           {/* Mobile Latest Updates */}
           <div>
             <button
@@ -389,13 +395,6 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <Link
-            to="/points-calculator"
-            onClick={closeAll}
-            className="block px-4 py-2 rounded-lg hover:bg-[#8FD07D] hover:text-white"
-          >
-            Points Calculator
-          </Link>
 
           <Link
             to="/contact-us"
