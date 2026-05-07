@@ -4,9 +4,11 @@ import StepHeader from "./StepHeader";
 export default function AgeStep({ updateScore, nextStep, prevStep }) {
  {
    const [points, setPoints] = useState(0);
-  
+   const [selected, setSelected] = useState(null);
+
    const selectAge = (value, pts) => {
      setPoints(pts);
+     setSelected(value);  
      updateScore("age", pts);
    };
   return (
@@ -20,22 +22,22 @@ export default function AgeStep({ updateScore, nextStep, prevStep }) {
                 </p>
           
                 <label className="option">
-                  <input type="CHECKBOX" name="age" onChange={() => selectAge("18-24",25)} />
+                  <input type="CHECKBOX" name="age" checked={selected === "18-24"} onChange={() => selectAge("18-24",25)} />
                   <span>18 to 24</span>
                 </label>
           
                 <label className="option">
-                  <input type="CHECKBOX" name="age" onChange={() => selectAge("25-32",30)} />
+                  <input type="CHECKBOX" name="age" checked={selected === "25-32"} onChange={() => selectAge("25-32",30)} />
                   <span>25 to 32</span>
                 </label>
           
                 <label className="option">
-                  <input type="CHECKBOX" name="age" onChange={() => selectAge("33-39",25)} />
+                  <input type="CHECKBOX" name="age" checked={selected === "33-39"} onChange={() => selectAge("33-39",25)} />
                   <span>33 to 39</span>
                 </label>
           
                 <label className="option">
-                  <input type="CHECKBOX" name="age" onChange={() => selectAge("40-44",15)} />
+                  <input type="CHECKBOX" name="age" checked={selected === "40-44"} onChange={() => selectAge("40-44",15)} />
                   <span>40 to 44</span>
                 </label>
           
