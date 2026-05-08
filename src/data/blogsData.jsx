@@ -1,5 +1,14 @@
 export const blogs = [
    {
+    id: 27,
+    slug: "what-happens-to-your-australian-visa-if-your-relationship-ends",
+    title: "What Happens to Your Australian Visa if Your Relationship Ends?",
+    metaTitle: "Australia Visa Impact After Relationship Ends",
+    metaDescription: "Relationship ended in Australia? Find out how it impacts your visa, PR pathway, and what steps you should take next.",
+    date: "May 8, 2026",
+    image: `${import.meta.env.BASE_URL}assets/bg27.png`,
+  }, 
+  {
     id: 26,
     slug: "idp-shares-at-record-lows-what-this-means-for-international-education-and-migration",
     title: "IDP Shares at Record Lows – What This Means for International Education and Migration",
