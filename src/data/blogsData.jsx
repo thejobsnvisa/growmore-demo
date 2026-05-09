@@ -1,5 +1,14 @@
 export const blogs = [
-   {
+  {
+    id: 28,
+    slug: "expression-of-interest-eoi-explained-complete-guide-for-gsm-applicants",
+    title: "Expression of Interest (EOI) Explained: Complete Guide for GSM Applicants",
+    metaTitle: "How to File a GSM EOI: Australia Migration Guide (2026)",
+    metaDescription: "Master the SkillSelect EOI process for Australia’s 189, 190, and 491 visas. Learn how to calculate points, avoid common errors, and get invited in 2026. Read the expert guide.",
+    date: "May 9, 2026",
+    image: `${import.meta.env.BASE_URL}assets/bg28.jpg`,
+  }, 
+  {
     id: 27,
     slug: "what-happens-to-your-australian-visa-if-your-relationship-ends",
     title: "What Happens to Your Australian Visa if Your Relationship Ends?",
