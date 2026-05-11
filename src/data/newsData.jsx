@@ -2,6 +2,15 @@ const base = import.meta.env.BASE_URL;
 
 export const blogs = [
   {
+    id: 38,
+    slug: "new-points-test-expected-for-australia-pr-in-budget-2026-27",
+    title: "New Points Test Expected for Australia PR in Budget 2026–27 ",
+    metaTitle: "Australia PR Points Test Changes Expected in Budget 2026–27",
+    metaDescription: "Australia’s Budget 2026–27 may bring changes to the PR points test, focusing on age, English, qualifications and selection criteria.",
+     date: "May 11, 2026",
+    image: `${base}assets/38.png`,
+  },
+  {
     id: 37,
     slug: "tasmania-weekly-invitation-round-results-07-may-2026",
     title: "Tasmania Weekly Invitation Round Results: 07 May 2026",
