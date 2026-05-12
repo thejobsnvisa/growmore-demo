@@ -2,6 +2,15 @@ const base = import.meta.env.BASE_URL;
 
 export const blogs = [
   {
+    id: 39,
+    slug: "act-canberra-matrix-round-6-may-2026-minimum-scores-and-allocation-update",
+    title: "ACT Canberra Matrix Round 6 May 2026: Minimum Scores and Allocation Update",
+    metaTitle: "ACT Canberra Matrix Round 6 May 2026: Scores Update",
+    metaDescription: "Check the latest ACT Canberra Matrix invitation round results for 6 May 2026, including minimum Matrix scores and ACT nomination trends.",
+     date: "May 12, 2026",
+    image: `${base}assets/39.png`,
+  },
+  {
     id: 38,
     slug: "new-points-test-expected-for-australia-pr-in-budget-2026-27",
     title: "New Points Test Expected for Australia PR in Budget 2026–27 ",
