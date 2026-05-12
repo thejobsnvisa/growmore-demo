@@ -1,5 +1,14 @@
 export const blogs = [
   {
+    id: 29,
+    slug: "employer-sponsored-visa-compliance-important-reminder-for-australian-businesses",
+    title: "Employer Sponsored Visa Compliance: Important Reminder for Australian Businesses",
+    metaTitle: "Employer Sponsored Visa Compliance in Australia: Key Update",
+    metaDescription: "Understand employer sponsorship obligations in Australia, including records, payroll, duties, and compliance risks under visa programs.",
+    date: "May 12, 2026",
+    image: `${import.meta.env.BASE_URL}assets/bg29.png`,
+  },
+  {
     id: 28,
     slug: "expression-of-interest-eoi-explained-complete-guide-for-gsm-applicants",
     title: "Expression of Interest (EOI) Explained: Complete Guide for GSM Applicants",
