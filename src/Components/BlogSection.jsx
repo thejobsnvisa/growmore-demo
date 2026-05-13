@@ -2,35 +2,34 @@ import React from "react";
 import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const base = import.meta.env.BASE_URL;
-
 const blogs = [
-      
-   {
-    id: 0,
-    slug: "asqa-cancellation-alert-which-training-centre-is-affected",
-    title: "ASQA Cancellation Alert: Which Training Centre Is Affected?",
-    metaTitle: "ASQA Cancels RTO 45579: Qualification Review Alert",
-    metaDescription: "ASQA cancels Melbourne Training Centre (RTO 45579). Qualifications from 2023–2025 under review may affect skills assessment, jobs, and PR pathways.",
-     date: "April 29, 2026",
-    image: `${base}assets/31.png`,
-  }, {
-    id: 1,
-    slug: "national-innovation-visa-selection-update-146-invitations-issued-jan-to-mar-2026",
-    title: "National Innovation Visa Selection Update: 146 Invitations Issued (Jan–Mar 2026)",
-    metaTitle: "NIV Invitation Round: 146 Invitations Issued",
-    metaDescription: "National Innovation Visa 2026 update: 146 invitations issued from 1,815 EOIs. Explore priority trends, sector demand, and Australia PR selection insights.",
-     date: "April 29, 2026",
-    image: `${base}assets/30.png`,
-  },{
+      {
     id: 2,
-    slug: "australia-migration-reality-nominations-backlogs-and-trends",
-    title: "Australia Migration Reality: Nominations, Backlogs, and Trends ",
-    metaTitle: "Australia Migration Reality: Nominations & Backlogs",
-    metaDescription: "Home Affairs data shows state nomination usage, skilled visa backlogs and employer-sponsored trends for 2025–26. See how competitive PR pathways are.",
-     date: "April 25, 2026",
-    image: `${base}assets/29.png`,
+    slug: "employer-sponsored-visa-compliance-important-reminder-for-australian-businesses",
+    title: "Employer Sponsored Visa Compliance: Important Reminder for Australian Businesses",
+    metaTitle: "Employer Sponsored Visa Compliance in Australia: Key Update",
+    metaDescription: "Understand employer sponsorship obligations in Australia, including records, payroll, duties, and compliance risks under visa programs.",
+    date: "May 12, 2026",
+    image: `${import.meta.env.BASE_URL}assets/bg29.png`,
   },
+  {
+    id: 1,
+    slug: "expression-of-interest-eoi-explained-complete-guide-for-gsm-applicants",
+    title: "Expression of Interest (EOI) Explained: Complete Guide for GSM Applicants",
+    metaTitle: "How to File a GSM EOI: Australia Migration Guide (2026)",
+    metaDescription: "Master the SkillSelect EOI process for Australia’s 189, 190, and 491 visas. Learn how to calculate points, avoid common errors, and get invited in 2026. Read the expert guide.",
+    date: "May 9, 2026",
+    image: `${import.meta.env.BASE_URL}assets/bg28.jpg`,
+  }, 
+  {
+    id: 0,
+    slug: "what-happens-to-your-australian-visa-if-your-relationship-ends",
+    title: "What Happens to Your Australian Visa if Your Relationship Ends?",
+    metaTitle: "Australia Visa Impact After Relationship Ends",
+    metaDescription: "Relationship ended in Australia? Find out how it impacts your visa, PR pathway, and what steps you should take next.",
+    date: "May 8, 2026",
+    image: `${import.meta.env.BASE_URL}assets/bg27.png`,
+  }, 
 ];
 
 const BlogSection = () => {
@@ -75,7 +74,7 @@ const BlogSection = () => {
 
                 <div className="mt-auto">
                   {/* 2. Wrap the button in a Link using the slug or ID */}
-                  <Link to={`/news/${blog.slug}/`}>
+                  <Link to={`/blogs/${blog.slug}/`}>
                     <button className="group text-[#6dc7d1] font-semibold flex items-center gap-2 justify-end w-full transition-all duration-300">
                       <span className="relative">
                         READ MORE
