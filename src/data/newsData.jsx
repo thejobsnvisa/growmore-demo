@@ -1,6 +1,15 @@
 const base = import.meta.env.BASE_URL;
 
 export const blogs = [
+   {
+    id: 40,
+    slug: "budget-202627-big-australia-migration-updates-every-applicant-must-know",
+    title: "Budget 2026–27: Big Australia Migration Updates Every Applicant Must Know",
+    metaTitle: "Australia Migration Updates from Budget 2026–27",
+    metaDescription: "how Budget 2026–27 impacts Australia PR pathways, skilled migration, TRA assessments, and onshore applicant priorities.",
+     date: "May 13, 2026",
+    image: `${base}assets/40.png`,
+  },
   {
     id: 39,
     slug: "act-canberra-matrix-round-6-may-2026-minimum-scores-and-allocation-update",
