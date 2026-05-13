@@ -2,7 +2,7 @@ const base = import.meta.env.BASE_URL;
 
 export const blogs = [
    {
-    id: 40,
+    id: 45,
     slug: "budget-202627-big-australia-migration-updates-every-applicant-must-know",
     title: "List of Migration Changes in Budget 2026-27",
     metaTitle: "Australia Migration Updates from Budget 2026–27",
@@ -11,7 +11,7 @@ export const blogs = [
     image: `${base}assets/40.png`,
   },
   {
-    id: 39,
+    id: 44,
     slug: "act-canberra-matrix-round-6-may-2026-minimum-scores-and-allocation-update",
     title: "ACT Canberra Matrix Round 6 May 2026: Minimum Scores and Allocation Update",
     metaTitle: "ACT Canberra Matrix Round 6 May 2026: Scores Update",
@@ -20,7 +20,7 @@ export const blogs = [
     image: `${base}assets/39.png`,
   },
   {
-    id: 38,
+    id: 43,
     slug: "new-points-test-expected-for-australia-pr-in-budget-2026-27",
     title: "New Points Test Expected for Australia PR in Budget 2026–27 ",
     metaTitle: "Australia PR Points Test Changes Expected in Budget 2026–27",
@@ -29,7 +29,7 @@ export const blogs = [
     image: `${base}assets/38.png`,
   },
   {
-    id: 37,
+    id: 42,
     slug: "tasmania-weekly-invitation-round-results-07-may-2026",
     title: "Tasmania Weekly Invitation Round Results: 07 May 2026",
     metaTitle: "Tasmania Weekly Invitation Round Results – 07 May 2026",
@@ -38,7 +38,7 @@ export const blogs = [
     image: `${base}assets/37.png`,
   },
   {
-    id: 36,
+    id: 41,
     slug: "nsw-190-visa-intake-now-closed-for-this-program-year",
     title: "NSW 190 Visa Intake Now Closed for This Program Year",
     metaTitle: "NSW 190 Visa Intake Closed for 2025–26 Program Year",
@@ -47,7 +47,7 @@ export const blogs = [
     image: `${base}assets/36.png`,
   }, 
   {
-    id: 35,
+    id: 40,
     slug: "south-australia-latest-may-invitation-round-official-numbers-released",
     title: "South Australia Latest May Invitation Round: Official Numbers Released",
     metaTitle: "South Australia May 2026 Invitation Round Results",
@@ -56,7 +56,7 @@ export const blogs = [
     image: `${base}assets/35.png`,
   },  
   {
-    id: 34,
+    id: 39,
     slug: "vic-invitation-round-01-may-2026-occupations-points-and-key-trends",
     title: "VIC Invitation Round 01 May 2026: Occupations, Points, and Key Trends",
     metaTitle: "VIC Invitation Round 01 May 2026: Key Trends",
@@ -65,7 +65,7 @@ export const blogs = [
     image: `${base}assets/34.png`,
   },
   {
-    id: 33,
+    id: 38,
     slug: "nsw-491-pathway-2-invitation-round-latest-results-are-out",
     title: "NSW 491 Pathway 2 Invitation Round Latest Results Are Out",
     metaTitle: "NSW 491 Pathway 2 Latest Invitation Round Results 2026",
@@ -74,7 +74,7 @@ export const blogs = [
     image: `${base}assets/33.png`,
   },
   {
-    id: 32,
+    id: 37,
     slug: "tasmania-weekly-invitation-round-results-30-april-2026",
     title: "Tasmania Weekly Invitation Round Results: 30 April 2026",
     metaTitle: "Tasmania Invitation Round Results – 30 April 2026 Update",
@@ -83,7 +83,7 @@ export const blogs = [
     image: `${base}assets/32.jpg`,
   }, 
   {
-    id: 31,
+    id: 36,
     slug: "asqa-cancellation-alert-which-training-centre-is-affected",
     title: "ASQA Cancellation Alert: Which Training Centre Is Affected?",
     metaTitle: "ASQA Cancels RTO 45579: Qualification Review Alert",
@@ -92,7 +92,7 @@ export const blogs = [
     image: `${base}assets/31.png`,
   }, 
   {
-    id: 30,
+    id: 35,
     slug: "national-innovation-visa-selection-update-146-invitations-issued-jan-to-mar-2026",
     title: "National Innovation Visa Selection Update: 146 Invitations Issued (Jan–Mar 2026)",
     metaTitle: "NIV Invitation Round: 146 Invitations Issued",
@@ -101,7 +101,7 @@ export const blogs = [
     image: `${base}assets/30.png`,
   },
   {
-    id: 29,
+    id: 34,
     slug: "australia-migration-reality-nominations-backlogs-and-trends",
     title: "Australia Migration Reality: Nominations, Backlogs, and Trends ",
     metaTitle: "Australia Migration Reality: Nominations & Backlogs",
@@ -110,7 +110,7 @@ export const blogs = [
     image: `${base}assets/29.png`,
   },
   {
-    id: 28,
+    id: 33,
     slug: "tasmania-weekly-invitation-round-42-invitations-issued-in-latest-round",
     title: "Tasmania Weekly Invitation Round: 42 Invitations Issued in Latest Round",
     metaTitle: "Tasmania Weekly Invitation Round 23 April 2026 Update",
@@ -119,7 +119,7 @@ export const blogs = [
     image: `${base}assets/28.png`,
   },
   {
-    id: 27,
+    id: 32,
     slug: "planning-ahpra-registration-english-requirements-change-from-23-april-2026",
     title: "Planning AHPRA Registration? English Requirements Change from 23 April 2026",
     metaTitle: "AHPRA English Requirements Change from 23 April 2026",
@@ -128,7 +128,7 @@ export const blogs = [
     image: `${base}assets/27.png`,
   },
   {
-    id: 26,
+    id: 31,
     slug: "australia-opens-subclass-192-tuvalu-ballot-on-1-may-with-280-places",
     title: "Australia Opens Subclass 192 Tuvalu Ballot on 1 May With 280 Places",
     metaTitle: "Australia Opens Subclass 192 Tuvalu Ballot From 1 May 2026",
@@ -137,7 +137,7 @@ export const blogs = [
     image: `${base}assets/26.jpg`,
   },
   {
-    id: 25,
+    id: 30,
     slug: "parent-visa-paper-applications-to-shift-online-from-22-april-2026",
     title: "Major Change in Parents Visa Application - Now You Can Apply Online",
     metaTitle: "Parent Visa Applications Moving Online from 22 April 2026",
@@ -146,7 +146,7 @@ export const blogs = [
     image: `${base}assets/25.png`,
   },
   {
-    id: 24,
+    id: 29,
     slug: "nsw-190-invitation-round-selective-invites-issued-16-april",
     title: "NSW 190 Invitation Round: Selective Invites Issued 16 April",
     metaTitle: "NSW 190 Invitation Round April 2026 | Latest Updates",
@@ -155,7 +155,7 @@ export const blogs = [
     image: `${base}assets/14.png`,
   },
   {
-    id: 23,
+    id: 28,
     slug: "tasmania-state-nomination-invitations-released-16-april-2026",
     title: "Tasmania State Nomination Invitations Released 16 April 2026",
     metaTitle: "Tasmania Nomination Invitations April 2026",
@@ -164,7 +164,7 @@ export const blogs = [
     image: `${base}assets/11.png`,
   },
   {
-    id: 22,
+    id: 27,
     slug: "new-immigration-policy-proposal-what-s-ahead",
     title: "New Immigration Policy Proposal: What’s Ahead?",
     metaTitle: "Australia Immigration Policy Changes 2026",
@@ -173,13 +173,58 @@ export const blogs = [
     image: `${base}assets/12.png`,
   },
   {
-    id: 21,
+    id: 26,
     slug: "victoria-skilled-visa-closing-soon-roi-deadline-28-april-2026",
     title: "Victoria Skilled Visa Closing Soon | ROI Deadline 28 April 2026",
     metaTitle: "Victoria Skilled Visa ROI Deadline April 2026",
     metaDescription: "Victoria skilled visa ROI deadline is 28 April 2026. Check eligibility and application details.",
     date: "April 13, 2026",
     image: `${base}assets/13.png`,
+  },
+   {
+    id: 25,
+    slug: "tasmania-state-nomination-update-increased-invitations-in-9-april-2026-round",
+    title: "Latest Tasmania Invitation Round Result: 78 Invitations Issued",
+    metaTitle: "Tasmania Invitation Round April 2026",
+    metaDescription: "Tasmania issued 78 invitations in the 9 April 2026 round. Subclass 190 remains restricted to Gold Pass, while 491 invitations continue. Check latest trends and scores.",
+    date: "April 9, 2026",
+    image: `${base}assets/9april.jpg`,
+  },
+   {
+    id: 24,
+    slug: "approved-employer-register-for-skilled-worker-visas-coming-soon",
+    title: "Approved Employer Register for Australian Skilled Visas",
+    metaTitle: "Approved Employer Register for Australian Skilled Visas 2026",
+    metaDescription: "Australia's Approved Employer Register (AER) is a key component of the skilled visa program. Learn about the latest updates and how it affects your visa application.",
+    date: "April 2, 2026",
+    image: `${base}assets/2april2.png`,
+  },
+   {
+    id: 23,
+    slug: "tasmania-april-weekly-round-subclass-190-491-invitations-released",
+    title: "Tasmania April Weekly Round: Subclass 190 & 491 Invitations Released",
+    metaTitle: "Tasmania April 2026",
+    metaDescription: "Tasmania released new Subclass 190 and 491 state nomination invitations on 16 April 2026. See scores, invitation numbers, and nomination availability.",
+    date: "April 2, 2026",
+    image: `${base}assets/2april2.jpg`,
+  },
+   {
+    id: 22,
+    slug: "south-australia-april-invitation-round-out-who-got-invited",
+    title: "South Australia Skilled Visa April Round Results",
+    metaTitle: "South Australia Skilled Visa April 2026",
+    metaDescription: "South Australia releases April round results for skilled visas. Check your eligibility and application status.",
+    date: "April 2, 2026",
+    image: `${base}assets/2april.jpg`,
+  },
+   {
+    id: 21,
+    slug: "australia-refusal-5158-onshore-visas-in-2025-what-you-must-know",
+    title: "Australia Refusal 5,158 Onshore Visas in 2025",
+    metaTitle: "Australia Onshore Visa Refusals 2025",
+    metaDescription: "Australia has refused 5,158 onshore visa applications in 2025. Learn more about the reasons and implications.",
+    date: "April 1, 2026",
+    image: `${base}assets/1april.png`,
   },
   {
     id: 20,
