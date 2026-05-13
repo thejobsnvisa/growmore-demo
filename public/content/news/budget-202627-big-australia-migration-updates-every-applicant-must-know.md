@@ -42,7 +42,7 @@ At present, almost two-thirds of skilled migrants are selected through points-te
 
 A significant part of this Budget focuses on improving how Australia recognises overseas skills and integrates migrants into the workforce faster. The Government will invest $85.2 million over four years from 2026–27, allocated across three key areas:
 
-### New TRA Skills Assessment System – $75.1 million
+### **New TRA Skills Assessment System – $75.1 million**
 
 A modernised system under Trades Recognition Australia will be developed to:
 
@@ -51,7 +51,7 @@ A modernised system under Trades Recognition Australia will be developed to:
 * Pilot streamlined pathways for priority trades such as electricians and plumbers  
 * Work closely with states and territories to reduce delays in licensing processes  
 
-### Onshore Skills Recognition Program – $5.6 million
+### **Onshore Skills Recognition Program – $5.6 million**
 
 This initiative will ensure that:
 
@@ -59,7 +59,7 @@ This initiative will ensure that:
 * Skills mismatches are reduced  
 * Employers can fill workforce shortages more efficiently  
 
-### Strengthening Assessing Authorities – $4.5 million
+### **Strengthening Assessing Authorities – $4.5 million**
 
 To improve system integrity, the Government will:
 
@@ -75,9 +75,9 @@ The Government will also develop a National Credit Recognition Framework through
 
 This reform aims to:
 
-· Improve recognition of VET qualifications  
-· Reduce duplication in education pathways  
-· Shorten study duration and costs for students progressing to university with prior vocational training  
+* Improve recognition of VET qualifications  
+* Reduce duplication in education pathways  
+* Shorten study duration and costs for students progressing to university with prior vocational training  
 
 This is a positive step for migrants who transition from VET to higher education pathways in Australia.
 
@@ -142,6 +142,6 @@ So, if you want to understand how these Budget 2026–27 migration changes may i
 
 ## Source:
 
-· [MIA Notice 58 - 12 May 2026](https://www.mia.org.au/Web/Professional-Support/Notices/Notices/2025---2026/MIA_Notice_58_-_12_May_2026.aspx)
-· [Budget Paper No. 1](https://budget.gov.au/content/bp1/download/bp1_2026-27.pdf)
-· [Budget Paper No. 2](https://budget.gov.au/content/bp2/download/bp2_2026-27.pdf)
+* [MIA Notice 58 - 12 May 2026](https://www.mia.org.au/Web/Professional-Support/Notices/Notices/2025---2026/MIA_Notice_58_-_12_May_2026.aspx)
+* [Budget Paper No. 1](https://budget.gov.au/content/bp1/download/bp1_2026-27.pdf)
+* [Budget Paper No. 2](https://budget.gov.au/content/bp2/download/bp2_2026-27.pdf)
