@@ -1,6 +1,6 @@
 export const blogs = [
   {
-    id: 47,
+    id: 54,
     slug: "employer-sponsored-visa-compliance-important-reminder-for-australian-businesses",
     title: "Employer Sponsored Visa Compliance: Important Reminder for Australian Businesses",
     metaTitle: "Employer Sponsored Visa Compliance in Australia: Key Update",
@@ -9,7 +9,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/bg29.png`,
   },
   {
-    id: 46,
+    id: 53,
     slug: "expression-of-interest-eoi-explained-complete-guide-for-gsm-applicants",
     title: "Expression of Interest (EOI) Explained: Complete Guide for GSM Applicants",
     metaTitle: "How to File a GSM EOI: Australia Migration Guide (2026)",
@@ -18,7 +18,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/bg28.jpg`,
   }, 
   {
-    id: 45,
+    id: 52,
     slug: "what-happens-to-your-australian-visa-if-your-relationship-ends",
     title: "What Happens to Your Australian Visa if Your Relationship Ends?",
     metaTitle: "Australia Visa Impact After Relationship Ends",
@@ -27,7 +27,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/bg27.png`,
   }, 
   {
-    id: 44,
+    id: 51,
     slug: "idp-shares-at-record-lows-what-this-means-for-international-education-and-migration",
     title: "IDP Shares at Record Lows – What This Means for International Education and Migration",
     metaTitle: "What IDP’s Share Fall Means for Australia’s Migration Sector",
@@ -36,7 +36,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/bg26.png`,
   },
   {
-    id: 43,
+    id: 50,
     slug: "tra-skills-assessment-australia-complete-guide-for-trade-occupations",
     title: "TRA Skills Assessment Australia: Complete Guide for Trade Occupations",
     metaTitle: "TRA Assessment for Skilled Trades in Australia Guide",
@@ -45,7 +45,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/bg25.png`,
   }, 
   {
-    id: 42,
+    id: 49,
     slug: "can-you-get-a-work-visa-sponsorship-in-australia-check-your-eligibility",
     title: "Can You Get a Work Visa Sponsorship in Australia? Check Your Eligibility",
     metaTitle: "Can You Get Work Visa Sponsorship in Australia?",
@@ -54,7 +54,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/bg24.png`,
   }, 
   {
-    id: 41,
+    id: 48,
     slug: "australian-visa-processing-times-update-february-2026-vs-april-2026",
     title: "Australian Visa Processing Times Update (February 2026 vs April 2026)",
     metaTitle: "Australia Visa Processing Times Update 2026",
@@ -63,7 +63,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/bg23.png`,
   }, 
   {
-    id: 40,
+    id: 47,
     slug: "vetassess-skills-assessment-for-australia-pr-stepbystep-guide",
     title: "VETASSESS Skills Assessment for Australia PR: Step-by-Step Guide",
     metaTitle: "VETASSESS Skills Assessment Guide for Australia PR",
@@ -72,7 +72,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/bg22.png`,
   },   
   {
-    id: 39,
+    id: 46,
     slug: "avoid-482-visa-refusal-what-employers-and-applicants-should-do",
     title: "Avoid 482 Visa Refusal: What Employers and Applicants Should Do",
     metaTitle: "482 Visa Refusal: Mistakes & How to Avoid",
@@ -81,7 +81,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/bg21.jpg`,
   },
   {
-    id: 38,
+    id: 45,
     slug: "building-skills-in-australia-how-the-subclass-407-visa-works",
     title: "Building Skills in Australia: How the Subclass 407 Visa Works",
     metaTitle: "Subclass 407 Visa Australia: Training Visa Guide",
@@ -90,7 +90,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/bg20.png`,
   },
   {
-    id: 37,
+    id: 44,
     slug: "a-reminder-to-the-immigration-minister-the-ground-reality-is-different",
     title: "A Reminder to the Immigration Minister: The Ground Reality is Different",
     metaTitle: "Australia Immigration Reality Check 2026",
@@ -99,7 +99,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/bg19.png`,
   },
   {
-    id: 36,
+    id: 43,
     slug: "from-temporary-stay-to-australia-pr-environmental-engineer-secures-subclass-186",
     title: "From Temporary Stay to Australia PR: Environmental Engineer Secures Subclass 186",
     metaTitle: "Subclass 186 PR Success Story Australia",
@@ -108,7 +108,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/bg18.png`,
   },
   {
-    id: 35,
+    id: 42,
     slug: "iml-skills-assessment-key-step-for-senior-managers-migrating-to-australia",
     title: "IML Skills Assessment: Key Step for Senior Managers Migrating to Australia",
     metaTitle: "IML Skills Assessment Australia Guide",
@@ -117,7 +117,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/bg17.png`,
   },
   {
-    id: 34,
+    id: 41,
     slug: "which-australian-visa-should-you-choose-3-questions-to-decide",
     title: "Which Australian Visa Is Right? 3 Questions to Decide",
     metaTitle: "Which Australian Visa to Choose 2026",
@@ -126,7 +126,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/bg.jpg`,
   },
   {
-    id: 33,
+    id: 40,
     slug: "temporary-vs-permanent-partner-visa-what-you-need-to-know",
     title:"Partner Visa Guide: Onshore & Offshore Australia",
     metaTitle: "Partner Visa Australia Guide 2026",
@@ -135,7 +135,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/bg.1.jpg`,
   },
   {
-    id: 32,
+    id: 39,
     slug: "pr-pathway-in-australia-right-now-2026",
     title: "Easiest PR Pathway in Australia (2026): Subclass 186",
     metaTitle: "Easiest PR Pathway Australia 2026",
@@ -144,7 +144,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/bg.2.jpg`,
   },
   {
-    id: 31,
+    id: 38,
     slug: "how-to-get-employer-sponsorship-in-australia",
     title: "How to Get Employer Sponsorship in Australia",
     metaTitle: "Employer Sponsorship Australia Guide",
@@ -153,7 +153,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/g1.jpg`,
   },
   {
-    id: 30,
+    id: 37,
     slug: "subclass-494-employer-sponsored-visa-success",
     title: "Subclass 494 Employer-Sponsored Visa Success : A Pharmacist’s Journey",
     metaTitle: "Subclass 494 Visa Success Story Australia",
@@ -162,7 +162,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/g2.jpg`,
   },
   {
-    id: 29,
+    id: 36,
     slug: "from-408-visa-to-australia-pr-a-real-186-visa-success-story",
     title: "From 408 Visa to Australia PR: A Real 186 Visa Success Story",
     metaTitle: "408 to 186 Visa PR Journey Australia",
@@ -171,7 +171,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/g3.jpg`,
   },
   {
-    id: 28,
+    id: 35,
     slug: "417-visa-to-482-visa-your-guide-to-unlock-long-term-work-opportunities",
     title: "417 Visa to 482 Visa: Employer Sponsorship Guide",
     metaTitle: "417 to 482 Visa Australia Guide",
@@ -180,7 +180,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/g4.png`,
   },
   {
-    id: 27,
+    id: 34,
     slug: "how-can-healthcare-professionals-get-an-australia-pr-in-2026",
     title: "How Can Healthcare Professionals Get Australia PR in 2026?",
     metaTitle: "Healthcare PR Pathways Australia 2026",
@@ -189,7 +189,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/blog3.jpg`,
   },
   {
-    id: 26,
+    id: 33,
     slug: "ens-186-direct-entry-the-smartest-route-to-secure-australia-pr",
     title: "ENS 186 Direct Entry: The Smartest Route to Secure Australia PRs",
     metaTitle: "ENS 186 Direct Entry Australia PR",
@@ -198,7 +198,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/b2.jpg`,
   },
   {
-    id: 25,
+    id: 32,
     slug: "new-points-test-in-2026-a-closer-look-at-the-proposed-reform",
     title: "Review of the Points Test Discussion Paper",
     metaTitle: "Australia Points Test Changes 2026",
@@ -207,7 +207,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/b3.jpg`,
   },
   {
-    id: 24,
+    id: 31,
     slug: "australia-permanent-resident-visa-options-2026",
     title: "Why apply for an Australian PR?",
     metaTitle: "Benefits of Australian PR 2026",
@@ -216,7 +216,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/b4.png`,
   },
   {
-    id: 23,
+    id: 30,
     slug: "living-in-australia-on-a-485-visa-explore-your-pr-options",
     title: "How to Get PR After 485 Visa in Australia – Complete Guide",
     metaTitle: "PR After 485 Visa Australia Guide",
@@ -225,7 +225,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/b5.jpg`,
   },
   {
-    id: 22,
+    id: 29,
     slug: "refusals-dont-stop-dreams-a-glaziers-tra-skills-assessment-journey",
     title: "Refusals Don’t Stop Dreams: A Glazier’s TRA Skills Assessment Journey",
     metaTitle: "TRA Skills Assessment Success Story",
@@ -234,7 +234,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/b6.jpg`,
   },
   {
-    id: 21,
+    id: 28,
     slug: "australian-tourist-visa-subclass-600-invitation-letter-guide",
     title: "Australian Tourist Visa (Subclass 600) Invitation Letter Guide",
     metaTitle: "Subclass 600 Invitation Letter Guide",
@@ -243,7 +243,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/b7.jpg`,
   },
   {
-    id: 20,
+    id: 27,
     slug: "parent-visa-804-australia-a-simple-guide-for-families",
     title: "Parent Visa 804 Australia – A Simple Guide for Families",
     metaTitle: "Parent Visa 804 Australia Guide",
@@ -252,7 +252,7 @@ export const blogs = [
     image: `${import.meta.env.BASE_URL}assets/b8.jpg`,
   },
   {
-    id: 19,
+    id: 26,
     slug: "australia-skills-assessment-guide-eligibility-fees-timeline",
     title: "Australia Skills Assessment Guide: Eligibility, Fees & Timeline",
     metaTitle: "Australia Skills Assessment Guide 2026",
