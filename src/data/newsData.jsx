@@ -4,7 +4,7 @@ export const blogs = [
    {
     id: 40,
     slug: "budget-202627-big-australia-migration-updates-every-applicant-must-know",
-    title: "Budget 2026–27: Big Australia Migration Updates Every Applicant Must Know",
+    title: "List of Migration Changes in Budget 2026-27",
     metaTitle: "Australia Migration Updates from Budget 2026–27",
     metaDescription: "how Budget 2026–27 impacts Australia PR pathways, skilled migration, TRA assessments, and onshore applicant priorities.",
      date: "May 13, 2026",
