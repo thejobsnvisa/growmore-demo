@@ -2,23 +2,29 @@ const base = import.meta.env.BASE_URL;
 
 export const blogs = [
   {
+    id: 46,
+    slug: "tasmania-latest-invitation-round-56-rois-invited",
+    title: "Tasmania Latest Invitation Round: 56 ROIs Invited",
+    metaTitle: "Tasmania Latest Invitation Round: 56 ROIs Invited",
+    metaDescription:"Tasmania issued 56 invitations in the 14 May 2026 skilled migration round. Check updated Subclass 190 and 491 scores, invitations, and nomination status.",
+    date: "May 14, 2026",
+    image: `${base}assets/41.png`,
+  },
+  {
     id: 45,
     slug: "budget-202627-big-australia-migration-updates-every-applicant-must-know",
     title: "List of Migration Changes in Budget 2026-27",
     metaTitle: "Australia Migration Updates from Budget 2026–27",
-    metaDescription:
-      "how Budget 2026–27 impacts Australia PR pathways, skilled migration, TRA assessments, and onshore applicant priorities.",
+    metaDescription:"how Budget 2026–27 impacts Australia PR pathways, skilled migration, TRA assessments, and onshore applicant priorities.",
     date: "May 13, 2026",
     image: `${base}assets/40.png`,
   },
   {
     id: 44,
     slug: "act-canberra-matrix-round-6-may-2026-minimum-scores-and-allocation-update",
-    title:
-      "ACT Canberra Matrix Round 6 May 2026: Minimum Scores and Allocation Update",
+    title:"ACT Canberra Matrix Round 6 May 2026: Minimum Scores and Allocation Update",
     metaTitle: "ACT Canberra Matrix Round 6 May 2026: Scores Update",
-    metaDescription:
-      "Check the latest ACT Canberra Matrix invitation round results for 6 May 2026, including minimum Matrix scores and ACT nomination trends.",
+    metaDescription:"Check the latest ACT Canberra Matrix invitation round results for 6 May 2026, including minimum Matrix scores and ACT nomination trends.",
     date: "May 12, 2026",
     image: `${base}assets/39.png`,
   },
@@ -27,8 +33,7 @@ export const blogs = [
     slug: "new-points-test-expected-for-australia-pr-in-budget-2026-27",
     title: "New Points Test Expected for Australia PR in Budget 2026–27 ",
     metaTitle: "Australia PR Points Test Changes Expected in Budget 2026–27",
-    metaDescription:
-      "Australia’s Budget 2026–27 may bring changes to the PR points test, focusing on age, English, qualifications and selection criteria.",
+    metaDescription:"Australia’s Budget 2026–27 may bring changes to the PR points test, focusing on age, English, qualifications and selection criteria.",
     date: "May 11, 2026",
     image: `${base}assets/38.png`,
   },
