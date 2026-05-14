@@ -1,5 +1,14 @@
 export const blogs = [
   {
+    id: 55,
+    slug: "changing-employers-on-a-482-visa-understanding-condition-8607",
+    title: "Changing Employers on a 482 Visa: Understanding Condition 8607",
+    metaTitle: "Can You Change Employer on 482 Visa? Condition 8607 Explained",
+    metaDescription: "Find out if you can change employers on a 482 visa, how Condition 8607 works, and what rules apply after employment ends in Australia.",
+    date: "May 14, 2026",
+    image: `${import.meta.env.BASE_URL}assets/bg30.png`,
+  },
+  {
     id: 54,
     slug: "employer-sponsored-visa-compliance-important-reminder-for-australian-businesses",
     title: "Employer Sponsored Visa Compliance: Important Reminder for Australian Businesses",
