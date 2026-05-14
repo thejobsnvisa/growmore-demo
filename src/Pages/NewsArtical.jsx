@@ -66,7 +66,7 @@ const NewsArticle = () => {
 
   return (
     <>
-    <Helmet>
+     <Helmet>
   <title>{article.metaTitle || article.title}</title>
 
   <meta
@@ -74,19 +74,25 @@ const NewsArticle = () => {
     content={article.metaDescription || article.title}
   />
 
-  <link rel="canonical" href={`https://www.growmore.one/news/${slug}/`} />
+  <link
+    rel="canonical"
+    href={`https://www.growmore.one/news/${slug}`}
+  />
 
   <meta property="og:type" content="article" />
   <meta property="og:title" content={article.metaTitle || article.title} />
-  <meta property="og:description" content={article.metaDescription || article.title} />
+  <meta
+    property="og:description"
+    content={article.metaDescription || article.title}
+  />
   <meta property="og:image" content={article.image} />
-  <meta property="og:url" content={`https://www.growmore.one/news/${slug}/`} />
+  <meta
+    property="og:url"
+    content={`https://www.growmore.one/news/${slug}`}
+  />
 
-  {/* Fix Publisher */}
-  <meta name="publisher" content="Growmore Immigration" />
-
-  {/* Robots (optional explicit) */}
   <meta name="robots" content="index, follow" />
+  <meta name="publisher" content="Growmore Immigration" />
 </Helmet>
     <div className="min-h-screen bg-white font-jakarta text-[#042325]">
       
