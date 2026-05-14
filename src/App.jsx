@@ -121,7 +121,7 @@ function App() {
         <Routes>
           {/* Main */}
           <Route path="/" element={<Home />} />
-          <Route path="/who-we-are" element={<WhoWeAre />} />
+          <Route path="/who-we-are/" element={<WhoWeAre />} />
           <Route path="/migrate-to-australia" element={<Migrate />} />
 
           {/* Services */}
