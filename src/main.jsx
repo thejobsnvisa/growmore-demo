@@ -1,29 +1,20 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
-import App from "./App";
-import { HelmetProvider } from "react-helmet-async";
+import React, { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import { HelmetProvider } from 'react-helmet-async'   // 👈 add this
+import './index.css'
+import App from './App.jsx'
 
 const redirect = sessionStorage.redirect;
 
 if (redirect) {
-  delete sessionStorage.redirect;
-
-  const redirectUrl = new URL(redirect);
-
-  window.history.replaceState(
-    null,
-    null,
-    redirectUrl.pathname +
-      redirectUrl.search +
-      redirectUrl.hash
-  );
+  sessionStorage.removeItem("redirect");
+  window.history.replaceState(null, null, redirect);
 }
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
-  <HelmetProvider>
-    <App />
-  </HelmetProvider>
-  </BrowserRouter>
-);
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <HelmetProvider>   {/* 👈 wrap App */}
+      <App />
+    </HelmetProvider>
+  </StrictMode>,
+)
