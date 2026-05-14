@@ -76,7 +76,7 @@ const NewsArticle = () => {
 
   <link
     rel="canonical"
-    href={`https://www.growmore.one/news/${slug}`}
+    href={`https://www.growmore.one/news/${slug}/`}
     key="canonical"
   />
 
