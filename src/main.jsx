@@ -1,20 +1,31 @@
-import React, { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import { HelmetProvider } from 'react-helmet-async'   // 👈 add this
-import './index.css'
-import App from './App.jsx'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
+import App from "./App";
+import "./index.css";
 
-const redirect = sessionStorage.redirect;
+// GitHub Pages SPA Redirect Fix
+const redirect = window.location.search;
 
-if (redirect) {
-  sessionStorage.removeItem("redirect");
-  window.history.replaceState(null, null, redirect);
+if (redirect.startsWith("?/")) {
+  const decoded = redirect
+    .replace("?/", "/")
+    .replace(/~and~/g, "&");
+
+  window.history.replaceState(
+    null,
+    null,
+    decoded
+  );
 }
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <HelmetProvider>   {/* 👈 wrap App */}
-      <App />
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <HelmetProvider>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     </HelmetProvider>
-  </StrictMode>,
-)
+  </React.StrictMode>
+);
