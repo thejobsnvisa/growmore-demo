@@ -99,7 +99,7 @@ const NewsArticle = () => {
 
   <meta
     property="og:url"
-    content={`https://www.growmore.one/news/${slug}`}
+    content={`https://www.growmore.one/news/${slug}/`}
     key="og-url"
   />
 
