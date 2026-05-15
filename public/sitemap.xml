@@ -8,157 +8,157 @@
   </url>
 
   <url>
-    <loc>https://www.growmore.one/who-we-are</loc>
+    <loc>https://www.growmore.one/who-we-are/</loc>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.growmore.one/migrate-to-australia</loc>
+    <loc>https://www.growmore.one/migrate-to-australia/</loc>
     <priority>0.9</priority>
   </url>
 
   <!-- Services -->
   <url>
-    <loc>https://www.growmore.one/our-services/individual</loc>
+    <loc>https://www.growmore.one/our-services/individual/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/our-services/employers</loc>
+    <loc>https://www.growmore.one/our-services/employers/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/our-services/student-visa</loc>
+    <loc>https://www.growmore.one/our-services/student-visa/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/our-services/gsm-general-skilled-migration</loc>
+    <loc>https://www.growmore.one/our-services/gsm-general-skilled-migration/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/our-services/dama</loc>
+    <loc>https://www.growmore.one/our-services/dama/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/our-services/labour-agreement</loc>
+    <loc>https://www.growmore.one/our-services/labour-agreement/</loc>
   </url>
 
   <!-- Tools -->
   <url>
-    <loc>https://www.growmore.one/points-calculator</loc>
+    <loc>https://www.growmore.one/points-calculator/</loc>
   </url>
 
   <!-- Media -->
   <url>
-    <loc>https://www.growmore.one/videos</loc>
+    <loc>https://www.growmore.one/videos/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/news</loc>
+    <loc>https://www.growmore.one/news/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/news/:slug</loc>
+    <loc>https://www.growmore.one/news/:slug/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/blogs</loc>
+    <loc>https://www.growmore.one//</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/blogs/:slug</loc>
+    <loc>https://www.growmore.one/blogs/:slug/</loc>
   </url>
 
   <!-- Contact -->
   <url>
-    <loc>https://www.growmore.one/contact-us</loc>
+    <loc>https://www.growmore.one/contact-us/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/book-consultation</loc>
+    <loc>https://www.growmore.one/book-consultation/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/brochures</loc>
+    <loc>https://www.growmore.one/brochures/</loc>
   </url>
 
   <!-- Policies -->
   <url>
-    <loc>https://www.growmore.one/privacy-policy</loc>
+    <loc>https://www.growmore.one/privacy-policy/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/terms-services</loc>
+    <loc>https://www.growmore.one/terms-services/</loc>
+  </url>
+  <url>/
+    <loc>https://www.growmore.one/cancellation-and-refund-policy/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/cancellation-and-refund-policy</loc>
-  </url>
-  <url>
-    <loc>https://www.growmore.one/artificial-intelligence-use-policy</loc>
+    <loc>https://www.growmore.one/artificial-intelligence-use-policy/</loc>
   </url>
 
   <!-- Checklists -->
   <url>
-    <loc>https://www.growmore.one/checklist-for-dama</loc>
+    <loc>https://www.growmore.one/checklist-for-dama/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/checklist-for-gsm-general-skilled-migration</loc>
+    <loc>https://www.growmore.one/checklist-for-gsm-general-skilled-migration/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/checklist-for-labour-agreement</loc>
+    <loc>https://www.growmore.one/checklist-for-labour-agreement/</loc>
   </url>
 
   <!-- Student -->
   <url>
-    <loc>https://www.growmore.one/our-services/student-visa/student-visa-australia</loc>
+    <loc>https://www.growmore.one/our-services/student-visa/student-visa-australia/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/our-services/student-visa/student-visa-dubai</loc>
+    <loc>https://www.growmore.one/our-services/student-visa/student-visa-dubai/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/our-services/student-visa/student-visa-uk</loc>
+    <loc>https://www.growmore.one/our-services/student-visa/student-visa-uk/</loc>
   </url>
 
   <!-- Employer -->
   <url>
-    <loc>https://www.growmore.one/our-services/employers/standard-business-sponsorship</loc>
+    <loc>https://www.growmore.one/our-services/employers/standard-business-sponsorship/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/our-services/employers/labour-agreement</loc>
+    <loc>https://www.growmore.one/our-services/employers/labour-agreement/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/our-services/employers/nomination-application</loc>
+    <loc>https://www.growmore.one/our-services/employers/nomination-application/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/our-services/employers/regional-certifying-body-approval</loc>
+    <loc>https://www.growmore.one/our-services/employers/regional-certifying-body-approval/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/our-services/employers/business-case-preparation</loc>
+    <loc>https://www.growmore.one/our-services/employers/business-case-preparation/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/our-services/employers/training-plan</loc>
+    <loc>https://www.growmore.one/our-services/employers/training-plan/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/our-services/employers/labour-market-testing-lmt-for-sc494-and-sc482-visas</loc>
+    <loc>https://www.growmore.one/our-services/employers/labour-market-testing-lmt-for-sc494-and-sc482-visas/</loc>
   </url>
 
   <!-- Individual -->
   <url>
-    <loc>https://www.growmore.one/our-services/individual/employer-sponsored-visa</loc>
+    <loc>https://www.growmore.one/our-services/individual/employer-sponsored-visa/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/our-services/individual/general-skilled-visa</loc>
+    <loc>https://www.growmore.one/our-services/individual/general-skilled-visa/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/our-services/individual/family-visa</loc>
+    <loc>https://www.growmore.one/our-services/individual/family-visa/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/our-services/individual/temporary-work-short-stay-visa</loc>
+    <loc>https://www.growmore.one/our-services/individual/temporary-work-short-stay-visa/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/our-services/individual/global-talent-visa</loc>
+    <loc>https://www.growmore.one/our-services/individual/global-talent-visa/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/our-services/individual/working-holiday-work-holiday-visa</loc>
+    <loc>https://www.growmore.one/our-services/individual/working-holiday-work-holiday-visa/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/our-services/individual/business-investor-visa</loc>
+    <loc>https://www.growmore.one/our-services/individual/business-investor-visa/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/our-services/individual/refugee-visa</loc>
+    <loc>https://www.growmore.one/our-services/individual/refugee-visa/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/our-services/individual/visitor-evisitor-eta-visa</loc>
+    <loc>https://www.growmore.one/our-services/individual/visitor-evisitor-eta-visa/</loc>
   </url>
   <url>
-    <loc>https://www.growmore.one/our-services/individual/student-guardian-visa</loc>
+    <loc>https://www.growmore.one/our-services/individual/student-guardian-visa/</loc>
   </url>
 
 </urlset>
