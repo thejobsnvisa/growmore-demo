@@ -8,9 +8,7 @@ So, let’s explore who can access Industry Labour Agreements and how these agre
 
 ## What is an Industry Labour Agreement?
 
-An Industry Labour Agreement is a formal arrangement between the Australian Government and a specific industry sector experiencing long-term labour shortages.
-
-Eligible employers in that industry can access the agreement to sponsor overseas workers for approved occupations under employer-sponsored visas.
+An Industry Labour Agreement is a formal arrangement between the Australian Government and a specific industry sector experiencing long-term labour shortages. Eligible employers in that industry can access the agreement to sponsor overseas workers for approved occupations under employer-sponsored visas.
 
 **Depending on the agreement, sponsorship may be available under:**
 
@@ -20,14 +18,14 @@ Eligible employers in that industry can access the agreement to sponsor overseas
 
 ## How Industry Labour Agreements Work
 
-The process is straightforward:**
+**The process is straightforward:**
 
-1. The Government signs an agreement with an industry body.  
-2. Eligible employers apply to access the agreement.  
-3. Employers demonstrate labour shortages and sponsorship eligibility.  
-4. Some agreements may also require industry endorsements, workforce evidence, or compliance with sector-specific conditions before approval is granted.  
-5. Overseas workers are nominated for approved occupations.  
-6. The overseas worker then applies for the relevant employer-sponsored visa pathway linked to that agreement.  
+* The Government signs an agreement with an industry body.  
+* Eligible employers apply to access the agreement.  
+* Employers demonstrate labour shortages and sponsorship eligibility.  
+* Some agreements may also require industry endorsements, workforce evidence, or compliance with sector-specific conditions before approval is granted.  
+* Overseas workers are nominated for approved occupations.  
+* The overseas worker then applies for the relevant employer-sponsored visa pathway linked to that agreement.  
 
 ## Current Industry Labour Agreements in Australia
 
@@ -61,23 +59,23 @@ So, whether you are an employer facing workforce shortages or an overseas worker
 
 ## FAQs
 
-### 1. Can overseas workers apply for an Industry Labour Agreement directly?
+### **1. Can overseas workers apply for an Industry Labour Agreement directly?**
 
 No. These agreements are accessed by eligible Australian employers. Overseas workers must first secure sponsorship from an approved employer.
 
-### 2. Do Industry Labour Agreements provide any concessions?
+### **2. Do Industry Labour Agreements provide any concessions?**
 
 Some agreements may offer concessions for English, age, salary, or work experience requirements, depending on the industry and occupation.
 
-### 3. Can workers change employers on a labour agreement visa?
+### **3. Can workers change employers on a labour agreement visa?**
 
 Yes, but the new employer must also be eligible to sponsor under an approved visa pathway.
 
-### 4. Are Industry Labour Agreements available across all industries?
+### **4. Are Industry Labour Agreements available across all industries?**
 
 No. They are only available in specific industries experiencing recognised labour shortages.
 
-### 5. How long does the labour agreement process take?
+### **5. How long does the labour agreement process take?**
 
 Processing times vary based on the industry, employer eligibility, documentation, and visa pathway involved.
 
