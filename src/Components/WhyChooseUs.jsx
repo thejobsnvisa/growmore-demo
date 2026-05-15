@@ -65,7 +65,7 @@ const WhyChooseUs = () => {
           {/* CARD 2 */}
           <div className="flex items-center gap-5 bg-white rounded-2xl p-5 shadow-md hover:shadow-xl transition">
             <img
-              src={`${import.meta.env.BASE_URL}assets/t1.png`}
+              src={`${import.meta.env.BASE_URL}assets/t2.png`}
               alt=""
               className="w-24 h-24 bg-[#333333] rounded-xl flex flex-col items-center justify-center text-white shrink-0"
             />
@@ -83,7 +83,7 @@ const WhyChooseUs = () => {
           {/* CARD 3 */}
           <div className="flex items-center gap-5 bg-white rounded-2xl p-5 shadow-md hover:shadow-xl transition">
             <img
-              src={`${import.meta.env.BASE_URL}assets/t1.png`}
+              src={`${import.meta.env.BASE_URL}assets/t3.png`}
               alt=""
               className="w-24 h-24 bg-[#333333] rounded-xl flex flex-col items-center justify-center text-white shrink-0"
             />
