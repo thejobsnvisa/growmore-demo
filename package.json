@@ -17,7 +17,9 @@
 },
 "reactSnap": {
   "source": "dist",
-  "inlineCss": true
+  "inlineCss": true,
+  "puppeteerArgs": ["--no-sandbox"],
+  "skipThirdPartyRequests": true
 },
 
   "dependencies": {
