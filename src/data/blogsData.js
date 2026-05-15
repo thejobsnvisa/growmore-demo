@@ -6,7 +6,7 @@ export const blogs = [
     metaTitle: "Industry Labour Agreements in Australia: Complete Guide",
     metaDescription: "Explore Industry Labour Agreements Australia, approved occupations, employer-sponsored visas, concessions, and sponsorship requirements.",
     date: "May 15, 2026",
-    image: `${import.meta.env.BASE_URL}assets/bg31.png`,
+    image: `/assets/bg31.png`,
   },
   {
     id: 57,
