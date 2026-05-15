@@ -9,7 +9,7 @@ import {
   FaPhone,
   FaArrowLeft,
 } from "react-icons/fa";
-import { blogs } from "../data/newsData";
+import {news } from "../data/newsData";
 import CommentSection from "../Components/CommentSection";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
@@ -18,7 +18,7 @@ const NewsArticle = () => {
   const { slug } = useParams();
   const [content, setContent] = useState("");
 
-  const article = blogs.find((item) => item.slug === slug);
+  const article = news.find((item) => item.slug === slug);
 
   useEffect(() => {
     window.scrollTo(0, 0);

@@ -1,20 +1,21 @@
-import React, { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import { HelmetProvider } from 'react-helmet-async'   // 👈 add this
-import './index.css'
-import App from './App.jsx'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { HelmetProvider } from "react-helmet-async";
+
+import App from "./App";
+import "./index.css";
 
 const redirect = sessionStorage.redirect;
 
 if (redirect) {
-  sessionStorage.removeItem("redirect");
+  delete sessionStorage.redirect;
   window.history.replaceState(null, null, redirect);
 }
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <HelmetProvider>   {/* 👈 wrap App */}
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <HelmetProvider>
       <App />
     </HelmetProvider>
-  </StrictMode>,
-)
+  </React.StrictMode>
+);

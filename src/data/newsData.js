@@ -1,6 +1,5 @@
-const base = import.meta.env.BASE_URL;
 
-export const blogs = [
+export const news = [
   {
     id: 46,
     slug: "tasmania-latest-invitation-round-56-rois-invited",
@@ -8,7 +7,7 @@ export const blogs = [
     metaTitle: "Tasmania Latest Invitation Round: 56 ROIs Invited",
     metaDescription:"Tasmania issued 56 invitations in the 14 May 2026 skilled migration round. Check updated Subclass 190 and 491 scores, invitations, and nomination status.",
     date: "May 14, 2026",
-    image: `${base}assets/41.png`,
+    image: `/assets/41.png`,
   },
   {
     id: 45,
@@ -17,7 +16,7 @@ export const blogs = [
     metaTitle: "Australia Migration Updates from Budget 2026–27",
     metaDescription:"how Budget 2026–27 impacts Australia PR pathways, skilled migration, TRA assessments, and onshore applicant priorities.",
     date: "May 13, 2026",
-    image: `${base}assets/40.png`,
+    image: `/assets/40.png`,
   },
   {
     id: 44,
@@ -26,7 +25,7 @@ export const blogs = [
     metaTitle: "ACT Canberra Matrix Round 6 May 2026: Scores Update",
     metaDescription:"Check the latest ACT Canberra Matrix invitation round results for 6 May 2026, including minimum Matrix scores and ACT nomination trends.",
     date: "May 12, 2026",
-    image: `${base}assets/39.png`,
+    image: `/assets/39.png`,
   },
   {
     id: 43,
@@ -35,7 +34,7 @@ export const blogs = [
     metaTitle: "Australia PR Points Test Changes Expected in Budget 2026–27",
     metaDescription:"Australia’s Budget 2026–27 may bring changes to the PR points test, focusing on age, English, qualifications and selection criteria.",
     date: "May 11, 2026",
-    image: `${base}assets/38.png`,
+    image: `/assets/38.png`,
   },
   {
     id: 42,
@@ -45,7 +44,7 @@ export const blogs = [
     metaDescription:
       "Tasmania issued 62 invitations in its 07 May 2026 skilled migration round across Subclass 190 and 491. Check latest selection trends and scores.",
     date: "May 7, 2026",
-    image: `${base}assets/37.png`,
+    image: `/assets/37.png`,
   },
   {
     id: 41,
@@ -55,7 +54,7 @@ export const blogs = [
     metaDescription:
       "NSW 190 visa intake is now closed for 2025–26. Learn what this means for EOIs, subclass 491 Pathway 2, and skilled migrants.",
     date: "May 7, 2026",
-    image: `${base}assets/36.png`,
+    image: `/assets/36.png`,
   },
   {
     id: 40,
@@ -66,7 +65,7 @@ export const blogs = [
     metaDescription:
       "South Australia released May 2026 invitation results with 509 skilled visa invites across Subclass 190 and 491, focusing on key priority occupations.",
     date: "May 4, 2026",
-    image: `${base}assets/35.png`,
+    image: `/assets/35.png`,
   },
   {
     id: 39,
@@ -77,7 +76,7 @@ export const blogs = [
     metaDescription:
       "VIC 01 May 2026 invitation round insights, occupations, points trends, and what actually matters beyond points for Australia PR.",
     date: "May 1, 2026",
-    image: `${base}assets/34.png`,
+    image: `/assets/34.png`,
   },
   {
     id: 38,
@@ -87,7 +86,7 @@ export const blogs = [
     metaDescription:
       "Latest NSW 491 Pathway 2 invitation round results released on 30 April 2026. Check occupation-wise scores, onshore trends, and PR insights.",
     date: "April 30, 2026",
-    image: `${base}assets/33.png`,
+    image: `/assets/33.png`,
   },
   {
     id: 37,
@@ -97,7 +96,7 @@ export const blogs = [
     metaDescription:
       "Latest Tasmania invitation round results for 30 April 2026. Breakdown of Subclass 190 & 491 invitations, scores, and nomination trends.",
     date: "April 30, 2026",
-    image: `${base}assets/32.jpg`,
+    image: `/assets/32.jpg`,
   },
   {
     id: 36,
@@ -107,7 +106,7 @@ export const blogs = [
     metaDescription:
       "ASQA cancels Melbourne Training Centre (RTO 45579). Qualifications from 2023–2025 under review may affect skills assessment, jobs, and PR pathways.",
     date: "April 29, 2026",
-    image: `${base}assets/31.png`,
+    image: `/assets/31.png`,
   },
   {
     id: 35,
@@ -118,7 +117,7 @@ export const blogs = [
     metaDescription:
       "National Innovation Visa 2026 update: 146 invitations issued from 1,815 EOIs. Explore priority trends, sector demand, and Australia PR selection insights.",
     date: "April 29, 2026",
-    image: `${base}assets/30.png`,
+    image: `/assets/30.png`,
   },
   {
     id: 34,
@@ -128,7 +127,7 @@ export const blogs = [
     metaDescription:
       "Home Affairs data shows state nomination usage, skilled visa backlogs and employer-sponsored trends for 2025–26. See how competitive PR pathways are.",
     date: "April 25, 2026",
-    image: `${base}assets/29.png`,
+    image: `/assets/29.png`,
   },
   {
     id: 33,
@@ -139,7 +138,7 @@ export const blogs = [
     metaDescription:
       "Tasmania issued 42 invitations in the 23 April 2026 round. Subclass 190 remains restricted to Gold Pass, while 491 invitations continue.",
     date: "April 23, 2026",
-    image: `${base}assets/28.png`,
+    image: `/assets/28.png`,
   },
   {
     id: 32,
@@ -150,7 +149,7 @@ export const blogs = [
     metaDescription:
       "AHPRA English requirements change from 23 April 2026. Speaking scores increase while overall scores reduce across PTE, TOEFL, OET and Cambridge tests.",
     date: "April 22, 2026",
-    image: `${base}assets/27.png`,
+    image: `/assets/27.png`,
   },
   {
     id: 31,
@@ -161,7 +160,7 @@ export const blogs = [
     metaDescription:
       "AAustralia opens Subclass 192 Tuvalu ballot from 1 May to 1 June 2026 with 280 PR places. Learn eligibility, process, and how to apply.",
     date: "April 17, 2026",
-    image: `${base}assets/26.jpg`,
+    image: `/assets/26.jpg`,
   },
   {
     id: 30,
@@ -172,7 +171,7 @@ export const blogs = [
     metaDescription:
       "Australia will move Subclass 103, 804, 143 & 864 Parent visa applications online via ImmiAccount from 22 April 2026, replacing paper lodgement.",
     date: "April 16, 2026",
-    image: `${base}assets/25.png`,
+    image: `/assets/25.png`,
   },
   {
     id: 29,
@@ -182,7 +181,7 @@ export const blogs = [
     metaDescription:
       "NSW issued selective 190 invitations in April 2026. Check occupations, trends, and eligibility insights.",
     date: "April 16, 2026",
-    image: `${base}assets/14.png`,
+    image: `/assets/14.png`,
   },
   {
     id: 28,
@@ -192,7 +191,7 @@ export const blogs = [
     metaDescription:
       "Tasmania released new Subclass 190 and 491 state nomination invitations on 16 April 2026. See scores, invitation numbers, and nomination availability.",
     date: "April 16, 2026",
-    image: `${base}assets/11.png`,
+    image: `/assets/11.png`,
   },
   {
     id: 27,
@@ -202,7 +201,7 @@ export const blogs = [
     metaDescription:
       "Explore Australia’s new immigration policy proposals and expected changes for visa applicants in 2026.",
     date: "April 15, 2026",
-    image: `${base}assets/12.png`,
+    image: `/assets/12.png`,
   },
   {
     id: 26,
@@ -212,7 +211,7 @@ export const blogs = [
     metaDescription:
       "Victoria skilled visa ROI deadline is 28 April 2026. Check eligibility and application details.",
     date: "April 13, 2026",
-    image: `${base}assets/13.png`,
+    image: `/assets/13.png`,
   },
   {
     id: 25,
@@ -222,7 +221,7 @@ export const blogs = [
     metaDescription:
       "Tasmania issued 78 invitations in the 9 April 2026 round. Subclass 190 remains restricted to Gold Pass, while 491 invitations continue. Check latest trends and scores.",
     date: "April 9, 2026",
-    image: `${base}assets/9april.jpg`,
+    image: `/assets/9april.jpg`,
   },
   {
     id: 24,
@@ -232,7 +231,7 @@ export const blogs = [
     metaDescription:
       "Australia's Approved Employer Register (AER) is a key component of the skilled visa program. Learn about the latest updates and how it affects your visa application.",
     date: "April 2, 2026",
-    image: `${base}assets/2april2.png`,
+    image: `/assets/2april2.png`,
   },
   {
     id: 23,
@@ -243,7 +242,7 @@ export const blogs = [
     metaDescription:
       "Tasmania released new Subclass 190 and 491 state nomination invitations on 16 April 2026. See scores, invitation numbers, and nomination availability.",
     date: "April 2, 2026",
-    image: `${base}assets/2april2.jpg`,
+    image: `/assets/2april2.jpg`,
   },
   {
     id: 22,
@@ -253,7 +252,7 @@ export const blogs = [
     metaDescription:
       "South Australia releases April round results for skilled visas. Check your eligibility and application status.",
     date: "April 2, 2026",
-    image: `${base}assets/2april.jpg`,
+    image: `/assets/2april.jpg`,
   },
   {
     id: 21,
@@ -263,7 +262,7 @@ export const blogs = [
     metaDescription:
       "Australia has refused 5,158 onshore visa applications in 2025. Learn more about the reasons and implications.",
     date: "April 1, 2026",
-    image: `${base}assets/1april.png`,
+    image: `/assets/1april.png`,
   },
   {
     id: 20,
@@ -273,7 +272,7 @@ export const blogs = [
     metaDescription:
       "NSW confirms a skilled migration invitation round in April 2026. Get the latest updates and insights.",
     date: "April 1, 2026",
-    image: `${base}assets/ng.jpg`,
+    image: `/assets/ng.jpg`,
   },
   {
     id: 19,
@@ -283,7 +282,7 @@ export const blogs = [
     metaDescription:
       "ACT Canberra Matrix final invitation round expected in May 2026. Check latest updates and chances.",
     date: "March 30, 2026",
-    image: `${base}assets/ng.1.jpg`,
+    image: `/assets/ng.1.jpg`,
   },
   {
     id: 18,
@@ -294,7 +293,7 @@ export const blogs = [
     metaDescription:
       "NSW becomes new skills assessment authority for Surveyor ANZSCO 232212. Check full details.",
     date: "March 28, 2026",
-    image: `${base}assets/ng0.jpg`,
+    image: `/assets/ng0.jpg`,
   },
   {
     id: 17,
@@ -304,7 +303,7 @@ export const blogs = [
     metaDescription:
       "New visitor visa restrictions in Australia. Find out who is affected and what changes apply.",
     date: "March 26, 2026",
-    image: `${base}assets/ng.2.jpg`,
+    image: `/assets/ng.2.jpg`,
   },
   {
     id: 16,
@@ -314,7 +313,7 @@ export const blogs = [
     metaDescription:
       "Tasmania releases weekly state nomination invitations. Check latest updates and eligibility.",
     date: "March 26, 2026",
-    image: `${base}assets/ng.3.jpg`,
+    image: `/assets/ng.3.jpg`,
   },
   {
     id: 15,
@@ -324,7 +323,7 @@ export const blogs = [
     metaDescription:
       "AMSR flexibility reforms take effect in Australia. Learn what changes for migration applicants.",
     date: "March 24, 2026",
-    image: `${base}assets/ng.4.jpg`,
+    image: `/assets/ng.4.jpg`,
   },
   {
     id: 14,
@@ -334,7 +333,7 @@ export const blogs = [
     metaDescription:
       "New migration rules proposed for temporary visa holders in Australia. Check key updates.",
     date: "March 23, 2026",
-    image: `${base}assets/ng.5.jpg`,
+    image: `/assets/ng.5.jpg`,
   },
   {
     id: 13,
@@ -345,7 +344,7 @@ export const blogs = [
     metaDescription:
       "Find out which Australian states still have nomination spots available for 2025–26.",
     date: "March 19, 2026",
-    image: `${base}assets/ng1.png`,
+    image: `/assets/ng1.png`,
   },
   {
     id: 12,
@@ -355,7 +354,7 @@ export const blogs = [
     metaDescription:
       "Latest ACT state nomination round and allocation updates for 2025–2026 applicants.",
     date: "March 19, 2026",
-    image: `${base}assets/ng2.jpg`,
+    image: `/assets/ng2.jpg`,
   },
   {
     id: 11,
@@ -365,7 +364,7 @@ export const blogs = [
     metaDescription:
       "Tasmania invitation round held on 19 March 2026. Check details and selection trends.",
     date: "March 19, 2026",
-    image: `${base}assets/ng3.jpg`,
+    image: `/assets/ng3.jpg`,
   },
   {
     id: 10,
@@ -375,7 +374,7 @@ export const blogs = [
     metaDescription:
       "TRA temporarily pauses OSAP and TSS registrations. Check what it means for applicants.",
     date: "March 17, 2026",
-    image: `${base}assets/n1.jpg`,
+    image: `/assets/n1.jpg`,
   },
   {
     id: 9,
@@ -385,7 +384,7 @@ export const blogs = [
     metaDescription:
       "Key legal rules RMAs must follow when using AI in migration assistance in Australia.",
     date: "March 17, 2026",
-    image: `${base}assets/n2.jpg`,
+    image: `/assets/n2.jpg`,
   },
   {
     id: 8,
@@ -395,7 +394,7 @@ export const blogs = [
     metaDescription:
       "Victoria invitation round held on 17 March 2026. See who got invited and trends.",
     date: "March 17, 2026",
-    image: `${base}assets/bg3.jpg`,
+    image: `/assets/bg3.jpg`,
   },
   {
     id: 7,
@@ -405,7 +404,7 @@ export const blogs = [
     metaDescription:
       "Tasmania state nomination program enters final quarter. Check updates and chances.",
     date: "March 13, 2026",
-    image: `${base}assets/bg1.jpg`,
+    image: `/assets/bg1.jpg`,
   },
   {
     id: 6,
@@ -416,7 +415,7 @@ export const blogs = [
     metaDescription:
       "VETASSESS pauses applications and removes occupations under TRA changes. Full update here.",
     date: "March 12, 2026",
-    image: `${base}assets/bg4.jpg`,
+    image: `/assets/bg4.jpg`,
   },
   {
     id: 5,
@@ -426,7 +425,7 @@ export const blogs = [
     metaDescription:
       "Tasmania invited fewer candidates in 12 March 2026 round. Check trends and updates.",
     date: "March 12, 2026",
-    image: `${base}assets/bg2.png`,
+    image: `/assets/bg2.png`,
   },
   {
     id: 4,
@@ -437,7 +436,7 @@ export const blogs = [
     metaDescription:
       "Australia proposes temporary visa restrictions due to global conflict. Key details explained.",
     date: "March 12, 2026",
-    image: `${base}assets/n3.jpg`,
+    image: `/assets/n3.jpg`,
   },
   {
     id: 3,
@@ -448,7 +447,7 @@ export const blogs = [
     metaDescription:
       "New rule for 407 training visa applications requires nomination approval first. Learn more.",
     date: "March 10, 2026",
-    image: `${base}assets/n4.jpg`,
+    image: `/assets/n4.jpg`,
   },
   {
     id: 2,
@@ -459,7 +458,7 @@ export const blogs = [
     metaDescription:
       "Salary thresholds for employer-sponsored visas increase from July 2026. Check new limits.",
     date: "March 9, 2026",
-    image: `${base}assets/n5.png`,
+    image: `/assets/n5.png`,
   },
   {
     id: 1,
@@ -470,7 +469,7 @@ export const blogs = [
     metaDescription:
       "Tasmania issued new state nomination invitations on 5 March 2026. Check details.",
     date: "March 5, 2026",
-    image: `${base}assets/n6.png`,
+    image: `/assets/n6.png`,
   },
   {
     id: 0,
@@ -480,7 +479,7 @@ export const blogs = [
     metaDescription:
       "South Australia issued new 406 invitations in March 2026. Check details.",
     date: "March 4, 2026",
-    image: `${base}assets/4march.png`,
+    image: `/assets/4march.png`,
   },
   {
     id: -1,
@@ -490,7 +489,7 @@ export const blogs = [
     metaDescription:
       "Australia has suddenly doubled the fee for temporary graduate visas. Check the new costs.",
     date: "March 2, 2026",
-    image: `${base}assets/2march.png`,
+    image: `/assets/2march.png`,
   },
   {
     id: -2,
@@ -501,7 +500,7 @@ export const blogs = [
     metaDescription:
       "Tasmania issued new state nomination invitations on 26 February 2026. Check details.",
     date: "February 26, 2026",
-    image: `${base}assets/26feb.jpg`,
+    image: `/assets/26feb.jpg`,
   },
   {
     id: -3,
@@ -511,7 +510,7 @@ export const blogs = [
     metaDescription:
       "Australia has confirmed 4-tier occupation ceilings for 189 and 491 visas. Check the details.",
     date: "February 25, 2026",
-    image: `${base}assets/25feb.jpg`,
+    image: `/assets/25feb.jpg`,
   },
   {
     id: -4,
@@ -521,7 +520,7 @@ export const blogs = [
     metaDescription:
       "Canberra Matrix tentative invitation dates have changed. Check the new schedule for upcoming rounds.",
     date: "February 23, 2026",
-    image: `${base}assets/23feb.png`,
+    image: `/assets/23feb.png`,
   },
   {
     id: -5,
@@ -531,7 +530,7 @@ export const blogs = [
     metaDescription:
       "NSW 190 visa invitations are expected in March. Check if your EOI is ready and what to expect.",
     date: "February 23, 2026",
-    image: `${base}assets/23feb2.png`,
+    image: `/assets/23feb2.png`,
   },
   {
     id: -6,
@@ -542,7 +541,7 @@ export const blogs = [
     metaDescription:
       "Check the latest update on 190 and 491 state nominations issued till 31 January for the 2025–26 skilled migration program.",
     date: "February 18, 2026",
-    image: `${base}assets/18feb.png`,
+    image: `/assets/18feb.png`,
   },
   {
     id: -7,
@@ -552,7 +551,7 @@ export const blogs = [
     metaDescription:
       "Learn about the Skilled Refugee Labour Agreement Pilot in a free webinar for employers. Get insights on how to participate and benefit.",
     date: "February 14, 2026",
-    image: `${base}assets/14feb.png`,
+    image: `/assets/14feb.png`,
   },
   {
     id: -8,
@@ -562,7 +561,7 @@ export const blogs = [
     metaDescription:
       "Learn about the latest updates on English test retakes and how they affect your visa application.",
     date: "February 13, 2026",
-    image: `${base}assets/13feb.png`,
+    image: `/assets/13feb.png`,
   },
   {
     id: -9,
@@ -572,7 +571,7 @@ export const blogs = [
     metaDescription:
       "Check the results of Tasmania’s latest invitation round for skilled migration.",
     date: "February 12, 2026",
-    image: `${base}assets/12feb.png`,
+    image: `/assets/12feb.png`,
   },
   {
     id: -10,
@@ -582,7 +581,7 @@ export const blogs = [
     metaDescription:
       "Check the results of the Canberra Matrix invitation round for skilled migration.",
     date: "February 6, 2026",
-    image: `${base}assets/6feb.png`,
+    image: `/assets/6feb.png`,
   },
   {
     id: -11,
@@ -592,7 +591,7 @@ export const blogs = [
     metaDescription:
       "Learn about the new ART Law and how it will impact visa reviews.",
     date: "February 5, 2026",
-    image: `${base}assets/5feb.png`,
+    image: `/assets/5feb.png`,
   },
   {
     id: -12,
@@ -603,7 +602,7 @@ export const blogs = [
     metaDescription:
       "Check the latest update on Tasmania's skilled migration invitations.",
     date: "February 5, 2026",
-    image: `${base}assets/5feb1.png`,
+    image: `/assets/5feb1.png`,
   },
   {
     id: -13,
@@ -613,7 +612,7 @@ export const blogs = [
     metaDescription:
       "Check the latest update on South Australia's skilled migration invitations.",
     date: "February 3, 2026",
-    image: `${base}assets/3feb.png`,
+    image: `/assets/3feb.png`,
   },
   {
     id: -14,
@@ -624,7 +623,7 @@ export const blogs = [
     metaDescription:
       "Dual Australian-British citizens can now waive the ETA fee when planning a trip to the UK. Check the details and how to apply.",
     date: "February 2, 2026",
-    image: `${base}assets/2feb.jpg`,
+    image: `/assets/2feb.jpg`,
   },
    {
     id: -15,
@@ -633,7 +632,7 @@ export const blogs = [
     metaTitle: "Tasmania Migration Update: Latest Invitation Numbers",
     metaDescription:"Check the latest invitation numbers for Tasmania's skilled migration program in this week's update.",
     date: "january 29, 2026",
-    image: `${base}assets/29jan.png`,
+    image: `/assets/29jan.png`,
   },
    {
     id: -16,
@@ -642,7 +641,7 @@ export const blogs = [
     metaTitle: "Northern Territory GSM Nomination Portal Closed",
     metaDescription:"The Northern Territory GSM Nomination Portal is closed for the 2025–26 financial year. Check the details and how to apply."  , 
     date: "january 28, 2026",
-    image: `${base}assets/28jan.png`,
+    image: `/assets/28jan.png`,
   },
    {
     id: -17,
@@ -652,7 +651,7 @@ export const blogs = [
     metaDescription:
       "Check the upcoming tentative Canberra Matrix invitation dates for 2026.",
     date: "january 22, 2026",
-    image: `${base}assets/22jan.png`,
+    image: `/assets/22jan.png`,
   },
    {
     id: -18,
@@ -663,6 +662,6 @@ export const blogs = [
     metaDescription:
       "Learn about the closure of NSW Subclass 491 Pathway 1 & Pathway 3 due to strong demand.",
     date: "january 19, 2026",
-    image: `${base}assets/19jan.png`,
+    image: `/assets/19jan.png`,
   },
 ];
