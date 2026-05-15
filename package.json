@@ -5,14 +5,20 @@
   "description": "Growmore Immigration Digital Platform",
   "homepage": "https://growmore.one",
   "type": "module",
+ 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
+    "postbuild": "react-snap",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "sitemap": "node Scripts/script.js",
+    "predeploy": "npm run build && npm run sitemap",
     "deploy": "gh-pages -d dist"
   },
+  "reactSnap": {
+    "inlineCss": true
+  },
+
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
     "dotenv": "^17.3.1",

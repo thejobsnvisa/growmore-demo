@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { blogs } from "../data/newsData";
+import { news } from "../data/newsData";
 
 const NewsSection = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -11,9 +11,9 @@ const NewsSection = () => {
   const indexOfLastBlog = currentPage * blogsPerPage;
   const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
 
-  const currentBlogs = blogs.slice(indexOfFirstBlog, indexOfLastBlog);
+  const currentBlogs = news.slice(indexOfFirstBlog, indexOfLastBlog);
 
-  const totalPages = Math.ceil(blogs.length / blogsPerPage);
+  const totalPages = Math.ceil(news.length / blogsPerPage);
 
   return (
     <section className="bg-white py-20">
