@@ -6,18 +6,19 @@
   "homepage": "https://growmore.one",
   "type": "module",
  
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "postbuild": "react-snap",
-    "preview": "vite preview",
-    "sitemap": "node Scripts/script.js",
-    "predeploy": "npm run build && npm run sitemap",
-    "deploy": "gh-pages -d dist"
-  },
-  "reactSnap": {
-    "inlineCss": true
-  },
+ "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "postbuild": "react-snap",
+  "preview": "vite preview",
+  "sitemap": "node Scripts/script.js",
+  "predeploy": "npm run build && npm run sitemap",
+  "deploy": "gh-pages -d dist"
+},
+"reactSnap": {
+  "source": "dist",
+  "inlineCss": true
+},
 
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
