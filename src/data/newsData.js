@@ -1,5 +1,14 @@
 
 export const news = [
+    {
+    id: 47,
+    slug: "migration-program-planning-levels-2026-27",
+    title: "Migration Program Planning Levels 2026-27 ",
+    metaTitle: "Australia Migration Program Planning Levels 2026–27",
+    metaDescription:"Breakdown of Australia’s 2026–27 Migration Program with insights into employer-sponsored visas, subclass 190, subclass 491, and PR pathways.",
+    date: "May 16, 2026",
+    image: `/assets/b2.png`,
+  },
   {
     id: 46,
     slug: "tasmania-latest-invitation-round-56-rois-invited",

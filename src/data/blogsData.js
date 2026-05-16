@@ -1,4 +1,13 @@
 export const blogs = [
+    {
+    id: 58,
+    slug: "how-australias-dama-program-works-for-employers-and-skilled-workers",
+    title: "How Australia’s DAMA Program Works for Employers and Skilled Workers",
+    metaTitle:"Australia’s DAMA Program Explained for Employers and Skilled Workers",
+    metaDescription:"Discover how Australia’s DAMA program helps employers fill skill shortages and provides skilled workers with unique visa opportunities. Learn about the benefits, eligibility, and application process for both employers and workers under the DAMA framework.",
+    date: "May 16, 2026",
+    image: `/assets/b1.png`,
+  },
   {
     id: 58,
     slug: "complete-guide-to-industry-labour-agreements-in-australia",
