@@ -1,5 +1,3 @@
-## Australia Migration Program 2026–27: Federal Budget Migration Planning Levels Explained
-
 As the Federal Budget has now been released, Australia’s migration settings for 2026–27 have also been formally confirmed. This gives a clear direction on how the permanent Migration Program will be structured for the upcoming year, including the allocation of places across skilled, family, and special eligibility streams.
 
 This year, the government has set the cap at **185,000 places** for the 2026–27 Permanent Migration Program, which is the same as the previous year. However, the focus has largely shifted towards onshore applicants, skilled migration, and workforce alignment with national labour shortages.
