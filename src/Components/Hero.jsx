@@ -238,12 +238,10 @@ const Hero = () => {
                 ></textarea>
 
                 <div className="flex justify-center sm:justify-start">
-                  {import.meta.env.VITE_RECAPTCHA_SITE_KEY && (
-                    <ReCAPTCHA
-                      sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY}
-                      ref={recaptchaRef}
-                    />
-                  )}
+                  <ReCAPTCHA
+                    sitekey="6LeK8-8sAAAAAIUPJMbq0lcRSGrV3YJCbRNrNO3b"
+                    ref={recaptchaRef}
+                  />
                 </div>
 
                 <button
