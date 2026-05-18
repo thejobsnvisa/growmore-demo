@@ -9,16 +9,17 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "postbuild": "react-snap",
     "sitemap": "node Scripts/script.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "reactSnap": {
-  "source": "dist", 
-  "inlineCss": false,
-  "puppeteerArgs": ["--no-sandbox"]
-},
+    "source": "dist",
+    "inlineCss": false,
+    "puppeteerArgs": [
+      "--no-sandbox"
+    ]
+  },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
     "dotenv": "^17.3.1",
@@ -50,7 +51,6 @@
     "@types/node": "^25.5.0",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-legacy": "^8.0.2",
     "@vitejs/plugin-react": "^5.1.1",
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^7.0.1",
@@ -60,6 +60,6 @@
     "react-snap": "^1.23.0",
     "shx": "^0.4.0",
     "sitemap-ts": "^1.10.1",
-    "vite": "^7.3.1"
+    "vite": "^8.0.13"
   }
 }

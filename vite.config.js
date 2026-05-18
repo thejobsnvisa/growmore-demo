@@ -8,8 +8,4 @@ export default defineConfig({
     tailwindcss()
   ],
   base: "/",
-  build: {
-    target: "es2015",
-    minify: false
-  }
 });
