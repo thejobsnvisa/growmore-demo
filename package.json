@@ -15,6 +15,7 @@
     "deploy": "gh-pages -d dist"
   },
   "reactSnap": {
+  "source": "dist", 
   "inlineCss": true,
   "puppeteerArgs": ["--no-sandbox"]
 },
