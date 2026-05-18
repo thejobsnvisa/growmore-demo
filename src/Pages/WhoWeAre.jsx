@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 
 const WhoWeAre = () => {
-  const url = "https://www.growmore.one/who-we-are/"; // ✅ clean canonical
+  const url = "https://www.growmore.one/who-we-are"; // ✅ clean canonical
 
   return (
     <>
