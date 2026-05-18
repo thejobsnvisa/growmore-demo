@@ -3,33 +3,34 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-      {
-    id: 2,
-    slug: "employer-sponsored-visa-compliance-important-reminder-for-australian-businesses",
-    title: "Employer Sponsored Visa Compliance: Important Reminder for Australian Businesses",
-    metaTitle: "Employer Sponsored Visa Compliance in Australia: Key Update",
-    metaDescription: "Understand employer sponsorship obligations in Australia, including records, payroll, duties, and compliance risks under visa programs.",
-    date: "May 12, 2026",
-    image: `${import.meta.env.BASE_URL}assets/bg29.png`,
+   {
+    id: 1,
+    slug: "how-australias-dama-program-works-for-employers-and-skilled-workers",
+    title: "How Australia’s DAMA Program Works for Employers and Skilled Workers",
+    metaTitle:"Australia’s DAMA Program Explained for Employers and Skilled Workers",
+    metaDescription:"Discover how Australia’s DAMA program helps employers fill skill shortages and provides skilled workers with unique visa opportunities. Learn about the benefits, eligibility, and application process for both employers and workers under the DAMA framework.",
+    date: "May 16, 2026",
+    image: `/assets/b1.png`,
   },
   {
-    id: 1,
-    slug: "expression-of-interest-eoi-explained-complete-guide-for-gsm-applicants",
-    title: "Expression of Interest (EOI) Explained: Complete Guide for GSM Applicants",
-    metaTitle: "How to File a GSM EOI: Australia Migration Guide (2026)",
-    metaDescription: "Master the SkillSelect EOI process for Australia’s 189, 190, and 491 visas. Learn how to calculate points, avoid common errors, and get invited in 2026. Read the expert guide.",
-    date: "May 9, 2026",
-    image: `${import.meta.env.BASE_URL}assets/bg28.jpg`,
-  }, 
+    id: 2,
+    slug: "complete-guide-to-industry-labour-agreements-in-australia",
+    title: "Complete Guide to Industry Labour Agreements in Australia",
+    metaTitle: "Industry Labour Agreements in Australia: Complete Guide",
+    metaDescription: "Explore Industry Labour Agreements Australia, approved occupations, employer-sponsored visas, concessions, and sponsorship requirements.",
+    date: "May 15, 2026",
+    image: `/assets/bg31.png`,
+  },
   {
-    id: 0,
-    slug: "what-happens-to-your-australian-visa-if-your-relationship-ends",
-    title: "What Happens to Your Australian Visa if Your Relationship Ends?",
-    metaTitle: "Australia Visa Impact After Relationship Ends",
-    metaDescription: "Relationship ended in Australia? Find out how it impacts your visa, PR pathway, and what steps you should take next.",
-    date: "May 8, 2026",
-    image: `${import.meta.env.BASE_URL}assets/bg27.png`,
-  }, 
+    id: 3,
+    slug: "changing-employers-on-a-482-visa-understanding-condition-8607",
+    title: "Changing Employers on a 482 Visa: Understanding Condition 8607",
+    metaTitle: "Can You Change Employer on 482 Visa? Condition 8607 Explained",
+    metaDescription: "Find out if you can change employers on a 482 visa, how Condition 8607 works, and what rules apply after employment ends in Australia.",
+    date: "May 14, 2026",
+    image: `/assets/bg30.png`,
+  },
+  
 ];
 
 const BlogSection = () => {
