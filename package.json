@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "postbuild": "react-snap",
     "sitemap": "node Scripts/script.js",
-    "predeploy": "npm run build && npm run sitemap",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "reactSnap": {
