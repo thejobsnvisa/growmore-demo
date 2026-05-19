@@ -5,9 +5,10 @@
   "description": "Growmore Immigration Digital Platform",
   "homepage": "https://www.growmore.one",
   "type": "module",
- "scripts": {
+"scripts": {
   "dev": "vite",
-  "build": "vite build",
+  "generate-routes": "node Scripts/generateRoutes.cjs",
+  "build": "npm run generate-routes && vite build",
   "preview": "vite preview",
   "postbuild": "react-snap",
   "sitemap": "node Scripts/script.js",
