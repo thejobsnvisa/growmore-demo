@@ -16,16 +16,8 @@
 },
  "reactSnap": {
   "source": "dist",
-  "inlineCss": false,
+  "inlineCss": true,
   "skipThirdPartyRequests": true,
-  "routes": [
-    "/",
-    "/who-we-are",
-    "/contact-us",
-    "/blogs",
-    "/services",
-    "/points-calculator"
-  ],
   "puppeteerArgs": [
     "--no-sandbox"
   ]
