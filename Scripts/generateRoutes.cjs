@@ -1,4 +1,5 @@
 const fs = require("fs");
+const path = require("path");
 
 (async () => {
   const { news } = await import(
@@ -23,9 +24,23 @@ const fs = require("fs");
     )
   ];
 
+  const packageJsonPath = path.join(
+    process.cwd(),
+    "package.json"
+  );
+
+  const packageJson = JSON.parse(
+    fs.readFileSync(packageJsonPath, "utf8")
+  );
+
+  packageJson.reactSnap = {
+    ...packageJson.reactSnap,
+    include: routes
+  };
+
   fs.writeFileSync(
-    "./react-snap-routes.json",
-    JSON.stringify(routes, null, 2)
+    packageJsonPath,
+    JSON.stringify(packageJson, null, 2)
   );
 
   console.log(
