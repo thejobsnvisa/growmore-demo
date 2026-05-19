@@ -14,14 +14,22 @@
   "predeploy": "npm run build && npm run sitemap",
   "deploy": "gh-pages -d dist"
 },
-  "reactSnap": {
-    "source": "dist",
-    "inlineCss": false,
-    "skipThirdPartyRequests": true,
-    "puppeteerArgs": [
-      "--no-sandbox"
-    ]
-  },
+ "reactSnap": {
+  "source": "dist",
+  "inlineCss": false,
+  "skipThirdPartyRequests": true,
+  "routes": [
+    "/",
+    "/who-we-are",
+    "/contact-us",
+    "/blogs",
+    "/services",
+    "/points-calculator"
+  ],
+  "puppeteerArgs": [
+    "--no-sandbox"
+  ]
+},
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
     "dotenv": "^17.3.1",
