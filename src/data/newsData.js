@@ -1,5 +1,14 @@
 
 export const news = [
+  {
+    id: 48,
+    slug: "australia-12-month-pause-on-new-student-providers",
+    title: "Australia Imposes 12-Month Pause on New International Student Education Providers",
+    metaTitle: "Australia 12-Month Pause on New Student Providers",
+    metaDescription:"Australia has paused new international student providers for 12 months under CRICOS to strengthen integrity and improve education sector quality.",
+    date: "May 19, 2026",
+    image: `/assets/b3.png`,
+  },
     {
     id: 47,
     slug: "migration-program-planning-levels-2026-27",
