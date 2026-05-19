@@ -5,9 +5,9 @@
   "description": "Growmore Immigration Digital Platform",
   "homepage": "https://www.growmore.one",
   "type": "module",
- "scripts": {
+"scripts": {
   "dev": "vite",
-  "clean": "rmdir /s /q dist",
+  "clean": "shx rm -rf dist",
   "build": "npm run clean && vite build",
   "preview": "vite preview",
   "postbuild": "react-snap",
