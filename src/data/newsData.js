@@ -1,5 +1,14 @@
 
 export const news = [
+    {
+    id: 49,
+    slug: "latest-victoria-190-invitation-round-results-may-2026",
+    title: "Latest Victoria Subclass 190 Invitation Round – 19 May 2026",
+    metaTitle: "Latest Victoria 190 Invitation Round Results – May 2026",
+    metaDescription:"Latest Victoria Subclass 190 invitation round results released with invitations issued to ICT, healthcare, engineering, and teaching occupations.",
+    date: "May 19, 2026",
+    image: `/assets/b5.png`,
+  },
   {
     id: 48,
     slug: "australia-12-month-pause-on-new-student-providers",
