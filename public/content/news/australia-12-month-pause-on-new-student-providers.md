@@ -1,5 +1,3 @@
-**Australia Imposes 12-Month Pause on New International Student Education Providers** 
-
 Australia is tightening its international education system again, as the government has imposed a 12-month pause on new education providers applying to enrol international students under the CRICOS system. 
 
 During this temporary suspension period, no new education providers will be able to enter Australia’s international student market. 
