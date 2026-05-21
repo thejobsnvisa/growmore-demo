@@ -27,9 +27,3 @@ The offshore Hospital Pharmacist invitation also highlights that offshore applic
 As Australia’s 2025–26 state migration program is approaching its final stage, applicants relying only on state nomination pathways can also explore alternative visa options such as employer-sponsored visas, regional pathways, and DAMA programs, as competition for remaining invitations continues to increase. 
 
 To understand which pathway may suit your profile best, consult a Registered migration agent in Australia (MARA No. 2217941) for a proper migration strategy and visa planning. 
-
-### Contact Information
-* **Registered Migration Agent:** MARA No. 2217941
-* **Email:** info@growmore.one
-* **WhatsApp:** +61 434 202 021
-* **Phone:** +61 3 8764 3334
