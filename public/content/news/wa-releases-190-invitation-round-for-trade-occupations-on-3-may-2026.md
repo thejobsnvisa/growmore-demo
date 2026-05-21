@@ -13,10 +13,9 @@ This round clearly reflects a stronger focus on in-demand trade occupations and 
 
 The complete occupation-wise details of the latest invitation round are provided below: 
 
-### General Stream – WASMOL Schedule 1
+## General Stream – WASMOL Schedule 1
 
 No invitations were issued under **WASMOL Schedule 1** in this round.
-
 
 ## General Stream – WASMOL Schedule 2
 
