@@ -2,6 +2,15 @@
 export const news = [
     {
     id: 49,
+    slug: "tasmania-confirms-final-skilled-migration-round-and-issues-latest-weekly-invitations-today",
+    title: "Tasmania Confirms Final Skilled Migration Round and Issues Latest Weekly Invitations Today ",
+    metaTitle: "Tasmania Final Skilled Migration Round & Latest Invitations",
+    metaDescription:"Tasmania has confirmed the final 2025–26 invitation round, ROI closure date, and latest Subclass 190 and 491 invitation results.",
+    date: "May 21, 2026",
+    image: `/assets/b6.png`,
+  },
+    {
+    id: 49,
     slug: "latest-victoria-190-invitation-round-results-may-2026",
     title: "Latest Victoria Subclass 190 Invitation Round – 19 May 2026",
     metaTitle: "Latest Victoria 190 Invitation Round Results – May 2026",
