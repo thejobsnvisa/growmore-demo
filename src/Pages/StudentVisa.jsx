@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet-async";
 
 const StudentVisa = () => {
  
-   const url = "https://www.growmore.one/our-services/student-visa";
+   const url = "https://www.growmore.one/our-services/student-visa/";
    return (
      <>
        <Helmet>

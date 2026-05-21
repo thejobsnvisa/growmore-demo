@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 
 const Terms = () => {
-      const url = "https://www.growmore.one/terms-services";
+      const url = "https://www.growmore.one/terms-services/";
 
   return (
    <>

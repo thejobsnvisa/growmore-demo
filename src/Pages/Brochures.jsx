@@ -9,8 +9,51 @@ const Brochures = () => {
       file: `${import.meta.env.BASE_URL}assets/student-visa-brochure.pdf`,
     },
   ];
+ const url = "https://www.growmore.one/brochures/"; // ✅ clean canonical
 
   return (
+    <>
+      <Helmet>
+        {/* ✅ Title */}
+        <title>Brochures - Growmore Immigration</title>
+
+        {/* ✅ Meta Description */}
+        <meta
+          name="description"
+          content="GrowMore Immigration — your trusted partner for Australian visa and migration services. Learn about our mission, expert team, and commitment to client success."
+        />
+
+        {/* ✅ Canonical */}
+        <link rel="canonical" href={url} />
+
+        {/* ✅ Open Graph */}
+        <meta property="og:title" content="Brochures - Growmore Immigration" />
+        <meta
+          property="og:description"
+          content="Growmore Immigration in Melbourne provides expert support for Australia PR, skilled migration, and visa services. Meet our team and mission."
+        />
+        <meta property="og:url" content={url} />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://www.growmore.one/assets/g1.png"
+        />
+
+        {/* ✅ Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Brochures - Growmore Immigration"
+        />
+        <meta
+          name="twitter:description"
+          content="Australia PR consultants in Melbourne helping with skilled migration and visa services. Learn about Growmore Immigration."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.growmore.one/assets/g1.png"
+        />
+      </Helmet>
     <div className="w-full">
       {/* Hero Section */}
       <section className="bg-[#28535B] py-16 md:py-20">
@@ -77,6 +120,7 @@ const Brochures = () => {
         )}
       </div>
     </div>
+    </>
   );
 };
 

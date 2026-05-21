@@ -3,7 +3,7 @@ import { PopupModal } from "react-calendly";
 import { Helmet } from "react-helmet-async";
 
 const BookConsultation = () => {
-  const url = "https://www.growmore.one/book-consultation";
+  const url = "https://www.growmore.one/book-consultation/";
   const [isOpen, setIsOpen] = useState(false);
   const [selectedUrl, setSelectedUrl] = useState("");
 

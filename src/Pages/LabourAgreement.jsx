@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 
 const LabourAgreement = () => {
- const url ="https://www.growmore.one/our-services/labour-agreement";
+ const url ="https://www.growmore.one/our-services/labour-agreement/";
   return (
     <>
       <Helmet>

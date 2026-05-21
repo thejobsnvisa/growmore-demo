@@ -74,7 +74,7 @@ useEffect(() => {
        content={article.metaDescription || article.title}
      />
    
-     <link rel="canonical" href={`https://www.growmore.one/blogs/${slug}`} />
+     <link rel="canonical" href={`https://www.growmore.one/blogs/${slug}/`} />
    
      <meta property="og:type" content="article" />
      <meta property="og:title" content={article.metaTitle || article.title} />

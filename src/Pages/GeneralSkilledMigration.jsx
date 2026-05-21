@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 
 const GSMPage = () => {
- const url ="https://www.growmore.one/our-services/gsm-general-skilled-migration";
+ const url ="https://www.growmore.one/our-services/gsm-general-skilled-migration/";
   return (
     <>
       <Helmet>

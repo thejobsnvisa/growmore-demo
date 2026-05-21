@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 
 const AI = () => {
-  const url = "https://www.growmore.one/artificial-intelligence-use-policy";
+  const url = "https://www.growmore.one/artificial-intelligence-use-policy/";
 
   return (
     <>

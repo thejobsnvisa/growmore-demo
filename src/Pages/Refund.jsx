@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 
 const Refund = () => {
-  const url = "https://www.growmore.one/cancellation-and-refund-policy";
+  const url = "https://www.growmore.one/cancellation-and-refund-policy/";
 
   return (
     <>

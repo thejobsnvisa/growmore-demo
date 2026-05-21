@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 
 const DAMA = () => {
- const url ="https://www.growmore.one/our-services/dama";
+ const url ="https://www.growmore.one/our-services/dama/";
    return (
      <>
        <Helmet>

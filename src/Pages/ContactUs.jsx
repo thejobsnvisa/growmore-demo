@@ -6,7 +6,7 @@ import ContactSection from "../Components/ContactSection";
 import { Helmet } from "react-helmet-async";
 
 const ContactUs = () => {
-  const url = "https://www.growmore.one/contact-us";
+  const url = "https://www.growmore.one/contact-us/";
   const recaptchaRef = useRef(null);
   const [loading, setLoading] = useState(false);
   const [dialCode, setDialCode] = useState("61");

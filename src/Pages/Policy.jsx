@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 
 const Policy = () => {
-        const url = "https://www.growmore.one/privacy-policy";
+        const url = "https://www.growmore.one/privacy-policy/";
 
   return (
     <>
@@ -20,7 +20,7 @@ const Policy = () => {
         {/* ✅ OG */}
         <meta
           property="og:title"
-          content="Terms & Services - GrowMore Immigration"
+          content="Privacy Policy - GrowMore Immigration"
         />
         <meta
           property="og:description"

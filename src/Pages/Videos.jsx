@@ -12,7 +12,7 @@ const API_KEY = import.meta.env.VITE_API_KEY;
 const CHANNEL_ID = import.meta.env.VITE_CHANNEL_ID;
 
 const Videos = () => {
-  const Url = "https://www.growmore.one/videos"; // ✅ FIXED
+  const Url = "https://www.growmore.one/videos/"; // ✅ FIXED
 
   const [latestVideos, setLatestVideos] = useState([]);
   const [liveStreams, setLiveStreams] = useState([]);

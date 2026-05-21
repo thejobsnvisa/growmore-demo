@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet-async";
 
 
 const Blogs = () => {
-    const url = "https://www.growmore.one/blogs";
+    const url = "https://www.growmore.one/blogs/";
 
   return (
     <>

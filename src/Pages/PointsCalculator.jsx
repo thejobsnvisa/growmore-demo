@@ -15,7 +15,7 @@ import ScorePanel from "../Components/ScorePanel";
 import { Helmet } from "react-helmet-async";
 
 export default function PointsCalculator() {
-  const url = "https://www.growmore.one/points-calculator";
+  const url = "https://www.growmore.one/points-calculator/";
 
   /* ---------------- STEP CONTROLLER ---------------- */ const [
     step,
