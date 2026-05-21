@@ -1,7 +1,16 @@
 
 export const news = [
+   {
+    id: 51,
+    slug: "wa-releases-190-invitation-round-for-trade-occupations-on-3-may-2026",
+    title: "WA Released 190 Invitation Round for Trade Occupations on 3 May 2026 ",
+    metaTitle: "WA 190 Invitation Round Released for Trade Occupations",
+    metaDescription:"Western Australia released its 190 invitation round on 3 May 2026, focusing on trade occupations with reduced allocations in the final program stage.",
+    date: "May 21, 2026",
+    image: `/assets/b10.png`,
+  },
     {
-    id: 49,
+    id: 50,
     slug: "tasmania-confirms-final-skilled-migration-round-and-issues-latest-weekly-invitations-today",
     title: "Tasmania Confirms Final Skilled Migration Round and Issues Latest Weekly Invitations Today ",
     metaTitle: "Tasmania Final Skilled Migration Round & Latest Invitations",
