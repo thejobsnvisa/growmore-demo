@@ -6,9 +6,9 @@ The latest round, held on 21 May 2026, issued 238 invitations across Subclass 19
 
 ## SA Invitations Issued on 21 May 2026
 
-| **ANZSCO Sub-major Group** | **Invitations on 21 May 2026** | | | **2025-26 invitations issued (to date)** | | |
-| --- | --- | | | --- | | | --- | --- | --- | --- |
-| **Subclass 190** | **Subclass 491** | **Total** | **Subclass 190 (Year to Date)** | **Subclass 491 (Year to Date)** | **Total (Year to Date)** |
+| ANZSCO Sub-major Group | Invitations on 21 May 2026 | 2025-26 invitations issued (to date) |
+| --- | --- | --- |
+| Subclass 190 | Subclass 491 | Total | Subclass 190 (Year to Date) | Subclass 491 (Year to Date) | Total (Year to Date) |
 | 13 Specialist Managers | 2 | 2 | 4 | 99 | 37 | 136 |
 | 14 Hospitality, Retail and Service Managers | 0 | 1 | 1 | 0 | 29 | 29 |
 | 22 Business, Human Resource and Marketing Professionals | 3 | 3 | 6 | 33 | 107 | 140 |
@@ -26,7 +26,7 @@ The latest round, held on 21 May 2026, issued 238 invitations across Subclass 19
 | 41 Health and Welfare Support Workers | 0 | 9 | 9 | 17 | 107 | 124 |
 | 45 Sports and Personal Service Workers | 0 | 0 | 0 | 1 | 0 | 1 |
 | 51 Office Managers and Program Administrators | 0 | 0 | 0 | 9 | 40 | 49 |
-| **Total** | **161** | **77** | **238** | **1767** | **1086** | **2853** |
+| Total | 161 | 77 | 238 | 1767 | 1086 | 2853 |
 
 ## Key Highlights From the Final Scheduled Round 
 
