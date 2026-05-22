@@ -1,14 +1,14 @@
 
 export const news = [
-   {
+  {
     id: 52,
-    slug: "wa-conducted-final-scheduled-invitation-round-for-2025-26",
-    title: "WA Conducted Final Scheduled Invitation Round for 2025–26",
-    metaTitle: "WA Conducted Final Scheduled Invitation Round for 2025–26",
-    metaDescription:"WA conducted its final scheduled invitation round for 2025–26, issuing 238 invitations across Subclass 190 and 491 visa pathways.",
+    slug: "sa-conducted-final-scheduled-invitation-round-for-2025-26",
+    title: "SA Conducted Final Scheduled Invitation Round for 2025–26",
+    metaTitle: "SA Conducted Final Scheduled Invitation Round for 2025–26",
+    metaDescription:"SA conducted its final scheduled invitation round for 2025–26, issuing 238 invitations across Subclass 190 and 491 visa pathways.",
     date: "May 22, 2026",
-    image: `/assets/b11.png`,
-  }, 
+    image: `/assets/b12.png`,
+  },   
   {
     id: 51,
     slug: "wa-releases-190-invitation-round-for-trade-occupations-on-3-may-2026",
