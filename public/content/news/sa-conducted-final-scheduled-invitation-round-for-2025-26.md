@@ -28,6 +28,7 @@ The latest round, held on 21 May 2026, issued 238 invitations across Subclass 19
 | 51 Office Managers and Program Administrators | 0 | 0 | 0 | 9 | 40 | 49 |
 | **Total** | **161** | **77** | **238** | **1767** | **1086** | **2853** |
 
+
 ## Key Highlights From the Final Scheduled Round 
 
 Out of the total 2,250 nomination places South Australia was granted for the 2025–26 migration program year, the state has already issued 2,853 invitations this year. This means the majority of SA’s nomination quota has already been utilised this program year.
