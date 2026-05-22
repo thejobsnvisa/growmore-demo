@@ -6,7 +6,8 @@ The latest round, held on 21 May 2026, issued 238 invitations across Subclass 19
 
 ## SA Invitations Issued on 21 May 2026
 
-
+|     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- |
 |  | **Invitations on 21 May 2026** | **2025-26 invitations issued (to date)** |
 | **ANZSCO Sub-major Group** | _Subclass 190_ | _Subclass 491_ | _Total_ | _Subclass 190_ | _Subclass 491_ | _Total_ |
 | **13 Specialist Managers** | 2 | 2 | 4 | 99 | 37 | 136 |
