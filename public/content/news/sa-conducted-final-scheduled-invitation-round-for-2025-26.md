@@ -6,26 +6,27 @@ The latest round, held on 21 May 2026, issued 238 invitations across Subclass 19
 
 ## SA Invitations Issued on 21 May 2026
 
-| ANZSCO Sub-major Group | Invitations on 21 May 2026 | 2025-26 invitations issued (to date) |
-|-------------------------|----------------------------|--------------------------------------|
-|  | Subclass 190 | Subclass 491 | Total | Subclass 190 (Year to Date) | Subclass 491 (Year to Date) | Total (Year to Date) |
-| 13 Specialist Managers | 2 | 2 | 4 | 99 | 37 | 136 |
-| 14 Hospitality, Retail and Service Managers | 0 | 1 | 1 | 0 | 29 | 29 |
-| 22 Business, Human Resource and Marketing Professionals | 3 | 3 | 6 | 33 | 107 | 140 |
-| 23 Design, Engineering, Science and Transport Professionals | 31 | 10 | 41 | 365 | 103 | 468 |
-| 24 Education Professionals | 20 | 2 | 22 | 157 | 38 | 195 |
-| 25 Health Professionals | 59 | 7 | 66 | 609 | 30 | 639 |
-| 26 ICT Professionals | 0 | 6 | 6 | 7 | 236 | 243 |
-| 27 Legal, Social and Welfare Professionals | 7 | 1 | 8 | 66 | 15 | 81 |
-| 31 Engineering, ICT and Science Technicians | 2 | 4 | 6 | 42 | 145 | 187 |
-| 32 Automotive and Engineering Trades Workers | 8 | 21 | 29 | 86 | 63 | 149 |
-| 33 Construction Trades Workers | 11 | 10 | 21 | 152 | 96 | 248 |
-| 34 Electrotechnology and Telecommunications Trades Workers | 18 | 1 | 19 | 124 | 15 | 139 |
-| 35 Food Trades Workers | 0 | 0 | 0 | 0 | 21 | 21 |
-| 36 Skilled Animal, Agricultural and Horticultural Workers | 0 | 0 | 0 | 0 | 4 | 4 |
-| 41 Health and Welfare Support Workers | 0 | 9 | 9 | 17 | 107 | 124 |
-| 45 Sports and Personal Service Workers | 0 | 0 | 0 | 1 | 0 | 1 |
-| 51 Office Managers and Program Administrators | 0 | 0 | 0 | 9 | 40 | 49 |
+|     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- |
+| **ANZSCO Sub-major Group** | **Invitations on 21 May 2026** |     |     | **2025-26 invitations issued (to date)** |     |     |
+| **Subclass 190** | **Subclass 491** | **Total** | **Subclass 190 (Year to Date)** | **Subclass 491 (Year to Date)** | **Total (Year to Date)** |
+| 13 Specialist Managers | 2   | 2   | 4   | 99  | 37  | 136 |
+| 14 Hospitality, Retail and Service Managers | 0   | 1   | 1   | 0   | 29  | 29  |
+| 22 Business, Human Resource and Marketing Professionals | 3   | 3   | 6   | 33  | 107 | 140 |
+| 23 Design, Engineering, Science and Transport Professionals | 31  | 10  | 41  | 365 | 103 | 468 |
+| 24 Education Professionals | 20  | 2   | 22  | 157 | 38  | 195 |
+| 25 Health Professionals | 59  | 7   | 66  | 609 | 30  | 639 |
+| 26 ICT Professionals | 0   | 6   | 6   | 7   | 236 | 243 |
+| 27 Legal, Social and Welfare Professionals | 7   | 1   | 8   | 66  | 15  | 81  |
+| 31 Engineering, ICT and Science Technicians | 2   | 4   | 6   | 42  | 145 | 187 |
+| 32 Automotive and Engineering Trades Workers | 8   | 21  | 29  | 86  | 63  | 149 |
+| 33 Construction Trades Workers | 11  | 10  | 21  | 152 | 96  | 248 |
+| 34 Electrotechnology and Telecommunications Trades Workers | 18  | 1   | 19  | 124 | 15  | 139 |
+| 35 Food Trades Workers | 0   | 0   | 0   | 0   | 21  | 21  |
+| 36 Skilled Animal, Agricultural and Horticultural Workers | 0   | 0   | 0   | 0   | 4   | 4   |
+| 41 Health and Welfare Support Workers | 0   | 9   | 9   | 17  | 107 | 124 |
+| 45 Sports and Personal Service Workers | 0   | 0   | 0   | 1   | 0   | 1   |
+| 51 Office Managers and Program Administrators | 0   | 0   | 0   | 9   | 40  | 49  |
 | **Total** | **161** | **77** | **238** | **1767** | **1086** | **2853** |
 
 
