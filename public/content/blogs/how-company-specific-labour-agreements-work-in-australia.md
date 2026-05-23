@@ -30,9 +30,7 @@ However, this pathway is not intended to replace standard employer-sponsored vis
 
 ## Key Requirements for Company Specific Agreements
 
-**Businesses must demonstrate:**
-
-### **Genuine Skill Shortages**
+**Businesses must demonstrate:**  **Genuine Skill Shortages**
 
 **Employers need to provide evidence such as:**
 
@@ -42,14 +40,14 @@ However, this pathway is not intended to replace standard employer-sponsored vis
 * Evidence of niche or specialised skill requirements  
 
 ### **Workforce Planning**
-
+\
 **Businesses must also show:**
 
 * Overseas workers will not exceed one-third of the workforce  
 * They have plans to train and employ Australians long term  
 
 ### **Business Eligibility**
-
+\
 **Employers must:**
 
 * Be legally operating in Australia  
@@ -59,7 +57,7 @@ However, this pathway is not intended to replace standard employer-sponsored vis
 * Not be insolvent  
 
 ### **Skill and Occupation Requirements**
-
+\
 The positions requested under the agreement generally must fall within the Australian and New Zealand Standard Classification of Occupations (ANZSCO) Skill Levels 1 to 4.
 
 In limited and exceptional circumstances, businesses located in Category 3 regional areas may also request occupations equivalent to ANZSCO Skill Level 5.
@@ -111,3 +109,5 @@ Some labour agreement pathways may provide access to permanent residency options
 ### **5. Can small businesses apply for a Company Specific Labour Agreement?**
 
 Yes. Small businesses may apply if they can demonstrate genuine labour shortages, financial capacity, lawful operations, and a strong business case for sponsoring overseas workers.
+
+[//]: # ({ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": \[ { "@type": "Question", "name": "1. Who can apply for a Company Specific Labour Agreement in Australia?", "acceptedAnswer": { "@type": "Answer", "text": "Australian businesses experiencing genuine skill shortages may apply if standard employer-sponsored visa pathways are not suitable and no industry agreement or DAMA applies to their situation" } }, { "@type": "Question", "name": "2.	Can a business request occupations that are not on the skilled occupation list?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. One of the key reasons businesses use Company Specific Labour Agreements is to request occupations that may not be available under standard skilled migration programs." } }, { "@type": "Question", "name": "3. Are employers allowed to request concessions under a labour agreement?", "acceptedAnswer": { "@type": "Answer", "text": "In some cases, yes. Employers may request concessions related to age, English, salary, or work experience requirements, but strong justification and supporting evidence are required." } }, { "@type": "Question", "name": "4. Does a Company Specific Labour Agreement lead to permanent residency?", "acceptedAnswer": { "@type": "Answer", "text": "Some labour agreement pathways may provide access to permanent residency options depending on the occupation, visa stream, and agreement conditions. However, this is assessed case by case." } }, { "@type": "Question", "name": "5.	Can small businesses apply for a Company Specific Labour Agreement?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Small businesses may apply if they can demonstrate genuine labour shortages, financial capacity, lawful operations, and a strong business case for sponsoring overseas workers." } } \] })
