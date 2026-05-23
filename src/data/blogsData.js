@@ -1,5 +1,14 @@
 export const blogs = [
-    {
+  {
+    id: 60,
+    slug: "how-company-specific-labour-agreements-work-in-australia",
+    title: "How Company Specific Labour Agreements Work in Australia",
+    metaTitle:"How Company Specific Labour Agreements Work in Australia",
+    metaDescription:"Learn how Company Specific Labour Agreements work in Australia, including eligibility, concessions, sponsorship requirements, and employer obligations.",
+    date: "May 23, 2026",
+    image: `/assets/bg60.png`,
+  },
+  {
     id: 59,
     slug: "how-australias-dama-program-works-for-employers-and-skilled-workers",
     title: "How Australia’s DAMA Program Works for Employers and Skilled Workers",
