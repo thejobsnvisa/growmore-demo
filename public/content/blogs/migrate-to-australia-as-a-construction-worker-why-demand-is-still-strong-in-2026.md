@@ -57,8 +57,8 @@ Construction workers can access Australia through either employer-sponsored rout
 |  | Subclass 186 Employer Nomination Scheme | Permanent residency pathway through employer nomination after meeting required experience and eligibility |
 |  | Subclass 494 Skilled Employer Sponsored Regional Visa | Regional employer-sponsored visa, which leads to a permanent residency pathway in regional Australia |
 | Skilled Migration | Subclass 189 Skilled Independent Visa | Permanent residency visa based purely on points and do not require employer or state sponsorship |
-| Subclass 190 Skilled Nominated Visa | Permanent residency visa, which requires nomination from an Australian state or territory |
-| Subclass 491 Skilled Work Regional Visa | Provisional regional visa with additional points and a PR pathway after regional work requirement |
+|  | Subclass 190 Skilled Nominated Visa | Permanent residency visa, which requires nomination from an Australian state or territory |
+|  | Subclass 491 Skilled Work Regional Visa | Provisional regional visa with additional points and a PR pathway after regional work requirement |
 
 ## **Why Many Skilled Workers Are Looking at Australia**
 
