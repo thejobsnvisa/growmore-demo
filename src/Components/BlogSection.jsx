@@ -5,31 +5,31 @@ import { Link } from "react-router-dom";
 const blogs = [
    {
     id: 1,
+    slug: "migrate-to-australia-as-a-construction-worker-why-demand-is-still-strong-in-2026",
+    title: "Migrate to Australia as a Construction Worker: Why Demand Is Still Strong in 2026",
+    metaTitle:"Migrate to Australia as a Construction Worker in 2026",
+    metaDescription:"Planning to migrate to Australia as a construction worker? Discover visa options, demand trends, and PR pathways for 2026.",
+    date: "May 25, 2026",
+    image: `/assets/bg61.png`,
+  },
+  {
+    id: 2,
+    slug: "how-company-specific-labour-agreements-work-in-australia",
+    title: "How Company Specific Labour Agreements Work in Australia",
+    metaTitle:"How Company Specific Labour Agreements Work in Australia",
+    metaDescription:"Learn how Company Specific Labour Agreements work in Australia, including eligibility, concessions, sponsorship requirements, and employer obligations.",
+    date: "May 23, 2026",
+    image: `/assets/bg60.png`,
+  },
+  {
+    id: 3,
     slug: "how-australias-dama-program-works-for-employers-and-skilled-workers",
     title: "How Australia’s DAMA Program Works for Employers and Skilled Workers",
     metaTitle:"Australia’s DAMA Program Explained for Employers and Skilled Workers",
     metaDescription:"Discover how Australia’s DAMA program helps employers fill skill shortages and provides skilled workers with unique visa opportunities. Learn about the benefits, eligibility, and application process for both employers and workers under the DAMA framework.",
     date: "May 16, 2026",
     image: `/assets/b1.png`,
-  },
-  {
-    id: 2,
-    slug: "complete-guide-to-industry-labour-agreements-in-australia",
-    title: "Complete Guide to Industry Labour Agreements in Australia",
-    metaTitle: "Industry Labour Agreements in Australia: Complete Guide",
-    metaDescription: "Explore Industry Labour Agreements Australia, approved occupations, employer-sponsored visas, concessions, and sponsorship requirements.",
-    date: "May 15, 2026",
-    image: `/assets/bg31.png`,
-  },
-  {
-    id: 3,
-    slug: "changing-employers-on-a-482-visa-understanding-condition-8607",
-    title: "Changing Employers on a 482 Visa: Understanding Condition 8607",
-    metaTitle: "Can You Change Employer on 482 Visa? Condition 8607 Explained",
-    metaDescription: "Find out if you can change employers on a 482 visa, how Condition 8607 works, and what rules apply after employment ends in Australia.",
-    date: "May 14, 2026",
-    image: `/assets/bg30.png`,
-  },
+  }
   
 ];
 
