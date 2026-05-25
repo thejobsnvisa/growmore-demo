@@ -1,7 +1,7 @@
 export const blogs = [
    {
     id: 61,
-    slug: "migrate-to-australia-as-a-construction-worker:-why-demand-is-still-strong-in-2026",
+    slug: "migrate-to-australia-as-a-construction-worker-why-demand-is-still-strong-in-2026",
     title: "Migrate to Australia as a Construction Worker: Why Demand Is Still Strong in 2026",
     metaTitle:"Migrate to Australia as a Construction Worker in 2026",
     metaDescription:"Planning to migrate to Australia as a construction worker? Discover visa options, demand trends, and PR pathways for 2026.",
