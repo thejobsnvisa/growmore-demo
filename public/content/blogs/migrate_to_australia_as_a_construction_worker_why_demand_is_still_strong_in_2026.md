@@ -116,22 +116,22 @@ So, whether you are exploring skilled migration, [PR in Australia](https://www.g
 
 ## FAQs
 
-### 1. Can construction workers still get PR in Australia in 2026?
+### **1. Can construction workers still get PR in Australia in 2026?**
 
 Yes. Many construction workers still have PR pathways through skilled migration or employer sponsorship programs.
 
-### 2. Which construction trades are in demand right now?
+### **2. Which construction trades are in demand right now?**
 
 Carpenters, electricians, plumbers, bricklayers, tilers, and civil construction workers remain in strong demand across Australia.
 
-### 3. Do I need a job offer to migrate to Australia?
+### **3. Do I need a job offer to migrate to Australia?**
 
 Not always. Some visas need employer sponsorship, while others are points-based and do not require a job offer.
 
-### 4. Do construction workers need a skills assessment?
+### **4. Do construction workers need a skills assessment?**
 
 In most cases, yes. A skills assessment is an important step for many Australian skilled visa pathways.
 
-### 5. Does overseas work experience help?
+### **5. Does overseas work experience help?**
 
 Definitely. Relevant work experience can strengthen your visa profile and improve your migration options.
