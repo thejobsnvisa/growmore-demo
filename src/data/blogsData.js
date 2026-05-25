@@ -1,4 +1,13 @@
 export const blogs = [
+   {
+    id: 61,
+    slug: "migrate_to_australia_as_a_construction_worker_why_demand_is_still_strong_in_2026",
+    title: "Migrate to Australia as a Construction Worker: Why Demand Is Still Strong in 2026",
+    metaTitle:"Migrate to Australia as a Construction Worker in 2026",
+    metaDescription:"Planning to migrate to Australia as a construction worker? Discover visa options, demand trends, and PR pathways for 2026.",
+    date: "May 25, 2026",
+    image: `/assets/bg61.png`,
+  },
   {
     id: 60,
     slug: "how-company-specific-labour-agreements-work-in-australia",
