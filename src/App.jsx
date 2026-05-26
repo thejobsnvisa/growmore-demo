@@ -129,7 +129,7 @@ function App() {
           <Route path="/our-services/employers/" element={<EmployerVisa />} />
           <Route path="/our-services/student-visa/" element={<StudentVisa />} />
           <Route
-            path="/our-services/gsm-general-skilled-migration"
+            path="/our-services/gsm-general-skilled-migration/"
             element={<GeneralSkilledMigration />}
           />
           <Route path="/our-services/dama/" element={<DAMA />} />
@@ -144,9 +144,9 @@ function App() {
           {/* Media */}
           <Route path="/videos/" element={<Videos />} />
           <Route path="/news/" element={<News />} />
-          <Route path="/news/:slug" element={<NewsArticle />} />
+          <Route path="/news/:slug/" element={<NewsArticle />} />
           <Route path="/blogs/" element={<Blogs />} />
-          <Route path="/blogs/:slug" element={<BlogsArtical />} />
+          <Route path="/blogs/:slug/" element={<BlogsArtical />} />
 
           {/* Contact */}
           <Route path="/contact-us/" element={<ContactUs />} />
@@ -203,7 +203,7 @@ function App() {
             element={<EmployerVisaLabour />}
           />
           <Route
-            path="/our-services/employers/nomination-application"
+            path="/our-services/employers/nomination-application/"
             element={<EmployerVisaEmployer />}
           />
           <Route
