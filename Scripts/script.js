@@ -76,8 +76,8 @@ const staticPages = [
 staticPages.forEach((url) => {
   sitemap.write({
     url,
-    changefreq: "weekly",
-    priority: 0.9,
+    changefreq: "daily",
+    priority: 0.1,
   });
 });
 
@@ -86,7 +86,7 @@ news.forEach((article) => {
   sitemap.write({
     url: `/news/${article.slug}/`,
     changefreq: "daily",
-    priority: 0.8,
+    priority: 0.1,
   });
 });
 
@@ -94,8 +94,8 @@ news.forEach((article) => {
 blogs.forEach((blog) => {
   sitemap.write({
     url: `/blogs/${blog.slug}/`,
-    changefreq: "monthly",
-    priority: 0.8,
+    changefreq: "daily",
+    priority: 0.1,
   });
 });
 
