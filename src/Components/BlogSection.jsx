@@ -4,6 +4,14 @@ import { Link } from "react-router-dom";
 
 const blogs = [
    {
+    id: 0,
+    slug: "vetassess-skills-assessment-guide-key-tips-for-a-positive-outcome",
+    title: "VETASSESS Skills Assessment Guide: Key Tips for a Positive Outcome",
+    metaTitle:"VETASSESS Skills Assessment Guide for Australia PR",
+    metaDescription:"How to improve your VETASSESS skills assessment with proper occupation selection, strong evidence, and ANZSCO-aligned documents.",
+    date: "May 26, 2026",
+    image: `/assets/bg62.png`,
+  },{
     id: 1,
     slug: "migrate-to-australia-as-a-construction-worker-why-demand-is-still-strong-in-2026",
     title: "Migrate to Australia as a Construction Worker: Why Demand Is Still Strong in 2026",
@@ -20,15 +28,6 @@ const blogs = [
     metaDescription:"Learn how Company Specific Labour Agreements work in Australia, including eligibility, concessions, sponsorship requirements, and employer obligations.",
     date: "May 23, 2026",
     image: `/assets/bg60.png`,
-  },
-  {
-    id: 3,
-    slug: "how-australias-dama-program-works-for-employers-and-skilled-workers",
-    title: "How Australia’s DAMA Program Works for Employers and Skilled Workers",
-    metaTitle:"Australia’s DAMA Program Explained for Employers and Skilled Workers",
-    metaDescription:"Discover how Australia’s DAMA program helps employers fill skill shortages and provides skilled workers with unique visa opportunities. Learn about the benefits, eligibility, and application process for both employers and workers under the DAMA framework.",
-    date: "May 16, 2026",
-    image: `/assets/b1.png`,
   }
   
 ];
