@@ -76,7 +76,7 @@ Once your documents are ready, go to the [VETASSESS official website](https://ww
 4.  Pay the fee (Around AUD 1,096)
 5.  Submit the application and wait for the result.
 
-After you receive a positive skills assessment outcome, you may become eligible to apply for various skilled migration visas in Australia, such as the Subclass 189 (Skilled Independent), [Subclass 190 (Skilled Nominated), or Subclass 491 (Skilled Work Regional) visas](https://www.growmore.one/difference-between-subclass-491-and-subclass-190/), based on your circumstances and state nomination.
+After you receive a positive skills assessment outcome, you may become eligible to apply for various skilled migration visas in Australia, such as the Subclass 189 (Skilled Independent), [Subclass 190 (Skilled Nominated)](https://www.growmore.one/difference-between-subclass-491-and-subclass-190/), or [Subclass 491 (Skilled Work Regional) visas](https://www.growmore.one/blogs/queensland-skilled-migration-program-2025-26-state-nomination-guide/), based on your circumstances and state nomination.
 
 **Tips to Get a Positive Skill Assessment**
 

@@ -1,5 +1,14 @@
 export const blogs = [
-   {
+  {
+    id: 62,
+    slug: "vetassess-skills-assessment-guide-key-tips-for-a-positive-outcome",
+    title: "VETASSESS Skills Assessment Guide: Key Tips for a Positive Outcome",
+    metaTitle:"VETASSESS Skills Assessment Guide for Australia PR",
+    metaDescription:"How to improve your VETASSESS skills assessment with proper occupation selection, strong evidence, and ANZSCO-aligned documents.",
+    date: "May 26, 2026",
+    image: `/assets/bg62.png`,
+  },
+  {
     id: 61,
     slug: "migrate-to-australia-as-a-construction-worker-why-demand-is-still-strong-in-2026",
     title: "Migrate to Australia as a Construction Worker: Why Demand Is Still Strong in 2026",
