@@ -266,7 +266,7 @@ function App() {
           />
         </Routes>
       </Suspense>
-
+       <elevenlabs-convai agent-id="agent_5201ksmd3c0zfkg82bgbk6p727yn"></elevenlabs-convai><script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
       <Footer />
     </Router>
   );
