@@ -1,4 +1,13 @@
 export const blogs = [
+   {
+    id: 63,
+    slug: "the-real-difference-between-direct-entry-and-trt-pathways-for-subclass-186",
+    title: "The Real Difference Between Direct Entry and TRT Pathways for Subclass 186",
+    metaTitle:"Subclass 186 Direct Entry vs TRT: Key Differences",
+    metaDescription:"Compare Subclass 186 Direct Entry and TRT pathways for Australia PR, including work experience, employer requirements, and eligibility.",
+    date: "May 27, 2026",
+    image: `/assets/bg63.png`,
+  },
   {
     id: 62,
     slug: "vetassess-skills-assessment-guide-key-tips-for-a-positive-outcome",
