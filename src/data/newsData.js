@@ -1,18 +1,18 @@
 
 export const news = [
-  {
+{
     id: 52,
-    slug: "sa-conducted-final-scheduled-invitation-round-for-2025-26",
-    title: "SA Conducted Final Scheduled Invitation Round for 2025–26",
-    metaTitle: "SA Conducted Final Scheduled Invitation Round for 2025–26",
-    metaDescription:"SA conducted its final scheduled invitation round for 2025–26, issuing 238 invitations across Subclass 190 and 491 visa pathways.",
-    date: "May 22, 2026",
-    image: `/assets/b12.png`,
-  },   
-  {
+    slug: "tasmania-state-nomination-results-released-64-rois-invited-today",
+    title: "Tasmania State Nomination Results Released: 64 ROIs Invited Today",
+    metaTitle: "Tasmania State Nomination Results: 64 ROIs Invited",
+    metaDescription:"Tasmania invited 64 ROIs on 28 May 2026 across Subclass 190 and 491 visas. Final invitation round expected on 04 June 2026 for Australia PR applicants.",
+    date: "May 28, 2026",
+    image: `/assets/nb11.png`,
+  },    
+{
     id: 51,
     slug: "wa-releases-190-invitation-round-for-trade-occupations-on-3-may-2026",
-    title: "WA Released 190 Invitation Round for Trade Occupations on 3 May 2026 ",
+    title: "WA Released 190 Invitation Round for Trade Occupations on 3 May 2026",
     metaTitle: "WA 190 Invitation Round Released for Trade Occupations",
     metaDescription:"Western Australia released its 190 invitation round on 3 May 2026, focusing on trade occupations with reduced allocations in the final program stage.",
     date: "May 21, 2026",
