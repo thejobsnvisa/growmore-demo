@@ -8,7 +8,7 @@ Australia introduced the visa pre-application ballot system for selecting applic
 
 Instead of allowing unlimited direct applications, eligible applicants must first register through the ballot system inside ImmiAccount. Registrations are then randomly selected throughout the program year, meaning selection is random once applicants meet the eligibility requirements.
 
-The ballot registration fee is AUD25.
+**The ballot registration fee is AUD25.**
 
 Importantly, being selected in the ballot does not automatically guarantee visa approval. Applicants must still meet all eligibility and visa requirements when lodging the actual Subclass 462 Work and Holiday visa application.
 
