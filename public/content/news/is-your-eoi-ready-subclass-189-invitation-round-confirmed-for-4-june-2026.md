@@ -1,8 +1,6 @@
-# Is Your EOI Ready? Subclass 189 Invitation Round Confirmed for 4 June 2026
+If you have been waiting for the next Subclass 189 invitation round, the wait is finally over. Australia has officially confirmed that the next Skilled Independent visa (subclass 189) invitation round will be conducted on 4 June 2026. 
 
-If you have been waiting for the next Subclass 189 invitation round, the wait is finally over.
-
-Australia has officially confirmed that the next Skilled Independent visa (subclass 189) invitation round will be conducted on 4 June 2026. This announcement is important for thousands of skilled migration applicants planning to apply under Australia’s [General Skilled Migration (GSM) program](https://www.growmore.one/our-services/gsm-general-skilled-migration), both from inside and outside Australia.
+This announcement is important for thousands of skilled migration applicants planning to apply under Australia’s [General Skilled Migration (GSM) program](https://www.growmore.one/our-services/gsm-general-skilled-migration), both from inside and outside Australia.
 
 Along with this announcement, the government has also issued an important reminder to all applicants to ensure their Expression of Interest (EOI) is fully updated and contains accurate information.
 
