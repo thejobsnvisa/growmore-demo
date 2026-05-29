@@ -1,6 +1,15 @@
 
 export const news = [
 {
+    id: 54,
+    slug: "is-your-eoi-ready-subclass-189-invitation-round-confirmed-for-4-june-2026",
+    title: "Is Your EOI Ready? Subclass 189 Invitation Round Confirmed for 4 June 2026",
+    metaTitle: "Subclass 189 Invitation Round Confirmed for 4 June 2026",
+    metaDescription:"Australia confirms the next Subclass 189 invitation round for 4 June 2026. Check important EOI updates, points factors, and visa tips.",
+    date: "May 29, 2026",
+    image: `/assets/nb12.png`,
+  },
+  {
     id: 53,
     slug: "tasmania-state-nomination-results-released-64-rois-invited-today",
     title: "Tasmania State Nomination Results Released: 64 ROIs Invited Today",
