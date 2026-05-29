@@ -1,6 +1,15 @@
 
 export const news = [
 {
+    id: 55,
+    slug: "good-news-for-indian-applicants-australia-will-open-subclass-462-visa-ballot-on-4-june-2026",
+    title: "Good News for Indian Applicants: Australia Will Open Subclass 462 Visa Ballot on 4 June 2026",
+    metaTitle: "Australia Opens Subclass 462 Visa Ballot on 4 June 2026",
+    metaDescription:"Australia confirms Subclass 462 visa ballot registrations will open from 4 June 2026 for eligible Indian applicants.",
+    date: "May 29, 2026",
+    image: `/assets/nb13.png`,
+  },
+  {
     id: 54,
     slug: "is-your-eoi-ready-subclass-189-invitation-round-confirmed-for-4-june-2026",
     title: "Is Your EOI Ready? Subclass 189 Invitation Round Confirmed for 4 June 2026",
