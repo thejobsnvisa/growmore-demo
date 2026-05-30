@@ -5,29 +5,29 @@ import { Link } from "react-router-dom";
 const blogs = [
    {
     id: 0,
+    slug: "cook-vs-chef-australia-pr-guide-skills-assessment-visa-options",
+    title: "Cook vs Chef Australia PR Guide: Skills Assessment & Visa Options",
+    metaTitle:"Chef vs Cook Australia Migration Guide",
+    metaDescription:"Learn Cook and Chef PR pathways in Australia, TRA skills assessment requirements, and visa options for skilled migrants.",
+    date: "May 30, 2026",
+    image: `/assets/bg64.png`,
+  }, 
+  {
+    id: 1,
+    slug: "the-real-difference-between-direct-entry-and-trt-pathways-for-subclass-186",
+    title: "The Real Difference Between Direct Entry and TRT Pathways for Subclass 186",
+    metaTitle:"Subclass 186 Direct Entry vs TRT: Key Differences",
+    metaDescription:"Compare Subclass 186 Direct Entry and TRT pathways for Australia PR, including work experience, employer requirements, and eligibility.",
+    date: "May 27, 2026",
+    image: `/assets/bg63.png`,
+  },{
+    id: 2,
     slug: "vetassess-skills-assessment-guide-key-tips-for-a-positive-outcome",
     title: "VETASSESS Skills Assessment Guide: Key Tips for a Positive Outcome",
     metaTitle:"VETASSESS Skills Assessment Guide for Australia PR",
     metaDescription:"How to improve your VETASSESS skills assessment with proper occupation selection, strong evidence, and ANZSCO-aligned documents.",
     date: "May 26, 2026",
     image: `/assets/bg62.png`,
-  },{
-    id: 1,
-    slug: "migrate-to-australia-as-a-construction-worker-why-demand-is-still-strong-in-2026",
-    title: "Migrate to Australia as a Construction Worker: Why Demand Is Still Strong in 2026",
-    metaTitle:"Migrate to Australia as a Construction Worker in 2026",
-    metaDescription:"Planning to migrate to Australia as a construction worker? Discover visa options, demand trends, and PR pathways for 2026.",
-    date: "May 25, 2026",
-    image: `/assets/bg61.png`,
-  },
-  {
-    id: 2,
-    slug: "how-company-specific-labour-agreements-work-in-australia",
-    title: "How Company Specific Labour Agreements Work in Australia",
-    metaTitle:"How Company Specific Labour Agreements Work in Australia",
-    metaDescription:"Learn how Company Specific Labour Agreements work in Australia, including eligibility, concessions, sponsorship requirements, and employer obligations.",
-    date: "May 23, 2026",
-    image: `/assets/bg60.png`,
   }
   
 ];
