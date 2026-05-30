@@ -9,7 +9,7 @@ So, if you are planning to work as a cook or chef in Australia, let’s understa
 In Australia’s hospitality sector, Chefs and Cooks are classified as two separate occupations under ANZSCO, and their roles differ mainly in responsibility level, planning authority, and kitchen management involvement.
 
 ### **Cooks (ANZSCO 351411) - Skill Level 3**
-\
+&nbsp;
 Cooks are responsible for preparing, seasoning, and cooking food in dining and catering establishments.
 
 **Their main duties include:**
@@ -24,8 +24,8 @@ Cooks are responsible for preparing, seasoning, and cooking food in dining and c
 * May plan menus and estimate food requirements  
 * May train other kitchen staff and apprentices  
 
-### Chefs (ANZSCO 351311) - Skill Level 2
-
+### **Chefs (ANZSCO 351311) - Skill Level 2**
+&nbsp;
 Chefs are responsible for planning, organising, and overseeing the preparation and cooking of food in dining and catering establishments.
 
 **Their main duties include:**
@@ -46,7 +46,7 @@ Chefs are responsible for planning, organising, and overseeing the preparation a
 **While requirements may vary slightly depending on the occupation and assessment pathway, common criteria include:**
 
 ### **For Cooks:**
-\
+&nbsp;
 * An AQF Certificate III including at least two years of on-the-job training  
 * Or an AQF Certificate IV  
 * Or an equivalent overseas qualification  
@@ -54,7 +54,7 @@ Chefs are responsible for planning, organising, and overseeing the preparation a
 Compared to chefs, cooks are generally assessed more on food preparation and operational kitchen duties rather than overall kitchen management and planning responsibilities.
 
 ### **For Chefs:**
-\
+&nbsp;
 * An AQF Associate Degree, Advanced Diploma, or Diploma  
 * Or an equivalent overseas qualification considered comparable to Australian standards  
 
@@ -102,16 +102,16 @@ Successful applicants receive a positive skills assessment outcome that can be u
 
 Cooks and Chefs may become eligible for several Australian migration pathways depending on factors such as age, English level, work experience, sponsorship availability, and state nomination requirements.
 
-**Some common pathways include:**
+## Some common pathways include:
 
-### General Skilled Migration (GSM)
-\
+### **General Skilled Migration (GSM)**
+&nbsp;
 * Subclass 189 Skilled Independent Visa  
 * Subclass 190 Skilled Nominated Visa  
 * Subclass 491 Skilled Work Regional (Provisional) visa  
 
-### Employer-Sponsored Pathways
-\
+### **Employer-Sponsored Pathways**
+&nbsp;
 * Subclass 482 Skills in Demand Visa  
 * Subclass 186 Employer Nomination Scheme  
 * Subclass 494 Skilled Employer Sponsored Regional Visa  
