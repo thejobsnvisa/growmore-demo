@@ -1,5 +1,3 @@
-# Cook vs Chef Australia PR Guide: Skills Assessment & Visa Options
-
 Working as a cook or chef in Australia is one of the most popular career pathways among skilled migrants. With ongoing demand across restaurants, hotels, cafés, and regional hospitality businesses, many skilled workers also see this occupation as a long-term Australia PR opportunity.
 
 However, to get the benefit of this job market, applicants need to demonstrate that their experience and qualifications align with Australian occupation standards through an approved skills assessment. This assessment is a mandatory step for most skilled and employer-sponsored visa pathways and is used to verify whether an applicant’s skills match the requirements set under the ANZSCO occupation framework.
