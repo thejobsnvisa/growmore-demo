@@ -1,5 +1,14 @@
 export const blogs = [
    {
+    id: 64,
+    slug: "cook-vs-chef-australia-pr-guide-skills-assessment-visa-options",
+    title: "Cook vs Chef Australia PR Guide: Skills Assessment & Visa Options",
+    metaTitle:"Chef vs Cook Australia Migration Guide",
+    metaDescription:"Learn Cook and Chef PR pathways in Australia, TRA skills assessment requirements, and visa options for skilled migrants.",
+    date: "May 30, 2026",
+    image: `/assets/bg64.png`,
+  }, 
+  {
     id: 63,
     slug: "the-real-difference-between-direct-entry-and-trt-pathways-for-subclass-186",
     title: "The Real Difference Between Direct Entry and TRT Pathways for Subclass 186",
