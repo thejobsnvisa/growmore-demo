@@ -1,5 +1,3 @@
-# Cook vs Chef Australia PR Guide: Skills Assessment & Visa Options
-
 Working as a cook or chef in Australia is one of the most popular career pathways among skilled migrants. With ongoing demand across restaurants, hotels, cafés, and regional hospitality businesses, many skilled workers also see this occupation as a long-term Australia PR opportunity.
 
 However, to get the benefit of this job market, applicants need to demonstrate that their experience and qualifications align with Australian occupation standards through an approved skills assessment. This assessment is a mandatory step for most skilled and employer-sponsored visa pathways and is used to verify whether an applicant’s skills match the requirements set under the ANZSCO occupation framework.
@@ -10,8 +8,8 @@ So, if you are planning to work as a cook or chef in Australia, let’s understa
 
 In Australia’s hospitality sector, Chefs and Cooks are classified as two separate occupations under ANZSCO, and their roles differ mainly in responsibility level, planning authority, and kitchen management involvement.
 
-### Cooks (ANZSCO 351411) - Skill Level 3
-
+### **Cooks (ANZSCO 351411) - Skill Level 3**
+\
 Cooks are responsible for preparing, seasoning, and cooking food in dining and catering establishments.
 
 **Their main duties include:**
@@ -47,16 +45,16 @@ Chefs are responsible for planning, organising, and overseeing the preparation a
 
 **While requirements may vary slightly depending on the occupation and assessment pathway, common criteria include:**
 
-### For Cooks:
-
+### **For Cooks:**
+\
 * An AQF Certificate III including at least two years of on-the-job training  
 * Or an AQF Certificate IV  
 * Or an equivalent overseas qualification  
 
 Compared to chefs, cooks are generally assessed more on food preparation and operational kitchen duties rather than overall kitchen management and planning responsibilities.
 
-### For Chefs:
-
+### **For Chefs:**
+\
 * An AQF Associate Degree, Advanced Diploma, or Diploma  
 * Or an equivalent overseas qualification considered comparable to Australian standards  
 
@@ -107,13 +105,13 @@ Cooks and Chefs may become eligible for several Australian migration pathways de
 **Some common pathways include:**
 
 ### General Skilled Migration (GSM)
-
+\
 * Subclass 189 Skilled Independent Visa  
 * Subclass 190 Skilled Nominated Visa  
 * Subclass 491 Skilled Work Regional (Provisional) visa  
 
 ### Employer-Sponsored Pathways
-
+\
 * Subclass 482 Skills in Demand Visa  
 * Subclass 186 Employer Nomination Scheme  
 * Subclass 494 Skilled Employer Sponsored Regional Visa  
