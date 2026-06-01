@@ -1,5 +1,14 @@
 export const blogs = [
    {
+    id: 65,
+    slug: "australias-working-holiday-maker-program-a-visa-opportunity-for-young-travellers",
+    title: "Australia’s Working Holiday Maker Program: A Visa Opportunity for Young Travellers",
+    metaTitle:"Chef vs Cook Australia Migration Guide",
+    metaDescription:"Planning a Working Holiday visa for Australia? Understand Subclass 417 vs 462, country eligibility, ballot rules, work rights, and future PR options.",
+    date: "Jun 01, 2026",
+    image: `/assets/bg65.png`,
+  }, 
+  {
     id: 64,
     slug: "cook-vs-chef-australia-pr-guide-skills-assessment-visa-options",
     title: "Cook vs Chef Australia PR Guide: Skills Assessment & Visa Options",
