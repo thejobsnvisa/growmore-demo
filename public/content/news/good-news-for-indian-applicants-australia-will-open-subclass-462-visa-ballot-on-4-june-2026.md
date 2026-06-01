@@ -39,7 +39,7 @@ Multiple random selection rounds may occur throughout the program year until ava
 
 The selection process is fully random and automated. Australia does not use ranking scores, occupations, or additional selection criteria during the ballot process.
 
-If an applicant is randomly selected, they will receive a ‘Notification of Selection’ letter by email. Selected applicants will then have 28 calendar days to lodge their first Work and Holiday (subclass 462) visa application through ImmiAccount.
+If an applicant is randomly selected, they will receive a ‘Notification of Selection’ letter by email. Selected applicants will then have 28 calendar days to lodge their first [Work and Holiday (subclass 462) visa application](https://www.growmore.one/blogs/australias-working-holiday-maker-program-a-visa-opportunity-for-young-travellers/) through ImmiAccount.
 
 However, applicants who are not selected will not receive a separate notification. The Department has also confirmed that the AUD25 ballot registration fee is non-refundable, including situations where applicants withdraw their registration or are not selected.
 
