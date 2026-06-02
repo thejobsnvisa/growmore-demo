@@ -1,6 +1,15 @@
 
 export const news = [
 {
+    id: 57,
+    slug: "south-australia-closes-roi-intake-as-202526-skilled-migration-program-nears-end",
+    title: "South Australia Closes ROI Intake as 2025–26 Skilled Migration Program Nears End",
+    metaTitle: "South Australia Closes ROI Intake for 2025–26 Program",
+    metaDescription:"South Australia has closed ROI intake for the 2025–26 skilled migration program, marking the end of new submissions after the final invitation round.",
+    date: "Jun 02, 2026",
+    image: `/assets/nb15.png`,
+  },
+  {
     id: 56,
     slug: "2025-26-occupation-ceiling-insights-for-subclass-189-applicants",
     title: "2025–26 Occupation Ceiling Insights for Subclass 189 Applicants",
