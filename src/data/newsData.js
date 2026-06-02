@@ -1,6 +1,15 @@
 
 export const news = [
 {
+    id: 56,
+    slug: "2025-26-occupation-ceiling-insights-for-subclass-189-applicants",
+    title: "2025–26 Occupation Ceiling Insights for Subclass 189 Applicants",
+    metaTitle: "2025–26 Occupation Ceiling Insights for Subclass 189 Applicants",
+    metaDescription:"Explore the 2025–26 occupation ceiling data for Subclass 189 visas, including remaining capacity across healthcare, trades, education, and ICT roles.",
+    date: "Jun 02, 2026",
+    image: `/assets/nb14.png`,
+  },
+  {
     id: 55,
     slug: "good-news-for-indian-applicants-australia-will-open-subclass-462-visa-ballot-on-4-june-2026",
     title: "Good News for Indian Applicants: Australia Will Open Subclass 462 Visa Ballot on 4 June 2026",
