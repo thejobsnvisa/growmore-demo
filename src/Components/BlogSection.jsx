@@ -3,8 +3,16 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-   {
+    {
     id: 0,
+    slug: "australias-working-holiday-maker-program-a-visa-opportunity-for-young-travellers",
+    title: "Australia’s Working Holiday Maker Program: A Visa Opportunity for Young Travellers",
+    metaTitle:"Chef vs Cook Australia Migration Guide",
+    metaDescription:"Planning a Working Holiday visa for Australia? Understand Subclass 417 vs 462, country eligibility, ballot rules, work rights, and future PR options.",
+    date: "Jun 01, 2026",
+    image: `/assets/bg65.png`,
+  }, {
+    id: 1,
     slug: "cook-vs-chef-australia-pr-guide-skills-assessment-visa-options",
     title: "Cook vs Chef Australia PR Guide: Skills Assessment & Visa Options",
     metaTitle:"Chef vs Cook Australia Migration Guide",
@@ -13,21 +21,13 @@ const blogs = [
     image: `/assets/bg64.png`,
   }, 
   {
-    id: 1,
+    id: 2,
     slug: "the-real-difference-between-direct-entry-and-trt-pathways-for-subclass-186",
     title: "The Real Difference Between Direct Entry and TRT Pathways for Subclass 186",
     metaTitle:"Subclass 186 Direct Entry vs TRT: Key Differences",
     metaDescription:"Compare Subclass 186 Direct Entry and TRT pathways for Australia PR, including work experience, employer requirements, and eligibility.",
     date: "May 27, 2026",
     image: `/assets/bg63.png`,
-  },{
-    id: 2,
-    slug: "vetassess-skills-assessment-guide-key-tips-for-a-positive-outcome",
-    title: "VETASSESS Skills Assessment Guide: Key Tips for a Positive Outcome",
-    metaTitle:"VETASSESS Skills Assessment Guide for Australia PR",
-    metaDescription:"How to improve your VETASSESS skills assessment with proper occupation selection, strong evidence, and ANZSCO-aligned documents.",
-    date: "May 26, 2026",
-    image: `/assets/bg62.png`,
   }
   
 ];
