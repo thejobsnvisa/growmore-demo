@@ -99,19 +99,19 @@ Although occupation ceilings do not influence invitation decisions directly, the
 
 The 2025–26 occupation ceiling data highlights a clear concentration of remaining capacity in essential services, particularly within healthcare, education, and selected trade occupations. However, it also reflects tightening conditions in several high-demand professional and ICT occupations.
 
-## **Healthcare remains the strongest allocation area**
+### **Healthcare remains the strongest allocation area**
 
 Healthcare occupations continue to dominate the upper tier of remaining capacity. Registered Nurses (2544) show the highest available places, followed by General Practitioners, Physiotherapists, Occupational Therapists, Medical Imaging Professionals, and other allied health roles.
 
-## **Education and social services maintain stable demand**
+### **Education and social services maintain stable demand**
 
 Education-related occupations also show strong remaining capacity across multiple categories. Secondary School Teachers, Early Childhood Teachers, Psychologists, and Social Workers all continue to record significant available places.
 
-## **Trades and construction occupations show broad distribution**
+### **Trades and construction occupations show broad distribution**
 
 A wide range of trade occupations continue to hold substantial remaining capacity under Tier 3 allocations. Electricians, Carpenters and Joiners, Plumbers, Construction Managers, and Metal Fitters and Machinists remain among the most consistently supported occupations.
 
-## **ICT, accounting, and selected professional occupations show tighter capacity**
+### **ICT, accounting, and selected professional occupations show tighter capacity**
 
 On the other hand, several traditionally popular occupations such as Software and Applications Programmers, ICT Business and Systems Analysts, Accountants, Chefs, and some engineering occupations show no remaining capacity under the occupation ceiling calculations.
 
@@ -119,7 +119,7 @@ On the other hand, several traditionally popular occupations such as Software an
 
 As the [4 June 2026 Subclass 189 invitation round](https://www.growmore.one/news/is-your-eoi-ready-subclass-189-invitation-round-confirmed-for-4-june-2026/) approaches, occupation ceiling figures are once again attracting attention from applicants planning their Australia PR journey. The figures show particularly strong capacity in healthcare, teaching, and several trade occupations, while some traditionally popular occupations remain highly competitive.
 
-## **Want to understand your chances of receiving an invitation?**
+### **Want to understand your chances of receiving an invitation?**
 
 Speak with a [MARA registered agent Australia](https://www.growmore.one/) (MARA No. 2217941) for personalised guidance on your occupation, points score, and visa options.
 
