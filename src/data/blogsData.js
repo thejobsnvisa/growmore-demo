@@ -1,5 +1,14 @@
 export const blogs = [
-   {
+  {
+    id: 66,
+    slug: "same-points-different-results-how-subclass-189-invitations-actually-work",
+    title: "Same Points, Different Results: How Subclass 189 Invitations Actually Work",
+    metaTitle:"Subclass 189 Invitations: Why Same Points Get Different Results",
+    metaDescription:"Learn why Subclass 189 applicants with the same points can receive different outcomes. Understand EOI ranking, date of effect, and invitations.",
+    date: "Jun 03, 2026",
+    image: `/assets/bg66.png`,
+  },  
+  {
     id: 65,
     slug: "australias-working-holiday-maker-program-a-visa-opportunity-for-young-travellers",
     title: "Australia’s Working Holiday Maker Program: A Visa Opportunity for Young Travellers",
