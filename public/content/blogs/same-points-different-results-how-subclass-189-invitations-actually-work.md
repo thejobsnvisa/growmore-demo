@@ -16,17 +16,17 @@ To understand this properly, let’s take an example of one competitive occupati
 
 Australia’s SkillSelect system works like a live ranking queue. Before receiving an [invitation for Subclass 189](https://www.growmore.one/news/is-your-eoi-ready-subclass-189-invitation-round-confirmed-for-4-june-2026/), applicants must first submit an Expression of Interest (EOI). The system then ranks EOIs based on the information provided, including:
 
-1. Age
+* Age
 
-2. English language ability
+* English language ability
 
-3.  Skilled work experience
+* Skilled work experience
 
-4. Educational qualifications
+* Educational qualifications
 
-5. Partner points
+* Partner points
 
-6. Other eligible factors
+* Other eligible factors
 
 Here, generally, higher points rank above lower points. But when multiple applicants hold the same points score, SkillSelect uses a tie-break system called the “date of effect.” This means the applicant who achieved that score earlier is usually given priority.
 
