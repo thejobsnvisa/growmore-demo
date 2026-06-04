@@ -4,7 +4,7 @@ The final round, held on 4 June 2026, provides an important snapshot of Tasmania
 
 **Here is the full update:**
 
-### Latest Tasmania Invitation Round Results – 4 June 2026
+## Latest Tasmania Invitation Round Results – 4 June 2026
 
 | Visa Subclass | Invitations Issued | Lowest Score Invited |
 | :--- | :--- | :--- |
@@ -14,7 +14,7 @@ The final round, held on 4 June 2026, provides an important snapshot of Tasmania
 
 The latest results show that Tasmania continued to prioritise Green Pass candidates in its final invitation round of the 2025–26 program year across both subclasses.
 
-### Tasmania Skilled Migration Program Status After the Final Round
+## Tasmania Skilled Migration Program Status After the Final Round
 
 **Following the invitation round, Tasmania reported the following figures:**
 
@@ -27,11 +27,11 @@ The latest results show that Tasmania continued to prioritise Green Pass candida
 
 The figures highlight strong ongoing demand for Tasmania state nomination, with more than 1,100 Registrations of Interest (ROIs) still on hand despite the limited number of nomination places remaining across both visa pathways. At the same time, a significant number of applications and invitations are still progressing through the nomination process.
 
-### **Processing Times Update**
+## **Processing Times Update**
 
 Tasmania has also confirmed that the oldest nomination application awaiting allocation to a case officer was lodged on 6 March 2026.
 
-### **What Applicants Should Know Now**
+## **What Applicants Should Know Now**
 
 With the final round already completed, the remaining number of places stands at 41 for Subclass 190 and 123 for Subclass 491, keeping competition for Tasmania nomination high. 
 
