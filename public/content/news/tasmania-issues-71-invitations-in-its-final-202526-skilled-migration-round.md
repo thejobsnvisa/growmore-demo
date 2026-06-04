@@ -41,9 +41,9 @@ This suggests that a large number of the remaining nomination places may already
 
 Applicants with an active ROI should continue to monitor Tasmania's migration updates and ensure that their information remains accurate and up to date.
 
-### **Need Help with Tasmania State Nomination or Australia PR?**
+## **Need Help with Tasmania State Nomination or Australia PR?**
 
-If you are planning to [apply for the Tasmania state nomination](https://www.growmore.one/news/tasmania-state-nomination-program-final-quarter/), understanding the latest invitation trends and state priorities can help you prepare better for the upcoming 2026–27 nomination program. 
+If you are planning to [apply for the Tasmania state nomination](https://www.growmore.one/news/tasmania-state-nomination-program-final-quarter/), understanding the latest invitation trends and state priorities can help you prepare better for the upcoming 2026–27 nomination program.
 
 With Tasmania's 2025–26 nomination program now effectively concluded, this is an ideal time to review your eligibility and prepare for the next nomination cycle. Early preparation can make a significant difference when new state allocations become available.
 
