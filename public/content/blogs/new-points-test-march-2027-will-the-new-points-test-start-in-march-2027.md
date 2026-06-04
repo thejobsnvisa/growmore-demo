@@ -15,9 +15,10 @@ The positive takeaway is that Australia continues to value skilled migrants and 
 If and when the Department of Home Affairs confirms details of the new Australian points test, I will provide a detailed analysis of what the changes mean for prospective migrants. Until then, stay informed, follow official announcements and avoid making migration decisions based solely on unofficial reports.
 
 ### **Krunal Nayak**  
-**Registered Migration Agent**  
-**MARN: 2217941**
 
-### ** Disclaimer**
+* **Registered Migration Agent**  
+* **MARN: 2217941**
+
+### **Disclaimer**
 
 This article reflects the author's personal interpretation and opinion based on information available at the time of writing. The reported March 2027 commencement date has not been officially confirmed by the Department of Home Affairs. Readers should rely on official Government announcements before making migration decisions.

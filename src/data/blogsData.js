@@ -6,7 +6,7 @@ export const blogs = [
     metaTitle:"New Points Test March 2027: Will the New Points Test Start in March 2027?",
     metaDescription:"Will Australia's new skilled migration points test launch in March 2027? Get the latest updates on timelines, changes, and what it means for your PR visa.",
     date: "Jun 04, 2026",
-    image: `/assets/bg67.png`,
+    image: `/assets/bg67.jpg`,
   },
   {
     id: 66,
