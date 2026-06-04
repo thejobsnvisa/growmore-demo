@@ -1,6 +1,24 @@
 
 export const news = [
 {
+    id: 59,
+    slug: "australias-latest-subclass-189-round-is-out-did-you-get-invited",
+    title: "Australia's Latest Subclass 189 Round Is Out: Did You Get Invited?",
+    metaTitle: "Australia 189 Visa Invitation Round: Did You Get Selected?",
+    metaDescription:"Subclass 189 invitation round results released on 4 June 2026. Check occupation-wise scores, trends, and Australia PR opportunities.",
+    date: "Jun 04, 2026",
+    image: `/assets/nb17.png`,
+  },
+  {
+    id: 58,
+    slug: "tasmania-issues-71-invitations-in-its-final-202526-skilled-migration-round",
+    title: "Tasmania Issues 71 Invitations in Its Final 2025–26 Skilled Migration Round",
+    metaTitle: "Tasmania Issues 71 Invitations in Final State Nomination Round",
+    metaDescription:"Tasmania invitation round results for 4 June 2026 are out. A total of 71 invitations were issued under Subclass 190 and Subclass 491 pathways.",
+    date: "Jun 04, 2026",
+    image: `/assets/nb16.png`,
+  },
+  {
     id: 57,
     slug: "south-australia-closes-roi-intake-as-202526-skilled-migration-program-nears-end",
     title: "South Australia Closes ROI Intake as 2025–26 Skilled Migration Program Nears End",
