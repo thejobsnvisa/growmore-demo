@@ -785,8 +785,7 @@ export const news = [
     slug:"nsw-latest-invitation-round-update-15-january-2026",
     title:"NSW Latest Invitation Round Update: 15 January 2026",
     metaTitle:"NSW Latest Invitation Round Update: 15 January 2026",
-    metaDescription:
-      "Learn about the closure of NSW Subclass 491 Pathway 1 & Pathway 3 due to strong demand.",
+    metaDescription:"Check the latest NSW invitation round updates for 15 January 2026. Discover the points cutoffs, targeted occupations, and visa subclass 190 & 491 insights.",
     date: "january 15, 2026",
     image: `/assets/17jan.png`,
   },
