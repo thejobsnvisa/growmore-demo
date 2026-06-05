@@ -3,32 +3,33 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-    {
-    id: 0,
+     {
+    id: 1,
+    slug: "new-points-test-march-2027-will-the-new-points-test-start-in-march-2027",
+    title: "New Points Test March 2027: Will the New Points Test Start in March 2027?",
+    metaTitle:"New Points Test March 2027: Will the New Points Test Start in March 2027?",
+    metaDescription:"Will Australia's new skilled migration points test launch in March 2027? Get the latest updates on timelines, changes, and what it means for your PR visa.",
+    date: "Jun 04, 2026",
+    image: `/assets/bg67.jpg`,
+  },
+  {
+    id: 2,
+    slug: "same-points-different-results-how-subclass-189-invitations-actually-work",
+    title: "Same Points, Different Results: How Subclass 189 Invitations Actually Work",
+    metaTitle:"Subclass 189 Invitations: Why Same Points Get Different Results",
+    metaDescription:"Learn why Subclass 189 applicants with the same points can receive different outcomes. Understand EOI ranking, date of effect, and invitations.",
+    date: "Jun 03, 2026",
+    image: `/assets/bg66.png`,
+  },  
+  {
+    id: 3,
     slug: "australias-working-holiday-maker-program-a-visa-opportunity-for-young-travellers",
     title: "Australia’s Working Holiday Maker Program: A Visa Opportunity for Young Travellers",
     metaTitle:"Chef vs Cook Australia Migration Guide",
     metaDescription:"Planning a Working Holiday visa for Australia? Understand Subclass 417 vs 462, country eligibility, ballot rules, work rights, and future PR options.",
     date: "Jun 01, 2026",
     image: `/assets/bg65.png`,
-  }, {
-    id: 1,
-    slug: "cook-vs-chef-australia-pr-guide-skills-assessment-visa-options",
-    title: "Cook vs Chef Australia PR Guide: Skills Assessment & Visa Options",
-    metaTitle:"Chef vs Cook Australia Migration Guide",
-    metaDescription:"Learn Cook and Chef PR pathways in Australia, TRA skills assessment requirements, and visa options for skilled migrants.",
-    date: "May 30, 2026",
-    image: `/assets/bg64.png`,
   }, 
-  {
-    id: 2,
-    slug: "the-real-difference-between-direct-entry-and-trt-pathways-for-subclass-186",
-    title: "The Real Difference Between Direct Entry and TRT Pathways for Subclass 186",
-    metaTitle:"Subclass 186 Direct Entry vs TRT: Key Differences",
-    metaDescription:"Compare Subclass 186 Direct Entry and TRT pathways for Australia PR, including work experience, employer requirements, and eligibility.",
-    date: "May 27, 2026",
-    image: `/assets/bg63.png`,
-  }
   
 ];
 
