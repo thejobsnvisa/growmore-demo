@@ -773,12 +773,21 @@ export const news = [
    {
     id: -18,
     slug: "nsw-subclass-491-pathway-1-&-pathway-3-closed-on-the-same-day-due-to-strong-demand",
-    title:
-      "NSW Subclass 491 Pathway 1 & Pathway 3 Closed on the Same Day Due to Strong Demand",
+    title:"NSW Subclass 491 Pathway 1 & Pathway 3 Closed on the Same Day Due to Strong Demand",
     metaTitle: "NSW Skilled Migration Update",
     metaDescription:
       "Learn about the closure of NSW Subclass 491 Pathway 1 & Pathway 3 due to strong demand.",
     date: "january 19, 2026",
     image: `/assets/19jan.png`,
+  },
+   {
+    id:-17,
+    slug:"nsw-latest-invitation-round-update-15-january-2026",
+    title:"NSW Latest Invitation Round Update: 15 January 2026",
+    metaTitle:"NSW Latest Invitation Round Update: 15 January 2026",
+    metaDescription:
+      "Learn about the closure of NSW Subclass 491 Pathway 1 & Pathway 3 due to strong demand.",
+    date: "january 15, 2026",
+    image: `/assets/17jan.png`,
   },
 ];
