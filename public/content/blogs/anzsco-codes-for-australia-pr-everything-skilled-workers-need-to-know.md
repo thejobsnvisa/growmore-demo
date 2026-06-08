@@ -130,7 +130,7 @@ A wrong selection can lead to skills assessment refusal, incorrect occupation li
 So, if you are unsure about your correct ANZSCO code or how it impacts your Australia PR pathway, it’s better not to guess. A proper assessment of your profile by a registered migration agent in Australia can help avoid costly mistakes and improve your chances of selection. So, contact Growmore Immigration today and [get professional guidance on your Australia PR journey](https://www.growmore.one/blogs/australia-pr-visa-consultant).
 
 
-**FAQs**
+## **FAQs**
 
 ### **1. What is an ANZSCO code?**
 
