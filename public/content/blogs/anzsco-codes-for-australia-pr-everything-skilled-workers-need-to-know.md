@@ -132,22 +132,22 @@ So, if you are unsure about your correct ANZSCO code or how it impacts your Aust
 
 **FAQs**
 
-*  **1. What is an ANZSCO code?**
+### **1. What is an ANZSCO code?**
 
 It is a 6-digit code used by Australia to classify occupations based on job duties, skills, and qualifications for migration and employment purposes.
 
-*  **2. Why is ANZSCO important for Australia PR?**
+### **2. Why is ANZSCO important for Australia PR?**
 
 Because it decides your occupation eligibility, skills assessment outcome, and which visa pathways you can apply for.
 
-*  **3. How do I know if I picked the correct ANZSCO code?**
+###  **3. How do I know if I picked the correct ANZSCO code?**
 
 If your daily tasks match most of the official job description and skill requirements, you’re likely on the right code.
 
-*  **4. What happens if I choose the wrong ANZSCO code?**
+###  **4. What happens if I choose the wrong ANZSCO code?**
 
 It can result in a failed skills assessment, wrong occupation mapping, or even missed PR invitation chances.
 
-*  **5. Can one occupation have more than one ANZSCO code?**
+### **5. Can one occupation have more than one ANZSCO code?**
 
 Yes. Some roles have multiple related codes depending on specialisation, seniority, or industry focus. You must choose the closest match.
