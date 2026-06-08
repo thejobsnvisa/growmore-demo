@@ -1,5 +1,14 @@
 export const blogs = [
-   {
+    {
+    id: 68,
+    slug: "anzsco-codes-for-australia-pr-everything-skilled-workers-need-to-know",
+    title: "ANZSCO Codes for Australia PR: Everything Skilled Workers Need to Know",
+    metaTitle:"Australia PR Guide: ANZSCO Codes & Occupation Lists Explained",
+    metaDescription:"Learn ANZSCO codes for Australia PR, skill levels, occupation lists, and how to choose the correct code for skills assessment and visa success.",
+    date: "Jun 08, 2026",
+    image: `/assets/bg68.png`,
+  }, 
+  {
     id: 67,
     slug: "new-points-test-march-2027-will-the-new-points-test-start-in-march-2027",
     title: "New Points Test March 2027: Will the New Points Test Start in March 2027?",
