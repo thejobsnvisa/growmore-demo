@@ -781,12 +781,21 @@ export const news = [
     image: `/assets/19jan.png`,
   },
    {
-    id:-17,
+    id:-19,
     slug:"nsw-latest-invitation-round-update-15-january-2026",
     title:"NSW Latest Invitation Round Update: 15 January 2026",
     metaTitle:"NSW Latest Invitation Round Update: 15 January 2026",
     metaDescription:"Check the latest NSW invitation round updates for 15 January 2026. Discover the points cutoffs, targeted occupations, and visa subclass 190 & 491 insights.",
     date: "january 15, 2026",
     image: `/assets/17jan.png`,
+  },
+  {
+    id:-20,
+    slug:"south-australia-tightens-rules-for-trade-courses-apprenticeship-now-mandatory",
+    title:"South Australia Tightens Rules for Trade Courses — Apprenticeship Now Mandatory",
+    metaTitle:"South Australia Trade Course Rules Change From 2026",
+    metaDescription:"New South Australia trade training rules will require apprenticeships from 2026. Understand what this means for future migration and employment plans.",
+    date: "December 17, 2025",
+    image: `/assets/20dec.png`,
   },
 ];
