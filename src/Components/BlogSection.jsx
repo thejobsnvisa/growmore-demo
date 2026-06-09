@@ -3,7 +3,16 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-     {
+  {
+    id: 0,
+    slug: "anzsco-codes-for-australia-pr-everything-skilled-workers-need-to-know",
+    title: "ANZSCO Codes for Australia PR: Everything Skilled Workers Need to Know",
+    metaTitle:"Australia PR Guide: ANZSCO Codes & Occupation Lists Explained",
+    metaDescription:"Learn ANZSCO codes for Australia PR, skill levels, occupation lists, and how to choose the correct code for skills assessment and visa success.",
+    date: "Jun 08, 2026",
+    image: `/assets/bg68.png`,
+  }, 
+  {
     id: 1,
     slug: "new-points-test-march-2027-will-the-new-points-test-start-in-march-2027",
     title: "New Points Test March 2027: Will the New Points Test Start in March 2027?",
@@ -20,17 +29,7 @@ const blogs = [
     metaDescription:"Learn why Subclass 189 applicants with the same points can receive different outcomes. Understand EOI ranking, date of effect, and invitations.",
     date: "Jun 03, 2026",
     image: `/assets/bg66.png`,
-  },  
-  {
-    id: 3,
-    slug: "australias-working-holiday-maker-program-a-visa-opportunity-for-young-travellers",
-    title: "Australia’s Working Holiday Maker Program: A Visa Opportunity for Young Travellers",
-    metaTitle:"Chef vs Cook Australia Migration Guide",
-    metaDescription:"Planning a Working Holiday visa for Australia? Understand Subclass 417 vs 462, country eligibility, ballot rules, work rights, and future PR options.",
-    date: "Jun 01, 2026",
-    image: `/assets/bg65.png`,
   }, 
-  
 ];
 
 const BlogSection = () => {
