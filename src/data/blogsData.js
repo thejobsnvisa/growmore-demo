@@ -1,5 +1,14 @@
 export const blogs = [
-    {
+   {
+    id: 69,
+    slug: "bridging-visa-e-subclass-050-051-eligibility-work-rights-and-conditions",
+    title: "Bridging Visa E (Subclass 050 & 051): Eligibility, Work Rights and Conditions",
+    metaTitle:"Bridging Visa E Australia: Eligibility, Conditions & Rights",
+    metaDescription:"A complete guide to Bridging Visa E in Australia. Learn the differences between Subclass 050 and 051, work rights, conditions, and key rules.",
+    date: "Jun 09, 2026",
+    image: `/assets/bg69.png`,
+  },   
+  {
     id: 68,
     slug: "anzsco-codes-for-australia-pr-everything-skilled-workers-need-to-know",
     title: "ANZSCO Codes for Australia PR: Everything Skilled Workers Need to Know",
