@@ -74,22 +74,22 @@ If you are considering a Protection Visa or would like to understand your option
 
 ## **FAQs**
 
-* **1. Can I apply for a Protection Visa if I am already in Australia on a student or visitor visa?**
+### **1. Can I apply for a Protection Visa if I am already in Australia on a student or visitor visa?**
 
 Yes, you may be able to apply if you are already in Australia and meet the eligibility requirements, including having valid protection claims and satisfying visa criteria.
 
-*  **2. Do I need proof that I am unsafe in my home country?**
+### **2. Do I need proof that I am unsafe in my home country?**
 
 Yes. Protection Visa applications require strong supporting evidence to demonstrate why returning to your home country could expose you to persecution, serious harm, or human rights violations.
 
-*  **3. Can I get permanent residency through a Protection Visa?**
+### **3. Can I get permanent residency through a Protection Visa?**
 
 Yes. The Protection Visa (Subclass 866) is a permanent visa that allows eligible applicants to live, work, and study in Australia indefinitely.
 
-*  **4. What happens if I cannot provide all the required documents?**
+### **4. What happens if I cannot provide all the required documents?**
 
 If certain documents are unavailable, you should explain the reasons and provide any alternative evidence that supports your identity and protection claims.
 
-*  **5. Can I travel back to the country I claimed protection from after getting the visa?**
+### **5. Can I travel back to the country I claimed protection from after getting the visa?**
 
 Generally, returning to the country you claimed protection from can create serious issues for your visa and may lead to questions about the validity of your protection claims.
