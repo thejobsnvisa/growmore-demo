@@ -182,53 +182,53 @@ non-refundable government fees — plus months of lost time and, in some cases, 
 
 ## 6\. Step-by-Step Process — How to Apply for a 482 Visa in Australia
 
-Here is the complete, sequenced roadmap for applying for your 482 visa. Follow these steps in order, and make sure both you and your employer are moving in parallel where possible.
+Here is the complete, sequenced roadmap for **applying for your 482 visa**. Follow these steps in order, and make sure both you and your employer are moving in parallel where possible.
 
-### **Step 01 Confirm Occupation Eligibility**
+### **Step 01: Confirm Occupation Eligibility**
 
 Look up your specific occupation on the STSOL (Short-Term Skilled Occupation List) or MLTSSL (Medium and Long-Term Strategic Skills List) at the Department of Home Affairs website. Your job title alone is not enough — the actual duties of your role must match the ANZSCO description for that occupation code. If you are unsure, this is the first thing a migration consultant will verify for you.
 
-### **Step 02 Employer Applies for Standard Business Sponsorship**
+### **Step 02: Employer Applies for Standard Business Sponsorship**
 
 If your employer is not already an approved Standard Business Sponsor, they must apply for SBS approval through ImmiAccount. This step requires business registration evidence, confirmation of lawful operation, and declarations regarding compliance. SBS approval typically takes 1–4 weeks and is valid for five years. Your migration agent should prepare and lodge this on your employer's behalf.
 
-### **Step 03 Complete Skills Assessment (if Required)**
+### **Step 03: Complete Skills Assessment (if Required)**
 
 Most occupations require a positive skills assessment from the relevant Australian authority before the visa can be granted. This is one of the most time-consuming steps — assessments can take 4–20 weeks depending on the authority and the completeness of your documentation. Identify your assessing body early, understand their specific requirements, and lodge your application as soon as possible. Do not wait for this to complete before starting other steps.
 
-### **Step 04 Sit Your English Language Test**
+### **Step 04: Sit Your English Language Test**
 
 If you are not exempt by nationality, book your English language test as soon as possible. IELTS, PTE Academic, TOEFL iBT, OET, and CAE are all accepted. Test results are valid for three years from the test date. Confirm the minimum score for your specific occupation and stream — some occupations require higher scores than the standard minimum.
 
-### **Step 05 Employer Conducts Labour Market Testing**
+### **Step 05: Employer Conducts Labour Market Testing**
 
 For Standard Business Sponsorship nominations (Short-Term and Medium-Long Term streams), the employer must demonstrate they advertised the position and were unable to source a suitably qualified Australian worker. LMT evidence must include proof of advertising (typically two job ads on relevant platforms), duration of advertising, and a record of Australian applicants considered. This must be done before the nomination is lodged, and within 4 months of lodgement. Your migration agent will advise on compliant advertising formats.
 
-### **Step 06 Prepare and Lodge Nomination Application**
+### **Step 06: Prepare and Lodge Nomination Application**
 
 Your employer lodges the nomination application via ImmiAccount. This must include the position description, salary evidence, LMT documentation, and SAF levy payment. Your migration agent will prepare and review all nomination documents before lodgement. In most cases, this is lodged simultaneously with your visa application.
 
-### **Step 07 Prepare Your Personal Visa Application Documents**
+### **Step 07: Prepare Your Personal Visa Application Documents**
 
 This is the most document-intensive stage for you personally. Gather all identity documents, qualifications, English evidence, employment references, and any family documents. Your migration agent will review every document against the specific requirements for your occupation, nationality, and stream — checking for gaps, validity periods, and format requirements before anything is submitted.
 
-### **Step 08 Lodge Visa Application via ImmiAccount**
+### **Step 08: Lodge Visa Application via ImmiAccount**
 
 Both the nomination and visa application are submitted through the Department of Home Affairs' ImmiAccount portal. Pay the visa application charge at the time of lodgement. You will receive a Transaction Reference Number (TRN) confirming successful lodgement — keep this record safe. If your family members are being included, their details are added at this stage.
 
-### **Step 09 Complete Medical Examination**
+### **Step 09: Complete Medical Examination**
 
 Home Affairs will send a HealthLink referral to the email address you provided in your application. Book your appointment with an approved panel physician as soon as you receive this referral. Medical results are submitted directly to Home Affairs — you do not need to send them yourself. Complete this promptly — delays in medical compliance slow the entire assessment.
 
-### **Step 10 Obtain Police Clearances**
+### **Step 10: Obtain Police Clearances**
 
 Request police clearance certificates from every country where you have lived for 12 or more cumulative months in the past 10 years. Processing times vary significantly — some countries issue clearances within two weeks, while others (including certain countries in South Asia, Africa, and the Middle East) can take 2–4 months. Begin this step in parallel with others, not after them.
 
-### **Step 11 Respond to Any Requests for Further Information (RFI)**
+### **Step 11: Respond to Any Requests for Further Information (RFI)**
 
 Home Affairs may contact you or your employer via ImmiAccount requesting additional information or clarification. You typically have 28 days to respond. Your migration agent should draft all RFI responses, ensuring they are comprehensive, properly evidenced, and addressed to the officer's specific concerns. A weak or late RFI response is one of the most preventable causes of visa refusals.
 
-### **Step 12 Receive Visa Grant and Review Conditions**
+### **Step 12: Receive Visa Grant and Review Conditions**
 
 Once approved, you will receive your visa grant notification by email. This confirms your visa, its validity period, and all associated conditions. Read your visa conditions carefully — particularly any work restrictions (you must work in the nominated occupation for your approved sponsor), travel conditions, and obligations to notify Home Affairs of certain changes. Your migration agent will walk you through post-grant obligations and begin planning your pathway to permanent residency if applicable.
 
@@ -247,7 +247,7 @@ Growmore Immigration's registered MARA migration agents have managed hundreds of
 * **Occupation & Industry Expertise:** We know the nuances of 482 applications across all major occupation groups and assessing authorities.
 * **LMT & Employer Compliance Advice:** We advise employers on compliant Labour Market Testing, SAF levy, and nomination requirements * preventing the employer-side errors that cause delays.
 * **Fixed-Fee, Transparent Pricing:** Full fee disclosure before we begin. No scope creep. No invoice surprises.
-* **PR Pathway Planning from Day One:** For eligible clients, we begin planning your Subclass 186 permanent residency pathway from the moment your 482 is lodged.
+* **PR Pathway Planning from Day One:** For eligible clients, we begin planning your [Subclass 186 permanent residency pathway](https://www.growmore.one/blogs/subclass-186-visa-consultant-for-pr-success/) from the moment your 482 is lodged.
 
 ## 8\. Frequently Asked Questions — Applying for a 482 Visa in Australia
 
@@ -273,7 +273,7 @@ A: Yes — particularly if you are in the Medium-Long Term stream. After working
 
 ### **Q: What is Labour Market Testing and does my employer always need to do it?**
 
-A: Labour Market Testing (LMT) requires your employer to demonstrate that they advertised the position and could not find a suitably qualified Australian worker. LMT is required for most Standard Business Sponsorship nominations but exemptions exist for some high-salary positions, some nationals covered by international trade agreements (e.g., USA under AUSFTA, Japan under JAEPA, South Korea under KAFTA), and certain Labour Agreement arrangements.
+A: [Labour Market Testing (LMT)](https://www.growmore.one/our-services/employers/labour-market-testing-lmt-for-sc494-and-sc482-visas/) requires your employer to demonstrate that they advertised the position and could not find a suitably qualified Australian worker. LMT is required for most Standard Business Sponsorship nominations but exemptions exist for some high-salary positions, some nationals covered by international trade agreements (e.g., USA under AUSFTA, Japan under JAEPA, South Korea under KAFTA), and certain Labour Agreement arrangements.
 
 ### **Q: How much does it cost to apply for a 482 visa in Australia?**
 
