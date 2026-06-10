@@ -1,5 +1,14 @@
 export const blogs = [
    {
+    id: 71,
+    slug: "who-can-apply-for-a-protection-visa-in-australia-full-breakdown",
+    title: "Who Can Apply for a Protection Visa in Australia? Full Breakdown",
+    metaTitle:"Who Can Apply for a Protection Visa in Australia? Full Guide",
+    metaDescription:"who can apply for a Protection Visa in Australia, eligibility criteria, required documents, visa benefits, and key restrictions.",
+    date: "Jun 10, 2026",
+    image: `/assets/bg71.png`,
+  },  
+  {
     id: 70,
     slug: "bridging-visa-e-subclass-050-051-eligibility-work-rights-and-conditions",
     title: "Bridging Visa E (Subclass 050 & 051): Eligibility, Work Rights and Conditions",
