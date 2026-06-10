@@ -5,6 +5,14 @@ import { Link } from "react-router-dom";
 const blogs = [
   {
     id: 0,
+    slug: "bridging-visa-e-subclass-050-051-eligibility-work-rights-and-conditions",
+    title: "Bridging Visa E (Subclass 050 & 051): Eligibility, Work Rights and Conditions",
+    metaTitle:"Bridging Visa E Australia: Eligibility, Conditions & Rights",
+    metaDescription:"A complete guide to Bridging Visa E in Australia. Learn the differences between Subclass 050 and 051, work rights, conditions, and key rules.",
+    date: "Jun 09, 2026",
+    image: `/assets/bg69.png`,
+  },   {
+    id: 1,
     slug: "anzsco-codes-for-australia-pr-everything-skilled-workers-need-to-know",
     title: "ANZSCO Codes for Australia PR: Everything Skilled Workers Need to Know",
     metaTitle:"Australia PR Guide: ANZSCO Codes & Occupation Lists Explained",
@@ -13,7 +21,7 @@ const blogs = [
     image: `/assets/bg68.png`,
   }, 
   {
-    id: 1,
+    id: 2,
     slug: "new-points-test-march-2027-will-the-new-points-test-start-in-march-2027",
     title: "New Points Test March 2027: Will the New Points Test Start in March 2027?",
     metaTitle:"New Points Test March 2027: Will the New Points Test Start in March 2027?",
@@ -21,15 +29,7 @@ const blogs = [
     date: "Jun 04, 2026",
     image: `/assets/bg67.jpg`,
   },
-  {
-    id: 2,
-    slug: "same-points-different-results-how-subclass-189-invitations-actually-work",
-    title: "Same Points, Different Results: How Subclass 189 Invitations Actually Work",
-    metaTitle:"Subclass 189 Invitations: Why Same Points Get Different Results",
-    metaDescription:"Learn why Subclass 189 applicants with the same points can receive different outcomes. Understand EOI ranking, date of effect, and invitations.",
-    date: "Jun 03, 2026",
-    image: `/assets/bg66.png`,
-  }, 
+ 
 ];
 
 const BlogSection = () => {
