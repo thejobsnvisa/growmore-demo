@@ -1,5 +1,14 @@
 export const blogs = [
-   {
+  {
+    id: 72,
+    slug: "a-smart-way-to-boost-your-australia-pr-score-through-naati",
+    title: "A Smart Way to Boost Your Australia PR Score Through NAATI",
+    metaTitle:"Need More PR Points? How NAATI Can Strengthen Your EOI",
+    metaDescription:"Find out how NAATI CCL can help skilled migrants gain 5 extra Australia PR points and improve their ranking in invitation rounds.",
+    date: "Jun 11, 2026",
+    image: `/assets/bg72.png`,
+  }, 
+  {
     id: 71,
     slug: "who-can-apply-for-a-protection-visa-in-australia-full-breakdown",
     title: "Who Can Apply for a Protection Visa in Australia? Full Breakdown",
