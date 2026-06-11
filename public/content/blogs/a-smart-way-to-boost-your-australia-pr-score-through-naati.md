@@ -96,22 +96,22 @@ So, if you are considering Australia PR and want to maximise every available poi
 
 ## FAQs
 
-### 1. What is the NAATI CCL test?
+### **1. What is the NAATI CCL test?**
 
 It is a language interpretation test that allows eligible candidates to gain 5 extra points for Australia PR by translating conversations between English and another language.
 
-### 2. How many PR points can NAATI add?
+### **2. How many PR points can NAATI add?**
 
 Successful candidates receive 5 additional points under Australia’s General Skilled Migration points system.
 
-### 3. Who can take the NAATI CCL test?
+### **3. Who can take the NAATI CCL test?**
 
 Anyone applying for a points-tested visa who is fluent in English and an approved community language can apply. No formal qualification is required.
 
-### 4. Is the NAATI CCL test difficult?
+### **4. Is the NAATI CCL test difficult?**
 
 It is not about advanced language skills, but about accurate interpretation. Candidates often find it challenging without proper practice and mock tests.
 
-### 5. How long is the NAATI result valid for PR purposes?
+### **5. How long is the NAATI result valid for PR purposes?**
 
 Once you pass, the result can be used immediately for PR applications, as long as it is valid at the time of your EOI and invitation.
