@@ -5,31 +5,37 @@ import { Link } from "react-router-dom";
 const blogs = [
   {
     id: 0,
-    slug: "bridging-visa-e-subclass-050-051-eligibility-work-rights-and-conditions",
-    title: "Bridging Visa E (Subclass 050 & 051): Eligibility, Work Rights and Conditions",
-    metaTitle:"Bridging Visa E Australia: Eligibility, Conditions & Rights",
-    metaDescription:"A complete guide to Bridging Visa E in Australia. Learn the differences between Subclass 050 and 051, work rights, conditions, and key rules.",
-    date: "Jun 09, 2026",
-    image: `/assets/bg69.png`,
-  },   {
+    slug: "who-can-apply-for-a-protection-visa-in-australia-full-breakdown",
+    title: "Who Can Apply for a Protection Visa in Australia? Full Breakdown",
+    metaTitle: "Who Can Apply for a Protection Visa in Australia? Full Guide",
+    metaDescription:
+      "who can apply for a Protection Visa in Australia, eligibility criteria, required documents, visa benefits, and key restrictions.",
+    date: "Jun 10, 2026",
+    image: `/assets/bg71.png`,
+  },
+  {
     id: 1,
     slug: "anzsco-codes-for-australia-pr-everything-skilled-workers-need-to-know",
-    title: "ANZSCO Codes for Australia PR: Everything Skilled Workers Need to Know",
-    metaTitle:"Australia PR Guide: ANZSCO Codes & Occupation Lists Explained",
-    metaDescription:"Learn ANZSCO codes for Australia PR, skill levels, occupation lists, and how to choose the correct code for skills assessment and visa success.",
+    title:
+      "ANZSCO Codes for Australia PR: Everything Skilled Workers Need to Know",
+    metaTitle: "Australia PR Guide: ANZSCO Codes & Occupation Lists Explained",
+    metaDescription:
+      "Learn ANZSCO codes for Australia PR, skill levels, occupation lists, and how to choose the correct code for skills assessment and visa success.",
     date: "Jun 08, 2026",
     image: `/assets/bg68.png`,
-  }, 
+  },
   {
     id: 2,
     slug: "new-points-test-march-2027-will-the-new-points-test-start-in-march-2027",
-    title: "New Points Test March 2027: Will the New Points Test Start in March 2027?",
-    metaTitle:"New Points Test March 2027: Will the New Points Test Start in March 2027?",
-    metaDescription:"Will Australia's new skilled migration points test launch in March 2027? Get the latest updates on timelines, changes, and what it means for your PR visa.",
+    title:
+      "New Points Test March 2027: Will the New Points Test Start in March 2027?",
+    metaTitle:
+      "New Points Test March 2027: Will the New Points Test Start in March 2027?",
+    metaDescription:
+      "Will Australia's new skilled migration points test launch in March 2027? Get the latest updates on timelines, changes, and what it means for your PR visa.",
     date: "Jun 04, 2026",
     image: `/assets/bg67.jpg`,
   },
- 
 ];
 
 const BlogSection = () => {
