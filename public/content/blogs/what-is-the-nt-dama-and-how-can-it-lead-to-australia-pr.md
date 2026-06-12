@@ -16,19 +16,19 @@ However, workers cannot apply under the NT DAMA on their own. They can explore c
 
 ## How NT DAMA Creates Pathways to Australia PR
 
-### Pathway 1: Skills in Demand (Subclass 482) Visa
+### **Pathway 1: Skills in Demand (Subclass 482) Visa**
 
 The Subclass 482 (Skills in Demand visa) is the first step for overseas workers entering Australia under the NT DAMA. This temporary employer-sponsored visa allows eligible workers to live and work in the Northern Territory for an approved employer. 
 
 During this period, workers can gain Australian work experience and, if they become eligible, they may transition to employer-sponsored permanent residency pathways such as the Subclass 186 visa by meeting the relevant requirements.
 
-### Pathway 2: Employer Nomination Scheme (Subclass 186)
+### **Pathway 2: Employer Nomination Scheme (Subclass 186)**
 
 The Subclass 186 Employer Nomination Scheme (ENS) visa offers a direct permanent residency pathway for eligible workers sponsored by an approved employer. Under the NT DAMA, eligible temporary visa holders who have worked in the Northern Territory in an approved occupation may be sponsored for permanent residency through the Subclass 186 visa. 
 
 They just need to meet all occupation, qualification, experience, age, English language, and visa requirements, which includes many applicable concessions available under the NT DAMA.
 
-### Pathway 3: Subclass 494 to Subclass 191
+### **Pathway 3: Subclass 494 to Subclass 191**
 
 Workers sponsored under the [Subclass 494 Skilled Employer Sponsored Regional (Provisional) visa](https://www.growmore.one/our-services/employers/standard-business-sponsorship/) may have a pathway to permanent residency through the [Subclass 191 Permanent Residence (Skilled Regional) visa](https://www.growmore.one/blogs/difference-between-subclass-491-and-subclass-190/).
 
@@ -38,15 +38,15 @@ This pathway allows eligible workers who live and work in regional Australia to 
 
 The NT DAMA currently includes around 325 occupations across a wide range of industries. Some of the key occupations covered under the NT DAMA include:
 
-### Construction & Trades
-
+### **Construction & Trades**
+\
 * Carpenter (331212)  
 * Carpenter and Joiner (331211)  
 * Bricklayer (331111)  
 * Wall and Floor Tiler (333411)  
 * Airconditioning and Mechanical Services Plumber (334112)  
 
-### Hospitality & Tourism
+### **Hospitality & Tourism**
 
 * Chef (351311)  
 * Cook (351411)  
@@ -54,29 +54,29 @@ The NT DAMA currently includes around 325 occupations across a wide range of ind
 * Barista (431112)  
 * Waiter (431511)  
 
-### Care & Community Services
+### **Care & Community Services**
 
 * Aged or Disabled Carer (423111)  
 * Community Worker (411711)  
 
-### Engineering & Technical Occupations
+### **Engineering & Technical Occupations**
 
 * Civil Engineer (233211)  
 * Civil Engineering Draftsperson (312211)  
 * Civil Engineering Technician (312212)  
 * Architectural Draftsperson (312111)  
 
-### ICT & Digital
+### **ICT & Digital**
 
 * Developer Programmer (261312)  
 * Computer Network and Systems Engineer (263111)  
 
-### Health
+### **Health**
 
 * Registered Nurses nec (254499)  
 * General Practitioner (253111)  
 
-### Non-ANZSCO occupations (NT-specific)
+### **Non-ANZSCO occupations (NT-specific)**
 
 The NT DAMA also includes several Northern Territory-specific occupations, such as Civil Construction Site Supervisor, Hospitality Worker, Skilled Horticultural Worker, and Cook (Specialist Ethnic Cuisine), which have been created to address local workforce needs.
 
@@ -86,19 +86,19 @@ You can use the official [NT DAMA occupation list to check](https://dtbar.nt.gov
 
 One of the key reasons the NT DAMA attracts both employers and skilled workers is the range of concessions available for eligible occupations, including:
 
-### Higher Age Limits
+### **Higher Age Limits**
 
 While permanent employer-sponsored visas such as the Subclass 186 and Subclass 494 normally have an age limit of under 45, the NT DAMA can allow applicants in many occupations to be sponsored up to 55 years of age, or 50 years of age for some Skill Level 5 occupations.
 
-### Lower English Requirements
+### **Lower English Requirements**
 
 Some occupations qualify for reduced English requirements. Eligible applicants may be able to apply with an IELTS 4.5 overall (minimum 4.0 in each band) for Subclass 482 and Subclass 494 visas, or IELTS 5.0 overall (minimum 4.0 in each band) for the Subclass 186 visa.
 
-### Salary Concessions
+### **Salary Concessions**
 
 In some cases, employers can access salary concessions where the Northern Territory market salary rate is below the standard income threshold, helping businesses fill critical workforce gaps while still meeting minimum salary requirements.
 
-### Access to Unique NT Occupations
+### **Access to Unique NT Occupations**
 
 The NT DAMA also includes several Northern Territory-specific occupations that are not available under the standard ANZSCO occupation framework, creating additional sponsorship opportunities for eligible workers.
 
