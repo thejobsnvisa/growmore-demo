@@ -1,10 +1,12 @@
-The Northern Territory continues to experience demand for skilled workers across industries such as healthcare, construction, hospitality, agriculture, and community services. To address these workforce shortages, the Australian and Northern Territory Governments have established the Northern Territory Designated Area Migration Agreement (NT DAMA). It is a regional employer-sponsored migration program based on the Territory's labour market needs.
+The Northern Territory continues to experience demand for skilled workers across industries such as healthcare, construction, hospitality, agriculture, and community services. To address these workforce shortages, the Australian and Northern Territory Governments have established the **Northern Territory Designated Area Migration Agreement (NT DAMA)**. 
 
-Through this DAMA, eligible employers can sponsor overseas workers in occupations that may not be available under standard visa programs and benefit from certain concessions. So, if you are a skilled worker looking for employer sponsorship or exploring potential pathways to [Australia PR](https://www.growmore.one/), understanding how the NT DAMA works is important.
+It is a regional employer-sponsored migration program based on the Territory's labour market needs.Through this DAMA, eligible employers can sponsor overseas workers in occupations that may not be available under standard visa programs and benefit from certain concessions. 
+
+So, if you are a skilled worker looking for employer sponsorship or exploring potential pathways to [Australia PR](https://www.growmore.one/), understanding **how the NT DAMA works is important**.
 
 ## What Is the Northern Territory DAMA?
 
-The Northern Territory Designated Area Migration Agreement (NT DAMA) is an employer-sponsored migration program that covers the entire Northern Territory. Under this program, an approved NT employer can sponsor eligible skilled and semi-skilled overseas workers when they cannot fill a position with local workers.
+The Northern Territory Designated Area Migration Agreement (**NT DAMA**) is an employer-sponsored migration program that covers the entire Northern Territory. Under this program, an approved NT employer can sponsor eligible skilled and semi-skilled overseas workers when they cannot fill a position with local workers.
 
 ## How Skilled Workers and Employers Can Use the NT DAMA?
 
