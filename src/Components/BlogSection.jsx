@@ -3,8 +3,17 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-   {
-    id: 0,
+  {
+    id: 1,
+    slug: "what-is-the-nt-dama-and-how-can-it-lead-to-australia-pr",
+    title: "What Is the NT DAMA and How Can It Lead to Australia PR?",
+    metaTitle:"What Is the NT DAMA and How Can It Lead to Australia PR?",
+    metaDescription:"Explore the NT DAMA, eligible occupations, visa options, concessions, and pathways to Australia PR.",
+    date: "Jun 12, 2026",
+    image: `/assets/bg73.png`,
+  }, 
+  {
+    id: 2,
     slug: "a-smart-way-to-boost-your-australia-pr-score-through-naati",
     title: "A Smart Way to Boost Your Australia PR Score Through NAATI",
     metaTitle:"Need More PR Points? How NAATI Can Strengthen Your EOI",
@@ -13,24 +22,14 @@ const blogs = [
     image: `/assets/bg72.png`,
   }, 
   {
-    id: 1,
+    id: 3,
     slug: "who-can-apply-for-a-protection-visa-in-australia-full-breakdown",
     title: "Who Can Apply for a Protection Visa in Australia? Full Breakdown",
     metaTitle:"Who Can Apply for a Protection Visa in Australia? Full Guide",
     metaDescription:"who can apply for a Protection Visa in Australia, eligibility criteria, required documents, visa benefits, and key restrictions.",
     date: "Jun 10, 2026",
     image: `/assets/bg71.png`,
-  },  
-  {
-    id: 2,
-    slug: "bridging-visa-e-subclass-050-051-eligibility-work-rights-and-conditions",
-    title: "Bridging Visa E (Subclass 050 & 051): Eligibility, Work Rights and Conditions",
-    metaTitle:"Bridging Visa E Australia: Eligibility, Conditions & Rights",
-    metaDescription:"A complete guide to Bridging Visa E in Australia. Learn the differences between Subclass 050 and 051, work rights, conditions, and key rules.",
-    date: "Jun 09, 2026",
-    image: `/assets/bg69.png`,
   },   
- 
 ];
 
 const BlogSection = () => {
