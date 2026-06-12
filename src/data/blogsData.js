@@ -1,5 +1,14 @@
 export const blogs = [
   {
+    id: 73,
+    slug: "what-is-the-nt-dama-and-how-can-it-lead-to-australia-pr",
+    title: "What Is the NT DAMA and How Can It Lead to Australia PR?",
+    metaTitle:"What Is the NT DAMA and How Can It Lead to Australia PR?",
+    metaDescription:"Explore the NT DAMA, eligible occupations, visa options, concessions, and pathways to Australia PR.",
+    date: "Jun 12, 2026",
+    image: `/assets/bg73.png`,
+  }, 
+  {
     id: 72,
     slug: "a-smart-way-to-boost-your-australia-pr-score-through-naati",
     title: "A Smart Way to Boost Your Australia PR Score Through NAATI",
