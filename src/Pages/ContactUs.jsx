@@ -67,14 +67,11 @@ const ContactUs = () => {
   return (
     <>
       <Helmet>
-        <title>
-          Contact Growmore Immigration | Offices in Melbourne
-        </title>
+        <title>Contact US | Growmore Immigration Offices in Melbourne Australia</title>
 
         <meta
           name="description"
-          content="Get in touch with Growmore Immigration for expert Australian visa advice. Visit our Melbourne or Ahmedabad offices, call us, or book your consultation online."
-        />
+          content="Growmore Immigration specializes in Australian immigration services, 30 Years experienced professionals, personalized guidance, and a strong track record of successful visa outcomes."/>
 
         {/* ✅ Canonical for homepage */}
         <link rel="canonical" href={url} />
@@ -82,12 +79,11 @@ const ContactUs = () => {
         {/* ✅ OG */}
         <meta
           property="og:title"
-          content="Migrate to Australia | Skilled Occupation List with GrowMore Immigration"
+          content="Contact US | Growmore Immigration Offices in Melbourne Australia"
         />
         <meta
           property="og:description"
-          content="Get in touch with Growmore Immigration for expert Australian visa advice. Visit our Melbourne or Ahmedabad offices, call us, or book your consultation online."
-        />
+          content="Growmore Immigration specializes in Australian immigration services, 30 Years experienced professionals, personalized guidance, and a strong track record of successful visa outcomes."/>
         <meta property="og:url" content={url} />
         <meta property="og:image" content="https://www.growmore.one/logo.jpg" />
       </Helmet>

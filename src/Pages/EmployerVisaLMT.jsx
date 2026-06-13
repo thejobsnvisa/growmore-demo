@@ -23,7 +23,7 @@ const EmployerVisaLMT = () => {
           {/* ✅ OG */}
           <meta
             property="og:title"
-            content="Employer Nomination Visa | Skills in Demand Visa | GrowMore Immigration"
+            content="Labour Market Testing (LMT) for SC494 and SC482 Visas - GrowMore Immigration"
           />
           <meta
             property="og:description"

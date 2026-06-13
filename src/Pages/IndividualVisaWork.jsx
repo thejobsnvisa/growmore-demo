@@ -24,7 +24,7 @@ const IndividualVisaWork = () => {
         {/* ✅ OG */}
         <meta
           property="og:title"
-          content="Refugee Visa (Subclass 200) | Seeking Safety and Protection | GrowMore Immigration"
+          content="Temporary Work | Short Stay Visa (Subclass 400) | GrowMore Immigration"
         />
         <meta
           property="og:description"

@@ -23,7 +23,7 @@ const EmployerVisaRegional = () => {
            {/* ✅ OG */}
            <meta
              property="og:title"
-             content="Employer Nomination Visa | Skills in Demand Visa | GrowMore Immigration"
+             content="Regional Certifying Body Approval | GrowMore Immigration"
            />
            <meta
              property="og:description"

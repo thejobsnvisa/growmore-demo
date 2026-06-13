@@ -21,7 +21,7 @@ const StudentAustralia = () => {
            {/* ✅ OG */}
            <meta
              property="og:title"
-             content="Australian Student Visa Agency in Dubai | Growmore Immigration"
+             content="Student Visa Australia | Study Abroad with GrowMore Immigration"
            />
            <meta
              property="og:description"

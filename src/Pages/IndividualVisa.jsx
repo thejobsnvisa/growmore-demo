@@ -21,8 +21,7 @@ const IndividualVisa = () => {
          {/* ✅ OG */}
          <meta
            property="og:title"
-           content="Migrate to Australia | Skilled Occupation List with GrowMore Immigration"
-         />
+           content="Australian Visa Services for Individuals | Growmore Immigration"/>
          <meta
            property="og:description"
            content="Expert visa assistance for individuals: Skilled Migration, Student Visas, Partner Visas, and PR pathways. Start your Australian journey with Growmore today."

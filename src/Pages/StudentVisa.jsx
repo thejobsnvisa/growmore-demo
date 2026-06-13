@@ -9,7 +9,7 @@ const StudentVisa = () => {
    return (
      <>
        <Helmet>
-         <title>Australian Student Visa (Subclass 500) Services | Growmore</title>
+         <title>Australian Student Visa (Subclass 500) Services | GrowMore Immigration</title>
  
          <meta
            name="description"
@@ -22,7 +22,7 @@ const StudentVisa = () => {
          {/* ✅ OG */}
          <meta
            property="og:title"
-           content="Migrate to Australia | Skilled Occupation List with GrowMore Immigration"
+           content="Australian Student Visa (Subclass 500) Services | GrowMore Immigration"
          />
          <meta
            property="og:description"

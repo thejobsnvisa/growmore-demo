@@ -20,8 +20,7 @@ const Refund = () => {
         {/* ✅ OG */}
         <meta
           property="og:title"
-          content="Terms & Services - GrowMore Immigration"
-        />
+          content="Cancellation and Refund Policy  - GrowMore Immigration"/>
         <meta
           property="og:description"
           content="GrowMore Immigration’s Cancellation and Refund Policy to understand your rights, refund eligibility, and terms for service cancellations and fee reimbursements."

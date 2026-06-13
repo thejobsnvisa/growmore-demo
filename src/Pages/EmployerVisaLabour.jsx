@@ -22,7 +22,7 @@ const EmployerVisaLabour = () => {
          {/* ✅ OG */}
          <meta
            property="og:title"
-           content="Employer Nomination Visa | Skills in Demand Visa | GrowMore Immigration"
+           content="Labour Agreement: A Complete Guide | GrowMore Immigration"
          />
          <meta
            property="og:description"

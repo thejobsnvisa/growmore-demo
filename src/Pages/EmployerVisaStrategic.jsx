@@ -8,7 +8,7 @@ const EmployerVisaStrategic = () => {
   return (
     <>
       <Helmet>
-        <title>Australia Business Innovation & Investment Visa | GrowMore Immigration </title>
+        <title>Developing a Business Case in Australia | GrowMore Immigration </title>
 
         <meta
           name="description"
@@ -21,11 +21,10 @@ const EmployerVisaStrategic = () => {
         {/* ✅ OG */}
         <meta
           property="og:title"
-          content="Employer Nomination Visa | Skills in Demand Visa | GrowMore Immigration"
-        />
+          content="Developing a Business Case in Australia | GrowMore Immigration"/>
         <meta
           property="og:description"
-          content="For skilled migration or employer sponsorship, do you require approval from the Regional Certifying Body (RCB)? Growmore Immigration provides knowledgeable advice on eligibility, paperwork, and the application procedure."
+          content="GrowMore Immigration can teach you how to create a compelling business case in Australia. Seek professional guidance for successful business migration, investment planning, and visa applications."
         />
         <meta property="og:url" content={url} />
         <meta property="og:image" content="https://www.growmore.one/logo.jpg" />

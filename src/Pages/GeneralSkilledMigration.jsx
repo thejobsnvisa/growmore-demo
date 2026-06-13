@@ -8,7 +8,7 @@ const GSMPage = () => {
     <>
       <Helmet>
         <title>
-           General Skilled Migration Australia | Subclass 189, 190 & 491 PR
+           General Skilled Migration Australia | Subclass 189, 190 & 491 Australia PR 
         </title>
 
         <meta
@@ -22,7 +22,7 @@ const GSMPage = () => {
         {/* ✅ OG */}
         <meta
           property="og:title"
-          content=" General Skilled Migration Australia | Subclass 189, 190 & 491 PR"
+          content=" General Skilled Migration Australia | Subclass 189, 190 & 491 Australia PR"
         />
         <meta
           property="og:description"

@@ -9,7 +9,7 @@ const IndividualVisaHoliday = () => {
     <>
       <Helmet>
         <title>
-          Working and Holiday Visa Australia (Subclass 462)
+          Working Holiday Visa Australia | Subclass 462
         </title>
 
         <meta
@@ -23,11 +23,11 @@ const IndividualVisaHoliday = () => {
         {/* ✅ OG */}
         <meta
           property="og:title"
-          content="Working and Holiday Visa Australia (Subclass 462)"
+          content="Working Holiday Visa Australia | Subclass 462"
         />
         <meta
           property="og:description"
-          content="Apply for the Working and Holiday Visa Australia (Subclass 462) and explore work and travel opportunities. Check your eligibility with expert help from GrowMore Immigration."
+          content="Apply for the Working Holiday Visa Australia, Subclass 462 and explore work and travel opportunities. Check your eligibility with expert help from GrowMore Immigration."
         />
         <meta property="og:url" content={url} />
         <meta property="og:image" content="https://www.growmore.one/logo.jpg" />

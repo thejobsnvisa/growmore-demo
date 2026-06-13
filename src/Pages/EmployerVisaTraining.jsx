@@ -21,7 +21,7 @@ const EmployerVisaTraining = () => {
          {/* ✅ OG */}
          <meta
            property="og:title"
-           content="Employer Nomination Visa | Skills in Demand Visa | GrowMore Immigration"
+           content="Subclass 407 Training Visa Plan | GrowMore Immigration"
          />
          <meta
            property="og:description"

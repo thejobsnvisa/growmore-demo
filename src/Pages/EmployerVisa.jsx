@@ -21,8 +21,7 @@ const EmployerVisa = () => {
         {/* ✅ OG */}
         <meta
           property="og:title"
-          content="Migrate to Australia | Skilled Occupation List with GrowMore Immigration"
-        />
+          content="Employer Sponsored Visa Services (482, 186, 494) | Growmore"/>
         <meta
           property="og:description"
           content="Streamline your business sponsorship. We assist Australian employers with Subclass 482, 186, and 494 visas. Secure skilled global talent with expert guidance."
