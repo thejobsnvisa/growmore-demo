@@ -656,4 +656,13 @@ export const blogs = [
     date: "Aug 18, 2023",
     image: `/assets/bg18.jpg`,
   },
+   {
+    id: -1,
+    slug: "skilled-and-business-migration-subclass-491",
+    title: "Skilled and Business Regional Migration – Subclass 491",
+    metaTitle: "Skilled and Business Regional Migration – Subclass 491",
+    metaDescription: "The Skilled Work Regional (Provisional) Visa (Subclass 491) enables skilled professionals and their eligible family members to live, work, and study in designated regional areas of Australia for up to five years, providing a pathway toward permanent residency for those who meet the required criteria.",
+    date: "Aug 16, 2023",
+    image: `/assets/bg188.jpg`,
+  },
 ];
