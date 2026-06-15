@@ -1,6 +1,15 @@
 
 export const news = [
 {
+    id: 60,
+    slug: "australia-announces-parent-family-visa-grant-caps-for-2025-2026",
+    title: "Australia Confirms 2025–26 Parent and Family Visa Grant Caps: Key Details for Applicants",
+    metaTitle: "Australia Announces Parent & Family Visa Grant Caps for 2025–26",
+    metaDescription:"Subclass 189 invitation round results released on 4 June 2026. Check occupation-wise scores, trends, and Australia PR opportunities.",
+    date: "Jun 15, 2026",
+    image: `/assets/nb18.png`,
+  },
+  {
     id: 59,
     slug: "australias-latest-subclass-189-round-is-out-did-you-get-invited",
     title: "Australia's Latest Subclass 189 Round Is Out: Did You Get Invited?",
