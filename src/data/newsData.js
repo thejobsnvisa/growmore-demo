@@ -1,11 +1,20 @@
 
 export const news = [
 {
+    id: 61,
+    slug: "tra-issues-revised-guidelines",
+    title: "TRA Issues Revised Guidelines",
+    metaTitle: "TRA Issues Revised Guidelines",
+    metaDescription:"Stay updated with the latest TRA revised guidelines. Learn about key changes, eligibility requirements, skills assessment updates, and how they may impact your Australian migration journey.",
+    date: "Jun 15, 2026",
+    image: `/assets/nb19.png`,
+  },
+  {
     id: 60,
     slug: "australia-announces-parent-family-visa-grant-caps-for-2025-2026",
     title: "Australia Confirms 2025–26 Parent and Family Visa Grant Caps: Key Details for Applicants",
     metaTitle: "Australia Announces Parent & Family Visa Grant Caps for 2025–26",
-    metaDescription:"Subclass 189 invitation round results released on 4 June 2026. Check occupation-wise scores, trends, and Australia PR opportunities.",
+    metaDescription:"Australia has announced Parent and Family Visa grant caps for 2025–26. Learn the latest visa allocation limits, processing updates, and what they mean for family migration to Australia.",
     date: "Jun 15, 2026",
     image: `/assets/nb18.png`,
   },
