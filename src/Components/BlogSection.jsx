@@ -3,8 +3,17 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
+   {
+    id:1,
+    slug: "australian-visa-cancellation-reasons-and-appeal-options",
+    title: "Australian Visa Cancellation: Reasons and Appeal Options",
+    metaTitle:"Australian Visa Cancellation: Reasons and Appeal Options",
+    metaDescription:"Learn why Australian visas are cancelled, your review rights, appeal options, and how to protect your visa status.",
+    date: "Jun 15, 2026",
+    image: `/assets/bg74.png`,
+  },
   {
-    id: 1,
+    id:2,
     slug: "what-is-the-nt-dama-and-how-can-it-lead-to-australia-pr",
     title: "What Is the NT DAMA and How Can It Lead to Australia PR?",
     metaTitle:"What Is the NT DAMA and How Can It Lead to Australia PR?",
@@ -13,23 +22,14 @@ const blogs = [
     image: `/assets/bg73.png`,
   }, 
   {
-    id: 2,
+    id:3,
     slug: "a-smart-way-to-boost-your-australia-pr-score-through-naati",
     title: "A Smart Way to Boost Your Australia PR Score Through NAATI",
     metaTitle:"Need More PR Points? How NAATI Can Strengthen Your EOI",
     metaDescription:"Find out how NAATI CCL can help skilled migrants gain 5 extra Australia PR points and improve their ranking in invitation rounds.",
     date: "Jun 11, 2026",
     image: `/assets/bg72.png`,
-  }, 
-  {
-    id: 3,
-    slug: "who-can-apply-for-a-protection-visa-in-australia-full-breakdown",
-    title: "Who Can Apply for a Protection Visa in Australia? Full Breakdown",
-    metaTitle:"Who Can Apply for a Protection Visa in Australia? Full Guide",
-    metaDescription:"who can apply for a Protection Visa in Australia, eligibility criteria, required documents, visa benefits, and key restrictions.",
-    date: "Jun 10, 2026",
-    image: `/assets/bg71.png`,
-  },   
+  }
 ];
 
 const BlogSection = () => {
