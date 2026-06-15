@@ -1,7 +1,7 @@
 export const blogs = [
     {
     id: 74,
-    slug: "what-is-the-nt-dama-and-how-can-it-lead-to-australia-pr",
+    slug: "australian-visa-cancellation-reasons-and-appeal-options",
     title: "Australian Visa Cancellation: Reasons and Appeal Options",
     metaTitle:"Australian Visa Cancellation: Reasons and Appeal Options",
     metaDescription:"Learn why Australian visas are cancelled, your review rights, appeal options, and how to protect your visa status.",
