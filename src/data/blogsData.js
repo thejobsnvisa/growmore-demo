@@ -672,6 +672,6 @@ export const blogs = [
     metaTitle: "Subclass 189 Visa Australia",
     metaDescription: "Explore the Australia Subclass 189 Visa, a points-tested permanent residency visa for skilled workers. Learn eligibility, requirements, benefits, and application steps.",
     date: "Aug 15, 2023",
-    image: `/assets/bg185.jpg`,
+    image: `/assets/bg185.png`,
   },
 ];
