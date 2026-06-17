@@ -205,6 +205,7 @@
     "react-phone-input-2": "^2.15.1",
     "react-router-dom": "^7.13.0",
     "react-toastify": "^11.0.5",
+    "rehype-raw": "^7.0.0",
     "remark-gfm": "^4.0.1",
     "sitemap": "^9.0.1",
     "swiper": "^12.1.3",
