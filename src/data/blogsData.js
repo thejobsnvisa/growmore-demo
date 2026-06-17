@@ -1,5 +1,14 @@
 export const blogs = [
-    {
+  {
+    id: 75,
+    slug: "the-ministers-interview-current-and-future-migration-plans",
+    title: "The Minister's Interview: Current and Future Migration Plans",
+    metaTitle:"Current and Future Migration Plans Explained by the Minister",
+    metaDescription:"The Minister outlines Australia’s current migration strategy and future plans. Learn about visa changes, migration targets, skilled worker pathways, and upcoming policy developments.",
+    date: "Jun 17, 2026",
+    image: `/assets/bg75.png`,
+  },  
+  {
     id: 74,
     slug: "australian-visa-cancellation-reasons-and-appeal-options",
     title: "Australian Visa Cancellation: Reasons and Appeal Options",
