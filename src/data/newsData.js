@@ -1,6 +1,15 @@
 
 export const news = [
 {
+    id: 62,
+    slug: "australia-announces-new-visa-ballot-for-pacific-region",
+    title: "Australia Announces New Visa Ballot for Pacific Region",
+    metaTitle: "Australia Opens 2026–27 Pacific Engagement Visa Ballot",
+    metaDescription:"The 2026–27 Pacific Engagement Visa ballot is now open. Discover who can apply, registration timelines, selection process, visa benefits, and important requirements for eligible applicants.",
+    date: "Jun 17, 2026",
+    image: `/assets/nb20.png`,
+  },
+  {
     id: 61,
     slug: "tra-issues-revised-guidelines",
     title: "TRA Issues Revised Guidelines",
