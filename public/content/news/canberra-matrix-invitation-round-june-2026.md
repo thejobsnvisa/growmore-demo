@@ -22,7 +22,7 @@ This trend suggests that working and living in Canberra remains a key advantage 
 
 ## Subclass 491 Pathway Nearing Closure
 
-Another critical insight is the very low number of remaining subclass 491 places (only 8 left).
+Another critical insight is the very low number of [remaining subclass 491 places](https://www.growmore.one/blogs/subclass-491-visa-consultant-your-complete-guide/) (only 8 left).
 
 **This indicates:**
 
