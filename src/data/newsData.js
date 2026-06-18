@@ -1,6 +1,15 @@
 
 export const news = [
 {
+    id: 63,
+    slug: "canberra-matrix-invitation-round-june-2026",
+    title: "Canberra Matrix Invitation Round – June 2026: Key Takeaways for Applicants",
+    metaTitle: "Canberra Matrix Invitation Round – June 2026: Scores, Occupations & Visa Updates",
+    metaDescription:"The June 2026 Canberra Matrix Invitation Round has been released. Learn the minimum invitation scores, selected occupations, ACT nomination outcomes, and what these results mean for skilled migration applicants.",
+    date: "Jun 18, 2026",
+    image: `/assets/nb21.png`,
+  },
+  {
     id: 62,
     slug: "australia-announces-new-visa-ballot-for-pacific-region",
     title: "Australia Announces New Visa Ballot for Pacific Region",
