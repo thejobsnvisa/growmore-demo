@@ -13,6 +13,7 @@ import { blogs } from "../data/blogsData";
 import CommentSection from "../Components/CommentSection";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
+import rehypeRaw from "rehype-raw";
 
 const BlogsArticle = () => {
   const { slug } = useParams();
@@ -112,13 +113,21 @@ useEffect(() => {
         />
 
         {/* MARKDOWN CONTENT */}
-       <div>
+      <div>
   <ReactMarkdown
     remarkPlugins={[remarkGfm]}
+    rehypePlugins={[rehypeRaw]}
     components={{
       h2: ({ ...props }) => (
         <h2
           className="text-[#28535B] text-[20px] font-semibold mt-8 mb-3"
+          {...props}
+        />
+      ),
+
+      h3: ({ ...props }) => (
+        <h3
+          className="text-[#28535B] text-[18px] font-semibold mt-6 mb-3"
           {...props}
         />
       ),
@@ -132,6 +141,10 @@ useEffect(() => {
 
       ul: ({ ...props }) => (
         <ul className="pl-5 mb-4 list-disc" {...props} />
+      ),
+
+      ol: ({ ...props }) => (
+        <ol className="pl-5 mb-4 list-decimal" {...props} />
       ),
 
       li: ({ ...props }) => (
@@ -149,12 +162,10 @@ useEffect(() => {
         <a
           className="text-[#2ED09B] underline"
           target="_blank"
-          
+          rel="noopener noreferrer"
           {...props}
         />
       ),
-
-      // ✅ TABLE SUPPORT STARTS HERE
 
       table: ({ ...props }) => (
         <div className="overflow-x-auto my-6 border border-gray-300 rounded-lg">
@@ -187,7 +198,18 @@ useEffect(() => {
         <tr className="hover:bg-gray-50 transition" {...props} />
       ),
 
-      // ✅ TABLE SUPPORT ENDS HERE
+      // ✅ YouTube iframe support
+      iframe: ({ ...props }) => (
+        <div className="my-6 w-full overflow-hidden rounded-xl shadow-lg">
+          <div className="relative w-full pb-[56.25%]">
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              allowFullScreen
+              {...props}
+            />
+          </div>
+        </div>
+      ),
     }}
   >
     {content}

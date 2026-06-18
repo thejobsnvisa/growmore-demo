@@ -3,8 +3,17 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-   {
-    id:1,
+    {
+    id: 1,
+    slug: "the-ministers-interview-current-and-future-migration-plans",
+    title: "The Minister's Interview: Current and Future Migration Plans",
+    metaTitle:"Current and Future Migration Plans Explained by the Minister",
+    metaDescription:"The Minister outlines Australia’s current migration strategy and future plans. Learn about visa changes, migration targets, skilled worker pathways, and upcoming policy developments.",
+    date: "Jun 17, 2026",
+    image: `/assets/bg75.png`,
+  },  
+  {
+    id: 2,
     slug: "australian-visa-cancellation-reasons-and-appeal-options",
     title: "Australian Visa Cancellation: Reasons and Appeal Options",
     metaTitle:"Australian Visa Cancellation: Reasons and Appeal Options",
@@ -13,7 +22,7 @@ const blogs = [
     image: `/assets/bg74.png`,
   },
   {
-    id:2,
+    id: 3,
     slug: "what-is-the-nt-dama-and-how-can-it-lead-to-australia-pr",
     title: "What Is the NT DAMA and How Can It Lead to Australia PR?",
     metaTitle:"What Is the NT DAMA and How Can It Lead to Australia PR?",
@@ -21,15 +30,6 @@ const blogs = [
     date: "Jun 12, 2026",
     image: `/assets/bg73.png`,
   }, 
-  {
-    id:3,
-    slug: "a-smart-way-to-boost-your-australia-pr-score-through-naati",
-    title: "A Smart Way to Boost Your Australia PR Score Through NAATI",
-    metaTitle:"Need More PR Points? How NAATI Can Strengthen Your EOI",
-    metaDescription:"Find out how NAATI CCL can help skilled migrants gain 5 extra Australia PR points and improve their ranking in invitation rounds.",
-    date: "Jun 11, 2026",
-    image: `/assets/bg72.png`,
-  }
 ];
 
 const BlogSection = () => {
