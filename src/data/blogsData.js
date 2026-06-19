@@ -1,5 +1,14 @@
 export const blogs = [
   {
+    id: 76,
+    slug: "australia-pr-myths-busted-what-skilled-migrants-need-to-know",
+    title: "Australia PR Myths Busted: What Skilled Migrants Need to Know",
+    metaTitle:"Australia PR Myths Busted: What Skilled Migrants Must Know",
+    metaDescription:"Confused by Australia PR myths? Discover the facts behind common misconceptions, understand current visa requirements, and avoid mistakes that could impact your permanent residency journey.",
+    date: "Jun 19, 2026",
+    image: `/assets/bg76.png`,
+  },  
+  {
     id: 75,
     slug: "the-ministers-interview-current-and-future-migration-plans",
     title: "The Minister's Interview: Current and Future Migration Plans",
@@ -514,7 +523,7 @@ export const blogs = [
   },
     {
     id: 18,
-    slug: "australia-pr-visa-consultant",
+    slug: "how-do-i-apply-for-australia-pr-a-step-by-step-expert-guide/",
     title: "How to Get Australia PR | Expert Step-by-Step Guide",
     metaTitle: "How to Get Australia PR | Expert Step-by-Step Guide",
     metaDescription: "how to get Australia PR step-by-step. Our registered migration agents explain eligibility, documents, fees & timelines. Book a free consultation today.",
