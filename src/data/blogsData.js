@@ -532,7 +532,7 @@ export const blogs = [
   },
     {
     id: 18,
-    slug: "how-do-i-apply-for-australia-pr-a-step-by-step-expert-guide/",
+    slug: "how-do-i-apply-for-australia-pr-a-step-by-step-expert-guide",
     title: "How to Get Australia PR | Expert Step-by-Step Guide",
     metaTitle: "How to Get Australia PR | Expert Step-by-Step Guide",
     metaDescription: "how to get Australia PR step-by-step. Our registered migration agents explain eligibility, documents, fees & timelines. Book a free consultation today.",

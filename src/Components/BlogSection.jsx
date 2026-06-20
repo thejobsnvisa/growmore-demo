@@ -5,6 +5,15 @@ import { Link } from "react-router-dom";
 const blogs = [
     {
     id: 1,
+    slug: "australia-pr-myths-busted-what-skilled-migrants-need-to-know",
+    title: "Australia PR Myths Busted: What Skilled Migrants Need to Know",
+    metaTitle:"Australia PR Myths Busted: What Skilled Migrants Must Know",
+    metaDescription:"Confused by Australia PR myths? Discover the facts behind common misconceptions, understand current visa requirements, and avoid mistakes that could impact your permanent residency journey.",
+    date: "Jun 19, 2026",
+    image: `/assets/bg76.png`,
+  },  
+  {
+    id: 2,
     slug: "the-ministers-interview-current-and-future-migration-plans",
     title: "The Minister's Interview: Current and Future Migration Plans",
     metaTitle:"Current and Future Migration Plans Explained by the Minister",
@@ -13,7 +22,7 @@ const blogs = [
     image: `/assets/bg75.png`,
   },  
   {
-    id: 2,
+    id: 3,
     slug: "australian-visa-cancellation-reasons-and-appeal-options",
     title: "Australian Visa Cancellation: Reasons and Appeal Options",
     metaTitle:"Australian Visa Cancellation: Reasons and Appeal Options",
@@ -21,15 +30,6 @@ const blogs = [
     date: "Jun 15, 2026",
     image: `/assets/bg74.png`,
   },
-  {
-    id: 3,
-    slug: "what-is-the-nt-dama-and-how-can-it-lead-to-australia-pr",
-    title: "What Is the NT DAMA and How Can It Lead to Australia PR?",
-    metaTitle:"What Is the NT DAMA and How Can It Lead to Australia PR?",
-    metaDescription:"Explore the NT DAMA, eligible occupations, visa options, concessions, and pathways to Australia PR.",
-    date: "Jun 12, 2026",
-    image: `/assets/bg73.png`,
-  }, 
 ];
 
 const BlogSection = () => {
