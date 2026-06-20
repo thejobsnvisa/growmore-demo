@@ -1,4 +1,13 @@
 export const blogs = [
+   {
+    id: 77,
+    slug: "understanding-pic-4020-how-false-information-can-affect-your-australia-visa",
+    title: "Understanding PIC 4020: How False Information Can Affect Your Australia Visa",
+    metaTitle:"What Is PIC 4020? Australia Visa Refusals, Bans & Key Rules Explained",
+    metaDescription:"PIC 4020 is a critical visa criterion that can lead to visa refusals and exclusion periods. Discover how it works, who it affects, common triggers, and what applicants can do to stay compliant.",
+    date: "Jun 20, 2026",
+    image: `/assets/bg77.png`,
+  },
   {
     id: 76,
     slug: "australia-pr-myths-busted-what-skilled-migrants-need-to-know",
