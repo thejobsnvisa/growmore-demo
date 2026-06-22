@@ -1,5 +1,14 @@
 export const blogs = [
    {
+    id: 78,
+    slug: "national-innovation-visa-explained-an-australia-pr-pathway-for-global-talent",
+    title: "National Innovation Visa (Subclass 858) Explained: Pathway to Australia PR",
+    metaTitle:"Australia PR via National Innovation Visa Explained",
+    metaDescription:"how the National Innovation Visa (Subclass 858) works, who qualifies, nomination requirements, visa benefits, and the steps exceptional professionals, researchers, investors, and entrepreneurs can take to obtain Australia PR.",
+    date: "Jun 22, 2026",
+    image: `/assets/bg78.png`,
+  }, 
+  {
     id: 77,
     slug: "understanding-pic-4020-how-false-information-can-affect-your-australia-visa",
     title: "Understanding PIC 4020: How False Information Can Affect Your Australia Visa",
