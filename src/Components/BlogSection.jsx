@@ -4,7 +4,16 @@ import { Link } from "react-router-dom";
 
 const blogs = [
     {
-    id: 1,
+    id:1,
+    slug: "understanding-pic-4020-how-false-information-can-affect-your-australia-visa",
+    title: "Understanding PIC 4020: How False Information Can Affect Your Australia Visa",
+    metaTitle:"What Is PIC 4020? Australia Visa Refusals, Bans & Key Rules Explained",
+    metaDescription:"PIC 4020 is a critical visa criterion that can lead to visa refusals and exclusion periods. Discover how it works, who it affects, common triggers, and what applicants can do to stay compliant.",
+    date: "Jun 20, 2026",
+    image: `/assets/bg77.png`,
+  },
+  {
+    id: 2,
     slug: "australia-pr-myths-busted-what-skilled-migrants-need-to-know",
     title: "Australia PR Myths Busted: What Skilled Migrants Need to Know",
     metaTitle:"Australia PR Myths Busted: What Skilled Migrants Must Know",
@@ -13,7 +22,7 @@ const blogs = [
     image: `/assets/bg76.png`,
   },  
   {
-    id: 2,
+    id: 3,
     slug: "the-ministers-interview-current-and-future-migration-plans",
     title: "The Minister's Interview: Current and Future Migration Plans",
     metaTitle:"Current and Future Migration Plans Explained by the Minister",
@@ -21,15 +30,6 @@ const blogs = [
     date: "Jun 17, 2026",
     image: `/assets/bg75.png`,
   },  
-  {
-    id: 3,
-    slug: "australian-visa-cancellation-reasons-and-appeal-options",
-    title: "Australian Visa Cancellation: Reasons and Appeal Options",
-    metaTitle:"Australian Visa Cancellation: Reasons and Appeal Options",
-    metaDescription:"Learn why Australian visas are cancelled, your review rights, appeal options, and how to protect your visa status.",
-    date: "Jun 15, 2026",
-    image: `/assets/bg74.png`,
-  },
 ];
 
 const BlogSection = () => {
