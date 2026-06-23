@@ -1,6 +1,6 @@
 Thousands of skilled migration applicants waiting for a Subclass 189 invitation may not have to wait much longer. The Department of Home Affairs has confirmed that the next invitation round is expected to be conducted by 30 September 2026.
 
-The announcement comes shortly after the release of the [Subclass 189 4 June 2026 invitation round results](https://www.growmore.one/news/subclass-189-invitation-round-data-for-4-june-2026-is-now-available/), which issued 10,000 invitations among skilled workers.
+The announcement comes shortly after the release of the [Subclass 189 - 4 June 2026 invitation round results](https://www.growmore.one/news/subclass-189-invitation-round-data-for-4-june-2026-is-now-available/), which issued 10,000 invitations among skilled workers.
 
 Applicants are encouraged to ensure their Expression of Interest (EOI) is up to date and that all information submitted through SkillSelect remains accurate to maximise their chances in the upcoming round.
 
