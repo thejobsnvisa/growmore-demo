@@ -165,6 +165,8 @@ The tie-break date for the 4 June 2026 invitation round was 24 April 2026. This 
 
 The latest invitation round shows that opportunities are still there for skilled migrants, but the points required to receive an invitation can vary significantly depending on occupation demand and competition.
 
-So, understanding where your occupation stands and whether your points score is competitive is essential when planning your Australia PR journey. Contact Growmore Immigration now to get a personalised profile assessment and PR strategy from a MARA-registered agent in Australia (MARA No. 2217941).
+So, understanding where your occupation stands and whether your points score is competitive is essential when planning your [Australia PR](https://www.growmore.one/) journey.
+
+Contact Growmore Immigration now to get a personalised profile assessment and PR strategy from a MARA-registered agent in Australia (MARA No. 2217941).
 
 ### **Source: [Invitation Rounds Outcomes](https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect/invitation-rounds?fbclid=IwdGRjcASmywNjbGNrBKbK-2V4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHm3Di0j01dJIIQPwxha4Jt75BKFExNzkw6YY6-wVgVXzd7jKkrE_zMSrdyCU_aem__nuc9z_DyYPmSY2L_DE7bA)**
