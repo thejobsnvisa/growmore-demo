@@ -1,6 +1,15 @@
 
 export const news = [
 {
+    id: 64,
+    slug: "subclass-189-invitation-round-data-for-4-june-2026-is-now-available",
+    title: "Subclass 189 Invitation Round Data for 4 June 2026 Is Now Available",
+    metaTitle: "Subclass 189 Invitation Round Results Released for June 2026",
+    metaDescription:"Australia released the 4 June 2026 Subclass 189 invitation round results with 10,000 invitations issued across skilled occupations.",
+    date: "Jun 23, 2026",
+    image: `/assets/nb22.png`,
+  },
+  {
     id: 63,
     slug: "canberra-matrix-invitation-round-june-2026",
     title: "Canberra Matrix Invitation Round – June 2026: Key Takeaways for Applicants",
