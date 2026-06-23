@@ -1,6 +1,15 @@
 
 export const news = [
 {
+    id: 66,
+    slug: "vetassess-psr-portal-update-edeclarations-dama-options-available-from-29-june",
+    title: "VETASSESS PSR Portal Update: e-Declarations & DAMA Options Available from 29 June",
+    metaTitle: "VETASSESS PSR Update 2026: e-Declarations & DAMA",
+    metaDescription:"From 29 June 2026, VETASSESS PSR Portal adds e-Declarations and online DAMA renewals & reassessments for faster skilled migration processing.",
+    date: "Jun 23, 2026",
+    image: `/assets/nb24.png`,
+  },
+  {
     id: 65,
     slug: "189-visa-update-next-round-expected-by-30-september-2026",
     title: "189 Visa Update: Next Round Expected by 30 September 2026",
