@@ -7,7 +7,7 @@ So, if you are planning to apply, renew, or request reassessment under the PSR s
 
 ## DAMA Renewals & Reassessments Now Available Directly in the Portal
 
-One of the most significant upgrades is the ability to lodge DAMA renewal and reassessment [applications for Australia PR pathways](https://www.growmore.one/blogs/pr-pathway-in-australia-right-now-2026/      ) directly through the PSR portal. Previously, some DAMA-related processes involved external handling, but now everything will be integrated into a single online system.
+One of the most significant upgrades is the ability to lodge DAMA renewal and reassessment [applications for Australia PR pathways](https://www.growmore.one/blogs/pr-pathway-in-australia-right-now-2026/) directly through the PSR portal. Previously, some DAMA-related processes involved external handling, but now everything will be integrated into a single online system.
 
 **You will now be able to:**
 
