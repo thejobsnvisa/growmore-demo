@@ -3,8 +3,17 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-    {
-    id:1,
+  {
+    id: 1,
+    slug: "national-innovation-visa-explained-an-australia-pr-pathway-for-global-talent",
+    title: "National Innovation Visa (Subclass 858) Explained: Pathway to Australia PR",
+    metaTitle:"Australia PR via National Innovation Visa Explained",
+    metaDescription:"how the National Innovation Visa (Subclass 858) works, who qualifies, nomination requirements, visa benefits, and the steps exceptional professionals, researchers, investors, and entrepreneurs can take to obtain Australia PR.",
+    date: "Jun 22, 2026",
+    image: `/assets/bg78.png`,
+  }, 
+  {
+    id: 2,
     slug: "understanding-pic-4020-how-false-information-can-affect-your-australia-visa",
     title: "Understanding PIC 4020: How False Information Can Affect Your Australia Visa",
     metaTitle:"What Is PIC 4020? Australia Visa Refusals, Bans & Key Rules Explained",
@@ -13,22 +22,13 @@ const blogs = [
     image: `/assets/bg77.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "australia-pr-myths-busted-what-skilled-migrants-need-to-know",
     title: "Australia PR Myths Busted: What Skilled Migrants Need to Know",
     metaTitle:"Australia PR Myths Busted: What Skilled Migrants Must Know",
     metaDescription:"Confused by Australia PR myths? Discover the facts behind common misconceptions, understand current visa requirements, and avoid mistakes that could impact your permanent residency journey.",
     date: "Jun 19, 2026",
     image: `/assets/bg76.png`,
-  },  
-  {
-    id: 3,
-    slug: "the-ministers-interview-current-and-future-migration-plans",
-    title: "The Minister's Interview: Current and Future Migration Plans",
-    metaTitle:"Current and Future Migration Plans Explained by the Minister",
-    metaDescription:"The Minister outlines Australia’s current migration strategy and future plans. Learn about visa changes, migration targets, skilled worker pathways, and upcoming policy developments.",
-    date: "Jun 17, 2026",
-    image: `/assets/bg75.png`,
   },  
 ];
 
