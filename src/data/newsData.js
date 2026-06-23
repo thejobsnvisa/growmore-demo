@@ -1,6 +1,15 @@
 
 export const news = [
 {
+    id: 67,
+    slug: "art-fee-hike-from-1-july-2026-new-migration-and-review-application-charges",
+    title: "ART Fee Hike from 1 July 2026: New Migration and Review Application Charges",
+    metaTitle: "ART Fee Hike 2026: New Migration Review Charges",
+    metaDescription:"From 1 July 2026, ART fees increase across migration, protection, and tax reviews. Applicants may pay higher charges for tribunal applications.",
+    date: "Jun 23, 2026",
+    image: `/assets/nb25.png`,
+  },
+  {
     id: 66,
     slug: "vetassess-psr-portal-update-edeclarations-dama-options-available-from-29-june",
     title: "VETASSESS PSR Portal Update: e-Declarations & DAMA Options Available from 29 June",
