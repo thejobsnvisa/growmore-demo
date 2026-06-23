@@ -1,6 +1,15 @@
 
 export const news = [
 {
+    id: 65,
+    slug: "189-visa-update-next-round-expected-by-30-september-2026",
+    title: "189 Visa Update: Next Round Expected by 30 September 2026",
+    metaTitle: "189 Visa Update: Next Round Expected by September 2026",
+    metaDescription:"The next Subclass 189 invitation round is expected by 30 September 2026. Learn what applicants should do now to improve their invitation chances.",
+    date: "Jun 23, 2026",
+    image: `/assets/nb23.png`,
+  },
+  {
     id: 64,
     slug: "subclass-189-invitation-round-data-for-4-june-2026-is-now-available",
     title: "Subclass 189 Invitation Round Data for 4 June 2026 Is Now Available",
