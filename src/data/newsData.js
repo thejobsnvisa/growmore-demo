@@ -1,6 +1,15 @@
 
 export const news = [
 {
+    id: 68,
+    slug: "home-affairs-to-close-immigration-operations-at-australian-embassy-seoul",
+    title: "Home Affairs to Close Immigration Operations at Australian Embassy Seoul",
+    metaTitle: "Home Affairs to Close Immigration Operations in Seoul",
+    metaDescription:"Australia will close immigration operations at its Seoul embassy from 30 June 2026. Learn what this means for Australian visa applicants and processing.",
+    date: "Jun 24, 2026",
+    image: `/assets/nb26.png`,
+  },
+  {
     id: 67,
     slug: "art-fee-hike-from-1-july-2026-new-migration-and-review-application-charges",
     title: "ART Fee Hike from 1 July 2026: New Migration and Review Application Charges",
