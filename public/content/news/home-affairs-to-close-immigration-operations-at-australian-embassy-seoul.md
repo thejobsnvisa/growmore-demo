@@ -4,9 +4,9 @@ However, this administrative change is not expected to affect visa applicants or
 
 ## What Is Changing?
 
-From 30 June 2026, the Department of Home Affairs will no longer maintain immigration operations at the Australian Embassy in Seoul. This means immigration-related functions previously associated with the Seoul office will be managed through the Department's broader global immigration network.
+From 30 June 2026, the Department of Home Affairs will no longer maintain immigration operations at the Australian Embassy in Seoul. 
 
-The Department has also updated its official website to reflect the change.
+This means immigration-related functions previously associated with the Seoul office will be managed through the Department's broader global immigration network. The Department has also updated its official website to reflect the change.
 
 ## Will This Affect Australian Visa Applicants?
 
@@ -22,9 +22,9 @@ The change reflects the Department of Home Affairs' continued move towards digit
 
 ## What Applicants Need to Know
 
-For students, skilled workers, families, and other migrants, the closure of immigration operations in Seoul does not affect any existing visa pathways or migration opportunities. Visa applications will continue to be lodged online, visa requirements and eligibility criteria remain unchanged, and applications will continue to be processed through Home Affairs' global immigration network.
+For students, skilled workers, families, and other migrants, the closure of immigration operations in Seoul does not affect any existing visa pathways or migration opportunities. 
 
-In practical terms, applicants do not need to take any additional action as a result of this announcement.
+Visa applications will continue to be lodged online, visa requirements and eligibility criteria remain unchanged, and applications will continue to be processed through Home Affairs' global immigration network. In practical terms, applicants do not need to take any additional action as a result of this announcement.
 
 ## Need Guidance on Your Australian Visa Options?
 
