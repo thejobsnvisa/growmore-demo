@@ -31,9 +31,11 @@ Each EOI must serve a different strategic purpose. If you duplicate the same pro
 
 ## When Multiple EOIs Make Sense
 
-**ultiple EOIs are only useful in specific scenarios:**
+**Multiple EOIs are only useful in specific scenarios:**
 
-### **1. Different Occupations (ANZSCO Codes):** If you are genuinely assessed for more than one occupation, you can maintain separate EOIs.For example, one person can apply for Civil Engineer (233211) as well as for Engineering Manager (133211). 
+### **1. Different Occupations (ANZSCO Codes):** 
+
+If you are genuinely assessed for more than one occupation, you can maintain separate EOIs.For example, one person can apply for Civil Engineer (233211) as well as for Engineering Manager (133211). 
 
 But here the catch is that both occupations must be assessed under different assessment authorities. However, if your occupation is related to IT and if it is assessed by ACS, then multiple IT occupations can be assessed by the same authority (ACS).
 
