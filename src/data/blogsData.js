@@ -1,5 +1,14 @@
 export const blogs = [
-   {
+  {
+    id: 79,
+    slug: "can-i-do-multiple-eois-for-australia-pr",
+    title: "Can I Do Multiple EOIs for Australia PR?",
+    metaTitle:"How many EOI can I submit for Australia",
+    metaDescription:"Can I Do Multiple EOIs for Australia PR? Find out when multiple EOIs make sense, how SkillSelect works, and what mistakes to avoid.",
+    date: "Jun 25, 2026",
+    image: `/assets/bg79.png`,
+  }, 
+  {
     id: 78,
     slug: "national-innovation-visa-explained-an-australia-pr-pathway-for-global-talent",
     title: "National Innovation Visa (Subclass 858) Explained: Pathway to Australia PR",
