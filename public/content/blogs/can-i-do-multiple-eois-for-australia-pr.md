@@ -1,19 +1,23 @@
-If you are planning to apply for Australia Permanent Residency, the Expression of Interest (EOI) process through SkillSelect is one of the important steps you will face. Here, most applicants get confused by one common question: “Should I submit multiple EOIs to increase my chances of Australia PR?”
+If you are planning to apply for Australia Permanent Residency, the Expression of Interest (EOI) process through SkillSelect is one of the important steps you will face. 
 
-The short answer is: yes, you can submit more than one EOI, but only under specific conditions. This works when each EOI is built on a clear, separate strategy, such as different occupations, visa subclasses, or state nominations. Otherwise, it adds no real advantage to your PR chances.
+**Here, most applicants get confused by one common question: “Should I submit multiple EOIs to increase my chances of Australia PR?”**
 
-So, let’s understand how it actually works.
+**The short answer is:** yes, you can submit more than one EOI, but only under specific conditions. This works when each EOI is built on a clear, separate strategy, such as different occupations, visa subclasses, or state nominations. Otherwise, it adds no real advantage to your PR chances.
+
+**So, let’s understand how it actually works.**
 
 ## What Exactly is an EOI in Australia PR?
 
-An EOI is not a visa application. It is simply a declaration you make through SkillSelect that you want to be considered for [skilled migration](https://www.growmore.one/). **In this application, you mainly need to enter details such as:**
+An EOI is not a visa application. It is simply a declaration you make through SkillSelect that you want to be considered for [skilled migration](https://www.growmore.one/). 
 
-* 1. Age  
-* 2. English test score  
-* 3. Work experience  
-* 4. Educational qualifications  
-* 5. Skills assessment outcome  
-* 6. Occupation (ANZSCO code)  
+**In this application, you mainly need to enter details such as:**
+
+**1.** Age  
+**2.** English test score  
+**3.** Work experience  
+**4.** Educational qualifications  
+**5.** Skills assessment outcome  
+**6.** Occupation (ANZSCO code)  
 
 Based on these details, you may receive an [invitation from the Australian Government](https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect/invitation-rounds) or a state authority to apply for PR under skilled visa pathways.
 
@@ -43,16 +47,16 @@ Each visa pathway has its own eligibility requirements, invitation trends, and s
 
 **You can either:**
 
-* 1. Select multiple visa subclasses (189, 190, and 491) within a single EOI, or  
-* 2. Submit separate EOIs to each visa pathway.
+**1.** Select multiple visa subclasses (189, 190, and 491) within a single EOI, or  
+**2.** Submit separate EOIs to each visa pathway.
 
 ### **3. Different State Nomination Strategies:**
 
 **Some applicants create separate EOIs for different states, like:**
 
-* 1. Victoria  
-* 2. New South Wales  
-* 3. South Australia  
+**1.** Victoria  
+**2.** New South Wales  
+**3.** South Australia  
 
 This is only useful when your occupation is genuinely in demand across multiple states, and you meet each state’s eligibility rules.
 
@@ -60,10 +64,10 @@ This is only useful when your occupation is genuinely in demand across multiple 
 
 This is where many applicants go wrong. So, if you do not want to become one of them, avoid:
 
-* 1. Creating multiple EOIs for the same occupation and the same visa subclass  
-* 2. Copy-pasting identical profiles  
-* 3. Changing minor details just to “increase chances”  
-* 4. Submitting EOIs without a clear eligibility reason  
+**1.** Creating multiple EOIs for the same occupation and the same visa subclass  
+**2.** Copy-pasting identical profiles  
+**3.** Changing minor details just to “increase chances”  
+**4.** Submitting EOIs without a clear eligibility reason  
 
 ## Do Multiple EOIs Increase Your PR Chances?
 
@@ -71,14 +75,14 @@ Not automatically.
 
 **It can help only when:**
 
-* 1. You are eligible under multiple occupations  
-* 2. You have different valid visa pathways  
-* 3. Your profile strength varies significantly across streams  
+**1.** You are eligible under multiple occupations  
+**2.** You have different valid visa pathways  
+**3.** Your profile strength varies significantly across streams  
 
 **It backfires when:**
 
-* 1. There is no clear strategy behind duplication  
-* 2. Your occupation choice is inconsistent with your assessment  
+**1.** There is no clear strategy behind duplication  
+**2.** Your occupation choice is inconsistent with your assessment  
 
 ## Not Sure Which EOI Strategy Is Right for You?
 
