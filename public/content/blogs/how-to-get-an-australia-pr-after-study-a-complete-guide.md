@@ -18,19 +18,19 @@ This pathway is not based on a points system. Instead, it focuses on employment 
 
 **These are some common options available under an employer-sponsored visa:**
 
-### Subclass 482 – Skills In Demand Visa (Temporary PR Pathway)
+### **1. Subclass 482 – Skills In Demand Visa (Temporary PR Pathway)**
 
 The [Subclass 482 visa](https://www.growmore.one/blogs/how-to-work-as-a-retail-manager-in-australia-via-subclass-482/) allows you to live and work in Australia under an approved employer sponsorship. It is a temporary program and is primarily used to fill skill shortages in the Australian labour market.
 
 While working on this visa, you are expected to maintain employment with your sponsoring employer and meet all visa conditions that may support your transition to permanent residency later.
 
-### Subclass 494 – Skilled Employer Sponsored Regional Visa (Temporary PR Pathway)
+### **2. Subclass 494 – Skilled Employer Sponsored Regional Visa (Temporary PR Pathway)**
 
 The Subclass 494 visa is a regional employer-sponsored visa designed for skilled workers willing to live and work in designated regional areas of Australia.
 
 It is a temporary visa, but if you meet the relevant requirements, it can provide a pathway to the Subclass 191 Permanent Residence (Skilled Regional visa).
 
-### **Subclass 186 – Employer Nomination Scheme (Permanent Residency)**
+### **3. Subclass 186 – Employer Nomination Scheme (Permanent Residency)**
 
 The [Subclass 186 visa is a permanent residency visa](https://www.growmore.one/blogs/subclass-186-visa-consultant-for-pr-success) under the employer-sponsored stream.
 
@@ -44,13 +44,13 @@ This route is generally more competitive because invitations are based on your p
 
 Once you secure enough points and meet eligibility requirements, you can submit an Expression of Interest (EOI) and receive an invitation to apply for permanent residency. **Here are some visa options:**
 
-### **Subclass 189 – Skilled Independent Visa (Permanent Residency)**
+### **1. Subclass 189 – Skilled Independent Visa (Permanent Residency)**
 
 The Subclass 189 visa is a permanent residency pathway based entirely on a points-tested system and requires your occupation to be listed on Australia’s Skilled Occupation List.
 
 It is one of the most flexible PR options that allows you to live and work anywhere in Australia without employer or state sponsorship once granted.
 
-### **Subclass 190 – Skilled Nominated Visa (Permanent Residency)**
+### **2. Subclass 190 – Skilled Nominated Visa (Permanent Residency)**
 
 The [Subclass 190 visa is a permanent residency](https://www.growmore.one/news/tasmania-weekly-invitation-round-42-invitations-issued-in-latest-round/) option where you must be nominated by an Australian state or territory government.
 
@@ -58,7 +58,7 @@ To be eligible, your occupation should match the skills shortage needs of that s
 
 Once you are nominated, you get extra points in the PR system, which increases your chances of receiving an invitation to apply. After your visa is granted, you are generally expected to live and work in the nominating state for a certain period.
 
-### **Subclass 491 – Skilled Work Regional (Provisional) Visa (Temporary PR Pathway)**
+### **3. Subclass 491 – Skilled Work Regional (Provisional) Visa (Temporary PR Pathway)**
 
 The [Subclass 491](https://www.growmore.one/blogs/subclass-491-visa-consultant-your-complete-guide) is a temporary visa designed for skilled workers who are willing to live and work in regional Australia.
 
@@ -75,7 +75,7 @@ If you are in a genuine and ongoing relationship with an Australian citizen, [Au
 
 Unlike employer-sponsored and skilled migration visas, this pathway does not require a skills assessment, occupation list eligibility, or points test. Instead, the focus is on proving that your relationship is genuine, committed, and ongoing.
 
-### **Subclass 820/801 – Onshore Partner Visa**
+### **1. Subclass 820/801 – Onshore Partner Visa**
 
 This visa is for applicants who are already in Australia and in a genuine relationship with an Australian citizen, Australian permanent resident, or eligible New Zealand citizen. The [Subclass 820 visa](https://www.growmore.one/blogs/australian-visa-processing-times-update-february-2026-vs-april-2026/) is granted first as a temporary visa, followed by the Subclass 801 permanent visa once the required eligibility requirements are met.
 
