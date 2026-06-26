@@ -45,7 +45,7 @@ const BookConsultation = () => {
         {/* ✅ OG */}
         <meta
           property="og:title"
-          content="Migrate to Australia | Skilled Occupation List with GrowMore Immigration"
+          content="Book Your Australian Visa Consultation | Growmore Immigration"
         />
         <meta
           property="og:description"

@@ -3,8 +3,17 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
- {
+   {
     id: 1,
+    slug: "how-to-get-an-australia-pr-after-study-a-complete-guide",
+    title: "How to Get an Australia PR After Study: A Complete Guide",
+    metaTitle:"How to Get Australia PR After Study: Complete Guide",
+    metaDescription:"Learn the main Australia PR pathways after study, including employer-sponsored visas, skilled migration, and partner visa options.",
+    date: "Jun 26, 2026",
+    image: `/assets/bg80.png`,
+  }, 
+  {
+    id: 2,
     slug: "can-i-do-multiple-eois-for-australia-pr",
     title: "Can I Do Multiple EOIs for Australia PR?",
     metaTitle:"How many EOI can I submit for Australia",
@@ -13,7 +22,7 @@ const blogs = [
     image: `/assets/bg79.png`,
   }, 
   {
-    id: 2,
+    id: 3,
     slug: "national-innovation-visa-explained-an-australia-pr-pathway-for-global-talent",
     title: "National Innovation Visa (Subclass 858) Explained: Pathway to Australia PR",
     metaTitle:"Australia PR via National Innovation Visa Explained",
@@ -21,15 +30,6 @@ const blogs = [
     date: "Jun 22, 2026",
     image: `/assets/bg78.png`,
   }, 
-  {
-    id: 3,
-    slug: "understanding-pic-4020-how-false-information-can-affect-your-australia-visa",
-    title: "Understanding PIC 4020: How False Information Can Affect Your Australia Visa",
-    metaTitle:"What Is PIC 4020? Australia Visa Refusals, Bans & Key Rules Explained",
-    metaDescription:"PIC 4020 is a critical visa criterion that can lead to visa refusals and exclusion periods. Discover how it works, who it affects, common triggers, and what applicants can do to stay compliant.",
-    date: "Jun 20, 2026",
-    image: `/assets/bg77.png`,
-  },
 ];
 
 const BlogSection = () => {
