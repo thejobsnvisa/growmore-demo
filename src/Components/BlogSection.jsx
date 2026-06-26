@@ -3,8 +3,17 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-  {
+ {
     id: 1,
+    slug: "can-i-do-multiple-eois-for-australia-pr",
+    title: "Can I Do Multiple EOIs for Australia PR?",
+    metaTitle:"How many EOI can I submit for Australia",
+    metaDescription:"Can I Do Multiple EOIs for Australia PR? Find out when multiple EOIs make sense, how SkillSelect works, and what mistakes to avoid.",
+    date: "Jun 25, 2026",
+    image: `/assets/bg79.png`,
+  }, 
+  {
+    id: 2,
     slug: "national-innovation-visa-explained-an-australia-pr-pathway-for-global-talent",
     title: "National Innovation Visa (Subclass 858) Explained: Pathway to Australia PR",
     metaTitle:"Australia PR via National Innovation Visa Explained",
@@ -13,7 +22,7 @@ const blogs = [
     image: `/assets/bg78.png`,
   }, 
   {
-    id: 2,
+    id: 3,
     slug: "understanding-pic-4020-how-false-information-can-affect-your-australia-visa",
     title: "Understanding PIC 4020: How False Information Can Affect Your Australia Visa",
     metaTitle:"What Is PIC 4020? Australia Visa Refusals, Bans & Key Rules Explained",
@@ -21,15 +30,6 @@ const blogs = [
     date: "Jun 20, 2026",
     image: `/assets/bg77.png`,
   },
-  {
-    id: 3,
-    slug: "australia-pr-myths-busted-what-skilled-migrants-need-to-know",
-    title: "Australia PR Myths Busted: What Skilled Migrants Need to Know",
-    metaTitle:"Australia PR Myths Busted: What Skilled Migrants Must Know",
-    metaDescription:"Confused by Australia PR myths? Discover the facts behind common misconceptions, understand current visa requirements, and avoid mistakes that could impact your permanent residency journey.",
-    date: "Jun 19, 2026",
-    image: `/assets/bg76.png`,
-  },  
 ];
 
 const BlogSection = () => {
