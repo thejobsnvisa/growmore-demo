@@ -1,4 +1,13 @@
 export const blogs = [
+    {
+    id: 80,
+    slug: "how-to-get-an-australia-pr-after-study-a-complete-guide",
+    title: "How to Get an Australia PR After Study: A Complete Guide",
+    metaTitle:"How to Get Australia PR After Study: Complete Guide",
+    metaDescription:"Learn the main Australia PR pathways after study, including employer-sponsored visas, skilled migration, and partner visa options.",
+    date: "Jun 26, 2026",
+    image: `/assets/bg80.png`,
+  }, 
   {
     id: 79,
     slug: "can-i-do-multiple-eois-for-australia-pr",
