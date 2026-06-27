@@ -14,10 +14,12 @@ It operates under a labour agreement framework and allows approved employers to 
 
 The agreement covers two designated categories: 
 
-### Category 2 – Metropolitan Perth 
+## Category 2 – Metropolitan Perth 
+
 This includes eligible businesses operating within specified Perth metropolitan postcodes. (6000 to 6038, 6050 to 6083, 6090 to 6182, 6208 to 6211, 6214 and 6556 to 6558) 
 
-### Category 3 – Regional Western Australia 
+## git Category 3 – Regional Western Australia 
+
 Businesses operating outside the metropolitan Perth postcode boundaries fall under Regional WA.  
 
 The annual allocation of WA DAMA places is shared equally, with 50% allocated to Category 2 and 50% allocated to Category 3. 
