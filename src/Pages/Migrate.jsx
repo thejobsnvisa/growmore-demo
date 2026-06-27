@@ -67,52 +67,45 @@ const Migrate = () => {
 
   return (
     <>
-   <Helmet>
-  {/* ✅ Title */}
-  <title>
-    Migrate to Australia | Skilled Occupation List with GrowMore Immigration
-  </title>
+      <Helmet>
+        <title>
+          Migrate to Australia | Skilled Occupation List with GrowMore
+          Immigration
+        </title>
 
-  {/* ✅ Meta Description */}
-  <meta
-    name="description"
-    content="GrowMore Immigration can assist you in migrating to Australia. Check the latest Skilled Occupation List, eligibility criteria, and expert migration support to start your journey today."
-  />
+        <meta
+          name="description"
+          content="Growmore Immigration can assist you in migrating to Australia. Check the latest Skilled Occupation List, eligibility criteria, and expert migration support to start your journey today."
+        />
 
-  {/* ✅ Canonical */}
-  <link rel="canonical" href={url} />
+        {/* ✅ Canonical for homepage */}
+        <link rel="canonical" href={url} />
 
-  {/* ✅ Open Graph */}
-  <meta
-    property="og:title"
-    content="Migrate to Australia | Skilled Occupation List with GrowMore Immigration"
-  />
-  <meta
-    property="og:description"
-    content="GrowMore Immigration can assist you in migrating to Australia. Check the latest Skilled Occupation List, eligibility criteria, and expert migration support to start your journey today."
-  />
-  <meta property="og:url" content={url} />
-  <meta property="og:type" content="website" />
-  <meta
-    property="og:image"
-    content="https://www.growmore.one/assets/i1.png"
-  />
-
-  {/* ✅ Twitter */}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta
-    name="twitter:title"
-    content="Migrate to Australia | Skilled Occupation List with GrowMore Immigration"
-  />
-  <meta
-    name="twitter:description"
-    content="GrowMore Immigration can assist you in migrating to Australia. Check the latest Skilled Occupation List, eligibility criteria, and expert migration support to start your journey today."
-  />
-  <meta
-    name="twitter:image"
-    content="https://www.growmore.one/assets/i1.png"
-  />
-</Helmet>
+        {/* ✅ OG */}
+        <meta
+          property="og:title"
+          content="Migrate to Australia | Skilled Occupation List with GrowMore Immigration"
+        />
+        <meta
+          property="og:description"
+          content="Growmore Immigration can assist you in migrating to Australia. Check the latest Skilled Occupation List, eligibility criteria, and expert migration support to start your journey today."
+        />
+        <meta property="og:url" content={url} />
+        <meta property="og:image" content="https://www.growmore.one/i1.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Migrate to Australia | Skilled Occupation List with GrowMore Immigration"
+        />
+        <meta
+          name="twitter:description"
+          content="Growmore Immigration can assist you in migrating to Australia. Check the latest Skilled Occupation List, eligibility criteria, and expert migration support to start your journey today."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.growmore.one/assets/i1.png"
+        />
+      </Helmet>
       <div>
         <section className="bg-[#28535B] py-16 md:py-20">
           <div className="max-w-[1400px] mx-auto px-6 md:px-15">
