@@ -87,7 +87,7 @@ export default function PointsCalculator() {
           content="Use Growmore Immigration's Points Test Calculator to determine your eligibility for an Australian skilled permanent residence visa. Determine your score right away and look into your migration choices."
         />
         <meta property="og:url" content={url} />
-        <meta property="og:image" content="https://www.growmore.one/assests/logo.jpg" />
+        <meta property="og:image" content="https://www.growmore.one/logo.jpg" />
       </Helmet>
       <div className="w-full">
         {/* ================= HEADER BANNER ================= */}
