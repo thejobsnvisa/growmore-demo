@@ -103,7 +103,7 @@ const Videos = () => {
           content="Explore migration advice, visa guides, and success stories."
         />
         <meta property="og:url" content={Url} />
-        <meta property="og:image" content="https://www.growmore.one/logo.jpg" />
+        <meta property="og:image" content="https://www.growmore.one/assets/y1.png" />
       </Helmet>
 
       <div className="w-full bg-white">
