@@ -88,7 +88,7 @@ const Migrate = () => {
               content="Growmore Immigration can assist you in migrating to Australia. Check the latest Skilled Occupation List, eligibility criteria, and expert migration support to start your journey today."
             />
             <meta property="og:url" content={url} />
-            <meta property="og:image" content="https://www.growmore.one/logo.jpg" />
+            <meta property="og:image" content="https://www.growmore.one/i1.png" />
           </Helmet>
     <div>
       <section className="bg-[#28535B] py-16 md:py-20">
