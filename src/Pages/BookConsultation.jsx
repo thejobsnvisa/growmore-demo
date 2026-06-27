@@ -52,7 +52,7 @@ const BookConsultation = () => {
           content="Secure your future in Australia. Book a professional consultation for PR, Student, or Partner visas with our expert migration team. Start your journey today!"
         />
         <meta property="og:url" content={url} />
-        <meta property="og:image" content="https://www.growmore.one/logo.jpg" />
+        <meta property="og:image" content="https://www.growmore.one/assets/y1.png" />
       </Helmet>
       <div>
         {/* Hero Section */}
