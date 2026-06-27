@@ -37,21 +37,8 @@ const Home = () => {
           property="og:description"
           content="Best Australia PR Immigration Consultants & Migration Agents in Melbourne. Expert Support for Skilled Migration, PR Visas, Employer-Sponsored Visas & All type Documentation."
         />
-        <meta property="og:url" content={url} />
-        <meta property="og:image" content="https://www.growmore.one/assets/logo.jpg" />
-         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Best Australia PR Immigration Consultant & Migration Agents Melbourne"
-        />
-        <meta
-          name="twitter:description"
-          content="Best Australia PR Immigration Consultants & Migration Agents in Melbourne. Expert Support for Skilled Migration, PR Visas, Employer-Sponsored Visas & All type Documentation."
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.growmore.one/assets/logo.jpg"
-        />
+         <meta property="og:url" content={url} />
+        <meta property="og:image" content="https://www.growmore.one/logo.jpg" />
       </Helmet>
       <div className="bg-white">
         <Hero />

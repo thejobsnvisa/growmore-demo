@@ -96,19 +96,6 @@ const Migrate = () => {
           property="og:image"
           content="https://www.growmore.one/assets/i1.png"
         />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Migrate to Australia | Skilled Occupation List with GrowMore Immigration"
-        />
-        <meta
-          name="twitter:description"
-          content="Growmore Immigration can assist you in migrating to Australia. Check the latest Skilled Occupation List, eligibility criteria, and expert migration support to start your journey today."
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.growmore.one/assets/i1.png"
-        />
       </Helmet>
       <div>
         <section className="bg-[#28535B] py-16 md:py-20">
