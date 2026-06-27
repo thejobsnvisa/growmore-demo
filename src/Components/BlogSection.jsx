@@ -5,6 +5,14 @@ import { Link } from "react-router-dom";
 const blogs = [
    {
     id: 1,
+    slug: "what-is-the-western-australia-dama-and-how-does-it-work",
+    title: "What Is the Western Australia DAMA and How Does It Work?",
+    metaTitle:"What Is the Western Australia DAMA and How Does It Work?",
+    metaDescription:"What is the Western Australia DAMA? Learn about eligibility, employer sponsorship, occupation lists, concessions, and visa pathways.",
+    date: "Jun 27, 2026",
+    image: `/assets/bg81.png`,
+  },  {
+    id: 2,
     slug: "how-to-get-an-australia-pr-after-study-a-complete-guide",
     title: "How to Get an Australia PR After Study: A Complete Guide",
     metaTitle:"How to Get Australia PR After Study: Complete Guide",
@@ -13,22 +21,13 @@ const blogs = [
     image: `/assets/bg80.png`,
   }, 
   {
-    id: 2,
+    id: 3,
     slug: "can-i-do-multiple-eois-for-australia-pr",
     title: "Can I Do Multiple EOIs for Australia PR?",
     metaTitle:"How many EOI can I submit for Australia",
     metaDescription:"Can I Do Multiple EOIs for Australia PR? Find out when multiple EOIs make sense, how SkillSelect works, and what mistakes to avoid.",
     date: "Jun 25, 2026",
     image: `/assets/bg79.png`,
-  }, 
-  {
-    id: 3,
-    slug: "national-innovation-visa-explained-an-australia-pr-pathway-for-global-talent",
-    title: "National Innovation Visa (Subclass 858) Explained: Pathway to Australia PR",
-    metaTitle:"Australia PR via National Innovation Visa Explained",
-    metaDescription:"how the National Innovation Visa (Subclass 858) works, who qualifies, nomination requirements, visa benefits, and the steps exceptional professionals, researchers, investors, and entrepreneurs can take to obtain Australia PR.",
-    date: "Jun 22, 2026",
-    image: `/assets/bg78.png`,
   }, 
 ];
 
