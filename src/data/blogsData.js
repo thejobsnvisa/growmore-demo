@@ -1,5 +1,13 @@
 export const blogs = [
     {
+    id: 81,
+    slug: "what-is-the-western-australia-dama-and-how-does-it-work",
+    title: "What Is the Western Australia DAMA and How Does It Work?",
+    metaTitle:"What Is the Western Australia DAMA and How Does It Work?",
+    metaDescription:"What is the Western Australia DAMA? Learn about eligibility, employer sponsorship, occupation lists, concessions, and visa pathways.",
+    date: "Jun 27, 2026",
+    image: `/assets/bg81.png`,
+  },  {
     id: 80,
     slug: "how-to-get-an-australia-pr-after-study-a-complete-guide",
     title: "How to Get an Australia PR After Study: A Complete Guide",
