@@ -1,6 +1,15 @@
 
 export const news = [
 {
+    id: 70,
+    slug: "immi-account-changes-from-1-july-import-function-now-limited-to-3-attempts",
+    title: "Immi Account Changes from 1 July: Import Function Now Limited to 3 Attempts",
+    metaTitle: "ImmiAccount Import Limit: 3 Attempts Rule from 1 July 2026",
+    metaDescription:"From 1 July 2026, ImmiAccount will limit visa application imports to 3 attempts per application. Learn key changes, reasons, and alternatives like Share and Assign functions.",
+    date: "Jun 29, 2026",
+    image: `/assets/nb28.png`,
+  },
+  {
     id: 69,
     slug: "australia-state-and-territory-nomination-update-as-of-may-2026",
     title: "2025–26 Australia State and Territory Nomination Update (as of May 2026)",
