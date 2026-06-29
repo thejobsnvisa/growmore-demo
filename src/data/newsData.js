@@ -1,6 +1,15 @@
 
 export const news = [
 {
+    id: 69,
+    slug: "australia-state-and-territory-nomination-update-as-of-may-2026",
+    title: "2025–26 Australia State and Territory Nomination Update (as of May 2026)",
+    metaTitle: "Australia State Nomination Update 2025–26 (May 2026): Latest 190 & 491 Visa Updates",
+    metaDescription:"Get the latest Australia State Nomination Update for May 2026. Explore Subclass 190 and 491 invitation rounds, state nomination openings, eligibility changes, occupation lists, and key updates for skilled migration applicants.",
+    date: "Jun 29, 2026",
+    image: `/assets/nb27.png`,
+  },
+  {
     id: 68,
     slug: "home-affairs-to-close-immigration-operations-at-australian-embassy-seoul",
     title: "Home Affairs to Close Immigration Operations at Australian Embassy Seoul",
