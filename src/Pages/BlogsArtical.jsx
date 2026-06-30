@@ -67,28 +67,74 @@ useEffect(() => {
 
   return (
    <>
-    <Helmet>
-     <title>{article.metaTitle || article.title}</title>
-   
-     <meta
-       name="description"
-       content={article.metaDescription || article.title}
-     />
-   
-     <link rel="canonical" href={`https://www.growmore.one/blogs/${slug}/`} />
-   
-     <meta property="og:type" content="article" />
-     <meta property="og:title" content={article.metaTitle || article.title} />
-     <meta property="og:description" content={article.metaDescription || article.title} />
-     <meta property="og:image" content={article.image} />
-     <meta property="og:url" content={`https://www.growmore.one/blogs/${slug}/`} />
-   
-     {/* Fix Publisher */}
-     <meta name="publisher" content="Growmore Immigration" />
-   
-     {/* Robots (optional explicit) */}
-     <meta name="robots" content="index, follow" />
-   </Helmet>
+ <Helmet>
+  {/* Title */}
+  <title>{article.metaTitle || article.title}</title>
+
+  {/* Meta Description */}
+  <meta
+    name="description"
+    content={article.metaDescription || article.title}
+  />
+
+  {/* Canonical */}
+  <link
+    rel="canonical"
+    href={`https://www.growmore.one/blogs/${slug}/`}
+  />
+
+  {/* Robots */}
+  <meta name="robots" content="index, follow" />
+
+  {/* Publisher */}
+  <meta name="publisher" content="Growmore Immigration" />
+
+  {/* Open Graph */}
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Growmore Immigration" />
+
+  <meta
+    property="og:title"
+    content={article.metaTitle || article.title}
+  />
+
+  <meta
+    property="og:description"
+    content={article.metaDescription || article.title}
+  />
+
+  <meta
+    property="og:image"
+    content={`https://www.growmore.one${article.image}`}
+  />
+
+  <meta property="og:image:alt" content={article.title} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <meta
+    property="og:url"
+    content={`https://www.growmore.one/blogs/${slug}/`}
+  />
+
+  {/* Twitter */}
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <meta
+    name="twitter:title"
+    content={article.metaTitle || article.title}
+  />
+
+  <meta
+    name="twitter:description"
+    content={article.metaDescription || article.title}
+  />
+
+  <meta
+    name="twitter:image"
+    content={`https://www.growmore.one${article.image}`}
+  />
+</Helmet>
     <div className="min-h-screen bg-white font-jakarta text-[#042325]">
       
       {/* HEADER */}
