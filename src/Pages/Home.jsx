@@ -38,7 +38,7 @@ const Home = () => {
           content="Best Australia PR Immigration Consultants & Migration Agents in Melbourne. Expert Support for Skilled Migration, PR Visas, Employer-Sponsored Visas & All type Documentation."
         />
          <meta property="og:url" content={url} />
-        <meta property="og:image" content="https://www.growmore.one/logo.jpg" />
+        <meta property="og:image" content="https://www.growmore.one/assets/famliy-img.png" />
       </Helmet>
       <div className="bg-white">
         <Hero />

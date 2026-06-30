@@ -85,7 +85,7 @@ const ContactUs = () => {
           property="og:description"
           content="Growmore Immigration specializes in Australian immigration services, 30 Years experienced professionals, personalized guidance, and a strong track record of successful visa outcomes."/>
         <meta property="og:url" content={url} />
-        <meta property="og:image" content="https://www.growmore.one/logo.jpg" />
+        <meta property="og:image" content="https://www.growmore.one/assets/krunal2.png" />
       </Helmet>
       <div className="w-full">
         {/* Hero Section */}
