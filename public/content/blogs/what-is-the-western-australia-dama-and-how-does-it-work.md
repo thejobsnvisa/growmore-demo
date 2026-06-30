@@ -18,7 +18,7 @@ The agreement covers two designated categories:
 
 This includes eligible businesses operating within specified Perth metropolitan postcodes. (6000 to 6038, 6050 to 6083, 6090 to 6182, 6208 to 6211, 6214 and 6556 to 6558) 
 
-## git Category 3 – Regional Western Australia 
+## Category 3 – Regional Western Australia 
 
 Businesses operating outside the metropolitan Perth postcode boundaries fall under Regional WA.  
 
