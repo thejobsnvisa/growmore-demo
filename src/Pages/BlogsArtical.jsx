@@ -81,7 +81,7 @@ useEffect(() => {
      <meta property="og:title" content={article.metaTitle || article.title} />
      <meta property="og:description" content={article.metaDescription || article.title} />
      <meta property="og:image" content={article.image} />
-     <meta property="og:url" content={`https://www.growmore.one/blogs/${slug}`} />
+     <meta property="og:url" content={`https://www.growmore.one/blogs/${slug}/`} />
    
      {/* Fix Publisher */}
      <meta name="publisher" content="Growmore Immigration" />
