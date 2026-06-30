@@ -67,11 +67,14 @@ const ContactUs = () => {
   return (
     <>
       <Helmet>
-        <title>Contact US | Growmore Immigration Offices in Melbourne Australia</title>
+        <title>
+          Contact US | Growmore Immigration Offices in Melbourne Australia
+        </title>
 
         <meta
           name="description"
-          content="Growmore Immigration specializes in Australian immigration services, 30 Years experienced professionals, personalized guidance, and a strong track record of successful visa outcomes."/>
+          content="Growmore Immigration specializes in Australian immigration services, 30 Years experienced professionals, personalized guidance, and a strong track record of successful visa outcomes."
+        />
 
         {/* ✅ Canonical for homepage */}
         <link rel="canonical" href={url} />
@@ -83,9 +86,15 @@ const ContactUs = () => {
         />
         <meta
           property="og:description"
-          content="Growmore Immigration specializes in Australian immigration services, 30 Years experienced professionals, personalized guidance, and a strong track record of successful visa outcomes."/>
+          content="Growmore Immigration specializes in Australian immigration services, 30 Years experienced professionals, personalized guidance, and a strong track record of successful visa outcomes."
+        />
         <meta property="og:url" content={url} />
-        <meta property="og:image" content="https://www.growmore.one/assets/krunal2.png" />
+        <meta
+          property="og:image"
+          content="https://www.growmore.one/assets/krunal2.png"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
       </Helmet>
       <div className="w-full">
         {/* Hero Section */}
