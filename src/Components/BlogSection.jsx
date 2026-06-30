@@ -5,13 +5,14 @@ import { Link } from "react-router-dom";
 const blogs = [
    {
     id: 1,
-    slug: "what-is-the-western-australia-dama-and-how-does-it-work",
-    title: "What Is the Western Australia DAMA and How Does It Work?",
-    metaTitle:"What Is the Western Australia DAMA and How Does It Work?",
-    metaDescription:"What is the Western Australia DAMA? Learn about eligibility, employer sponsorship, occupation lists, concessions, and visa pathways.",
-    date: "Jun 27, 2026",
-    image: `/assets/bg81.png`,
-  },  {
+    slug: "can-you-work-in-australia-without-sponsorship-a-real-option-explained",
+    title: "Can You Work in Australia Without Sponsorship? A Real Option Explained",
+    metaTitle:"Subclass 400 Visa: No English Test or Sponsorship Required",
+    metaDescription:"Discover who can apply for Australia's Subclass 400 Visa. Learn about eligibility, duration, documents, application process, and English test requirements.",
+    date: "Jun 30, 2026",
+    image: `/assets/bg82.png`,
+  },  
+  {
     id: 2,
     slug: "how-to-get-an-australia-pr-after-study-a-complete-guide",
     title: "How to Get an Australia PR After Study: A Complete Guide",
