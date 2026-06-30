@@ -21,7 +21,7 @@ const BlogsArticle = () => {
 
   const article = blogs.find((item) => item.slug === slug);
 
-  useEffect(() => {
+useEffect(() => {
     window.scrollTo(0, 0);
 
     if (article) {
@@ -29,10 +29,7 @@ const BlogsArticle = () => {
 
       // ✅ Use BASE_URL to handle /growmore-one/ or / automatically
       const baseUrl = import.meta.env.BASE_URL;
-      const filePath = `${baseUrl}content/blogs/${slug}.md`.replace(
-        /\/+/g,
-        "/",
-      );
+      const filePath = `${baseUrl}content/blogs/${slug}.md`.replace(/\/+/g, '/');
 
       fetch(filePath)
         .then((res) => {
@@ -42,13 +39,8 @@ const BlogsArticle = () => {
         .then((text) => {
           if (isMounted) {
             // Check if the response is actually HTML (GitHub's 404 page)
-            if (
-              text.trim().startsWith("<!doctype html>") ||
-              text.trim().startsWith("<html")
-            ) {
-              throw new Error(
-                "Wrong file path - received HTML instead of Markdown",
-              );
+            if (text.trim().startsWith("<!doctype html>") || text.trim().startsWith("<html")) {
+              throw new Error("Wrong file path - received HTML instead of Markdown");
             }
             setContent(text);
           }
@@ -56,7 +48,7 @@ const BlogsArticle = () => {
         .catch((err) => {
           console.error("Fetch error:", err);
           setContent(
-            "# Content Not Found\nPlease check that the file exists in `public/content/blogs/`.",
+            "# Content Not Found\nPlease check that the file exists in `public/content/blogs/`."
           );
         });
 
@@ -68,227 +60,211 @@ const BlogsArticle = () => {
 
   if (!article)
     return (
-      <div className="py-20 text-center font-bold">Metadata not found.</div>
-    );
-  const SITE_URL = "https://www.growmore.one";
-
-  const pageUrl = `${SITE_URL}/blogs/${slug}/`;
-  const imageUrl = article.image.startsWith("http")
-    ? article.image
-    : `${SITE_URL}${article.image}`;
-  return (
-    <>
-      <Helmet>
-        {/* Basic SEO */}
-        <title>{article.metaTitle || article.title}</title>
-
-        <meta
-          name="description"
-          content={article.metaDescription || article.title}
-        />
-
-        <link rel="canonical" href={pageUrl} />
-
-        {/* Open Graph */}
-        <meta property="og:type" content="article" />
-        <meta property="og:site_name" content="Growmore Immigration" />
-        <meta property="og:url" content={pageUrl} />
-
-        <meta
-          property="og:title"
-          content={article.metaTitle || article.title}
-        />
-
-        <meta
-          property="og:description"
-          content={article.metaDescription || article.title}
-        />
-
-        <meta property="og:image" content={imageUrl} />
-        <meta property="og:image:secure_url" content={imageUrl} />
-        <meta property="og:image:type" content="image/png" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content={article.title} />
-
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content={article.metaTitle || article.title}
-        />
-        <meta
-          name="twitter:description"
-          content={article.metaDescription || article.title}
-        />
-        <meta name="twitter:image" content={imageUrl} />
-      </Helmet>
-      <div className="min-h-screen bg-white font-jakarta text-[#042325]">
-        {/* HEADER */}
-        <section className="bg-[#28535B] py-14 text-white">
-          <div className="max-w-5xl mx-auto px-6">
-            <h1 className="text-[28px] md:text-[32px] font-semibold leading-snug">
-              {article.title}
-            </h1>
-          </div>
-        </section>
-
-        {/* CONTENT */}
-        <section className="py-12 max-w-5xl mx-auto px-6">
-          {/* IMAGE */}
-          <img
-            src={article.image}
-            alt={article.title}
-            className="w-full rounded-lg mb-8 object-cover max-h-[450px]"
-          />
-
-          {/* MARKDOWN CONTENT */}
-          <div>
-            <ReactMarkdown
-              remarkPlugins={[remarkGfm]}
-              rehypePlugins={[rehypeRaw]}
-              components={{
-                h2: ({ ...props }) => (
-                  <h2
-                    className="text-[#28535B] text-[20px] font-semibold mt-8 mb-3"
-                    {...props}
-                  />
-                ),
-
-                h3: ({ ...props }) => (
-                  <h3
-                    className="text-[#28535B] text-[18px] font-semibold mt-6 mb-3"
-                    {...props}
-                  />
-                ),
-
-                p: ({ ...props }) => (
-                  <p
-                    className="text-[15px] leading-[1.7] text-[#333] mb-4"
-                    {...props}
-                  />
-                ),
-
-                ul: ({ ...props }) => (
-                  <ul className="pl-5 mb-4 list-disc" {...props} />
-                ),
-
-                ol: ({ ...props }) => (
-                  <ol className="pl-5 mb-4 list-decimal" {...props} />
-                ),
-
-                li: ({ ...props }) => (
-                  <li className="mb-2 marker:text-[#333333]" {...props} />
-                ),
-
-                strong: ({ ...props }) => (
-                  <strong className="font-semibold text-[#042325]" {...props} />
-                ),
-
-                a: ({ ...props }) => (
-                  <a
-                    className="text-[#2ED09B] underline"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    {...props}
-                  />
-                ),
-
-                table: ({ ...props }) => (
-                  <div className="overflow-x-auto my-6 border border-gray-300 rounded-lg">
-                    <table
-                      className="w-full text-sm border-collapse"
-                      {...props}
-                    />
-                  </div>
-                ),
-
-                thead: ({ ...props }) => (
-                  <thead className="bg-gray-200" {...props} />
-                ),
-
-                th: ({ ...props }) => (
-                  <th
-                    className="border border-gray-300 px-4 py-2 text-left font-semibold text-[#333]"
-                    {...props}
-                  />
-                ),
-
-                td: ({ ...props }) => (
-                  <td
-                    className="border border-gray-300 px-4 py-2 text-[#333]"
-                    {...props}
-                  />
-                ),
-
-                tr: ({ ...props }) => (
-                  <tr className="hover:bg-gray-50 transition" {...props} />
-                ),
-
-                // ✅ YouTube iframe support
-                iframe: ({ ...props }) => (
-                  <div className="my-6 w-full overflow-hidden rounded-xl shadow-lg">
-                    <div className="relative w-full pb-[56.25%]">
-                      <iframe
-                        className="absolute top-0 left-0 w-full h-full"
-                        allowFullScreen
-                        {...props}
-                      />
-                    </div>
-                  </div>
-                ),
-              }}
-            >
-              {content}
-            </ReactMarkdown>
-          </div>
-          {/* CONTACT BAR */}
-          <div className="w-full bg-[#2ED09B]  rounded-lg p-5 shadow-sm my-8">
-            <div className="flex flex-col md:flex-row justify-start items-center gap-2 md:gap-4  pl-3 text-black font-semibold text-center text-[15px] sm:text-[17px]">
-              <div className="flex items-center">
-                <span>Email: </span>
-                <a
-                  href="mailto:info@growmore.one"
-                  className="ml-1 text-blue-500 transition-colors"
-                >
-                  info@growmore.one
-                </a>
-              </div>
-
-              <span className="hidden md:inline text-black">|</span>
-
-              <div className="flex items-center">
-                <span>WhatsApp: </span>
-                <a
-                  href="https://wa.me/61434202021"
-                  className="ml-1 text-blue-500 "
-                >
-                  +61 434 202 021
-                </a>
-              </div>
-
-              <span className="hidden md:inline text-black">|</span>
-
-              <div className="flex items-center">
-                <span>Phone: </span>
-                <a href="tel:+61387643334" className="ml-1 text-black ">
-                  +61 3 8764 3334
-                </a>
-              </div>
-            </div>
-          </div>
-
-          {/* BUTTON */}
-          <Link to="/book-consultation">
-            <button className="bg-[#5dc2d3] text-white rounded-full hover:bg-black transition px-12 py-4 text-sm font-bold shadow-lg">
-              Book Consultation →
-            </button>
-          </Link>
-
-          <CommentSection />
-        </section>
+      <div className="py-20 text-center font-bold">
+        Metadata not found.
       </div>
-    </>
+    );
+
+  return (
+   <>
+    <Helmet>
+     <title>{article.metaTitle || article.title}</title>
+   
+     <meta
+       name="description"
+       content={article.metaDescription || article.title}
+     />
+   
+     <link rel="canonical" href={`https://www.growmore.one/blogs/${slug}/`} />
+   
+     <meta property="og:type" content="article" />
+     <meta property="og:title" content={article.metaTitle || article.title} />
+     <meta property="og:description" content={article.metaDescription || article.title} />
+     <meta property="og:image" content={article.image} />
+     <meta property="og:url" content={`https://www.growmore.one/blogs/${slug}/`} />
+   
+     {/* Fix Publisher */}
+     <meta name="publisher" content="Growmore Immigration" />
+   
+     {/* Robots (optional explicit) */}
+     <meta name="robots" content="index, follow" />
+   </Helmet>
+    <div className="min-h-screen bg-white font-jakarta text-[#042325]">
+      
+      {/* HEADER */}
+      <section className="bg-[#28535B] py-14 text-white">
+        <div className="max-w-5xl mx-auto px-6">
+
+          <h1 className="text-[28px] md:text-[32px] font-semibold leading-snug">
+            {article.title}
+          </h1>
+
+        </div>
+      </section>
+
+      {/* CONTENT */}
+      <section className="py-12 max-w-5xl mx-auto px-6">
+        
+        {/* IMAGE */}
+        <img
+          src={article.image}
+          alt={article.title}
+          className="w-full rounded-lg mb-8 object-cover max-h-[450px]"
+        />
+
+        {/* MARKDOWN CONTENT */}
+      <div>
+  <ReactMarkdown
+    remarkPlugins={[remarkGfm]}
+    rehypePlugins={[rehypeRaw]}
+    components={{
+      h2: ({ ...props }) => (
+        <h2
+          className="text-[#28535B] text-[20px] font-semibold mt-8 mb-3"
+          {...props}
+        />
+      ),
+
+      h3: ({ ...props }) => (
+        <h3
+          className="text-[#28535B] text-[18px] font-semibold mt-6 mb-3"
+          {...props}
+        />
+      ),
+
+      p: ({ ...props }) => (
+        <p
+          className="text-[15px] leading-[1.7] text-[#333] mb-4"
+          {...props}
+        />
+      ),
+
+      ul: ({ ...props }) => (
+        <ul className="pl-5 mb-4 list-disc" {...props} />
+      ),
+
+      ol: ({ ...props }) => (
+        <ol className="pl-5 mb-4 list-decimal" {...props} />
+      ),
+
+      li: ({ ...props }) => (
+        <li className="mb-2 marker:text-[#333333]" {...props} />
+      ),
+
+      strong: ({ ...props }) => (
+        <strong
+          className="font-semibold text-[#042325]"
+          {...props}
+        />
+      ),
+
+      a: ({ ...props }) => (
+        <a
+          className="text-[#2ED09B] underline"
+          target="_blank"
+          rel="noopener noreferrer"
+          {...props}
+        />
+      ),
+
+      table: ({ ...props }) => (
+        <div className="overflow-x-auto my-6 border border-gray-300 rounded-lg">
+          <table
+            className="w-full text-sm border-collapse"
+            {...props}
+          />
+        </div>
+      ),
+
+      thead: ({ ...props }) => (
+        <thead className="bg-gray-200" {...props} />
+      ),
+
+      th: ({ ...props }) => (
+        <th
+          className="border border-gray-300 px-4 py-2 text-left font-semibold text-[#333]"
+          {...props}
+        />
+      ),
+
+      td: ({ ...props }) => (
+        <td
+          className="border border-gray-300 px-4 py-2 text-[#333]"
+          {...props}
+        />
+      ),
+
+      tr: ({ ...props }) => (
+        <tr className="hover:bg-gray-50 transition" {...props} />
+      ),
+
+      // ✅ YouTube iframe support
+      iframe: ({ ...props }) => (
+        <div className="my-6 w-full overflow-hidden rounded-xl shadow-lg">
+          <div className="relative w-full pb-[56.25%]">
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              allowFullScreen
+              {...props}
+            />
+          </div>
+        </div>
+      ),
+    }}
+  >
+    {content}
+  </ReactMarkdown>
+</div>
+        {/* CONTACT BAR */}
+      <div className="w-full bg-[#2ED09B]  rounded-lg p-5 shadow-sm my-8">
+                <div className="flex flex-col md:flex-row justify-start items-center gap-2 md:gap-4  pl-3 text-black font-semibold text-center text-[15px] sm:text-[17px]">
+                  <div className="flex items-center">
+                    <span>Email: </span>
+                    <a
+                      href="mailto:info@growmore.one"
+                      className="ml-1 text-blue-500 transition-colors"
+                    >
+                      info@growmore.one
+                    </a>
+                  </div>
+
+                  <span className="hidden md:inline text-black">|</span>
+
+                  <div className="flex items-center">
+                    <span>WhatsApp: </span>
+                    <a
+                      href="https://wa.me/61434202021"
+                      className="ml-1 text-blue-500 "
+                    >
+                      +61 434 202 021
+                    </a>
+                  </div>
+
+                  <span className="hidden md:inline text-black">|</span>
+
+                  <div className="flex items-center">
+                    <span>Phone: </span>
+                    <a
+                      href="tel:+61387643334"
+                      className="ml-1 text-black "
+                    >
+                      +61 3 8764 3334
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+        {/* BUTTON */}
+            <Link to="/book-consultation">
+                <button className="bg-[#5dc2d3] text-white rounded-full hover:bg-black transition px-12 py-4 text-sm font-bold shadow-lg">
+                  Book Consultation →
+                </button>
+              </Link>
+
+       <CommentSection/>
+      </section>
+    </div>
+   </>
   );
 };
 
