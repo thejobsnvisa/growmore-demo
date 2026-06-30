@@ -39,6 +39,9 @@ const Home = () => {
         />
          <meta property="og:url" content={url} />
         <meta property="og:image" content="https://www.growmore.one/assets/famliy-img.png" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:width" content="630" />
+
       </Helmet>
       <div className="bg-white">
         <Hero />
