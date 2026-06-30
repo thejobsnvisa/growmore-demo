@@ -34,7 +34,8 @@ const AI = lazy(() => import("./Pages/AI"));
 
 /* Articles */
 const NewsArticle = lazy(() => import("./Pages/NewsArtical"));
-import BlogsArtical from "./Pages/BlogsArtical";
+const BlogsArtical = lazy(() => import("./Pages/BlogsArtical"));
+
 /* Checklist */
 const Checklist = lazy(() => import("./Components/Checklist"));
 const Checklistgsm = lazy(() => import("./Components/Checklistgsm"));
