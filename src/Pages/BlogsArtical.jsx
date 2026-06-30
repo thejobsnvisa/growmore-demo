@@ -65,61 +65,74 @@ useEffect(() => {
       </div>
     );
 
+  // Add these just above the return statement
+const SITE_URL = "https://www.growmore.one";
+
+const pageUrl = `${SITE_URL}/blogs/${slug}/`;
+const imageUrl = new URL(article.image, SITE_URL).href;
+
   return (
    <>
-   <Helmet prioritizeSeoTags>
+   
+  <Helmet prioritizeSeoTags>
+  {/* Basic SEO */}
   <title>{article.metaTitle || article.title}</title>
 
   <meta
     name="description"
     content={article.metaDescription || article.title}
   />
+  <meta name="author" content="Riddhi Upadhyay" />
+  <meta name="publisher" content="Growmore Immigration" />
+  <meta
+    name="robots"
+    content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  />
 
+  {/* Canonical */}
+  <link rel="canonical" href={pageUrl} />
+
+  {/* Open Graph */}
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="Growmore Immigration" />
+  <meta property="og:locale" content="en_AU" />
+
   <meta
     property="og:title"
     content={article.metaTitle || article.title}
   />
+
   <meta
     property="og:description"
     content={article.metaDescription || article.title}
   />
-  <meta
-    property="og:image"
-    content={`https://www.growmore.one${article.image}`}
-  />
-  <meta
-    property="og:image:secure_url"
-    content={`https://www.growmore.one${article.image}`}
-  />
+
+  <meta property="og:url" content={pageUrl} />
+
+  <meta property="og:image" content={imageUrl} />
+  <meta property="og:image:secure_url" content={imageUrl} />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="640" />
+  <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content={article.title} />
-  <meta
-    property="og:url"
-    content={`https://www.growmore.one/blogs/${slug}/`}
-  />
 
+  {/* Twitter */}
   <meta name="twitter:card" content="summary_large_image" />
+
   <meta
     name="twitter:title"
     content={article.metaTitle || article.title}
   />
+
   <meta
     name="twitter:description"
     content={article.metaDescription || article.title}
   />
-  <meta
-    name="twitter:image"
-    content={`https://www.growmore.one${article.image}`}
-  />
 
-  <link
-    rel="canonical"
-    href={`https://www.growmore.one/blogs/${slug}/`}
-  />
+  <meta name="twitter:image" content={imageUrl} />
+
+  {/* Optional */}
+  <meta property="article:author" content="Riddhi Upadhyay" />
 </Helmet>
     <div className="min-h-screen bg-white font-jakarta text-[#042325]">
       
