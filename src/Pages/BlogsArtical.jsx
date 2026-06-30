@@ -78,7 +78,7 @@ const BlogsArticle = () => {
     : `${SITE_URL}${article.image}`;
   return (
     <>
-      <Helmet prioritizeSeoTags>
+      <Helmet>
         {/* Basic SEO */}
         <title>{article.metaTitle || article.title}</title>
 

@@ -12,9 +12,7 @@ if (redirect) {
 }
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <HelmetProvider>
+  <HelmetProvider>
       <App />
     </HelmetProvider>
-  </React.StrictMode>
 );
