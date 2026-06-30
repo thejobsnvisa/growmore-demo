@@ -91,7 +91,7 @@ const ContactUs = () => {
         <meta property="og:url" content={url} />
         <meta
           property="og:image"
-          content="https://www.growmore.one/assets/krunal2.png"
+          content="https://www.growmore.one/assets/c.png"
         />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
