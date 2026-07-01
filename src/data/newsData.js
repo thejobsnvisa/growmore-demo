@@ -1,6 +1,15 @@
 
 export const news = [
 {
+    id: 72,
+    slug: "major-australia-immigration-changes-effective-from-1-july-2026",
+    title: "Major Australia Immigration Changes Effective From 1 July 2026",
+    metaTitle: "Australia’s Massive 1 July Immigration Changes Are Live: What's New",
+    metaDescription:"Massive visa fee hikes and new skilled salary thresholds take effect across Australia today, 1 July 2026. Here is the breakdown of who is affected.",
+    date: "July 1, 2026",
+    image: `/assets/nb30.png`,
+  },
+  {
     id: 71,
     slug: "australia-visa-application-fees-increase-from-1-july-2026",
     title: "Australia Visa Application Fees Increase From 1 July 2026",
