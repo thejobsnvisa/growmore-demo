@@ -2,48 +2,40 @@ const fs = require("fs");
 const path = require("path");
 
 (async () => {
-  const { news } = await import(
-    "../src/data/newsData.js"
-  );
+  try {
+    const { news } = await import("../src/data/newsData.js");
+    const { blogs } = await import("../src/data/blogsData.js");
 
-  const { blogs } = await import(
-    "../src/data/blogsData.js"
-  );
+    const routes = [
+      "/",
+      "/news",
+      "/blogs",
+      ...news.map((item) => `/news/${item.slug}`),
+      ...blogs.map((item) => `/blogs/${item.slug}`),
+    ];
 
-  const routes = [
-    "/",
-    "/news",
-    "/blogs",
+    // Remove duplicates & sort
+    const uniqueRoutes = [...new Set(routes)].sort();
 
-    ...news.map(
-      (item) => `/news/${item.slug}`
-    ),
+    const packageJsonPath = path.join(process.cwd(), "package.json");
 
-    ...blogs.map(
-      (item) => `/blogs/${item.slug}`
-    )
-  ];
+    const packageJson = JSON.parse(
+      fs.readFileSync(packageJsonPath, "utf8")
+    );
 
-  const packageJsonPath = path.join(
-    process.cwd(),
-    "package.json"
-  );
+    packageJson.reactSnap = {
+      ...(packageJson.reactSnap || {}),
+      include: uniqueRoutes,
+    };
 
-  const packageJson = JSON.parse(
-    fs.readFileSync(packageJsonPath, "utf8")
-  );
+    fs.writeFileSync(
+      packageJsonPath,
+      JSON.stringify(packageJson, null, 2) + "\n"
+    );
 
-  packageJson.reactSnap = {
-    ...packageJson.reactSnap,
-    include: routes
-  };
-
-  fs.writeFileSync(
-    packageJsonPath,
-    JSON.stringify(packageJson, null, 2)
-  );
-
-  console.log(
-    "News & blog routes generated"
-  );
+    console.log(`✅ Generated ${uniqueRoutes.length} routes for react-snap.`);
+  } catch (err) {
+    console.error("❌ Failed to generate routes:", err);
+    process.exit(1);
+  }
 })();
