@@ -3,8 +3,18 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-   {
+  {
     id: 1,
+    slug: "australia-visa-application-fees-increase-from-1-july-2026",
+    title: "Australia Visa Application Fees Increase From 1 July 2026",
+    metaTitle: "Australia Visa Application Fees Increase From 1 July 2026",
+    metaDescription:"Australia visa application fees have increased from 1 July 2026. Check the latest charges for Australia PR, skilled, partner, employer-sponsored and visitor visas.",
+    date: "July  1, 2026",
+    image: `/assets/nb29.png`,
+  }, 
+  
+  {
+    id: 2,
     slug: "can-you-work-in-australia-without-sponsorship-a-real-option-explained",
     title: "Can You Work in Australia Without Sponsorship? A Real Option Explained",
     metaTitle:"Subclass 400 Visa: No English Test or Sponsorship Required",
@@ -13,22 +23,13 @@ const blogs = [
     image: `/assets/bg82.png`,
   },  
   {
-    id: 2,
+    id: 3,
     slug: "how-to-get-an-australia-pr-after-study-a-complete-guide",
     title: "How to Get an Australia PR After Study: A Complete Guide",
     metaTitle:"How to Get Australia PR After Study: Complete Guide",
     metaDescription:"Learn the main Australia PR pathways after study, including employer-sponsored visas, skilled migration, and partner visa options.",
     date: "Jun 26, 2026",
     image: `/assets/bg80.png`,
-  }, 
-  {
-    id: 3,
-    slug: "can-i-do-multiple-eois-for-australia-pr",
-    title: "Can I Do Multiple EOIs for Australia PR?",
-    metaTitle:"How many EOI can I submit for Australia",
-    metaDescription:"Can I Do Multiple EOIs for Australia PR? Find out when multiple EOIs make sense, how SkillSelect works, and what mistakes to avoid.",
-    date: "Jun 25, 2026",
-    image: `/assets/bg79.png`,
   }, 
 ];
 
