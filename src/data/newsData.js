@@ -1,6 +1,15 @@
 
 export const news = [
 {
+    id: 71,
+    slug: "australia-visa-application-fees-increase-from-1-july-2026",
+    title: "Australia Visa Application Fees Increase From 1 July 2026",
+    metaTitle: "Australia Visa Application Fees Increase From 1 July 2026",
+    metaDescription:"Australia visa application fees have increased from 1 July 2026. Check the latest charges for Australia PR, skilled, partner, employer-sponsored and visitor visas.",
+    date: "July 1, 2026",
+    image: `/assets/nb29.png`,
+  },
+  {
     id: 70,
     slug: "immi-account-changes-from-1-july-import-function-now-limited-to-3-attempts",
     title: "Immi Account Changes from 1 July: Import Function Now Limited to 3 Attempts",
