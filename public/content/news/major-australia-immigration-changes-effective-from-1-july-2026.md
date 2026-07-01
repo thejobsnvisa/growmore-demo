@@ -21,7 +21,7 @@ Applicants seeking a review of a migration decision through the Administrative R
 - Migration decision review (Part 5): $3,727 (previously $3,580)
 - Protection visa decision review (Part 7): $2,293 (previously $2,203)
 
-**Learn more about [art fee hike from 1-july-2026 these changes](https://www.growmore.one/news/art-fee-hike-from-1-july-2026-new-migration-and-review-application-charges/)**
+**Learn more about [ART Fee Hike From 1-july-2026](https://www.growmore.one/news/art-fee-hike-from-1-july-2026-new-migration-and-review-application-charges/)**
 
 ## 3. **Federal Circuit Court Fees Also Increase**
 
@@ -49,7 +49,7 @@ Australia has increased the Core Skills Income Threshold (CSIT) and Specialist S
 
 These thresholds are automatically indexed each year based on Average Weekly Ordinary Time Earnings (AWOTE) and apply to all relevant Subclass 482 and Subclass 186 visa applications lodged on or after 1 July 2026.
 
-**Read the [full information employer sponsored visas from 1-july-2026](https://www.growmore.one/news/salary-thresholds-rise-for-employer-sponsored-visas-from-1-july-2026/)**
+**Read the full information about [Salary Thresholds Rise for Employer-Sponsored Visas](https://www.growmore.one/news/salary-thresholds-rise-for-employer-sponsored-visas-from-1-july-2026/)**
 
 ## 6. **Goldfields DAMA Transitions to the Western Australian DAMA**
 
