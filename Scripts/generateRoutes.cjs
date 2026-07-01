@@ -2,138 +2,40 @@ const fs = require("fs");
 const path = require("path");
 
 (async () => {
-  // Import blog and news data
-  const { blogs } = await import("../src/data/blogsData.js");
-  const { news } = await import("../src/data/newsData.js");
+  try {
+    const { news } = await import("../src/data/newsData.js");
+    const { blogs } = await import("../src/data/blogsData.js");
 
-  const distDir = path.join(process.cwd(), "dist");
+    const routes = [
+      "/",
+      "/news",
+      "/blogs",
+      ...news.map((item) => `/news/${item.slug}`),
+      ...blogs.map((item) => `/blogs/${item.slug}`),
+    ];
 
-  // Read the base Vite HTML
-  const template = fs.readFileSync(
-    path.join(distDir, "index.html"),
-    "utf8"
-  );
+    // Remove duplicates & sort
+    const uniqueRoutes = [...new Set(routes)].sort();
 
-  function createPage({
-    route,
-    title,
-    description,
-    image,
-  }) {
-    const pageDir = path.join(
-      distDir,
-      route.replace(/^\/+/, "")
+    const packageJsonPath = path.join(process.cwd(), "package.json");
+
+    const packageJson = JSON.parse(
+      fs.readFileSync(packageJsonPath, "utf8")
     );
 
-    fs.mkdirSync(pageDir, {
-      recursive: true,
-    });
-
-    const imageUrl = image.startsWith("http")
-      ? image
-      : `https://www.growmore.one${image}`;
-
-    let html = template;
-
-    // ---------- TITLE ----------
-    html = html.replace(
-      /<title>.*?<\/title>/i,
-      `<title>${title}</title>`
-    );
-
-    // If there isn't a title tag
-    if (!html.includes("<title>")) {
-      html = html.replace(
-        "</head>",
-        `<title>${title}</title></head>`
-      );
-    }
-
-    const meta = `
-<meta name="description" content="${description}" />
-
-<link rel="canonical" href="https://www.growmore.one${route}/" />
-
-<meta property="og:type" content="article" />
-<meta property="og:title" content="${title}" />
-<meta property="og:description" content="${description}" />
-<meta property="og:image" content="${imageUrl}" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
-<meta property="og:url" content="https://www.growmore.one${route}/" />
-
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="${title}" />
-<meta name="twitter:description" content="${description}" />
-<meta name="twitter:image" content="${imageUrl}" />
-`;
-
-    html = html.replace(
-      "</head>",
-      `${meta}\n</head>`
-    );
+    packageJson.reactSnap = {
+      ...(packageJson.reactSnap || {}),
+      include: uniqueRoutes,
+    };
 
     fs.writeFileSync(
-      path.join(pageDir, "index.html"),
-      html
+      packageJsonPath,
+      JSON.stringify(packageJson, null, 2) + "\n"
     );
 
-    console.log("Generated:", route);
+    console.log(`✅ Generated ${uniqueRoutes.length} routes for react-snap.`);
+  } catch (err) {
+    console.error("❌ Failed to generate routes:", err);
+    process.exit(1);
   }
-
-  // Home page
-  createPage({
-    route: "/",
-    title: "Growmore Immigration",
-    description:
-      "Growmore Immigration Australia",
-    image: "/logo.webp",
-  });
-
-  // Blogs page
-  createPage({
-    route: "/blogs",
-    title: "Blogs | Growmore Immigration",
-    description:
-      "Latest immigration blogs.",
-    image: "/logo.webp",
-  });
-
-  // News page
-  createPage({
-    route: "/news",
-    title: "News | Growmore Immigration",
-    description:
-      "Latest immigration news.",
-    image: "/logo.webp",
-  });
-
-  // Individual blogs
-  blogs.forEach((blog) => {
-    createPage({
-      route: `/blogs/${blog.slug}`,
-      title: blog.metaTitle || blog.title,
-      description:
-        blog.metaDescription ||
-        blog.title,
-      image: blog.image,
-    });
-  });
-
-  // Individual news
-  news.forEach((item) => {
-    createPage({
-      route: `/news/${item.slug}`,
-      title:
-        item.metaTitle || item.title,
-      description:
-        item.metaDescription ||
-        item.title,
-      image: item.image,
-    });
-  });
-
-  console.log(
-    "✅ Static pages generated successfully."
-  );
 })();
