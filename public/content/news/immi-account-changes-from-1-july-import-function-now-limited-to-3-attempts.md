@@ -2,7 +2,7 @@ The Department of Home Affairs has announced a key update to the ImmiAccount sys
 
 This update is part of the Department’s focus on protecting applicant privacy, preventing misuse, and keeping visa application data more secure.
 
-## What Is Changing? 
+## What Is Changing?
 
 From 1 July, each Australia visa application can only be successfully imported into ImmiAccount a maximum of three times.
 
