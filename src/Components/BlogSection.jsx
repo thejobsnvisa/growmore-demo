@@ -3,11 +3,7 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-<<<<<<< HEAD
-  {
-=======
-{
->>>>>>> e85be7e01508b92476ee102ec1b99aa70925e838
+   {
     id: 1,
     slug: "australia-visa-application-fees-increase-from-1-july-2026",
     title: "Australia Visa Application Fees Increase From 1 July 2026",
@@ -15,38 +11,25 @@ const blogs = [
     metaDescription:"Australia visa application fees have increased from 1 July 2026. Check the latest charges for Australia PR, skilled, partner, employer-sponsored and visitor visas.",
     date: "July  1, 2026",
     image: `/assets/nb29.png`,
-  }, 
-  
-  {
+  },  
+   {
     id: 2,
+    slug: "immi-account-changes-from-1-july-import-function-now-limited-to-3-attempts",
+    title: "Immi Account Changes from 1 July: Import Function Now Limited to 3 Attempts",
+    metaTitle: "ImmiAccount Import Limit: 3 Attempts Rule from 1 July 2026",
+    metaDescription:"From 1 July 2026, ImmiAccount will limit visa application imports to 3 attempts per application. Learn key changes, reasons, and alternatives like Share and Assign functions.",
+    date: "Jun 29, 2026",
+    image: `/assets/nb28.png`,
+  }, 
+   {
+    id: 3,
     slug: "can-you-work-in-australia-without-sponsorship-a-real-option-explained",
     title: "Can You Work in Australia Without Sponsorship? A Real Option Explained",
     metaTitle:"Subclass 400 Visa: No English Test or Sponsorship Required",
     metaDescription:"Discover who can apply for Australia's Subclass 400 Visa. Learn about eligibility, duration, documents, application process, and English test requirements.",
     date: "Jun 30, 2026",
     image: `/assets/bg82.png`,
-  },   
-  {
-<<<<<<< HEAD
-=======
-    id: 2,
-    slug: "what-is-the-western-australia-dama-and-how-does-it-work",
-    title: "What Is the Western Australia DAMA and How Does It Work?",
-    metaTitle:"What Is the Western Australia DAMA and How Does It Work?",
-    metaDescription:"What is the Western Australia DAMA? Learn about eligibility, employer sponsorship, occupation lists, concessions, and visa pathways.",
-    date: "Jun 27, 2026",
-    image: `/assets/bg81.png`,
-  },  
-  {
->>>>>>> e85be7e01508b92476ee102ec1b99aa70925e838
-    id: 3,
-    slug: "how-to-get-an-australia-pr-after-study-a-complete-guide",
-    title: "How to Get an Australia PR After Study: A Complete Guide",
-    metaTitle:"How to Get Australia PR After Study: Complete Guide",
-    metaDescription:"Learn the main Australia PR pathways after study, including employer-sponsored visas, skilled migration, and partner visa options.",
-    date: "Jun 26, 2026",
-    image: `/assets/bg80.png`,
-  }, 
+  },
 ];
 
 const BlogSection = () => {
