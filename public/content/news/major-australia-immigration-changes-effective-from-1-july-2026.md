@@ -4,13 +4,13 @@ These updates affect different stages of the migration journey, from lodging a v
 
 **Here's a detailed look at the major Australian immigration changes that have taken effect from 1 July.**
 
-## 1.  **Visa Application Charges (VAC) to Be Updated**
+## 1. **Visa Application Charges (VAC) to Be Updated**
 
 Australia updates its Visa Application Charges (VACs) every year in line with the Consumer Price Index (CPI), and this year, the country has also updated the fee structure that applies to applications lodged on or after 1 July 2026.
 
 The revised charges apply to a broad range of Australian visa subclasses, including skilled migration, employer-sponsored, partner, parent, student, visitor, and temporary graduate visas.
 
-**Learn more about these [australia visa application fees increase from 1-july-2026 here:](https://www.growmore.one/news/australia-visa-application-fees-increase-from-1-july-2026/)**
+**Learn more about these [australia visa application fees increase from 1-july-2026](https://www.growmore.one/news/australia-visa-application-fees-increase-from-1-july-2026/)**
 
 ## 2.  **Administrative Review Tribunal (ART) Fees Increase**
 
@@ -21,7 +21,7 @@ Applicants seeking a review of a migration decision through the Administrative R
 - Migration decision review (Part 5): $3,727 (previously $3,580)
 - Protection visa decision review (Part 7): $2,293 (previously $2,203)
 
-**Learn more about [art fee hike from 1-july-2026 these changes here:](https://www.growmore.one/news/art-fee-hike-from-1-july-2026-new-migration-and-review-application-charges/)**
+**Learn more about [art fee hike from 1-july-2026 these changes](https://www.growmore.one/news/art-fee-hike-from-1-july-2026-new-migration-and-review-application-charges/)**
 
 ## 3. **Federal Circuit Court Fees Also Increase**
 
@@ -49,7 +49,7 @@ Australia has increased the Core Skills Income Threshold (CSIT) and Specialist S
 
 These thresholds are automatically indexed each year based on Average Weekly Ordinary Time Earnings (AWOTE) and apply to all relevant Subclass 482 and Subclass 186 visa applications lodged on or after 1 July 2026.
 
-**Read the [full information employer sponsored visas from 1-july-2026 here:](https://www.growmore.one/news/salary-thresholds-rise-for-employer-sponsored-visas-from-1-july-2026/)**
+**Read the [full information employer sponsored visas from 1-july-2026](https://www.growmore.one/news/salary-thresholds-rise-for-employer-sponsored-visas-from-1-july-2026/)**
 
 ## 6. **Goldfields DAMA Transitions to the Western Australian DAMA**
 
@@ -75,7 +75,7 @@ Applicants should note that this is a new ballot, and registrations submitted in
 - Tonga
 - Tuvalu
 
-**Read the [full information about the ballot here:](https://www.growmore.one/news/australia-announces-new-visa-ballot-for-pacific-region/)**
+**Read the [full information about the ballot](https://www.growmore.one/news/australia-announces-new-visa-ballot-for-pacific-region/)**
 
 ## 8.  **2026–27 Migration Program Planning Levels**
 
@@ -83,7 +83,7 @@ In the new program year, the Australian Government confirms the 2026–27 perman
 
 Of the total places, 129,590 are allocated to onshore applicants already living in Australia, while the remaining 55,110 places are reserved for offshore skilled migrants.
 
-**Read the [full Migration Program Planning details here:](https://www.growmore.one/news/migration-program-planning-levels-2026-27/)** 
+**Read the [full Migration Program Planning details here](https://www.growmore.one/news/migration-program-planning-levels-2026-27/)** 
 
 **Still Confused About These Changes?**
 
