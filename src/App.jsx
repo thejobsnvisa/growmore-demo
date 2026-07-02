@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import ScrollToTop from "./Components/ScrollToTop";
+import OfferPopup from "./Components/Offer";
 
 /* ---------- Lazy Load Pages ---------- */
 
@@ -116,7 +117,31 @@ function App() {
     <Router>
       <ScrollToTop />
       <Navbar />
+       {/* <div className="sticky top-0 z-[9999] w-full overflow-hidden bg-gradient-to-r from-[#59C4E6] via-[#67D7DA] to-[#7EE8C8] shadow-md">
+  <a
+    href="https://case.growmore.one/add/company-website"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block py-2"
+  >
+    <div className="flex animate-marquee whitespace-nowrap">
 
+      {/* Duplicate for seamless scrolling */}
+      {/* <div className="mx-10 flex shrink-0 items-center gap-4 text-sm font-semibold text-white">
+        <span className="animate-pulse text-lg">🎉</span>
+
+        <span>
+          <strong>Exclusive Discount Just for You!</strong> Submit the form to
+          unlock your special offer.
+        </span>
+
+        <span className="rounded-full bg-white px-3 py-1 text-xs font-bold text-[#0F4C81]">
+          Claim Now →
+        </span>
+      </div>
+    </div>
+  </a>
+</div> */} 
       <Suspense fallback={<Loader />}>
         <Routes>
           {/* Main */}

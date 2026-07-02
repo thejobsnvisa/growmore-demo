@@ -14,6 +14,7 @@ export default {
         float: "float 5s ease-in-out infinite",
         slowZoom: "slowZoom 8s ease-in-out infinite alternate",
         blob: "blob 12s infinite",
+         marquee: "marquee 18s linear infinite",
       },
       keyframes: {
         float: {
