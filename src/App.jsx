@@ -112,11 +112,22 @@ function Loader() {
 /* ---------- App ---------- */
 
 function App() {
+  React.useEffect(() => {
+    const scriptSrc = "https://unpkg.com/@elevenlabs/convai-widget-embed";
+    if (!document.querySelector(`script[src="${scriptSrc}"]`)) {
+      const script = document.createElement("script");
+      script.src = scriptSrc;
+      script.async = true;
+      script.type = "text/javascript";
+      document.body.appendChild(script);
+    }
+  }, []);
+
   return (
     <Router>
       <ScrollToTop />
       <Navbar />
-       <div className="sticky top-0 z-[9999] w-full overflow-hidden bg-gradient-to-r from-[#59C4E6] via-[#67D7DA] to-[#7EE8C8] shadow-md">
+       <div className="sticky top-0 z-20 w-full overflow-hidden bg-gradient-to-r from-[#59C4E6] via-[#67D7DA] to-[#7EE8C8] shadow-md">
   <a
     href="https://case.growmore.one/add/company-website"
     target="_blank"
@@ -290,7 +301,7 @@ function App() {
           />
         </Routes>
       </Suspense>
-       <elevenlabs-convai agent-id="agent_5201ksmd3c0zfkg82bgbk6p727yn"></elevenlabs-convai><script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+       <elevenlabs-convai agent-id="agent_5201ksmd3c0zfkg82bgbk6p727yn" />
       <Footer />
     </Router>
   );
