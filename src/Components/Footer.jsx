@@ -28,23 +28,16 @@ const Footer = () => {
         }}
       ></div>
       {/* CTA SECTION */}
-      <div className="border-b border-white/20 py-8 px-4 sm:px-6 relative z-10">
-        <div className="max-w-[1300px] mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="flex flex-col sm:flex-row items-start gap-4 text-center md:text-left">
-            <div className="bg-[#6dc7d1] rounded-full p-2">
-              <img
-                src={`${import.meta.env.BASE_URL}assets/img1.svg`}
-                alt="phone"
-                className="h-12 w-12 sm:h-14 sm:w-14"
-              />
-            </div>
-            <h2 className="text-[22px] sm:text-[25px] text-left font-semibold leading-snug">
+      <div className="border-t border-b border-white/20 py-8 px-4 sm:px-6 relative z-10">
+        <div className="max-w-[1300px] mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between gap-6">
+          <div className="flex flex-col sm:flex-row items-center md:items-start gap-4 text-center md:text-left">
+            <h2 className="text-[22px] sm:text-[25px] text-center md:text-left font-semibold leading-snug">
               {" "}
               Need An Expert Advice <br className="hidden md:block" />
               For Your Visa?
             </h2>
           </div>
-          <div className="flex sm:flex-row items-start gap-4 mt-4 md:mt-0">
+          <div className="flex items-center justify-center gap-4 mt-4 md:mt-0">
             {[
               { Icon: FaEnvelope, href: "mailto:india@growmore.one" },
               { Icon: FaWhatsapp, href: "https://wa.me/+61434202021" },
@@ -57,7 +50,6 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="bg-[#6dc7d1] p-3 sm:p-4 rounded-full text-white hover:bg-white hover:text-[#28535B] transition shadow-sm cursor-pointer flex items-center justify-center"
               >
-                {/* ✅ Rendering the component here tells ESLint the variable is being used */}
                 <Icon className="h-5 w-5 sm:h-6 sm:w-6" />
               </a>
             ))}
@@ -243,6 +235,28 @@ const Footer = () => {
             alt="MARA Registration"
             className="rounded-xl max-h-48 sm:max-h-52 md:max-h-60 object-contain"
           />
+        </div>
+      </div>
+      <div className="border-t border-b border-white/20 py-8 px-4 sm:px-6 relative z-10">
+        <div className="max-w-[1300px] flex flex-cols items-center justify-center mx-auto gap-12 flex-wrap">
+          <Link
+            to="/blogs/how-do-i-apply-for-australia-pr-a-step-by-step-expert-guide"
+            className="text-white font-bold hover:text-gray-400 transition"
+          >
+            Apply for Australia PR
+          </Link>
+          <Link
+            to="/blogs/australia-pr-consultant"
+            className="text-white font-bold hover:text-gray-400 transition"
+          >
+            Australia PR Consultant
+          </Link>
+          <Link
+            to="/blogs/how-to-apply-for-482-visa-australia-step-by-step-sid-visa-guide"
+            className="text-white font-bold hover:text-gray-400 transition"
+          >
+            482 Visa Guide
+          </Link>
         </div>
       </div>
       {/* COPYRIGHT */}
