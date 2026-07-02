@@ -1,6 +1,15 @@
 
 export const news = [
 {
+    id: 74,
+    slug: "vfs-global-announces-temporary-suspension-of-cpv-services-in-australia",
+    title: "VFS Global Announces Temporary Suspension of CPV Services in Australia",
+    metaTitle: "VFS Global CPV Services Suspended in Australia 2026 Update",
+    metaDescription:"VFS Global has temporarily suspended CPV services in Australia from 1 July 2026. Learn impact on visa applications, delays, and next steps.",
+    date: "July 2, 2026",
+    image: `/assets/nb32.png`,
+  },
+  {
     id: 73,
     slug: "registered-migration-agents-face-new-online-cpd-limit-from-1-july-2026",
     title: "Registered Migration Agents Face New Online CPD Limit From 1 July 2026",
