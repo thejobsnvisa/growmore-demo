@@ -3,8 +3,17 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-   {
+  {
     id: 1,
+    slug: "registered-migration-agents-face-new-online-cpd-limit-from-1-july-2026",
+    title: "Registered Migration Agents Face New Online CPD Limit From 1 July 2026",
+    metaTitle: "New Online CPD Limit for Registered Migration Agents 2026",
+    metaDescription:"From 1 July 2026, Registered Migration Agents can complete a maximum of 6 online CPD points within any continuous 24-hour period.",
+    date: "July 2, 2026",
+    image: `/assets/nb31.png`,
+  }, 
+  {
+    id: 2,
     slug: "australia-visa-application-fees-increase-from-1-july-2026",
     title: "Australia Visa Application Fees Increase From 1 July 2026",
     metaTitle: "Australia Visa Application Fees Increase From 1 July 2026",
@@ -13,7 +22,7 @@ const blogs = [
     image: `/assets/nb29.png`,
   },  
    {
-     id: 2,
+     id: 3,
     slug: "major-australia-immigration-changes-effective-from-1-july-2026",
     title: "Major Australia Immigration Changes Effective From 1 July 2026",
     metaTitle: "Australia’s Massive 1 July Immigration Changes Are Live: What's New",
@@ -21,15 +30,6 @@ const blogs = [
     date: "July 1, 2026",
     image: `/assets/nb30.png`,
   }, 
-   {
-    id: 3,
-    slug: "can-you-work-in-australia-without-sponsorship-a-real-option-explained",
-    title: "Can You Work in Australia Without Sponsorship? A Real Option Explained",
-    metaTitle:"Subclass 400 Visa: No English Test or Sponsorship Required",
-    metaDescription:"Discover who can apply for Australia's Subclass 400 Visa. Learn about eligibility, duration, documents, application process, and English test requirements.",
-    date: "Jun 30, 2026",
-    image: `/assets/bg82.png`,
-  },
 ];
 
 const BlogSection = () => {
