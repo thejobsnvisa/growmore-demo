@@ -3,15 +3,15 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-  {
-    id: 1,
-    slug: "registered-migration-agents-face-new-online-cpd-limit-from-1-july-2026",
-    title: "Registered Migration Agents Face New Online CPD Limit From 1 July 2026",
-    metaTitle: "New Online CPD Limit for Registered Migration Agents 2026",
-    metaDescription:"From 1 July 2026, Registered Migration Agents can complete a maximum of 6 online CPD points within any continuous 24-hour period.",
+{
+    id:1,
+    slug: "vfs-global-announces-temporary-suspension-of-cpv-services-in-australia",
+    title: "VFS Global Announces Temporary Suspension of CPV Services in Australia",
+    metaTitle: "VFS Global CPV Services Suspended in Australia 2026 Update",
+    metaDescription:"VFS Global has temporarily suspended CPV services in Australia from 1 July 2026. Learn impact on visa applications, delays, and next steps.",
     date: "July 2, 2026",
-    image: `/assets/nb31.png`,
-  }, 
+    image: `/assets/nb32.png`,
+  },
   {
     id: 2,
     slug: "australia-visa-application-fees-increase-from-1-july-2026",
