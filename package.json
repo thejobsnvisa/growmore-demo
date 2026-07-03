@@ -7,10 +7,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node Scripts/generateStaticPages.cjs && node Scripts/generateRoutes.cjs && node Scripts/script.js && npm run react-snap",
+    "build": "vite build && node Scripts/generateStaticPages.cjs && node Scripts/generateRoutes.cjs && node Scripts/script.js",
     "preview": "vite preview",
     "react-snap": "npx react-snap",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && npm run react-snap",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
