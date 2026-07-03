@@ -134,12 +134,12 @@ function App() {
     rel="noopener noreferrer"
     className="block py-2"
   >
-      <div className="flex animate-marquee whitespace-nowrap">
+      <div className="flex animate-marquee whitespace-nowrap" style={{ animationDuration: '30s' }}>
         {Array.from({ length: 4 }).map((_, i) => (
           <div key={i} className="mx-10 flex shrink-0 items-center gap-4 text-sm font-semibold text-white">
             <span className="animate-pulse text-lg">🎉</span>
 
-            <span>
+            <span className="text-normal font-semibold text-red-500">
               <strong>Exclusive Discount Just for You!</strong> Submit the form to
               unlock your special offer.
             </span>
