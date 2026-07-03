@@ -5,12 +5,21 @@ import { Link } from "react-router-dom";
 const blogs = [
 {
     id: 1,
+<<<<<<< HEAD
     slug: "tasmania-and-queensland-202526-state-nomination-programs-closed",
     title: "Tasmania and Queensland 2025–26 State Nomination Programs Closed",
     metaTitle: "Tasmania & Queensland Close 2025–26 State Nomination Programs | Latest News",
     metaDescription:"Tasmania and Queensland have closed their 2025–26 state nomination programs after filling allocations. Learn what this means for Australia PR applicants.",
     date: "July 3, 2026",
     image: `/assets/nb34.png`,
+=======
+    slug: "australia-keeps-2027-international-student-cap-unchanged",
+    title: "Australia Keeps 2027 International Student Cap Unchanged at 295,000",
+    metaTitle: "Australia Student Cap 2027 Unchanged at 295,000 | Latest Update",
+    metaDescription:"Australia will keep the international student cap at 295,000 for 2027. Learn what this means for student visas, universities, and prospective international students.",
+    date: "July 3, 2026",
+    image: `/assets/nb33.png`,
+>>>>>>> 7345ce8d27557f775f47fd2939270ce41fd0a7c0
   },
   {
     id: 2,
@@ -23,6 +32,7 @@ const blogs = [
   },
   {
     id: 3,
+<<<<<<< HEAD
     slug: "australia-visa-application-fees-increase-from-1-july-2026",
     title: "Australia Visa Application Fees Increase From 1 July 2026",
     metaTitle: "Australia Visa Application Fees Increase From 1 July 2026",
@@ -30,6 +40,15 @@ const blogs = [
     date: "July  1, 2026",
     image: `/assets/nb29.png`,
   },  
+=======
+    slug: "registered-migration-agents-face-new-online-cpd-limit-from-1-july-2026",
+    title: "Registered Migration Agents Face New Online CPD Limit From 1 July 2026",
+    metaTitle: "New Online CPD Limit for Registered Migration Agents 2026",
+    metaDescription:"From 1 July 2026, Registered Migration Agents can complete a maximum of 6 online CPD points within any continuous 24-hour period.",
+    date: "July 2, 2026",
+    image: `/assets/nb31.png`,
+  },
+>>>>>>> 7345ce8d27557f775f47fd2939270ce41fd0a7c0
 ];
 
 const BlogSection = () => {
