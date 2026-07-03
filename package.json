@@ -8,7 +8,8 @@
   "scripts": {
     "dev": "vite",
     "generate-routes": "node Scripts/generateRoutes.cjs",
-    "build": "vite build && npm run generate-routes && npm run sitemap",
+    "generate-static-pages": "node Scripts/generateStaticPages.cjs",
+    "build": "vite build && npm run generate-routes && npm run generate-static-pages && npm run sitemap",
     "preview": "vite preview",
     "postbuild": "npm exec react-snap",
     "sitemap": "node Scripts/script.js",
