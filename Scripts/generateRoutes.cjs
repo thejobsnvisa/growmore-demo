@@ -3,15 +3,10 @@ const path = require("path");
 
 (async () => {
   try {
-    const { news } = await import("../src/data/newsData.js");
-    const { blogs } = await import("../src/data/blogsData.js");
-
     const routes = [
       "/",
-      "/news",
-      "/blogs",
-      ...news.map((item) => `/news/${item.slug}`),
-      ...blogs.map((item) => `/blogs/${item.slug}`),
+      "/news/",
+      "/blogs/",
     ];
 
     // Remove duplicates & sort
