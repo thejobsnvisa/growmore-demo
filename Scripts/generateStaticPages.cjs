@@ -101,7 +101,7 @@ const path = require("path");
 
     // Blogs page
     createPage({
-      route: "/blogs",
+      route: "/blogs/",
       title: "Blogs | Growmore Immigration",
       description:
         "Latest immigration blogs.",
@@ -110,7 +110,7 @@ const path = require("path");
 
     // News page
     createPage({
-      route: "/news",
+      route: "/news/",
       title: "News | Growmore Immigration",
       description:
         "Latest immigration news.",
@@ -120,7 +120,7 @@ const path = require("path");
     // Individual blogs
     blogs.forEach((blog) => {
       createPage({
-        route: `/blogs/${blog.slug}`,
+        route: `/blogs/${blog.slug}/`,
         title: blog.metaTitle || blog.title,
         description:
           blog.metaDescription ||
@@ -132,7 +132,7 @@ const path = require("path");
     // Individual news
     news.forEach((item) => {
       createPage({
-        route: `/news/${item.slug}`,
+        route: `/news/${item.slug}/`,
         title:
           item.metaTitle || item.title,
         description:
