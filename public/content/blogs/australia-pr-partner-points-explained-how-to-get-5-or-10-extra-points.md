@@ -83,3 +83,6 @@ Then you can’t claim 10 points, even if they have experience or qualifications
 ### **5. Can changing partner details affect PR chances?**
 
 Yes. Any mismatch or change after invitation can lead to refusal or delays, so details must stay consistent.
+
+	
+**[immigration australia](https://www.growmore.one/)**, **[Subclass 190](https://www.growmore.one/our-services/individual/general-skilled-visa/)**, **[Subclass 491](https://www.growmore.one/blogs/subclass-491-visa-consultant-your-complete-guide/)**
