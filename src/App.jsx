@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import ScrollToTop from "./Components/ScrollToTop";
-import OfferPopup from "./Components/Offer";
 
 /* ---------- Lazy Load Pages ---------- */
 
@@ -113,35 +112,46 @@ function Loader() {
 /* ---------- App ---------- */
 
 function App() {
+  React.useEffect(() => {
+    const scriptSrc = "https://unpkg.com/@elevenlabs/convai-widget-embed";
+    if (!document.querySelector(`script[src="${scriptSrc}"]`)) {
+      const script = document.createElement("script");
+      script.src = scriptSrc;
+      script.async = true;
+      script.type = "text/javascript";
+      document.body.appendChild(script);
+    }
+  }, []);
+
   return (
     <Router>
       <ScrollToTop />
       <Navbar />
-       {/* <div className="sticky top-0 z-[9999] w-full overflow-hidden bg-gradient-to-r from-[#59C4E6] via-[#67D7DA] to-[#7EE8C8] shadow-md">
+       <div className="sticky top-0 z-20 w-full overflow-hidden bg-gradient-to-r from-[#59C4E6] via-[#67D7DA] to-[#7EE8C8] shadow-md">
   <a
     href="https://case.growmore.one/add/company-website"
     target="_blank"
     rel="noopener noreferrer"
     className="block py-2"
   >
-    <div className="flex animate-marquee whitespace-nowrap">
+      <div className="flex animate-marquee whitespace-nowrap" style={{ animationDuration: '35s' }}>
+        {Array.from({ length: 4 }).map((_, i) => (
+          <div key={i} className="mx-10 flex shrink-0 items-center gap-4 text-sm font-semibold">
+            <span className="animate-pulse text-lg">🎉</span>
 
-      {/* Duplicate for seamless scrolling */}
-      {/* <div className="mx-10 flex shrink-0 items-center gap-4 text-sm font-semibold text-white">
-        <span className="animate-pulse text-lg">🎉</span>
+            <span className="text-normal font-semibold text-red-500 ">
+              <strong>Exclusive Discount Just for You!</strong> Submit the form to
+              unlock your special offer.
+            </span>
 
-        <span>
-          <strong>Exclusive Discount Just for You!</strong> Submit the form to
-          unlock your special offer.
-        </span>
-
-        <span className="rounded-full bg-white px-3 py-1 text-xs font-bold text-[#0F4C81]">
-          Claim Now →
-        </span>
-      </div>
+            <span className="rounded-full bg-white px-3 py-1 text-xs font-bold text-[#0F4C81]">
+              Claim Now →
+            </span>
+          </div>
+        ))}
     </div>
   </a>
-</div> */} 
+</div>
       <Suspense fallback={<Loader />}>
         <Routes>
           {/* Main */}
@@ -291,7 +301,7 @@ function App() {
           />
         </Routes>
       </Suspense>
-       <elevenlabs-convai agent-id="agent_5201ksmd3c0zfkg82bgbk6p727yn"></elevenlabs-convai><script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+       <elevenlabs-convai agent-id="agent_5201ksmd3c0zfkg82bgbk6p727yn" />
       <Footer />
     </Router>
   );

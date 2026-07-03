@@ -9,12 +9,12 @@ const News = () => {
     <>
       <Helmet>
         <title>
-          Australia Migration Daily News and Visa Updates
+          Australia Migration News & Visa Updates | Latest Immigration News 2026
         </title>
 
         <meta
           name="description"
-          content="Get the latest Australian immigration news, visa updates, and migration policy changes. Stay informed about new visa rules, government announcements, and immigration pathways."
+          content="Stay updated with the latest Australia migration news, visa changes, immigration policies, state nominations, PR updates, and government announcements. Get accurate, timely visa updates for 2026."
         />
 
         {/* ✅ Canonical for homepage */}
@@ -23,11 +23,11 @@ const News = () => {
         {/* ✅ OG */}
         <meta
           property="og:title"
-          content="Australia Migration Daily News and Visa Updates"
+          content="Australia Migration News & Visa Updates | Latest Immigration News 2026"
         />
         <meta
           property="og:description"
-          content="Get the latest Australian immigration news, visa updates, and migration policy changes. Stay informed about new visa rules, government announcements, and immigration pathways."
+          content="Stay updated with the latest Australia migration news, visa changes, immigration policies, state nominations, PR updates, and government announcements. Get accurate, timely visa updates for 2026."
         />
         <meta property="og:url" content={url} />
         <meta property="og:image" content="https://www.growmore.one/logo.jpg" />
