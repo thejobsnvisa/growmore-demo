@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node Scripts/generateStaticPages.cjs && node Scripts/generateRoutes.cjs && node Scripts/script.js",
+    "build": "vite build && node Scripts/generateStaticPages.cjs && node Scripts/generateRoutes.cjs && node Scripts/script.js && npm run react-snap",
     "preview": "vite preview",
     "react-snap": "react-snap",
     "predeploy": "npm run build",
