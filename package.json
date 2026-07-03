@@ -7,10 +7,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node Scripts/generateStaticPages.cjs && node Scripts/generateRoutes.cjs && node Scripts/script.js && npx react-snap",
+    "build": "vite build --outDir build && node Scripts/generateStaticPages.cjs && node Scripts/generateRoutes.cjs && node Scripts/script.js && npx react-snap",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
