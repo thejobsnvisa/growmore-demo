@@ -2,61 +2,54 @@ const fs = require("fs");
 const path = require("path");
 
 (async () => {
-  try {
-    // Import blog and news data
-    const { blogs } = await import("../src/data/blogsData.js");
-    const { news } = await import("../src/data/newsData.js");
+  // Import blog and news data
+  const { blogs } = await import("../src/data/blogsData.js");
+  const { news } = await import("../src/data/newsData.js");
 
-    const distDir = path.join(process.cwd(), "dist");
+  const distDir = path.join(process.cwd(), "dist");
 
-    // Read the base Vite HTML
-    const template = fs.readFileSync(
-      path.join(distDir, "index.html"),
-      "utf8"
+  // Read the base Vite HTML
+  const template = fs.readFileSync(
+    path.join(distDir, "index.html"),
+    "utf8"
+  );
+
+  function createPage({
+    route,
+    title,
+    description,
+    image,
+  }) {
+    const pageDir = path.join(
+      distDir,
+      route.replace(/^\/+/, "")
     );
 
-    const helmetRoutes = [];
+    fs.mkdirSync(pageDir, {
+      recursive: true,
+    });
 
-    function createPage({
-      route,
-      title,
-      description,
-      image,
-    }) {
-      const pageDir = path.join(
-        distDir,
-        route.replace(/^\/+/, "")
-      );
+    const imageUrl = image.startsWith("http")
+      ? image
+      : `https://www.growmore.one${image}`;
 
-      fs.mkdirSync(pageDir, {
-        recursive: true,
-      });
+    let html = template;
 
-      const imageUrl = image
-        ? image.startsWith("http")
-          ? image
-          : `https://www.growmore.one${image}`
-        : "";
+    // ---------- TITLE ----------
+    html = html.replace(
+      /<title>.*?<\/title>/i,
+      `<title>${title}</title>`
+    );
 
-      let html = template;
-
-      // ---------- TITLE ----------
+    // If there isn't a title tag
+    if (!html.includes("<title>")) {
       html = html.replace(
-        /<title>.*?<\/title>/i,
-        `<title>${title}</title>`
+        "</head>",
+        `<title>${title}</title></head>`
       );
+    }
 
-      // If there isn't a title tag
-      if (!html.includes("<title>")) {
-        html = html.replace(
-          "</head>",
-          `<title>${title}</title></head>`
-        );
-      }
-
-      // Add meta tags (description / og / twitter) for pages when description or image is provided
-      if (description || image) {
-        const meta = `
+    const meta = `
 <meta name="description" content="${description}" />
 
 <link rel="canonical" href="https://www.growmore.one${route}/" />
@@ -75,67 +68,45 @@ const path = require("path");
 <meta name="twitter:image" content="${imageUrl}" />
 `;
 
-        html = html.replace("</head>", `${meta}\n</head>`);
-      }
-
-      fs.writeFileSync(
-        path.join(pageDir, "index.html"),
-        html
-      );
-
-      if ((description || image) && !route.includes("/blogs/") && !route.includes("/news/")) {
-        helmetRoutes.push(route);       
-      }
-
-      console.log("Generated:", route);
-    }
-    blogs.forEach((blog) => {
-      createPage({
-        route: `/blogs/${blog.slug}/`,
-        title: blog.metaTitle || blog.title,
-        description:
-          blog.metaDescription ||
-          blog.title,
-        image: blog.image,
-      });
-    });
-
-    // Individual news
-    news.forEach((item) => {
-      createPage({
-        route: `/news/${item.slug}/`,
-        title:
-          item.metaTitle || item.title,
-        description:
-          item.metaDescription ||
-          item.title,
-        image: item.image,
-      });
-    });
-
-    const packageJsonPath = path.join(process.cwd(), "package.json");
-    const packageJson = JSON.parse(
-      fs.readFileSync(packageJsonPath, "utf8")
+    html = html.replace(
+      "</head>",
+      `${meta}\n</head>`
     );
-
-    packageJson.reactSnap = {
-      ...(packageJson.reactSnap || {}),
-      include: [...new Set(helmetRoutes)].sort(),
-    };
 
     fs.writeFileSync(
-      packageJsonPath,
-      JSON.stringify(packageJson, null, 2) + "\n"
+      path.join(pageDir, "index.html"),
+      html
     );
 
-    console.log(
-      "✅ Static pages generated successfully."
-    );
-    console.log(
-      `✅ Updated reactSnap include with ${helmetRoutes.length} routes.`
-    );
-  } catch (err) {
-    console.error("❌ Failed to generate static pages:", err);
-    process.exit(1);
+    console.log("Generated:", route);
   }
+
+  // Individual blogs
+  blogs.forEach((blog) => {
+    createPage({
+      route: `/blogs/${blog.slug}/`,
+      title: blog.metaTitle || blog.title,
+      description:
+        blog.metaDescription ||
+        blog.title,
+      image: blog.image,
+    });
+  });
+
+  // Individual news
+  news.forEach((item) => {
+    createPage({
+      route: `/news/${item.slug}/`,
+      title:
+        item.metaTitle || item.title,
+      description:
+        item.metaDescription ||
+        item.title,
+      image: item.image,
+    });
+  });
+
+  console.log(
+    "✅ Static pages generated successfully."
+  );
 })();
