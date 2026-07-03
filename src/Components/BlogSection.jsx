@@ -4,7 +4,16 @@ import { Link } from "react-router-dom";
 
 const blogs = [
 {
-    id:1,
+    id: 1,
+    slug: "australia-keeps-2027-international-student-cap-unchanged",
+    title: "Australia Keeps 2027 International Student Cap Unchanged at 295,000",
+    metaTitle: "Australia Student Cap 2027 Unchanged at 295,000 | Latest Update",
+    metaDescription:"Australia will keep the international student cap at 295,000 for 2027. Learn what this means for student visas, universities, and prospective international students.",
+    date: "July 3, 2026",
+    image: `/assets/nb33.png`,
+  },
+  {
+    id: 2,
     slug: "vfs-global-announces-temporary-suspension-of-cpv-services-in-australia",
     title: "VFS Global Announces Temporary Suspension of CPV Services in Australia",
     metaTitle: "VFS Global CPV Services Suspended in Australia 2026 Update",
@@ -13,23 +22,14 @@ const blogs = [
     image: `/assets/nb32.png`,
   },
   {
-    id: 2,
-    slug: "australia-visa-application-fees-increase-from-1-july-2026",
-    title: "Australia Visa Application Fees Increase From 1 July 2026",
-    metaTitle: "Australia Visa Application Fees Increase From 1 July 2026",
-    metaDescription:"Australia visa application fees have increased from 1 July 2026. Check the latest charges for Australia PR, skilled, partner, employer-sponsored and visitor visas.",
-    date: "July  1, 2026",
-    image: `/assets/nb29.png`,
-  },  
-   {
-     id: 3,
-    slug: "major-australia-immigration-changes-effective-from-1-july-2026",
-    title: "Major Australia Immigration Changes Effective From 1 July 2026",
-    metaTitle: "Australia’s Massive 1 July Immigration Changes Are Live: What's New",
-    metaDescription:"Massive visa fee hikes and new skilled salary thresholds take effect across Australia today, 1 July 2026. Here is the breakdown of who is affected.",
-    date: "July 1, 2026",
-    image: `/assets/nb30.png`,
-  }, 
+    id: 3,
+    slug: "registered-migration-agents-face-new-online-cpd-limit-from-1-july-2026",
+    title: "Registered Migration Agents Face New Online CPD Limit From 1 July 2026",
+    metaTitle: "New Online CPD Limit for Registered Migration Agents 2026",
+    metaDescription:"From 1 July 2026, Registered Migration Agents can complete a maximum of 6 online CPD points within any continuous 24-hour period.",
+    date: "July 2, 2026",
+    image: `/assets/nb31.png`,
+  },
 ];
 
 const BlogSection = () => {
