@@ -9,7 +9,7 @@
     "dev": "vite",
     "build": "vite build && node Scripts/generateStaticPages.cjs && node Scripts/generateRoutes.cjs && node Scripts/script.js && npm run react-snap",
     "preview": "vite preview",
-    "react-snap": "react-snap",
+    "react-snap": "npx react-snap",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
