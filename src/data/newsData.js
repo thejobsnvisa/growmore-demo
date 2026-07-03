@@ -1,6 +1,15 @@
 
 export const news = [
 {
+    id: 76,
+    slug: "tasmania-and-queensland-202526-state-nomination-programs-closed",
+    title: "Tasmania and Queensland 2025–26 State Nomination Programs Closed",
+    metaTitle: "Tasmania & Queensland Close 2025–26 State Nomination Programs | Latest News",
+    metaDescription:"Tasmania and Queensland have closed their 2025–26 state nomination programs after filling allocations. Learn what this means for Australia PR applicants.",
+    date: "July 3, 2026",
+    image: `/assets/nb34.png`,
+  },
+  {
     id: 75,
     slug: "australia-keeps-2027-international-student-cap-unchanged",
     title: "Australia Keeps 2027 International Student Cap Unchanged at 295,000",
