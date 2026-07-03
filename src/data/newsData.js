@@ -1,6 +1,15 @@
 
 export const news = [
 {
+    id: 75,
+    slug: "australia-keeps-2027-international-student-cap-unchanged",
+    title: "Australia Keeps 2027 International Student Cap Unchanged at 295,000",
+    metaTitle: "Australia Student Cap 2027 Unchanged at 295,000 | Latest Update",
+    metaDescription:"Australia will keep the international student cap at 295,000 for 2027. Learn what this means for student visas, universities, and prospective international students.",
+    date: "July 3, 2026",
+    image: `/assets/nb33.png`,
+  },
+  {
     id: 74,
     slug: "vfs-global-announces-temporary-suspension-of-cpv-services-in-australia",
     title: "VFS Global Announces Temporary Suspension of CPV Services in Australia",
