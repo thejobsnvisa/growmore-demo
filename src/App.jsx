@@ -139,7 +139,7 @@ function App() {
           <div key={i} className="mx-10 flex shrink-0 items-center gap-4 text-sm font-semibold">
             <span className="animate-pulse text-lg">🎉</span>
 
-            <span className="text-normal font-semibold text-red-500 bg-white ">
+            <span className="text-normal font-semibold text-red-500 ">
               <strong>Exclusive Discount Just for You!</strong> Submit the form to
               unlock your special offer.
             </span>
