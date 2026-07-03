@@ -4,7 +4,16 @@ import { Link } from "react-router-dom";
 
 const blogs = [
 {
-    id:1,
+    id: 1,
+    slug: "tasmania-and-queensland-202526-state-nomination-programs-closed",
+    title: "Tasmania and Queensland 2025–26 State Nomination Programs Closed",
+    metaTitle: "Tasmania & Queensland Close 2025–26 State Nomination Programs | Latest News",
+    metaDescription:"Tasmania and Queensland have closed their 2025–26 state nomination programs after filling allocations. Learn what this means for Australia PR applicants.",
+    date: "July 3, 2026",
+    image: `/assets/nb34.png`,
+  },
+  {
+    id: 2,
     slug: "vfs-global-announces-temporary-suspension-of-cpv-services-in-australia",
     title: "VFS Global Announces Temporary Suspension of CPV Services in Australia",
     metaTitle: "VFS Global CPV Services Suspended in Australia 2026 Update",
@@ -13,7 +22,7 @@ const blogs = [
     image: `/assets/nb32.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "australia-visa-application-fees-increase-from-1-july-2026",
     title: "Australia Visa Application Fees Increase From 1 July 2026",
     metaTitle: "Australia Visa Application Fees Increase From 1 July 2026",
@@ -21,15 +30,6 @@ const blogs = [
     date: "July  1, 2026",
     image: `/assets/nb29.png`,
   },  
-   {
-     id: 3,
-    slug: "major-australia-immigration-changes-effective-from-1-july-2026",
-    title: "Major Australia Immigration Changes Effective From 1 July 2026",
-    metaTitle: "Australia’s Massive 1 July Immigration Changes Are Live: What's New",
-    metaDescription:"Massive visa fee hikes and new skilled salary thresholds take effect across Australia today, 1 July 2026. Here is the breakdown of who is affected.",
-    date: "July 1, 2026",
-    image: `/assets/nb30.png`,
-  }, 
 ];
 
 const BlogSection = () => {
