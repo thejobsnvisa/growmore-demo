@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node Scripts/generateStaticPages.cjs && node Scripts/generateRoutes.cjs && node Scripts/script.js && npx react-snap",
+    "build":"vite build && node Scripts/generateStaticPages.cjs && node Scripts/generateRoutes.cjs && node Scripts/script.js && react-snap",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
