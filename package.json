@@ -55,6 +55,7 @@
     "vite": "^7.3.3"
   },
   "reactSnap": {
+    "source": "dist",
     "include": [
       "/",
       "/artificial-intelligence-use-policy/",
