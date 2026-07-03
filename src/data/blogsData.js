@@ -1,5 +1,14 @@
 export const blogs = [
     {
+    id: 83,
+    slug: "australia-pr-partner-points-explained-how-to-get-5-or-10-extra-points",
+    title: "Australia PR Partner Points Explained: How to Get 5 or 10 Extra Points",
+    metaTitle:"Australia PR Partner Points: Get 5 or 10 Extra Points",
+    metaDescription:"Learn how partner skills can add 5 or 10 Australia PR points for Subclass 189, 190 and 491 visas. Check eligibility and improve your PR score.",
+    date: "July 3, 2026",
+    image: `/assets/bg83.png`,
+  },     
+  {
     id: 82,
     slug: "can-you-work-in-australia-without-sponsorship-a-real-option-explained",
     title: "Can You Work in Australia Without Sponsorship? A Real Option Explained",
