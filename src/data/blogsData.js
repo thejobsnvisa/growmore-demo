@@ -1,5 +1,14 @@
 export const blogs = [
     {
+    id: 84,
+    slug: "how-to-apply-482-visa-process",
+    title: "482 Visa Apply: Employer Sponsored Visa Requirements and Process",
+    metaTitle:"How to Apply 482 Visa Process",
+    metaDescription:"how to apply for a 482 Visa in Australia. Explore eligibility, requirements, salary thresholds, visa streams, fees, and the application process.",
+    date: "July 4, 2026",
+    image: `/assets/bg84.png`,
+  },   
+  {
     id: 83,
     slug: "australia-pr-partner-points-explained-how-to-get-5-or-10-extra-points",
     title: "Australia PR Partner Points Explained: How to Get 5 or 10 Extra Points",
