@@ -7,7 +7,7 @@ export const news = [
     metaTitle: "Australia PR Update: Changes to ACT Migration & Canberra Matrix",
     metaDescription:"Big changes for ACT Skilled Migration. See how the new nomination portal, updated fees, and fresh Matrix criteria impact your pathway to Australian PR.",
     date: "July 6, 2026",
-    image: `/assets/nb36.png`,
+    image: `/assets/nb37.png`,
   },
   {
     id: 76,
