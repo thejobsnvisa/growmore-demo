@@ -2,6 +2,15 @@
 export const news = [
 {
     id: 76,
+    slug: "eoci-card-launched-important-travel-update-for-indians-in-australia",
+    title: "e-OCI Card Launched: Important Travel Update for Indians in Australia",
+    metaTitle: "How to Get the New e-OCI Card: Australia-India Travel Update",
+    metaDescription:"Streamline your next trip. Learn how to download the new e-OCI card, check your eligibility, and navigate the latest travel updates for OCI holders.",
+    date: "July 6, 2026",
+    image: `/assets/nb35.png`,
+  },
+  {
+    id: 76,
     slug: "tasmania-and-queensland-202526-state-nomination-programs-closed",
     title: "Tasmania and Queensland 2025–26 State Nomination Programs Closed",
     metaTitle: "Tasmania & Queensland Close 2025–26 State Nomination Programs | Latest News",
