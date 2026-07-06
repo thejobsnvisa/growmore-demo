@@ -5,30 +5,30 @@ import { Link } from "react-router-dom";
 const blogs = [
 {
     id: 1,
+    slug: "eoci-card-launched-important-travel-update-for-indians-in-australia",
+    title: "e-OCI Card Launched: Important Travel Update for Indians in Australia",
+    metaTitle: "How to Get the New e-OCI Card: Australia-India Travel Update",
+    metaDescription:"Streamline your next trip. Learn how to download the new e-OCI card, check your eligibility, and navigate the latest travel updates for OCI holders.",
+    date: "July 6, 2026",
+    image: `/assets/nb35.png`,
+  },
+  {
+    id: 2,
     slug: "tasmania-and-queensland-202526-state-nomination-programs-closed",
     title: "Tasmania and Queensland 2025–26 State Nomination Programs Closed",
     metaTitle: "Tasmania & Queensland Close 2025–26 State Nomination Programs | Latest News",
     metaDescription:"Tasmania and Queensland have closed their 2025–26 state nomination programs after filling allocations. Learn what this means for Australia PR applicants.",
     date: "July 3, 2026",
     image: `/assets/nb34.png`,
-  },
-  {
-    id: 2,
+  },  
+   {
+    id: 3,
     slug: "vfs-global-announces-temporary-suspension-of-cpv-services-in-australia",
     title: "VFS Global Announces Temporary Suspension of CPV Services in Australia",
     metaTitle: "VFS Global CPV Services Suspended in Australia 2026 Update",
     metaDescription:"VFS Global has temporarily suspended CPV services in Australia from 1 July 2026. Learn impact on visa applications, delays, and next steps.",
     date: "July 2, 2026",
     image: `/assets/nb32.png`,
-  },  
-   {
-    id: 3,
-    slug: "australia-visa-application-fees-increase-from-1-july-2026",
-    title: "Australia Visa Application Fees Increase From 1 July 2026",
-    metaTitle: "Australia Visa Application Fees Increase From 1 July 2026",
-    metaDescription:"Australia visa application fees have increased from 1 July 2026. Check the latest charges for Australia PR, skilled, partner, employer-sponsored and visitor visas.",
-    date: "July  1, 2026",
-    image: `/assets/nb29.png`,
   }, 
 ];
 
