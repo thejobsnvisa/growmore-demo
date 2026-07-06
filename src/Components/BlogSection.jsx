@@ -14,12 +14,12 @@ const blogs = [
   },
   {
     id: 2,
-    slug: "tasmania-and-queensland-202526-state-nomination-programs-closed",
-    title: "Tasmania and Queensland 2025–26 State Nomination Programs Closed",
-    metaTitle: "Tasmania & Queensland Close 2025–26 State Nomination Programs | Latest News",
-    metaDescription:"Tasmania and Queensland have closed their 2025–26 state nomination programs after filling allocations. Learn what this means for Australia PR applicants.",
-    date: "July 3, 2026",
-    image: `/assets/nb34.png`,
+    slug: "australia-pr-update-changes-to-act-migration-canberra-matrix",
+    title: "Australia PR Update: Changes to ACT Migration & Canberra Matrix",
+    metaTitle: "Australia PR Update: Changes to ACT Migration & Canberra Matrix",
+    metaDescription:"Big changes for ACT Skilled Migration. See how the new nomination portal, updated fees, and fresh Matrix criteria impact your pathway to Australian PR.",
+    date: "July 6, 2026",
+    image: `/assets/nb36.png`,
   },  
    {
     id: 3,
