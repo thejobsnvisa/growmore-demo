@@ -12,7 +12,7 @@ Earlier, the Goldfields DAMA was expected to transition to the statewide WA DAMA
 
 To use the Goldfields DAMA, employers must first receive endorsement from the City of Kalgoorlie-Boulder, which acts as the region's Designated Area Representative (DAR). After receiving endorsement, businesses can apply for a DAMA Labour Agreement with the Australian Government and sponsor eligible overseas workers.
 
-**Read the Official Goldfields DAMA Extension Announcement here.**
+**Read the Official [Goldfields DAMA Extension Announcement here](https://migration.wa.gov.au/news/goldfields-employers-continue-access-goldfields-dama-until-31-december-2026)**
 
 ## South Australia DAMAs Extended Until September 2026
 
@@ -20,7 +20,7 @@ The South Australia has also extended its two existing Designated Area Migration
 
 This three-month extension means employers can continue using the current DAMA arrangements without any changes. The existing occupation lists, eligibility requirements, and available concessions remain the same as those introduced in June 2025.
 
-Read the Official South Australia DAMAs Extension Update here.
+**Read the Official [South Australia DAMAs Extension Update here](https://migration.sa.gov.au/news/extension-for-designated-area-migration-agreements-damas)**
 
 ## Planning to Apply Under a DAMA?
 
@@ -30,4 +30,4 @@ For employers and skilled migrants, this means existing occupation lists, conces
 
 If you are considering a DAMA pathway as part of your Australia PR journey, Growmore Immigration's registered migration agent in Australia (MARA No. 2217941) can help you understand your options, assess your eligibility, and guide you through the application process.
 
-### Source: [MIA Notice 2 - 3 July 2026](https://www.mia.org.au/Web/Professional-Support/Notices/Notices/2026---27/MIA Notice 2 - 3 July 2026.aspx?WebsiteKey=1ce974cb-1243-45f4-8f2f-c730f270d14c)
+### Source: [MIA Notice 2 - 3 July 2026](https://www.mia.org.au/Web/Professional-Support/Notices/Notices/2026---27/MIA%20Notice%202%20-%203%20July%202026.aspx?WebsiteKey=1ce974cb-1243-45f4-8f2f-c730f270d14c)
