@@ -1,16 +1,16 @@
 
 export const news = [
 {
-    id: 77,
-    slug: "australia-pr-update-changes-to-act-migration-canberra-matrix",
-    title: "Australia PR Update: Changes to ACT Migration & Canberra Matrix",
-    metaTitle: "Australia PR Update: Changes to ACT Migration & Canberra Matrix",
-    metaDescription:"Big changes for ACT Skilled Migration. See how the new nomination portal, updated fees, and fresh Matrix criteria impact your pathway to Australian PR.",
-    date: "July 6, 2026",
-    image: `/assets/nb37.png`,
+    id: 78,
+    slug: "wa-goldfields-sa-damas-extended-australia-pr-update",
+    title: "WA Goldfields & SA DAMAs Extended: Australia PR Update",
+    metaTitle: "Australia PR Update: WA Goldfields & SA DAMA Extensions Confirmed",
+    metaDescription:"Looking for an alternative path to Australian PR? Explore the newly extended WA Goldfields and South Australia DAMA frameworks for regional visa pathways.",
+    date: "July 7, 2026",
+    image: `/assets/nb38.png`,
   },
   {
-    id: 76,
+    id: 77,
     slug: "eoci-card-launched-important-travel-update-for-indians-in-australia",
     title: "e-OCI Card Launched: Important Travel Update for Indians in Australia",
     metaTitle: "How to Get the New e-OCI Card: Australia-India Travel Update",

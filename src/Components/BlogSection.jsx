@@ -5,6 +5,15 @@ import { Link } from "react-router-dom";
 const blogs = [
 {
     id: 1,
+    slug: "wa-goldfields-sa-damas-extended-australia-pr-update",
+    title: "WA Goldfields & SA DAMAs Extended: Australia PR Update",
+    metaTitle: "Australia PR Update: WA Goldfields & SA DAMA Extensions Confirmed",
+    metaDescription:"Looking for an alternative path to Australian PR? Explore the newly extended WA Goldfields and South Australia DAMA frameworks for regional visa pathways.",
+    date: "July 7, 2026",
+    image: `/assets/nb38.png`,
+  },
+  {
+    id: 2,
     slug: "eoci-card-launched-important-travel-update-for-indians-in-australia",
     title: "e-OCI Card Launched: Important Travel Update for Indians in Australia",
     metaTitle: "How to Get the New e-OCI Card: Australia-India Travel Update",
@@ -13,7 +22,7 @@ const blogs = [
     image: `/assets/nb35.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "australia-pr-update-changes-to-act-migration-canberra-matrix",
     title: "Australia PR Update: Changes to ACT Migration & Canberra Matrix",
     metaTitle: "Australia PR Update: Changes to ACT Migration & Canberra Matrix",
@@ -21,15 +30,6 @@ const blogs = [
     date: "July 6, 2026",
     image: `/assets/nb37.png`,
   },  
-   {
-    id: 3,
-    slug: "vfs-global-announces-temporary-suspension-of-cpv-services-in-australia",
-    title: "VFS Global Announces Temporary Suspension of CPV Services in Australia",
-    metaTitle: "VFS Global CPV Services Suspended in Australia 2026 Update",
-    metaDescription:"VFS Global has temporarily suspended CPV services in Australia from 1 July 2026. Learn impact on visa applications, delays, and next steps.",
-    date: "July 2, 2026",
-    image: `/assets/nb32.png`,
-  }, 
 ];
 
 const BlogSection = () => {
