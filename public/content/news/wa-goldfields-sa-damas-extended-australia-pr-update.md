@@ -30,4 +30,4 @@ For employers and skilled migrants, this means existing occupation lists, conces
 
 If you are considering a DAMA pathway as part of your Australia PR journey, Growmore Immigration's registered migration agent in Australia (MARA No. 2217941) can help you understand your options, assess your eligibility, and guide you through the application process.
 
-### Source: [MIA Notice 2 - 3 July 2026](https://www.mia.org.au/Web/Professional-Support/Notices/Notices/2026---27/MIA%20Notice%202%20-%203%20July%202026.aspx?WebsiteKey=1ce974cb-1243-45f4-8f2f-c730f270d14c)
+### **Source:[MIA Notice 2 3 July 2026](https://www.mia.org.au/Web/Professional-Support/Notices/Notices/2026---27/MIA%20Notice%202%20-%203%20July%202026)**
