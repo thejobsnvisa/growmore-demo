@@ -56,7 +56,7 @@ const path = require("path");
     const meta = `
 <meta name="description" content="${description}" />
 
-<link rel="canonical" href="https://www.growmore.one${route}/" />
+<link rel="canonical" href="https://www.growmore.one${route}" />
 
 <meta property="og:type" content="article" />
 <meta property="og:title" content="${title}" />
@@ -64,7 +64,7 @@ const path = require("path");
 <meta property="og:image" content="${imageUrl}" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property="og:url" content="https://www.growmore.one${route}/" />
+<meta property="og:url" content="https://www.growmore.one${route}" />
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="${title}" />
@@ -88,7 +88,7 @@ const path = require("path");
   // Individual blogs
   blogs.forEach((blog) => {
     createPage({
-      route: `/blogs/${blog.slug}/`,
+      route: `/blogs/${blog.slug}`,
       title: blog.metaTitle || blog.title,
       description:
         blog.metaDescription ||
@@ -100,7 +100,7 @@ const path = require("path");
   // Individual news
   news.forEach((item) => {
     createPage({
-      route: `/news/${item.slug}/`,
+      route: `/news/${item.slug}`,
       title:
         item.metaTitle || item.title,
       description:
