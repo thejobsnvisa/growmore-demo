@@ -15,19 +15,23 @@ const path = require("path");
   );
 
   function createPage({
-    route,
-    title,
-    description,
-    image,
-  }) {
-    const pageDir = path.join(
-      distDir,
-      route.replace(/^\/+/, "")
-    );
+  route,
+  title,
+  description,
+  image,
+}) {
+  // Remove duplicate trailing slashes
+  const cleanRoute = route.replace(/\/+$/, "");
 
-    fs.mkdirSync(pageDir, {
-      recursive: true,
-    });
+  const pageDir = path.join(
+    distDir,
+    cleanRoute.replace(/^\/+/, "")
+  );
+
+  fs.mkdirSync(pageDir, {
+    recursive: true,
+  });
+
 
     const imageUrl = image.startsWith("http")
       ? image

@@ -179,9 +179,9 @@ function App() {
           {/* Media */}
           <Route path="/videos/" element={<Videos />} />
           <Route path="/news/" element={<News />} />
-          <Route path="/news/:slug" element={<NewsArticle />} />
+          <Route path="/news/:slug/" element={<NewsArticle />} />
           <Route path="/blogs/" element={<Blogs />} />
-          <Route path="/blogs/:slug" element={<BlogsArtical />} />
+          <Route path="/blogs/:slug/" element={<BlogsArtical />} />
 
           {/* Contact */}
           <Route path="/contact-us/" element={<ContactUs />} />

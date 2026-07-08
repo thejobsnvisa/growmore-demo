@@ -81,7 +81,7 @@ const BlogsArticle = () => {
         />
         <link
           rel="canonical"
-          href={`https://www.growmore.one/blogs/${slug}`}
+          href={`https://www.growmore.one/blogs/${slug}/`}
         />
         <meta property="og:type" content="article" />
         <meta

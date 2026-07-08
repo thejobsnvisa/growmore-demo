@@ -66,7 +66,7 @@ const NewsArticle = () => {
 
   return (
     <>
-     <Helmet>
+     <Helmet prioritizeSeoTags>
   <title>{article.metaTitle || article.title}</title>
 
   <meta
