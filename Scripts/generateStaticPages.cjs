@@ -88,7 +88,7 @@ const path = require("path");
   // Individual blogs
   blogs.forEach((blog) => {
     createPage({
-      route: `/blogs/${blog.slug}/`,
+      route: `/blogs/${blog.slug}`,
       title: blog.metaTitle || blog.title,
       description:
         blog.metaDescription ||
@@ -100,7 +100,7 @@ const path = require("path");
   // Individual news
   news.forEach((item) => {
     createPage({
-      route: `/news/${item.slug}/`,
+      route: `/news/${item.slug}`,
       title:
         item.metaTitle || item.title,
       description:
