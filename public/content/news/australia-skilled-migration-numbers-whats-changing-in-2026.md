@@ -15,7 +15,8 @@ According to the Department of Home Affairs' 2024–25 Migration Program data an
 - Australia granted 185,001 permanent migration visas during the 2024–25 financial year. Among them, 132,148 visas (71%) were allocated under the Skilled Migration Stream. However, only 60,474 visa holders individually satisfied Australia's skills requirements.
 - This means the remaining visas within the Skilled Stream were granted to secondary applicants, who are typically the dependants of skilled migrants, including spouses, de facto partners, and dependent children included in the primary applicant's visa application.
 
-The graph below provides a visual breakdown of primary and secondary applicants within Australia's Skilled Migration Program.
+![Primary vs Secondary Applicants — Skilled Migration Program (2024–25)](/assets/NBI39.jpg)
+
 
 ## **Understanding Primary and Secondary Applicants**
 
