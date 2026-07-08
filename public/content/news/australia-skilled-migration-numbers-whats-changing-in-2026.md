@@ -17,7 +17,6 @@ According to the Department of Home Affairs' 2024–25 Migration Program data an
 
 ![Primary vs Secondary Applicants — Skilled Migration Program (2024–25)](/assets/NBI39.jpg)
 
-
 ## **Understanding Primary and Secondary Applicants**
 
 Primary applicants are individuals who personally qualify for a skilled visa by meeting Australia's eligibility requirements, such as having an eligible occupation, a positive skills assessment, meeting English language standards, and satisfying visa-specific requirements.
