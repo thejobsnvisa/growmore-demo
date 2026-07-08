@@ -5,6 +5,15 @@ import { Link } from "react-router-dom";
 const blogs = [
 {
     id: 1,
+    slug: "australia-skilled-migration-numbers-whats-changing-in-2026",
+    title: "The Reality of Australia’s Skilled Migration Numbers for 2026–27",
+    metaTitle: "Australia Skilled Migration Numbers: What’s Changing in 2026?",
+    metaDescription:"The headline cap is holding steady at 185,000 places, but the internal mix has shifted. Discover which visa subclasses are growing and what it means for your PR points.",
+    date: "July 8, 2026",
+    image: `/assets/nb39.png`,
+  },
+  {
+    id: 2,
     slug: "wa-goldfields-sa-damas-extended-australia-pr-update",
     title: "WA Goldfields & SA DAMAs Extended: Australia PR Update",
     metaTitle: "Australia PR Update: WA Goldfields & SA DAMA Extensions Confirmed",
@@ -13,7 +22,7 @@ const blogs = [
     image: `/assets/nb38.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "eoci-card-launched-important-travel-update-for-indians-in-australia",
     title: "e-OCI Card Launched: Important Travel Update for Indians in Australia",
     metaTitle: "How to Get the New e-OCI Card: Australia-India Travel Update",
@@ -21,15 +30,6 @@ const blogs = [
     date: "July 6, 2026",
     image: `/assets/nb35.png`,
   },
-  {
-    id: 3,
-    slug: "australia-pr-update-changes-to-act-migration-canberra-matrix",
-    title: "Australia PR Update: Changes to ACT Migration & Canberra Matrix",
-    metaTitle: "Australia PR Update: Changes to ACT Migration & Canberra Matrix",
-    metaDescription:"Big changes for ACT Skilled Migration. See how the new nomination portal, updated fees, and fresh Matrix criteria impact your pathway to Australian PR.",
-    date: "July 6, 2026",
-    image: `/assets/nb37.png`,
-  },  
 ];
 
 const BlogSection = () => {

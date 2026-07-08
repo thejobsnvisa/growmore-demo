@@ -1,13 +1,31 @@
 
 export const news = [
 {
-    id: 78,
+    id: 80,
+    slug: "australia-skilled-migration-numbers-whats-changing-in-2026",
+    title: "The Reality of Australia’s Skilled Migration Numbers for 2026–27",
+    metaTitle: "Australia Skilled Migration Numbers: What’s Changing in 2026?",
+    metaDescription:"The headline cap is holding steady at 185,000 places, but the internal mix has shifted. Discover which visa subclasses are growing and what it means for your PR points.",
+    date: "July 8, 2026",
+    image: `/assets/nb39.png`,
+  },
+  {
+    id: 79,
     slug: "wa-goldfields-sa-damas-extended-australia-pr-update",
     title: "WA Goldfields & SA DAMAs Extended: Australia PR Update",
     metaTitle: "Australia PR Update: WA Goldfields & SA DAMA Extensions Confirmed",
     metaDescription:"Looking for an alternative path to Australian PR? Explore the newly extended WA Goldfields and South Australia DAMA frameworks for regional visa pathways.",
     date: "July 7, 2026",
     image: `/assets/nb38.png`,
+  },
+    {
+    id: 78,
+    slug: "australia-pr-update-changes-to-act-migration-canberra-matrix/",
+    title: "ACT Migration Updates: New Portal & Canberra Matrix Rules",
+    metaTitle: "ACT Migration Updates: New Portal & Canberra Matrix Rules",
+    metaDescription:"The 2025–26 ACT Skilled Migration Program has closed. Explore the new nomination portal, revised fees, and critical updates to the Canberra Matrix.",
+    date: "July 6, 2026",
+    image: `/assets/nb37.png`,
   },
   {
     id: 77,
