@@ -18,8 +18,7 @@ const NewsArticle = () => {
   const { slug } = useParams();
   const [content, setContent] = useState("");
 
-  const canonicalSlug = slug?.replace(/^\/+|\/+$/g, "");
-  const article = news.find((item) => item.slug === canonicalSlug);
+  const article = news.find((item) => item.slug === slug);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -29,7 +28,7 @@ const NewsArticle = () => {
 
       // ✅ Use BASE_URL to handle /growmore-one/ or / automatically
       const baseUrl = import.meta.env.BASE_URL;
-      const filePath = `${baseUrl}content/news/${canonicalSlug}.md`.replace(/\/+/g, '/');
+      const filePath = `${baseUrl}content/news/${slug}.md`.replace(/\/+/g, '/');
 
       fetch(filePath)
         .then((res) => {
@@ -77,7 +76,7 @@ const NewsArticle = () => {
 
   <link
     rel="canonical"
-    href={`https://www.growmore.one/news/${slug}/`}
+    href={`https://www.growmore.one/news/${slug}`}
     key="canonical"
   />
 
