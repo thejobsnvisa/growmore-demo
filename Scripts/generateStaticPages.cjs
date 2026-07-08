@@ -15,19 +15,23 @@ const path = require("path");
   );
 
   function createPage({
-    route,
-    title,
-    description,
-    image,
-  }) {
-    const pageDir = path.join(
-      distDir,
-      route.replace(/^\/+/, "")
-    );
+  route,
+  title,
+  description,
+  image,
+}) {
+  // Remove duplicate trailing slashes
+  const cleanRoute = route.replace(/\/+$/, "");
 
-    fs.mkdirSync(pageDir, {
-      recursive: true,
-    });
+  const pageDir = path.join(
+    distDir,
+    cleanRoute.replace(/^\/+/, "")
+  );
+
+  fs.mkdirSync(pageDir, {
+    recursive: true,
+  });
+
 
     const imageUrl = image.startsWith("http")
       ? image
@@ -84,7 +88,7 @@ const path = require("path");
   // Individual blogs
   blogs.forEach((blog) => {
     createPage({
-      route: `/blogs/${blog.slug}/`,
+      route: `/blogs/${blog.slug}`,
       title: blog.metaTitle || blog.title,
       description:
         blog.metaDescription ||
@@ -96,7 +100,7 @@ const path = require("path");
   // Individual news
   news.forEach((item) => {
     createPage({
-      route: `/news/${item.slug}/`,
+      route: `/news/${item.slug}`,
       title:
         item.metaTitle || item.title,
       description:
