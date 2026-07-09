@@ -1,5 +1,14 @@
 export const blogs = [
-   {
+    {
+    id: 86,
+    slug: "australias-skilled-occupation-list-lost-its-purpose",
+    title: "Has Australia’s Skilled Occupation List Lost Its Purpose?",
+    metaTitle:"Is Australia’s Skilled Occupation List Dead? What’s Replacing It",
+    metaDescription:"With the introduction of the Core Skills Occupation List (CSOL), the old skilled migration framework is breaking down. Discover how the new points test and sector shifts affect you.",
+    date: "July 9, 2026",
+    image: `/assets/bg86.png`,
+  },  
+  {
     id: 85,
     slug: "fnq-dama-explained-your-practical-pathway-to-australian-pr",
     title: "FNQ DAMA Explained: Your Practical Pathway to Australian PR",
