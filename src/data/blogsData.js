@@ -1,5 +1,14 @@
 export const blogs = [
-    {
+   {
+    id: 85,
+    slug: "fnq-dama-explained-your-practical-pathway-to-australian-pr",
+    title: "FNQ DAMA Explained: Your Practical Pathway to Australian PR",
+    metaTitle:"FNQ DAMA Guide: The Regional PR Pathway for Skilled Workers",
+    metaDescription:"Struggling with standard points-based PR lists? Discover how the Far North Queensland DAMA opens up permanent residency with lenient age, English, and salary rules.",
+    date: "July 9, 2026",
+    image: `/assets/bg85.png`,
+  },  
+  {
     id: 84,
     slug: "how-to-apply-482-visa-process",
     title: "482 Visa Apply: Employer Sponsored Visa Requirements and Process",
