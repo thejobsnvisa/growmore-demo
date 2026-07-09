@@ -20,7 +20,7 @@ export const news = [
   },
     {
     id: 78,
-    slug: "australia-pr-update-changes-to-act-migration-canberra-matrix/",
+    slug: "australia-pr-update-changes-to-act-migration-canberra-matrix",
     title: "ACT Migration Updates: New Portal & Canberra Matrix Rules",
     metaTitle: "ACT Migration Updates: New Portal & Canberra Matrix Rules",
     metaDescription:"The 2025–26 ACT Skilled Migration Program has closed. Explore the new nomination portal, revised fees, and critical updates to the Canberra Matrix.",
