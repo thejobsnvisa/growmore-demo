@@ -1,13 +1,22 @@
 
 export const news = [
 {
+    id: 82,
+    slug: "victoria-great-south-coast-dama-raises-nomination-fees-from-1-july-2026",
+    title: "Victoria’s Great South Coast DAMA Raises Nomination Fees from 1 July 2026",
+    metaTitle: "Great South Coast DAMA Fee Increase: New 1 July 2026 Rates",
+    metaDescription:"Victoria’s Great South Coast DAMA has updated its regional nomination fees. Review the new tiered structure for employers and find out how it impacts your PR pathway sponsorship.",
+    date: "July 10, 2026",
+    image: `/assets/nb41.png`,
+  },
+  {
     id: 81,
     slug: "northern-territory-closes-2025-26-skilled-migration-next-steps-for-pr",
     title: "Northern Territory Closes 2025–26 Skilled Migration: Next Steps for PR",
     metaTitle: "NT State Nomination Filled: 2025–26 Skilled Migration Update",
     metaDescription:"Missed out on the NT state nomination before allocations were exhausted? Get the latest details on application processing freezes and steps to maximize your EOI for the reopening.",
     date: "July 10, 2026",
-    image: `/assets/nb41.jpg`,
+    image: `/assets/nb40.jpg`,
   },
   {
     id: 80,
