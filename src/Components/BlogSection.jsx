@@ -10,7 +10,7 @@ const blogs = [
     metaTitle: "NT State Nomination Filled: 2025–26 Skilled Migration Update",
     metaDescription:"Missed out on the NT state nomination before allocations were exhausted? Get the latest details on application processing freezes and steps to maximize your EOI for the reopening.",
     date: "July 10, 2026",
-    image: `/assets/nb40.jpg`,
+    image: `/assets/nb41.jpg`,
   },
   {
     id: 2,
