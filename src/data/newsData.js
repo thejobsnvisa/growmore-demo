@@ -1,6 +1,15 @@
 
 export const news = [
 {
+    id: 83,
+    slug: "how-australia-counts-regional-visa-places-critical-updates-for-applicants",
+    title: "How Australia Counts Regional Visa Places: Critical Updates for Applicants",
+    metaTitle: "Regional Visa Allocation: How Australia Counts Your PR Places",
+    metaDescription:"Navigating the regional pathway? Learn exactly how the Department of Home Affairs calculates and counts regional visa places to avoid application traps.",
+    date: "July 10, 2026",
+    image: `/assets/nb42.png`,
+  },
+  {
     id: 82,
     slug: "victoria-great-south-coast-dama-raises-nomination-fees-from-1-july-2026",
     title: "Victoria’s Great South Coast DAMA Raises Nomination Fees from 1 July 2026",
