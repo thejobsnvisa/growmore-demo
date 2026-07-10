@@ -1,5 +1,14 @@
 export const blogs = [
     {
+    id: 87,
+    slug: "how-to-apply-for-subclass-189-visa-get-australia-pr",
+    title: "Subclass 189 Visa Guide: How to Apply for Australia PR",
+    metaTitle:"How to Apply for Subclass 189 Visa & Get Australia PR",
+    metaDescription:"Master the points-tested pathway to Australian PR. Learn the step-by-step Subclass 189 visa application process, document checklist, and how to submit an EOI.",
+    date: "July 10, 2026",
+    image: `/assets/bg87.png`,
+  },   
+  {
     id: 86,
     slug: "australias-skilled-occupation-list-lost-its-purpose",
     title: "Has Australia’s Skilled Occupation List Lost Its Purpose?",
