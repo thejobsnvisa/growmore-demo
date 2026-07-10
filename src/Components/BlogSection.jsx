@@ -5,6 +5,15 @@ import { Link } from "react-router-dom";
 const blogs = [
 {
     id: 1,
+    slug: "northern-territory-closes-2025-26-skilled-migration-next-steps-for-pr",
+    title: "Northern Territory Closes 2025–26 Skilled Migration: Next Steps for PR",
+    metaTitle: "NT State Nomination Filled: 2025–26 Skilled Migration Update",
+    metaDescription:"Missed out on the NT state nomination before allocations were exhausted? Get the latest details on application processing freezes and steps to maximize your EOI for the reopening.",
+    date: "July 10, 2026",
+    image: `/assets/nb40.png`,
+  },
+  {
+    id: 2,
     slug: "australia-skilled-migration-numbers-whats-changing-in-2026",
     title: "The Reality of Australia’s Skilled Migration Numbers for 2026–27",
     metaTitle: "Australia Skilled Migration Numbers: What’s Changing in 2026?",
@@ -13,22 +22,13 @@ const blogs = [
     image: `/assets/nb39.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "wa-goldfields-sa-damas-extended-australia-pr-update",
     title: "WA Goldfields & SA DAMAs Extended: Australia PR Update",
     metaTitle: "Australia PR Update: WA Goldfields & SA DAMA Extensions Confirmed",
     metaDescription:"Looking for an alternative path to Australian PR? Explore the newly extended WA Goldfields and South Australia DAMA frameworks for regional visa pathways.",
     date: "July 7, 2026",
     image: `/assets/nb38.png`,
-  },
-  {
-    id: 3,
-    slug: "eoci-card-launched-important-travel-update-for-indians-in-australia",
-    title: "e-OCI Card Launched: Important Travel Update for Indians in Australia",
-    metaTitle: "How to Get the New e-OCI Card: Australia-India Travel Update",
-    metaDescription:"Streamline your next trip. Learn how to download the new e-OCI card, check your eligibility, and navigate the latest travel updates for OCI holders.",
-    date: "July 6, 2026",
-    image: `/assets/nb35.png`,
   },
 ];
 
