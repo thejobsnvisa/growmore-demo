@@ -4,31 +4,31 @@ import { Link } from "react-router-dom";
 
 const blogs = [
 {
-    id:1,
+    id: 1,
+    slug: "how-australia-counts-regional-visa-places-critical-updates-for-applicants",
+    title: "How Australia Counts Regional Visa Places: Critical Updates for Applicants",
+    metaTitle: "Regional Visa Allocation: How Australia Counts Your PR Places",
+    metaDescription:"Navigating the regional pathway? Learn exactly how the Department of Home Affairs calculates and counts regional visa places to avoid application traps.",
+    date: "July 10, 2026",
+    image: `/assets/nb42.png`,
+  },
+  {
+    id: 2,
+    slug: "victoria-great-south-coast-dama-raises-nomination-fees-from-1-july-2026",
+    title: "Victoria’s Great South Coast DAMA Raises Nomination Fees from 1 July 2026",
+    metaTitle: "Great South Coast DAMA Fee Increase: New 1 July 2026 Rates",
+    metaDescription:"Victoria’s Great South Coast DAMA has updated its regional nomination fees. Review the new tiered structure for employers and find out how it impacts your PR pathway sponsorship.",
+    date: "July 10, 2026",
+    image: `/assets/nb41.png`,
+  },
+  {
+    id: 3,
     slug: "northern-territory-closes-2025-26-skilled-migration-next-steps-for-pr",
     title: "Northern Territory Closes 2025–26 Skilled Migration: Next Steps for PR",
     metaTitle: "NT State Nomination Filled: 2025–26 Skilled Migration Update",
     metaDescription:"Missed out on the NT state nomination before allocations were exhausted? Get the latest details on application processing freezes and steps to maximize your EOI for the reopening.",
     date: "July 10, 2026",
     image: `/assets/nb40.jpg`,
-  },
-  {
-    id:2,
-    slug: "australia-skilled-migration-numbers-whats-changing-in-2026",
-    title: "The Reality of Australia’s Skilled Migration Numbers for 2026–27",
-    metaTitle: "Australia Skilled Migration Numbers: What’s Changing in 2026?",
-    metaDescription:"The headline cap is holding steady at 185,000 places, but the internal mix has shifted. Discover which visa subclasses are growing and what it means for your PR points.",
-    date: "July 8, 2026",
-    image: `/assets/nb39.png`,
-  },
-  {
-    id:3,
-    slug: "wa-goldfields-sa-damas-extended-australia-pr-update",
-    title: "WA Goldfields & SA DAMAs Extended: Australia PR Update",
-    metaTitle: "Australia PR Update: WA Goldfields & SA DAMA Extensions Confirmed",
-    metaDescription:"Looking for an alternative path to Australian PR? Explore the newly extended WA Goldfields and South Australia DAMA frameworks for regional visa pathways.",
-    date: "July 7, 2026",
-    image: `/assets/nb38.png`,
   },
 ];
 
