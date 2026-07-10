@@ -1,6 +1,15 @@
 
 export const news = [
 {
+    id: 81,
+    slug: "northern-territory-closes-2025-26-skilled-migration-next-steps-for-pr",
+    title: "Northern Territory Closes 2025–26 Skilled Migration: Next Steps for PR",
+    metaTitle: "NT State Nomination Filled: 2025–26 Skilled Migration Update",
+    metaDescription:"Missed out on the NT state nomination before allocations were exhausted? Get the latest details on application processing freezes and steps to maximize your EOI for the reopening.",
+    date: "July 10, 2026",
+    image: `/assets/nb40.png`,
+  },
+  {
     id: 80,
     slug: "australia-skilled-migration-numbers-whats-changing-in-2026",
     title: "The Reality of Australia’s Skilled Migration Numbers for 2026–27",
