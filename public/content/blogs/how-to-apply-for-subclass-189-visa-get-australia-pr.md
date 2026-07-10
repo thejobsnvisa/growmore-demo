@@ -79,7 +79,7 @@ Create and submit your EOI through SkillSelect. At this stage, you are not apply
 
 If your EOI is competitive and your points score meets the invitation threshold for your nominated occupation, you may receive an invitation to apply for the Subclass 189 visa.
 
-###**Step 5: Lodge Your Visa Application**
+### **Step 5: Lodge Your Visa Application**
 
 After receiving an invitation, submit your visa application with all supporting documents. Not sure where to start? Book a consultation with our Registered Migration Agent now.
 
