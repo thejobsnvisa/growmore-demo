@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const blogs = [
 {
-    id: 1,
+    id:1,
     slug: "northern-territory-closes-2025-26-skilled-migration-next-steps-for-pr",
     title: "Northern Territory Closes 2025–26 Skilled Migration: Next Steps for PR",
     metaTitle: "NT State Nomination Filled: 2025–26 Skilled Migration Update",
@@ -13,16 +13,16 @@ const blogs = [
     image: `/assets/nb41.jpg`,
   },
   {
-    id: 2,
+    id:2,
     slug: "australia-skilled-migration-numbers-whats-changing-in-2026",
     title: "The Reality of Australia’s Skilled Migration Numbers for 2026–27",
     metaTitle: "Australia Skilled Migration Numbers: What’s Changing in 2026?",
     metaDescription:"The headline cap is holding steady at 185,000 places, but the internal mix has shifted. Discover which visa subclasses are growing and what it means for your PR points.",
     date: "July 8, 2026",
-    image: `/assets/nb39.jpg`,
+    image: `/assets/nb39.png`,
   },
   {
-    id: 3,
+    id:3,
     slug: "wa-goldfields-sa-damas-extended-australia-pr-update",
     title: "WA Goldfields & SA DAMAs Extended: Australia PR Update",
     metaTitle: "Australia PR Update: WA Goldfields & SA DAMA Extensions Confirmed",
