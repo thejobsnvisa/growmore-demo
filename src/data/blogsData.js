@@ -6,7 +6,7 @@ export const blogs = [
     metaTitle:"How to Apply for Subclass 189 Visa & Get Australia PR",
     metaDescription:"Master the points-tested pathway to Australian PR. Learn the step-by-step Subclass 189 visa application process, document checklist, and how to submit an EOI.",
     date: "July 10, 2026",
-    image: `/assets/bg87.png`,
+    image: `/assets/bg87.jpg`,
   },   
   {
     id: 86,
