@@ -10,7 +10,7 @@ const blogs = [
     metaTitle: "NT State Nomination Filled: 2025–26 Skilled Migration Update",
     metaDescription:"Missed out on the NT state nomination before allocations were exhausted? Get the latest details on application processing freezes and steps to maximize your EOI for the reopening.",
     date: "July 10, 2026",
-    image: `/assets/nb40.png`,
+    image: `/assets/nb40.jpg`,
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const blogs = [
     metaTitle: "Australia Skilled Migration Numbers: What’s Changing in 2026?",
     metaDescription:"The headline cap is holding steady at 185,000 places, but the internal mix has shifted. Discover which visa subclasses are growing and what it means for your PR points.",
     date: "July 8, 2026",
-    image: `/assets/nb39.png`,
+    image: `/assets/nb39.jpg`,
   },
   {
     id: 3,
