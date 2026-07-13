@@ -1,4 +1,13 @@
 export const blogs = [
+     {
+    id: 88,
+    slug: "total-cost-for-australia-pr-in-2026-approximate-fees-and-expenses",
+    title: "Total Cost for Australia PR in 2026: Approximate Fees and Expenses ",
+    metaTitle:"Australia PR Cost Guide 2026: Visa Fees & Expenses",
+    metaDescription:"Australia PR cost in 2026 explained. See visa charges, skills assessment fees, English test costs, medicals, police clearance, and more.",
+    date: "July 11, 2026",
+    image: `/assets/bg88.jpg`,
+  },   
     {
     id: 88,
     slug: "subclass-491-visa-guide-your-path-to-australia-pr",
