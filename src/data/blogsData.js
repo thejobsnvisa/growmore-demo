@@ -1,12 +1,21 @@
 export const blogs = [
-     {
-    id: 88,
+    {
+    id: 90,
+    slug: "subclass-491-visa-guide-your-path-to-australia-pr",
+    title: "Subclass 491 Visa Guide: Your Strategic Path to Australia PR",
+    metaTitle:"Subclass 491 Visa Guide: Step-by-Step Path to Australia PR",
+    metaDescription:"Master the regional visa pathway. Learn how the 15-point nomination bonus unlocks Australian PR, check your eligibility, and view the 2026 processing times.",
+    date: "July 13, 2026",
+    image: `/assets/bg90.png`,
+  },   
+  {
+    id: 89,
     slug: "total-cost-for-australia-pr-in-2026-approximate-fees-and-expenses",
     title: "Total Cost for Australia PR in 2026: Approximate Fees and Expenses ",
     metaTitle:"Australia PR Cost Guide 2026: Visa Fees & Expenses",
     metaDescription:"Australia PR cost in 2026 explained. See visa charges, skills assessment fees, English test costs, medicals, police clearance, and more.",
     date: "July 11, 2026",
-    image: `/assets/bg88.jpg`,
+    image: `/assets/bg89.jpg`,
   },   
     {
     id: 88,
