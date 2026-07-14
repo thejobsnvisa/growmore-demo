@@ -1,6 +1,15 @@
 
 export const news = [
 {
+    id: 84,
+    slug: "australias-digital-passenger-card-is-coming-easier-arrivals-ahead",
+    title: "Australia's Digital Passenger Card Is Coming: Easier Arrivals Ahead",
+    metaTitle: "Australia's Digital Passenger Card: Easier Arrivals Ahead",
+    metaDescription:"Australia is introducing a Digital Passenger Card to replace paper arrival forms. Learn how it works, the rollout timeline, and what it means for travellers.",
+    date: "July 14, 2026",
+    image: `/assets/nb43.png`,
+  },
+  {
     id: 83,
     slug: "how-australia-counts-regional-visa-places-critical-updates-for-applicants",
     title: "How Australia Counts Regional Visa Places: Critical Updates for Applicants",

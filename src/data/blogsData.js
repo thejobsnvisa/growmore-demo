@@ -1,5 +1,5 @@
 export const blogs = [
-    {
+   {
     id: 89,
     slug: "subclass-491-visa-guide-your-path-to-australia-pr",
     title: "Subclass 491 Visa Guide: Your Strategic Path to Australia PR",
