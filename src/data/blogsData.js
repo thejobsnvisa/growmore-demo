@@ -1,13 +1,4 @@
-export const blogs = [
-  {
-    id: 90,
-    slug: "how-to-avoid-common-mistakes-when-applying-for-australia-pr",
-    title: "How to Avoid Common Mistakes on Your Australia PR Application",
-    metaTitle:"How to Avoid Common Australia PR Application Mistakes",
-    metaDescription:"A single error can cause a visa refusal or years of delays. Learn how to avoid critical mistakes with skills assessments, points claims, and the CSOL.",
-    date: "July 15, 2026",
-    image: `/assets/bg91.png`,
-  },    
+export const blogs = [  
   {
     id: 89,
     slug: "subclass-491-visa-guide-your-path-to-australia-pr",
