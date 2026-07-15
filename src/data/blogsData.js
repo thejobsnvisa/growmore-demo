@@ -5,7 +5,7 @@ export const blogs = [
     title: "How to Avoid Common Mistakes on Your Australia PR Application",
     metaTitle:"How to Avoid Common Australia PR Application Mistakes",
     metaDescription:"A single error can cause a visa refusal or years of delays. Learn how to avoid critical mistakes with skills assessments, points claims, and the CSOL.",
-    date: "July 14, 2026",
+    date: "July 15, 2026",
     image: `/assets/bg91.png`,
   },    
   {
