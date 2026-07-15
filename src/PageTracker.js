@@ -2,37 +2,47 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
-function PageTracker() {
-  const location = useLocation();
+const BACKEND_URL = 'https://growmore-1.vercel.app/api/log-view';
 
-  useEffect(() => {
-    // 1. Grab your original authenticated user identifier (ID, Email, or Token)
-    // Make sure 'userId' matches the exact key your app uses when a user logs in
-    const userId = localStorage.getItem('userId'); 
-    
-    // Captures the route path, including query strings (e.g., "/who-we-are")
-    const pagePath = location.pathname + location.search; 
+export const trackWidgetEvent = async (actionDescription = "Page View") => {
+  const userId = localStorage.getItem('userId'); 
+  const pagePath = window.location.pathname + window.location.search; 
+  const timestamp = new Date().toISOString();
 
-    // 2. Capture the exact frontend timestamp when they landed on the page
-    const timestamp = new Date().toISOString();
+  const payload = {
+    pagePath: pagePath,
+    userId: userId, 
+    timestamp: timestamp,
+    action: actionDescription
+  };
 
-    const BACKEND_URL = 'https://growmore-1.vercel.app/api/log-view';
+  // ADD THIS LOCAL PRINT OUT TO CONFIRM PAYLOAD COMPLETENESS
+  console.log("📊 Prepared Payload for DB Log:", payload);
 
-    fetch(BACKEND_URL, {
+  try {
+    await fetch(BACKEND_URL, {
       method: 'POST',
       mode: 'cors',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({
-        pagePath: pagePath,
-        userId: userId,     // Transmits the original user ID
-        timestamp: timestamp // Transmits the original user click time
-      }),
-    }).catch((err) => {
-      console.error('Analytics log failed:', err);
+      body: JSON.stringify(payload),
     });
+  } catch (err) {
+    console.error('Analytics log failed:', err);
+  }
+};
 
+// EXPOSE TO THE WINDOW OBJECT FOR EXTERNAL SCRIPTS
+if (typeof window !== "undefined") {
+  window.trackWidgetEvent = trackWidgetEvent;
+}
+
+function PageTracker() {
+  const location = useLocation();
+
+  useEffect(() => {
+    trackWidgetEvent("Page View");
   }, [location]);
 
   return null;
