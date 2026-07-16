@@ -69,11 +69,10 @@ const prerenderer = new Prerenderer({
 console.log('🏁 Initializing static site generation snapshotting...');
 
 prerenderer.initialize()
-  // 🛠️ Fixed: Changed .render() to .prerender()
-  .then(() => prerenderer.prerender()) 
+  // 🛠️ Fixed: Changed to .renderRoutes() and explicitly passed the routes array
+  .then(() => prerenderer.renderRoutes(prerenderer.options.routes)) 
   .then(renderedRoutes => {
     renderedRoutes.forEach(route => {
-      // Note: The modern API returns an object structure where the path is under route.route
       console.log(`✅ Successfully saved static HTML snapshot for: ${route.route}`);
     });
     prerenderer.destroy();
