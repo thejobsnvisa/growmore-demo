@@ -20,6 +20,12 @@
     "source": "dist",
     "inlineCss": false,
     "skipThirdPartyRequests": true,
+    "concurrency": 1,
+    "executionTimeLimit": 30000,
+    "exclude": [
+      "/blogs/**",
+      "/news/**"
+    ],
     "puppeteerArgs": [
       "--no-sandbox",
       "--disable-setuid-sandbox",
@@ -29,7 +35,6 @@
     "include": [
       "/",
       "/artificial-intelligence-use-policy/",
-      "/blogs/",
       "/book-consultation/",
       "/brochures/",
       "/cancellation-and-refund-policy/",
@@ -38,7 +43,6 @@
       "/checklist-for-labour-agreement/",
       "/contact-us/",
       "/migrate-to-australia/",
-      "/news/",
       "/our-services/dama/",
       "/our-services/employers/",
       "/our-services/employers/business-case-preparation/",
