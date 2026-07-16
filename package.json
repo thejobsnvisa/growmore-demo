@@ -24,21 +24,19 @@
       "--no-sandbox",
       "--disable-setuid-sandbox",
       "--disable-dev-shm-usage",
-      "--disable-gpu"
+      "--disable-gpu",
+      "--single-process"
     ],
     "include": [
       "/",
       "/artificial-intelligence-use-policy/",
-      "/blogs/",
       "/book-consultation/",
-      "/brochures/",
       "/cancellation-and-refund-policy/",
       "/checklist-for-dama/",
       "/checklist-for-gsm-general-skilled-migration/",
       "/checklist-for-labour-agreement/",
       "/contact-us/",
       "/migrate-to-australia/",
-      "/news/",
       "/our-services/dama/",
       "/our-services/employers/",
       "/our-services/employers/business-case-preparation/",
