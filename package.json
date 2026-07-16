@@ -9,8 +9,7 @@
     "dev": "vite",
     "generate-routes": "node Scripts/generateRoutes.cjs",
     "generate-static-pages": "node Scripts/generateStaticPages.cjs",
-    "prerender": "node Scripts/prerender.js",
-    "build": "vite build && npm run generate-routes && npm run generate-static-pages && npm run prerender && npm run sitemap",
+    "build": "vite build && npm run generate-routes && npm run generate-static-pages && npm run sitemap",
     "preview": "vite preview",
     "sitemap": "node Scripts/script.js",
     "predeploy": "npm run build",
@@ -44,8 +43,6 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
-    "@prerenderer/prerenderer": "^1.2.5",
-    "@prerenderer/renderer-puppeteer": "^1.2.4",
     "@tailwindcss/typography": "^0.5.19",
     "@types/node": "^25.5.0",
     "@types/react": "^19.2.7",
