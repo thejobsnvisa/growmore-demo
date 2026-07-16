@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["master"]
+    branches: ["master"] # Or "master" if that is your branch name
 
 permissions:
   contents: read
@@ -25,25 +25,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # Installs a stable, modern version of Google Chrome onto the runner
-      - name: Setup Chrome Executable
-        uses: browser-actions/setup-chrome@v1
-        id: setup-chrome
-        with:
-          chrome-version: stable
-
-      # Runs the build sequence, mapping react-snap to the installed Chrome environment
-      # Runs the build sequence, mapping react-snap to the installed Chrome environment
       - name: Build
-        run: |
-          # Enable unprivileged user namespaces on the runner host
-          sudo sysctl -w kernel.unprivileged_userns_clone=1
-          npm run build
-        env:
-          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
-          PUPPETEER_EXECUTABLE_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
-          # Force Puppeteer/Chrome to bypass the SUID helper restriction
-          PUPPETEER_ARGS: '--no-sandbox --disable-setuid-sandbox'
+        run: npm run build
+
+      - name: Upload Artifacts
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dist' # This uploads the compiled folder
 
   deploy:
     needs: build_site
