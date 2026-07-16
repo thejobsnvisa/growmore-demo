@@ -113,16 +113,6 @@ function Loader() {
 /* ---------- App ---------- */
 
 function App() {
-  React.useEffect(() => {
-    const scriptSrc = "https://unpkg.com/@elevenlabs/convai-widget-embed";
-    if (!document.querySelector(`script[src="${scriptSrc}"]`)) {
-      const script = document.createElement("script");
-      script.src = scriptSrc;
-      script.async = true;
-      script.type = "text/javascript";
-      document.body.appendChild(script);
-    }
-  }, []);
 
   return (
     <Router>
