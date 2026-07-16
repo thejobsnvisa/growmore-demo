@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["master"] # Or "master" if that is your branch name
+    branches: ["master"]
 
 permissions:
   contents: read
@@ -25,13 +25,24 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      # Installs a stable, modern version of Google Chrome onto the runner
+      - name: Setup Chrome Executable
+        uses: browser-actions/setup-chrome@v1
+        id: setup-chrome
+        with:
+          chrome-version: stable
+
+      # Runs the build sequence, mapping react-snap to the installed Chrome environment
       - name: Build
         run: npm run build
+        env:
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
+          PUPPETEER_EXECUTABLE_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
 
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist' # This uploads the compiled folder
+          path: './dist'
 
   deploy:
     needs: build_site

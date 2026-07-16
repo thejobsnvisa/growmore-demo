@@ -11,18 +11,23 @@
     "generate-static-pages": "node Scripts/generateStaticPages.cjs",
     "build": "vite build && npm run generate-routes && npm run generate-static-pages && npm run sitemap",
     "preview": "vite preview",
-    "postbuild": "npm exec react-snap",
+    "postbuild": "react-snap",
     "sitemap": "node Scripts/script.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "reactSnap": {
-    "source": "dist",
     "inlineCss": false,
     "skipThirdPartyRequests": true,
-    "puppeteerArgs": [
-      "--no-sandbox"
-    ],
+    "puppeteer": {
+      "headless": "new",
+      "args": [
+        "--no-sandbox",
+        "--disable-setuid-sandbox",
+        "--disable-dev-shm-usage",
+        "--disable-gpu"
+      ]
+    },
     "include": [
       "/",
       "/artificial-intelligence-use-policy/",
@@ -107,7 +112,6 @@
     "eslint-plugin-react-refresh": "^0.4.24",
     "gh-pages": "^6.3.0",
     "globals": "^16.5.0",
-    "puppeteer": "^25.0.4",
     "react-snap": "^1.23.0",
     "shx": "^0.4.0",
     "sitemap-ts": "^1.10.1",
