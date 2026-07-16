@@ -7,34 +7,26 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const staticDir = path.join(__dirname, '../dist');
 
-// 1. Dynamic Meta Helper: Injects the tags missing from un-rendered shells
-function injectDynamicMeta({ html, route, title, description, image }) {
-  const imageUrl = image.startsWith('http') ? image : `https://www.growmore.one${image}`;
-  
-  // Replace or append title
-  if (html.includes('<title>')) {
-    html = html.replace(/<title>.*?<\/title>/i, `<title>${title}</title>`);
-  } else {
-    html = html.replace('</head>', `<title>${title}</title>\n</head>`);
+// Helper fallback to make sure Open Graph tags exist no matter what
+function enforceMetaFallback({ html, route, title, description, image }) {
+  let modifiedHtml = html;
+
+  // Enforce Open Graph Tags if they aren't parsed by Helmet
+  if (!modifiedHtml.includes('property="og:title"')) {
+    modifiedHtml = modifiedHtml.replace('</head>', `<meta property="og:title" content="${title}" />\n</head>`);
+  }
+  if (!modifiedHtml.includes('property="og:description"')) {
+    modifiedHtml = modifiedHtml.replace('</head>', `<meta property="og:description" content="${description}" />\n</head>`);
+  }
+  if (!modifiedHtml.includes('property="og:image"')) {
+    const fullImg = image.startsWith('http') ? image : `https://www.growmore.one${image}`;
+    modifiedHtml = modifiedHtml.replace('</head>', `<meta property="og:image" content="${fullImg}" />\n</head>`);
+  }
+  if (!modifiedHtml.includes('rel="canonical"')) {
+    modifiedHtml = modifiedHtml.replace('</head>', `<link rel="canonical" href="https://www.growmore.one${route}" />\n</head>`);
   }
 
-  const metaBlock = `
-<meta name="description" content="${description}" />
-<link rel="canonical" href="https://www.growmore.one${route}/" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="${title}" />
-<meta property="og:description" content="${description}" />
-<meta property="og:image" content="${imageUrl}" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
-<meta property="og:url" content="https://www.growmore.one${route}/" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="${title}" />
-<meta name="twitter:description" content="${description}" />
-<meta name="twitter:image" content="${imageUrl}" />
-`;
-
-  return html.replace('</head>', `${metaBlock}\n</head>`);
+  return modifiedHtml;
 }
 
 const prerenderer = new Prerenderer({
@@ -83,18 +75,19 @@ const prerenderer = new Prerenderer({
     "/our-services/individual/student-guardian-visa/",
   ],
   renderer: new PuppeteerRenderer({
-    renderAfterTime: 1500,
+    renderAfterTime: 2000, // ⏳ Increased to 2 seconds so React Helmet has full time to inject tags
     skipThirdPartyRequests: true,
     args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu']
   })
 });
 
-console.log('🏁 Initializing unified static page generation...');
+console.log('🏁 Initializing static site generation snapshotting...');
 
 prerenderer.initialize()
   .then(() => prerenderer.renderRoutes(prerenderer.options.routes)) 
   .then(async (renderedRoutes) => {
-    // 2. Write standard pre-rendered pages (React Helmet handles these natively in-browser)
+    
+    // Process main static routes
     renderedRoutes.forEach(route => {
       const routePath = route.route === '/' ? '' : route.route;
       const outputDir = path.join(staticDir, routePath);
@@ -104,16 +97,20 @@ prerenderer.initialize()
         fs.mkdirSync(outputDir, { recursive: true });
       }
 
-      let html = route.html;
-      if (!html.includes('rel="canonical"')) {
-        html = html.replace('</head>', `\n<link rel="canonical" href="https://www.growmore.one${route.route}" />\n</head>`);
-      }
+      // Safeguard fallback injection for static routes
+      let html = enforceMetaFallback({
+        html: route.html,
+        route: route.route,
+        title: "Best Australia PR Immigration Consultant",
+        description: "Best Australia PR Immigration Consultants & Migration Agents in Melbourne.",
+        image: "/assets/preview-thumbnail.jpg" // Change this to your global default backup image
+      });
 
       fs.writeFileSync(outputFile, html, 'utf8');
-      console.log(`✅ Saved static HTML (with browser Helmet): ${route.route}`);
+      console.log(`✅ Saved static HTML with OG card properties: ${route.route}`);
     });
 
-    // 3. Process dynamic paths using your data files
+    // Process dynamic paths (Blogs & News)
     try {
       const { blogs } = await import("../src/data/blogsData.js");
       const { news } = await import("../src/data/newsData.js");
@@ -129,8 +126,14 @@ prerenderer.initialize()
             fs.mkdirSync(outputDir, { recursive: true });
           }
 
-          const freshHtml = injectDynamicMeta({
-            html: baseTemplate,
+          let htmlShell = baseTemplate;
+          // Wipe out any inherited static titles/descriptions from the template base
+          htmlShell = htmlShell.replace(/<title>.*?<\/title>/i, '');
+          htmlShell = htmlShell.replace(/<meta property="og:.*?"\s*\/?>/gi, '');
+          htmlShell = htmlShell.replace(/<meta name="description".*?"\s*\/?>/gi, '');
+
+          const freshHtml = enforceMetaFallback({
+            html: htmlShell,
             route: route,
             title: item.metaTitle || item.title,
             description: item.metaDescription || item.title,
@@ -138,7 +141,7 @@ prerenderer.initialize()
           });
 
           fs.writeFileSync(outputFile, freshHtml, 'utf8');
-          console.log(`✅ Saved dynamic HTML (with injected OG Data): ${route}`);
+          console.log(`✅ Saved dynamic HTML with unique OG values: ${route}`);
         });
       };
 
@@ -146,11 +149,11 @@ prerenderer.initialize()
       processDynamicArray(news, '/news');
 
     } catch (dataErr) {
-      console.warn('⚠️ Skipped dynamic file injection loops (Verify path structures):', dataErr.message);
+      console.warn('⚠️ Skipped dynamic file injection loops:', dataErr.message);
     }
 
     prerenderer.destroy();
-    console.log('🎉 System processing complete!');
+    console.log('🎉 Prerendering steps complete!');
   })
   .catch(err => {
     console.error('❌ Static site pre-generation ran into an issue:', err);
