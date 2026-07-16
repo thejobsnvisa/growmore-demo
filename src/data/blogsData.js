@@ -1,5 +1,14 @@
 export const blogs = [  
-   {
+    {
+    id: 91,
+    slug: "how-to-get-australia-pr-through-the-subclass-190-visa",
+    title: "How to Get Australia PR Through the Subclass 190 Visa",
+    metaTitle:"How to Get Australia PR Through the Subclass 190 Visa",
+    metaDescription:"Planning to apply for a Subclass 190 Visa? Learn about eligibility, state nomination, visa costs, and the Australia PR process.",
+    date: "July 16, 2026",
+    image: `/assets/bg92.png`,
+  },
+  {
     id: 90,
     slug: "how-to-avoid-common-mistakes-when-applying-for-australia-pr",
     title: "How to Avoid Common Mistakes on Your Australia PR Application",
