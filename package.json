@@ -16,7 +16,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "reactSnap": {
+ "reactSnap": {
     "source": "dist",
     "destination": "dist",
     "include": [],
@@ -26,6 +26,7 @@
       "/brochures",
       "/brochures/"
     ],
+    "crawl": false,
     "concurrency": 1,
     "skipThirdPartyRequests": true,
     "puppeteer": {
