@@ -1,15 +1,15 @@
-// 🛠️ Fixed: Switched from named import to default import to resolve the SyntaxError
 import Prerenderer from '@prerenderer/prerenderer';
 import PuppeteerRenderer from '@prerenderer/renderer-puppeteer';
 import path from 'path';
+import fs from 'fs'; // 🛠️ Added for writing directories and files
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const staticDir = path.join(__dirname, '../dist');
 
 const prerenderer = new Prerenderer({
-  staticDir: path.join(__dirname, '../dist'),
+  staticDir: staticDir,
   
-  // 🛠️ Fixed: Omitted /book-consultation/ and /brochures/ to bypass Puppeteer navigation crashes
   routes: [
     "/",
     "/who-we-are/",
@@ -55,7 +55,7 @@ const prerenderer = new Prerenderer({
   ],
   
   renderer: new PuppeteerRenderer({
-    renderAfterTime: 1000, 
+    renderAfterTime: 1200, // Slightly increased to ensure full rendering
     skipThirdPartyRequests: true, 
     args: [
       '--no-sandbox',
@@ -69,12 +69,25 @@ const prerenderer = new Prerenderer({
 console.log('🏁 Initializing static site generation snapshotting...');
 
 prerenderer.initialize()
-  // 🛠️ Fixed: Changed to .renderRoutes() and explicitly passed the routes array
   .then(() => prerenderer.renderRoutes(prerenderer.options.routes)) 
   .then(renderedRoutes => {
     renderedRoutes.forEach(route => {
-      console.log(`✅ Successfully saved static HTML snapshot for: ${route.route}`);
+      // 1. Determine where this target file should live on disk
+      // E.g., /who-we-are/ maps out to: C:/project/growmore/dist/who-we-are/index.html
+      const routePath = route.route === '/' ? '' : route.route;
+      const outputDir = path.join(staticDir, routePath);
+      const outputFile = path.join(outputDir, 'index.html');
+
+      // 2. Ensure nested subdirectories are generated cleanly
+      if (!fs.existsSync(outputDir)) {
+        fs.mkdirSync(outputDir, { recursive: true });
+      }
+
+      // 3. Save the captured HTML snapshot to disk
+      fs.writeFileSync(outputFile, route.html, 'utf8');
+      console.log(`✅ Saved static HTML file for: ${route.route}`);
     });
+    
     prerenderer.destroy();
     console.log('🎉 Prerendering steps complete!');
   })
