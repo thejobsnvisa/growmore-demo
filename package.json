@@ -20,9 +20,16 @@
     "source": "dist",
     "destination": "dist",
     "include": [],
+    "exclude": [
+      "/book-consultation",
+      "/book-consultation/",
+      "/brochures",
+      "/brochures/"
+    ],
     "concurrency": 1,
     "skipThirdPartyRequests": true,
     "puppeteer": {
+      "timeout": 60000,
       "handleSIGINT": false,
       "handleSIGTERM": false,
       "handleSIGHUP": false
