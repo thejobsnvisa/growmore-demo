@@ -1,4 +1,4 @@
-import { Prerenderer } from 'prerenderer';
+import { Prerenderer } from '@prerenderer/prerenderer';
 import PuppeteerRenderer from '@prerenderer/renderer-puppeteer';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -6,9 +6,7 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const prerenderer = new Prerenderer({
-  // Path to your compiled distribution folder
   staticDir: path.join(__dirname, '../dist'),
-  
   // The exact safe routes you want to snap
   routes: [
    "/",
