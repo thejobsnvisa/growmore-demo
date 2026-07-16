@@ -3,33 +3,33 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-  {
+{
     id: 1,
-    slug: "how-to-get-australia-pr-through-the-subclass-190-visa",
-    title: "How to Get Australia PR Through the Subclass 190 Visa",
-    metaTitle:"How to Get Australia PR Through the Subclass 190 Visa",
-    metaDescription:"Planning to apply for a Subclass 190 Visa? Learn about eligibility, state nomination, visa costs, and the Australia PR process.",
-    date: "July 16, 2026",
-    image: `/assets/bg92.png`,
+    slug: "australias-digital-passenger-card-is-coming-easier-arrivals-ahead",
+    title: "Australia's Digital Passenger Card Is Coming: Easier Arrivals Ahead",
+    metaTitle: "Australia's Digital Passenger Card: Easier Arrivals Ahead",
+    metaDescription:"Australia is introducing a Digital Passenger Card to replace paper arrival forms. Learn how it works, the rollout timeline, and what it means for travellers.",
+    date: "July 14, 2026",
+    image: `/assets/nb43.png`,
   },
   {
     id: 2,
-    slug: "how-to-avoid-common-mistakes-when-applying-for-australia-pr",
-    title: "How to Avoid Common Mistakes on Your Australia PR Application",
-    metaTitle:"How to Avoid Common Australia PR Application Mistakes",
-    metaDescription:"A single error can cause a visa refusal or years of delays. Learn how to avoid critical mistakes with skills assessments, points claims, and the CSOL.",
-    date: "July 15, 2026",
-    image: `/assets/bg91.png`,
-  },    
+    slug: "how-australia-counts-regional-visa-places-critical-updates-for-applicants",
+    title: "How Australia Counts Regional Visa Places: Critical Updates for Applicants",
+    metaTitle: "Regional Visa Allocation: How Australia Counts Your PR Places",
+    metaDescription:"Navigating the regional pathway? Learn exactly how the Department of Home Affairs calculates and counts regional visa places to avoid application traps.",
+    date: "July 10, 2026",
+    image: `/assets/nb42.png`,
+  },
   {
     id: 3,
-    slug: "subclass-491-visa-guide-your-path-to-australia-pr",
-    title: "Subclass 491 Visa Guide: Your Strategic Path to Australia PR",
-    metaTitle:"Subclass 491 Visa Guide: Step-by-Step Path to Australia PR",
-    metaDescription:"Master the regional visa pathway. Learn how the 15-point nomination bonus unlocks Australian PR, check your eligibility, and view the 2026 processing times.",
-    date: "July 13, 2026",
-    image: `/assets/bg90.png`,
-  },   
+    slug: "victoria-great-south-coast-dama-raises-nomination-fees-from-1-july-2026",
+    title: "Victoria’s Great South Coast DAMA Raises Nomination Fees from 1 July 2026",
+    metaTitle: "Great South Coast DAMA Fee Increase: New 1 July 2026 Rates",
+    metaDescription:"Victoria’s Great South Coast DAMA has updated its regional nomination fees. Review the new tiered structure for employers and find out how it impacts your PR pathway sponsorship.",
+    date: "July 10, 2026",
+    image: `/assets/nb41.png`,
+  },
 ];
 
 const BlogSection = () => {
