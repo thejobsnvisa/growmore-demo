@@ -20,15 +20,12 @@
     "source": "dist",
     "inlineCss": false,
     "skipThirdPartyRequests": true,
-    "puppeteer": {
-      "headless": "new",
-      "args": [
-        "--no-sandbox",
-        "--disable-setuid-sandbox",
-        "--disable-dev-shm-usage",
-        "--disable-gpu"
-      ]
-    },
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-gpu"
+    ],
     "include": [
       "/",
       "/artificial-intelligence-use-policy/",
