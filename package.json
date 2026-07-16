@@ -20,12 +20,6 @@
     "source": "dist",
     "inlineCss": false,
     "skipThirdPartyRequests": true,
-    "concurrency": 1,
-    "executionTimeLimit": 30000,
-    "exclude": [
-      "/blogs/**",
-      "/news/**"
-    ],
     "puppeteerArgs": [
       "--no-sandbox",
       "--disable-setuid-sandbox",
