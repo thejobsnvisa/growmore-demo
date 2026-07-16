@@ -1,15 +1,44 @@
 import Prerenderer from '@prerenderer/prerenderer';
 import PuppeteerRenderer from '@prerenderer/renderer-puppeteer';
 import path from 'path';
-import fs from 'fs'; // 🛠️ Added for writing directories and files
+import fs from 'fs';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const staticDir = path.join(__dirname, '../dist');
 
+// 1. Dynamic Meta Helper: Injects the tags missing from un-rendered shells
+function injectDynamicMeta({ html, route, title, description, image }) {
+  const imageUrl = image.startsWith('http') ? image : `https://www.growmore.one${image}`;
+  
+  // Replace or append title
+  if (html.includes('<title>')) {
+    html = html.replace(/<title>.*?<\/title>/i, `<title>${title}</title>`);
+  } else {
+    html = html.replace('</head>', `<title>${title}</title>\n</head>`);
+  }
+
+  const metaBlock = `
+<meta name="description" content="${description}" />
+<link rel="canonical" href="https://www.growmore.one${route}/" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="${title}" />
+<meta property="og:description" content="${description}" />
+<meta property="og:image" content="${imageUrl}" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://www.growmore.one${route}/" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="${title}" />
+<meta name="twitter:description" content="${description}" />
+<meta name="twitter:image" content="${imageUrl}" />
+`;
+
+  return html.replace('</head>', `${metaBlock}\n</head>`);
+}
+
 const prerenderer = new Prerenderer({
   staticDir: staticDir,
-  
   routes: [
     "/",
     "/who-we-are/",
@@ -53,43 +82,75 @@ const prerenderer = new Prerenderer({
     "/our-services/individual/visitor-evisitor-eta-visa/",
     "/our-services/individual/student-guardian-visa/",
   ],
-  
   renderer: new PuppeteerRenderer({
-    renderAfterTime: 1200, // Slightly increased to ensure full rendering
-    skipThirdPartyRequests: true, 
-    args: [
-      '--no-sandbox',
-      '--disable-setuid-sandbox',
-      '--disable-dev-shm-usage',
-      '--disable-gpu'
-    ]
+    renderAfterTime: 1500,
+    skipThirdPartyRequests: true,
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu']
   })
 });
 
-console.log('🏁 Initializing static site generation snapshotting...');
+console.log('🏁 Initializing unified static page generation...');
 
 prerenderer.initialize()
   .then(() => prerenderer.renderRoutes(prerenderer.options.routes)) 
-  .then(renderedRoutes => {
+  .then(async (renderedRoutes) => {
+    // 2. Write standard pre-rendered pages (React Helmet handles these natively in-browser)
     renderedRoutes.forEach(route => {
-      // 1. Determine where this target file should live on disk
-      // E.g., /who-we-are/ maps out to: C:/project/growmore/dist/who-we-are/index.html
       const routePath = route.route === '/' ? '' : route.route;
       const outputDir = path.join(staticDir, routePath);
       const outputFile = path.join(outputDir, 'index.html');
 
-      // 2. Ensure nested subdirectories are generated cleanly
       if (!fs.existsSync(outputDir)) {
         fs.mkdirSync(outputDir, { recursive: true });
       }
 
-      // 3. Save the captured HTML snapshot to disk
-      fs.writeFileSync(outputFile, route.html, 'utf8');
-      console.log(`✅ Saved static HTML file for: ${route.route}`);
+      let html = route.html;
+      if (!html.includes('rel="canonical"')) {
+        html = html.replace('</head>', `\n<link rel="canonical" href="https://www.growmore.one${route.route}" />\n</head>`);
+      }
+
+      fs.writeFileSync(outputFile, html, 'utf8');
+      console.log(`✅ Saved static HTML (with browser Helmet): ${route.route}`);
     });
-    
+
+    // 3. Process dynamic paths using your data files
+    try {
+      const { blogs } = await import("../src/data/blogsData.js");
+      const { news } = await import("../src/data/newsData.js");
+      const baseTemplate = fs.readFileSync(path.join(staticDir, "index.html"), "utf8");
+
+      const processDynamicArray = (items, routePrefix) => {
+        items.forEach(item => {
+          const route = `${routePrefix}/${item.slug}`;
+          const outputDir = path.join(staticDir, routePrefix, item.slug);
+          const outputFile = path.join(outputDir, "index.html");
+
+          if (!fs.existsSync(outputDir)) {
+            fs.mkdirSync(outputDir, { recursive: true });
+          }
+
+          const freshHtml = injectDynamicMeta({
+            html: baseTemplate,
+            route: route,
+            title: item.metaTitle || item.title,
+            description: item.metaDescription || item.title,
+            image: item.image
+          });
+
+          fs.writeFileSync(outputFile, freshHtml, 'utf8');
+          console.log(`✅ Saved dynamic HTML (with injected OG Data): ${route}`);
+        });
+      };
+
+      processDynamicArray(blogs, '/blogs');
+      processDynamicArray(news, '/news');
+
+    } catch (dataErr) {
+      console.warn('⚠️ Skipped dynamic file injection loops (Verify path structures):', dataErr.message);
+    }
+
     prerenderer.destroy();
-    console.log('🎉 Prerendering steps complete!');
+    console.log('🎉 System processing complete!');
   })
   .catch(err => {
     console.error('❌ Static site pre-generation ran into an issue:', err);
