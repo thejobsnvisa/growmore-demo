@@ -73,6 +73,3 @@ This development only relates to the Indian government's consular and passport s
 Australian immigration applications remain unaffected. This means no effect on Australia PR applications, Employer-sponsored visas, Skilled visas, Student visas, Visitor visas, or Partner visas, which are handled by the Australian Department of Home Affairs. 
 
 So, there is no need to delay your Australian visa plans. Continue your Australian immigration journey with Growmore Immigration and get expert guidance on any type of visa application, from eligibility assessment to visa lodgement and ongoing support. 
-
-
-**Email: info@growmore.one | WhatsApp: +61 434 202 021 | Phone: +61 3 8764 3334**
