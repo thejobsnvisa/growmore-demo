@@ -10,7 +10,7 @@
     "generate-routes": "node Scripts/generateRoutes.cjs",
     "generate-static-pages": "node Scripts/generateStaticPages.cjs",
     "build": "shx rm -rf dist && vite build && npm run generate-routes && npm run generate-static-pages && npm run sitemap",
-    "preview":"vite preview",
+    "preview": "vite preview",
     "postbuild": "react-snap",
     "sitemap": "node Scripts/script.js",
     "predeploy": "npm run build",
