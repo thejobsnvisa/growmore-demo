@@ -115,7 +115,6 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <PageTracker/>
       <Navbar />
        <div className="sticky top-0 z-20 w-full overflow-hidden bg-gradient-to-r from-[#59C4E6] via-[#67D7DA] to-[#7EE8C8] shadow-md">
   <a
