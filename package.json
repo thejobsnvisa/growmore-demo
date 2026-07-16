@@ -9,23 +9,17 @@
     "dev": "vite",
     "generate-routes": "node Scripts/generateRoutes.cjs",
     "generate-static-pages": "node Scripts/generateStaticPages.cjs",
-    "build": "shx rm -rf dist && vite build && npm run generate-routes && npm run generate-static-pages && npm run sitemap",
+    "build": "vite build && npm run generate-routes && npm run generate-static-pages && npm run sitemap",
     "preview": "vite preview",
-    "postbuild": "react-snap",
+    "postbuild": "npm exec react-snap",
     "sitemap": "node Scripts/script.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "reactSnap": {
     "source": "dist",
-    "inlineCss": false,
     "skipThirdPartyRequests": true,
-    "concurrency": 1,
-    "executionTimeLimit": 30000,
-    "exclude": [
-      "/blogs/**",
-      "/news/**"
-    ],
+    "inlineCss": false,
     "puppeteerArgs": [
       "--no-sandbox",
       "--disable-setuid-sandbox",
