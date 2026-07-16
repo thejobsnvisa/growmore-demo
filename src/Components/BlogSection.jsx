@@ -5,6 +5,15 @@ import { Link } from "react-router-dom";
 const blogs = [
 {
     id: 1,
+    slug: "vfs-loses-contract-in-australia-problems-for-many-indians",
+    title: "VFS Loses Contract in Australia: Problems for Many Indians",
+    metaTitle: "Australia's Digital Passenger Card: Easier Arrivals Ahead",
+    metaDescription:"Australia is introducing a Digital Passenger Card to replace paper arrival forms. Learn how it works, the rollout timeline, and what it means for travellers.",
+    date: "July 16, 2026",
+    image: `/assets/nb45.png`,
+  },
+{
+    id: 2,
     slug: "australias-digital-passenger-card-is-coming-easier-arrivals-ahead",
     title: "Australia's Digital Passenger Card Is Coming: Easier Arrivals Ahead",
     metaTitle: "Australia's Digital Passenger Card: Easier Arrivals Ahead",
@@ -13,22 +22,13 @@ const blogs = [
     image: `/assets/nb43.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "how-australia-counts-regional-visa-places-critical-updates-for-applicants",
     title: "How Australia Counts Regional Visa Places: Critical Updates for Applicants",
     metaTitle: "Regional Visa Allocation: How Australia Counts Your PR Places",
     metaDescription:"Navigating the regional pathway? Learn exactly how the Department of Home Affairs calculates and counts regional visa places to avoid application traps.",
     date: "July 10, 2026",
     image: `/assets/nb42.png`,
-  },
-  {
-    id: 3,
-    slug: "victoria-great-south-coast-dama-raises-nomination-fees-from-1-july-2026",
-    title: "Victoria’s Great South Coast DAMA Raises Nomination Fees from 1 July 2026",
-    metaTitle: "Great South Coast DAMA Fee Increase: New 1 July 2026 Rates",
-    metaDescription:"Victoria’s Great South Coast DAMA has updated its regional nomination fees. Review the new tiered structure for employers and find out how it impacts your PR pathway sponsorship.",
-    date: "July 10, 2026",
-    image: `/assets/nb41.png`,
   },
 ];
 

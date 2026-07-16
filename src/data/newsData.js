@@ -1,5 +1,14 @@
 
 export const news = [
+  {
+    id: 84,
+    slug: "vfs-loses-contract-in-australia-problems-for-many-indians",
+    title: "VFS Loses Contract in Australia: Problems for Many Indians",
+    metaTitle: "Australia's Digital Passenger Card: Easier Arrivals Ahead",
+    metaDescription:"Australia is introducing a Digital Passenger Card to replace paper arrival forms. Learn how it works, the rollout timeline, and what it means for travellers.",
+    date: "July 16, 2026",
+    image: `/assets/nb45.png`,
+  },
 {
     id: 84,
     slug: "australias-digital-passenger-card-is-coming-easier-arrivals-ahead",
