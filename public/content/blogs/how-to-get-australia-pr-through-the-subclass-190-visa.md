@@ -60,8 +60,10 @@ Subclass 190 Visa Eligibility includes several requirements that applicants must
 
 The government visa application charge for the Skilled Nominated Visa Subclass 190 starts from AUD 6,140 for the primary applicant. If you include eligible family members in your application, additional charges apply. 
 
- **Primary applicant** : AUD 6,140 
+ **Primary applicant** : AUD 6,140
+ 
  **Additional applicant (18 years or older)** : AUD 3,070 
+ 
  **Additional applicant (under 18 years of age)** : AUD 1,535 
 
  However, eligible citizens of certain Pacific Island countries and Timor-Leste may qualify for a reduced visa application charge under specific concessions. 
