@@ -5,11 +5,11 @@
   "description": "Growmore Immigration Digital Platform",
   "homepage": "https://www.growmore.one",
   "type": "module",
-  "scripts": {
+ "scripts": {
     "dev": "vite",
     "generate-routes": "node Scripts/generateRoutes.cjs",
-    "generate-static-pages": "node Scripts/generateStaticPages.cjs",
-    "build": "vite build && npm run generate-routes && npm run generate-static-pages && npm run sitemap",
+    "generate-static-pages": "node Scripts/generateStaticPages.js",
+    "build": "npm run generate-static-pages && vite build && react-snap && npm run generate-routes && npm run sitemap",
     "preview": "vite preview",
     "sitemap": "node Scripts/script.js",
     "predeploy": "npm run build",
@@ -53,11 +53,14 @@
     "eslint-plugin-react-refresh": "^0.4.24",
     "gh-pages": "^6.3.0",
     "globals": "^16.5.0",
+    "react-snap": "^1.23.0",
     "shx": "^0.4.0",
     "sitemap-ts": "^1.10.1",
     "vite": "^7.3.3"
   },
   "reactSnap": {
+    "source": "dist",
+    "destination": "dist",
     "include": [
       "/",
       "/artificial-intelligence-use-policy/",
