@@ -140,6 +140,7 @@ const BookConsultation = () => {
                   Migration Agents specialised in Australian visas —
                   appointments available in approximately 3 weeks.
                 </p>
+                <br/>
                 <a
                   href="https://6fvy.short.gy/icfactsheet"
                   target="_blank"
@@ -185,7 +186,7 @@ const BookConsultation = () => {
                   href="https://6fvy.short.gy/icfactsheet"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-600 text-[15px] mt-4 block"
+                  className="text-blue-600 text-[15px] mt-10 block"
                 >
                   {" "}
                   View Factsheet{" "}
