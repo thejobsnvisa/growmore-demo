@@ -6,7 +6,7 @@ export const blogs = [
     metaTitle:"Need a Skills Assessment for Australia PR? Find Out Here",
     metaDescription:"Need a skills assessment for Australia PR? Find the right assessing authority and get expert guidance from Growmore Immigration.",
     date: "July 17, 2026",
-    image: `/assets/bg93.png`,
+    image: `/assets/bg93.jpg`,
   },  
   {
     id: 91,
