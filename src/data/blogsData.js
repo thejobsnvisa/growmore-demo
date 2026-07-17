@@ -1,5 +1,14 @@
 export const blogs = [  
     {
+    id: 92,
+    slug: "need-a-skills-assessment-for-australia-pr-find-the-right-assessing-authority",
+    title: "Need a Skills Assessment for Australia PR? Find the Right Assessing Authority",
+    metaTitle:"Need a Skills Assessment for Australia PR? Find Out Here",
+    metaDescription:"Need a skills assessment for Australia PR? Find the right assessing authority and get expert guidance from Growmore Immigration.",
+    date: "July 17, 2026",
+    image: `/assets/bg93.png`,
+  },  
+  {
     id: 91,
     slug: "how-to-get-australia-pr-through-the-subclass-190-visa",
     title: "How to Get Australia PR Through the Subclass 190 Visa",
