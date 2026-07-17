@@ -1,6 +1,15 @@
 
 export const news = [
-   {
+    {
+    id: 86,
+    slug: "nil-vac-announced-for-rugby-league-world-cup-2026-participants",
+    title: "Nil VAC Announced for Rugby League World Cup 2026 Participants",
+    metaTitle: "Nil VAC for Rugby League World Cup 2026 Participants",
+    metaDescription:"Eligible Rugby League World Cup 2026 participants can apply for a Subclass 408 visa with no Visa Application Charge (VAC) in Australia.",
+    date: "July 17, 2026",
+    image: `/assets/nb47.png`,
+  }, 
+  {
     id: 85,
     slug: "applying-for-a-working-holiday-visa-prepare-for-longer-processing-times",
     title: "Applying for a Working Holiday Visa? Prepare for Longer Processing Times",

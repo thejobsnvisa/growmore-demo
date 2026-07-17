@@ -3,24 +3,24 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-{
+ {
     id: 1,
-    slug: "vfs-loses-contract-in-australia-problems-for-many-indians",
-    title: "VFS Loses Contract in Australia: Problems for Many Indians",
-    metaTitle: "VFS Loses Contract in Australia: Impact on Indians",
-    metaDescription:"The Delhi High Court has cancelled VFS Global's tender for Indian passport and visa services in Australia. Here's what it means for Indians.",
-    date: "July 16, 2026",
-    image: `/assets/nb45.png`,
+    slug: "applying-for-a-working-holiday-visa-prepare-for-longer-processing-times",
+    title: "Applying for a Working Holiday Visa? Prepare for Longer Processing Times",
+    metaTitle: "Australia Working Holiday Visa Processing Times Delayed",
+    metaDescription:"Australia advises Working Holiday Visa applicants to apply early as Subclass 417 and 462 visa processing times are taking longer than usual.",
+    date: "July 17, 2026",
+    image: `/assets/nb46.png`,
   },
-{
+ {
     id: 2,
-    slug: "australias-digital-passenger-card-is-coming-easier-arrivals-ahead",
-    title: "Australia's Digital Passenger Card Is Coming: Easier Arrivals Ahead",
-    metaTitle: "Australia's Digital Passenger Card: Easier Arrivals Ahead",
-    metaDescription:"Australia is introducing a Digital Passenger Card to replace paper arrival forms. Learn how it works, the rollout timeline, and what it means for travellers.",
-    date: "July 14, 2026",
-    image: `/assets/nb43.png`,
-  },
+    slug: "nil-vac-announced-for-rugby-league-world-cup-2026-participants",
+    title: "Nil VAC Announced for Rugby League World Cup 2026 Participants",
+    metaTitle: "Nil VAC for Rugby League World Cup 2026 Participants",
+    metaDescription:"Eligible Rugby League World Cup 2026 participants can apply for a Subclass 408 visa with no Visa Application Charge (VAC) in Australia.",
+    date: "July 17, 2026",
+    image: `/assets/nb47.png`,
+  }, 
   {
     id: 3,
     slug: "how-australia-counts-regional-visa-places-critical-updates-for-applicants",
