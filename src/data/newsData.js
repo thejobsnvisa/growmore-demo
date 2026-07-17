@@ -1,5 +1,14 @@
 
 export const news = [
+   {
+    id: 85,
+    slug: "applying-for-a-working-holiday-visa-prepare-for-longer-processing-times",
+    title: "Applying for a Working Holiday Visa? Prepare for Longer Processing Times",
+    metaTitle: "Australia Working Holiday Visa Processing Times Delayed",
+    metaDescription:"Australia advises Working Holiday Visa applicants to apply early as Subclass 417 and 462 visa processing times are taking longer than usual.",
+    date: "July 17, 2026",
+    image: `/assets/nb46.png`,
+  },
   {
     id: 84,
     slug: "vfs-loses-contract-in-australia-problems-for-many-indians",
