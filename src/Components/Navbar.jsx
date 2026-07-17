@@ -231,7 +231,7 @@ const Navbar = () => {
             onClick={closeAll}
             className="hidden xl:block bg-black text-white px-7 py-4 rounded-full text-sm font-semibold hover:bg-[#6dc7d1] transition"
           >
-            Book Consultation →
+            Book Free Call →
           </Link>
 
           {/* Mobile Toggle (FIXED) */}
@@ -409,7 +409,7 @@ const Navbar = () => {
             onClick={closeAll}
             className="block w-full text-center bg-black text-white px-5 py-3 rounded-full text-sm sm:text-base font-semibold hover:bg-[#6dc7d1] transition duration-300"
           >
-            Book Consultation →
+            Book Free Call →
           </Link>
         </div>
       )}
