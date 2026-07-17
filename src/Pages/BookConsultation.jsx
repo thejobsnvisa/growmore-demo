@@ -52,7 +52,10 @@ const BookConsultation = () => {
           content="Secure your future in Australia. Book a professional consultation for PR, Student, or Partner visas with our expert migration team. Start your journey today!"
         />
         <meta property="og:url" content={url} />
-        <meta property="og:image" content="https://www.growmore.one/assets/c3.jpg" />
+        <meta
+          property="og:image"
+          content="https://www.growmore.one/assets/c3.jpg"
+        />
       </Helmet>
       <div>
         {/* Hero Section */}
@@ -70,6 +73,51 @@ const BookConsultation = () => {
         {/* Cards Section */}
         <div className="py-16 bg-gray-50">
           <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-4">
+            <div className="bg-white rounded-3xl shadow-lg overflow-hidden text-center hover:shadow-2xl transition duration-300">
+              {" "}
+              <div className="h-[350px] overflow-hidden rounded-t-3xl">
+                {" "}
+                <img
+                  src={`${import.meta.env.BASE_URL}assets/c3.jpg`}
+                  alt="Urgent Consultation"
+                  className="w-full h-full object-cover object-top"
+                />{" "}
+              </div>{" "}
+              <div className="p-4">
+                {" "}
+                <h2 className="text-[22px] font-bold text-[#042325]">
+                  Free Callback
+                </h2>{" "}
+                <h3 className="mt-3 text-lg font-bold">
+                  {" "}
+                  Speak with our Migration Support Team{" "}
+                </h3>{" "}
+                <p className="text-[#042325] text-[15px] mt-4 leading-relaxed ">
+                  {" "}
+                  Fill in your details, and our team members will call you to :
+                  Understand your migration goals, Check your eligibility,
+                  Explain the next steps, Answer your questions. No obligation.
+                  No payment required.{" "}
+                </p>{" "}
+                <a
+                  href="https://6fvy.short.gy/icfactsheet"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 text-[15px] mt-4 block"
+                >
+                  {" "}
+                  View Factsheet{" "}
+                </a>{" "}
+                <a
+                  href="https://case.growmore.one/add/company-website"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-6 inline-block bg-[#5aa7ad] hover:bg-[#4b9398] text-white px-8 py-3 rounded-full transition duration-300"
+                >
+                  Book Now
+                </a>
+              </div>{" "}
+            </div>
             {/* Card 1 */}
             <div className="bg-white rounded-3xl shadow-lg overflow-hidden text-center hover:shadow-2xl transition duration-300">
               <div className="h-[350px] overflow-hidden rounded-t-3xl">
@@ -104,48 +152,6 @@ const BookConsultation = () => {
                 <button
                   onClick={() =>
                     openCalendly("https://calendly.com/krunalnayak/regular")
-                  }
-                  className="mt-6 bg-[#5aa7ad] hover:bg-[#4b9398] text-white px-8 py-3 rounded-full transition duration-300"
-                >
-                  Book Now
-                </button>
-              </div>
-            </div>
-            <div className="bg-white rounded-3xl shadow-lg overflow-hidden text-center hover:shadow-2xl transition duration-300">
-              <div className="h-[350px] overflow-hidden rounded-t-3xl">
-                <img
-                  src={`${import.meta.env.BASE_URL}assets/c1.jpg`}
-                  alt="Rapid Consultation"
-                  className="w-full h-full object-cover object-top"
-                />
-              </div>
-
-              <div className="p-4">
-                <h2 className="text-[22px] font-bold text-[#042325]">$149</h2>
-
-                <h3 className="mt-3 text-lg font-bold">
-                  15-Minute Express Online Consultation with Mr. Krunal Nayak
-                </h3>
-
-                <p className="text-[#042325] text-[15px] mt-4 leading-relaxed ">
-                  This short consultation is ideal if you have 2–3 quick
-                  questions and need clear, professional direction from a
-                  Registered Migration Agent.
-                </p>
-                <a
-                  href="https://6fvy.short.gy/icfactsheet"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-600 text-[15px] mt-10 block"
-                >
-                  {" "}
-                  View Factsheet{" "}
-                </a>
-                <button
-                  onClick={() =>
-                    openCalendly(
-                      "https://calendly.com/krunalnayak/rapid?month=2026-03",
-                    )
                   }
                   className="mt-6 bg-[#5aa7ad] hover:bg-[#4b9398] text-white px-8 py-3 rounded-full transition duration-300"
                 >
@@ -193,49 +199,6 @@ const BookConsultation = () => {
                   Book Now
                 </button>
               </div>
-            </div>
-            <div className="bg-white rounded-3xl shadow-lg overflow-hidden text-center hover:shadow-2xl transition duration-300">
-              {" "}
-              <div className="h-[350px] overflow-hidden rounded-t-3xl">
-                {" "}
-                <img
-                  src={`${import.meta.env.BASE_URL}assets/c3.jpg`}
-                  alt="Urgent Consultation"
-                  className="w-full h-full object-cover object-top"
-                />{" "}
-              </div>{" "}
-              <div className="p-4">
-                {" "}
-                <h2 className="text-[22px] font-bold text-[#042325]">
-                  Free
-                </h2>{" "}
-                <h3 className="mt-3 text-lg font-semibold">
-                  {" "}
-                  Free Information Session with one of our Migration Expert{" "}
-                </h3>{" "}
-                <p className="text-[#042325] text-[15px] mt-4 leading-relaxed ">
-                  {" "}
-                  Book your online session with our Migration Support Expert,
-                  specializing in Australian visa pathways{" "}
-                </p>{" "}
-                <a
-                  href="https://6fvy.short.gy/icfactsheet"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-600 text-[15px] mt-4 block"
-                >
-                  {" "}
-                  View Factsheet{" "}
-                </a>{" "}
-                <a
-                  href="https://case.growmore.one/add/company-website"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-6 inline-block bg-[#5aa7ad] hover:bg-[#4b9398] text-white px-8 py-3 rounded-full transition duration-300"
-                >
-                  Book Now
-                </a>
-              </div>{" "}
             </div>
           </div>
         </div>
