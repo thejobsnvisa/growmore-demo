@@ -1,5 +1,14 @@
 export const blogs = [  
     {
+    id: 93,
+    slug: "labour-market-testing-australia-what-employers-must-know",
+    title: "Labour Market Testing Australia: What Employers Must Know",
+    metaTitle: "Labour Market Testing Australia: 2026 Employer Guide & LMT Rules",
+    metaDescription:"Sponsoring overseas workers on the Skills in Demand 482 visa? Master Australia’s strict 28-day Labour Market Testing rules to avoid an automatic nomination refusal.",
+    date: "July 18, 2026",
+    image: `/assets/bg94.png`,
+  }, 
+  {
     id: 92,
     slug: "need-a-skills-assessment-for-australia-pr-find-the-right-assessing-authority",
     title: "Need a Skills Assessment for Australia PR? Find the Right Assessing Authority",
