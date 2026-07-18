@@ -14,7 +14,7 @@ By this, the government ensures that Australian workers are given priority for a
 
 ## **Which Australian Visas Require Labour Market Testing?**
 
-Labour Market Testing requirements generally apply when nominating workers under:
+**Labour Market Testing requirements generally apply when nominating workers under:**
 
 - Skills in Demand (Subclass 482) Visa
 - Skilled Employer Sponsored Regional (Subclass 494) Visa
@@ -28,7 +28,7 @@ The applicable requirements will depend on the nomination stream.
 
 ### **Advertising Requirements**
 
-For most nominations:
+**For most nominations:**
 
 - The position must have been advertised for at least four weeks.
 - The advertisement must have been published within the four-month period immediately before lodging the nomination application.
@@ -37,7 +37,7 @@ If an Australian citizen or permanent resident lost their job in the same role w
 
 ## **What Must the Advertisement Include?**
 
-The advertisement must:
+**The advertisement must:**
 
 - Be published in Australia.
 - Be written in English.
@@ -48,7 +48,7 @@ The advertisement must:
 
 ## **Where Can Employers Advertise?**
 
-At least two valid advertisements may be published through:
+**At least two valid advertisements may be published through:**
 
 - Prominent or professional recruitment websites with national reach throughout Australia.
 - Industry-specific recruitment websites that are significantly used within the relevant industry.
@@ -59,7 +59,7 @@ At least two valid advertisements may be published through:
 
 ## **What Advertising Methods Are Not Accepted?**
 
-The following are not acceptable methods of Labour Market Testing advertising:
+**The following are not acceptable methods of Labour Market Testing advertising:**
 
 - General classified websites.
 - Advertisements made solely through social media notifications, such as Twitter or Instagram.
@@ -67,7 +67,7 @@ The following are not acceptable methods of Labour Market Testing advertising:
 
 ### **Advertisement Period Requirements**
 
-Employers should also note that:
+**Employers should also note that:**
 
 - Advertisements are expected to run for at least four weeks.
 - Applications or expressions of interest must be accepted for at least four weeks.
@@ -78,7 +78,7 @@ Employers should also note that:
 
 ### **Evidence Requirements**
 
-At the time of lodging the nomination application, sponsors must provide:
+**At the time of lodging the nomination application, sponsors must provide:**
 
 - Copies of all advertisements that meet the Labour Market Testing requirements.
 - Evidence of a total of two valid advertisements.
@@ -89,7 +89,7 @@ Where specified in the Labour Agreement, employers must provide proof of Labour 
 
 From 11 December 2023, Labour Market Testing requirements for businesses located in Category 2 locations have changed to align with the Labour Market Testing changes made to the standard program.
 
-For Category 2 locations:
+**For Category 2 locations:**
 
 - Workforce Australia advertising is no longer required.
 - Employers are required to conduct two valid advertisements instead of three.
@@ -110,7 +110,7 @@ For the purposes of the Aged Care Industry Labour Agreement, Labour Market Testi
 
 ## **Things to Keep in Mind at the Time of Labour Market Testing (LMT)**
 
-Before completing Labour Market Testing, employers should carefully ensure that:
+**Before completing Labour Market Testing, employers should carefully ensure that:**
 
 - The advertisement meets all required requirements, including the position details, required skills or experience, sponsor or recruitment agency details, and salary information where applicable.
 - The advertisements are published through acceptable platforms and remain available for the required period.
@@ -126,7 +126,7 @@ At Growmore Immigration, our Registered Migration Agent provides expert guidance
 
 So, contact us today for professional assistance with your sponsorship process.
 
-**FAQs**  
+### **FAQs**
 
 **1\. Is Labour Market Testing mandatory for Australian employer-sponsored visas?**
 
