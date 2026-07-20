@@ -1,6 +1,15 @@
 
 export const news = [
     {
+    id: 87,
+    slug: "worried-about-indian-pcc-delays-in-australia-heres-what-home-affairs-clarified",
+    title: "Worried About Indian PCC Delays in Australia? Here's What Home Affairs Clarified",
+    metaTitle: "Home Affairs Clarifies Indian PCC Delays in Australia",
+    metaDescription:"Facing Indian PCC delays in Australia? Learn how Home Affairs will assess visa applications and what options are available for affected applicants.",
+    date: "July 20, 2026",
+    image: `/assets/nb48.png`,
+  },  
+  {
     id: 86,
     slug: "nil-vac-announced-for-rugby-league-world-cup-2026-participants",
     title: "Nil VAC Announced for Rugby League World Cup 2026 Participants",

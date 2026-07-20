@@ -1,5 +1,3 @@
-# Applying for a Working Holiday Visa? Prepare for Longer Processing Times
-
 If you are planning to apply for an Australian Working Holiday Visa, then you may need to allow extra time for your visa application.
 
 The Department of Home Affairs has updated its Working Holiday Maker (WHM) Program webpage and advises that a high volume of applications for both the Working Holiday Visa (Subclass 417) and the Work and Holiday Visa (Subclass 462) is being received, which results in longer processing times than usual.
