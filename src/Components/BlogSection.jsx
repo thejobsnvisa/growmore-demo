@@ -3,16 +3,16 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
- {
+{
     id: 1,
-    slug: "applying-for-a-working-holiday-visa-prepare-for-longer-processing-times",
-    title: "Applying for a Working Holiday Visa? Prepare for Longer Processing Times",
-    metaTitle: "Australia Working Holiday Visa Processing Times Delayed",
-    metaDescription:"Australia advises Working Holiday Visa applicants to apply early as Subclass 417 and 462 visa processing times are taking longer than usual.",
-    date: "July 17, 2026",
-    image: `/assets/nb46.png`,
-  },
- {
+    slug: "worried-about-indian-pcc-delays-in-australia-heres-what-home-affairs-clarified",
+    title: "Worried About Indian PCC Delays in Australia? Here's What Home Affairs Clarified",
+    metaTitle: "Home Affairs Clarifies Indian PCC Delays in Australia",
+    metaDescription:"Facing Indian PCC delays in Australia? Learn how Home Affairs will assess visa applications and what options are available for affected applicants.",
+    date: "July 20, 2026",
+    image: `/assets/nb48.png`,
+  },  
+  {
     id: 2,
     slug: "nil-vac-announced-for-rugby-league-world-cup-2026-participants",
     title: "Nil VAC Announced for Rugby League World Cup 2026 Participants",
@@ -23,12 +23,12 @@ const blogs = [
   }, 
   {
     id: 3,
-    slug: "how-australia-counts-regional-visa-places-critical-updates-for-applicants",
-    title: "How Australia Counts Regional Visa Places: Critical Updates for Applicants",
-    metaTitle: "Regional Visa Allocation: How Australia Counts Your PR Places",
-    metaDescription:"Navigating the regional pathway? Learn exactly how the Department of Home Affairs calculates and counts regional visa places to avoid application traps.",
-    date: "July 10, 2026",
-    image: `/assets/nb42.png`,
+    slug: "applying-for-a-working-holiday-visa-prepare-for-longer-processing-times",
+    title: "Applying for a Working Holiday Visa? Prepare for Longer Processing Times",
+    metaTitle: "Australia Working Holiday Visa Processing Times Delayed",
+    metaDescription:"Australia advises Working Holiday Visa applicants to apply early as Subclass 417 and 462 visa processing times are taking longer than usual.",
+    date: "July 17, 2026",
+    image: `/assets/nb46.png`,
   },
 ];
 
