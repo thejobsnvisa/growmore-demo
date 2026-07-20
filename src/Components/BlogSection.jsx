@@ -3,6 +3,7 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
+<<<<<<< HEAD
   {
     id: 1,
     slug: "subclass-202-visa-applicants-australia-introduces-new-csp-allocation-rules",
@@ -14,15 +15,25 @@ const blogs = [
   },
    {
     id: 2,
+=======
+{
+    id: 1,
+>>>>>>> 0bed6c55806d4e9bf824fe7a4e22653799c59177
     slug: "worried-about-indian-pcc-delays-in-australia-heres-what-home-affairs-clarified",
     title: "Worried About Indian PCC Delays in Australia? Here's What Home Affairs Clarified",
     metaTitle: "Home Affairs Clarifies Indian PCC Delays in Australia",
     metaDescription:"Facing Indian PCC delays in Australia? Learn how Home Affairs will assess visa applications and what options are available for affected applicants.",
     date: "July 20, 2026",
     image: `/assets/nb48.png`,
+<<<<<<< HEAD
   },
  {
     id: 3,
+=======
+  },  
+  {
+    id: 2,
+>>>>>>> 0bed6c55806d4e9bf824fe7a4e22653799c59177
     slug: "nil-vac-announced-for-rugby-league-world-cup-2026-participants",
     title: "Nil VAC Announced for Rugby League World Cup 2026 Participants",
     metaTitle: "Nil VAC for Rugby League World Cup 2026 Participants",
@@ -30,6 +41,18 @@ const blogs = [
     date: "July 17, 2026",
     image: `/assets/nb47.png`,
   }, 
+<<<<<<< HEAD
+=======
+  {
+    id: 3,
+    slug: "applying-for-a-working-holiday-visa-prepare-for-longer-processing-times",
+    title: "Applying for a Working Holiday Visa? Prepare for Longer Processing Times",
+    metaTitle: "Australia Working Holiday Visa Processing Times Delayed",
+    metaDescription:"Australia advises Working Holiday Visa applicants to apply early as Subclass 417 and 462 visa processing times are taking longer than usual.",
+    date: "July 17, 2026",
+    image: `/assets/nb46.png`,
+  },
+>>>>>>> 0bed6c55806d4e9bf824fe7a4e22653799c59177
 ];
 
 const BlogSection = () => {
