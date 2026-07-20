@@ -1,6 +1,15 @@
 
 export const news = [
     {
+    id: 88,
+    slug: "subclass-202-visa-applicants-australia-introduces-new-csp-allocation-rules",
+    title: "Subclass 202 Visa Applicants: Australia Introduces New CSP Allocation Rules",
+    metaTitle: "Subclass 202 Visa: New CSP Allocation Rules for 2026–27",
+    metaDescription:"Facing Indian PCC delays in Australia? Learn how Home Affairs will assess visa applications and what options are available for affected applicants.",
+    date: "July 20, 2026",
+    image: `/assets/nb49.png`,
+  },   
+  {
     id: 87,
     slug: "worried-about-indian-pcc-delays-in-australia-heres-what-home-affairs-clarified",
     title: "Worried About Indian PCC Delays in Australia? Here's What Home Affairs Clarified",
