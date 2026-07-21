@@ -24,7 +24,7 @@ const team = [
    {
     name: "Paritosh Kumar Parasher",
     role: "MARN: 0428682",
-    img: `${import.meta.env.BASE_URL}assets/paritoshkumar.jpg`,
+    img: `${import.meta.env.BASE_URL}assets/paritosh.jpg`,
   },
 ];
 
