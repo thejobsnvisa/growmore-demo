@@ -1,5 +1,14 @@
 
 export const news = [
+   {
+    id: 90,
+    slug: "relief-for-indian-australians-as-consular-services-set-to-resume",
+    title: "Relief for Indian Australians as Consular Services Set to Resume",
+    metaTitle: "Indian Consular Services in Australia to Resume Soon",
+    metaDescription:"Indian Australians can expect relief as Supreme Court clears the way for passport, visa and OCI services to resume in Australia.",
+    date: "July 21, 2026",
+    image: `/assets/nb52.png`,
+  }, 
   {
     id: 89,
     slug: "long-waits-unexpected-refusals-concerns-grow-over-aged-parent-visas",
