@@ -7,7 +7,7 @@ export const news = [
     metaTitle: "Indian Consular Services in Australia to Resume Soon",
     metaDescription:"Indian Australians can expect relief as Supreme Court clears the way for passport, visa and OCI services to resume in Australia.",
     date: "July 21, 2026",
-    image: `/assets/nb52.png`,
+    image: `/assets/nb52.jpg`,
   }, 
   {
     id: 89,
