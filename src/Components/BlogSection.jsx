@@ -12,14 +12,14 @@ const blogs = [
     date: "July 21, 2026",
     image: `/assets/nb51.png`,
   }, 
-   {
+    {
     id: 2,
-    slug: "worried-about-indian-pcc-delays-in-australia-heres-what-home-affairs-clarified",
-    title: "Worried About Indian PCC Delays in Australia? Here's What Home Affairs Clarified",
-    metaTitle: "Home Affairs Clarifies Indian PCC Delays in Australia",
-    metaDescription:"Facing Indian PCC delays in Australia? Learn how Home Affairs will assess visa applications and what options are available for affected applicants.",
-    date: "July 20, 2026",
-    image: `/assets/nb48.png`,
+    slug: "relief-for-indian-australians-as-consular-services-set-to-resume",
+    title: "Relief for Indian Australians as Consular Services Set to Resume",
+    metaTitle: "Indian Consular Services in Australia to Resume Soon",
+    metaDescription:"Indian Australians can expect relief as Supreme Court clears the way for passport, visa and OCI services to resume in Australia.",
+    date: "July 21, 2026",
+    image: `/assets/nb52.png`,
   },
  {
     id: 3,
