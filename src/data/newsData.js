@@ -1,6 +1,15 @@
 
 export const news = [
-    {
+  {
+    id: 89,
+    slug: "long-waits-unexpected-refusals-concerns-grow-over-aged-parent-visas",
+    title: "Long Waits, Unexpected Refusals: Concerns Grow Over Aged Parent Visas",
+    metaTitle: "Long Waits and Aged Parent Visa Refusals in Australia",
+    metaDescription:"Learn why some Aged Parent visa applications are being refused after years of waiting and what it means for Australian parent visa applicants.",
+    date: "July 21, 2026",
+    image: `/assets/nb51.png`,
+  }, 
+  {
     id: 88,
     slug: "subclass-202-visa-applicants-australia-introduces-new-csp-allocation-rules",
     title: "Subclass 202 Visa Applicants: Australia Introduces New CSP Allocation Rules",
@@ -8,7 +17,7 @@ export const news = [
     metaDescription:"Facing Indian PCC delays in Australia? Learn how Home Affairs will assess visa applications and what options are available for affected applicants.",
     date: "July 20, 2026",
     image: `/assets/nb49.png`,
-  },   
+  },       
   {
     id: 87,
     slug: "worried-about-indian-pcc-delays-in-australia-heres-what-home-affairs-clarified",
@@ -866,7 +875,7 @@ export const news = [
     metaDescription:
       "South Australia issued new 406 invitations in March 2026. Check details.",
     date: "March 4, 2026",
-    image: `/assets/3march.jpg`,
+    image: `/assets/4march.png`,
   },
   {
     id: -1,
