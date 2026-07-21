@@ -21,38 +21,67 @@ const team = [
     role: "Knowledge Manager",
     img: `${import.meta.env.BASE_URL}assets/team4.png`,
   },
+   {
+    name: "Paritosh Kumar Parasher",
+    role: "MARN: 0428682",
+    img: `${import.meta.env.BASE_URL}assets/paritoshkumar.jpg`,
+  },
 ];
 
 const Teams = () => {
   return (
     <div className="w-full bg-white py-20 md:py-24">
       {/* ================= TEAM SECTION ================= */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6">
-        {/* Grid stays same on LG, stacks on mobile */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 md:gap-10 place-items-center">
-          {team.map((member, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden w-full max-w-sm"
-            >
-              {/* IMPORTANT FIX */}
-              <img
-                src={member.img}
-                alt={member.name}
-                className="w-full h-[320px] sm:h-[420px] lg:h-[500px] object-cover"
-              />
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+        <div className="space-y-8 md:space-y-10">
+          {/* first row: two items */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-10 lg:w-[640px] xl:w-[810px]">
+            {team.slice(0, 2).map((member, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden w-full"
+              >
+                <img
+                  src={member.img}
+                  alt={member.name}
+                  className="w-full h-[320px] sm:h-[420px] lg:h-[500px] object-cover"
+                />
 
-              <div className="p-5">
-                <h3 className="text-[#1E4E54] font-semibold text-md">
-                  {member.name}
-                </h3>
-                <p className="text-gray-500 text-sm mt-1">{member.role}</p>
+                <div className="p-5">
+                  <h3 className="text-[#1E4E54] font-semibold text-md">
+                    {member.name}
+                  </h3>
+                  <p className="text-gray-500 text-sm mt-1">{member.role}</p>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
+
+          {/* second row: three items */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+            {team.slice(2).map((member, index) => (
+              <div
+                key={index + 2}
+                className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 overflow-hidden w-full"
+              >
+                <img
+                  src={member.img}
+                  alt={member.name}
+                  className="w-full h-[320px] sm:h-[420px] lg:h-[500px] object-cover"
+                />
+
+                <div className="p-5">
+                  <h3 className="text-[#1E4E54] font-semibold text-md">
+                    {member.name}
+                  </h3>
+                  <p className="text-gray-500 text-sm mt-1">{member.role}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-{/* ================= COMMUNITY SECTION ================= */}
+      {/* ================= COMMUNITY SECTION ================= */}
 <div className="max-w-7xl lg:max-w-screen-2xl mx-auto mt-16 md:mt-24 px-4 sm:px-6">
   <div className="bg-[#1E4E54] rounded-[20px] md:rounded-[28px] p-6 sm:p-8 md:p-10 lg:p-12 flex flex-col lg:flex-row items-center gap-8 lg:gap-10">
 
