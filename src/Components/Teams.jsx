@@ -35,7 +35,7 @@ const Teams = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="space-y-8 md:space-y-10">
           {/* first row: two items */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-10 lg:w-[640px] xl:w-[810px]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-10 lg:ml-[130px] lg:w-[700px] xl:ml-[210px] xl:w-[800px]">
             {team.slice(0, 2).map((member, index) => (
               <div
                 key={index}
