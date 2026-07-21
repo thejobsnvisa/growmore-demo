@@ -866,7 +866,7 @@ export const news = [
     metaDescription:
       "South Australia issued new 406 invitations in March 2026. Check details.",
     date: "March 4, 2026",
-    image: `/assets/4march.png`,
+    image: `/assets/3march.jpg`,
   },
   {
     id: -1,
