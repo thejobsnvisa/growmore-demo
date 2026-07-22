@@ -6,7 +6,7 @@ export const blogs = [
     metaTitle: "482 Visa at No Cost? How You Can Get Sponsored Free",
     metaDescription:"how to get an Australian 482 Visa at zero cost. Learn about legal employer-paid sponsorship rules, fee coverage, and zero-deduction regulations.",
     date: "July 22, 2026",
-    image: `/assets/bg95.png`,
+    image: `/assets/bg95.jpg`,
   },   
   {
     id: 93,
