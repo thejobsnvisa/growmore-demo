@@ -1,5 +1,14 @@
 export const blogs = [  
-    {
+   {
+    id: 94,
+    slug: "482-visa-at-no-cost-heres-why-its-possible",
+    title: "482 Visa at No Cost? Here's Why It's Possible",
+    metaTitle: "482 Visa at No Cost? How You Can Get Sponsored Free",
+    metaDescription:"how to get an Australian 482 Visa at zero cost. Learn about legal employer-paid sponsorship rules, fee coverage, and zero-deduction regulations.",
+    date: "July 22, 2026",
+    image: `/assets/bg95.png`,
+  },   
+  {
     id: 93,
     slug: "labour-market-testing-australia-what-employers-must-know",
     title: "Labour Market Testing Australia: What Employers Must Know",
