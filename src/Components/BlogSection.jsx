@@ -3,8 +3,17 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-   {
+  {
     id: 1,
+    slug: "relief-for-indian-australians-as-consular-services-set-to-resume",
+    title: "Relief for Indian Australians as Consular Services Set to Resume",
+    metaTitle: "Indian Consular Services in Australia to Resume Soon",
+    metaDescription:"Indian Australians can expect relief as Supreme Court clears the way for passport, visa and OCI services to resume in Australia.",
+    date: "July 21, 2026",
+    image: `/assets/nb52.jpg`,
+  }, 
+  {
+    id: 2,
     slug: "long-waits-unexpected-refusals-concerns-grow-over-aged-parent-visas",
     title: "Long Waits, Unexpected Refusals: Concerns Grow Over Aged Parent Visas",
     metaTitle: "Long Waits and Aged Parent Visa Refusals in Australia",
@@ -12,25 +21,15 @@ const blogs = [
     date: "July 21, 2026",
     image: `/assets/nb51.png`,
   }, 
-    {
-    id: 2,
-    slug: "relief-for-indian-australians-as-consular-services-set-to-resume",
-    title: "Relief for Indian Australians as Consular Services Set to Resume",
-    metaTitle: "Indian Consular Services in Australia to Resume Soon",
-    metaDescription:"Indian Australians can expect relief as Supreme Court clears the way for passport, visa and OCI services to resume in Australia.",
-    date: "July 21, 2026",
-    image: `/assets/nb52.jpg`,
-  },
- {
+  {
     id: 3,
-    slug: "nil-vac-announced-for-rugby-league-world-cup-2026-participants",
-    title: "Nil VAC Announced for Rugby League World Cup 2026 Participants",
-    metaTitle: "Nil VAC for Rugby League World Cup 2026 Participants",
-    metaDescription:"Eligible Rugby League World Cup 2026 participants can apply for a Subclass 408 visa with no Visa Application Charge (VAC) in Australia.",
-    date: "July 17, 2026",
-    image: `/assets/nb47.png`,
-  }, 
-
+    slug: "subclass-202-visa-applicants-australia-introduces-new-csp-allocation-rules",
+    title: "Subclass 202 Visa Applicants: Australia Introduces New CSP Allocation Rules",
+    metaTitle: "Subclass 202 Visa: New CSP Allocation Rules for 2026–27",
+    metaDescription:"Facing Indian PCC delays in Australia? Learn how Home Affairs will assess visa applications and what options are available for affected applicants.",
+    date: "July 20, 2026",
+    image: `/assets/nb49.png`,
+  },
 ];
 
 const BlogSection = () => {
