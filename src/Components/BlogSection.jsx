@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 const blogs = [
   {
     id: 1,
-    slug: "relief-for-indian-australians-as-consular-services-set-to-resume",
-    title: "Relief for Indian Australians as Consular Services Set to Resume",
-    metaTitle: "Indian Consular Services in Australia to Resume Soon",
-    metaDescription:"Indian Australians can expect relief as Supreme Court clears the way for passport, visa and OCI services to resume in Australia.",
-    date: "July 21, 2026",
-    image: `/assets/nb52.jpg`,
+    slug: "vfs-global-services-restart-in-australia-today-after-weeks-of-disruption",
+    title: "VFS Global Services Restart in Australia Today After Weeks of Disruption",
+    metaTitle: "VFS Global Services Restart in Australia from 23 July",
+    metaDescription:"Indian passport, visa and OCI services have resumed across Australia from 23 July 2026 as VFS Global centres reopen after weeks of disruption.",
+    date: "July 23, 2026",
+    image: `/assets/nb53.png`,
   }, 
   {
     id: 2,
