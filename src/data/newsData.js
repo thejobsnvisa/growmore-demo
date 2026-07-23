@@ -1,6 +1,15 @@
 
 export const news = [
-   {
+    {
+    id: 91,
+    slug: "vfs-global-services-restart-in-australia-today-after-weeks-of-disruption",
+    title: "VFS Global Services Restart in Australia Today After Weeks of Disruption",
+    metaTitle: "VFS Global Services Restart in Australia from 23 July",
+    metaDescription:"Indian passport, visa and OCI services have resumed across Australia from 23 July 2026 as VFS Global centres reopen after weeks of disruption.",
+    date: "July 23, 2026",
+    image: `/assets/nb53.png`,
+  },  
+  {
     id: 90,
     slug: "relief-for-indian-australians-as-consular-services-set-to-resume",
     title: "Relief for Indian Australians as Consular Services Set to Resume",
