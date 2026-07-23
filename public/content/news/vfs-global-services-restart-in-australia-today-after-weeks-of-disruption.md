@@ -1,44 +1,53 @@
-Thousands of Indian Australians who have been waiting anxiously for consular services can now expect some relief after India's Supreme Court cleared the way for passport, visa and OCI services to resume in Australia.
+After weeks of uncertainty, there is finally some good news for thousands of Indian nationals in Australia. Indian passport, visa and Overseas Citizen of India (OCI) services have officially resumed across Australia from 23 July 2026 as VFS Global's upgraded application centres reopen their doors.
 
-The decision comes after weeks of uncertainty caused by a legal dispute over the outsourcing of India's overseas consular services. For many applicants, the suspension created significant challenges that affect their travel plans, family reunions, business commitments and essential documentation needs.
+The announcement brings much-needed relief to applicants who have experienced delays and disruptions in recent weeks due to the transition of India's overseas consular service provider in Australia.
 
-While services have not resumed immediately, the Supreme Court’s decision has cleared the legal hurdle and directed the Ministry of External Affairs (MEA) to put temporary arrangements in place while the fresh tender process is completed.
+As the services are now restarting, applicants can once again proceed with their consular requirements through VFS Global centres across Australia.
 
-## Supreme Court Allows Interim Arrangements for Consular Services
+**According to the High Commission of India in Canberra:**
 
-India’s Supreme Court has allowed the Ministry of External Affairs to make temporary arrangements to ensure consular services can continue while the new tender process is completed.
+> "With effect from 23 July 2026, the Indian Consular, Passport, Visa (CPV) services in Australia will be provided by VFS Global at upgraded Indian Consular Application Centres (ICACs) located across six cities in Australia."
 
-The Court has also directed the Ministry to complete the fresh tender process as quickly as possible, preferably within three months.
+## Six Australian Cities Where VFS Global Services Have Resumed
 
-These temporary arrangements may include appointing the previously selected service provider or another suitable agency approved by the Ministry.
+The upgraded Indian Consular Application Centres (ICACs) are now operational in the following locations:
 
-The purpose of these arrangements is to make sure applicants are not affected while the new process is underway.
+- Adelaide: Suite 8.01, Level 8, 111 Gawler Place, Adelaide SA 5000
+- Brisbane: Suite 0201, Level 2, 127 Creek Street, Brisbane City QLD 4000
+- Canberra: Level 6, 40 Marcus Clarke Street, Canberra ACT 2601
+- Melbourne: Ground Floor, 324 St Kilda Road, Melbourne VIC 3004
+- Perth: Ground Floor, 23 Barrack Street, Perth WA 6000
+- Sydney: Level 9, 22–24 Market Street, Sydney NSW 2000
 
-## What This Means for Indian Australians
+All centres will be open from 8:30 am to 4:00 pm, Monday to Friday. They will remain closed on Australian public holidays and on holidays declared by the High Commission of India or the Consulate General of India in their respective jurisdictions.
 
-The decision brings much-needed relief to thousands of Indian Australians who were waiting for services to restart.
+## Upgraded Facilities to Meet Growing Demand
 
-Once operations resume, applicants will be able to access essential services, including:
+According to the High Commission of India, the newly established centres feature upgraded facilities and infrastructure designed to meet Australia's growing demand for Indian consular services.
 
-- Indian passport renewal and re-issuance
-- Indian visa applications
-- Overseas Citizen of India (OCI) card services
-- Other consular documentation services
+The improvements are expected to enhance service delivery for applicants requiring:
 
-These services are important for people managing travel plans, family visits, business commitments and other personal documentation needs.
+- Indian passport services
+- Indian visa services
+- OCI card applications and renewals
+- Police Clearance Certificates (PCC)
+- Surrender certificates
+- Other Indian consular services
 
-## When Will Services Restart?
+The improved centres are expected to play an important role in managing the growing demand and clearing the backlog of pending applications in the coming weeks, ensuring smoother access to Indian passport, visa and OCI services across Australia.
 
-The Supreme Court’s decision has cleared the way for services to resume, but an official restart date under the newly approved arrangements has not yet been announced.
+## Applicants Are Encouraged to Book Appointments Online
 
-The Ministry of External Affairs is expected to finalise temporary arrangements and provide further updates on service centres, appointments and application processing.
+Applicants are encouraged to schedule their appointments online before visiting the centres.
 
-Applicants should wait for official confirmation before visiting centres or submitting new applications.
+Considering the backlog created during the suspension period, booking appointments early may help avoid unnecessary delays.
 
-## Need Guidance With Your Australian Immigration Plans?
+Individuals who have upcoming travel plans or urgently require passport or OCI services should also ensure they have all supporting documents ready before attending their appointment.
 
-While Indian consular services are expected to resume soon, keeping your immigration documents updated and understanding visa requirements remains important for a smooth application process.
+## Ready for the Next Step in Your Australian Migration Journey?
 
-At Growmore Immigration, our team helps individuals and families understand Australian immigration pathways and prepare strong visa applications. From skilled migration and [employer-sponsored visas](https://www.growmore.one/our-services/individual/employer-sponsored-visa/) to family and other Australian visa options, we provide guidance based on each applicant’s circumstances. So, contact us now to get professional guidance from Australia PR consultant.
+With Indian consular services now back on track across Australia, applicants whose passport, visa or OCI applications were delayed can finally move forward with their plans. If Australia PR is your long-term goal, now could also be the perfect time to explore the visa pathways available to you.
 
-## Source: [Supreme Court clears resumption of Indian consular services](https://www.indianlink.com.au/breaking-news-vfs-global-services-to-resume-from-23-july/)
+Whether you're considering skilled migration, [employer-sponsored visas](https://www.growmore.one/our-services/individual/employer-sponsored-visa/) or family visa options, Growmore Immigration is here to guide you every step of the way. Connect with our registered migration agent in Australia for personalised migration advice and stay updated with the latest Australian immigration news and visa updates.
+
+## Source: [Breaking news: VFS Global services to resume from 23 July](https://www.indianlink.com.au/breaking-news-vfs-global-services-to-resume-from-23-july/)
