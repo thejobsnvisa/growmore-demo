@@ -3,33 +3,33 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-  {
+   {
     id: 1,
-    slug: "vfs-global-services-restart-in-australia-today-after-weeks-of-disruption",
-    title: "VFS Global Services Restart in Australia Today After Weeks of Disruption",
-    metaTitle: "VFS Global Services Restart in Australia from 23 July",
-    metaDescription:"Indian passport, visa and OCI services have resumed across Australia from 23 July 2026 as VFS Global centres reopen after weeks of disruption.",
-    date: "July 23, 2026",
-    image: `/assets/nb53.png`,
-  }, 
+    slug: "482-visa-at-no-cost-heres-why-its-possible",
+    title: "482 Visa at No Cost? Here's Why It's Possible",
+    metaTitle: "482 Visa at No Cost? How You Can Get Sponsored Free",
+    metaDescription:"how to get an Australian 482 Visa at zero cost. Learn about legal employer-paid sponsorship rules, fee coverage, and zero-deduction regulations.",
+    date: "July 22, 2026",
+    image: `/assets/bg95.jpg`,
+  },   
   {
     id: 2,
-    slug: "long-waits-unexpected-refusals-concerns-grow-over-aged-parent-visas",
-    title: "Long Waits, Unexpected Refusals: Concerns Grow Over Aged Parent Visas",
-    metaTitle: "Long Waits and Aged Parent Visa Refusals in Australia",
-    metaDescription:"Learn why some Aged Parent visa applications are being refused after years of waiting and what it means for Australian parent visa applicants.",
-    date: "July 21, 2026",
-    image: `/assets/nb51.png`,
+    slug: "labour-market-testing-australia-what-employers-must-know",
+    title: "Labour Market Testing Australia: What Employers Must Know",
+    metaTitle: "Labour Market Testing Australia: 2026 Employer Guide & LMT Rules",
+    metaDescription:"Sponsoring overseas workers on the Skills in Demand 482 visa? Master Australia’s strict 28-day Labour Market Testing rules to avoid an automatic nomination refusal.",
+    date: "July 18, 2026",
+    image: `/assets/bg94.png`,
   }, 
   {
     id: 3,
-    slug: "subclass-202-visa-applicants-australia-introduces-new-csp-allocation-rules",
-    title: "Subclass 202 Visa Applicants: Australia Introduces New CSP Allocation Rules",
-    metaTitle: "Subclass 202 Visa: New CSP Allocation Rules for 2026–27",
-    metaDescription:"Facing Indian PCC delays in Australia? Learn how Home Affairs will assess visa applications and what options are available for affected applicants.",
-    date: "July 20, 2026",
-    image: `/assets/nb49.png`,
-  },
+    slug: "need-a-skills-assessment-for-australia-pr-find-the-right-assessing-authority",
+    title: "Need a Skills Assessment for Australia PR? Find the Right Assessing Authority",
+    metaTitle:"Need a Skills Assessment for Australia PR? Find Out Here",
+    metaDescription:"Need a skills assessment for Australia PR? Find the right assessing authority and get expert guidance from Growmore Immigration.",
+    date: "July 17, 2026",
+    image: `/assets/bg93.jpg`,
+  },  
 ];
 
 const BlogSection = () => {
