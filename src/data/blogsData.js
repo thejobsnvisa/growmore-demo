@@ -6,7 +6,7 @@ export const blogs = [
     metaTitle: "Aged Care Labour Agreement: Your Direct PR Pathway to Australia",
     metaDescription:"Work in Australia as a care worker through the Aged Care Labour Agreement. Fast-track permanent residency (Subclass 186) with concessions on fees and English.",
     date: "July 24, 2026",
-    image: `/assets/bg96.jpg`,
+    image: `/assets/bg96.png`,
   },
   {
     id: 94,
