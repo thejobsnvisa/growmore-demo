@@ -1,6 +1,15 @@
 export const blogs = [  
    {
     id: 94,
+    slug: "aged-care-labour-agreement-your-opportunity-to-work-in-australia",
+    title: "Aged Care Labour Agreement: Your Opportunity to Work in Australia",
+    metaTitle: "Aged Care Labour Agreement: Your Direct PR Pathway to Australia",
+    metaDescription:"Work in Australia as a care worker through the Aged Care Labour Agreement. Fast-track permanent residency (Subclass 186) with concessions on fees and English.",
+    date: "July 24, 2026",
+    image: `/assets/bg96.jpg`,
+  },
+  {
+    id: 94,
     slug: "482-visa-at-no-cost-heres-why-its-possible",
     title: "482 Visa at No Cost? Here's Why It's Possible",
     metaTitle: "482 Visa at No Cost? How You Can Get Sponsored Free",
