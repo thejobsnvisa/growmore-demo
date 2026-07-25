@@ -14,7 +14,7 @@ Depending on where you are applying from, the Partner Visa pathway Australia inc
 | Subclass 309 and 100 | Applicants applying while outside Australia |
 | Subclass 300 | Fiancé(e)s intending to marry their Australian partner |
 
-Partner Visas generally involve two stages: First a temporary visa followed by Australia permanent residency. The permanent stage is typically considered two years from the first application date, unless an exemption arises.
+**Partner Visas generally involve two stages:** First a temporary visa followed by Australia permanent residency. The permanent stage is typically considered two years from the first application date, unless an exemption arises.
 
 ## Who Can Apply for an Australia Partner Visa?
 
@@ -78,7 +78,7 @@ Documents not written in English may require certified translations.
 
 Now that all documents are ready, complete the online visa application and sponsorship forms by creating an Immi account. Upload supporting documents and pay the applicable visa application charges. Carefully review all information before submission to avoid unnecessary delays.
 
-Need expert help with lodging your partner visa application? Book a consultation now!
+Need expert help with lodging your partner visa application? [Book a consultation now](https://www.growmore.one/book-consultation/)!
 
 ### **Step 6: Complete Your Health and Character Requirements**
 
@@ -91,7 +91,7 @@ Undertake health examinations and obtain police clearance certificates as requir
 - Subclass 820 (Onshore Partner Visa), or
 - Subclass 309 (Offshore Partner Visa).
 
-This is the temporary partner visa stage that allows you to live, work, and study in Australia while progressing towards permanent residency.
+This is the [temporary partner visa](https://www.growmore.one/blogs/temporary-vs-permanent-partner-visa-what-you-need-to-know/) stage that allows you to live, work, and study in Australia while progressing towards permanent residency.
 
 ### **Step 8: Transition to the Permanent Visa Stage**
 
@@ -127,8 +127,6 @@ At Growmore Immigration, we provide personalised guidance throughout your Partne
 - Advising on Australian permanent residency pathways and other visa options where applicable.
 
 So, contact us today to discuss your Partner Visa options and take the next step towards building your future together in Australia.
-
-**Email:** info@growmore.one | **WhatsApp:** +61 434 202 021 | **Phone:** +61 3 8764 3334
 
 ## FAQs
 
