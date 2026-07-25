@@ -1,6 +1,15 @@
 export const blogs = [  
-   {
-    id: 94,
+      {
+    id: 96,
+    slug: "how-to-apply-for-an-australia-partner-visa-stepbystep-guide",
+    title: "How to Apply for an Australia Partner Visa: Step-by-Step Guide",
+    metaTitle: "How to Apply for an Australia Partner Visa: Complete Guide",
+    metaDescription:"how to apply for an Australia Partner Visa, including eligibility, relationship evidence, visa subclasses, and the application process.",
+    date: "July 25, 2026",
+    image: `/assets/bg97.png`,
+  },
+  {
+    id: 95,
     slug: "aged-care-labour-agreement-your-opportunity-to-work-in-australia",
     title: "Aged Care Labour Agreement: Your Opportunity to Work in Australia",
     metaTitle: "Aged Care Labour Agreement: Your Direct PR Pathway to Australia",
