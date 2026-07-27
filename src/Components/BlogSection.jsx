@@ -5,6 +5,15 @@ import { Link } from "react-router-dom";
 const blogs = [
    {
     id: 1,
+    slug: "tasmania-receives-2050-state-nomination-places-for-2026-27",
+    title: "Tasmania Receives 2,050 State Nomination Places for 2026–27 ",
+    metaTitle: "Tasmania Gets 2,050 Nomination Places for 2026–27",
+    metaDescription:"Tasmania's Skilled Migration Program will reopen soon with 2,050 nomination places for eligible Subclass 190 and 491 applicants.",
+    date: "July 27, 2026",
+    image: `/assets/nb54.png`,
+  }, 
+  {
+    id: 2,
     slug: "vfs-global-services-restart-in-australia-today-after-weeks-of-disruption",
     title: "VFS Global Services Restart in Australia Today After Weeks of Disruption",
     metaTitle: "VFS Global Services Restart in Australia from 23 July",
@@ -13,7 +22,7 @@ const blogs = [
     image: `/assets/nb53.png`,
   },  
   {
-    id: 2,
+    id: 3,
     slug: "relief-for-indian-australians-as-consular-services-set-to-resume",
     title: "Relief for Indian Australians as Consular Services Set to Resume",
     metaTitle: "Indian Consular Services in Australia to Resume Soon",
@@ -21,15 +30,6 @@ const blogs = [
     date: "July 21, 2026",
     image: `/assets/nb52.jpg`,
   }, 
-  {
-    id: 3,
-    slug: "long-waits-unexpected-refusals-concerns-grow-over-aged-parent-visas",
-    title: "Long Waits, Unexpected Refusals: Concerns Grow Over Aged Parent Visas",
-    metaTitle: "Long Waits and Aged Parent Visa Refusals in Australia",
-    metaDescription:"Learn why some Aged Parent visa applications are being refused after years of waiting and what it means for Australian parent visa applicants.",
-    date: "July 21, 2026",
-    image: `/assets/nb51.png`,
-  },  
 ];
 
 const BlogSection = () => {
