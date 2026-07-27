@@ -1,6 +1,15 @@
 
 export const news = [
-    {
+     {
+    id: 92,
+    slug: "tasmania-receives-2050-state-nomination-places-for-2026-27",
+    title: "Tasmania Receives 2,050 State Nomination Places for 2026–27 ",
+    metaTitle: "Tasmania Gets 2,050 Nomination Places for 2026–27",
+    metaDescription:"Tasmania's Skilled Migration Program will reopen soon with 2,050 nomination places for eligible Subclass 190 and 491 applicants.",
+    date: "July 27, 2026",
+    image: `/assets/nb54.png`,
+  },  
+  {
     id: 91,
     slug: "vfs-global-services-restart-in-australia-today-after-weeks-of-disruption",
     title: "VFS Global Services Restart in Australia Today After Weeks of Disruption",
