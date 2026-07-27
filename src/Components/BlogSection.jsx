@@ -6,7 +6,7 @@ const blogs = [
   {
     id: 1,
     slug: "affected-by-icac-closure-your-subclass-186-visa-may-still-qualify",
-    title: "Affected by ICAC Closure? Your Subclass 186 Visa May Still Qualify",
+    title: "Relaxation for Subclass 186 Visa Applicants Affected by ICAC Closure",
     metaTitle: "ICAC Closure: Your Subclass 186 Visa May Still Qualify",
     metaDescription:"Affected by the ICAC closure? Eligible Subclass 186 visa applicants may still qualify if delays impacted their application requirements or deadlines.",
     date: "July 27, 2026",
