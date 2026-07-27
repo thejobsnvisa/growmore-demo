@@ -1,6 +1,15 @@
 
 export const news = [
-     {
+   {
+    id: 93,
+    slug: "affected-by-icac-closure-your-subclass-186-visa-may-still-qualify",
+    title: "Affected by ICAC Closure? Your Subclass 186 Visa May Still Qualify",
+    metaTitle: "ICAC Closure: Your Subclass 186 Visa May Still Qualify",
+    metaDescription:"Affected by the ICAC closure? Eligible Subclass 186 visa applicants may still qualify if delays impacted their application requirements or deadlines.",
+    date: "July 27, 2026",
+    image: `/assets/nb55.png`,
+  },   
+  {
     id: 92,
     slug: "tasmania-receives-2050-state-nomination-places-for-2026-27",
     title: "Tasmania Receives 2,050 State Nomination Places for 2026–27 ",
