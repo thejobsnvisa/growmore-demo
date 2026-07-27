@@ -3,8 +3,17 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-   {
+  {
     id: 1,
+    slug: "affected-by-icac-closure-your-subclass-186-visa-may-still-qualify",
+    title: "Affected by ICAC Closure? Your Subclass 186 Visa May Still Qualify",
+    metaTitle: "ICAC Closure: Your Subclass 186 Visa May Still Qualify",
+    metaDescription:"Affected by the ICAC closure? Eligible Subclass 186 visa applicants may still qualify if delays impacted their application requirements or deadlines.",
+    date: "July 27, 2026",
+    image: `/assets/nb55.png`,
+  },  
+  {
+    id: 2,
     slug: "tasmania-receives-2050-state-nomination-places-for-2026-27",
     title: "Tasmania Receives 2,050 State Nomination Places for 2026–27 ",
     metaTitle: "Tasmania Gets 2,050 Nomination Places for 2026–27",
@@ -13,7 +22,7 @@ const blogs = [
     image: `/assets/nb54.png`,
   }, 
   {
-    id: 2,
+    id: 3,
     slug: "vfs-global-services-restart-in-australia-today-after-weeks-of-disruption",
     title: "VFS Global Services Restart in Australia Today After Weeks of Disruption",
     metaTitle: "VFS Global Services Restart in Australia from 23 July",
@@ -21,15 +30,6 @@ const blogs = [
     date: "July 23, 2026",
     image: `/assets/nb53.png`,
   },  
-  {
-    id: 3,
-    slug: "relief-for-indian-australians-as-consular-services-set-to-resume",
-    title: "Relief for Indian Australians as Consular Services Set to Resume",
-    metaTitle: "Indian Consular Services in Australia to Resume Soon",
-    metaDescription:"Indian Australians can expect relief as Supreme Court clears the way for passport, visa and OCI services to resume in Australia.",
-    date: "July 21, 2026",
-    image: `/assets/nb52.jpg`,
-  }, 
 ];
 
 const BlogSection = () => {
