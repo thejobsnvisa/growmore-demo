@@ -1,5 +1,14 @@
 export const blogs = [  
-      {
+   {
+    id: 97,
+    slug: "how-does-state-nomination-work-for-australia-pr",
+    title: "How Does State Nomination Work for Australia PR?",
+    metaTitle: "How State Nomination Works for Australia PR",
+    metaDescription:"how Australia's state nomination process works for Subclass 190 and 491 visas and improve your chances of securing Australia PR.",
+    date: "July 28, 2026",
+    image: `/assets/bg98.png`,
+  },    
+  {
     id: 96,
     slug: "how-to-apply-for-an-australia-partner-visa-stepbystep-guide",
     title: "How to Apply for an Australia Partner Visa: Step-by-Step Guide",
