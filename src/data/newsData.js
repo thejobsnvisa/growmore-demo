@@ -1,6 +1,15 @@
 
 export const news = [
-   {
+    {
+    id: 94,
+    slug: "act-announces-new-migration-portal-for-202627-migration-program",
+    title: "ACT Announces New Migration Portal for 2026–27 Migration Program",
+    metaTitle: "ACT Migration Portal Launch for 2026–27 Program",
+    metaDescription:"ACT launches a new Migration Application Portal for 2026–27. Learn about ACT nomination updates, occupation list review, and upcoming changes.",
+    date: "July 29, 2026",
+    image: `/assets/nb56.png`,
+  }, 
+  {
     id: 93,
     slug: "affected-by-icac-closure-your-subclass-186-visa-may-still-qualify",
     title: "Relaxation for Subclass 186 Visa Applicants Affected by ICAC Closure ",
