@@ -18,6 +18,15 @@ Applicants can refer to the official account creation guide by clicking below to
 
 [ACT Migration Application Portal - New Account Creation Guide](https://growmoreassociatesptyltd-my.sharepoint.com/:b:/g/personal/anjali_d_growmore_one/IQCDcYPZNxrkQoEZd2yFrzWtARg8Y_x09IpcVhS_d4BzrBA?e=gr2Qbo)
 
+## **ACT Nomination Guidelines Updated**
+
+Alongside the new portal, the ACT Government has also updated its nomination guidelines. Key changes include:
+
+- The updated nomination guidelines now include information on the new portal, changes to application fees and Canberra Matrix validity, how Matrix updates may affect your ranking and assessment, and step-by-step guidance on using the portal.
+- ACT may now expedite nomination application processing in limited circumstances, such as visa or document expiry and critical birthdays. This applies only after an invitation has been issued.
+- A clear definition of 'trade certificate' has been added to ensure consistency when claiming Canberra Matrix points for tertiary qualifications.
+- The guidelines now explicitly state that applicants must have completed tertiary-level education to claim points under the 'Years of study at an ACT tertiary institution' category.
+
 ## **ACT Nomination Allocations for 2026–27 Yet to Be Confirmed**
 
 The ACT Government has also confirmed that discussions with the Australian Government regarding nomination allocations for the 2026–27 financial year are still ongoing.
