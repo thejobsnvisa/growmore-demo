@@ -43,4 +43,15 @@ The ACT Government expects to release the updated occupation list in the coming 
 
 The launch of the new ACT Migration Application Portal marks the start of preparations for the ACT's 2026–27 nominated migration program and upcoming invitation rounds. For skilled migrants planning to seek ACT nomination, this is a signal to prepare early by creating their portal account, reviewing the latest program updates, and ensuring their documents are ready before invitations begin.
 
-So, if you are considering ACT nomination or exploring your Australia PR options, Growmore Immigration is here to help. Contact us now, and our registered migration agent in Australia will assess your eligibility and guide you with the most suitable visa pathways based on your circumstances.
+## **Need Help With ACT Nomination?**
+
+Every applicant's circumstances are different. The best strategy depends on factors such as your occupation, Canberra Matrix score, work experience, English level, and long-term migration goals.
+
+**Our Registered Migration Agents can help you:**
+
+- Assess your ACT nomination eligibility
+- Review your Canberra Matrix
+- Compare ACT with other state nomination pathways
+- Explore employer-sponsored and permanent residency options
+
+So, book a consultation with Growmore Immigration to receive personalised migration advice for an Australia PR based on your circumstances.
