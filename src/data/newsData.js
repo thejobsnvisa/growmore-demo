@@ -1,5 +1,14 @@
 
 export const news = [
+  {
+    id: 95,
+    slug: "ministerial-direction-119-new-processing-priorities-for-pr-and-work-visas",
+    title: "Ministerial Direction 119: New Processing Priorities for PR and Work Visas ",
+    metaTitle: "Ministerial Direction 119: PR and Work Visa Priorities",
+    metaDescription:"Australia introduces new skilled visa processing priorities under Ministerial Direction 119. Find out if your PR or work visa application gets priority.",
+    date: "July 30, 2026",
+    image: `/assets/nb57.png`,
+  }, 
     {
     id: 94,
     slug: "act-announces-new-migration-portal-for-202627-migration-program",

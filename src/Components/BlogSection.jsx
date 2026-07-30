@@ -3,33 +3,34 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
+   {
+    id: 95,
+    slug: "ministerial-direction-119-new-processing-priorities-for-pr-and-work-visas",
+    title: "Ministerial Direction 119: New Processing Priorities for PR and Work Visas ",
+    metaTitle: "Ministerial Direction 119: PR and Work Visa Priorities",
+    metaDescription:"Australia introduces new skilled visa processing priorities under Ministerial Direction 119. Find out if your PR or work visa application gets priority.",
+    date: "July 30, 2026",
+    image: `/assets/nb57.png`,
+  }, 
+    {
+    id: 94,
+    slug: "act-announces-new-migration-portal-for-202627-migration-program",
+    title: "ACT Announces New Migration Portal for 2026–27 Migration Program",
+    metaTitle: "ACT Migration Portal Launch for 2026–27 Program",
+    metaDescription:"ACT launches a new Migration Application Portal for 2026–27. Learn about ACT nomination updates, occupation list review, and upcoming changes.",
+    date: "July 29, 2026",
+    image: `/assets/nb56.png`,
+  }, 
   {
-    id: 1,
+    id: 93,
     slug: "affected-by-icac-closure-your-subclass-186-visa-may-still-qualify",
-    title: "Relaxation for Subclass 186 Visa Applicants Affected by ICAC Closure",
+    title: "Relaxation for Subclass 186 Visa Applicants Affected by ICAC Closure ",
     metaTitle: "ICAC Closure: Your Subclass 186 Visa May Still Qualify",
     metaDescription:"Affected by the ICAC closure? Eligible Subclass 186 visa applicants may still qualify if delays impacted their application requirements or deadlines.",
     date: "July 27, 2026",
     image: `/assets/nb55.png`,
-  },  
-  {
-    id: 2,
-    slug: "tasmania-receives-2050-state-nomination-places-for-2026-27",
-    title: "Tasmania Receives 2,050 State Nomination Places for 2026–27 ",
-    metaTitle: "Tasmania Gets 2,050 Nomination Places for 2026–27",
-    metaDescription:"Tasmania's Skilled Migration Program will reopen soon with 2,050 nomination places for eligible Subclass 190 and 491 applicants.",
-    date: "July 27, 2026",
-    image: `/assets/nb54.png`,
-  }, 
-  {
-    id: 3,
-    slug: "vfs-global-services-restart-in-australia-today-after-weeks-of-disruption",
-    title: "VFS Global Services Restart in Australia Today After Weeks of Disruption",
-    metaTitle: "VFS Global Services Restart in Australia from 23 July",
-    metaDescription:"Indian passport, visa and OCI services have resumed across Australia from 23 July 2026 as VFS Global centres reopen after weeks of disruption.",
-    date: "July 23, 2026",
-    image: `/assets/nb53.png`,
-  },  
+  },   
+
 ];
 
 const BlogSection = () => {
