@@ -1,5 +1,23 @@
 
 export const news = [
+   {
+    id: 97,
+    slug: "ministerial-direction-120-new-priority-order-for-subclass-858-visa",
+    title: "Ministerial Direction 120: New Priority Order for Subclass 858 Visa  ",
+    metaTitle: "Ministerial Direction 120: Subclass 858 Visa Priority Changes",
+    metaDescription:"Australia's MD 117 updates Family visa processing priorities from 25 July 2026. Learn the new priority order for Partner, Child and Parent visas.",
+    date: "July 30, 2026",
+    image: `/assets/nb59.png`,
+  },
+   {
+    id: 96,
+    slug: "ministerial-direction-117-new-family-visa-priority-order",
+    title: "Ministerial Direction 117: New Family Visa Priority Order ",
+    metaTitle: "Ministerial Direction 117: Family Visa Priority Order",
+    metaDescription:"Australia's MD 117 updates Family visa processing priorities from 25 July 2026. Learn the new priority order for Partner, Child and Parent visas.",
+    date: "July 30, 2026",
+    image: `/assets/nb58.jpg`,
+  }, 
   {
     id: 95,
     slug: "ministerial-direction-119-new-processing-priorities-for-pr-and-work-visas",

@@ -3,7 +3,25 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
+    {
+    id: 97,
+    slug: "ministerial-direction-120-new-priority-order-for-subclass-858-visa",
+    title: "Ministerial Direction 120: New Priority Order for Subclass 858 Visa  ",
+    metaTitle: "Ministerial Direction 120: Subclass 858 Visa Priority Changes",
+    metaDescription:"Australia's MD 117 updates Family visa processing priorities from 25 July 2026. Learn the new priority order for Partner, Child and Parent visas.",
+    date: "July 30, 2026",
+    image: `/assets/nb59.png`,
+  },
    {
+    id: 96,
+    slug: "ministerial-direction-117-new-family-visa-priority-order",
+    title: "Ministerial Direction 117: New Family Visa Priority Order ",
+    metaTitle: "Ministerial Direction 117: Family Visa Priority Order",
+    metaDescription:"Australia's MD 117 updates Family visa processing priorities from 25 July 2026. Learn the new priority order for Partner, Child and Parent visas.",
+    date: "July 30, 2026",
+    image: `/assets/nb58.jpg`,
+  }, 
+  {
     id: 95,
     slug: "ministerial-direction-119-new-processing-priorities-for-pr-and-work-visas",
     title: "Ministerial Direction 119: New Processing Priorities for PR and Work Visas ",
@@ -12,24 +30,6 @@ const blogs = [
     date: "July 30, 2026",
     image: `/assets/nb57.png`,
   }, 
-    {
-    id: 94,
-    slug: "act-announces-new-migration-portal-for-202627-migration-program",
-    title: "ACT Announces New Migration Portal for 2026–27 Migration Program",
-    metaTitle: "ACT Migration Portal Launch for 2026–27 Program",
-    metaDescription:"ACT launches a new Migration Application Portal for 2026–27. Learn about ACT nomination updates, occupation list review, and upcoming changes.",
-    date: "July 29, 2026",
-    image: `/assets/nb56.png`,
-  }, 
-  {
-    id: 93,
-    slug: "affected-by-icac-closure-your-subclass-186-visa-may-still-qualify",
-    title: "Relaxation for Subclass 186 Visa Applicants Affected by ICAC Closure ",
-    metaTitle: "ICAC Closure: Your Subclass 186 Visa May Still Qualify",
-    metaDescription:"Affected by the ICAC closure? Eligible Subclass 186 visa applicants may still qualify if delays impacted their application requirements or deadlines.",
-    date: "July 27, 2026",
-    image: `/assets/nb55.png`,
-  },   
 
 ];
 
