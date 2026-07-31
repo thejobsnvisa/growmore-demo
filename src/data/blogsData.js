@@ -1,5 +1,14 @@
 export const blogs = [  
    {
+    id: 98,
+    slug: "list-of-accredited-sponsors-in-australia-for-employersponsored-visas",
+    title: "List of Accredited Sponsors in Australia for Employer-Sponsored Visas",
+    metaTitle: "List of Accredited Sponsors in Australia for Visa Sponsorship",
+    metaDescription:"Find the latest list of Accredited Sponsors in Australia for employer-sponsored visas. Explore trusted sponsors for Subclass 482, 186 and 494 visas.",
+    date: "July 31, 2026",
+    image: `/assets/bg99.png`,
+  },  
+  {
     id: 97,
     slug: "how-does-state-nomination-work-for-australia-pr",
     title: "How Does State Nomination Work for Australia PR?",
