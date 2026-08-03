@@ -12,14 +12,14 @@ const blogs = [
     date: "Aug 03, 2026",
     image: `/assets/nb60.png`,
   }, 
-  {
+   {
     id: 2,
-    slug: "ministerial-direction-120-new-priority-order-for-subclass-858-visa",
-    title: "Ministerial Direction 120: New Priority Order for Subclass 858 Visa  ",
-    metaTitle: "Ministerial Direction 120: Subclass 858 Visa Priority Changes",
-    metaDescription:"Australia's MD 117 updates Family visa processing priorities from 25 July 2026. Learn the new priority order for Partner, Child and Parent visas.",
-    date: "July 30, 2026",
-    image: `/assets/nb59.png`,
+    slug: "home-affairs-officer-at-your-door-beware-of-this-immigration-scam",
+    title: "Home Affairs Officer at Your Door? Beware of This Immigration Scam",
+    metaTitle: "Fake Home Affairs Officer Scam: Warning for Visa Applicants",
+    metaDescription:"The Department of Home Affairs warns of scammers posing as officers. Learn how the scam works, warning signs, and how to protect yourself.",
+    date: "Aug 03, 2026",
+    image: `/assets/nb61.png`,
   },
    {
     id: 3,

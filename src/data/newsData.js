@@ -1,6 +1,15 @@
 
 export const news = [
      {
+    id: 99,
+    slug: "home-affairs-officer-at-your-door-beware-of-this-immigration-scam",
+    title: "Home Affairs Officer at Your Door? Beware of This Immigration Scam",
+    metaTitle: "Fake Home Affairs Officer Scam: Warning for Visa Applicants",
+    metaDescription:"The Department of Home Affairs warns of scammers posing as officers. Learn how the scam works, warning signs, and how to protect yourself.",
+    date: "Aug 03, 2026",
+    image: `/assets/nb61.png`,
+  },    
+  {
     id: 98,
     slug: "major-fnq-dama-update-makes-workforce-planning-easier-for-employers",
     title: "Major FNQ DAMA Update Makes Workforce Planning Easier for Employers",
