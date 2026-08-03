@@ -36,7 +36,7 @@ If someone arrives at your home claiming to represent Home Affairs and asks for 
 - **Do Not Allow Unknown Individuals Into Your Home:** You are not required to provide access to your home to someone who is claiming to be a government representative without proper verification.
 - **Report Suspicious Activity:** If you believe you have encountered a scammer or become a victim of a scam, make sure to report it to Scamwatch.
 
-**_Here is the website to report a scam:_** [**_https://www.scamwatch.gov.au/report-a-scam_**]**(https://www.scamwatch.gov.au/report-a-scam)**
+**_Here is the website to report a scam:_** **[https://www.scamwatch.gov.au/report-a-scam](https://www.scamwatch.gov.au/report-a-scam)**
 
 ## **Why Immigration Scams Target Visa Applicants and Migrants**
 
