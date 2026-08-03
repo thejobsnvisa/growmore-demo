@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const blogs = [
   {
-    id: 98,
+    id: 1,
     slug: "major-fnq-dama-update-makes-workforce-planning-easier-for-employers",
     title: "Major FNQ DAMA Update Makes Workforce Planning Easier for Employers",
     metaTitle: "Major FNQ DAMA Update Makes Workforce Planning Easier",
@@ -13,7 +13,7 @@ const blogs = [
     image: `/assets/nb60.png`,
   }, 
   {
-    id: 97,
+    id: 2,
     slug: "ministerial-direction-120-new-priority-order-for-subclass-858-visa",
     title: "Ministerial Direction 120: New Priority Order for Subclass 858 Visa  ",
     metaTitle: "Ministerial Direction 120: Subclass 858 Visa Priority Changes",
@@ -22,7 +22,7 @@ const blogs = [
     image: `/assets/nb59.png`,
   },
    {
-    id: 96,
+    id: 3,
     slug: "ministerial-direction-117-new-family-visa-priority-order",
     title: "Ministerial Direction 117: New Family Visa Priority Order ",
     metaTitle: "Ministerial Direction 117: Family Visa Priority Order",
