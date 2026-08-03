@@ -3,17 +3,26 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-   {
-    id: 1,
+  {
+    id: 98,
     slug: "major-fnq-dama-update-makes-workforce-planning-easier-for-employers",
     title: "Major FNQ DAMA Update Makes Workforce Planning Easier for Employers",
     metaTitle: "Major FNQ DAMA Update Makes Workforce Planning Easier",
     metaDescription:"Learn the latest FNQ DAMA updates, including five-year endorsements, upfront concessions, AI report guidance and employer sponsorship rules.",
     date: "Aug 03, 2026",
     image: `/assets/nb60.png`,
+  }, 
+  {
+    id: 97,
+    slug: "ministerial-direction-120-new-priority-order-for-subclass-858-visa",
+    title: "Ministerial Direction 120: New Priority Order for Subclass 858 Visa  ",
+    metaTitle: "Ministerial Direction 120: Subclass 858 Visa Priority Changes",
+    metaDescription:"Australia's MD 117 updates Family visa processing priorities from 25 July 2026. Learn the new priority order for Partner, Child and Parent visas.",
+    date: "July 30, 2026",
+    image: `/assets/nb59.png`,
   },
    {
-    id: 2,
+    id: 96,
     slug: "ministerial-direction-117-new-family-visa-priority-order",
     title: "Ministerial Direction 117: New Family Visa Priority Order ",
     metaTitle: "Ministerial Direction 117: Family Visa Priority Order",
@@ -21,16 +30,6 @@ const blogs = [
     date: "July 30, 2026",
     image: `/assets/nb58.jpg`,
   }, 
-  {
-    id: 3,
-    slug: "ministerial-direction-119-new-processing-priorities-for-pr-and-work-visas",
-    title: "Ministerial Direction 119: New Processing Priorities for PR and Work Visas ",
-    metaTitle: "Ministerial Direction 119: PR and Work Visa Priorities",
-    metaDescription:"Australia introduces new skilled visa processing priorities under Ministerial Direction 119. Find out if your PR or work visa application gets priority.",
-    date: "July 30, 2026",
-    image: `/assets/nb57.png`,
-  }, 
-
 ];
 
 const BlogSection = () => {
