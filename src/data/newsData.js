@@ -1,6 +1,15 @@
 
 export const news = [
-   {
+     {
+    id: 98,
+    slug: "major-fnq-dama-update-makes-workforce-planning-easier-for-employers",
+    title: "Major FNQ DAMA Update Makes Workforce Planning Easier for Employers",
+    metaTitle: "Major FNQ DAMA Update Makes Workforce Planning Easier",
+    metaDescription:"Learn the latest FNQ DAMA updates, including five-year endorsements, upfront concessions, AI report guidance and employer sponsorship rules.",
+    date: "Aug 03, 2026",
+    image: `/assets/nb60.png`,
+  }, 
+  {
     id: 97,
     slug: "ministerial-direction-120-new-priority-order-for-subclass-858-visa",
     title: "Ministerial Direction 120: New Priority Order for Subclass 858 Visa  ",
@@ -29,7 +38,7 @@ export const news = [
   }, 
     {
     id: 94,
-    slug: "act-announces-new-migration-portal-for-202627-migration-program",
+    slug: " ",
     title: "ACT Announces New Migration Portal for 2026–27 Migration Program",
     metaTitle: "ACT Migration Portal Launch for 2026–27 Program",
     metaDescription:"ACT launches a new Migration Application Portal for 2026–27. Learn about ACT nomination updates, occupation list review, and upcoming changes.",
