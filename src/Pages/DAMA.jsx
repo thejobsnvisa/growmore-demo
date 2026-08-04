@@ -8,12 +8,12 @@ const DAMA = () => {
      <>
        <Helmet>
          <title>
-           DAMA Visa Australia: Regional Migration Pathways | Growmore
+           DAMA Visa Australia 2026: Eligibility, Occupations & PR Pathway Explained
          </title>
  
          <meta
            name="description"
-           content="The DAMA pathway to Australian PR. We specialize in regional migration agreements with age and English concessions. Check your eligibility for DAMA today!"
+           content="A Designated Area Migration Agreement (DAMA) is a formal agreement between the Australian Government and a state or territory government or regional authority. Check your eligibility for DAMA today!"
          />
  
          {/* ✅ Canonical for homepage */}
@@ -22,11 +22,11 @@ const DAMA = () => {
          {/* ✅ OG */}
          <meta
            property="og:title"
-           content="DAMA Visa Australia: Regional Migration Pathways | Growmore"
+           content=" DAMA Visa Australia 2026: Eligibility, Occupations & PR Pathway Explained"
          />
          <meta
            property="og:description"
-           content="The DAMA pathway to Australian PR. We specialize in regional migration agreements with age and English concessions. Check your eligibility for DAMA today!"
+           content="A Designated Area Migration Agreement (DAMA) is a formal agreement between the Australian Government and a state or territory government or regional authority. Check your eligibility for DAMA today!"
          />
          <meta property="og:url" content={url} />
          <meta property="og:image" content="https://www.growmore.one/logo.jpg" />
@@ -36,7 +36,7 @@ const DAMA = () => {
       <section className="bg-[#28535B] py-10 md:py-16">
         <div className="max-w-[1400px] mx-auto px-6 md:px-15">
           <h1 className="text-3xl md:text-5xl font-semibold text-white mb-3">
-            DAMA
+            Designated Area Migration Agreement (DAMA)
           </h1>
           <p className="text-white font-semibold">Home &gt;DAMA</p>
         </div>
