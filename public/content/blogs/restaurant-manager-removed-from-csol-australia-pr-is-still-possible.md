@@ -1,5 +1,3 @@
-# Restaurant Manager Removed from CSOL? Australia PR Is Still Possible
-
 You may have heard that Restaurant Manager has been removed from the Core Skills Occupation List (CSOL), but this does not mean that all employer-sponsored pathways are closed for this occupation. There are still alternative pathways available that can lead you towards Australia PR if you meet the eligibility requirements.
 
 In fact, at Growmore Immigration, we recently helped one of our Restaurant Manager clients achieve a positive migration outcome through an alternative pathway. So, if you are unsure about your options to migrate to Australia as a Restaurant Manager, we will explain to you some alternative pathways that are still possible and also share our client's case to show how the right advice and pathway selection can make all the difference.
