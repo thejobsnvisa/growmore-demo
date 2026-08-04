@@ -1,5 +1,14 @@
 export const blogs = [  
-   {
+  {
+    id: 99,
+    slug: "restaurant-manager-removed-from-csol-australia-pr-is-still-possible",
+    title: "Restaurant Manager Removed from CSOL? Australia PR Is Still Possible",
+    metaTitle: "Restaurant Manager Australia PR Pathways After CSOL Removal",
+    metaDescription:"Restaurant Managers can still explore Australia PR pathways after CSOL removal. Learn about DAMA, Labour Agreements, Subclass 494 and other options.",
+    date: "Aug 04, 2026",
+    image: `/assets/bg100.png`,
+  },  
+  {
     id: 98,
     slug: "list-of-accredited-sponsors-in-australia-for-employersponsored-visas",
     title: "List of Accredited Sponsors in Australia for Employer-Sponsored Visas",
