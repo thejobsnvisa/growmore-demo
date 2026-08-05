@@ -1,6 +1,15 @@
 
 export const news = [
-   {
+    {
+    id: 101,
+    slug: "planning-to-move-to-australia-gujarat-simplifies-passport-verification-process",
+    title: "Planning to Move to Australia? Gujarat Simplifies Passport Verification Process",
+    metaTitle: "Australia Visa Applicants: Gujarat Eases Passport Process",
+    metaDescription:"Planning to move to Australia? Gujarat has simplified passport verification by removing routine police station visits, making passport applications faster.",
+    date: "Aug 05, 2026",
+    image: `/assets/nb63.png`,
+  }, 
+  {
     id: 100,
     slug: "tasmania-state-nomination-program-reopens-on-17-august-with-changes",
     title: "Tasmania State Nomination Program Reopens on 17 August with Changes",
