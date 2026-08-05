@@ -7,7 +7,7 @@ export const news = [
     metaTitle: "Tasmania State Nomination Program Reopens on 17 August",
     metaDescription:"Tasmania opens its 2026–27 State Nomination Program on 17 August with revised priority attributes, weekly invitations and updated ROI requirements.",
     date: "Aug 05, 2026",
-    image: `/assets/nb62.png`,
+    image: `/assets/nb62.jpg`,
   },   
   {
     id: 99,
