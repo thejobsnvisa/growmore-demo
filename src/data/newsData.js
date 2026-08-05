@@ -1,6 +1,15 @@
 
 export const news = [
-     {
+   {
+    id: 100,
+    slug: "tasmania-state-nomination-program-reopens-on-17-august-with-changes",
+    title: "Tasmania State Nomination Program Reopens on 17 August with Changes",
+    metaTitle: "Tasmania State Nomination Program Reopens on 17 August",
+    metaDescription:"Tasmania opens its 2026–27 State Nomination Program on 17 August with revised priority attributes, weekly invitations and updated ROI requirements.",
+    date: "Aug 05, 2026",
+    image: `/assets/nb62.png`,
+  },   
+  {
     id: 99,
     slug: "home-affairs-officer-at-your-door-beware-of-this-immigration-scam",
     title: "Home Affairs Officer at Your Door? Beware of This Immigration Scam",
