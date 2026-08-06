@@ -1,4 +1,13 @@
 export const blogs = [  
+   {
+    id: 100,
+    slug: "eoi-lodged-but-not-invited-yet-tips-and-facts-about-what-impacts-your-invitation",
+    title: "EOI Lodged but Not Invited Yet? Tips & Facts About What Impacts Your Invitation ",
+    metaTitle: "How Australia Invitation Rounds Work: EOI to Invitation",
+    metaDescription:"how Australia invitation rounds work, from submitting an EOI through SkillSelect to receiving an invitation for Subclass 189, 190, or 491 visas.",
+    date: "Aug 06, 2026",
+    image: `/assets/bg101.png`,
+  }, 
   {
     id: 99,
     slug: "restaurant-manager-removed-from-csol-australia-pr-is-still-possible",
