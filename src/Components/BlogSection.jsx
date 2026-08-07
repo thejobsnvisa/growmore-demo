@@ -3,33 +3,39 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-      {
+    {
     id: 1,
-    slug: "planning-to-move-to-australia-gujarat-simplifies-passport-verification-process",
-    title: "Planning to Move to Australia? Gujarat Simplifies Passport Verification Process",
-    metaTitle: "Australia Visa Applicants: Gujarat Eases Passport Process",
-    metaDescription:"Planning to move to Australia? Gujarat has simplified passport verification by removing routine police station visits, making passport applications faster.",
-    date: "Aug 05, 2026",
-    image: `/assets/nb63.png`,
-  }, 
+    slug: "big-changes-proposed-for-australias-migration-review-process",
+    title:
+      "Big Changes Proposed for Australia's Migration Review Process",
+    metaTitle: "Big Changes Proposed for Australia's Migration Review Process",
+    metaDescription:
+      "Australia may reform its migration review process under a proposed Bill. Learn the key changes, Senate recommendations, and what they mean for visa applicants.",
+    date: "Aug 06, 2026",
+    image: `/assets/nb64.jpg`,
+  },
   {
     id: 2,
-    slug: "tasmania-state-nomination-program-reopens-on-17-august-with-changes",
-    title:"Tasmania State Nomination Program Reopens on 17 August with Changes",
-    metaTitle: "Tasmania State Nomination Program Reopens on 17 August",
-    metaDescription:"Tasmania opens its 2026–27 State Nomination Program on 17 August with revised priority attributes, weekly invitations and updated ROI requirements.",
+    slug: "planning-to-move-to-australia-gujarat-simplifies-passport-verification-process",
+    title:
+      "Planning to Move to Australia? Gujarat Simplifies Passport Verification Process",
+    metaTitle: "Australia Visa Applicants: Gujarat Eases Passport Process",
+    metaDescription:
+      "Planning to move to Australia? Gujarat has simplified passport verification by removing routine police station visits, making passport applications faster.",
     date: "Aug 05, 2026",
-    image: `/assets/nb62.jpg`,
-  },   
+    image: `/assets/nb63.png`,
+  },
   {
     id: 3,
-    slug: "home-affairs-officer-at-your-door-beware-of-this-immigration-scam",
-    title: "Home Affairs Officer at Your Door? Beware of This Immigration Scam",
-    metaTitle: "Fake Home Affairs Officer Scam: Warning for Visa Applicants",
-    metaDescription:"The Department of Home Affairs warns of scammers posing as officers. Learn how the scam works, warning signs, and how to protect yourself.",
-    date: "Aug 03, 2026",
-    image: `/assets/nb61.png`,
-  },    
+    slug: "tasmania-state-nomination-program-reopens-on-17-august-with-changes",
+    title:
+      "Tasmania State Nomination Program Reopens on 17 August with Changes",
+    metaTitle: "Tasmania State Nomination Program Reopens on 17 August",
+    metaDescription:
+      "Tasmania opens its 2026–27 State Nomination Program on 17 August with revised priority attributes, weekly invitations and updated ROI requirements.",
+    date: "Aug 05, 2026",
+    image: `/assets/nb62.jpg`,
+  },
 ];
 
 const BlogSection = () => {

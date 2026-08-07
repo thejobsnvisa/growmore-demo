@@ -1,155 +1,193 @@
-
 export const news = [
-    {
+  {
+    id: 102,
+    slug: "big-changes-proposed-for-australias-migration-review-process",
+    title:
+      "Big Changes Proposed for Australia's Migration Review Process",
+    metaTitle: "Big Changes Proposed for Australia's Migration Review Process",
+    metaDescription:
+      "Australia may reform its migration review process under a proposed Bill. Learn the key changes, Senate recommendations, and what they mean for visa applicants.",
+    date: "Aug 06, 2026",
+    image: `/assets/nb64.jpg`,
+  },
+  {
     id: 101,
     slug: "planning-to-move-to-australia-gujarat-simplifies-passport-verification-process",
-    title: "Planning to Move to Australia? Gujarat Simplifies Passport Verification Process",
+    title:
+      "Planning to Move to Australia? Gujarat Simplifies Passport Verification Process",
     metaTitle: "Australia Visa Applicants: Gujarat Eases Passport Process",
-    metaDescription:"Planning to move to Australia? Gujarat has simplified passport verification by removing routine police station visits, making passport applications faster.",
+    metaDescription:
+      "Planning to move to Australia? Gujarat has simplified passport verification by removing routine police station visits, making passport applications faster.",
     date: "Aug 05, 2026",
     image: `/assets/nb63.png`,
-  }, 
+  },
   {
     id: 100,
     slug: "tasmania-state-nomination-program-reopens-on-17-august-with-changes",
-    title: "Tasmania State Nomination Program Reopens on 17 August with Changes",
+    title:
+      "Tasmania State Nomination Program Reopens on 17 August with Changes",
     metaTitle: "Tasmania State Nomination Program Reopens on 17 August",
-    metaDescription:"Tasmania opens its 2026–27 State Nomination Program on 17 August with revised priority attributes, weekly invitations and updated ROI requirements.",
+    metaDescription:
+      "Tasmania opens its 2026–27 State Nomination Program on 17 August with revised priority attributes, weekly invitations and updated ROI requirements.",
     date: "Aug 05, 2026",
     image: `/assets/nb62.jpg`,
-  },   
+  },
   {
     id: 99,
     slug: "home-affairs-officer-at-your-door-beware-of-this-immigration-scam",
     title: "Home Affairs Officer at Your Door? Beware of This Immigration Scam",
     metaTitle: "Fake Home Affairs Officer Scam: Warning for Visa Applicants",
-    metaDescription:"The Department of Home Affairs warns of scammers posing as officers. Learn how the scam works, warning signs, and how to protect yourself.",
+    metaDescription:
+      "The Department of Home Affairs warns of scammers posing as officers. Learn how the scam works, warning signs, and how to protect yourself.",
     date: "Aug 03, 2026",
     image: `/assets/nb61.png`,
-  },    
+  },
   {
     id: 98,
     slug: "major-fnq-dama-update-makes-workforce-planning-easier-for-employers",
-    title: "Major FNQ DAMA Update Makes Workforce Planning Easier for Employers",
+    title:
+      "Major FNQ DAMA Update Makes Workforce Planning Easier for Employers",
     metaTitle: "Major FNQ DAMA Update Makes Workforce Planning Easier",
-    metaDescription:"Learn the latest FNQ DAMA updates, including five-year endorsements, upfront concessions, AI report guidance and employer sponsorship rules.",
+    metaDescription:
+      "Learn the latest FNQ DAMA updates, including five-year endorsements, upfront concessions, AI report guidance and employer sponsorship rules.",
     date: "Aug 03, 2026",
     image: `/assets/nb60.png`,
-  }, 
+  },
   {
     id: 97,
     slug: "ministerial-direction-120-new-priority-order-for-subclass-858-visa",
-    title: "Ministerial Direction 120: New Priority Order for Subclass 858 Visa  ",
+    title:
+      "Ministerial Direction 120: New Priority Order for Subclass 858 Visa  ",
     metaTitle: "Ministerial Direction 120: Subclass 858 Visa Priority Changes",
-    metaDescription:"Australia's MD 117 updates Family visa processing priorities from 25 July 2026. Learn the new priority order for Partner, Child and Parent visas.",
+    metaDescription:
+      "Australia's MD 117 updates Family visa processing priorities from 25 July 2026. Learn the new priority order for Partner, Child and Parent visas.",
     date: "July 30, 2026",
     image: `/assets/nb59.png`,
   },
-   {
+  {
     id: 96,
     slug: "ministerial-direction-117-new-family-visa-priority-order",
     title: "Ministerial Direction 117: New Family Visa Priority Order ",
     metaTitle: "Ministerial Direction 117: Family Visa Priority Order",
-    metaDescription:"Australia's MD 117 updates Family visa processing priorities from 25 July 2026. Learn the new priority order for Partner, Child and Parent visas.",
+    metaDescription:
+      "Australia's MD 117 updates Family visa processing priorities from 25 July 2026. Learn the new priority order for Partner, Child and Parent visas.",
     date: "July 30, 2026",
     image: `/assets/nb58.jpg`,
-  }, 
+  },
   {
     id: 95,
     slug: "ministerial-direction-119-new-processing-priorities-for-pr-and-work-visas",
-    title: "Ministerial Direction 119: New Processing Priorities for PR and Work Visas ",
+    title:
+      "Ministerial Direction 119: New Processing Priorities for PR and Work Visas ",
     metaTitle: "Ministerial Direction 119: PR and Work Visa Priorities",
-    metaDescription:"Australia introduces new skilled visa processing priorities under Ministerial Direction 119. Find out if your PR or work visa application gets priority.",
+    metaDescription:
+      "Australia introduces new skilled visa processing priorities under Ministerial Direction 119. Find out if your PR or work visa application gets priority.",
     date: "July 30, 2026",
     image: `/assets/nb57.png`,
-  }, 
-    {
+  },
+  {
     id: 94,
     slug: " ",
     title: "ACT Announces New Migration Portal for 2026–27 Migration Program",
     metaTitle: "ACT Migration Portal Launch for 2026–27 Program",
-    metaDescription:"ACT launches a new Migration Application Portal for 2026–27. Learn about ACT nomination updates, occupation list review, and upcoming changes.",
+    metaDescription:
+      "ACT launches a new Migration Application Portal for 2026–27. Learn about ACT nomination updates, occupation list review, and upcoming changes.",
     date: "July 29, 2026",
     image: `/assets/nb56.png`,
-  }, 
+  },
   {
     id: 93,
     slug: "affected-by-icac-closure-your-subclass-186-visa-may-still-qualify",
-    title: "Relaxation for Subclass 186 Visa Applicants Affected by ICAC Closure ",
+    title:
+      "Relaxation for Subclass 186 Visa Applicants Affected by ICAC Closure ",
     metaTitle: "ICAC Closure: Your Subclass 186 Visa May Still Qualify",
-    metaDescription:"Affected by the ICAC closure? Eligible Subclass 186 visa applicants may still qualify if delays impacted their application requirements or deadlines.",
+    metaDescription:
+      "Affected by the ICAC closure? Eligible Subclass 186 visa applicants may still qualify if delays impacted their application requirements or deadlines.",
     date: "July 27, 2026",
     image: `/assets/nb55.png`,
-  },   
+  },
   {
     id: 92,
     slug: "tasmania-receives-2050-state-nomination-places-for-2026-27",
     title: "Tasmania Receives 2,050 State Nomination Places for 2026–27 ",
     metaTitle: "Tasmania Gets 2,050 Nomination Places for 2026–27",
-    metaDescription:"Tasmania's Skilled Migration Program will reopen soon with 2,050 nomination places for eligible Subclass 190 and 491 applicants.",
+    metaDescription:
+      "Tasmania's Skilled Migration Program will reopen soon with 2,050 nomination places for eligible Subclass 190 and 491 applicants.",
     date: "July 27, 2026",
     image: `/assets/nb54.png`,
-  },  
+  },
   {
     id: 91,
     slug: "vfs-global-services-restart-in-australia-today-after-weeks-of-disruption",
-    title: "VFS Global Services Restart in Australia Today After Weeks of Disruption",
+    title:
+      "VFS Global Services Restart in Australia Today After Weeks of Disruption",
     metaTitle: "VFS Global Services Restart in Australia from 23 July",
-    metaDescription:"Indian passport, visa and OCI services have resumed across Australia from 23 July 2026 as VFS Global centres reopen after weeks of disruption.",
+    metaDescription:
+      "Indian passport, visa and OCI services have resumed across Australia from 23 July 2026 as VFS Global centres reopen after weeks of disruption.",
     date: "July 23, 2026",
     image: `/assets/nb53.png`,
-  },  
+  },
   {
     id: 90,
     slug: "relief-for-indian-australians-as-consular-services-set-to-resume",
     title: "Relief for Indian Australians as Consular Services Set to Resume",
     metaTitle: "Indian Consular Services in Australia to Resume Soon",
-    metaDescription:"Indian Australians can expect relief as Supreme Court clears the way for passport, visa and OCI services to resume in Australia.",
+    metaDescription:
+      "Indian Australians can expect relief as Supreme Court clears the way for passport, visa and OCI services to resume in Australia.",
     date: "July 21, 2026",
     image: `/assets/nb52.jpg`,
-  }, 
+  },
   {
     id: 89,
     slug: "long-waits-unexpected-refusals-concerns-grow-over-aged-parent-visas",
-    title: "Long Waits, Unexpected Refusals: Concerns Grow Over Aged Parent Visas",
+    title:
+      "Long Waits, Unexpected Refusals: Concerns Grow Over Aged Parent Visas",
     metaTitle: "Long Waits and Aged Parent Visa Refusals in Australia",
-    metaDescription:"Learn why some Aged Parent visa applications are being refused after years of waiting and what it means for Australian parent visa applicants.",
+    metaDescription:
+      "Learn why some Aged Parent visa applications are being refused after years of waiting and what it means for Australian parent visa applicants.",
     date: "July 21, 2026",
     image: `/assets/nb51.png`,
-  }, 
+  },
   {
     id: 88,
     slug: "subclass-202-visa-applicants-australia-introduces-new-csp-allocation-rules",
-    title: "Subclass 202 Visa Applicants: Australia Introduces New CSP Allocation Rules",
+    title:
+      "Subclass 202 Visa Applicants: Australia Introduces New CSP Allocation Rules",
     metaTitle: "Subclass 202 Visa: New CSP Allocation Rules for 2026–27",
-    metaDescription:"Facing Indian PCC delays in Australia? Learn how Home Affairs will assess visa applications and what options are available for affected applicants.",
+    metaDescription:
+      "Facing Indian PCC delays in Australia? Learn how Home Affairs will assess visa applications and what options are available for affected applicants.",
     date: "July 20, 2026",
     image: `/assets/nb49.png`,
-  },       
+  },
   {
     id: 87,
     slug: "worried-about-indian-pcc-delays-in-australia-heres-what-home-affairs-clarified",
-    title: "Worried About Indian PCC Delays in Australia? Here's What Home Affairs Clarified",
+    title:
+      "Worried About Indian PCC Delays in Australia? Here's What Home Affairs Clarified",
     metaTitle: "Home Affairs Clarifies Indian PCC Delays in Australia",
-    metaDescription:"Facing Indian PCC delays in Australia? Learn how Home Affairs will assess visa applications and what options are available for affected applicants.",
+    metaDescription:
+      "Facing Indian PCC delays in Australia? Learn how Home Affairs will assess visa applications and what options are available for affected applicants.",
     date: "July 20, 2026",
     image: `/assets/nb48.png`,
-  },  
+  },
   {
     id: 86,
     slug: "nil-vac-announced-for-rugby-league-world-cup-2026-participants",
     title: "Nil VAC Announced for Rugby League World Cup 2026 Participants",
     metaTitle: "Nil VAC for Rugby League World Cup 2026 Participants",
-    metaDescription:"Eligible Rugby League World Cup 2026 participants can apply for a Subclass 408 visa with no Visa Application Charge (VAC) in Australia.",
+    metaDescription:
+      "Eligible Rugby League World Cup 2026 participants can apply for a Subclass 408 visa with no Visa Application Charge (VAC) in Australia.",
     date: "July 17, 2026",
     image: `/assets/nb47.png`,
-  }, 
+  },
   {
     id: 85,
     slug: "applying-for-a-working-holiday-visa-prepare-for-longer-processing-times",
-    title: "Applying for a Working Holiday Visa? Prepare for Longer Processing Times",
+    title:
+      "Applying for a Working Holiday Visa? Prepare for Longer Processing Times",
     metaTitle: "Australia Working Holiday Visa Processing Times Delayed",
-    metaDescription:"Australia advises Working Holiday Visa applicants to apply early as Subclass 417 and 462 visa processing times are taking longer than usual.",
+    metaDescription:
+      "Australia advises Working Holiday Visa applicants to apply early as Subclass 417 and 462 visa processing times are taking longer than usual.",
     date: "July 17, 2026",
     image: `/assets/nb46.png`,
   },
@@ -158,43 +196,52 @@ export const news = [
     slug: "vfs-loses-contract-in-australia-problems-for-many-indians",
     title: "VFS Loses Contract in Australia: Problems for Many Indians",
     metaTitle: "VFS Loses Contract in Australia: Impact on Indians",
-    metaDescription:"The Delhi High Court has cancelled VFS Global's tender for Indian passport and visa services in Australia. Here's what it means for Indians.",
+    metaDescription:
+      "The Delhi High Court has cancelled VFS Global's tender for Indian passport and visa services in Australia. Here's what it means for Indians.",
     date: "July 16, 2026",
     image: `/assets/nb45.png`,
   },
-{
+  {
     id: 84,
     slug: "australias-digital-passenger-card-is-coming-easier-arrivals-ahead",
-    title: "Australia's Digital Passenger Card Is Coming: Easier Arrivals Ahead",
+    title:
+      "Australia's Digital Passenger Card Is Coming: Easier Arrivals Ahead",
     metaTitle: "Australia's Digital Passenger Card: Easier Arrivals Ahead",
-    metaDescription:"Australia is introducing a Digital Passenger Card to replace paper arrival forms. Learn how it works, the rollout timeline, and what it means for travellers.",
+    metaDescription:
+      "Australia is introducing a Digital Passenger Card to replace paper arrival forms. Learn how it works, the rollout timeline, and what it means for travellers.",
     date: "July 14, 2026",
     image: `/assets/nb43.png`,
   },
   {
     id: 83,
     slug: "how-australia-counts-regional-visa-places-critical-updates-for-applicants",
-    title: "How Australia Counts Regional Visa Places: Critical Updates for Applicants",
+    title:
+      "How Australia Counts Regional Visa Places: Critical Updates for Applicants",
     metaTitle: "Regional Visa Allocation: How Australia Counts Your PR Places",
-    metaDescription:"Navigating the regional pathway? Learn exactly how the Department of Home Affairs calculates and counts regional visa places to avoid application traps.",
+    metaDescription:
+      "Navigating the regional pathway? Learn exactly how the Department of Home Affairs calculates and counts regional visa places to avoid application traps.",
     date: "July 10, 2026",
     image: `/assets/nb42.png`,
   },
   {
     id: 82,
     slug: "victoria-great-south-coast-dama-raises-nomination-fees-from-1-july-2026",
-    title: "Victoria’s Great South Coast DAMA Raises Nomination Fees from 1 July 2026",
+    title:
+      "Victoria’s Great South Coast DAMA Raises Nomination Fees from 1 July 2026",
     metaTitle: "Great South Coast DAMA Fee Increase: New 1 July 2026 Rates",
-    metaDescription:"Victoria’s Great South Coast DAMA has updated its regional nomination fees. Review the new tiered structure for employers and find out how it impacts your PR pathway sponsorship.",
+    metaDescription:
+      "Victoria’s Great South Coast DAMA has updated its regional nomination fees. Review the new tiered structure for employers and find out how it impacts your PR pathway sponsorship.",
     date: "July 10, 2026",
     image: `/assets/nb41.png`,
   },
   {
     id: 81,
     slug: "northern-territory-closes-2025-26-skilled-migration-next-steps-for-pr",
-    title: "Northern Territory Closes 2025–26 Skilled Migration: Next Steps for PR",
+    title:
+      "Northern Territory Closes 2025–26 Skilled Migration: Next Steps for PR",
     metaTitle: "NT State Nomination Filled: 2025–26 Skilled Migration Update",
-    metaDescription:"Missed out on the NT state nomination before allocations were exhausted? Get the latest details on application processing freezes and steps to maximize your EOI for the reopening.",
+    metaDescription:
+      "Missed out on the NT state nomination before allocations were exhausted? Get the latest details on application processing freezes and steps to maximize your EOI for the reopening.",
     date: "July 10, 2026",
     image: `/assets/nb40.jpg`,
   },
@@ -203,7 +250,8 @@ export const news = [
     slug: "australia-skilled-migration-numbers-whats-changing-in-2026",
     title: "The Reality of Australia’s Skilled Migration Numbers for 2026–27",
     metaTitle: "Australia Skilled Migration Numbers: What’s Changing in 2026?",
-    metaDescription:"The headline cap is holding steady at 185,000 places, but the internal mix has shifted. Discover which visa subclasses are growing and what it means for your PR points.",
+    metaDescription:
+      "The headline cap is holding steady at 185,000 places, but the internal mix has shifted. Discover which visa subclasses are growing and what it means for your PR points.",
     date: "July 8, 2026",
     image: `/assets/nb39.png`,
   },
@@ -211,26 +259,31 @@ export const news = [
     id: 79,
     slug: "wa-goldfields-sa-damas-extended-australia-pr-update",
     title: "WA Goldfields & SA DAMAs Extended: Australia PR Update",
-    metaTitle: "Australia PR Update: WA Goldfields & SA DAMA Extensions Confirmed",
-    metaDescription:"Looking for an alternative path to Australian PR? Explore the newly extended WA Goldfields and South Australia DAMA frameworks for regional visa pathways.",
+    metaTitle:
+      "Australia PR Update: WA Goldfields & SA DAMA Extensions Confirmed",
+    metaDescription:
+      "Looking for an alternative path to Australian PR? Explore the newly extended WA Goldfields and South Australia DAMA frameworks for regional visa pathways.",
     date: "July 7, 2026",
     image: `/assets/nb38.png`,
   },
-    {
+  {
     id: 78,
     slug: "australia-pr-update-changes-to-act-migration-canberra-matrix",
     title: "ACT Migration Updates: New Portal & Canberra Matrix Rules",
     metaTitle: "ACT Migration Updates: New Portal & Canberra Matrix Rules",
-    metaDescription:"The 2025–26 ACT Skilled Migration Program has closed. Explore the new nomination portal, revised fees, and critical updates to the Canberra Matrix.",
+    metaDescription:
+      "The 2025–26 ACT Skilled Migration Program has closed. Explore the new nomination portal, revised fees, and critical updates to the Canberra Matrix.",
     date: "July 6, 2026",
     image: `/assets/nb37.png`,
   },
   {
     id: 77,
     slug: "eoci-card-launched-important-travel-update-for-indians-in-australia",
-    title: "e-OCI Card Launched: Important Travel Update for Indians in Australia",
+    title:
+      "e-OCI Card Launched: Important Travel Update for Indians in Australia",
     metaTitle: "How to Get the New e-OCI Card: Australia-India Travel Update",
-    metaDescription:"Streamline your next trip. Learn how to download the new e-OCI card, check your eligibility, and navigate the latest travel updates for OCI holders.",
+    metaDescription:
+      "Streamline your next trip. Learn how to download the new e-OCI card, check your eligibility, and navigate the latest travel updates for OCI holders.",
     date: "July 6, 2026",
     image: `/assets/nb35.png`,
   },
@@ -238,35 +291,44 @@ export const news = [
     id: 76,
     slug: "tasmania-and-queensland-202526-state-nomination-programs-closed",
     title: "Tasmania and Queensland 2025–26 State Nomination Programs Closed",
-    metaTitle: "Tasmania & Queensland Close 2025–26 State Nomination Programs | Latest News",
-    metaDescription:"Tasmania and Queensland have closed their 2025–26 state nomination programs after filling allocations. Learn what this means for Australia PR applicants.",
+    metaTitle:
+      "Tasmania & Queensland Close 2025–26 State Nomination Programs | Latest News",
+    metaDescription:
+      "Tasmania and Queensland have closed their 2025–26 state nomination programs after filling allocations. Learn what this means for Australia PR applicants.",
     date: "July 3, 2026",
     image: `/assets/nb34.png`,
   },
   {
     id: 75,
     slug: "australia-keeps-2027-international-student-cap-unchanged",
-    title: "Australia Keeps 2027 International Student Cap Unchanged at 295,000",
-    metaTitle: "Australia Student Cap 2027 Unchanged at 295,000 | Latest Update",
-    metaDescription:"Australia will keep the international student cap at 295,000 for 2027. Learn what this means for student visas, universities, and prospective international students.",
+    title:
+      "Australia Keeps 2027 International Student Cap Unchanged at 295,000",
+    metaTitle:
+      "Australia Student Cap 2027 Unchanged at 295,000 | Latest Update",
+    metaDescription:
+      "Australia will keep the international student cap at 295,000 for 2027. Learn what this means for student visas, universities, and prospective international students.",
     date: "July 3, 2026",
     image: `/assets/nb33.png`,
   },
   {
     id: 74,
     slug: "vfs-global-announces-temporary-suspension-of-cpv-services-in-australia",
-    title: "VFS Global Announces Temporary Suspension of CPV Services in Australia",
+    title:
+      "VFS Global Announces Temporary Suspension of CPV Services in Australia",
     metaTitle: "VFS Global CPV Services Suspended in Australia 2026 Update",
-    metaDescription:"VFS Global has temporarily suspended CPV services in Australia from 1 July 2026. Learn impact on visa applications, delays, and next steps.",
+    metaDescription:
+      "VFS Global has temporarily suspended CPV services in Australia from 1 July 2026. Learn impact on visa applications, delays, and next steps.",
     date: "July 2, 2026",
     image: `/assets/nb32.png`,
   },
   {
     id: 73,
     slug: "registered-migration-agents-face-new-online-cpd-limit-from-1-july-2026",
-    title: "Registered Migration Agents Face New Online CPD Limit From 1 July 2026",
+    title:
+      "Registered Migration Agents Face New Online CPD Limit From 1 July 2026",
     metaTitle: "New Online CPD Limit for Registered Migration Agents 2026",
-    metaDescription:"From 1 July 2026, Registered Migration Agents can complete a maximum of 6 online CPD points within any continuous 24-hour period.",
+    metaDescription:
+      "From 1 July 2026, Registered Migration Agents can complete a maximum of 6 online CPD points within any continuous 24-hour period.",
     date: "July 2, 2026",
     image: `/assets/nb31.png`,
   },
@@ -274,8 +336,10 @@ export const news = [
     id: 72,
     slug: "major-australia-immigration-changes-effective-from-1-july-2026",
     title: "Major Australia Immigration Changes Effective From 1 July 2026",
-    metaTitle: "Australia’s Massive 1 July Immigration Changes Are Live: What's New",
-    metaDescription:"Massive visa fee hikes and new skilled salary thresholds take effect across Australia today, 1 July 2026. Here is the breakdown of who is affected.",
+    metaTitle:
+      "Australia’s Massive 1 July Immigration Changes Are Live: What's New",
+    metaDescription:
+      "Massive visa fee hikes and new skilled salary thresholds take effect across Australia today, 1 July 2026. Here is the breakdown of who is affected.",
     date: "July 1, 2026",
     image: `/assets/nb30.png`,
   },
@@ -284,52 +348,64 @@ export const news = [
     slug: "australia-visa-application-fees-increase-from-1-july-2026",
     title: "Australia Visa Application Fees Increase From 1 July 2026",
     metaTitle: "Australia Visa Application Fees Increase From 1 July 2026",
-    metaDescription:"Australia visa application fees have increased from 1 July 2026. Check the latest charges for Australia PR, skilled, partner, employer-sponsored and visitor visas.",
+    metaDescription:
+      "Australia visa application fees have increased from 1 July 2026. Check the latest charges for Australia PR, skilled, partner, employer-sponsored and visitor visas.",
     date: "July 1, 2026",
     image: `/assets/nb29.png`,
   },
   {
     id: 70,
     slug: "immi-account-changes-from-1-july-import-function-now-limited-to-3-attempts",
-    title: "Immi Account Changes from 1 July: Import Function Now Limited to 3 Attempts",
+    title:
+      "Immi Account Changes from 1 July: Import Function Now Limited to 3 Attempts",
     metaTitle: "ImmiAccount Import Limit: 3 Attempts Rule from 1 July 2026",
-    metaDescription:"From 1 July 2026, ImmiAccount will limit visa application imports to 3 attempts per application. Learn key changes, reasons, and alternatives like Share and Assign functions.",
+    metaDescription:
+      "From 1 July 2026, ImmiAccount will limit visa application imports to 3 attempts per application. Learn key changes, reasons, and alternatives like Share and Assign functions.",
     date: "Jun 29, 2026",
     image: `/assets/nb28.png`,
   },
   {
     id: 69,
     slug: "australia-state-and-territory-nomination-update-as-of-may-2026",
-    title: "2025–26 Australia State and Territory Nomination Update (as of May 2026)",
-    metaTitle: "Australia State Nomination Update 2025–26 (May 2026): Latest 190 & 491 Visa Updates",
-    metaDescription:"Get the latest Australia State Nomination Update for May 2026. Explore Subclass 190 and 491 invitation rounds, state nomination openings, eligibility changes, occupation lists, and key updates for skilled migration applicants.",
+    title:
+      "2025–26 Australia State and Territory Nomination Update (as of May 2026)",
+    metaTitle:
+      "Australia State Nomination Update 2025–26 (May 2026): Latest 190 & 491 Visa Updates",
+    metaDescription:
+      "Get the latest Australia State Nomination Update for May 2026. Explore Subclass 190 and 491 invitation rounds, state nomination openings, eligibility changes, occupation lists, and key updates for skilled migration applicants.",
     date: "Jun 29, 2026",
     image: `/assets/nb27.png`,
   },
   {
     id: 68,
     slug: "home-affairs-to-close-immigration-operations-at-australian-embassy-seoul",
-    title: "Home Affairs to Close Immigration Operations at Australian Embassy Seoul",
+    title:
+      "Home Affairs to Close Immigration Operations at Australian Embassy Seoul",
     metaTitle: "Home Affairs to Close Immigration Operations in Seoul",
-    metaDescription:"Australia will close immigration operations at its Seoul embassy from 30 June 2026. Learn what this means for Australian visa applicants and processing.",
+    metaDescription:
+      "Australia will close immigration operations at its Seoul embassy from 30 June 2026. Learn what this means for Australian visa applicants and processing.",
     date: "Jun 24, 2026",
     image: `/assets/nb26.png`,
   },
   {
     id: 67,
     slug: "art-fee-hike-from-1-july-2026-new-migration-and-review-application-charges",
-    title: "ART Fee Hike from 1 July 2026: New Migration and Review Application Charges",
+    title:
+      "ART Fee Hike from 1 July 2026: New Migration and Review Application Charges",
     metaTitle: "ART Fee Hike 2026: New Migration Review Charges",
-    metaDescription:"From 1 July 2026, ART fees increase across migration, protection, and tax reviews. Applicants may pay higher charges for tribunal applications.",
+    metaDescription:
+      "From 1 July 2026, ART fees increase across migration, protection, and tax reviews. Applicants may pay higher charges for tribunal applications.",
     date: "Jun 23, 2026",
     image: `/assets/nb25.png`,
   },
   {
     id: 66,
     slug: "vetassess-psr-portal-update-edeclarations-dama-options-available-from-29-june",
-    title: "VETASSESS PSR Portal Update: e-Declarations & DAMA Options Available from 29 June",
+    title:
+      "VETASSESS PSR Portal Update: e-Declarations & DAMA Options Available from 29 June",
     metaTitle: "VETASSESS PSR Update 2026: e-Declarations & DAMA",
-    metaDescription:"From 29 June 2026, VETASSESS PSR Portal adds e-Declarations and online DAMA renewals & reassessments for faster skilled migration processing.",
+    metaDescription:
+      "From 29 June 2026, VETASSESS PSR Portal adds e-Declarations and online DAMA renewals & reassessments for faster skilled migration processing.",
     date: "Jun 23, 2026",
     image: `/assets/nb24.png`,
   },
@@ -338,25 +414,31 @@ export const news = [
     slug: "189-visa-update-next-round-expected-by-30-september-2026",
     title: "189 Visa Update: Next Round Expected by 30 September 2026",
     metaTitle: "189 Visa Update: Next Round Expected by September 2026",
-    metaDescription:"The next Subclass 189 invitation round is expected by 30 September 2026. Learn what applicants should do now to improve their invitation chances.",
+    metaDescription:
+      "The next Subclass 189 invitation round is expected by 30 September 2026. Learn what applicants should do now to improve their invitation chances.",
     date: "Jun 23, 2026",
     image: `/assets/nb23.png`,
   },
   {
     id: 64,
     slug: "subclass-189-invitation-round-data-for-4-june-2026-is-now-available",
-    title: "Subclass 189 Invitation Round Data for 4 June 2026 Is Now Available",
+    title:
+      "Subclass 189 Invitation Round Data for 4 June 2026 Is Now Available",
     metaTitle: "Subclass 189 Invitation Round Results Released for June 2026",
-    metaDescription:"Australia released the 4 June 2026 Subclass 189 invitation round results with 10,000 invitations issued across skilled occupations.",
+    metaDescription:
+      "Australia released the 4 June 2026 Subclass 189 invitation round results with 10,000 invitations issued across skilled occupations.",
     date: "Jun 23, 2026",
     image: `/assets/nb22.png`,
   },
   {
     id: 63,
     slug: "canberra-matrix-invitation-round-june-2026",
-    title: "Canberra Matrix Invitation Round – June 2026: Key Takeaways for Applicants",
-    metaTitle: "Canberra Matrix Invitation Round – June 2026: Scores, Occupations & Visa Updates",
-    metaDescription:"The June 2026 Canberra Matrix Invitation Round has been released. Learn the minimum invitation scores, selected occupations, ACT nomination outcomes, and what these results mean for skilled migration applicants.",
+    title:
+      "Canberra Matrix Invitation Round – June 2026: Key Takeaways for Applicants",
+    metaTitle:
+      "Canberra Matrix Invitation Round – June 2026: Scores, Occupations & Visa Updates",
+    metaDescription:
+      "The June 2026 Canberra Matrix Invitation Round has been released. Learn the minimum invitation scores, selected occupations, ACT nomination outcomes, and what these results mean for skilled migration applicants.",
     date: "Jun 18, 2026",
     image: `/assets/nb21.png`,
   },
@@ -364,8 +446,10 @@ export const news = [
     id: 62,
     slug: "australia-announces-new-visa-ballot-for-pacific-region",
     title: "Australia Announces New Visa Ballot for Pacific Region",
-    metaTitle: "Australia 2026–27 Pacific Engagement Visa Ballot Opens – Key Details Explained",
-    metaDescription:"The 2026–27 Pacific Engagement Visa ballot is now open. Discover who can apply, registration timelines, selection process, visa benefits, and important requirements for eligible applicants.",
+    metaTitle:
+      "Australia 2026–27 Pacific Engagement Visa Ballot Opens – Key Details Explained",
+    metaDescription:
+      "The 2026–27 Pacific Engagement Visa ballot is now open. Discover who can apply, registration timelines, selection process, visa benefits, and important requirements for eligible applicants.",
     date: "Jun 17, 2026",
     image: `/assets/nb20.png`,
   },
@@ -374,16 +458,20 @@ export const news = [
     slug: "tra-issues-revised-guidelines",
     title: "TRA Issues Revised Guidelines",
     metaTitle: "TRA Issues Revised Guidelines",
-    metaDescription:"Stay updated with the latest TRA revised guidelines. Learn about key changes, eligibility requirements, skills assessment updates, and how they may impact your Australian migration journey.",
+    metaDescription:
+      "Stay updated with the latest TRA revised guidelines. Learn about key changes, eligibility requirements, skills assessment updates, and how they may impact your Australian migration journey.",
     date: "Jun 15, 2026",
     image: `/assets/nb19.png`,
   },
   {
     id: 60,
     slug: "australia-announces-parent-family-visa-grant-caps-for-2025-2026",
-    title: "Australia Confirms 2025–26 Parent and Family Visa Grant Caps: Key Details for Applicants",
-    metaTitle: "Australia Announces Parent & Family Visa Grant Caps for 2025–26",
-    metaDescription:"Australia has announced Parent and Family Visa grant caps for 2025–26. Learn the latest visa allocation limits, processing updates, and what they mean for family migration to Australia.",
+    title:
+      "Australia Confirms 2025–26 Parent and Family Visa Grant Caps: Key Details for Applicants",
+    metaTitle:
+      "Australia Announces Parent & Family Visa Grant Caps for 2025–26",
+    metaDescription:
+      "Australia has announced Parent and Family Visa grant caps for 2025–26. Learn the latest visa allocation limits, processing updates, and what they mean for family migration to Australia.",
     date: "Jun 15, 2026",
     image: `/assets/nb18.png`,
   },
@@ -392,25 +480,30 @@ export const news = [
     slug: "australias-latest-subclass-189-round-is-out-did-you-get-invited",
     title: "Australia's Latest Subclass 189 Round Is Out: Did You Get Invited?",
     metaTitle: "Australia 189 Visa Invitation Round: Did You Get Selected?",
-    metaDescription:"Subclass 189 invitation round results released on 4 June 2026. Check occupation-wise scores, trends, and Australia PR opportunities.",
+    metaDescription:
+      "Subclass 189 invitation round results released on 4 June 2026. Check occupation-wise scores, trends, and Australia PR opportunities.",
     date: "Jun 04, 2026",
     image: `/assets/nb17.png`,
   },
   {
     id: 58,
     slug: "tasmania-issues-71-invitations-in-its-final-202526-skilled-migration-round",
-    title: "Tasmania Issues 71 Invitations in Its Final 2025–26 Skilled Migration Round",
+    title:
+      "Tasmania Issues 71 Invitations in Its Final 2025–26 Skilled Migration Round",
     metaTitle: "Tasmania Issues 71 Invitations in Final State Nomination Round",
-    metaDescription:"Tasmania invitation round results for 4 June 2026 are out. A total of 71 invitations were issued under Subclass 190 and Subclass 491 pathways.",
+    metaDescription:
+      "Tasmania invitation round results for 4 June 2026 are out. A total of 71 invitations were issued under Subclass 190 and Subclass 491 pathways.",
     date: "Jun 04, 2026",
     image: `/assets/nb16.png`,
   },
   {
     id: 57,
     slug: "south-australia-closes-roi-intake-as-202526-skilled-migration-program-nears-end",
-    title: "South Australia Closes ROI Intake as 2025–26 Skilled Migration Program Nears End",
+    title:
+      "South Australia Closes ROI Intake as 2025–26 Skilled Migration Program Nears End",
     metaTitle: "South Australia Closes ROI Intake for 2025–26 Program",
-    metaDescription:"South Australia has closed ROI intake for the 2025–26 skilled migration program, marking the end of new submissions after the final invitation round.",
+    metaDescription:
+      "South Australia has closed ROI intake for the 2025–26 skilled migration program, marking the end of new submissions after the final invitation round.",
     date: "Jun 02, 2026",
     image: `/assets/nb15.png`,
   },
@@ -418,26 +511,32 @@ export const news = [
     id: 56,
     slug: "2025-26-occupation-ceiling-insights-for-subclass-189-applicants",
     title: "2025–26 Occupation Ceiling Insights for Subclass 189 Applicants",
-    metaTitle: "2025–26 Occupation Ceiling Insights for Subclass 189 Applicants",
-    metaDescription:"Explore the 2025–26 occupation ceiling data for Subclass 189 visas, including remaining capacity across healthcare, trades, education, and ICT roles.",
+    metaTitle:
+      "2025–26 Occupation Ceiling Insights for Subclass 189 Applicants",
+    metaDescription:
+      "Explore the 2025–26 occupation ceiling data for Subclass 189 visas, including remaining capacity across healthcare, trades, education, and ICT roles.",
     date: "Jun 02, 2026",
     image: `/assets/nb14.png`,
   },
   {
     id: 55,
     slug: "good-news-for-indian-applicants-australia-will-open-subclass-462-visa-ballot-on-4-june-2026",
-    title: "Good News for Indian Applicants: Australia Will Open Subclass 462 Visa Ballot on 4 June 2026",
+    title:
+      "Good News for Indian Applicants: Australia Will Open Subclass 462 Visa Ballot on 4 June 2026",
     metaTitle: "Australia Opens Subclass 462 Visa Ballot on 4 June 2026",
-    metaDescription:"Australia confirms Subclass 462 visa ballot registrations will open from 4 June 2026 for eligible Indian applicants.",
+    metaDescription:
+      "Australia confirms Subclass 462 visa ballot registrations will open from 4 June 2026 for eligible Indian applicants.",
     date: "May 29, 2026",
     image: `/assets/nb13.png`,
   },
   {
     id: 54,
     slug: "is-your-eoi-ready-subclass-189-invitation-round-confirmed-for-4-june-2026",
-    title: "Is Your EOI Ready? Subclass 189 Invitation Round Confirmed for 4 June 2026",
+    title:
+      "Is Your EOI Ready? Subclass 189 Invitation Round Confirmed for 4 June 2026",
     metaTitle: "Subclass 189 Invitation Round Confirmed for 4 June 2026",
-    metaDescription:"Australia confirms the next Subclass 189 invitation round for 4 June 2026. Check important EOI updates, points factors, and visa tips.",
+    metaDescription:
+      "Australia confirms the next Subclass 189 invitation round for 4 June 2026. Check important EOI updates, points factors, and visa tips.",
     date: "May 29, 2026",
     image: `/assets/nb12.png`,
   },
@@ -446,61 +545,71 @@ export const news = [
     slug: "tasmania-state-nomination-results-released-64-rois-invited-today",
     title: "Tasmania State Nomination Results Released: 64 ROIs Invited Today",
     metaTitle: "Tasmania State Nomination Results: 64 ROIs Invited",
-    metaDescription:"Tasmania invited 64 ROIs on 28 May 2026 across Subclass 190 and 491 visas. Final invitation round expected on 04 June 2026 for Australia PR applicants.",
+    metaDescription:
+      "Tasmania invited 64 ROIs on 28 May 2026 across Subclass 190 and 491 visas. Final invitation round expected on 04 June 2026 for Australia PR applicants.",
     date: "May 28, 2026",
     image: `/assets/nb11.png`,
-  },  
+  },
   {
     id: 52,
     slug: "sa-conducted-final-scheduled-invitation-round-for-2025-26",
     title: "SA Conducted Final Scheduled Invitation Round for 2025–26",
     metaTitle: "SA Conducted Final Scheduled Invitation Round for 2025–26",
-    metaDescription:"SA conducted its final scheduled invitation round for 2025–26, issuing 238 invitations across Subclass 190 and 491 visa pathways.",
+    metaDescription:
+      "SA conducted its final scheduled invitation round for 2025–26, issuing 238 invitations across Subclass 190 and 491 visa pathways.",
     date: "May 22, 2026",
     image: `/assets/b12.png`,
-  },  
-{
+  },
+  {
     id: 51,
     slug: "wa-releases-190-invitation-round-for-trade-occupations-on-3-may-2026",
-    title: "WA Released 190 Invitation Round for Trade Occupations on 3 May 2026",
+    title:
+      "WA Released 190 Invitation Round for Trade Occupations on 3 May 2026",
     metaTitle: "WA 190 Invitation Round Released for Trade Occupations",
-    metaDescription:"Western Australia released its 190 invitation round on 3 May 2026, focusing on trade occupations with reduced allocations in the final program stage.",
+    metaDescription:
+      "Western Australia released its 190 invitation round on 3 May 2026, focusing on trade occupations with reduced allocations in the final program stage.",
     date: "May 21, 2026",
     image: `/assets/b10.png`,
   },
-    {
+  {
     id: 50,
     slug: "tasmania-confirms-final-skilled-migration-round-and-issues-latest-weekly-invitations-today",
-    title: "Tasmania Confirms Final Skilled Migration Round and Issues Latest Weekly Invitations Today ",
+    title:
+      "Tasmania Confirms Final Skilled Migration Round and Issues Latest Weekly Invitations Today ",
     metaTitle: "Tasmania Final Skilled Migration Round & Latest Invitations",
-    metaDescription:"Tasmania has confirmed the final 2025–26 invitation round, ROI closure date, and latest Subclass 190 and 491 invitation results.",
+    metaDescription:
+      "Tasmania has confirmed the final 2025–26 invitation round, ROI closure date, and latest Subclass 190 and 491 invitation results.",
     date: "May 21, 2026",
     image: `/assets/b6.png`,
   },
-    {
+  {
     id: 49,
     slug: "latest-victoria-190-invitation-round-results-may-2026",
     title: "Latest Victoria Subclass 190 Invitation Round – 19 May 2026",
     metaTitle: "Latest Victoria 190 Invitation Round Results – May 2026",
-    metaDescription:"Latest Victoria Subclass 190 invitation round results released with invitations issued to ICT, healthcare, engineering, and teaching occupations.",
+    metaDescription:
+      "Latest Victoria Subclass 190 invitation round results released with invitations issued to ICT, healthcare, engineering, and teaching occupations.",
     date: "May 19, 2026",
     image: `/assets/b5.png`,
   },
   {
     id: 48,
     slug: "australia-12-month-pause-on-new-student-providers",
-    title: "Australia Imposes 12-Month Pause on New International Student Education Providers",
+    title:
+      "Australia Imposes 12-Month Pause on New International Student Education Providers",
     metaTitle: "Australia 12-Month Pause on New Student Providers",
-    metaDescription:"Australia has paused new international student providers for 12 months under CRICOS to strengthen integrity and improve education sector quality.",
+    metaDescription:
+      "Australia has paused new international student providers for 12 months under CRICOS to strengthen integrity and improve education sector quality.",
     date: "May 19, 2026",
     image: `/assets/b3.png`,
   },
-    {
+  {
     id: 47,
     slug: "migration-program-planning-levels-2026-27",
     title: "Migration Program Planning Levels 2026-27 ",
     metaTitle: "Australia Migration Program Planning Levels 2026–27",
-    metaDescription:"Breakdown of Australia’s 2026–27 Migration Program with insights into employer-sponsored visas, subclass 190, subclass 491, and PR pathways.",
+    metaDescription:
+      "Breakdown of Australia’s 2026–27 Migration Program with insights into employer-sponsored visas, subclass 190, subclass 491, and PR pathways.",
     date: "May 16, 2026",
     image: `/assets/b2.png`,
   },
@@ -509,7 +618,8 @@ export const news = [
     slug: "tasmania-latest-invitation-round-56-rois-invited",
     title: "Tasmania Latest Invitation Round: 56 ROIs Invited",
     metaTitle: "Tasmania Latest Invitation Round: 56 ROIs Invited",
-    metaDescription:"Tasmania issued 56 invitations in the 14 May 2026 skilled migration round. Check updated Subclass 190 and 491 scores, invitations, and nomination status.",
+    metaDescription:
+      "Tasmania issued 56 invitations in the 14 May 2026 skilled migration round. Check updated Subclass 190 and 491 scores, invitations, and nomination status.",
     date: "May 14, 2026",
     image: `/assets/41.png`,
   },
@@ -518,16 +628,19 @@ export const news = [
     slug: "budget-202627-big-australia-migration-updates-every-applicant-must-know",
     title: "List of Migration Changes in Budget 2026-27",
     metaTitle: "Australia Migration Updates from Budget 2026–27",
-    metaDescription:"how Budget 2026–27 impacts Australia PR pathways, skilled migration, TRA assessments, and onshore applicant priorities.",
+    metaDescription:
+      "how Budget 2026–27 impacts Australia PR pathways, skilled migration, TRA assessments, and onshore applicant priorities.",
     date: "May 13, 2026",
     image: `/assets/40.png`,
   },
   {
     id: 44,
     slug: "act-canberra-matrix-round-6-may-2026-minimum-scores-and-allocation-update",
-    title:"ACT Canberra Matrix Round 6 May 2026: Minimum Scores and Allocation Update",
+    title:
+      "ACT Canberra Matrix Round 6 May 2026: Minimum Scores and Allocation Update",
     metaTitle: "ACT Canberra Matrix Round 6 May 2026: Scores Update",
-    metaDescription:"Check the latest ACT Canberra Matrix invitation round results for 6 May 2026, including minimum Matrix scores and ACT nomination trends.",
+    metaDescription:
+      "Check the latest ACT Canberra Matrix invitation round results for 6 May 2026, including minimum Matrix scores and ACT nomination trends.",
     date: "May 12, 2026",
     image: `/assets/39.png`,
   },
@@ -536,7 +649,8 @@ export const news = [
     slug: "new-points-test-expected-for-australia-pr-in-budget-2026-27",
     title: "New Points Test Expected for Australia PR in Budget 2026–27 ",
     metaTitle: "Australia PR Points Test Changes Expected in Budget 2026–27",
-    metaDescription:"Australia’s Budget 2026–27 may bring changes to the PR points test, focusing on age, English, qualifications and selection criteria.",
+    metaDescription:
+      "Australia’s Budget 2026–27 may bring changes to the PR points test, focusing on age, English, qualifications and selection criteria.",
     date: "May 11, 2026",
     image: `/assets/38.png`,
   },
@@ -1129,59 +1243,65 @@ export const news = [
     date: "February 2, 2026",
     image: `/assets/2feb.jpg`,
   },
-   {
+  {
     id: -15,
     slug: "tasmania-migration-update-this-weeks-latest-invitation-numbers",
-    title:"Tasmania Migration Update: This Week’s Latest Invitation Numbers",
+    title: "Tasmania Migration Update: This Week’s Latest Invitation Numbers",
     metaTitle: "Tasmania Migration Update: Latest Invitation Numbers",
-    metaDescription:"Check the latest invitation numbers for Tasmania's skilled migration program in this week's update.",
+    metaDescription:
+      "Check the latest invitation numbers for Tasmania's skilled migration program in this week's update.",
     date: "january 29, 2026",
     image: `/assets/29jan.png`,
   },
-   {
+  {
     id: -16,
     slug: "northern-territory-gsm-nomination-portal-closed-for-2025–26",
-    title:"Northern Territory GSM Nomination Portal Closed for 2025–26",
+    title: "Northern Territory GSM Nomination Portal Closed for 2025–26",
     metaTitle: "Northern Territory GSM Nomination Portal Closed",
-    metaDescription:"The Northern Territory GSM Nomination Portal is closed for the 2025–26 financial year. Check the details and how to apply."  , 
+    metaDescription:
+      "The Northern Territory GSM Nomination Portal is closed for the 2025–26 financial year. Check the details and how to apply.",
     date: "january 28, 2026",
     image: `/assets/28jan.png`,
   },
-   {
+  {
     id: -17,
-    slug:"upcoming-tentative-canberra-matrix-invitation-dates-for-2026",
-    title:"Upcoming Tentative Canberra Matrix Invitation Dates for 2026",
+    slug: "upcoming-tentative-canberra-matrix-invitation-dates-for-2026",
+    title: "Upcoming Tentative Canberra Matrix Invitation Dates for 2026",
     metaTitle: "Upcoming Canberra Matrix Invitation Dates",
     metaDescription:
       "Check the upcoming tentative Canberra Matrix invitation dates for 2026.",
     date: "january 22, 2026",
     image: `/assets/22jan.png`,
   },
-   {
+  {
     id: -18,
     slug: "nsw-subclass-491-pathway-1-&-pathway-3-closed-on-the-same-day-due-to-strong-demand",
-    title:"NSW Subclass 491 Pathway 1 & Pathway 3 Closed on the Same Day Due to Strong Demand",
+    title:
+      "NSW Subclass 491 Pathway 1 & Pathway 3 Closed on the Same Day Due to Strong Demand",
     metaTitle: "NSW Skilled Migration Update",
     metaDescription:
       "Learn about the closure of NSW Subclass 491 Pathway 1 & Pathway 3 due to strong demand.",
     date: "january 19, 2026",
     image: `/assets/19jan.png`,
   },
-   {
-    id:-19,
-    slug:"nsw-latest-invitation-round-update-15-january-2026",
-    title:"NSW Latest Invitation Round Update: 15 January 2026",
-    metaTitle:"NSW Latest Invitation Round Update: 15 January 2026",
-    metaDescription:"Check the latest NSW invitation round updates for 15 January 2026. Discover the points cutoffs, targeted occupations, and visa subclass 190 & 491 insights.",
+  {
+    id: -19,
+    slug: "nsw-latest-invitation-round-update-15-january-2026",
+    title: "NSW Latest Invitation Round Update: 15 January 2026",
+    metaTitle: "NSW Latest Invitation Round Update: 15 January 2026",
+    metaDescription:
+      "Check the latest NSW invitation round updates for 15 January 2026. Discover the points cutoffs, targeted occupations, and visa subclass 190 & 491 insights.",
     date: "january 15, 2026",
     image: `/assets/17jan.png`,
   },
   {
-    id:-20,
-    slug:"south-australia-tightens-rules-for-trade-courses-apprenticeship-now-mandatory",
-    title:"South Australia Tightens Rules for Trade Courses — Apprenticeship Now Mandatory",
-    metaTitle:"South Australia Trade Course Rules Change From 2026",
-    metaDescription:"New South Australia trade training rules will require apprenticeships from 2026. Understand what this means for future migration and employment plans.",
+    id: -20,
+    slug: "south-australia-tightens-rules-for-trade-courses-apprenticeship-now-mandatory",
+    title:
+      "South Australia Tightens Rules for Trade Courses — Apprenticeship Now Mandatory",
+    metaTitle: "South Australia Trade Course Rules Change From 2026",
+    metaDescription:
+      "New South Australia trade training rules will require apprenticeships from 2026. Understand what this means for future migration and employment plans.",
     date: "December 17, 2025",
     image: `/assets/20dec.png`,
   },
