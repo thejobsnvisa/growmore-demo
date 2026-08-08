@@ -3,12 +3,12 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
+  base: "/",
   plugins: [
     react(),
-    tailwindcss()
+    tailwindcss(),
   ],
-  base: "/",
-    build: {
-    target: "es2018"
-  }
+  build: {
+    target: "es2018",
+  },
 });
