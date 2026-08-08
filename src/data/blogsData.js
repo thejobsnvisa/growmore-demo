@@ -1,5 +1,14 @@
 export const blogs = [  
-   {
+  {
+    id: 101,
+    slug: "do-not-ignore-skilled-it-professionals-australian-companies-sending-jobs-to-india",
+    title: "Do Not Ignore Skilled IT Professionals: Australian Companies Sending Jobs to India ",
+    metaTitle: "Australia IT Jobs and Skilled Migration Opportunities",
+    metaDescription:"Australia’s demand for IT talent continues to grow. Learn about skilled migration opportunities and visa options for qualified IT professionals.",
+    date: "Aug 08, 2026",
+    image: `/assets/bg102.png`,
+  }, 
+  {
     id: 100,
     slug: "eoi-lodged-but-not-invited-yet-tips-and-facts-about-what-impacts-your-invitation",
     title: "EOI Lodged but Not Invited Yet? Tips & Facts About What Impacts Your Invitation ",
