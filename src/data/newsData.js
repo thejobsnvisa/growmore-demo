@@ -1,4 +1,14 @@
 export const news = [
+   {
+    id: 103,
+    slug: "abf-finds-sponsorship-breach-orders-nearly-120000-repayment",
+    title:
+      "ABF Finds Sponsorship Breach, Orders Nearly $120,000 Repayment",
+    metaTitle: "ABF Sanctions NSW Sponsor for Exploiting 482 Visa Workers",
+    metaDescription:"The ABF has sanctioned a NSW aged care provider for recovering sponsorship costs from 482 visa workers, ordering nearly $120,000 in repayments.",
+    date: "Aug 07, 2026",
+    image: `/assets/nb65.png`,
+  },
   {
     id: 102,
     slug: "big-changes-proposed-for-australias-migration-review-process",
@@ -7,7 +17,7 @@ export const news = [
     metaTitle: "Big Changes Proposed for Australia's Migration Review Process",
     metaDescription:
       "Australia may reform its migration review process under a proposed Bill. Learn the key changes, Senate recommendations, and what they mean for visa applicants.",
-    date: "Aug 06, 2026",
+    date: "Aug 07, 2026",
     image: `/assets/nb64.jpg`,
   },
   {
