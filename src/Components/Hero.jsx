@@ -23,6 +23,9 @@ const Hero = () => {
   const [displayText, setDisplayText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
 
+  const PhoneInputComponent = PhoneInput?.default || PhoneInput;
+  const RecaptchaComponent = ReCAPTCHA?.default || ReCAPTCHA;
+
   /* PERFORMANCE FIXED TYPING EFFECT */
   useEffect(() => {
     const currentWord = texts[currentWordIndex];
@@ -187,7 +190,7 @@ const Hero = () => {
 
                 <div className="flex flex-col sm:flex-row gap-3">
                   <div className="w-full sm:w-28 bg-white rounded-lg border border-gray-300">
-                    <PhoneInput
+                    <PhoneInputComponent
                       country={"au"}
                       enableSearch
                       onChange={(_, data) => setDialCode(data.dialCode)}
@@ -238,7 +241,7 @@ const Hero = () => {
                 ></textarea>
 
                 <div className="flex justify-center sm:justify-start">
-                  <ReCAPTCHA
+                  <RecaptchaComponent
                     sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY}
                     ref={recaptchaRef}
                   />
@@ -252,6 +255,7 @@ const Hero = () => {
                   {loading ? "Submitting..." : "Submit →"}
                 </button>
               </form>
+              
             </div>
           </div>
         </div>

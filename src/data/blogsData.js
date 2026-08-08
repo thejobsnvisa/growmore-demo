@@ -6,7 +6,7 @@ export const blogs = [
     metaTitle: "Australia IT Jobs and Skilled Migration Opportunities",
     metaDescription:"Australia’s demand for IT talent continues to grow. Learn about skilled migration opportunities and visa options for qualified IT professionals.",
     date: "Aug 08, 2026",
-    image: `/assets/bg102.png`,
+    image: `/assets/bg101.png`,
   }, 
   {
     id: 100,
@@ -15,7 +15,7 @@ export const blogs = [
     metaTitle: "How Australia Invitation Rounds Work: EOI to Invitation",
     metaDescription:"how Australia invitation rounds work, from submitting an EOI through SkillSelect to receiving an invitation for Subclass 189, 190, or 491 visas.",
     date: "Aug 06, 2026",
-    image: `/assets/bg101.png`,
+    image: `/assets/102.png`,
   }, 
   {
     id: 99,
