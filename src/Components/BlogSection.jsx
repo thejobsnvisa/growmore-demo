@@ -5,17 +5,27 @@ import { Link } from "react-router-dom";
 const blogs = [
     {
     id: 1,
+    slug: "abf-finds-sponsorship-breach-orders-nearly-120000-repayment",
+    title:
+      "ABF Finds Sponsorship Breach, Orders Nearly $120,000 Repayment",
+    metaTitle: "ABF Sanctions NSW Sponsor for Exploiting 482 Visa Workers",
+    metaDescription:"The ABF has sanctioned a NSW aged care provider for recovering sponsorship costs from 482 visa workers, ordering nearly $120,000 in repayments.",
+    date: "Aug 07, 2026",
+    image: `/assets/nb65.png`,
+  },
+  {
+    id: 2,
     slug: "big-changes-proposed-for-australias-migration-review-process",
     title:
       "Big Changes Proposed for Australia's Migration Review Process",
     metaTitle: "Big Changes Proposed for Australia's Migration Review Process",
     metaDescription:
       "Australia may reform its migration review process under a proposed Bill. Learn the key changes, Senate recommendations, and what they mean for visa applicants.",
-    date: "Aug 06, 2026",
+    date: "Aug 07, 2026",
     image: `/assets/nb64.jpg`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "planning-to-move-to-australia-gujarat-simplifies-passport-verification-process",
     title:
       "Planning to Move to Australia? Gujarat Simplifies Passport Verification Process",
@@ -24,17 +34,6 @@ const blogs = [
       "Planning to move to Australia? Gujarat has simplified passport verification by removing routine police station visits, making passport applications faster.",
     date: "Aug 05, 2026",
     image: `/assets/nb63.png`,
-  },
-  {
-    id: 3,
-    slug: "tasmania-state-nomination-program-reopens-on-17-august-with-changes",
-    title:
-      "Tasmania State Nomination Program Reopens on 17 August with Changes",
-    metaTitle: "Tasmania State Nomination Program Reopens on 17 August",
-    metaDescription:
-      "Tasmania opens its 2026–27 State Nomination Program on 17 August with revised priority attributes, weekly invitations and updated ROI requirements.",
-    date: "Aug 05, 2026",
-    image: `/assets/nb62.jpg`,
   },
 ];
 
