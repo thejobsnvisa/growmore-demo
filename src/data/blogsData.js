@@ -1,5 +1,14 @@
 export const blogs = [  
   {
+    id: 102,
+    slug: "australias-migration-priorities-have-changed-a-2026-27-vs-2022-23-comparison",
+    title: "Australia's Migration Priorities Have Changed: A 2026-27 vs 2022-23 Comparison",
+    metaTitle: "Australia Migration Program 2026–27 vs 2022–23 Comparison",
+    metaDescription:"Compare Australia’s 2026–27 and 2022–23 Migration Programs, including employer-sponsored, Subclass 189 and state-nominated visa allocations.",
+    date: "Aug 10, 2026",
+    image: `/assets/bg102.png`,
+  }, 
+  {
     id: 101,
     slug: "do-not-ignore-skilled-it-professionals-australian-companies-sending-jobs-to-india",
     title: "Do Not Ignore Skilled IT Professionals: Australian Companies Sending Jobs to India ",
