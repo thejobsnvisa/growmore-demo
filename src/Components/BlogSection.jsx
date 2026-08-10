@@ -3,8 +3,17 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-    {
+   {
     id: 1,
+    slug: "vetassess-professional-skills-assessment-fees-to-change-from-9-september-2026",
+    title:"VETASSESS Professional Skills Assessment Fees to Change from 9 September 2026",
+    metaTitle: "VETASSESS Skills Assessment Fees to Increase from 9 Sep 2026",
+    metaDescription:"VETASSESS skills assessment fees will increase from 9 September 2026. Check new fees, affected services, trade occupation exemption and key dates.",
+    date: "Aug 10, 2026",
+    image: `/assets/nb66.png`,
+  },   
+  {
+    id: 2,
     slug: "abf-finds-sponsorship-breach-orders-nearly-120000-repayment",
     title:
       "ABF Finds Sponsorship Breach, Orders Nearly $120,000 Repayment",
@@ -14,7 +23,7 @@ const blogs = [
     image: `/assets/nb65.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "big-changes-proposed-for-australias-migration-review-process",
     title:
       "Big Changes Proposed for Australia's Migration Review Process",
@@ -23,17 +32,6 @@ const blogs = [
       "Australia may reform its migration review process under a proposed Bill. Learn the key changes, Senate recommendations, and what they mean for visa applicants.",
     date: "Aug 07, 2026",
     image: `/assets/nb64.jpg`,
-  },
-  {
-    id: 3,
-    slug: "planning-to-move-to-australia-gujarat-simplifies-passport-verification-process",
-    title:
-      "Planning to Move to Australia? Gujarat Simplifies Passport Verification Process",
-    metaTitle: "Australia Visa Applicants: Gujarat Eases Passport Process",
-    metaDescription:
-      "Planning to move to Australia? Gujarat has simplified passport verification by removing routine police station visits, making passport applications faster.",
-    date: "Aug 05, 2026",
-    image: `/assets/nb63.png`,
   },
 ];
 

@@ -1,5 +1,14 @@
 export const news = [
-   {
+  {
+    id: 104,
+    slug: "vetassess-professional-skills-assessment-fees-to-change-from-9-september-2026",
+    title:"VETASSESS Professional Skills Assessment Fees to Change from 9 September 2026",
+    metaTitle: "VETASSESS Skills Assessment Fees to Increase from 9 Sep 2026",
+    metaDescription:"VETASSESS skills assessment fees will increase from 9 September 2026. Check new fees, affected services, trade occupation exemption and key dates.",
+    date: "Aug 10, 2026",
+    image: `/assets/nb66.png`,
+  }, 
+  {
     id: 103,
     slug: "abf-finds-sponsorship-breach-orders-nearly-120000-repayment",
     title:
