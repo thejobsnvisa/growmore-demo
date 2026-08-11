@@ -1,47 +1,75 @@
 import React, { useState, useRef } from "react";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
-import { Link } from "react-router-dom";
 import ReCAPTCHA from "react-google-recaptcha";
 
 const Checklistgsm = () => {
   const recaptchaRef = useRef(null);
+
   const [loading, setLoading] = useState(false);
-  const [dialCode, setDialCode] = useState("91");
+  const [dialCode, setDialCode] = useState("61");
   const [phoneNumber, setPhoneNumber] = useState("");
+
+  // Important:
+  // Handles both normal exports and module-object exports.
+  const PhoneInputComponent = PhoneInput?.default || PhoneInput;
+  const RecaptchaComponent = ReCAPTCHA?.default || ReCAPTCHA;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    const form = e.target;
+
+    // Get Google reCAPTCHA token
     const token = recaptchaRef.current?.getValue();
 
-    if (!token) return alert("Please verify the captcha");
-    if (!phoneNumber) return alert("Please enter phone number");
+    if (!token) {
+      alert("Please verify the captcha");
+      return;
+    }
+
+    if (!phoneNumber.trim()) {
+      alert("Please enter phone number");
+      return;
+    }
 
     setLoading(true);
 
     try {
-      const form = e.target;
       const payload = {
         fullName: form.fullName.value,
         email: form.email.value,
+
+        // Full international phone number
         phone: `+${dialCode}${phoneNumber}`,
+
         country: form.country.value,
         location: form.location.value,
+
         age: form.age.value,
         qualification: form.qualification.value,
         occupation: form.occupation.value,
+
         skillsAssessment: form.skillsAssessment.value,
         overseasExperience: form.overseasExperience.value,
         australiaExperience: form.australiaExperience.value,
+
         englishTest: form.englishTest.value,
+
         estimatedPoints: form.estimatedPoints.value,
         partnerSkills: form.partnerSkills.value,
+
         studiedInAustralia: form.studiedInAustralia.value,
         professionalYear: form.professionalYear.value,
         regionalWork: form.regionalWork.value,
+
         comments: form.comments.value,
-        captchaToken: token, // Sent to backend
+
+        captchaToken: token,
+
+        source: "GSM Eligibility Form",
       };
+
       const BASE_URL = "https://growmore-1.vercel.app";
 
       const response = await fetch(`${BASE_URL}/api/gsm`, {
@@ -54,17 +82,26 @@ const Checklistgsm = () => {
 
       const result = await response.json();
 
-      if (response.ok && result.success) {
-        alert("Thank you! Our team will contact you shortly.");
-        form.reset();
-        setPhoneNumber("");
-        recaptchaRef.current.reset();
-      } else {
+      if (!response.ok || !result.success) {
         throw new Error(result.message || "Submission failed");
       }
+
+      alert("Thank you! Our team will contact you shortly.");
+
+      // Reset form
+      form.reset();
+
+      setPhoneNumber("");
+      setDialCode("61");
+
+      // Reset captcha
+      recaptchaRef.current?.reset();
     } catch (error) {
       console.error("Submit Error:", error);
-      alert(error.message || "Something went wrong. Please try again.");
+
+      alert(
+        error.message || "Something went wrong. Please try again."
+      );
     } finally {
       setLoading(false);
     }
@@ -72,6 +109,7 @@ const Checklistgsm = () => {
 
   return (
     <div>
+      {/* Hero */}
       <section className="bg-[#28535B] py-16 md:py-20">
         <div className="max-w-[1400px] mx-auto px-6 md:px-15">
           <h1 className="text-3xl md:text-5xl font-semibold text-white mb-3">
@@ -80,11 +118,16 @@ const Checklistgsm = () => {
         </div>
       </section>
 
+      {/* Form */}
       <section className="bg-gray-100 py-16 px-4">
         <div className="max-w-3xl mx-auto p-8 md:p-10 rounded-2xl shadow-md bg-[#eff9fb]">
-          <h2 className="text-xl mb-4">Basic Info</h2>
+
+          <h2 className="text-xl mb-4 font-semibold">
+            Basic Info
+          </h2>
 
           <form onSubmit={handleSubmit} className="space-y-5">
+
             {/* Name + Email */}
             <div className="grid md:grid-cols-2 gap-4">
               <input
@@ -105,25 +148,48 @@ const Checklistgsm = () => {
             </div>
 
             {/* Phone */}
-            <div className="flex gap-3">
-              <div className="w-32">
-                <PhoneInput
-                  country={"au"}
+            <div className="flex flex-col sm:flex-row gap-3">
+
+              {/* Country Code */}
+              <div className="w-full sm:w-32 bg-white rounded-md border border-gray-300">
+
+                <PhoneInputComponent
+                  country="au"
                   enableSearch
-                  value={dialCode}
-                  onChange={(value, data) => setDialCode(data.dialCode)}
-                  inputProps={{ readOnly: true }}
-                  containerClass="w-full"
-                  inputClass="!w-full !h-[46px] !rounded-md !border !border-gray-300"
+                  onChange={(value, data) => {
+                    setDialCode(data?.dialCode || "61");
+                  }}
+                  inputProps={{
+                    readOnly: true,
+                  }}
+                  containerStyle={{
+                    width: "100%",
+                  }}
+                  inputStyle={{
+                    width: "100%",
+                    height: "46px",
+                    border: "none",
+                    backgroundColor: "white",
+                    borderRadius: "6px",
+                  }}
+                  buttonStyle={{
+                    border: "none",
+                    backgroundColor: "white",
+                    borderRadius: "6px 0 0 6px",
+                  }}
                 />
+
               </div>
 
+              {/* Phone Number */}
               <input
                 type="tel"
                 placeholder="Contact Number"
                 value={phoneNumber}
-                onChange={(e) => setPhoneNumber(e.target.value)}
-                className="flex-1 h-[46px] px-4 !rounded-md !border !border-gray-300 bg-white"
+                onChange={(e) => {
+                  setPhoneNumber(e.target.value.replace(/\D/g, ""));
+                }}
+                className="flex-1 h-[46px] px-4 rounded-md border border-gray-300 bg-white"
                 required
               />
             </div>
@@ -138,22 +204,42 @@ const Checklistgsm = () => {
 
             {/* Location */}
             <div>
-              <p className="label">Are you currently in Australia?</p>
+              <p className="label">
+                Are you currently in Australia?
+              </p>
+
               <div className="flex gap-6 mt-2">
                 <label>
-                  <input type="radio" name="location" value="Yes" /> Yes
+                  <input
+                    type="radio"
+                    name="location"
+                    value="Yes"
+                    required
+                  />{" "}
+                  Yes
                 </label>
 
                 <label>
-                  <input type="radio" name="location" value="No" /> No
+                  <input
+                    type="radio"
+                    name="location"
+                    value="No"
+                  />{" "}
+                  No
                 </label>
               </div>
             </div>
 
             {/* Eligibility */}
-            <h2 className="text-xl">Eligibility Criteria</h2>
+            <h2 className="text-xl font-semibold">
+              Eligibility Criteria
+            </h2>
 
-            <select name="age" required className="input-style">
+            <select
+              name="age"
+              required
+              className="input-style"
+            >
               <option value="">Select Age</option>
               <option>18-24</option>
               <option>25-32</option>
@@ -180,11 +266,19 @@ const Checklistgsm = () => {
 
             {/* Skills Assessment */}
             <div>
-              <p className="label">Do you have a valid Skills Assessment?</p>
-              <div className="flex gap-6">
+              <p className="label">
+                Do you have a valid Skills Assessment?
+              </p>
+
+              <div className="flex flex-wrap gap-6">
                 {["Yes", "No", "In Process"].map((item) => (
                   <label key={item}>
-                    <input type="radio" name="skillsAssessment" value={item} />{" "}
+                    <input
+                      type="radio"
+                      name="skillsAssessment"
+                      value={item}
+                      required={item === "Yes"}
+                    />{" "}
                     {item}
                   </label>
                 ))}
@@ -192,17 +286,21 @@ const Checklistgsm = () => {
             </div>
 
             {/* Work Experience */}
-            <h2 className="text-xl">Work Experience in Nominated Occupation</h2>
+            <h2 className="text-xl font-semibold">
+              Work Experience in Nominated Occupation
+            </h2>
 
             <div>
               <p className="label">Overseas</p>
-              <div className="flex gap-6">
+
+              <div className="flex flex-wrap gap-6">
                 {["0-1", "1-3", "3-5", "5+"].map((item) => (
                   <label key={item}>
                     <input
                       type="radio"
                       name="overseasExperience"
                       value={item}
+                      required={item === "0-1"}
                     />{" "}
                     {item}
                   </label>
@@ -212,13 +310,15 @@ const Checklistgsm = () => {
 
             <div>
               <p className="label">Australia</p>
-              <div className="flex gap-6">
+
+              <div className="flex flex-wrap gap-6">
                 {["0-1", "1-3", "3-5", "5+"].map((item) => (
                   <label key={item}>
                     <input
                       type="radio"
                       name="australiaExperience"
                       value={item}
+                      required={item === "0-1"}
                     />{" "}
                     {item}
                   </label>
@@ -228,11 +328,19 @@ const Checklistgsm = () => {
 
             {/* English */}
             <div>
-              <p className="label">English Test Taken?</p>
+              <p className="label">
+                English Test Taken?
+              </p>
+
               <div className="flex gap-6">
                 {["Yes", "No"].map((item) => (
                   <label key={item}>
-                    <input type="radio" name="englishTest" value={item} />{" "}
+                    <input
+                      type="radio"
+                      name="englishTest"
+                      value={item}
+                      required={item === "Yes"}
+                    />{" "}
                     {item}
                   </label>
                 ))}
@@ -240,7 +348,9 @@ const Checklistgsm = () => {
             </div>
 
             {/* Points */}
-            <h2 className="text-xl">Points Related</h2>
+            <h2 className="text-xl font-semibold">
+              Points Related
+            </h2>
 
             <input
               type="text"
@@ -258,7 +368,10 @@ const Checklistgsm = () => {
 
             {/* Study */}
             <div>
-              <p className="label">Have you studied in Australia?</p>
+              <p className="label">
+                Have you studied in Australia?
+              </p>
+
               <div className="flex gap-6">
                 {["Yes", "No"].map((item) => (
                   <label key={item}>
@@ -275,11 +388,18 @@ const Checklistgsm = () => {
 
             {/* Professional Year */}
             <div>
-              <p className="label">Have you done NAATI or Professional Year?</p>
+              <p className="label">
+                Have you done NAATI or Professional Year?
+              </p>
+
               <div className="flex gap-6">
                 {["Yes", "No"].map((item) => (
                   <label key={item}>
-                    <input type="radio" name="professionalYear" value={item} />{" "}
+                    <input
+                      type="radio"
+                      name="professionalYear"
+                      value={item}
+                    />{" "}
                     {item}
                   </label>
                 ))}
@@ -288,11 +408,18 @@ const Checklistgsm = () => {
 
             {/* Regional Work */}
             <div>
-              <p className="label">Working in Regional Area?</p>
+              <p className="label">
+                Working in Regional Area?
+              </p>
+
               <div className="flex gap-6">
                 {["Yes", "No"].map((item) => (
                   <label key={item}>
-                    <input type="radio" name="regionalWork" value={item} />{" "}
+                    <input
+                      type="radio"
+                      name="regionalWork"
+                      value={item}
+                    />{" "}
                     {item}
                   </label>
                 ))}
@@ -301,7 +428,10 @@ const Checklistgsm = () => {
 
             {/* Resume */}
             <div>
-              <p className="label">Upload Resume</p>
+              <p className="label">
+                Upload Resume
+              </p>
+
               <input
                 type="file"
                 name="resume"
@@ -316,20 +446,23 @@ const Checklistgsm = () => {
               className="input-style h-24"
             />
 
+            {/* Google reCAPTCHA */}
             <div className="flex justify-start">
-              <ReCAPTCHA
+              <RecaptchaComponent
                 sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY}
                 ref={recaptchaRef}
               />
             </div>
 
+            {/* Submit */}
             <button
               type="submit"
               disabled={loading}
-              className="bg-[#6dc7d1] px-8 py-2 text-white rounded-full"
+              className="bg-[#6dc7d1] px-8 py-3 text-white rounded-full hover:bg-black transition disabled:opacity-50"
             >
               {loading ? "Submitting..." : "Submit →"}
             </button>
+
           </form>
         </div>
       </section>
