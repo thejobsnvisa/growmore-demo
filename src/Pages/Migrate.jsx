@@ -228,7 +228,7 @@ const Migrate = () => {
               <div className="text-center md:text-left">
                 <h2 className="text-2xl sm:text-3xl md:text-[40px] font-semibold text-white leading-tight">
                   Australia’s Migration <br />
-                  Highlights 2024–25
+                  Highlights 2025–26
                 </h2>
               </div>
 
