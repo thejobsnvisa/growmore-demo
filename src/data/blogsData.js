@@ -1,5 +1,14 @@
 export const blogs = [  
-   {
+    {
+    id: 104,
+    slug: "how-to-get-an-aitsl-skills-assessment-for-australian-pr",
+    title: "How to Get an AITSL Skills Assessment for Australian PR",
+    metaTitle: "AITSL Skills Assessment for Australian PR: Complete Guide	",
+    metaDescription:"Learn how to get an AITSL skills assessment for Australian PR, including requirements, documents, English criteria, fees and application steps.",
+    date: "Aug 12, 2026",
+    image: `/assets/bg104.jpg`,
+  }, 
+  {
     id: 103,
     slug: "high-risk-for-student-and-graduate-visa-holders-partners-and-children-could-be-the-next-target",
     title: "High Risk for Student and Graduate Visa Holders? Partners and Children Could Be the Next Target",
