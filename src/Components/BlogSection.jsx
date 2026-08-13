@@ -3,8 +3,17 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-   {
+  {
     id: 1,
+    slug: "subclass-462-paused-for-24-countries-whats-happening",
+    title:"Subclass 462 Paused for 24 Countries: What's Happening?",
+    metaTitle: "Subclass 462 Paused for 24 Countries: Latest Update",
+    metaDescription:"Subclass 462 visa applications are paused for 24 countries. See affected countries, cap status, what “paused” means and what applicants should do next.",
+    date: "Aug 13, 2026",
+    image: `/assets/nb67.png`,
+  },
+   {
+    id: 2,
     slug: "vetassess-professional-skills-assessment-fees-to-change-from-9-september-2026",
     title:"VETASSESS Professional Skills Assessment Fees to Change from 9 September 2026",
     metaTitle: "VETASSESS Skills Assessment Fees to Increase from 9 Sep 2026",
@@ -13,7 +22,7 @@ const blogs = [
     image: `/assets/nb66.png`,
   },   
   {
-    id: 2,
+    id: 3,
     slug: "abf-finds-sponsorship-breach-orders-nearly-120000-repayment",
     title:
       "ABF Finds Sponsorship Breach, Orders Nearly $120,000 Repayment",
@@ -23,7 +32,7 @@ const blogs = [
     image: `/assets/nb65.png`,
   },
   {
-    id: 3,
+    id: 4,
     slug: "big-changes-proposed-for-australias-migration-review-process",
     title:
       "Big Changes Proposed for Australia's Migration Review Process",
