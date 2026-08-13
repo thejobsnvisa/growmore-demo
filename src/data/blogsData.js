@@ -1,4 +1,13 @@
 export const blogs = [  
+  {
+    id: 105,
+    slug: "hairdressers-can-get-direct-pr-in-australia-two-major-pathways-you-should-know",
+    title: "Hairdressers Can Get Direct PR in Australia – Two Major PR Pathways You Should Know",
+    metaTitle: "Hairdresser PR Australia: 2 Direct PR Pathways",
+    metaDescription:"Learn how qualified hairdressers can pursue PR in Australia through Subclass 186 Direct Entry or Subclass 190 Skilled Nominated visa pathways.",
+    date: "Aug 13, 2026",
+    image: `/assets/bg105.png`,
+  },
     {
     id: 104,
     slug: "how-to-get-an-aitsl-skills-assessment-for-australian-pr",
