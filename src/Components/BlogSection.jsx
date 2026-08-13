@@ -4,7 +4,16 @@ import { Link } from "react-router-dom";
 
 const blogs = [
   {
-    id: 1,
+    id: 106,
+    slug: "subclass-462-paused-for-24-countries-whats-happening",
+    title:"Subclass 462 Paused for 24 Countries: What's Happening?",
+    metaTitle: "Subclass 462 Paused for 24 Countries: Latest Update",
+    metaDescription:"Subclass 462 visa applications are paused for 24 countries. See affected countries, cap status, what “paused” means and what applicants should do next.",
+    date: "Aug 13, 2026",
+    image: `/assets/nb68.png`,
+  },
+  {
+    id: 105,
     slug: "subclass-462-ballot-results-are-finally-released",
     title:"Subclass 462 Ballot Results Are Finally Released",
     metaTitle: "Subclass 462 Ballot Results Are Finally Released",
@@ -13,23 +22,14 @@ const blogs = [
     image: `/assets/nb67.png`,
   },
   {
-    id: 2,
-    slug: "subclass-462-paused-for-24-countries-whats-happening",
-    title:"Subclass 462 Paused for 24 Countries: What's Happening?",
-    metaTitle: "Subclass 462 Paused for 24 Countries: Latest Update",
-    metaDescription:"Subclass 462 visa applications are paused for 24 countries. See affected countries, cap status, what “paused” means and what applicants should do next.",
-    date: "Aug 13, 2026",
-    image: `/assets/nb67.png`,
-  },
-  {
-    id: 3,
+    id: 104,
     slug: "vetassess-professional-skills-assessment-fees-to-change-from-9-september-2026",
     title:"VETASSESS Professional Skills Assessment Fees to Change from 9 September 2026",
     metaTitle: "VETASSESS Skills Assessment Fees to Increase from 9 Sep 2026",
     metaDescription:"VETASSESS skills assessment fees will increase from 9 September 2026. Check new fees, affected services, trade occupation exemption and key dates.",
     date: "Aug 10, 2026",
     image: `/assets/nb66.png`,
-  }, 
+  },
 ];
 
 const BlogSection = () => {

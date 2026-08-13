@@ -1,20 +1,20 @@
 export const news = [
-   {
-    id: 104,
-    slug: "subclass-462-ballot-results-are-finally-released",
-    title:"Subclass 462 Ballot Results Are Finally Released",
-    metaTitle: "Subclass 462 Ballot Results Are Finally Released",
-    metaDescription:"Subclass 462 ballot results are out for Indian applicants. Find out what happens after selection, the 28-day visa deadline and PAN card requirements.",
-    date: "Aug 11, 2026",
-    image: `/assets/nb67.png`,
-  },
   {
-    id: 105,
+    id: 106,
     slug: "subclass-462-paused-for-24-countries-whats-happening",
     title:"Subclass 462 Paused for 24 Countries: What's Happening?",
     metaTitle: "Subclass 462 Paused for 24 Countries: Latest Update",
     metaDescription:"Subclass 462 visa applications are paused for 24 countries. See affected countries, cap status, what “paused” means and what applicants should do next.",
     date: "Aug 13, 2026",
+    image: `/assets/nb68.png`,
+  },
+  {
+    id: 105,
+    slug: "subclass-462-ballot-results-are-finally-released",
+    title:"Subclass 462 Ballot Results Are Finally Released",
+    metaTitle: "Subclass 462 Ballot Results Are Finally Released",
+    metaDescription:"Subclass 462 ballot results are out for Indian applicants. Find out what happens after selection, the 28-day visa deadline and PAN card requirements.",
+    date: "Aug 11, 2026",
     image: `/assets/nb67.png`,
   },
   {
