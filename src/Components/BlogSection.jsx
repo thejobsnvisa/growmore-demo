@@ -5,6 +5,15 @@ import { Link } from "react-router-dom";
 const blogs = [
   {
     id: 1,
+    slug: "subclass-462-ballot-results-are-finally-released",
+    title:"Subclass 462 Ballot Results Are Finally Released",
+    metaTitle: "Subclass 462 Ballot Results Are Finally Released",
+    metaDescription:"Subclass 462 ballot results are out for Indian applicants. Find out what happens after selection, the 28-day visa deadline and PAN card requirements.",
+    date: "Aug 11, 2026",
+    image: `/assets/nb67.png`,
+  },
+  {
+    id: 2,
     slug: "subclass-462-paused-for-24-countries-whats-happening",
     title:"Subclass 462 Paused for 24 Countries: What's Happening?",
     metaTitle: "Subclass 462 Paused for 24 Countries: Latest Update",
@@ -12,36 +21,15 @@ const blogs = [
     date: "Aug 13, 2026",
     image: `/assets/nb67.png`,
   },
-   {
-    id: 2,
+  {
+    id: 3,
     slug: "vetassess-professional-skills-assessment-fees-to-change-from-9-september-2026",
     title:"VETASSESS Professional Skills Assessment Fees to Change from 9 September 2026",
     metaTitle: "VETASSESS Skills Assessment Fees to Increase from 9 Sep 2026",
     metaDescription:"VETASSESS skills assessment fees will increase from 9 September 2026. Check new fees, affected services, trade occupation exemption and key dates.",
     date: "Aug 10, 2026",
     image: `/assets/nb66.png`,
-  },   
-  {
-    id: 3,
-    slug: "abf-finds-sponsorship-breach-orders-nearly-120000-repayment",
-    title:
-      "ABF Finds Sponsorship Breach, Orders Nearly $120,000 Repayment",
-    metaTitle: "ABF Sanctions NSW Sponsor for Exploiting 482 Visa Workers",
-    metaDescription:"The ABF has sanctioned a NSW aged care provider for recovering sponsorship costs from 482 visa workers, ordering nearly $120,000 in repayments.",
-    date: "Aug 07, 2026",
-    image: `/assets/nb65.png`,
-  },
-  {
-    id: 4,
-    slug: "big-changes-proposed-for-australias-migration-review-process",
-    title:
-      "Big Changes Proposed for Australia's Migration Review Process",
-    metaTitle: "Big Changes Proposed for Australia's Migration Review Process",
-    metaDescription:
-      "Australia may reform its migration review process under a proposed Bill. Learn the key changes, Senate recommendations, and what they mean for visa applicants.",
-    date: "Aug 07, 2026",
-    image: `/assets/nb64.jpg`,
-  },
+  }, 
 ];
 
 const BlogSection = () => {

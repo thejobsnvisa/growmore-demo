@@ -1,4 +1,22 @@
 export const blogs = [  
+    {
+    id: 104,
+    slug: "how-to-get-an-aitsl-skills-assessment-for-australian-pr",
+    title: "How to Get an AITSL Skills Assessment for Australian PR",
+    metaTitle: "AITSL Skills Assessment for Australian PR: Complete Guide	",
+    metaDescription:"Learn how to get an AITSL skills assessment for Australian PR, including requirements, documents, English criteria, fees and application steps.",
+    date: "Aug 12, 2026",
+    image: `/assets/bg104.jpg`,
+  }, 
+  {
+    id: 103,
+    slug: "high-risk-for-student-and-graduate-visa-holders-partners-and-children-could-be-the-next-target",
+    title: "High Risk for Student and Graduate Visa Holders? Partners and Children Could Be the Next Target",
+    metaTitle: "High Risk for Student & Graduate Visa Holders? Partners and Children Could Be Next",
+    metaDescription:"Student and graduate visa holders in Australia could face increased scrutiny, with partners and children potentially affected by future visa policy changes. Understand the possible risks, what these changes could mean for families, and why staying updated on Australia’s immigration policies is important.",
+    date: "Aug 11, 2026",
+    image: `/assets/bg103.png`,
+  }, 
   {
     id: 102,
     slug: "australias-migration-priorities-have-changed-a-2026-27-vs-2022-23-comparison",

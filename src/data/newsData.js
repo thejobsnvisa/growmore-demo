@@ -1,4 +1,13 @@
 export const news = [
+   {
+    id: 104,
+    slug: "subclass-462-ballot-results-are-finally-released",
+    title:"Subclass 462 Ballot Results Are Finally Released",
+    metaTitle: "Subclass 462 Ballot Results Are Finally Released",
+    metaDescription:"Subclass 462 ballot results are out for Indian applicants. Find out what happens after selection, the 28-day visa deadline and PAN card requirements.",
+    date: "Aug 11, 2026",
+    image: `/assets/nb67.png`,
+  },
   {
     id: 105,
     slug: "subclass-462-paused-for-24-countries-whats-happening",
