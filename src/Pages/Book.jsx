@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { PopupModal } from "react-calendly";
 import { Helmet } from "react-helmet-async";
+import { Clock3, ThumbsUp } from "lucide-react";
 
 const BookConsultation = () => {
   const url = "https://www.growmore.one/book-consultation/";
+
   const [isOpen, setIsOpen] = useState(false);
   const [selectedUrl, setSelectedUrl] = useState("");
 
-  const openCalendly = (url) => {
-    setSelectedUrl(url);
+  const openCalendly = (calendlyUrl) => {
+    setSelectedUrl(calendlyUrl);
     setIsOpen(true);
   };
 
@@ -16,7 +18,6 @@ const BookConsultation = () => {
     setIsOpen(false);
   };
 
-  // Lock background scroll when modal opens
   useEffect(() => {
     if (isOpen) {
       document.documentElement.style.overflow = "hidden";
@@ -25,10 +26,18 @@ const BookConsultation = () => {
       document.documentElement.style.overflow = "auto";
       document.body.style.overflow = "auto";
     }
+
+    return () => {
+      document.documentElement.style.overflow = "auto";
+      document.body.style.overflow = "auto";
+    };
   }, [isOpen]);
 
   return (
     <>
+      {/* =====================================================
+          SEO
+      ===================================================== */}
       <Helmet>
         <title>
           Book Your Australian Visa Consultation | Growmore Immigration
@@ -39,250 +48,565 @@ const BookConsultation = () => {
           content="Secure your future in Australia. Book a professional consultation for PR, Student, or Partner visas with our expert migration team. Start your journey today!"
         />
 
-        {/* ✅ Canonical for homepage */}
         <link rel="canonical" href={url} />
 
-        {/* ✅ OG */}
         <meta
           property="og:title"
           content="Book Your Australian Visa Consultation | Growmore Immigration"
         />
+
         <meta
           property="og:description"
           content="Secure your future in Australia. Book a professional consultation for PR, Student, or Partner visas with our expert migration team. Start your journey today!"
         />
+
         <meta property="og:url" content={url} />
+
         <meta
           property="og:image"
           content="https://www.growmore.one/assets/c3.jpg"
         />
       </Helmet>
-      <div>
-        {/* Hero Section */}
+
+      <div className="w-full">
+        {/* =====================================================
+            HERO
+        ===================================================== */}
         <section className="bg-[#28535B] py-16 md:py-20">
-          <div className="max-w-[1400px] mx-auto px-6 md:px-15">
-            <h1 className="text-[22px] md:text-5xl font-semibold text-white mb-3">
+          <div className="mx-auto max-w-[1400px] px-6 md:px-15">
+            <h1 className="mb-3 text-[22px] font-semibold text-white md:text-5xl">
               Book Consultation
             </h1>
-            <p className="text-white font-semibold">
+
+            <p className="font-semibold text-white">
               Home &gt; Book Consultation
             </p>
           </div>
         </section>
 
-        {/* Cards Section */}
-        <div className="py-16 bg-gray-50">
-          <div className="max-w-7xl h-[500px] mx-auto px-6 grid md:grid-cols-3 gap-6">
-            {/* Card - styled similar to provided image */}
-            <div className="bg-white rounded-2xl shadow overflow-hidden hover:shadow-2xl transition duration-300">
-              <div className="relative bg-[#8b6f2f] flex items-stretch">
-                <div className="w-2/5 bg-[#f3e9d6] p-6 flex flex-col justify-center">
-                  <h3 className="text-3xl font-semibold text-[#8b6f2f]">
-                    Free Call
-                  </h3>
-                </div>
-                <div className="w-3/5">
-                <div className="relative bg-[#8b6f2f] flex items-stretch rounded-tl-[20px]">
-                </div>
-                  <img
-                    src={`${import.meta.env.BASE_URL}assets/c3.jpg`}
-                    alt="Consultant"
-                    className="w-full h-full object-cover object-center rounded-tr-2xl "
-                    style={{
-                      height: 188,
-                      marginLeft: 20,
-                      marginTop: 40,
-                      borderRadius: 20,
-                    }}
-                  />
+        {/* =====================================================
+            CARDS
+        ===================================================== */}
+        <section className="bg-[#fafafa] px-4 py-14 md:px-6 lg:px-8">
+          <div
+            className="
+              mx-auto
+              grid
+              w-full
+              max-w-[1180px]
+              grid-cols-1
+              gap-6
+              md:grid-cols-2
+              lg:grid-cols-3
+            "
+          >
+            {/* =================================================
+                CARD 1
+            ================================================= */}
+            <div
+              className="
+                relative
+                overflow-hidden
+                rounded-[20px]
+                border
+                border-[#dedede]
+                bg-white
+                shadow-[0_2px_6px_rgba(0,0,0,0.06)]
+                transition-all
+                duration-300
+                hover:-translate-y-1
+                hover:shadow-[0_10px_25px_rgba(0,0,0,0.12)]
+              "
+            >
+              {/* Badge */}
+              <div className="absolute left-3 top-0 z-30">
+                <div
+                  className="
+                    flex
+                    items-center
+                    gap-1.5
+                    rounded-b-[18px]
+                    bg-[#1474D4]
+                    px-3.5
+                    py-[7px]
+                    text-[10px]
+                    font-medium
+                    text-white
+                  "
+                >
+                  <ThumbsUp size={11} />
+                  Recommended
                 </div>
               </div>
-              <div className="p-6">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <p className="text-sm text-gray-500">Mentor</p>
-                    <h4 className="text-lg font-bold text-[#042325]">
-                      Migration Support
-                    </h4>
-                  </div>
-                  <div className="text-right">
-                    <div className="inline-flex items-center bg-blue-50 text-blue-600 px-3 py-1 rounded-full text-sm">
-                      4.9 ★
-                    </div>
-                    <p className="text-xs text-gray-400">(500 ratings)</p>
-                  </div>
+
+              {/* =================================================
+                  CARD 1 TOP
+              ================================================= */}
+              <div className="relative h-[270px] overflow-hidden bg-[#F5EED7]">
+                {/* Person image - BEHIND */}
+                <img
+                  src={`${import.meta.env.BASE_URL}assets/1.png`}
+                  alt="Free Callback"
+                  className="
+                    absolute
+                    bottom-0
+                    right-[-15px]
+                    z-0
+                    h-[105%]
+                    w-[58%]
+                    object-cover
+                    object-[55%_center]
+                  "
+                />
+
+                {/* Background layer */}
+                <div
+                  className="
+                    absolute
+                    bottom-0
+                    left-0
+                    top-0
+                    z-[1]
+                    w-[56%]
+                    bg-[#F5EED7]
+                  "
+                />
+
+                {/* Image background */}
+                <div
+                  className="
+                    absolute
+                    bottom-0
+                    right-0
+                    top-0
+                    z-[1]
+                    w-[43%]
+                    rounded-tl-[45px]
+                    bg-[#C9A45C]
+                  "
+                />
+
+                {/* Person image above image background */}
+                <img
+                  src={`${import.meta.env.BASE_URL}assets/1.png`}
+                  alt="Free Callback"
+                  className="
+                    absolute
+                    bottom-0
+                    right-[-15px]
+                    z-[2]
+                    h-[105%]
+                    w-[58%]
+                    object-cover
+                    object-[55%_center]
+                  "
+                />
+
+                {/* Text */}
+                <div className="relative z-10 flex h-full w-[56%] flex-col justify-center px-5 pt-4">
+                  <h2 className="text-[23px] font-medium leading-[1.15] text-[#8B6F2F]">
+                    Free
+                  </h2>
+
+                  <h2 className="text-[23px] font-medium leading-[1.15] text-[#8B6F2F]">
+                    Callback
+                  </h2>
                 </div>
-                <span className="relative -top-[-50px] text-2xl font-semibold text-gray-900 ml-1">
-                  Free
-                </span>
+              </div>
 
-                <ul className="mt-[-10px] text-sm text-gray-700 space-y-1 ml-28">
-                  <li className="flex items-start">
-                    <span className="text-blue-500 mr-2">✓</span> Calculate
-                    Retirement Money.
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-500 mr-2">✓</span> Right Way to
-                    Select Mutual Funds.
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-500 mr-2">✓</span> Plan Your
-                    House Purchase.
-                  </li>
-                </ul>
+              {/* Content */}
+              <div className="px-4 pb-5 pt-5">
+                <h3 className="text-[22px] font-semibold text-[#111]">
+                  Free Callback
+                </h3>
 
-                <div className="mt-6 flex gap-3">
-                  <button className="flex-1 bg-[#042325] text-white rounded-full py-3">
-                    Book a seat
+                <h4 className="mt-3 text-[16px] font-semibold leading-[1.35] text-[#111]">
+                  Speak with our Migration Support Team
+                </h4>
+
+                <p className="mt-4 text-[13px] leading-[1.55] text-[#333]">
+                  Fill in your details, and our team members will call you to :
+                  Understand your migration goals, Check your eligibility,
+                  Explain the next steps, Answer your questions. No obligation.
+                  No payment required.
+                </p>
+
+                <div className="mt-5">
+                  <button
+                    type="button"
+                    className="text-[13px] font-medium text-[#1769ff] hover:underline"
+                  >
+                    View Factsheet
+                  </button>
+                </div>
+
+                <div className="mt-5">
+                  <button
+                    type="button"
+                    onClick={() =>
+                      openCalendly(
+                        "https://calendly.com/krunalnayak/regular"
+                      )
+                    }
+                    className="
+                      w-full
+                      rounded-[8px]
+                      bg-[#222]
+                      py-[11px]
+                      text-[13px]
+                      font-medium
+                      text-white
+                      transition
+                      hover:bg-black
+                    "
+                  >
+                    Book Now
                   </button>
                 </div>
               </div>
             </div>
 
-            {/* Reuse structure for second card */}
-            <div className="bg-white rounded-2xl shadow overflow-hidden hover:shadow-2xl transition duration-300">
-              <div className="bg-[#33458b] relative flex items-stretch">
-                <div className="w-2/5 bg-[#e6ecff] p-6 flex flex-col justify-center">
-                  <h3 className="text-2xl font-semibold text-[#33458b]">
-                    Stock Market
-                  </h3>
-                  <p className="text-sm text-[#33458b] mt-2">Masterclass</p>
-                </div>
-                <div className="w-3/5">
-                  <img
-                    src={`${import.meta.env.BASE_URL}assets/c.png`}
-                    alt="Consultant"
-                    className="w-full h-full object-cover object-center rounded-tr-2xl"
-                    style={{
-                      height: 188,
-                      marginLeft: 20,
-                      marginTop: 40,
-                      borderRadius: 20,
-                    }}
-                  />
+            {/* =================================================
+                CARD 2
+            ================================================= */}
+            <div
+              className="
+                relative
+                overflow-hidden
+                rounded-[20px]
+                border
+                border-[#dedede]
+                bg-white
+                shadow-[0_2px_6px_rgba(0,0,0,0.06)]
+                transition-all
+                duration-300
+                hover:-translate-y-1
+                hover:shadow-[0_10px_25px_rgba(0,0,0,0.12)]
+              "
+            >
+              {/* Badge */}
+              <div className="absolute left-3 top-0 z-30">
+                <div
+                  className="
+                    flex
+                    items-center
+                    gap-1.5
+                    rounded-b-[18px]
+                    bg-[#E7B923]
+                    px-3.5
+                    py-[7px]
+                    text-[10px]
+                    font-medium
+                    text-white
+                  "
+                >
+                  <Clock3 size={11} />
+                  Limited time Deal!
                 </div>
               </div>
-              <div className="p-6">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <p className="text-sm text-gray-500">Mentor</p>
-                    <h4 className="text-lg font-bold text-[#042325]">
-                      Kunal Nayak
-                    </h4>
-                  </div>
-                  <div className="text-right">
-                    <div className="inline-flex items-center bg-blue-50 text-blue-600 px-3 py-1 rounded-full text-sm">
-                      4.9 ★
-                    </div>
-                    <p className="text-xs text-gray-400">(500 ratings)</p>
-                  </div>
-                </div>
 
-               <span className="relative -top-[-50px] text-2xl font-semibold text-gray-900 ml-1">
+              {/* =================================================
+                  CARD 2 TOP
+              ================================================= */}
+              <div className="relative h-[270px] overflow-hidden bg-[#E7E9F8]">
+                {/* Main background */}
+                <div className="absolute inset-0 bg-[#E7E9F8]" />
+
+                {/* Person image behind */}
+                <img
+                  src={`${import.meta.env.BASE_URL}assets/2.png`}
+                  alt="Standard Consultation"
+                  className="
+                    absolute
+                    bottom-0
+                    right-[-20px]
+                    z-0
+                    h-[108%]
+                    w-[62%]
+                    object-cover
+                    object-[55%_center]
+                  "
+                />
+
+                {/* Left colored layer */}
+                <div
+                  className="
+                    absolute
+                    bottom-0
+                    left-0
+                    top-0
+                    z-[1]
+                    w-[56%]
+                    bg-[#E7E9F8]
+                  "
+                />
+
+                {/* Image background */}
+                <div
+                  className="
+                    absolute
+                    bottom-0
+                    right-0
+                    top-0
+                    z-[1]
+                    w-[43%]
+                    rounded-tl-[45px]
+                    bg-[#858DCC]
+                  "
+                />
+
+                {/* Person */}
+                <img
+                  src={`${import.meta.env.BASE_URL}assets/2.png`}
+                  alt="Standard Consultation"
+                  className="
+                    absolute
+                    bottom-0
+                    right-[-20px]
+                    z-[2]
+                    h-[108%]
+                    w-[62%]
+                    object-cover
+                    object-[55%_center]
+                  "
+                />
+
+                {/* Text */}
+                <div className="relative z-10 flex h-full w-[56%] flex-col justify-center px-5 pt-4">
+                  <h2 className="text-[23px] font-medium leading-[1.15] text-[#4E5C91]">
+                    Standard
+                  </h2>
+
+                  <h2 className="text-[23px] font-medium leading-[1.15] text-[#4E5C91]">
+                    Consultation
+                  </h2>
+                </div>
+              </div>
+
+              {/* Content */}
+              <div className="px-4 pb-5 pt-5">
+                <h3 className="text-[22px] font-semibold text-[#111]">
                   $299
-                </span>
+                </h3>
 
-                <ul className="mt-[-10px] text-sm text-gray-700 space-y-1 ml-28">
-                  <li className="flex items-start">
-                    <span className="text-blue-500 mr-2">✓</span> Calculate
-                    Retirement Money.
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-500 mr-2">✓</span> Right Way to
-                    Select Mutual Funds.
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-500 mr-2">✓</span> Plan Your
-                    House Purchase.
-                  </li>
-                </ul>
+                <h4 className="mt-3 text-[16px] font-semibold leading-[1.35] text-[#111]">
+                  Standard Consultation with Krunal Nayak (30 Mins)
+                </h4>
 
-                <div className="mt-6 flex gap-3">
+                <p className="mt-4 text-[13px] leading-[1.55] text-[#333]">
+                  Book your online Standard consultation with our Principal
+                  Migration Agents specialised in Australian visas —
+                  appointments available in approximately 3 weeks.
+                </p>
+
+                <div className="mt-5">
                   <button
-                    onClick={() =>
-                      openCalendly("https://calendly.com/krunalnayak/regular")
-                    }
-                    className="flex-1 bg-[#042325] text-white rounded-full py-3"
+                    type="button"
+                    className="text-[13px] font-medium text-[#1769ff] hover:underline"
                   >
-                    Book a seat
+                    View Factsheet
+                  </button>
+                </div>
+
+                <div className="mt-5">
+                  <button
+                    type="button"
+                    onClick={() =>
+                      openCalendly(
+                        "https://calendly.com/krunalnayak/regular"
+                      )
+                    }
+                    className="
+                      w-full
+                      rounded-[8px]
+                      bg-[#222]
+                      py-[11px]
+                      text-[13px]
+                      font-medium
+                      text-white
+                      transition
+                      hover:bg-black
+                    "
+                  >
+                    Book Now
                   </button>
                 </div>
               </div>
             </div>
 
-            {/* Third card */}
-            <div className="bg-white rounded-2xl shadow overflow-hidden hover:shadow-2xl transition duration-300">
-              <div className="bg-[#3b4b63] relative flex items-stretch rounded-tl-[30px]">
-                <div className="w-2/5 bg-[#f0f4f8] p-6 flex flex-col justify-center">
-                  <h3 className="text-2xl font-semibold text-[#3b4b63]">
-                    Urgent
-                  </h3>
-                  <p className="text-sm text-[#3b4b63] mt-2">Consultation</p>
-                </div>
-                <div className="w-3/5">
-                  <img
-                    src={`${import.meta.env.BASE_URL}assets/c.png`}
-                    alt="Consultant"
-                    className="w-full h-full object-cover object-center rounded-tr-2xl"
-                    style={{
-                      height: 188,
-                      marginLeft: 20,
-                      marginTop: 40,
-                      borderRadius: 20,
-                    }}
-                  />
+            {/* =================================================
+                CARD 3
+            ================================================= */}
+            <div
+              className="
+                relative
+                overflow-hidden
+                rounded-[20px]
+                border
+                border-[#dedede]
+                bg-white
+                shadow-[0_2px_6px_rgba(0,0,0,0.06)]
+                transition-all
+                duration-300
+                hover:-translate-y-1
+                hover:shadow-[0_10px_25px_rgba(0,0,0,0.12)]
+              "
+            >
+              {/* Badge */}
+              <div className="absolute left-3 top-0 z-30">
+                <div
+                  className="
+                    flex
+                    items-center
+                    gap-1.5
+                    rounded-b-[18px]
+                    bg-[#1474D4]
+                    px-3.5
+                    py-[7px]
+                    text-[10px]
+                    font-medium
+                    text-white
+                  "
+                >
+                  <ThumbsUp size={11} />
+                  Recommended
                 </div>
               </div>
-              <div className="p-6">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <p className="text-sm text-gray-500">Mentor</p>
-                    <h4 className="text-lg font-bold text-[#042325]">
-                      Krunal Nayak
-                    </h4>
-                  </div>
-                  <div className="text-right">
-                    <div className="inline-flex items-center bg-blue-50 text-blue-600 px-3 py-1 rounded-full text-sm">
-                      4.9 ★
-                    </div>
-                    <p className="text-xs text-gray-400">(500 ratings)</p>
-                  </div>
+
+              {/* =================================================
+                  CARD 3 TOP
+              ================================================= */}
+              <div className="relative h-[270px] overflow-hidden bg-[#EEF1F5]">
+                {/* Main background */}
+                <div className="absolute inset-0 bg-[#EEF1F5]" />
+
+                {/* Person image behind */}
+                <img
+                  src={`${import.meta.env.BASE_URL}assets/3.png`}
+                  alt="Urgent Consultation"
+                  className="
+                    absolute
+                    bottom-0
+                    right-[-20px]
+                    z-0
+                    h-[108%]
+                    w-[62%]
+                    object-cover
+                    object-[55%_center]
+                  "
+                />
+
+                {/* Left background layer */}
+                <div
+                  className="
+                    absolute
+                    bottom-0
+                    left-0
+                    top-0
+                    z-[1]
+                    w-[56%]
+                    bg-[#EEF1F5]
+                  "
+                />
+
+                {/* Image background */}
+                <div
+                  className="
+                    absolute
+                    bottom-0
+                    right-0
+                    top-0
+                    z-[1]
+                    w-[55%]
+                    rounded-tl-[45px]
+                    bg-[#71849D]
+                  "
+                />
+
+                {/* Person */}
+                <img
+                  src={`${import.meta.env.BASE_URL}assets/3.png`}
+                  alt="Urgent Consultation"
+                  className="
+                    absolute
+                    top-0
+                    right-[-30px]
+                    z-[4]
+                    h-full
+                    w-[80%]
+                    object-cover
+                    object-[55%_center]
+                  "
+                />
+
+                {/* Text */}
+                <div className="relative z-10 flex h-full w-[56%] flex-col justify-center px-5 pt-4">
+                  <h2 className="text-[23px] font-medium leading-[1.15] text-[#3B4B63]">
+                    Urgent
+                  </h2>
+
+                  <h2 className="text-[23px] font-medium leading-[1.15] text-[#3B4B63]">
+                    Consultation
+                  </h2>
                 </div>
-                <span className="relative -top-[-50px] text-2xl font-semibold text-gray-900 ml-1">
+              </div>
+
+              {/* Content */}
+              <div className="px-4 pb-5 pt-5">
+                <h3 className="text-[22px] font-semibold text-[#111]">
                   $500
-                </span>
+                </h3>
 
-                <ul className="mt-[-10px] text-sm text-gray-700 space-y-1 ml-28">
-                  <li className="flex items-start">
-                    <span className="text-blue-500 mr-2">✓</span> Calculate
-                    Retirement Money.
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-500 mr-2">✓</span> Right Way to
-                    Select Mutual Funds.
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-500 mr-2">✓</span> Plan Your
-                    House Purchase.
-                  </li>
-                </ul>
+                <h4 className="mt-3 text-[16px] font-semibold leading-[1.35] text-[#111]">
+                  Urgent Consultation with Krunal Nayak (60 Mins)
+                </h4>
 
-                <div className="mt-6 flex gap-3">
+                <p className="mt-4 text-[13px] leading-[1.55] text-[#333]">
+                  Book your urgent online consultation with our Principal
+                  Migration Agents, who specialise in Australian visas and
+                  applications, and receive priority expert guidance .
+                </p>
+
+                <div className="mt-5">
                   <button
-                    onClick={() =>
-                      openCalendly("https://calendly.com/krunalnayak/urgent")
-                    }
-                    className="flex-1 bg-[#042325] text-white rounded-full py-3"
+                    type="button"
+                    className="text-[13px] font-medium text-[#1769ff] hover:underline"
                   >
-                    Book a seat
+                    View Factsheet
+                  </button>
+                </div>
+
+                <div className="mt-5">
+                  <button
+                    type="button"
+                    onClick={() =>
+                      openCalendly(
+                        "https://calendly.com/krunalnayak/urgent"
+                      )
+                    }
+                    className="
+                      w-full
+                      rounded-[8px]
+                      bg-[#222]
+                      py-[11px]
+                      text-[13px]
+                      font-medium
+                      text-white
+                      transition
+                      hover:bg-black
+                    "
+                  >
+                    Book Now
                   </button>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
-        {/* Calendly Popup */}
+        {/* =====================================================
+            CALENDLY POPUP
+        ===================================================== */}
         {isOpen && (
           <PopupModal
             url={selectedUrl}
