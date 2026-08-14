@@ -1,5 +1,14 @@
 export const news = [
   {
+    id: 107,
+    slug: "6500-subclass-407-nominations-refused-whats-behind-it",
+    title:"6,500 Subclass 407 Nominations Refused: What's Behind It? ",
+    metaTitle: "6,500 Subclass 407 Nominations Refused: What You Need to Know",
+    metaDescription:"Around 6,500 Subclass 407 nominations have been refused. Learn why refusals are rising, what happens next and what affected applicants should do.",
+    date: "Aug 14, 2026",
+    image: `/assets/nb69.jpg`,
+  },
+  {
     id: 106,
     slug: "subclass-462-paused-for-24-countries-whats-happening",
     title:"Subclass 462 Paused for 24 Countries: What's Happening?",

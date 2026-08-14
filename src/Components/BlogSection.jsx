@@ -4,6 +4,15 @@ import { Link } from "react-router-dom";
 
 const blogs = [
   {
+    id: 107,
+    slug: "6500-subclass-407-nominations-refused-whats-behind-it",
+    title:"6,500 Subclass 407 Nominations Refused: What's Behind It? ",
+    metaTitle: "6,500 Subclass 407 Nominations Refused: What You Need to Know",
+    metaDescription:"Around 6,500 Subclass 407 nominations have been refused. Learn why refusals are rising, what happens next and what affected applicants should do.",
+    date: "Aug 14, 2026",
+    image: `/assets/nb69.jpg`,
+  },
+  {
     id: 106,
     slug: "subclass-462-paused-for-24-countries-whats-happening",
     title:"Subclass 462 Paused for 24 Countries: What's Happening?",
@@ -20,15 +29,6 @@ const blogs = [
     metaDescription:"Subclass 462 ballot results are out for Indian applicants. Find out what happens after selection, the 28-day visa deadline and PAN card requirements.",
     date: "Aug 11, 2026",
     image: `/assets/nb67.png`,
-  },
-  {
-    id: 104,
-    slug: "vetassess-professional-skills-assessment-fees-to-change-from-9-september-2026",
-    title:"VETASSESS Professional Skills Assessment Fees to Change from 9 September 2026",
-    metaTitle: "VETASSESS Skills Assessment Fees to Increase from 9 Sep 2026",
-    metaDescription:"VETASSESS skills assessment fees will increase from 9 September 2026. Check new fees, affected services, trade occupation exemption and key dates.",
-    date: "Aug 10, 2026",
-    image: `/assets/nb66.png`,
   },
 ];
 
