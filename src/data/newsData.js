@@ -1,5 +1,14 @@
 export const news = [
   {
+    id: 108,
+    slug: "australia-indonesia-work-and-holiday-visa-to-move-to-ballot-system",
+    title:"Australia-Indonesia Work and Holiday Visa to Move to Ballot System ",
+    metaTitle: "Australia-Indonesia Work and Holiday Visa Ballot System",
+    metaDescription:"Australia's Indonesia Work and Holiday visa program is moving to a ballot system. Find out when it opens and who can express interest.",
+    date: "Aug 14, 2026",
+    image: `/assets/nb70.jpg`,
+  },
+  {
     id: 107,
     slug: "6500-subclass-407-nominations-refused-whats-behind-it",
     title:"6,500 Subclass 407 Nominations Refused: What's Behind It? ",

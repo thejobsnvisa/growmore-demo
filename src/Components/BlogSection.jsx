@@ -4,7 +4,16 @@ import { Link } from "react-router-dom";
 
 const blogs = [
   {
-    id: 107,
+    id: 1,
+    slug: "australia-indonesia-work-and-holiday-visa-to-move-to-ballot-system",
+    title:"Australia-Indonesia Work and Holiday Visa to Move to Ballot System ",
+    metaTitle: "Australia-Indonesia Work and Holiday Visa Ballot System",
+    metaDescription:"Australia's Indonesia Work and Holiday visa program is moving to a ballot system. Find out when it opens and who can express interest.",
+    date: "Aug 14, 2026",
+    image: `/assets/nb70.jpg`,
+  },
+  {
+    id: 2,
     slug: "6500-subclass-407-nominations-refused-whats-behind-it",
     title:"6,500 Subclass 407 Nominations Refused: What's Behind It? ",
     metaTitle: "6,500 Subclass 407 Nominations Refused: What You Need to Know",
@@ -13,22 +22,13 @@ const blogs = [
     image: `/assets/nb69.jpg`,
   },
   {
-    id: 106,
+    id: 3,
     slug: "subclass-462-paused-for-24-countries-whats-happening",
     title:"Subclass 462 Paused for 24 Countries: What's Happening?",
     metaTitle: "Subclass 462 Paused for 24 Countries: Latest Update",
     metaDescription:"Subclass 462 visa applications are paused for 24 countries. See affected countries, cap status, what “paused” means and what applicants should do next.",
     date: "Aug 13, 2026",
     image: `/assets/nb68.png`,
-  },
-  {
-    id: 105,
-    slug: "subclass-462-ballot-results-are-finally-released",
-    title:"Subclass 462 Ballot Results Are Finally Released",
-    metaTitle: "Subclass 462 Ballot Results Are Finally Released",
-    metaDescription:"Subclass 462 ballot results are out for Indian applicants. Find out what happens after selection, the 28-day visa deadline and PAN card requirements.",
-    date: "Aug 11, 2026",
-    image: `/assets/nb67.png`,
   },
 ];
 
