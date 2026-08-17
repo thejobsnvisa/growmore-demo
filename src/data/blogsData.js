@@ -1,5 +1,14 @@
 export const blogs = [  
   {
+    id: 106,
+    slug: "want-to-get-your-work-experience-recognised-explore-rpl-in-australia",
+    title: "Want to Get Your Work Experience Recognised? Explore RPL in Australia",
+    metaTitle: "RPL for Skills Assessment: Recognising Your Work Experience",
+    metaDescription:"Have work experience but no suitable qualification? Learn when RPL may be needed for Australia PR, how it works, evidence required and its link to skills assessment.",
+    date: "Aug 17, 2026",
+    image: `/assets/bg106.png`,
+  },
+  {
     id: 105,
     slug: "hairdressers-can-get-direct-pr-in-australia-two-major-pathways-you-should-know",
     title: "Hairdressers Can Get Direct PR in Australia – Two Major PR Pathways You Should Know",
