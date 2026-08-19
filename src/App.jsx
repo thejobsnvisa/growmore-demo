@@ -43,8 +43,6 @@ const StudentAustralia = lazy(() => import("./Pages/StudentAustralia"));
 const StudentDubai = lazy(() => import("./Pages/StudentDubai"));
 const StudentUk = lazy(() => import("./Pages/StudentUk"));
 
-const Book = lazy(() => import("./Pages/Book"));
-
 /* Employer */
 const EmployerVisaBusiness = lazy(() => import("./Pages/EmployerVisaBusiness"));
 const EmployerVisaLabour = lazy(() => import("./Pages/EmployerVisaLabour"));
@@ -242,7 +240,6 @@ function App() {
           <Route path="/our-services/individual/refugee-visa/" element={<IndividualVisaRefugee />} />
           <Route path="/our-services/individual/visitor-evisitor-eta-visa/" element={<IndividualVisaETA />} />
           <Route path="/our-services/individual/student-guardian-visa/" element={<IndividualVisaGurdian />} />
-          <Route path="/book" element={<Book/>}/>
         </Routes>
       </Suspense>
 
