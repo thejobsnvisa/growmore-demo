@@ -1,9 +1,18 @@
 export const news = [
+   {
+    id: 109,
+    slug: "tasmania-may-withdraw-approved-nominations-over-false-clamis",
+    title:"Tasmania May Withdraw Approved Nominations Over False Claims",
+    metaTitle: "Tasmania May Withdraw Approved Nominations Over False Claims",
+    metaDescription:"Tasmania may withdraw approved nominations if false or misleading information is found. Learn how this can affect your visa application.",
+    date: "Aug 19, 2026",
+    image: `/assets/nb71.jpg`,
+  },
   {
     id: 108,
     slug: "australia-indonesia-work-and-holiday-visa-to-move-to-ballot-system",
-    title:"Australia-Indonesia Work and Holiday Visa to Move to Ballot System ",
-    metaTitle: "Australia-Indonesia Work and Holiday Visa Ballot System",
+    title:"Australia Indonesia Work and Holiday Visa to Move to Ballot System ",
+    metaTitle: "Australia Indonesia Work and Holiday Visa Ballot System",
     metaDescription:"Australia's Indonesia Work and Holiday visa program is moving to a ballot system. Find out when it opens and who can express interest.",
     date: "Aug 14, 2026",
     image: `/assets/nb70.jpg`,

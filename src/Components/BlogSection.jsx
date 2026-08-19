@@ -4,31 +4,31 @@ import { Link } from "react-router-dom";
 
 const blogs = [
   {
-    id: 1,
+    id: 109,
+    slug: "tasmania-may-withdraw-approved-nominations-over-false-clamis",
+    title:"Tasmania May Withdraw Approved Nominations Over False Claims",
+    metaTitle: "Tasmania May Withdraw Approved Nominations Over False Claims",
+    metaDescription:"Tasmania may withdraw approved nominations if false or misleading information is found. Learn how this can affect your visa application.",
+    date: "Aug 19, 2026",
+    image: `/assets/nb71.jpg`,
+  },
+  {
+    id: 108,
     slug: "australia-indonesia-work-and-holiday-visa-to-move-to-ballot-system",
-    title:"Australia-Indonesia Work and Holiday Visa to Move to Ballot System ",
-    metaTitle: "Australia-Indonesia Work and Holiday Visa Ballot System",
+    title:"Australia Indonesia Work and Holiday Visa to Move to Ballot System ",
+    metaTitle: "Australia Indonesia Work and Holiday Visa Ballot System",
     metaDescription:"Australia's Indonesia Work and Holiday visa program is moving to a ballot system. Find out when it opens and who can express interest.",
     date: "Aug 14, 2026",
     image: `/assets/nb70.jpg`,
   },
   {
-    id: 2,
+    id: 107,
     slug: "6500-subclass-407-nominations-refused-whats-behind-it",
     title:"6,500 Subclass 407 Nominations Refused: What's Behind It? ",
     metaTitle: "6,500 Subclass 407 Nominations Refused: What You Need to Know",
     metaDescription:"Around 6,500 Subclass 407 nominations have been refused. Learn why refusals are rising, what happens next and what affected applicants should do.",
     date: "Aug 14, 2026",
     image: `/assets/nb69.jpg`,
-  },
-  {
-    id: 3,
-    slug: "subclass-462-paused-for-24-countries-whats-happening",
-    title:"Subclass 462 Paused for 24 Countries: What's Happening?",
-    metaTitle: "Subclass 462 Paused for 24 Countries: Latest Update",
-    metaDescription:"Subclass 462 visa applications are paused for 24 countries. See affected countries, cap status, what “paused” means and what applicants should do next.",
-    date: "Aug 13, 2026",
-    image: `/assets/nb68.png`,
   },
 ];
 
