@@ -6,90 +6,62 @@ So, let’s look at when Tasmania can withdraw a nomination and what this could 
 
 ## Tasmania Can Withdraw a Nomination Even After Approval 
 
-Recognition of Prior Learning (RPL) is a process through which you can get formal recognition of knowledge and skills that you have gained through previous work experience, training or other learning. 
+Migration Tasmania may conduct checks after a nomination has been approved. If these checks raise concerns that the nomination was made based on false, misleading or fraudulent information, then it may be withdrawn.  
 
-RPL certification can become relevant where applicants need to demonstrate that their skills meet the requirements of their nominated occupation, but they do not have the conventional qualification which is normally required for that occupation. 
+This means applicants should not assume that receiving a state nomination automatically means the matter is closed.
 
-However, RPL should not be confused with a standard migration skills assessment because both are related, but they are not the same process. 
+For example, Migration Tasmania may have concerns if a nominee: 
 
-## When Is RPL Needed? 
+* Leaves their Tasmanian employment shortly after receiving nomination 
+* Moves interstate soon after nomination 
+* Does not appear to genuinely intend to settle in Tasmania 
+* Does not continue working in the industry or employment declared in their application 
+* Provided fraudulent documents or information during the nomination process 
 
-RPL may become relevant when your practical experience is stronger than your formal qualifications or when your existing qualifications do not fit the standard assessment pathway.  
+## What Happens Before Tasmania Withdraws a Nomination? 
 
-**1. You Have Relevant Work Experience but No Suitable Formal Qualification**
+Migration Tasmania will usually send an email to the nominee if they have a reason to withdraw a nomination. The nominee will be told why Migration Tasmania wants to withdraw the nomination and will be given a chance to explain why it should not be withdrawn. 
 
-You may have spent several years working in a skilled occupation but never completed a formal qualification that matches your experience. 
+Applicants will normally get a duration of seven days to respond. This period may be extended if the nominee asks for more time and provides sufficient justification for it. 
 
-For example, an overseas trade worker may have extensive hands-on experience but no Australian qualification relevant to the intended assessment pathway. 
+This is an important stage because the nominee has an opportunity to respond to the concerns and provide relevant evidence or explanations before a final decision is made. 
 
-Where an appropriate RPL pathway is available, your existing skills can be assessed against the requirements of an Australian qualification, so you don’t have to repeat training for skills you already have. 
+## What Will Tasmania Consider Before Withdrawing the Nomination? 
 
-**2. Your Existing Qualification Does Not Match Your Occupation** 
+Migration Tasmania does not simply rely on the initial concern. Before making its decision, it may consider several factors, including: 
 
-Another situation is where you hold a qualification, but it does not clearly align with your nominated occupation. 
+* Whether the adverse information is accurate and reliable 
+* The accuracy and reliability of information provided by the nominee 
+* Any compelling or compassionate circumstances raised by the nominee 
+* The financial, psychological, emotional or other hardship that withdrawal could cause the nominee and their family 
+* The potential impact of the decision on the integrity and reputation of the Tasmanian Skilled Migration State Nomination Program 
 
-Your work experience may strongly support the occupation, but your education may not meet the standard qualification requirements of the relevant assessing authority. In this situation, you can get RPL if this meets your specific skills assessment authority’s requirements. 
+After looking at all the information and the nominee's response, Migration Tasmania will decide if they should withdraw the nomination or not. 
 
-**3. Your Trade Assessment Pathway Allows an RPL Qualification** 
+## What Happens If Tasmania Withdraws the Nomination? 
 
-RPL can be relevant for some trade occupations, especially where you have strong practical experience but lack a formal qualification. 
+If Migration Tasmania decides to withdraw the nomination, it will immediately advise the Department of Home Affairs. 
 
-For example, an experienced automotive technician, chef or construction worker may be able to obtain a qualification through RPL where the relevant RTO and assessment pathway allow it. 
+This withdrawal can have serious consequences for the related visa application and may result in the visa application being refused by the Department of Home Affairs. Because state nomination is an important part of Australian visa pathways such as Subclass 190 and Subclass 491 and can directly affect an applicant’s future Australian PR plans. 
 
-However, an RPL qualification does not guarantee a positive skills assessment. The assessing authority will still check your qualification, employment history and supporting evidence against its requirements. 
+So, people who are applying for Tasmania skilled migration should make sure that all the information they provide is correct and consistent across all their documents, including their application, ROI and other supporting documents. 
 
-## RPL vs Skills Assessment: What Is the Difference? 
+## Can You Review a Nomination Withdrawal Decision? 
 
-These two terms are often used together, but they have different purposes.  
+According to Migration Tasmania, a decision to withdraw a nomination cannot be reviewed. 
 
-RPL focuses on recognising existing skills, knowledge and competencies gained through previous work, training or learning while skills assessment is conducted by the relevant Australian assessing authority to determine whether your skills and qualifications meet the requirements of your nominated occupation.  
+This makes it particularly important to respond carefully if Tasmania contacts you about concerns regarding your nomination. Any response should directly address the issues raised and be supported by relevant evidence where available. 
 
-In simple terms: 
+## What Does This Mean for Tasmania Skilled Migration Applicants? 
 
-RPL may provide recognised evidence of your existing skills, while a Skills Assessment may support your skilled migration application. 
+The key message is simple: state nomination approval does not remove your responsibility to provide truthful information and meet the commitments made during the nomination process. 
 
-## What Evidence Is Needed for RPL? 
+Applicants should be particularly careful about information related to their employment, occupation, work location, settlement intentions and supporting documents. If any of these circumstances change after receiving a Tasmania nomination, do not assume that the change is harmless. Its potential impact will depend on the circumstances and the commitments made in your application. 
 
-Evidence requirements vary depending on the RPL pathway and your occupation. The RTO or relevant assessing authority will determine the specific evidence that is needed. However, applicants may commonly require documents such as: 
+## Need Help With Your Tasmania Nomination? 
 
-* **Employment Evidence:** Employer reference letters, employment contracts, payslips, tax records, position descriptions, or official employment records that verify your work experience and responsibilities. 
+If Migration Tasmania has raised concerns about the information provided in your nomination, or your circumstances have changed after nomination, it is important to understand the potential impact before taking any further action. 
 
-* **Work Samples and Project Evidence:** Photographs of completed work, project documents, technical drawings, reports, designs, videos, or other examples that demonstrate your practical skills and competencies. 
+At Growmore Immigration, our Registered Migration Agent (RMA) understands the relevant Australian immigration laws and visa requirements to provide you with authorised immigration guidance and help you make informed decisions about your nomination and associated visa application. 
 
-* **Qualifications and Training Records:** Overseas certificates, diplomas, short-course certificates, safety training, trade licences, professional registrations, or other relevant training records. 
-
-* **Professional References:** References from employers, supervisors, managers or clients confirming your role, employment period, duties and level of competency. 
-
-* **Skills and Competency Evidence:** Documents or practical evidence that shows how you have applied the skills and knowledge required for the relevant Australian qualification or occupation. 
-
-* **Identity Documents:** Passport and other identification documents required by the RPL provider or assessing authority. 
-
-* **Additional Supporting Evidence:** Any other documents requested by the RTO or relevant skills assessing authority, particularly where further evidence is needed to verify your experience or competencies. 
-
-## Looking to Get Your Skills Recognised Through RPL? 
-
-If you are not sure whether RPL is required for your migration process or not, Growmore Immigration can help you understand your options, find a suitable RTO, and guide you through the relevant skills assessment requirements. Beyond skills assessment, we can also guide you on available Australia visa options, points requirements and the next steps towards Australia PR. 
-
-So, book a consultation with our Registered Migration Agent in Australia today and get clear guidance on your migration options. 
-
-## FAQs 
-
-**1. Can RPL be used for a skills assessment in Australia?**
-
-Yes, RPL may be used where the relevant assessment pathway allows it. However, an RPL qualification does not automatically guarantee a positive migration skills assessment. 
-
-**2. Can I get an RPL qualification based on work experience?**
-
-Yes, you may be able to obtain an RPL qualification based on relevant work experience if the RTO and qualification pathway allow it. You may need employment records, work samples and other supporting evidence. 
-
-**3. What is the difference between RPL and a skills assessment?**
-
-RPL recognises skills and knowledge gained through previous experience, while a skills assessment determines whether your skills and qualifications meet the requirements of your nominated occupation. 
-
-**4. How Does the RPL Assessment Process Work?**
-
-The RTO reviews your work experience, skills and evidence against the requirements of the relevant qualification. You may need to provide documents, work samples or complete an assessment to demonstrate your competencies. If you meet the requirements, you may receive the qualification through RPL. 
-
-**5. Does an RPL qualification guarantee a positive skills assessment?**
-
-No. An RPL qualification does not guarantee a positive skills assessment. The relevant assessing authority will assess your qualification, work experience and supporting evidence against its specific requirements. 
+Source: [Additional information, exclusions and definitions–Tasmania ](https://www.migration.tas.gov.au/skilled_migration/additional_information,_exclusions_and_definitions)

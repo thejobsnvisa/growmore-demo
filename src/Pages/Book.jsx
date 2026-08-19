@@ -1,13 +1,104 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { PopupModal } from "react-calendly";
 import { Helmet } from "react-helmet-async";
-import { Clock3, ThumbsUp } from "lucide-react";
+import { Clock3, ThumbsUp, Check } from "lucide-react";
+
+// =====================================================
+// Consultation Card Configuration
+// =====================================================
+
+const CONSULTATION_CARDS = [
+  {
+    id: "free-callback",
+    badge: {
+      text: "Recommended",
+      icon: ThumbsUp,
+      color: "bg-[#38A5BC]",
+    },
+    bgColor: "bg-[#F0F7F4]",
+    accentBg: "bg-[#A6C9AF]",
+    textColor: "text-[#111827]",
+    buttonBg: "bg-[#2DA099] hover:bg-[#23837D]",
+    buttonText: "REQUEST FREE CALLBACK",
+    titleLines: ["Free", "Callback"],
+    heading: "$0 | 15 Mins",
+    subheading: "Speak with our Migration Support Specialist",
+    bullets: [
+      "Discuss your migration goals",
+      "Understand available services",
+      "Know your next steps",
+      "Callback within 24 hours",
+    ],
+    imageSrc: "assets/1.png",
+    calendlyUrl: "https://case.growmore.one/add/company-website",
+  },
+
+  {
+    id: "standard-consultation",
+    badge: {
+      text: "Limited time Deal!!",
+      icon: Clock3,
+      color: "bg-[#70BF44]",
+    },
+    bgColor: "bg-[#EEF6FB]",
+    accentBg: "bg-[#9FC9EB]",
+    textColor: "text-[#111827]",
+    buttonBg: "bg-[#1D82AA] hover:bg-[#166A8B]",
+    buttonText: "BOOK NOW",
+    titleLines: ["Migration Strategy", "Session"],
+    heading: "$299 | 30 Mins",
+    subheading: "Krunal Nayak – MARN 2217941",
+    bullets: [
+      "Principal Migration Agent",
+      "Expert migration advice",
+      "Review your visa options",
+      "Clear guidance on next steps",
+      "Available within 7 days",
+    ],
+    imageSrc: "assets/2.png",
+    calendlyUrl: "https://calendly.com/krunalnayak/regular",
+  },
+
+  {
+    id: "urgent-consultation",
+    badge: {
+      text: "Recommended",
+      icon: ThumbsUp,
+      color: "bg-[#38A5BC]",
+    },
+    bgColor: "bg-[#EDF7F6]",
+    accentBg: "bg-[#80C2BD]",
+    textColor: "text-[#111827]",
+    buttonBg: "bg-[#16676C] hover:bg-[#0F4E52]",
+    buttonText: "BOOK URGENT",
+    titleLines: ["Urgent", "Consultation"],
+    heading: "$500 | 60 Mins",
+    subheading: "Krunal Nayak – MARN 2217941",
+    bullets: [
+      "Principal Migration Agent",
+      "Priority migration advice",
+      "Review urgent visa concerns",
+      "Discuss immediate options",
+      "Same-day availability",
+    ],
+    imageSrc: "assets/3.png",
+    calendlyUrl: "https://calendly.com/krunalnayak/urgent",
+  },
+];
+
+// =====================================================
+// Book Consultation
+// =====================================================
 
 const BookConsultation = () => {
-  const url = "https://www.growmore.one/book-consultation/";
+  const pageUrl = "https://www.growmore.one/book-consultation/";
 
   const [isOpen, setIsOpen] = useState(false);
   const [selectedUrl, setSelectedUrl] = useState("");
+
+  // ===================================================
+  // Calendly
+  // ===================================================
 
   const openCalendly = (calendlyUrl) => {
     setSelectedUrl(calendlyUrl);
@@ -16,28 +107,34 @@ const BookConsultation = () => {
 
   const closeCalendly = () => {
     setIsOpen(false);
+    setSelectedUrl("");
   };
+
+  // ===================================================
+  // Prevent background scrolling when modal is open
+  // ===================================================
 
   useEffect(() => {
     if (isOpen) {
       document.documentElement.style.overflow = "hidden";
       document.body.style.overflow = "hidden";
     } else {
-      document.documentElement.style.overflow = "auto";
-      document.body.style.overflow = "auto";
+      document.documentElement.style.overflow = "";
+      document.body.style.overflow = "";
     }
 
     return () => {
-      document.documentElement.style.overflow = "auto";
-      document.body.style.overflow = "auto";
+      document.documentElement.style.overflow = "";
+      document.body.style.overflow = "";
     };
   }, [isOpen]);
 
   return (
     <>
-      {/* =====================================================
+      {/* =================================================
           SEO
-      ===================================================== */}
+      ================================================= */}
+
       <Helmet>
         <title>
           Book Your Australian Visa Consultation | Growmore Immigration
@@ -48,7 +145,7 @@ const BookConsultation = () => {
           content="Secure your future in Australia. Book a professional consultation for PR, Student, or Partner visas with our expert migration team. Start your journey today!"
         />
 
-        <link rel="canonical" href={url} />
+        <link rel="canonical" href={pageUrl} />
 
         <meta
           property="og:title"
@@ -60,7 +157,7 @@ const BookConsultation = () => {
           content="Secure your future in Australia. Book a professional consultation for PR, Student, or Partner visas with our expert migration team. Start your journey today!"
         />
 
-        <meta property="og:url" content={url} />
+        <meta property="og:url" content={pageUrl} />
 
         <meta
           property="og:image"
@@ -68,26 +165,71 @@ const BookConsultation = () => {
         />
       </Helmet>
 
-      <div className="w-full">
-        {/* =====================================================
+      {/* =================================================
+          PAGE
+      ================================================= */}
+
+      <main className="w-full bg-[#fafafa]">
+        {/* =================================================
             HERO
-        ===================================================== */}
-        <section className="bg-[#28535B] py-16 md:py-20">
-          <div className="mx-auto max-w-[1400px] px-6 md:px-15">
-            <h1 className="mb-3 text-[22px] font-semibold text-white md:text-5xl">
+        ================================================= */}
+
+        <section className="bg-[#16676C] py-12 md:py-16 lg:py-20">
+          <div
+            className="
+              mx-auto
+              w-full
+              max-w-[1400px]
+              px-5
+              sm:px-8
+              md:px-12
+              lg:px-15
+            "
+          >
+            <h1
+              className="
+                mb-3
+                text-[22px]
+                font-semibold
+                leading-tight
+                text-white
+                sm:text-[28px]
+                md:text-4xl
+                lg:text-5xl
+              "
+            >
               Book Consultation
             </h1>
 
-            <p className="font-semibold text-white">
+            <p
+              className="
+                text-[13px]
+                font-semibold
+                text-white
+                sm:text-[14px]
+                md:text-base
+              "
+            >
               Home &gt; Book Consultation
             </p>
           </div>
         </section>
 
-        {/* =====================================================
-            CARDS
-        ===================================================== */}
-        <section className="bg-[#fafafa] px-4 py-14 md:px-6 lg:px-8">
+        {/* =================================================
+            CONSULTATION CARDS
+        ================================================= */}
+
+        <section
+          className="
+            w-full
+            bg-[#fafafa]
+            px-4
+            py-14
+            sm:px-6
+            md:py-16
+            lg:px-8
+          "
+        >
           <div
             className="
               mx-auto
@@ -100,522 +242,294 @@ const BookConsultation = () => {
               lg:grid-cols-3
             "
           >
-            {/* =================================================
-                CARD 1
-            ================================================= */}
-            <div
-              className="
-                relative
-                overflow-hidden
-                rounded-[20px]
-                border
-                border-[#dedede]
-                bg-white
-                shadow-[0_2px_6px_rgba(0,0,0,0.06)]
-                transition-all
-                duration-300
-                hover:-translate-y-1
-                hover:shadow-[0_10px_25px_rgba(0,0,0,0.12)]
-              "
-            >
-              {/* Badge */}
-              <div className="absolute left-3 top-0 z-30">
-                <div
+            {CONSULTATION_CARDS.map((card) => {
+              const BadgeIcon = card.badge.icon;
+
+              const fullImgSrc = `${import.meta.env.BASE_URL}${card.imageSrc}`;
+
+              return (
+                <article
+                  key={card.id}
                   className="
+                    relative
                     flex
-                    items-center
-                    gap-1.5
-                    rounded-b-[18px]
-                    bg-[#1474D4]
-                    px-3.5
-                    py-[7px]
-                    text-[10px]
-                    font-medium
-                    text-white
+                    min-h-[520px]
+                    flex-col
+                    overflow-visible
+                    rounded-[20px]
+                    border
+                    border-[#E5E7EB]
+                    bg-white
+                    shadow-[0_2px_6px_rgba(0,0,0,0.06)]
+                    transition-all
+                    duration-300
+                    hover:-translate-y-1
+                    hover:shadow-[0_10px_25px_rgba(0,0,0,0.12)]
                   "
                 >
-                  <ThumbsUp size={11} />
-                  Recommended
-                </div>
-              </div>
+                  {/* =================================================
+                      BADGE
+                  ================================================= */}
 
-              {/* =================================================
-                  CARD 1 TOP
-              ================================================= */}
-              <div className="relative h-[270px] overflow-hidden bg-[#F5EED7]">
-                {/* Person image - BEHIND */}
-                <img
-                  src={`${import.meta.env.BASE_URL}assets/1.png`}
-                  alt="Free Callback"
-                  className="
-                    absolute
-                    bottom-0
-                    right-[-15px]
-                    z-0
-                    h-[105%]
-                    w-[58%]
-                    object-cover
-                    object-[55%_center]
-                  "
-                />
+                  <div className="absolute left-3 top-0 z-[50]">
+                    <div
+                      className={`
+                        flex
+                        items-center
+                        gap-1.5
+                        rounded-b-[18px]
+                        ${card.badge.color}
+                        px-3.5
+                        py-[7px]
+                        text-[10px]
+                        font-medium
+                        text-white
+                      `}
+                    >
+                      <BadgeIcon size={11} strokeWidth={2} />
 
-                {/* Background layer */}
-                <div
-                  className="
-                    absolute
-                    bottom-0
-                    left-0
-                    top-0
-                    z-[1]
-                    w-[56%]
-                    bg-[#F5EED7]
-                  "
-                />
+                      <span>{card.badge.text}</span>
+                    </div>
+                  </div>
 
-                {/* Image background */}
-                <div
-                  className="
-                    absolute
-                    bottom-0
-                    right-0
-                    top-0
-                    z-[1]
-                    w-[43%]
-                    rounded-tl-[45px]
-                    bg-[#C9A45C]
-                  "
-                />
+                  {/* =================================================
+                      TOP IMAGE AREA
+                  ================================================= */}
 
-                {/* Person image above image background */}
-                <img
-                  src={`${import.meta.env.BASE_URL}assets/1.png`}
-                  alt="Free Callback"
-                  className="
-                    absolute
-                    bottom-0
-                    right-[-15px]
-                    z-[2]
-                    h-[105%]
-                    w-[58%]
-                    object-cover
-                    object-[55%_center]
-                  "
-                />
-
-                {/* Text */}
-                <div className="relative z-10 flex h-full w-[56%] flex-col justify-center px-5 pt-4">
-                  <h2 className="text-[23px] font-medium leading-[1.15] text-[#8B6F2F]">
-                    Free
-                  </h2>
-
-                  <h2 className="text-[23px] font-medium leading-[1.15] text-[#8B6F2F]">
-                    Callback
-                  </h2>
-                </div>
-              </div>
-
-              {/* Content */}
-              <div className="px-4 pb-5 pt-5">
-                <h3 className="text-[22px] font-semibold text-[#111]">
-                  Free Callback
-                </h3>
-
-                <h4 className="mt-3 text-[16px] font-semibold leading-[1.35] text-[#111]">
-                  Speak with our Migration Support Team
-                </h4>
-
-                <p className="mt-4 text-[13px] leading-[1.55] text-[#333]">
-                  Fill in your details, and our team members will call you to :
-                  Understand your migration goals, Check your eligibility,
-                  Explain the next steps, Answer your questions. No obligation.
-                  No payment required.
-                </p>
-
-                <div className="mt-5">
-                  <button
-                    type="button"
-                    className="text-[13px] font-medium text-[#1769ff] hover:underline"
-                  >
-                    View Factsheet
-                  </button>
-                </div>
-
-                <div className="mt-5">
-                  <button
-                    type="button"
-                    onClick={() =>
-                      openCalendly(
-                        "https://calendly.com/krunalnayak/regular"
-                      )
-                    }
-                    className="
+                  <div
+                    className={`
+                      relative
+                      h-[270px]
                       w-full
-                      rounded-[8px]
-                      bg-[#222]
-                      py-[11px]
-                      text-[13px]
-                      font-medium
-                      text-white
-                      transition
-                      hover:bg-black
+                      overflow-visible
+                      rounded-t-[20px]
+                      ${card.bgColor}
+                    `}
+                  >
+                    {/* Left Half */}
+
+                    <div
+                      className={`
+                        absolute
+                        inset-y-0
+                        left-0
+                        z-[1]
+                        w-1/2
+                        rounded-tl-[20px]
+                        ${card.bgColor}
+                      `}
+                    />
+
+                    {/* Right Half */}
+
+                    <div
+                      className={`
+                        absolute
+                        inset-y-0
+                        right-0
+                        z-[1]
+                        w-1/2
+                        rounded-tl-[45px]
+                        rounded-tr-[20px]
+                        ${card.accentBg}
+                      `}
+                    />
+
+                    {/* =================================================
+                        PERSON IMAGE
+                    ================================================= */}
+
+                    <img
+                      src={fullImgSrc}
+                      alt={card.titleLines.join(" ")}
+                      loading="lazy"
+                      className="
+                        pointer-events-none
+                        absolute
+                        right-[-35px]
+                        top-[-55px]
+                        z-[20]
+                        h-[325px]
+                        w-[78%]
+                        select-none
+                        object-contain
+                        object-right-bottom
+                      "
+                    />
+
+                    {/* =================================================
+                        TITLE
+                    ================================================= */}
+
+                    <div
+                      className="
+                        relative
+                        z-[10]
+                        flex
+                        h-full
+                        w-1/2
+                        flex-col
+                        justify-center
+                        px-5
+                        pt-4
+                        sm:px-6
+                      "
+                    >
+                      {card.titleLines.map((line, index) => (
+                        <h2
+                          key={`${card.id}-title-${index}`}
+                          className={`
+                            text-[22px]
+                            font-bold
+                            leading-[1.15]
+                            sm:text-[24px]
+                            ${card.textColor}
+                          `}
+                        >
+                          {line}
+                        </h2>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* =================================================
+                      CARD CONTENT
+                  ================================================= */}
+
+                  <div
+                    className="
+                      relative
+                      z-[5]
+                      flex
+                      flex-1
+                      flex-col
+                      justify-between
+                      rounded-b-[20px]
+                      bg-white
+                      px-4
+                      pb-5
+                      pt-5
+                      sm:px-5
                     "
                   >
-                    Book Now
-                  </button>
-                </div>
-              </div>
-            </div>
+                    {/* Main Content */}
 
-            {/* =================================================
-                CARD 2
-            ================================================= */}
-            <div
-              className="
-                relative
-                overflow-hidden
-                rounded-[20px]
-                border
-                border-[#dedede]
-                bg-white
-                shadow-[0_2px_6px_rgba(0,0,0,0.06)]
-                transition-all
-                duration-300
-                hover:-translate-y-1
-                hover:shadow-[0_10px_25px_rgba(0,0,0,0.12)]
-              "
-            >
-              {/* Badge */}
-              <div className="absolute left-3 top-0 z-30">
-                <div
-                  className="
-                    flex
-                    items-center
-                    gap-1.5
-                    rounded-b-[18px]
-                    bg-[#E7B923]
-                    px-3.5
-                    py-[7px]
-                    text-[10px]
-                    font-medium
-                    text-white
-                  "
-                >
-                  <Clock3 size={11} />
-                  Limited time Deal!
-                </div>
-              </div>
+                    <div>
+                      <h3
+                        className="
+                          text-center
+                          text-[22px]
+                          font-bold
+                          leading-tight
+                          text-[#111827]
+                          sm:text-[24px]
+                        "
+                      >
+                        {card.heading}
+                      </h3>
 
-              {/* =================================================
-                  CARD 2 TOP
-              ================================================= */}
-              <div className="relative h-[270px] overflow-hidden bg-[#E7E9F8]">
-                {/* Main background */}
-                <div className="absolute inset-0 bg-[#E7E9F8]" />
+                      <h4
+                        className="
+                          mt-2
+                          text-center
+                          text-[15px]
+                          font-bold
+                          leading-[1.35]
+                          text-[#111827]
+                          sm:text-[16px]
+                        "
+                      >
+                        {card.subheading}
+                      </h4>
 
-                {/* Person image behind */}
-                <img
-                  src={`${import.meta.env.BASE_URL}assets/2.png`}
-                  alt="Standard Consultation"
-                  className="
-                    absolute
-                    bottom-0
-                    right-[-20px]
-                    z-0
-                    h-[108%]
-                    w-[62%]
-                    object-cover
-                    object-[55%_center]
-                  "
-                />
+                      {/* Bullet points description */}
 
-                {/* Left colored layer */}
-                <div
-                  className="
-                    absolute
-                    bottom-0
-                    left-0
-                    top-0
-                    z-[1]
-                    w-[56%]
-                    bg-[#E7E9F8]
-                  "
-                />
+                      <ul className="mt-4 space-y-2 text-[13px] text-[#374151]">
+                        {card.bullets.map((bullet, idx) => (
+                          <li
+                            key={idx}
+                            className="flex items-start gap-2 text-left"
+                          >
+                            <Check
+                              size={15}
+                              className="mt-0.5 shrink-0 text-[#2DA099]"
+                            />
+                            <span>{bullet}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
 
-                {/* Image background */}
-                <div
-                  className="
-                    absolute
-                    bottom-0
-                    right-0
-                    top-0
-                    z-[1]
-                    w-[43%]
-                    rounded-tl-[45px]
-                    bg-[#858DCC]
-                  "
-                />
+                    {/* =================================================
+                        ACTIONS
+                    ================================================= */}
 
-                {/* Person */}
-                <img
-                  src={`${import.meta.env.BASE_URL}assets/2.png`}
-                  alt="Standard Consultation"
-                  className="
-                    absolute
-                    bottom-0
-                    right-[-20px]
-                    z-[2]
-                    h-[108%]
-                    w-[62%]
-                    object-cover
-                    object-[55%_center]
-                  "
-                />
+                    <div className="mt-6">
+                      {/* Factsheet */}
 
-                {/* Text */}
-                <div className="relative z-10 flex h-full w-[56%] flex-col justify-center px-5 pt-4">
-                  <h2 className="text-[23px] font-medium leading-[1.15] text-[#4E5C91]">
-                    Standard
-                  </h2>
+                      <div className="mb-3 text-center">
+                        <a
+                          href="https://6fvy.short.gy/icfactsheet"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="
+      inline-block
+      text-[13px]
+      font-medium
+      text-[#1D82AA]
+      transition
+      hover:underline
+    "
+                        >
+                          View Factsheet
+                        </a>
+                      </div>
 
-                  <h2 className="text-[23px] font-medium leading-[1.15] text-[#4E5C91]">
-                    Consultation
-                  </h2>
-                </div>
-              </div>
+                      {/* Action Button */}
 
-              {/* Content */}
-              <div className="px-4 pb-5 pt-5">
-                <h3 className="text-[22px] font-semibold text-[#111]">
-                  $299
-                </h3>
-
-                <h4 className="mt-3 text-[16px] font-semibold leading-[1.35] text-[#111]">
-                  Standard Consultation with Krunal Nayak (30 Mins)
-                </h4>
-
-                <p className="mt-4 text-[13px] leading-[1.55] text-[#333]">
-                  Book your online Standard consultation with our Principal
-                  Migration Agents specialised in Australian visas —
-                  appointments available in approximately 3 weeks.
-                </p>
-
-                <div className="mt-5">
-                  <button
-                    type="button"
-                    className="text-[13px] font-medium text-[#1769ff] hover:underline"
-                  >
-                    View Factsheet
-                  </button>
-                </div>
-
-                <div className="mt-5">
-                  <button
-                    type="button"
-                    onClick={() =>
-                      openCalendly(
-                        "https://calendly.com/krunalnayak/regular"
-                      )
-                    }
-                    className="
-                      w-full
-                      rounded-[8px]
-                      bg-[#222]
-                      py-[11px]
-                      text-[13px]
-                      font-medium
-                      text-white
-                      transition
-                      hover:bg-black
-                    "
-                  >
-                    Book Now
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            {/* =================================================
-                CARD 3
-            ================================================= */}
-            <div
-              className="
-                relative
-                overflow-hidden
-                rounded-[20px]
-                border
-                border-[#dedede]
-                bg-white
-                shadow-[0_2px_6px_rgba(0,0,0,0.06)]
-                transition-all
-                duration-300
-                hover:-translate-y-1
-                hover:shadow-[0_10px_25px_rgba(0,0,0,0.12)]
-              "
-            >
-              {/* Badge */}
-              <div className="absolute left-3 top-0 z-30">
-                <div
-                  className="
-                    flex
-                    items-center
-                    gap-1.5
-                    rounded-b-[18px]
-                    bg-[#1474D4]
-                    px-3.5
-                    py-[7px]
-                    text-[10px]
-                    font-medium
-                    text-white
-                  "
-                >
-                  <ThumbsUp size={11} />
-                  Recommended
-                </div>
-              </div>
-
-              {/* =================================================
-                  CARD 3 TOP
-              ================================================= */}
-              <div className="relative h-[270px] overflow-hidden bg-[#EEF1F5]">
-                {/* Main background */}
-                <div className="absolute inset-0 bg-[#EEF1F5]" />
-
-                {/* Person image behind */}
-                <img
-                  src={`${import.meta.env.BASE_URL}assets/3.png`}
-                  alt="Urgent Consultation"
-                  className="
-                    absolute
-                    bottom-0
-                    right-[-20px]
-                    z-0
-                    h-[108%]
-                    w-[62%]
-                    object-cover
-                    object-[55%_center]
-                  "
-                />
-
-                {/* Left background layer */}
-                <div
-                  className="
-                    absolute
-                    bottom-0
-                    left-0
-                    top-0
-                    z-[1]
-                    w-[56%]
-                    bg-[#EEF1F5]
-                  "
-                />
-
-                {/* Image background */}
-                <div
-                  className="
-                    absolute
-                    bottom-0
-                    right-0
-                    top-0
-                    z-[1]
-                    w-[55%]
-                    rounded-tl-[45px]
-                    bg-[#71849D]
-                  "
-                />
-
-                {/* Person */}
-                <img
-                  src={`${import.meta.env.BASE_URL}assets/3.png`}
-                  alt="Urgent Consultation"
-                  className="
-                    absolute
-                    top-0
-                    right-[-30px]
-                    z-[4]
-                    h-full
-                    w-[80%]
-                    object-cover
-                    object-[55%_center]
-                  "
-                />
-
-                {/* Text */}
-                <div className="relative z-10 flex h-full w-[56%] flex-col justify-center px-5 pt-4">
-                  <h2 className="text-[23px] font-medium leading-[1.15] text-[#3B4B63]">
-                    Urgent
-                  </h2>
-
-                  <h2 className="text-[23px] font-medium leading-[1.15] text-[#3B4B63]">
-                    Consultation
-                  </h2>
-                </div>
-              </div>
-
-              {/* Content */}
-              <div className="px-4 pb-5 pt-5">
-                <h3 className="text-[22px] font-semibold text-[#111]">
-                  $500
-                </h3>
-
-                <h4 className="mt-3 text-[16px] font-semibold leading-[1.35] text-[#111]">
-                  Urgent Consultation with Krunal Nayak (60 Mins)
-                </h4>
-
-                <p className="mt-4 text-[13px] leading-[1.55] text-[#333]">
-                  Book your urgent online consultation with our Principal
-                  Migration Agents, who specialise in Australian visas and
-                  applications, and receive priority expert guidance .
-                </p>
-
-                <div className="mt-5">
-                  <button
-                    type="button"
-                    className="text-[13px] font-medium text-[#1769ff] hover:underline"
-                  >
-                    View Factsheet
-                  </button>
-                </div>
-
-                <div className="mt-5">
-                  <button
-                    type="button"
-                    onClick={() =>
-                      openCalendly(
-                        "https://calendly.com/krunalnayak/urgent"
-                      )
-                    }
-                    className="
-                      w-full
-                      rounded-[8px]
-                      bg-[#222]
-                      py-[11px]
-                      text-[13px]
-                      font-medium
-                      text-white
-                      transition
-                      hover:bg-black
-                    "
-                  >
-                    Book Now
-                  </button>
-                </div>
-              </div>
-            </div>
+                      <button
+                        type="button"
+                        onClick={() => openCalendly(card.calendlyUrl)}
+                        className={`
+                          w-full
+                          rounded-[8px]
+                          ${card.buttonBg}
+                          py-[11px]
+                          text-[13px]
+                          font-semibold
+                          tracking-wide
+                          text-white
+                          transition
+                          duration-200
+                          focus:outline-none
+                          focus:ring-2
+                          focus:ring-[#1D82AA]
+                          focus:ring-offset-2
+                        `}
+                      >
+                        {card.buttonText}
+                      </button>
+                    </div>
+                  </div>
+                </article>
+              );
+            })}
           </div>
         </section>
 
-        {/* =====================================================
-            CALENDLY POPUP
-        ===================================================== */}
-        {isOpen && (
+        {/* =================================================
+            CALENDLY MODAL
+        ================================================= */}
+
+        {isOpen && selectedUrl && (
           <PopupModal
             url={selectedUrl}
             open={isOpen}
             onModalClose={closeCalendly}
-            rootElement={document.getElementById("root")}
+            rootElement={document.getElementById("root") || document.body}
           />
         )}
-      </div>
+      </main>
     </>
   );
 };
