@@ -115,3 +115,62 @@ even though that employment is **not in the applicant's nominated occupation or 
 The applicant must still meet the applicable **residence, study and/or minimum employment-duration requirements** specified for their particular nomination stream.
 
 Exceptional circumstances are considered by MigrationNT and **should not be treated as an automatic exemption simply because an applicant works in a regional area or critical sector.**
+
+# OFFSHORE APPLICANTS
+
+Offshore applicants will generally only be considered for subclass 491.  
+They must:
+
+* Have at least 2 years of post-qualification work experience in their nominated occupation within the last 5 years.
+* Demonstrate genuine long-term commitment to living and working in the NT.
+* Declare sufficient financial capacity to settle in the NT.
+* Qualify under one of the offshore streams below.
+
+## 5. NT Priority Occupation Stream
+
+🚫 **Currently CLOSED to new applications.**  
+NT has a significant backlog from the previous program year.
+
+When available, applicants must:
+
+* Have a full skills assessment for an occupation on the NT Offshore Migration Occupation List (NTOMOL); and
+* meet any additional work-experience requirement specified for that occupation.
+
+## 6. NT Job Offer Stream
+
+* You must have a verifiable NT job offer in your nominated occupation.
+* The employer/business or organisation must have been actively operating in the NT for at least 12 months.
+* Applicants under this stream can nominate any occupation on the national eligible occupation list.
+
+
+## 7. NT Family Stream
+
+You must have an eligible family member who:
+
+* Is usually resident in the NT and has lived there for at least 12 months.
+* Is an Australian citizen, Australian permanent resident, eligible New Zealand citizen, or holds an eligible 491, 494, 489 or 309 visa, or an eligible bridging visa associated with a 887 or 191 application.
+* Is your eligible relative, or your migrating partner's eligible relative.
+* Provides a statutory declaration confirming their willingness and ability to assist you and your migrating dependants with settlement, including accommodation and employment.
+
+### Eligible relatives include:
+* Parent, child/step-child, brother/sister (including adoptive/step siblings), aunt/uncle (including adoptive/step), nephew/niece (including adoptive/step), first cousin or grandparent.
+
+### Applicants must also:
+* Provide a detailed statement or family tree proving the relationship; and
+* show sustained efforts to obtain NT employment, including NT labour-market research, job applications and/or contact with NT employers.
+
+Applicants under the Family stream can nominate any occupation on the national eligible occupation list.
+
+
+## Financial Capacity
+
+Applicants are responsible for their own settlement costs. NT provides the following guidance for net assets:
+
+| Family Composition | Minimum Net Assets |
+| :--- | :--- |
+| **Single applicant** | AU$35,000 |
+| **Applicant + spouse** | AU$50,000 |
+| **Applicant + spouse + 1 child** | AU$60,000 |
+| **Applicant + spouse + 2 children** | AU$65,000 |
+
+> **Note:** Meeting the eligibility criteria does not guarantee nomination. Each application is assessed on its individual merits and nomination remains at the discretion of the NT Government.
