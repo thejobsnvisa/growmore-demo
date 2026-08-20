@@ -171,4 +171,9 @@ Applicants are responsible for their own settlement costs. NT provides the follo
 | **Applicant + spouse + 1 child** | AU$60,000 |
 | **Applicant + spouse + 2 children** | AU$65,000 |
 
-> **Note:** Meeting the eligibility criteria does not guarantee nomination. Each application is assessed on its individual merits and nomination remains at the discretion of the NT Government.
+ Meeting the eligibility criteria does not guarantee nomination. Each application is assessed on its individual merits and nomination remains at the discretion of the NT Government.
+
+## Need Help With Your NT Nomination?
+ 
+Speak with a Registered Migration Agent at Growmore Immigration to assess your eligibility and understand the right pathway for your Australian migration plans.
+
