@@ -1,5 +1,23 @@
 export const news = [
-   {
+    {
+    id: 111,
+    slug:"tasmaina-issues-93-invitations-in-first-2026-27-invitation-round",
+    title:"Tasmania Issues 93 Invitations in First 2026–27 Invitation Round ",
+    metaTitle: "Tasmania Issues 93 Invitations in First 2026–27 Round",
+    metaDescription:"Tasmania issues 93 invitations in its first 2026–27 state nomination round, with 67 for Subclass 190 and 26 for Subclass 491.",
+    date: "Aug 20, 2026",
+    image: `/assets/nb73.png`,
+  },
+     {
+    id: 110,
+    slug:"northern-territory-opens-2026-27-gsm-nominations-from-21-august",
+    title:"Northern Territory Opens 2026–27 GSM Nominations From 21 August",
+    metaTitle: "Northern Territory Opens 2026–27 GSM Nominations From 21 August",
+    metaDescription:"Northern Territory opens 2026–27 GSM nomination applications from 21 August 2026 for eligible Subclass 190 and 491 applicants. Check the latest updates.",
+    date: "Aug 20, 2026",
+    image: `/assets/nb72.jpg`,
+  },
+  {
     id: 109,
     slug: "tasmania-may-withdraw-approved-nominations-over-false-clamis",
     title:"Tasmania May Withdraw Approved Nominations Over False Claims",

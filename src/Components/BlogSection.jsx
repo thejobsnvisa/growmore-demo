@@ -4,6 +4,24 @@ import { Link } from "react-router-dom";
 
 const blogs = [
   {
+    id: 111,
+    slug:"tasmaina-issues-93-invitations-in-first-2026-27-invitation-round",
+    title:"Tasmania Issues 93 Invitations in First 2026–27 Invitation Round ",
+    metaTitle: "Tasmania Issues 93 Invitations in First 2026–27 Round",
+    metaDescription:"Tasmania issues 93 invitations in its first 2026–27 state nomination round, with 67 for Subclass 190 and 26 for Subclass 491.",
+    date: "Aug 20, 2026",
+    image: `/assets/nb73.png`,
+  },
+     {
+    id: 110,
+    slug:"northern-territory-opens-2026-27-gsm-nominations-from-21-august",
+    title:"Northern Territory Opens 2026–27 GSM Nominations From 21 August",
+    metaTitle: "Northern Territory Opens 2026–27 GSM Nominations From 21 August",
+    metaDescription:"Northern Territory opens 2026–27 GSM nomination applications from 21 August 2026 for eligible Subclass 190 and 491 applicants. Check the latest updates.",
+    date: "Aug 20, 2026",
+    image: `/assets/nb72.jpg`,
+  },
+  {
     id: 109,
     slug: "tasmania-may-withdraw-approved-nominations-over-false-clamis",
     title:"Tasmania May Withdraw Approved Nominations Over False Claims",
@@ -11,24 +29,6 @@ const blogs = [
     metaDescription:"Tasmania may withdraw approved nominations if false or misleading information is found. Learn how this can affect your visa application.",
     date: "Aug 19, 2026",
     image: `/assets/nb71.jpg`,
-  },
-  {
-    id: 108,
-    slug: "australia-indonesia-work-and-holiday-visa-to-move-to-ballot-system",
-    title:"Australia Indonesia Work and Holiday Visa to Move to Ballot System ",
-    metaTitle: "Australia Indonesia Work and Holiday Visa Ballot System",
-    metaDescription:"Australia's Indonesia Work and Holiday visa program is moving to a ballot system. Find out when it opens and who can express interest.",
-    date: "Aug 14, 2026",
-    image: `/assets/nb70.jpg`,
-  },
-  {
-    id: 107,
-    slug: "6500-subclass-407-nominations-refused-whats-behind-it",
-    title:"6,500 Subclass 407 Nominations Refused: What's Behind It? ",
-    metaTitle: "6,500 Subclass 407 Nominations Refused: What You Need to Know",
-    metaDescription:"Around 6,500 Subclass 407 nominations have been refused. Learn why refusals are rising, what happens next and what affected applicants should do.",
-    date: "Aug 14, 2026",
-    image: `/assets/nb69.jpg`,
   },
 ];
 
