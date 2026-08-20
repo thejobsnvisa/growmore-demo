@@ -1,6 +1,15 @@
 export const blogs = [  
   {
     id: 106,
+    slug: "nt-190&491-nomination-criteria-updated-for-2026-2027",
+    title: "NT 190 & 491 Nomination Criteria Updated for 2026–27",
+    metaTitle: "NT 190 & 491 Nomination Criteria Updated for 2026–27",
+    metaDescription:"Explore the updated NT 190 and 491 nomination criteria for 2026–27, including eligibility, residence, employment, study and exceptional circumstances.",
+    date: "Aug 20, 2026",
+    image: `/assets/bg107.jpg`,
+  },
+  {
+    id: 106,
     slug: "want-to-get-your-work-experience-recognised-explore-rpl-in-australia",
     title: "Want to Get Your Work Experience Recognised? Explore RPL in Australia",
     metaTitle: "RPL for Skills Assessment: Recognising Your Work Experience",
