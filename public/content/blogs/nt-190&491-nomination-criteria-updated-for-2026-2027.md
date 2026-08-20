@@ -27,6 +27,14 @@ MigrationNT **does not prioritise applications based on points score.**
 For subclass **190**, applicants must generally demonstrate a **stronger connection to the NT than any other Australian state or territory**, with long-term residence and commitment to the NT.
 
 If you apply for 190 but do not qualify, MigrationNT may consider you for **491** instead.
+
+Offshore applicants will generally only be considered for subclass 491.  
+They must:
+
+* Have at least 2 years of post-qualification work experience in their nominated occupation within the last 5 years.
+* Demonstrate genuine long-term commitment to living and working in the NT.
+* Declare sufficient financial capacity to settle in the NT.
+* Qualify under one of the offshore streams below.
  
 ## 1. NT Graduates – Subclass 190
 
@@ -115,16 +123,6 @@ even though that employment is **not in the applicant's nominated occupation or 
 The applicant must still meet the applicable **residence, study and/or minimum employment-duration requirements** specified for their particular nomination stream.
 
 Exceptional circumstances are considered by MigrationNT and **should not be treated as an automatic exemption simply because an applicant works in a regional area or critical sector.**
-
-# OFFSHORE APPLICANTS
-
-Offshore applicants will generally only be considered for subclass 491.  
-They must:
-
-* Have at least 2 years of post-qualification work experience in their nominated occupation within the last 5 years.
-* Demonstrate genuine long-term commitment to living and working in the NT.
-* Declare sufficient financial capacity to settle in the NT.
-* Qualify under one of the offshore streams below.
 
 ## 5. NT Priority Occupation Stream
 
