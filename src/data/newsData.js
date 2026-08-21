@@ -1,91 +1,111 @@
 export const news = [
-    {
+   {
+    id: 112,
+    slug: "department-policy-update-485-graduate-visa-study-gaps-may-not-automatically-affect-eligibility",
+    title: "Department’s Policy update: 485 Graduate Visa: Study Gaps May Not Automatically Affect Eligibility",
+    metaTitle: "485 Study Gap Clarification: What Graduates Need to Know",
+    metaDescription:
+      "Australia clarifies that study gaps may not automatically affect the Subclass 485 Australian Study Requirement. See key exceptions and eligibility details.",
+    date: "Aug 21, 2026",
+    image: `/assets/nb74.png`,
+  },
+  {
     id: 111,
-    slug:"tasmaina-issues-93-invitations-in-first-2026-27-invitation-round",
-    title:"Tasmania Issues 93 Invitations in First 2026–27 Invitation Round ",
+    slug: "tasmaina-issues-93-invitations-in-first-2026-27-invitation-round",
+    title: "Tasmania Issues 93 Invitations in First 2026–27 Invitation Round ",
     metaTitle: "Tasmania Issues 93 Invitations in First 2026–27 Round",
-    metaDescription:"Tasmania issues 93 invitations in its first 2026–27 state nomination round, with 67 for Subclass 190 and 26 for Subclass 491.",
+    metaDescription:
+      "Tasmania issues 93 invitations in its first 2026–27 state nomination round, with 67 for Subclass 190 and 26 for Subclass 491.",
     date: "Aug 20, 2026",
     image: `/assets/nb73.png`,
   },
-     {
+  {
     id: 110,
-    slug:"northern-territory-opens-2026-27-gsm-nominations-from-21-august",
-    title:"Northern Territory Opens 2026–27 GSM Nominations From 21 August",
-    metaTitle: "Northern Territory Opens 2026–27 GSM Nominations From 21 August",
-    metaDescription:"Northern Territory opens 2026–27 GSM nomination applications from 21 August 2026 for eligible Subclass 190 and 491 applicants. Check the latest updates.",
+    slug: "northern-territory-opens-2026-27-gsm-nominations-from-21-august",
+    title: "Northern Territory Opens 2026–27 GSM Nominations From 21 August",
+    metaTitle:
+      "Northern Territory Opens 2026–27 GSM Nominations From 21 August",
+    metaDescription:
+      "Northern Territory opens 2026–27 GSM nomination applications from 21 August 2026 for eligible Subclass 190 and 491 applicants. Check the latest updates.",
     date: "Aug 20, 2026",
     image: `/assets/nb72.jpg`,
   },
   {
     id: 109,
     slug: "tasmania-may-withdraw-approved-nominations-over-false-clamis",
-    title:"Tasmania May Withdraw Approved Nominations Over False Claims",
+    title: "Tasmania May Withdraw Approved Nominations Over False Claims",
     metaTitle: "Tasmania May Withdraw Approved Nominations Over False Claims",
-    metaDescription:"Tasmania may withdraw approved nominations if false or misleading information is found. Learn how this can affect your visa application.",
+    metaDescription:
+      "Tasmania may withdraw approved nominations if false or misleading information is found. Learn how this can affect your visa application.",
     date: "Aug 19, 2026",
     image: `/assets/nb71.jpg`,
   },
   {
     id: 108,
     slug: "australia-indonesia-work-and-holiday-visa-to-move-to-ballot-system",
-    title:"Australia Indonesia Work and Holiday Visa to Move to Ballot System ",
+    title:
+      "Australia Indonesia Work and Holiday Visa to Move to Ballot System ",
     metaTitle: "Australia Indonesia Work and Holiday Visa Ballot System",
-    metaDescription:"Australia's Indonesia Work and Holiday visa program is moving to a ballot system. Find out when it opens and who can express interest.",
+    metaDescription:
+      "Australia's Indonesia Work and Holiday visa program is moving to a ballot system. Find out when it opens and who can express interest.",
     date: "Aug 14, 2026",
     image: `/assets/nb70.jpg`,
   },
   {
     id: 107,
     slug: "6500-subclass-407-nominations-refused-whats-behind-it",
-    title:"6,500 Subclass 407 Nominations Refused: What's Behind It? ",
+    title: "6,500 Subclass 407 Nominations Refused: What's Behind It? ",
     metaTitle: "6,500 Subclass 407 Nominations Refused: What You Need to Know",
-    metaDescription:"Around 6,500 Subclass 407 nominations have been refused. Learn why refusals are rising, what happens next and what affected applicants should do.",
+    metaDescription:
+      "Around 6,500 Subclass 407 nominations have been refused. Learn why refusals are rising, what happens next and what affected applicants should do.",
     date: "Aug 14, 2026",
     image: `/assets/nb69.jpg`,
   },
   {
     id: 106,
     slug: "subclass-462-paused-for-24-countries-whats-happening",
-    title:"Subclass 462 Paused for 24 Countries: What's Happening?",
+    title: "Subclass 462 Paused for 24 Countries: What's Happening?",
     metaTitle: "Subclass 462 Paused for 24 Countries: Latest Update",
-    metaDescription:"Subclass 462 visa applications are paused for 24 countries. See affected countries, cap status, what “paused” means and what applicants should do next.",
+    metaDescription:
+      "Subclass 462 visa applications are paused for 24 countries. See affected countries, cap status, what “paused” means and what applicants should do next.",
     date: "Aug 13, 2026",
     image: `/assets/nb68.png`,
   },
   {
     id: 105,
     slug: "subclass-462-ballot-results-are-finally-released",
-    title:"Subclass 462 Ballot Results Are Finally Released",
+    title: "Subclass 462 Ballot Results Are Finally Released",
     metaTitle: "Subclass 462 Ballot Results Are Finally Released",
-    metaDescription:"Subclass 462 ballot results are out for Indian applicants. Find out what happens after selection, the 28-day visa deadline and PAN card requirements.",
+    metaDescription:
+      "Subclass 462 ballot results are out for Indian applicants. Find out what happens after selection, the 28-day visa deadline and PAN card requirements.",
     date: "Aug 11, 2026",
     image: `/assets/nb67.png`,
   },
   {
     id: 104,
     slug: "vetassess-professional-skills-assessment-fees-to-change-from-9-september-2026",
-    title:"VETASSESS Professional Skills Assessment Fees to Change from 9 September 2026",
+    title:
+      "VETASSESS Professional Skills Assessment Fees to Change from 9 September 2026",
     metaTitle: "VETASSESS Skills Assessment Fees to Increase from 9 Sep 2026",
-    metaDescription:"VETASSESS skills assessment fees will increase from 9 September 2026. Check new fees, affected services, trade occupation exemption and key dates.",
+    metaDescription:
+      "VETASSESS skills assessment fees will increase from 9 September 2026. Check new fees, affected services, trade occupation exemption and key dates.",
     date: "Aug 10, 2026",
     image: `/assets/nb66.png`,
-  }, 
+  },
   {
     id: 103,
     slug: "abf-finds-sponsorship-breach-orders-nearly-120000-repayment",
-    title:
-      "ABF Finds Sponsorship Breach, Orders Nearly $120,000 Repayment",
+    title: "ABF Finds Sponsorship Breach, Orders Nearly $120,000 Repayment",
     metaTitle: "ABF Sanctions NSW Sponsor for Exploiting 482 Visa Workers",
-    metaDescription:"The ABF has sanctioned a NSW aged care provider for recovering sponsorship costs from 482 visa workers, ordering nearly $120,000 in repayments.",
+    metaDescription:
+      "The ABF has sanctioned a NSW aged care provider for recovering sponsorship costs from 482 visa workers, ordering nearly $120,000 in repayments.",
     date: "Aug 07, 2026",
     image: `/assets/nb65.png`,
   },
   {
     id: 102,
     slug: "big-changes-proposed-for-australias-migration-review-process",
-    title:
-      "Big Changes Proposed for Australia's Migration Review Process",
+    title: "Big Changes Proposed for Australia's Migration Review Process",
     metaTitle: "Big Changes Proposed for Australia's Migration Review Process",
     metaDescription:
       "Australia may reform its migration review process under a proposed Bill. Learn the key changes, Senate recommendations, and what they mean for visa applicants.",
