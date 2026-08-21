@@ -28,22 +28,22 @@ const team = [
   },
   {
     name: "Ravinderpal Mahal",
-    role: "MARA Agent",
+    role: "MARN: 2518731",
     img: `${import.meta.env.BASE_URL}assets/team5.png`,
   },
   {
     name: "Hina Ghanghro",
-    role: "MARA Agent",
+    role: "MARN: 2217803",
     img: `${import.meta.env.BASE_URL}assets/team7.png`,
   },
   {
     name: "Arunkumar Padmani",
-    role: "MARA Agent",
+    role: "MARN: 2418630",
     img: `${import.meta.env.BASE_URL}assets/team6.png`,
   },
   {
     name: "Sunaina Dhupad",
-    role: "MARA Agent",
+    role: "MARN: 2318061",
     img: `${import.meta.env.BASE_URL}assets/team8.png`,
   },
 ];
