@@ -1,5 +1,15 @@
 export const news = [
   {
+    id: 114,
+    slug: "australia-working-holiday-visa-delays-why-417-and-462-applications-are-taking-longer",
+    title: "Australia Working Holiday Visa Delays: Why 417 and 462 Applications Are Taking Longer ",
+    metaTitle: "Australia Working Holiday Visa Delays: 417 & 462",
+    metaDescription:
+      "Australia Working Holiday Visa applications for Subclass 417 and 462 are taking longer due to high volumes. Check the latest processing update.",
+    date: "Aug 22, 2026",
+    image: `/assets/nb76.png`,
+  },
+  {
     id: 113,
     slug: "osca-update-abs-seeks-final-feedback-on-draft-2027-osca-update-before-march-release",
     title: "OSCA UPDATE: ABS Seeks Final Feedback on Draft 2027 OSCA Update Before March Release ",

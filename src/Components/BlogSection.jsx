@@ -3,7 +3,17 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-   {
+    {
+    id: 114,
+    slug: "australia-working-holiday-visa-delays-why-417-and-462-applications-are-taking-longer",
+    title: "Australia Working Holiday Visa Delays: Why 417 and 462 Applications Are Taking Longer ",
+    metaTitle: "Australia Working Holiday Visa Delays: 417 & 462",
+    metaDescription:
+      "Australia Working Holiday Visa applications for Subclass 417 and 462 are taking longer due to high volumes. Check the latest processing update.",
+    date: "Aug 22, 2026",
+    image: `/assets/nb76.png`,
+  },
+  {
     id: 113,
     slug: "osca-update-abs-seeks-final-feedback-on-draft-2027-osca-update-before-march-release",
     title: "OSCA UPDATE: ABS Seeks Final Feedback on Draft 2027 OSCA Update Before March Release ",
@@ -22,16 +32,6 @@ const blogs = [
       "Australia clarifies that study gaps may not automatically affect the Subclass 485 Australian Study Requirement. See key exceptions and eligibility details.",
     date: "Aug 21, 2026",
     image: `/assets/nb74.png`,
-  },
-  {
-    id: 111,
-    slug: "tasmaina-issues-93-invitations-in-first-2026-27-invitation-round",
-    title: "Tasmania Issues 93 Invitations in First 2026–27 Invitation Round ",
-    metaTitle: "Tasmania Issues 93 Invitations in First 2026–27 Round",
-    metaDescription:
-      "Tasmania issues 93 invitations in its first 2026–27 state nomination round, with 67 for Subclass 190 and 26 for Subclass 491.",
-    date: "Aug 20, 2026",
-    image: `/assets/nb73.png`,
   },
 ];
 
