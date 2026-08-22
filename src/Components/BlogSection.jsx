@@ -4,6 +4,16 @@ import { Link } from "react-router-dom";
 
 const blogs = [
    {
+    id: 113,
+    slug: "osca-update-abs-seeks-final-feedback-on-draft-2027-osca-update-before-march-release",
+    title: "OSCA UPDATE: ABS Seeks Final Feedback on Draft 2027 OSCA Update Before March Release ",
+    metaTitle: "2027 OSCA Update: ABS Opens Final Consultation",
+    metaDescription:
+      "ABS opens final consultation on the draft 2027 OSCA update. Learn what proposed occupation changes mean for skilled migrants and employers.",
+    date: "Aug 22, 2026",
+    image: `/assets/nb75.png`,
+  },
+   {
     id: 112,
     slug: "department-policy-update-485-graduate-visa-study-gaps-may-not-automatically-affect-eligibility",
     title: "Department’s Policy update: 485 Graduate Visa: Study Gaps May Not Automatically Affect Eligibility",
@@ -22,17 +32,6 @@ const blogs = [
       "Tasmania issues 93 invitations in its first 2026–27 state nomination round, with 67 for Subclass 190 and 26 for Subclass 491.",
     date: "Aug 20, 2026",
     image: `/assets/nb73.png`,
-  },
-  {
-    id: 110,
-    slug: "northern-territory-opens-2026-27-gsm-nominations-from-21-august",
-    title: "Northern Territory Opens 2026–27 GSM Nominations From 21 August",
-    metaTitle:
-      "Northern Territory Opens 2026–27 GSM Nominations From 21 August",
-    metaDescription:
-      "Northern Territory opens 2026–27 GSM nomination applications from 21 August 2026 for eligible Subclass 190 and 491 applicants. Check the latest updates.",
-    date: "Aug 20, 2026",
-    image: `/assets/nb72.jpg`,
   },
 ];
 

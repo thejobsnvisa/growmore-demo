@@ -1,4 +1,14 @@
 export const news = [
+  {
+    id: 113,
+    slug: "osca-update-abs-seeks-final-feedback-on-draft-2027-osca-update-before-march-release",
+    title: "OSCA UPDATE: ABS Seeks Final Feedback on Draft 2027 OSCA Update Before March Release ",
+    metaTitle: "2027 OSCA Update: ABS Opens Final Consultation",
+    metaDescription:
+      "ABS opens final consultation on the draft 2027 OSCA update. Learn what proposed occupation changes mean for skilled migrants and employers.",
+    date: "Aug 22, 2026",
+    image: `/assets/nb75.png`,
+  },
    {
     id: 112,
     slug: "department-policy-update-485-graduate-visa-study-gaps-may-not-automatically-affect-eligibility",
