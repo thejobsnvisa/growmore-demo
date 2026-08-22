@@ -1,6 +1,6 @@
 export const blogs = [  
   {
-    id: 106,
+    id: 107,
     slug: "nt-190&491-nomination-criteria-updated-for-2026-2027",
     title: "NT 190 & 491 Nomination Criteria Updated for 2026–27",
     metaTitle: "NT 190 & 491 Nomination Criteria Updated for 2026–27",
