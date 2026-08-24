@@ -29,7 +29,7 @@ const team = [
   {
     name: "Ravinderpal Mahal",
     role: "MARN: 2518731",
-    img: `${import.meta.env.BASE_URL}assets/team5.png`,
+    img: `${import.meta.env.BASE_URL}assets/team5.jpg`,
   },
   {
     name: "Hina Ghanghro",
@@ -39,12 +39,12 @@ const team = [
   {
     name: "Arunkumar Padmani",
     role: "MARN: 2418630",
-    img: `${import.meta.env.BASE_URL}assets/team6.png`,
+    img: `${import.meta.env.BASE_URL}assets/team6.jpg`,
   },
   {
     name: "Sunaina Dhupad",
     role: "MARN: 2318061",
-    img: `${import.meta.env.BASE_URL}assets/team8.png`,
+    img: `${import.meta.env.BASE_URL}assets/team8.jpg`,
   },
 ];
 
