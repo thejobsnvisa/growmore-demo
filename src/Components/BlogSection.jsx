@@ -4,7 +4,17 @@ import { Link } from "react-router-dom";
 
 const blogs = [
     {
-    id: 114,
+    id: 1,
+    slug: "teacher-registration-deadline-for-scu-students-do-not-miss",
+    title: "Teacher's Registration Deadline for SCU Students: Do not Miss",
+    metaTitle: "Teacher's Registration Deadline for SCU Students: Do not Miss",
+    metaDescription:
+      "Planning WA teacher registration after studying at SCU? Learn about the 30 June 2027 deadline and available registration pathways.",
+    date: "Aug 24, 2026",
+    image: `/assets/nb77.png`,
+  },
+  {
+    id: 2,
     slug: "australia-working-holiday-visa-delays-why-417-and-462-applications-are-taking-longer",
     title: "Australia Working Holiday Visa Delays: Why 417 and 462 Applications Are Taking Longer ",
     metaTitle: "Australia Working Holiday Visa Delays: 417 & 462",
@@ -14,7 +24,7 @@ const blogs = [
     image: `/assets/nb76.png`,
   },
   {
-    id: 113,
+    id: 3,
     slug: "osca-update-abs-seeks-final-feedback-on-draft-2027-osca-update-before-march-release",
     title: "OSCA UPDATE: ABS Seeks Final Feedback on Draft 2027 OSCA Update Before March Release ",
     metaTitle: "2027 OSCA Update: ABS Opens Final Consultation",
@@ -22,16 +32,6 @@ const blogs = [
       "ABS opens final consultation on the draft 2027 OSCA update. Learn what proposed occupation changes mean for skilled migrants and employers.",
     date: "Aug 22, 2026",
     image: `/assets/nb75.png`,
-  },
-   {
-    id: 112,
-    slug: "department-policy-update-485-graduate-visa-study-gaps-may-not-automatically-affect-eligibility",
-    title: "Department’s Policy update: 485 Graduate Visa: Study Gaps May Not Automatically Affect Eligibility",
-    metaTitle: "485 Study Gap Clarification: What Graduates Need to Know",
-    metaDescription:
-      "Australia clarifies that study gaps may not automatically affect the Subclass 485 Australian Study Requirement. See key exceptions and eligibility details.",
-    date: "Aug 21, 2026",
-    image: `/assets/nb74.png`,
   },
 ];
 

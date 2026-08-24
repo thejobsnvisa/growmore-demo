@@ -1,5 +1,15 @@
 export const news = [
   {
+    id: 115,
+    slug: "teacher-registration-deadline-for-scu-students-do-not-miss",
+    title: "Teacher's Registration Deadline for SCU Students: Do not Miss",
+    metaTitle: "Teacher's Registration Deadline for SCU Students: Do not Miss",
+    metaDescription:
+      "Planning WA teacher registration after studying at SCU? Learn about the 30 June 2027 deadline and available registration pathways.",
+    date: "Aug 24, 2026",
+    image: `/assets/nb77.png`,
+  },
+  {
     id: 114,
     slug: "australia-working-holiday-visa-delays-why-417-and-462-applications-are-taking-longer",
     title: "Australia Working Holiday Visa Delays: Why 417 and 462 Applications Are Taking Longer ",
