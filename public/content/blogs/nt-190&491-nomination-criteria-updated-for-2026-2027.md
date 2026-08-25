@@ -66,6 +66,17 @@ Applicants aged over 35 who cannot obtain a 485 may still be considered for 190 
 
 The exceptional circumstances provisions relate to the employment requirement and do not provide an exemption from the required 2 academic years of NT study.
 
+## 2. NT Graduates – Subclass 491
+International student graduates who have studied in the NT may be considered for a subclass 491 nomination if they have:
+
+* successfully completed one or more qualifications after studying full-time in the NT for 2 academic years / 4 semesters at an NT-based institution, through a single tertiary course or a set of nested tertiary courses; and
+* demonstrated genuine and sustained efforts and progress towards obtaining employment from an NT employer in their nominated occupation or a closely related skilled occupation.
+
+This can be demonstrated through evidence of a number of applications made over a period of time for jobs in relevant occupations in the NT, any relevant employment held, membership in relevant professional associations, positive feedback from industry contacts in the NT, or other supporting evidence.
+ 
+You will be expected to demonstrate genuine efforts and progress towards being employed in the NT in your nominated occupation or a closely related skilled occupation both during and after your studies.
+ 
+
 ## 3. NT Residents – Subclass 190
 
 You must:
