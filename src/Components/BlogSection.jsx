@@ -5,6 +5,16 @@ import { Link } from "react-router-dom";
 const blogs = [
     {
     id: 1,
+    slug: "new-pr-points-test-proposal-is-out-major-changes-proposed",
+    title: "New PR Points Test Proposal Is Out — Major changes Proposed.",
+    metaTitle: "Australia PR Points Test: Major Changes Proposed by ANU",
+    metaDescription:
+      "ANU researchers propose major changes to Australia’s PR points test, including more points for age, Australian income, work experience and PhDs.",
+    date: "Aug 25, 2026",
+    image: `/assets/nb78.png`,
+  },
+  {
+    id: 2,
     slug: "teacher-registration-deadline-for-scu-students-do-not-miss",
     title: "Teacher's Registration Deadline for SCU Students: Do not Miss",
     metaTitle: "Teacher's Registration Deadline for SCU Students: Do not Miss",
@@ -14,7 +24,7 @@ const blogs = [
     image: `/assets/nb77.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "australia-working-holiday-visa-delays-why-417-and-462-applications-are-taking-longer",
     title: "Australia Working Holiday Visa Delays: Why 417 and 462 Applications Are Taking Longer ",
     metaTitle: "Australia Working Holiday Visa Delays: 417 & 462",
@@ -22,16 +32,6 @@ const blogs = [
       "Australia Working Holiday Visa applications for Subclass 417 and 462 are taking longer due to high volumes. Check the latest processing update.",
     date: "Aug 22, 2026",
     image: `/assets/nb76.png`,
-  },
-  {
-    id: 3,
-    slug: "osca-update-abs-seeks-final-feedback-on-draft-2027-osca-update-before-march-release",
-    title: "OSCA UPDATE: ABS Seeks Final Feedback on Draft 2027 OSCA Update Before March Release ",
-    metaTitle: "2027 OSCA Update: ABS Opens Final Consultation",
-    metaDescription:
-      "ABS opens final consultation on the draft 2027 OSCA update. Learn what proposed occupation changes mean for skilled migrants and employers.",
-    date: "Aug 22, 2026",
-    image: `/assets/nb75.png`,
   },
 ];
 

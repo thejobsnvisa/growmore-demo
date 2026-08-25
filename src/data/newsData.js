@@ -1,5 +1,15 @@
 export const news = [
   {
+    id: 116,
+    slug: "new-pr-points-test-proposal-is-out-major-changes-proposed",
+    title: "New PR Points Test Proposal Is Out — Major changes Proposed.",
+    metaTitle: "Australia PR Points Test: Major Changes Proposed by ANU",
+    metaDescription:
+      "ANU researchers propose major changes to Australia’s PR points test, including more points for age, Australian income, work experience and PhDs.",
+    date: "Aug 25, 2026",
+    image: `/assets/nb78.png`,
+  },
+  {
     id: 115,
     slug: "teacher-registration-deadline-for-scu-students-do-not-miss",
     title: "Teacher's Registration Deadline for SCU Students: Do not Miss",
