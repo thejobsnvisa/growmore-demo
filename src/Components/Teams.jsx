@@ -34,7 +34,7 @@ const team = [
   {
     name: "Hina Ghanghro",
     role: "MARN: 2217803",
-    img: `${import.meta.env.BASE_URL}assets/team7.png`,
+    img: `${import.meta.env.BASE_URL}assets/team7.jpg`,
   },
   {
     name: "Arunkumar Padmani",
