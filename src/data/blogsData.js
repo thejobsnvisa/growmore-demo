@@ -1,5 +1,14 @@
 export const blogs = [  
   {
+    id: 108,
+    slug: "485-visa-extension-how-graduates-can-stay-longer-in-australia",
+    title: "485 Visa Extension: How Graduates Can Stay Longer in Australia ",
+    metaTitle: "485 Visa Extension Australia: Eligibility & Requirements",
+    metaDescription:"Learn about the 485 visa extension in Australia, including eligibility, regional requirements, stay duration and how to apply for a second 485 visa.",
+    date: "Aug 26, 2026",
+    image: `/assets/bg108.png`,
+  },
+  {
     id: 107,
     slug: "nt-190&491-nomination-criteria-updated-for-2026-2027",
     title: "NT 190 & 491 Nomination Criteria Updated for 2026–27",
