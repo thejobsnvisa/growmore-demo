@@ -28,7 +28,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav ref={navRef} className="sticky top-0 z-50 bg-white shadow-md">
+    <nav ref={navRef} className="fixed left-0  top-0 z-100 w-full bg-white shadow-md">
       <div className="max-w-8xl mx-auto px-4 lg:px-6 xl:px-10">
         <div className="flex items-center justify-between h-20">
           <Link to="/" onClick={closeAll}>
