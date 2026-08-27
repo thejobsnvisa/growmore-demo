@@ -1,5 +1,15 @@
 export const news = [
   {
+    id: 117,
+    slug: "tasmania-second-weekly-invitation-round-45-rois-invited",
+    title: "Tasmania’s Second Weekly Invitation Round: 45 ROIs Invited",
+    metaTitle: "Tasmania Invitation Round: 45 ROIs Invited for 190 & 491",
+    metaDescription:
+      "Tasmania invited 45 ROIs in its latest 2026–27 round. Check Subclass 190 and 491 invitation numbers, scores and what this means for Australia PR.",
+    date: "Aug 27, 2026",
+    image: `/assets/nb79.png`,
+  },
+  {
     id: 116,
     slug: "new-pr-points-test-proposal-is-out-major-changes-proposed",
     title: "New PR Points Test Proposal Is Out — Major changes Proposed.",

@@ -5,6 +5,16 @@ import { Link } from "react-router-dom";
 const blogs = [
     {
     id: 1,
+    slug: "tasmania-second-weekly-invitation-round-45-rois-invited",
+    title: "Tasmania’s Second Weekly Invitation Round: 45 ROIs Invited",
+    metaTitle: "Tasmania Invitation Round: 45 ROIs Invited for 190 & 491",
+    metaDescription:
+      "Tasmania invited 45 ROIs in its latest 2026–27 round. Check Subclass 190 and 491 invitation numbers, scores and what this means for Australia PR.",
+    date: "Aug 27, 2026",
+    image: `/assets/nb79.png`,
+  },
+  {
+    id: 2,
     slug: "new-pr-points-test-proposal-is-out-major-changes-proposed",
     title: "New PR Points Test Proposal Is Out — Major changes Proposed.",
     metaTitle: "Australia PR Points Test: Major Changes Proposed by ANU",
@@ -14,7 +24,7 @@ const blogs = [
     image: `/assets/nb78.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "teacher-registration-deadline-for-scu-students-do-not-miss",
     title: "Teacher's Registration Deadline for SCU Students: Do not Miss",
     metaTitle: "Teacher's Registration Deadline for SCU Students: Do not Miss",
@@ -22,16 +32,6 @@ const blogs = [
       "Planning WA teacher registration after studying at SCU? Learn about the 30 June 2027 deadline and available registration pathways.",
     date: "Aug 24, 2026",
     image: `/assets/nb77.png`,
-  },
-  {
-    id: 3,
-    slug: "australia-working-holiday-visa-delays-why-417-and-462-applications-are-taking-longer",
-    title: "Australia Working Holiday Visa Delays: Why 417 and 462 Applications Are Taking Longer ",
-    metaTitle: "Australia Working Holiday Visa Delays: 417 & 462",
-    metaDescription:
-      "Australia Working Holiday Visa applications for Subclass 417 and 462 are taking longer due to high volumes. Check the latest processing update.",
-    date: "Aug 22, 2026",
-    image: `/assets/nb76.png`,
   },
 ];
 
