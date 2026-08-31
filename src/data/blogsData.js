@@ -1,4 +1,13 @@
 export const blogs = [  
+   {
+    id: 109,
+    slug: "407-nomination-refused-before-you-apply-again-know-your-options",
+    title: "407 Nomination Refused? Before You Apply Again, Know Your Options",
+    metaTitle: "407 Nomination Refused? Know Your Visa Options & Section 48",
+    metaDescription:"407 nomination refused? Learn about Section 48, withdrawal, ART review and other visa options before making your next move in Australia.",
+    date: "Aug 31, 2026",
+    image: `/assets/bg109.png`,
+  },
   {
     id: 108,
     slug: "485-visa-extension-how-graduates-can-stay-longer-in-australia",
