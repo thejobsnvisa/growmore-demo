@@ -5,6 +5,16 @@ import { Link } from "react-router-dom";
 const blogs = [
     {
     id: 1,
+    slug: "tra-qualification-update-check-your-occupation-before-skills-assessment",
+    title: "TRA Qualification Update: Check Your Occupation Before Skills Assessment",
+    metaTitle: "TRA Qualification Update: Check Your Occupation",
+    metaDescription:
+      "TRA has updated its Australian Qualifications by Occupation reference. Check your occupation, qualification and requirements before your TRA skills assessment.",
+    date: "Sep 1, 2026",
+    image: `/assets/nb80.png`,
+  },
+  {
+    id: 2,
     slug: "tasmania-second-weekly-invitation-round-45-rois-invited",
     title: "Tasmania’s Second Weekly Invitation Round: 45 ROIs Invited",
     metaTitle: "Tasmania Invitation Round: 45 ROIs Invited for 190 & 491",
@@ -14,7 +24,7 @@ const blogs = [
     image: `/assets/nb79.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "new-pr-points-test-proposal-is-out-major-changes-proposed",
     title: "New PR Points Test Proposal Is Out — Major changes Proposed.",
     metaTitle: "Australia PR Points Test: Major Changes Proposed by ANU",
@@ -22,16 +32,6 @@ const blogs = [
       "ANU researchers propose major changes to Australia’s PR points test, including more points for age, Australian income, work experience and PhDs.",
     date: "Aug 25, 2026",
     image: `/assets/nb78.png`,
-  },
-  {
-    id: 3,
-    slug: "teacher-registration-deadline-for-scu-students-do-not-miss",
-    title: "Teacher's Registration Deadline for SCU Students: Do not Miss",
-    metaTitle: "Teacher's Registration Deadline for SCU Students: Do not Miss",
-    metaDescription:
-      "Planning WA teacher registration after studying at SCU? Learn about the 30 June 2027 deadline and available registration pathways.",
-    date: "Aug 24, 2026",
-    image: `/assets/nb77.png`,
   },
 ];
 

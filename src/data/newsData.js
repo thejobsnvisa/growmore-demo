@@ -1,5 +1,15 @@
 export const news = [
   {
+    id: 118,
+    slug: "tra-qualification-update-check-your-occupation-before-skills-assessment",
+    title: "TRA Qualification Update: Check Your Occupation Before Skills Assessment",
+    metaTitle: "TRA Qualification Update: Check Your Occupation",
+    metaDescription:
+      "TRA has updated its Australian Qualifications by Occupation reference. Check your occupation, qualification and requirements before your TRA skills assessment.",
+    date: "Sep 1, 2026",
+    image: `/assets/nb80.png`,
+  },
+  {
     id: 117,
     slug: "tasmania-second-weekly-invitation-round-45-rois-invited",
     title: "Tasmania’s Second Weekly Invitation Round: 45 ROIs Invited",
