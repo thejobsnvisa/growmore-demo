@@ -1,5 +1,3 @@
-# Trades Recognition Australia (TRA) – Australian Qualifications by Occupation
-
 Trades Recognition Australia (TRA) has published its current **Australian Qualifications by Occupation** reference, giving skilled and trade applicants an important resource to check before starting a TRA skills assessment.
 
 The document lists occupations assessed by TRA alongside the relevant Australian qualification and qualification code. It covers a wide range of trade and technical occupations, including electricians, plumbers, carpenters, mechanics, chefs, welders, telecommunications technicians and many others.
