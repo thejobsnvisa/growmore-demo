@@ -3,8 +3,18 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-    {
+  {
     id: 1,
+    slug: "tasmania-invites-59-rois-for-state-nomination-in-latest-round",
+    title: "Tasmania Invites 59 ROIs for State Nomination in Latest Round",
+    metaTitle: "Tasmania Invites 59 ROIs for State Nomination",
+    metaDescription:
+      "Tasmania invited 59 ROIs for state nomination on 3 September 2026, including Subclass 190 and 491. Check scores, places and latest updates.",
+    date: "Sep 3, 2026",
+    image: `/assets/nb81.png`,
+  },
+  {
+    id: 2,
     slug: "tra-qualification-update-check-your-occupation-before-skills-assessment",
     title: "TRA Qualification Update: Check Your Occupation Before Skills Assessment",
     metaTitle: "TRA Qualification Update: Check Your Occupation",
@@ -14,7 +24,7 @@ const blogs = [
     image: `/assets/nb80.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "tasmania-second-weekly-invitation-round-45-rois-invited",
     title: "Tasmania’s Second Weekly Invitation Round: 45 ROIs Invited",
     metaTitle: "Tasmania Invitation Round: 45 ROIs Invited for 190 & 491",
@@ -22,16 +32,6 @@ const blogs = [
       "Tasmania invited 45 ROIs in its latest 2026–27 round. Check Subclass 190 and 491 invitation numbers, scores and what this means for Australia PR.",
     date: "Aug 27, 2026",
     image: `/assets/nb79.png`,
-  },
-  {
-    id: 3,
-    slug: "new-pr-points-test-proposal-is-out-major-changes-proposed",
-    title: "New PR Points Test Proposal Is Out — Major changes Proposed.",
-    metaTitle: "Australia PR Points Test: Major Changes Proposed by ANU",
-    metaDescription:
-      "ANU researchers propose major changes to Australia’s PR points test, including more points for age, Australian income, work experience and PhDs.",
-    date: "Aug 25, 2026",
-    image: `/assets/nb78.png`,
   },
 ];
 

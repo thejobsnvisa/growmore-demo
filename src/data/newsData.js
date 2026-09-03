@@ -1,5 +1,15 @@
 export const news = [
   {
+    id: 119,
+    slug: "tasmania-invites-59-rois-for-state-nomination-in-latest-round",
+    title: "Tasmania Invites 59 ROIs for State Nomination in Latest Round",
+    metaTitle: "Tasmania Invites 59 ROIs for State Nomination",
+    metaDescription:
+      "Tasmania invited 59 ROIs for state nomination on 3 September 2026, including Subclass 190 and 491. Check scores, places and latest updates.",
+    date: "Sep 3, 2026",
+    image: `/assets/nb81.png`,
+  },
+  {
     id: 118,
     slug: "tra-qualification-update-check-your-occupation-before-skills-assessment",
     title: "TRA Qualification Update: Check Your Occupation Before Skills Assessment",
