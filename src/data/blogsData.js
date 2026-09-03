@@ -1,5 +1,14 @@
 export const blogs = [
   {
+    id: 111,
+    slug: "cleaning-company-can-sponsor-sc482-494-186",
+    title: "Cleaning Company can Sponsor SC482/494/186?",
+    metaTitle: "Can Cleaning Companies Sponsor 482, 494 & 186 Visas?",
+    metaDescription: "Find out whether cleaning companies can sponsor workers for 482, 494 or 186 visas, including suitable occupations and DAMA pathways.",
+    date: "Sep 3, 2026",
+    image: `/assets/bg111.png`,
+  },
+  {
     id: 110,
     slug: "relationship-break-up-what-happens-to-your-australian-visa-if-your-relationship-breaks-down",
     title: "Relationship Break UP: What Happens to Your Australian Visa If Your Relationship Breaks Down?",
