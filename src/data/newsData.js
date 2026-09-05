@@ -1,5 +1,15 @@
 export const news = [
   {
+    id: 120,
+    slug: "major-push-to-restore-priority-for-offshore-skilled-workers-partners-mia-advocacy",
+    title: "Major Push to Restore Priority for Offshore Skilled Workers & Partners: MIA advocacy",
+    metaTitle: "MIA Calls to Restore Priority for Offshore Workers & Partners",
+    metaDescription:
+      "MIA urges Australia to restore visa processing priority for offshore skilled workers and partners following changes under Ministerial Directions 117 and 119.",
+    date: "Sep 5, 2026",
+    image: `/assets/nb82.jpg`,
+  },
+  {
     id: 119,
     slug: "tasmania-invites-59-rois-for-state-nomination-in-latest-round",
     title: "Tasmania Invites 59 ROIs for State Nomination in Latest Round",

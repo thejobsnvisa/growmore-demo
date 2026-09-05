@@ -5,6 +5,16 @@ import { Link } from "react-router-dom";
 const blogs = [
   {
     id: 1,
+    slug: "major-push-to-restore-priority-for-offshore-skilled-workers-partners-mia-advocacy",
+    title: "Major Push to Restore Priority for Offshore Skilled Workers & Partners: MIA advocacy",
+    metaTitle: "MIA Calls to Restore Priority for Offshore Workers & Partners",
+    metaDescription:
+      "MIA urges Australia to restore visa processing priority for offshore skilled workers and partners following changes under Ministerial Directions 117 and 119.",
+    date: "Sep 5, 2026",
+    image: `/assets/nb82.jpg`,
+  },
+  {
+    id: 2,
     slug: "tasmania-invites-59-rois-for-state-nomination-in-latest-round",
     title: "Tasmania Invites 59 ROIs for State Nomination in Latest Round",
     metaTitle: "Tasmania Invites 59 ROIs for State Nomination",
@@ -14,7 +24,7 @@ const blogs = [
     image: `/assets/nb81.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "tra-qualification-update-check-your-occupation-before-skills-assessment",
     title: "TRA Qualification Update: Check Your Occupation Before Skills Assessment",
     metaTitle: "TRA Qualification Update: Check Your Occupation",
@@ -22,16 +32,6 @@ const blogs = [
       "TRA has updated its Australian Qualifications by Occupation reference. Check your occupation, qualification and requirements before your TRA skills assessment.",
     date: "Sep 1, 2026",
     image: `/assets/nb80.png`,
-  },
-  {
-    id: 3,
-    slug: "tasmania-second-weekly-invitation-round-45-rois-invited",
-    title: "Tasmania’s Second Weekly Invitation Round: 45 ROIs Invited",
-    metaTitle: "Tasmania Invitation Round: 45 ROIs Invited for 190 & 491",
-    metaDescription:
-      "Tasmania invited 45 ROIs in its latest 2026–27 round. Check Subclass 190 and 491 invitation numbers, scores and what this means for Australia PR.",
-    date: "Aug 27, 2026",
-    image: `/assets/nb79.png`,
   },
 ];
 
