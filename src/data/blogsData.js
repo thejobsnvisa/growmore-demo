@@ -1,5 +1,14 @@
 export const blogs = [
   {
+    id: 112,
+    slug: "australia-pr-for-speech-pathologists-eligibility-skills-assessment-visa-options",
+    title: "Australia PR for Speech Pathologists: Eligibility, Skills Assessment & Visa Options",
+    metaTitle: "Australia PR for Speech Pathologists: Skills & Visa Options",
+    metaDescription: "Learn about Australia PR for Speech Pathologists, including SPA skills assessment, English requirements, points, state nomination and visa options.",
+    date: "Sep 7, 2026",
+    image: `/assets/bg112.png`,
+  },
+  {
     id: 111,
     slug: "cleaning-company-can-sponsor-sc482-494-186",
     title: "Cleaning Company can Sponsor SC482/494/186?",
