@@ -1,5 +1,14 @@
 export const blogs = [
   {
+    id: 113,
+    slug: "482-to-186-trt-how-can-you-move-from-temporary-to-pr",
+    title: "482 to 186 TRT: How Can You Move from Temporary to PR?",
+    metaTitle: "482 to 186 TRT: Requirements & Pathway to PR",
+    metaDescription: "Learn how to move from a 482 to 186 TRT visa, including 2-year work requirements, employer nomination, English, age and other PR requirements.",
+    date: "Sep 8, 2026",
+    image: `/assets/bg113.png`,
+  },
+  {
     id: 112,
     slug: "australia-pr-for-speech-pathologists-eligibility-skills-assessment-visa-options",
     title: "Australia PR for Speech Pathologists: Eligibility, Skills Assessment & Visa Options",
