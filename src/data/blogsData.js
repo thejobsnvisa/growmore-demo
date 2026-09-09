@@ -1,5 +1,14 @@
 export const blogs = [
   {
+    id: 114,
+    slug: "how-to-bring-family-to-australia-visa-options-explained",
+    title: "How to Bring Family to Australia: Visa Options Explained",
+    metaTitle: "How to Bring Family to Australia: Visa Options Explained",
+    metaDescription: "Learn how to bring family to Australia with Partner, Parent, Child, Visitor and other family visa options, eligibility requirements and pathways.",
+    date: "Sep 9, 2026",
+    image: `/assets/bg114.png`,
+  },
+  {
     id: 113,
     slug: "482-to-186-trt-how-can-you-move-from-temporary-to-pr",
     title: "482 to 186 TRT: How Can You Move from Temporary to PR?",
