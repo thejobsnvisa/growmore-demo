@@ -1,5 +1,15 @@
 export const news = [
   {
+    id: 121,
+    slug: "tasmania-latest-state-nomination-round-issues-66-invitations",
+    title: "Tasmania’s Latest State Nomination Round Issues 66 Invitations",
+    metaTitle: "Tasmania State Nomination Round: 66 Invitations Issued",
+    metaDescription:
+      "Tasmania issued 66 invitations in its latest 2026-27 state nomination round. See Subclass 190 and 491 scores, priority breakdown and latest updates.",
+    date: "Sep 10, 2026",
+    image: `/assets/nb83.jpg`,
+  },
+  {
     id: 120,
     slug: "major-push-to-restore-priority-for-offshore-skilled-workers-partners-mia-advocacy",
     title: "Major Push to Restore Priority for Offshore Skilled Workers & Partners: MIA advocacy",

@@ -5,6 +5,16 @@ import { Link } from "react-router-dom";
 const blogs = [
   {
     id: 1,
+    slug: "tasmania-latest-state-nomination-round-issues-66-invitations",
+    title: "Tasmania’s Latest State Nomination Round Issues 66 Invitations",
+    metaTitle: "Tasmania State Nomination Round: 66 Invitations Issued",
+    metaDescription:
+      "Tasmania issued 66 invitations in its latest 2026-27 state nomination round. See Subclass 190 and 491 scores, priority breakdown and latest updates.",
+    date: "Sep 10, 2026",
+    image: `/assets/nb83.jpg`,
+  },
+  {
+    id: 2,
     slug: "major-push-to-restore-priority-for-offshore-skilled-workers-partners-mia-advocacy",
     title: "Major Push to Restore Priority for Offshore Skilled Workers & Partners: MIA advocacy",
     metaTitle: "MIA Calls to Restore Priority for Offshore Workers & Partners",
@@ -14,7 +24,7 @@ const blogs = [
     image: `/assets/nb82.jpg`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "tasmania-invites-59-rois-for-state-nomination-in-latest-round",
     title: "Tasmania Invites 59 ROIs for State Nomination in Latest Round",
     metaTitle: "Tasmania Invites 59 ROIs for State Nomination",
@@ -22,16 +32,6 @@ const blogs = [
       "Tasmania invited 59 ROIs for state nomination on 3 September 2026, including Subclass 190 and 491. Check scores, places and latest updates.",
     date: "Sep 3, 2026",
     image: `/assets/nb81.png`,
-  },
-  {
-    id: 3,
-    slug: "tra-qualification-update-check-your-occupation-before-skills-assessment",
-    title: "TRA Qualification Update: Check Your Occupation Before Skills Assessment",
-    metaTitle: "TRA Qualification Update: Check Your Occupation",
-    metaDescription:
-      "TRA has updated its Australian Qualifications by Occupation reference. Check your occupation, qualification and requirements before your TRA skills assessment.",
-    date: "Sep 1, 2026",
-    image: `/assets/nb80.png`,
   },
 ];
 
