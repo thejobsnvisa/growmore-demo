@@ -3,8 +3,18 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-  {
+   {
     id: 1,
+    slug: "tra-assessment-services-expanded-for-electricians-and-plumbers-in-wa",
+    title: "TRA Assessment Services Expanded for Electricians and Plumbers in WA",
+    metaTitle: "TRA Assessments for Electricians & Plumbers in WA | TAFE",
+    metaDescription:
+      "North Metropolitan TAFE expands TRA assessment services in WA for electricians and plumbers seeking skills recognition for skilled migration.",
+    date: "Sep 11, 2026",
+    image: `/assets/nb84.png`,
+  },
+  {
+    id: 2,
     slug: "tasmania-latest-state-nomination-round-issues-66-invitations",
     title: "Tasmania’s Latest State Nomination Round Issues 66 Invitations",
     metaTitle: "Tasmania State Nomination Round: 66 Invitations Issued",
@@ -14,7 +24,7 @@ const blogs = [
     image: `/assets/nb83.jpg`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "major-push-to-restore-priority-for-offshore-skilled-workers-partners-mia-advocacy",
     title: "Major Push to Restore Priority for Offshore Skilled Workers & Partners: MIA advocacy",
     metaTitle: "MIA Calls to Restore Priority for Offshore Workers & Partners",
@@ -22,16 +32,6 @@ const blogs = [
       "MIA urges Australia to restore visa processing priority for offshore skilled workers and partners following changes under Ministerial Directions 117 and 119.",
     date: "Sep 5, 2026",
     image: `/assets/nb82.jpg`,
-  },
-  {
-    id: 3,
-    slug: "tasmania-invites-59-rois-for-state-nomination-in-latest-round",
-    title: "Tasmania Invites 59 ROIs for State Nomination in Latest Round",
-    metaTitle: "Tasmania Invites 59 ROIs for State Nomination",
-    metaDescription:
-      "Tasmania invited 59 ROIs for state nomination on 3 September 2026, including Subclass 190 and 491. Check scores, places and latest updates.",
-    date: "Sep 3, 2026",
-    image: `/assets/nb81.png`,
   },
 ];
 
