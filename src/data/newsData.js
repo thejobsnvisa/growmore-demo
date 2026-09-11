@@ -1,4 +1,14 @@
 export const news = [
+   {
+    id: 122,
+    slug: "tra-assessment-services-expanded-for-electricians-and-plumbers-in-wa",
+    title: "TRA Assessment Services Expanded for Electricians and Plumbers in WA",
+    metaTitle: "TRA Assessments for Electricians & Plumbers in WA | TAFE",
+    metaDescription:
+      "North Metropolitan TAFE expands TRA assessment services in WA for electricians and plumbers seeking skills recognition for skilled migration.",
+    date: "Sep 10, 2026",
+    image: `/assets/nb84.png`,
+  },
   {
     id: 121,
     slug: "tasmania-latest-state-nomination-round-issues-66-invitations",
