@@ -6,7 +6,7 @@ export const news = [
     metaTitle: "TRA Assessments for Electricians & Plumbers in WA | TAFE",
     metaDescription:
       "North Metropolitan TAFE expands TRA assessment services in WA for electricians and plumbers seeking skills recognition for skilled migration.",
-    date: "Sep 10, 2026",
+    date: "Sep 11, 2026",
     image: `/assets/nb84.png`,
   },
   {
