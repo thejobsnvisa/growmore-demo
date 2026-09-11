@@ -35,5 +35,5 @@ Speak with our team to explore your options and understand the next steps.
 
 **Source:**  
 
-* [MIA Notice 14 - TRA Skills Assessments in WA for Electrical and Plumbing Trades]() 
-* [Trades Recognition Australia (TRA)]() 
+* [MIA Notice 14 - TRA Skills Assessments in WA for Electrical and Plumbing Trades](https://www.mia.org.au/Web/Professional-Support/Notices/Notices/2026---27/MIA%20Notice%2014%20-%2011%20September_2026.aspx) 
+* [Trades Recognition Australia (TRA)](https://www.northmetrotafe.wa.edu.au/TRA) 
