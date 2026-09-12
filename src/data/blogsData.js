@@ -1,4 +1,13 @@
 export const blogs = [
+   {
+    id: 115,
+    slug: "how-to-prove-a-genuine-position-for-an-employer-sponsored Visa",
+    title: "How to Prove a Genuine Position for an Employer-Sponsored Visa",
+    metaTitle: "Genuine Position Requirements for Employer-Sponsored Visas",
+    metaDescription: "Learn how to prove a genuine position for an Australian employer-sponsored visa, including business need, duties, salary, LMT and supporting evidence.",
+    date: "Sep 12, 2026",
+    image: `/assets/bg115.jpg`,
+  },
   {
     id: 114,
     slug: "how-to-bring-family-to-australia-visa-options-explained",
