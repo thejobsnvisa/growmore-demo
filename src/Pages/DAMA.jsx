@@ -73,9 +73,9 @@ const DAMA = () => {
           </h3>
 
           <ul className="list-decimal pl-6 space-y-2 text-gray-700">
-            <li>Temporary Skill Shortage Visa – Subclass 482</li>
-            <li>Temporary Skill Shortage Visa – Subclass 482</li>
-            <li>Employer Nomination Scheme – Subclass 186</li>
+            <li>Subclass 482 – Skills in Demand (SID) visa</li>
+            <li>Subclass 494 – Skilled Employer Sponsored Regional (Provisional) visa</li>
+            <li>Subclass 186 – Employer Nomination Scheme (ENS)</li>
           </ul>
         </div>
 
