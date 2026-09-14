@@ -1,4 +1,14 @@
 export const news = [
+  {
+    id: 123,
+    slug: "anmac-announces-major-changes-to-its-skills-assessment-process",
+    title: "ANMAC Announces Major Changes to Its Skills Assessment Process",
+    metaTitle: "ANMAC Skills Assessment Changes: New Portal & Fees",
+    metaDescription:
+      "ANMAC announces major skills assessment changes, including a new portal, updated assessment types, revised fees and a new agent declaration process.",
+    date: "Sep 14, 2026",
+    image: `/assets/nb85.png`,
+  },
    {
     id: 122,
     slug: "tra-assessment-services-expanded-for-electricians-and-plumbers-in-wa",

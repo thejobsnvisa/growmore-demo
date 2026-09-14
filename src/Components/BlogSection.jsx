@@ -5,6 +5,16 @@ import { Link } from "react-router-dom";
 const blogs = [
    {
     id: 1,
+    slug: "anmac-announces-major-changes-to-its-skills-assessment-process",
+    title: "ANMAC Announces Major Changes to Its Skills Assessment Process",
+    metaTitle: "ANMAC Skills Assessment Changes: New Portal & Fees",
+    metaDescription:
+      "ANMAC announces major skills assessment changes, including a new portal, updated assessment types, revised fees and a new agent declaration process.",
+    date: "Sep 14, 2026",
+    image: `/assets/nb85.png`,
+  },
+   {
+    id: 2,
     slug: "tra-assessment-services-expanded-for-electricians-and-plumbers-in-wa",
     title: "TRA Assessment Services Expanded for Electricians and Plumbers in WA",
     metaTitle: "TRA Assessments for Electricians & Plumbers in WA | TAFE",
@@ -14,7 +24,7 @@ const blogs = [
     image: `/assets/nb84.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "tasmania-latest-state-nomination-round-issues-66-invitations",
     title: "Tasmania’s Latest State Nomination Round Issues 66 Invitations",
     metaTitle: "Tasmania State Nomination Round: 66 Invitations Issued",
@@ -22,16 +32,6 @@ const blogs = [
       "Tasmania issued 66 invitations in its latest 2026-27 state nomination round. See Subclass 190 and 491 scores, priority breakdown and latest updates.",
     date: "Sep 10, 2026",
     image: `/assets/nb83.jpg`,
-  },
-  {
-    id: 3,
-    slug: "major-push-to-restore-priority-for-offshore-skilled-workers-partners-mia-advocacy",
-    title: "Major Push to Restore Priority for Offshore Skilled Workers & Partners: MIA advocacy",
-    metaTitle: "MIA Calls to Restore Priority for Offshore Workers & Partners",
-    metaDescription:
-      "MIA urges Australia to restore visa processing priority for offshore skilled workers and partners following changes under Ministerial Directions 117 and 119.",
-    date: "Sep 5, 2026",
-    image: `/assets/nb82.jpg`,
   },
 ];
 
