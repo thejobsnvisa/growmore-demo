@@ -1,4 +1,13 @@
 export const blogs = [
+  {
+    id: 116,
+    slug: "work-experience-for-australian-pr-what-counts-and-what-doesnt",
+    title: "Work Experience for Australian PR: What Counts and What Doesn’t?",
+    metaTitle: "Australian PR Work Experience: What Counts and What Doesn’t?",
+    metaDescription: "Find out what work experience counts for Australian PR, including relevant occupations, part-time work, overseas experience and required evidence.",
+    date: "Sep 15, 2026",
+    image: `/assets/bg116.png`,
+  },
    {
     id: 115,
     slug: "how-to-prove-a-genuine-position-for-an-employer-sponsored Visa",
