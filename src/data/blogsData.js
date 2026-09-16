@@ -1,5 +1,14 @@
 export const blogs = [
   {
+    id: 117,
+    slug: "section-48-visa-bar-which-visas-can-you-still-apply-for-onshore",
+    title: "Section 48 Visa Bar: Which Visas Can You Still Apply For Onshore?",
+    metaTitle: "Section 48 Visa Bar: Onshore Visa Options in Australia",
+    metaDescription: "Understand the Section 48 visa bar, when it applies and which visas you may still be able to apply for onshore in Australia.",
+    date: "Sep 16, 2026",
+    image: `/assets/bg117.png`,
+  },
+  {
     id: 116,
     slug: "work-experience-for-australian-pr-what-counts-and-what-doesnt",
     title: "Work Experience for Australian PR: What Counts and What Doesn’t?",
