@@ -1,5 +1,15 @@
 export const news = [
   {
+    id: 125,
+    slug: "major-migration-changes-announced-to-tighten-australia-visa-system",
+    title: "Major Migration Changes Announced to Tighten Australia’s Visa System",
+    metaTitle: "Major Australia Migration Changes Announced in 2026",
+    metaDescription:
+      "Australia announces major migration changes affecting student dependants, Working Holiday visas, visitor visas, skilled migration and visa compliance.",
+    date: "Sep 17, 2026",
+    image: `/assets/nb87.png`,
+  },
+  {
     id: 124,
     slug: "tasmania-invitation-round-63-roi-invited-on-17-september",
     title: "Tasmania Invitation Round: 63 ROIs Invited on 17 September",

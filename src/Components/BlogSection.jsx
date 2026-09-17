@@ -5,6 +5,16 @@ import { Link } from "react-router-dom";
 const blogs = [
    {
     id: 1,
+    slug: "major-migration-changes-announced-to-tighten-australia-visa-system",
+    title: "Major Migration Changes Announced to Tighten Australia’s Visa System",
+    metaTitle: "Major Australia Migration Changes Announced in 2026",
+    metaDescription:
+      "Australia announces major migration changes affecting student dependants, Working Holiday visas, visitor visas, skilled migration and visa compliance.",
+    date: "Sep 17, 2026",
+    image: `/assets/nb87.png`,
+  },
+  {
+    id: 2,
     slug: "tasmania-invitation-round-63-roi-invited-on-17-september",
     title: "Tasmania Invitation Round: 63 ROIs Invited on 17 September",
     metaTitle: "Tasmania Invitation Round: 63 ROIs Invited on 17 Sept 2026",
@@ -14,7 +24,7 @@ const blogs = [
     image: `/assets/nb86.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "anmac-announces-major-changes-to-its-skills-assessment-process",
     title: "ANMAC Announces Major Changes to Its Skills Assessment Process",
     metaTitle: "ANMAC Skills Assessment Changes: New Portal & Fees",
@@ -22,16 +32,6 @@ const blogs = [
       "ANMAC announces major skills assessment changes, including a new portal, updated assessment types, revised fees and a new agent declaration process.",
     date: "Sep 14, 2026",
     image: `/assets/nb85.png`,
-  },
-   {
-    id: 3,
-    slug: "tra-assessment-services-expanded-for-electricians-and-plumbers-in-wa",
-    title: "TRA Assessment Services Expanded for Electricians and Plumbers in WA",
-    metaTitle: "TRA Assessments for Electricians & Plumbers in WA | TAFE",
-    metaDescription:
-      "North Metropolitan TAFE expands TRA assessment services in WA for electricians and plumbers seeking skills recognition for skilled migration.",
-    date: "Sep 11, 2026",
-    image: `/assets/nb84.png`,
   },
 ];
 
