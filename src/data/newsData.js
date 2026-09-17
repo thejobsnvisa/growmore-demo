@@ -1,5 +1,15 @@
 export const news = [
   {
+    id: 124,
+    slug: "tasmania-invitation-round-63-roi-invited-on-17-september",
+    title: "Tasmania Invitation Round: 63 ROIs Invited on 17 September",
+    metaTitle: "Tasmania Invitation Round: 63 ROIs Invited on 17 Sept 2026",
+    metaDescription:
+      "Tasmania invited 63 ROIs for Subclass 190 and 491 on 17 September 2026. See invitation scores, nomination places and latest Tasmania PR updates.",
+    date: "Sep 17, 2026",
+    image: `/assets/nb86.png`,
+  },
+  {
     id: 123,
     slug: "anmac-announces-major-changes-to-its-skills-assessment-process",
     title: "ANMAC Announces Major Changes to Its Skills Assessment Process",

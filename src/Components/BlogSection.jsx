@@ -5,6 +5,16 @@ import { Link } from "react-router-dom";
 const blogs = [
    {
     id: 1,
+    slug: "tasmania-invitation-round-63-roi-invited-on-17-september",
+    title: "Tasmania Invitation Round: 63 ROIs Invited on 17 September",
+    metaTitle: "Tasmania Invitation Round: 63 ROIs Invited on 17 Sept 2026",
+    metaDescription:
+      "Tasmania invited 63 ROIs for Subclass 190 and 491 on 17 September 2026. See invitation scores, nomination places and latest Tasmania PR updates.",
+    date: "Sep 17, 2026",
+    image: `/assets/nb86.png`,
+  },
+  {
+    id: 2,
     slug: "anmac-announces-major-changes-to-its-skills-assessment-process",
     title: "ANMAC Announces Major Changes to Its Skills Assessment Process",
     metaTitle: "ANMAC Skills Assessment Changes: New Portal & Fees",
@@ -14,7 +24,7 @@ const blogs = [
     image: `/assets/nb85.png`,
   },
    {
-    id: 2,
+    id: 3,
     slug: "tra-assessment-services-expanded-for-electricians-and-plumbers-in-wa",
     title: "TRA Assessment Services Expanded for Electricians and Plumbers in WA",
     metaTitle: "TRA Assessments for Electricians & Plumbers in WA | TAFE",
@@ -22,16 +32,6 @@ const blogs = [
       "North Metropolitan TAFE expands TRA assessment services in WA for electricians and plumbers seeking skills recognition for skilled migration.",
     date: "Sep 11, 2026",
     image: `/assets/nb84.png`,
-  },
-  {
-    id: 3,
-    slug: "tasmania-latest-state-nomination-round-issues-66-invitations",
-    title: "Tasmania’s Latest State Nomination Round Issues 66 Invitations",
-    metaTitle: "Tasmania State Nomination Round: 66 Invitations Issued",
-    metaDescription:
-      "Tasmania issued 66 invitations in its latest 2026-27 state nomination round. See Subclass 190 and 491 scores, priority breakdown and latest updates.",
-    date: "Sep 10, 2026",
-    image: `/assets/nb83.jpg`,
   },
 ];
 
