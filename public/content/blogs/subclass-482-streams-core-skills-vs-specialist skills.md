@@ -30,8 +30,6 @@ The Core Skills Stream is designed for skilled workers whose nominated occupatio
 * Any required skills assessment, registration, or licensing requirements are satisfied
 * The employer and nomination meet the relevant sponsorship requirements 
 
----
-
 ## What Is the Specialist Skills Stream? 
 
 The Specialist Skills Stream may apply where the nominated occupation falls within eligible ANZSCO Major Groups 1, 2, 4, 5, or 6, subject to the applicable requirements. Unlike the Core Skills Stream, the occupation does not need to be included on the Core Skills Occupation List (CSOL).  
