@@ -1,5 +1,15 @@
 export const news = [
   {
+    id: 126,
+    slug: "new-subclass-482-visa-processing-priorities-what-applicants-need-to-know",
+    title: "New Subclass 482 Visa Processing Priorities: What Applicants Need to Know",
+    metaTitle: "New Subclass 482 Visa Processing Priorities Under MD 121",
+    metaDescription:
+      "Learn about the new Subclass 482 visa processing priorities under MD 121, including priority sectors, Specialist Skills and current processing positions.",
+    date: "Sep 21, 2026",
+    image: `/assets/nb88.png`,
+  },
+  {
     id: 125,
     slug: "major-migration-changes-announced-to-tighten-australia-visa-system",
     title: "Major Migration Changes Announced to Tighten Australia’s Visa System",

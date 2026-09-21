@@ -5,6 +5,16 @@ import { Link } from "react-router-dom";
 const blogs = [
    {
     id: 1,
+    slug: "new-subclass-482-visa-processing-priorities-what-applicants-need-to-know",
+    title: "New Subclass 482 Visa Processing Priorities: What Applicants Need to Know",
+    metaTitle: "New Subclass 482 Visa Processing Priorities Under MD 121",
+    metaDescription:
+      "Learn about the new Subclass 482 visa processing priorities under MD 121, including priority sectors, Specialist Skills and current processing positions.",
+    date: "Sep 21, 2026",
+    image: `/assets/nb88.png`,
+  },
+  {
+    id: 2,
     slug: "major-migration-changes-announced-to-tighten-australia-visa-system",
     title: "Major Migration Changes Announced to Tighten Australia’s Visa System",
     metaTitle: "Major Australia Migration Changes Announced in 2026",
@@ -14,7 +24,7 @@ const blogs = [
     image: `/assets/nb87.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "tasmania-invitation-round-63-roi-invited-on-17-september",
     title: "Tasmania Invitation Round: 63 ROIs Invited on 17 September",
     metaTitle: "Tasmania Invitation Round: 63 ROIs Invited on 17 Sept 2026",
@@ -22,16 +32,6 @@ const blogs = [
       "Tasmania invited 63 ROIs for Subclass 190 and 491 on 17 September 2026. See invitation scores, nomination places and latest Tasmania PR updates.",
     date: "Sep 17, 2026",
     image: `/assets/nb86.png`,
-  },
-  {
-    id: 3,
-    slug: "anmac-announces-major-changes-to-its-skills-assessment-process",
-    title: "ANMAC Announces Major Changes to Its Skills Assessment Process",
-    metaTitle: "ANMAC Skills Assessment Changes: New Portal & Fees",
-    metaDescription:
-      "ANMAC announces major skills assessment changes, including a new portal, updated assessment types, revised fees and a new agent declaration process.",
-    date: "Sep 14, 2026",
-    image: `/assets/nb85.png`,
   },
 ];
 
