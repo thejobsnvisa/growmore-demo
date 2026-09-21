@@ -5,6 +5,16 @@ import { Link } from "react-router-dom";
 const blogs = [
    {
     id: 1,
+    slug: "ministerial-direction-122-new-skilled-visa-processing-priorities",
+    title: "Ministerial Direction 122: New Skilled Visa Processing Priorities",
+    metaTitle: "MD 122: New Skilled Visa Processing Priorities",
+    metaDescription:
+      "Australia’s MD 122 changes skilled visa processing priorities for 186, 189, 190, 491 and other visas. See the new priority order and key changes.",
+    date: "Sep 21, 2026",
+    image: `/assets/nb89.png`,
+  },
+  {
+    id: 2,
     slug: "new-subclass-482-visa-processing-priorities-what-applicants-need-to-know",
     title: "New Subclass 482 Visa Processing Priorities: What Applicants Need to Know",
     metaTitle: "New Subclass 482 Visa Processing Priorities Under MD 121",
@@ -14,7 +24,7 @@ const blogs = [
     image: `/assets/nb88.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "major-migration-changes-announced-to-tighten-australia-visa-system",
     title: "Major Migration Changes Announced to Tighten Australia’s Visa System",
     metaTitle: "Major Australia Migration Changes Announced in 2026",
@@ -22,16 +32,6 @@ const blogs = [
       "Australia announces major migration changes affecting student dependants, Working Holiday visas, visitor visas, skilled migration and visa compliance.",
     date: "Sep 17, 2026",
     image: `/assets/nb87.png`,
-  },
-  {
-    id: 3,
-    slug: "tasmania-invitation-round-63-roi-invited-on-17-september",
-    title: "Tasmania Invitation Round: 63 ROIs Invited on 17 September",
-    metaTitle: "Tasmania Invitation Round: 63 ROIs Invited on 17 Sept 2026",
-    metaDescription:
-      "Tasmania invited 63 ROIs for Subclass 190 and 491 on 17 September 2026. See invitation scores, nomination places and latest Tasmania PR updates.",
-    date: "Sep 17, 2026",
-    image: `/assets/nb86.png`,
   },
 ];
 

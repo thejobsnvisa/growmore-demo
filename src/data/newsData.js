@@ -1,5 +1,15 @@
 export const news = [
   {
+    id: 127,
+    slug: "ministerial-direction-122-new-skilled-visa-processing-priorities",
+    title: "Ministerial Direction 122: New Skilled Visa Processing Priorities",
+    metaTitle: "MD 122: New Skilled Visa Processing Priorities",
+    metaDescription:
+      "Australia’s MD 122 changes skilled visa processing priorities for 186, 189, 190, 491 and other visas. See the new priority order and key changes.",
+    date: "Sep 21, 2026",
+    image: `/assets/nb89.png`,
+  },
+  {
     id: 126,
     slug: "new-subclass-482-visa-processing-priorities-what-applicants-need-to-know",
     title: "New Subclass 482 Visa Processing Priorities: What Applicants Need to Know",
