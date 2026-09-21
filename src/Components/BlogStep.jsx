@@ -25,10 +25,10 @@ const BlogStep = () => {
             >
               {/* Image */}
               <div className="overflow-hidden rounded-t-3xl">
-                <img
+                 <img
                   src={blog.image}
                   alt={blog.title}
-                  className="w-full h-58 object-cover p-4 rounded-4xl"
+                  className="w-full aspect-[16/10] object-cover p-4 sm:p-4 rounded-3xl"
                 />
               </div>
 
