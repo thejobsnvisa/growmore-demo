@@ -1,5 +1,14 @@
 export const blogs = [
   {
+    id: 118,
+    slug: "subclass-482-streams-core-skills-vs-specialist skills",
+    title: "Subclass 482 Streams: Core Skills vs Specialist Skills",
+    metaTitle: "482 Visa: Core Skills vs Specialist Skills",
+    metaDescription: "Understand the key differences between Australia’s 482 Core Skills and Specialist Skills streams, including occupation requirements, salary thresholds, work experience and eligibility.",
+    date: "Sep 18, 2026",
+    image: `/assets/bg118.png`,
+  },
+  {
     id: 117,
     slug: "section-48-visa-bar-which-visas-can-you-still-apply-for-onshore",
     title: "Section 48 Visa Bar: Which Visas Can You Still Apply For Onshore?",
