@@ -5,6 +5,16 @@ import { Link } from "react-router-dom";
 const blogs = [
    {
     id: 1,
+    slug: "ato-to-collect-home-affairs-visa-data-from-2026-to-2029",
+    title: "ATO to Collect Home Affairs Visa Data From 2026 to 2029",
+    metaTitle: "ATO to Access Visa Data From Home Affairs",
+    metaDescription:
+      "The ATO will access selected Home Affairs visa data from 2026 to support tax and compliance activities. Here’s what visa holders should know.",
+    date: "Sep 22, 2026",
+    image: `/assets/nb90.png`,
+  },
+  {
+    id: 2,
     slug: "ministerial-direction-122-new-skilled-visa-processing-priorities",
     title: "Ministerial Direction 122: New Skilled Visa Processing Priorities",
     metaTitle: "MD 122: New Skilled Visa Processing Priorities",
@@ -14,7 +24,7 @@ const blogs = [
     image: `/assets/nb89.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "new-subclass-482-visa-processing-priorities-what-applicants-need-to-know",
     title: "New Subclass 482 Visa Processing Priorities: What Applicants Need to Know",
     metaTitle: "New Subclass 482 Visa Processing Priorities Under MD 121",
@@ -22,16 +32,6 @@ const blogs = [
       "Learn about the new Subclass 482 visa processing priorities under MD 121, including priority sectors, Specialist Skills and current processing positions.",
     date: "Sep 21, 2026",
     image: `/assets/nb88.png`,
-  },
-  {
-    id: 3,
-    slug: "major-migration-changes-announced-to-tighten-australia-visa-system",
-    title: "Major Migration Changes Announced to Tighten Australia’s Visa System",
-    metaTitle: "Major Australia Migration Changes Announced in 2026",
-    metaDescription:
-      "Australia announces major migration changes affecting student dependants, Working Holiday visas, visitor visas, skilled migration and visa compliance.",
-    date: "Sep 17, 2026",
-    image: `/assets/nb87.png`,
   },
 ];
 

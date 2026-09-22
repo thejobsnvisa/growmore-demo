@@ -1,5 +1,15 @@
 export const news = [
   {
+    id: 128,
+    slug: "ato-to-collect-home-affairs-visa-data-from-2026-to-2029",
+    title: "ATO to Collect Home Affairs Visa Data From 2026 to 2029",
+    metaTitle: "ATO to Access Visa Data From Home Affairs",
+    metaDescription:
+      "The ATO will access selected Home Affairs visa data from 2026 to support tax and compliance activities. Here’s what visa holders should know.",
+    date: "Sep 22, 2026",
+    image: `/assets/nb90.png`,
+  },
+  {
     id: 127,
     slug: "ministerial-direction-122-new-skilled-visa-processing-priorities",
     title: "Ministerial Direction 122: New Skilled Visa Processing Priorities",
