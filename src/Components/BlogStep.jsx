@@ -28,7 +28,7 @@ const BlogStep = () => {
                  <img
                   src={blog.image}
                   alt={blog.title}
-                  className="w-full aspect-[16/10] object-cover p-4 sm:p-4 rounded-3xl"
+                  className="w-full aspect-[18/10] object-cover p-4 sm:p-4 rounded-3xl"
                 />
               </div>
 
