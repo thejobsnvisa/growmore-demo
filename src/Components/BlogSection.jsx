@@ -5,6 +5,16 @@ import { Link } from "react-router-dom";
 const blogs = [
    {
     id: 1,
+    slug: "ministerial-direction-123-brings-key-changes-to-australia-character-test",
+    title: "Ministerial Direction 123 Brings Key Changes to Australia’s Character Test",
+    metaTitle: "Ministerial Direction 123: Key Australia Character Test Changes",
+    metaDescription:
+      "Ministerial Direction 123 changes Australia’s character test, including visa refusal, cancellation, family violence, criminal conduct and Australia PR.",
+    date: "Sep 22, 2026",
+    image: `/assets/nb91.png`,
+  },
+  {
+    id: 2,
     slug: "ato-to-collect-home-affairs-visa-data-from-2026-to-2029",
     title: "ATO to Collect Home Affairs Visa Data From 2026 to 2029",
     metaTitle: "ATO to Access Visa Data From Home Affairs",
@@ -14,7 +24,7 @@ const blogs = [
     image: `/assets/nb90.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "ministerial-direction-122-new-skilled-visa-processing-priorities",
     title: "Ministerial Direction 122: New Skilled Visa Processing Priorities",
     metaTitle: "MD 122: New Skilled Visa Processing Priorities",
@@ -22,16 +32,6 @@ const blogs = [
       "Australia’s MD 122 changes skilled visa processing priorities for 186, 189, 190, 491 and other visas. See the new priority order and key changes.",
     date: "Sep 21, 2026",
     image: `/assets/nb89.png`,
-  },
-  {
-    id: 3,
-    slug: "new-subclass-482-visa-processing-priorities-what-applicants-need-to-know",
-    title: "New Subclass 482 Visa Processing Priorities: What Applicants Need to Know",
-    metaTitle: "New Subclass 482 Visa Processing Priorities Under MD 121",
-    metaDescription:
-      "Learn about the new Subclass 482 visa processing priorities under MD 121, including priority sectors, Specialist Skills and current processing positions.",
-    date: "Sep 21, 2026",
-    image: `/assets/nb88.png`,
   },
 ];
 

@@ -1,5 +1,15 @@
 export const news = [
   {
+    id: 129,
+    slug: "ministerial-direction-123-brings-key-changes-to-australia-character-test",
+    title: "Ministerial Direction 123 Brings Key Changes to Australia’s Character Test",
+    metaTitle: "Ministerial Direction 123: Key Australia Character Test Changes",
+    metaDescription:
+      "Ministerial Direction 123 changes Australia’s character test, including visa refusal, cancellation, family violence, criminal conduct and Australia PR.",
+    date: "Sep 22, 2026",
+    image: `/assets/nb91.png`,
+  },
+  {
     id: 128,
     slug: "ato-to-collect-home-affairs-visa-data-from-2026-to-2029",
     title: "ATO to Collect Home Affairs Visa Data From 2026 to 2029",
