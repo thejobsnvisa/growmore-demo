@@ -1,5 +1,14 @@
 export const blogs = [
   {
+    id: 119,
+    slug: "how-early-childhood-teachers-can-apply-for-australia-pr",
+    title: "How Early Childhood Teachers Can Apply for Australia PR",
+    metaTitle: "Early Childhood Teacher Australia PR Pathways",
+    metaDescription: "Learn about Australia PR pathways for Early Childhood Teachers, including ACECQA, English, skilled visas and employer sponsorship.",
+    date: "Sep 23, 2026",
+    image: `/assets/bg119.png`,
+  },
+  {
     id: 118,
     slug: "subclass-482-streams-core-skills-vs-specialist skills",
     title: "Subclass 482 Streams: Core Skills vs Specialist Skills",
