@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import StepHeader from "./StepHeader";
 
-export default function OverseasStep({ updateScore, nextStep, prevStep }) {
+export default function EducationStep({ updateScore, nextStep, prevStep }) {
   const [points, setPoints] = useState(0);
   const [selected, setSelected] = useState(null);
 
