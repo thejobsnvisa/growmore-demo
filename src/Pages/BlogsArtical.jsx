@@ -129,7 +129,7 @@ const BlogsArticle = () => {
           <img
             src={article.image}
             alt={article.title}
-            className="w-full rounded-lg mb-8 object-cover max-h-[450px]"
+            className="w-full rounded-lg mb-8 object-cover max-h-[540px]"
           />
 
           {/* MARKDOWN CONTENT */}
