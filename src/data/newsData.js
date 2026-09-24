@@ -1,4 +1,13 @@
 export const news = [
+    {
+    id: 130,
+    slug: "tasmania-latest-invitation-round-62-invitations-issued",
+    title: "Tasmania Latest Invitation Round: 62 Invitations Issued",
+    metaTitle: "Tasmania Latest Invitation Round: 62 Invitations Issued",
+    metaDescription:"Tasmania issued 62 invitations on 24 September 2026. Check the latest Subclass 190 and 491 scores, ROI numbers and nomination places.",
+    date: "Sep 24, 2026",
+    image: `/assets/nb92.png`,
+  },
   {
     id: 129,
     slug: "ministerial-direction-123-brings-key-changes-to-australia-character-test",

@@ -3,8 +3,17 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-   {
+  {
     id: 1,
+    slug: "tasmania-latest-invitation-round-62-invitations-issued",
+    title: "Tasmania Latest Invitation Round: 62 Invitations Issued",
+    metaTitle: "Tasmania Latest Invitation Round: 62 Invitations Issued",
+    metaDescription:"Tasmania issued 62 invitations on 24 September 2026. Check the latest Subclass 190 and 491 scores, ROI numbers and nomination places.",
+    date: "Sep 24, 2026",
+    image: `/assets/nb92.png`,
+  },
+  {
+    id: 2,
     slug: "ministerial-direction-123-brings-key-changes-to-australia-character-test",
     title: "Ministerial Direction 123 Brings Key Changes to Australia’s Character Test",
     metaTitle: "Ministerial Direction 123: Key Australia Character Test Changes",
@@ -14,7 +23,7 @@ const blogs = [
     image: `/assets/nb91.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "ato-to-collect-home-affairs-visa-data-from-2026-to-2029",
     title: "ATO to Collect Home Affairs Visa Data From 2026 to 2029",
     metaTitle: "ATO to Access Visa Data From Home Affairs",
@@ -22,16 +31,6 @@ const blogs = [
       "The ATO will access selected Home Affairs visa data from 2026 to support tax and compliance activities. Here’s what visa holders should know.",
     date: "Sep 22, 2026",
     image: `/assets/nb90.png`,
-  },
-  {
-    id: 3,
-    slug: "ministerial-direction-122-new-skilled-visa-processing-priorities",
-    title: "Ministerial Direction 122: New Skilled Visa Processing Priorities",
-    metaTitle: "MD 122: New Skilled Visa Processing Priorities",
-    metaDescription:
-      "Australia’s MD 122 changes skilled visa processing priorities for 186, 189, 190, 491 and other visas. See the new priority order and key changes.",
-    date: "Sep 21, 2026",
-    image: `/assets/nb89.png`,
   },
 ];
 
