@@ -24,4 +24,4 @@ For students and education providers, the important message is to **watch this s
 
 Disclaimer: This article provides general information and migration commentary only. It includes observations and opinions regarding possible future policy direction and should not be interpreted as confirmation of any future Government decision. Migration policies and visa requirements are subject to change. Individuals should obtain advice based on their particular circumstances from a Registered Migration Agent or Australian legal practitioner.
 
-[Watch This](https://www.youtube.com/watch?v=XecjmTpxUl8)
+[Reference: Alan Kohler explains why universities are bearing the brunt of the immigration debate | ABC NEWS](https://www.youtube.com/watch?v=XecjmTpxUl8)
