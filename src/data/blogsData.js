@@ -1,5 +1,14 @@
 export const blogs = [
   {
+    id: 120,
+    slug: "is-australia-preparing-to-open-the-door-again-for-international-students",
+    title: "Is Australia Preparing to Open the Door Again for International Students",
+    metaTitle: "Australia Student Visa: Could Australia Open the Door Again?",
+    metaDescription: "Could Australia ease Student visa access? Explore proposed dependant restrictions, student planning levels and what they could mean for international students.",
+    date: "Sep 24, 2026",
+    image: `/assets/bg120.png`,
+  },
+  {
     id: 119,
     slug: "how-early-childhood-teachers-can-apply-for-australia-pr",
     title: "How Early Childhood Teachers Can Apply for Australia PR",
