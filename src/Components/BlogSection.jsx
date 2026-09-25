@@ -5,6 +5,15 @@ import { Link } from "react-router-dom";
 const blogs = [
   {
     id: 1,
+    slug: "south-australia-dama-extended-until-31-january-2027",
+    title: "South Australia DAMAs Extended Until 31 January 2027",
+    metaTitle: "SA DAMA Extension: What It Means for Employers",
+    metaDescription: "Understand the SA DAMA extension, including occupation lists, concessions and employer-sponsored pathways for eligible skilled workers.",
+    date: "Sep 25, 2026",
+    image: `/assets/nb95.png`,
+  },
+  {
+    id: 2,
     slug: "new-child-visa-application-instrument-2026-what-changes",
     title: "New Child Visa Application Instrument 2026: What Changes?",
     metaTitle: "Child Visa Application Instrument 2026: What Changes?",
@@ -13,22 +22,13 @@ const blogs = [
     image: `/assets/nb94.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "new-designated-areas-instrument-issued-do-not-confuse-it-with-491-494-regional-areas",
     title: "New Designated Areas Instrument Issued: Do Not Confuse It With 491/494 Regional Areas",
     metaTitle: "New Designated Areas Instrument 2026: LIN 26/004",
     metaDescription: "Australia’s new LIN 26/004 sets designated areas for migration. Understand how it differs from designated regional area rules for Subclass 491 and 494 visas.",
     date: "Sep 25, 2026",
     image: `/assets/nb93.png`,
-  },
-  {
-    id: 3,
-    slug: "tasmania-latest-invitation-round-62-invitations-issued",
-    title: "Tasmania Latest Invitation Round: 62 Invitations Issued",
-    metaTitle: "Tasmania Latest Invitation Round: 62 Invitations Issued",
-    metaDescription: "Tasmania issued 62 invitations on 24 September 2026. Check the latest Subclass 190 and 491 scores, ROI numbers and nomination places.",
-    date: "Sep 24, 2026",
-    image: `/assets/nb92.png`,
   },
 ];
 

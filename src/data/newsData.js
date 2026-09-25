@@ -1,5 +1,14 @@
 export const news = [
   {
+    id: 133,
+    slug: "south-australia-dama-extended-until-31-january-2027",
+    title: "South Australia DAMAs Extended Until 31 January 2027",
+    metaTitle: "SA DAMA Extension: What It Means for Employers",
+    metaDescription: "Understand the SA DAMA extension, including occupation lists, concessions and employer-sponsored pathways for eligible skilled workers.",
+    date: "Sep 25, 2026",
+    image: `/assets/nb95.png`,
+  },
+  {
     id: 132,
     slug: "new-child-visa-application-instrument-2026-what-changes",
     title: "New Child Visa Application Instrument 2026: What Changes?",
