@@ -1,5 +1,14 @@
 export const news = [
   {
+    id: 132,
+    slug: "new-child-visa-application-instrument-2026-what-changes",
+    title: "New Child Visa Application Instrument 2026: What Changes?",
+    metaTitle: "Child Visa Application Instrument 2026: What Changes?",
+    metaDescription: "Australia's LIN 26/081 replaces the previous Child visa instrument. See the latest application, lodgement and Pakistan adoption requirements.",
+    date: "Sep 25, 2026",
+    image: `/assets/nb94.png`,
+  },
+  {
     id: 131,
     slug: "new-designated-areas-instrument-issued-do-not-confuse-it-with-491-494-regional-areas",
     title: "New Designated Areas Instrument Issued: Do Not Confuse It With 491/494 Regional Areas",
