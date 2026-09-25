@@ -1,10 +1,19 @@
 export const news = [
-    {
+  {
+    id: 131,
+    slug: "new-designated-areas-instrument-issued-do-not-confuse-it-with-491-494-regional-areas",
+    title: "New Designated Areas Instrument Issued: Do Not Confuse It With 491/494 Regional Areas",
+    metaTitle: "New Designated Areas Instrument 2026: LIN 26/004",
+    metaDescription: "Australia’s new LIN 26/004 sets designated areas for migration. Understand how it differs from designated regional area rules for Subclass 491 and 494 visas.",
+    date: "Sep 25, 2026",
+    image: `/assets/nb93.png`,
+  },
+  {
     id: 130,
     slug: "tasmania-latest-invitation-round-62-invitations-issued",
     title: "Tasmania Latest Invitation Round: 62 Invitations Issued",
     metaTitle: "Tasmania Latest Invitation Round: 62 Invitations Issued",
-    metaDescription:"Tasmania issued 62 invitations on 24 September 2026. Check the latest Subclass 190 and 491 scores, ROI numbers and nomination places.",
+    metaDescription: "Tasmania issued 62 invitations on 24 September 2026. Check the latest Subclass 190 and 491 scores, ROI numbers and nomination places.",
     date: "Sep 24, 2026",
     image: `/assets/nb92.png`,
   },
@@ -78,7 +87,7 @@ export const news = [
     date: "Sep 14, 2026",
     image: `/assets/nb85.png`,
   },
-   {
+  {
     id: 122,
     slug: "tra-assessment-services-expanded-for-electricians-and-plumbers-in-wa",
     title: "TRA Assessment Services Expanded for Electricians and Plumbers in WA",
@@ -178,7 +187,7 @@ export const news = [
     date: "Aug 22, 2026",
     image: `/assets/nb75.png`,
   },
-   {
+  {
     id: 112,
     slug: "department-policy-update-485-graduate-visa-study-gaps-may-not-automatically-affect-eligibility",
     title: "Department’s Policy update: 485 Graduate Visa: Study Gaps May Not Automatically Affect Eligibility",
