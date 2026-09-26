@@ -1,5 +1,14 @@
 export const blogs = [
   {
+    id: 121,
+    slug: "job-ready-program-how-it-supports-vet-graduates-in-skilled-migration",
+    title: "Job Ready Program: How It Supports VET Graduates in Skilled Migration",
+    metaTitle: "Job Ready Program for VET Graduates: Australia PR Guide",
+    metaDescription: "Learn how the Job Ready Program supports VET graduates with TRA skills assessment, workplace experience and skilled migration pathways to Australia PR.",
+    date: "Sep 26, 2026",
+    image: `/assets/bg121.png`,
+  },
+  {
     id: 120,
     slug: "is-australia-preparing-to-open-the-door-again-for-international-students",
     title: "Is Australia Preparing to Open the Door Again for International Students",
