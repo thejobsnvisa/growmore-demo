@@ -1,5 +1,14 @@
 export const news = [
   {
+    id: 135,
+    slug: "no-more-card-surcharges-for-australian-visa-payments-from-october",
+    title: "No More Card Surcharges for Australian Visa Payments from October",
+    metaTitle: "Australia Visa Card Surcharges End from October 2026",
+    metaDescription: "From 1 October 2026, the Department of Home Affairs will stop charging card payment surcharges on eligible Australian visa payments.",
+    date: "Sep 29, 2026",
+    image: `/assets/nb97.png`,
+  },
+  {
     id: 134,
     slug: "australia-462-visa-recent-ballot-selections-held-for-india-and-vietnam",
     title: "Australia 462 Visa: Recent Ballot Selections Held for India and Vietnam",
