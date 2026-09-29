@@ -1,5 +1,14 @@
 export const news = [
   {
+    id: 134,
+    slug: "australia-462-visa-recent-ballot-selections-held-for-india-and-vietnam",
+    title: "Australia 462 Visa: Recent Ballot Selections Held for India and Vietnam",
+    metaTitle: "Australia 462 Visa Ballot Selections for India & Vietnam",
+    metaDescription: "Check the latest Australia 462 visa ballot selections for India and Vietnam, key dates, eligibility requirements and the 28-day application deadline.",
+    date: "Sep 29, 2026",
+    image: `/assets/nb96.png`,
+  },
+  {
     id: 133,
     slug: "south-australia-dama-extended-until-31-january-2027",
     title: "South Australia DAMAs Extended Until 31 January 2027",

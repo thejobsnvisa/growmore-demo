@@ -5,6 +5,15 @@ import { Link } from "react-router-dom";
 const blogs = [
   {
     id: 1,
+    slug: "australia-462-visa-recent-ballot-selections-held-for-india-and-vietnam",
+    title: "Australia 462 Visa: Recent Ballot Selections Held for India and Vietnam",
+    metaTitle: "Australia 462 Visa Ballot Selections for India & Vietnam",
+    metaDescription: "Check the latest Australia 462 visa ballot selections for India and Vietnam, key dates, eligibility requirements and the 28-day application deadline.",
+    date: "Sep 29, 2026",
+    image: `/assets/nb96.png`,
+  },
+  {
+    id: 2,
     slug: "south-australia-dama-extended-until-31-january-2027",
     title: "South Australia DAMAs Extended Until 31 January 2027",
     metaTitle: "SA DAMA Extension: What It Means for Employers",
@@ -13,22 +22,13 @@ const blogs = [
     image: `/assets/nb95.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "new-child-visa-application-instrument-2026-what-changes",
     title: "New Child Visa Application Instrument 2026: What Changes?",
     metaTitle: "Child Visa Application Instrument 2026: What Changes?",
     metaDescription: "Australia's LIN 26/081 replaces the previous Child visa instrument. See the latest application, lodgement and Pakistan adoption requirements.",
     date: "Sep 25, 2026",
     image: `/assets/nb94.png`,
-  },
-  {
-    id: 3,
-    slug: "new-designated-areas-instrument-issued-do-not-confuse-it-with-491-494-regional-areas",
-    title: "New Designated Areas Instrument Issued: Do Not Confuse It With 491/494 Regional Areas",
-    metaTitle: "New Designated Areas Instrument 2026: LIN 26/004",
-    metaDescription: "Australia’s new LIN 26/004 sets designated areas for migration. Understand how it differs from designated regional area rules for Subclass 491 and 494 visas.",
-    date: "Sep 25, 2026",
-    image: `/assets/nb93.png`,
   },
 ];
 
