@@ -1,12 +1,12 @@
 export const blogs = [
   {
     id: 123,
-    slug: "employer-sponsorship-in-australia-key-obligations-for-sponsored-workers",
-    title: "Employer Sponsorship in Australia: Key Obligations for Sponsored Workers",
-    metaTitle: "Employer Sponsorship Australia: Key Sponsor Obligations",
-    metaDescription: "Learn key employer sponsorship obligations in Australia, including reporting changes, nominated occupations, employment conditions and compliance.",
-    date: "Sep 28, 2026",
-    image: `/assets/bg122.jpg`,
+    slug: "acecqa-skills-assessment-who-needs-it-and-how-to-apply",
+    title: "ACECQA Skills Assessment: Who Needs It and How to Apply",
+    metaTitle: "ACECQA Skills Assessment: Requirements and How to Apply",
+    metaDescription: "Learn who needs an ACECQA Skills Assessment, occupation requirements, required documents, fees and how to apply for Australian migration.",
+    date: "Sep 30, 2026",
+    image: `/assets/bg123.png`,
   },
   {
     id: 122,
