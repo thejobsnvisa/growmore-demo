@@ -1,5 +1,14 @@
 export const blogs = [
   {
+    id: 123,
+    slug: "employer-sponsorship-in-australia-key-obligations-for-sponsored-workers",
+    title: "Employer Sponsorship in Australia: Key Obligations for Sponsored Workers",
+    metaTitle: "Employer Sponsorship Australia: Key Sponsor Obligations",
+    metaDescription: "Learn key employer sponsorship obligations in Australia, including reporting changes, nominated occupations, employment conditions and compliance.",
+    date: "Sep 28, 2026",
+    image: `/assets/bg122.jpg`,
+  },
+  {
     id: 122,
     slug: "employer-sponsorship-in-australia-key-obligations-for-sponsored-workers",
     title: "Employer Sponsorship in Australia: Key Obligations for Sponsored Workers",
