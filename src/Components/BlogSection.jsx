@@ -5,15 +5,6 @@ import { Link } from "react-router-dom";
 const blogs = [
   {
     id: 1,
-    slug: "no-more-card-surcharges-for-australian-visa-payments-from-october",
-    title: "No More Card Surcharges for Australian Visa Payments from October",
-    metaTitle: "Australia Visa Card Surcharges End from October 2026",
-    metaDescription: "From 1 October 2026, the Department of Home Affairs will stop charging card payment surcharges on eligible Australian visa payments.",
-    date: "Sep 29, 2026",
-    image: `/assets/nb97.png`,
-  },
-  {
-    id: 2,
     slug: "australia-462-visa-recent-ballot-selections-held-for-india-and-vietnam",
     title: "Australia 462 Visa: Recent Ballot Selections Held for India and Vietnam",
     metaTitle: "Australia 462 Visa Ballot Selections for India & Vietnam",
@@ -22,13 +13,22 @@ const blogs = [
     image: `/assets/nb96.png`,
   },
   {
-    id: 3,
+    id: 2,
     slug: "south-australia-dama-extended-until-31-january-2027",
     title: "South Australia DAMAs Extended Until 31 January 2027",
     metaTitle: "SA DAMA Extension: What It Means for Employers",
     metaDescription: "Understand the SA DAMA extension, including occupation lists, concessions and employer-sponsored pathways for eligible skilled workers.",
     date: "Sep 25, 2026",
     image: `/assets/nb95.png`,
+  },
+  {
+    id: 3,
+    slug: "new-child-visa-application-instrument-2026-what-changes",
+    title: "New Child Visa Application Instrument 2026: What Changes?",
+    metaTitle: "Child Visa Application Instrument 2026: What Changes?",
+    metaDescription: "Australia's LIN 26/081 replaces the previous Child visa instrument. See the latest application, lodgement and Pakistan adoption requirements.",
+    date: "Sep 25, 2026",
+    image: `/assets/nb94.png`,
   },
 ];
 
