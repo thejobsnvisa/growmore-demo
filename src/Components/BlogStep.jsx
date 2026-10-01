@@ -161,7 +161,11 @@ const BlogStep = () => {
 
           ...blogs
             .filter((blog) => blog.category === selectedCategory)
-            .map((blog) => blog.subcategory)
+            .flatMap((blog) =>
+              Array.isArray(blog.subcategory)
+                ? blog.subcategory
+                : [blog.subcategory]
+            )
             .filter(Boolean),
         ]),
       ];
@@ -170,7 +174,13 @@ const BlogStep = () => {
     return [
       ...new Set([
         ...Object.values(subcategoryMap).flat(),
-        ...blogs.map((blog) => blog.subcategory).filter(Boolean),
+        ...blogs
+          .flatMap((blog) =>
+            Array.isArray(blog.subcategory)
+              ? blog.subcategory
+              : [blog.subcategory]
+          )
+          .filter(Boolean),
       ]),
     ];
   }, [selectedCategory, subcategoryMap, blogs]);
@@ -183,14 +193,19 @@ const BlogStep = () => {
       const searchableText = `
         ${blog.title}
         ${blog.category || ""}
-        ${blog.subcategory || ""}
+        ${Array.isArray(blog.subcategory)
+          ? blog.subcategory.join(" ")
+          : blog.subcategory || ""}
       `.toLowerCase();
 
       const matchesQuery = !query || searchableText.includes(query);
       const matchesCategory =
         !selectedCategory || blog.category === selectedCategory;
       const matchesSubcategory =
-        !selectedSubcategory || blog.subcategory === selectedSubcategory;
+        !selectedSubcategory ||
+        (Array.isArray(blog.subcategory)
+          ? blog.subcategory.includes(selectedSubcategory)
+          : blog.subcategory === selectedSubcategory);
 
       return matchesQuery && matchesCategory && matchesSubcategory;
     });

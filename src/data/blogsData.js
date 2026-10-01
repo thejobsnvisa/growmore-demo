@@ -1114,6 +1114,12 @@ export const blogs = [
     metaDescription: "Get a complete guide to Australia’s employer-sponsored visas. Learn eligibility, visa types, application steps, and how to secure a job with sponsorship in 2025.",
     date: "Aug 18, 2023",
     image: `/assets/bg18.jpg`,
+    category: "Bridging Visa",
+    subcategory: [
+      "Bridging Visa",
+      "Subclass 186",
+      "Subclass 494",
+    ],
   },
   {
     id: -2,
@@ -1123,5 +1129,7 @@ export const blogs = [
     metaDescription: "Explore the Australia Subclass 189 Visa, a points-tested permanent residency visa for skilled workers. Learn eligibility, requirements, benefits, and application steps.",
     date: "Aug 15, 2023",
     image: `/assets/bg185.png`,
+    category: "Bridging Visa",
+    subcategory: "Bridging Visa",
   },
 ];

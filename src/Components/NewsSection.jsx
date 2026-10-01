@@ -132,7 +132,9 @@ const NewsSection = () => {
     const query = searchTerm.trim().toLowerCase();
 
     return news.filter((blog) => {
-      const searchableText = `${blog.title} ${blog.category || ""} ${blog.subcategory || ""}`.toLowerCase();
+      const searchableText = `${blog.title} ${blog.category || ""}    ${Array.isArray(blog.subcategory)
+          ? blog.subcategory.join(" ")
+          : blog.subcategory || ""}`.toLowerCase();
       const matchesQuery = !query || searchableText.includes(query);
       const matchesCategory = !selectedCategory || blog.category === selectedCategory;
       const matchesSubcategory = !selectedSubcategory || blog.subcategory === selectedSubcategory;
