@@ -1,5 +1,14 @@
 export const news = [
   {
+    id: 135,
+    slug: "subclass-189-round-expected-by-31-october-2026-hope-for-waiting-skilled-migrants",
+    title: "Subclass 189 Round Expected by 31 October 2026: Hope for Waiting Skilled Migrants",
+    metaTitle: "Subclass 189 Invitation Round Expected by 31 October 2026",
+    metaDescription: "The next Subclass 189 invitation round is expected by 31 October 2026. Learn what the update means for skilled migrants pursuing Australia PR.",
+    date: "Oct 1, 2026",
+    image: `/assets/nb97.png`,
+  },
+  {
     id: 134,
     slug: "australia-462-visa-recent-ballot-selections-held-for-india-and-vietnam",
     title: "Australia 462 Visa: Recent Ballot Selections Held for India and Vietnam",

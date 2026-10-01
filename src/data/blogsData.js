@@ -1,5 +1,14 @@
 export const blogs = [
   {
+    id: 124,
+    slug: "australia-an-immigration-problem-or-an-infrastructure-problem",
+    title: "Australia:  An Immigration Problem Or an Infrastructure Problem?",
+    metaTitle: "Australia Immigration or Infrastructure Problem?",
+    metaDescription: "Is Australia facing an immigration or infrastructure problem? Explore migration trends, skilled worker needs, housing pressures and regional challenges.",
+    date: "Oct 1, 2026",
+    image: `/assets/bg124.png`,
+  },
+  {
     id: 123,
     slug: "acecqa-skills-assessment-who-needs-it-and-how-to-apply",
     title: "ACECQA Skills Assessment: Who Needs It and How to Apply",
