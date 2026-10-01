@@ -1556,6 +1556,8 @@ export const news = [
       "Check the latest update on Tasmania's skilled migration invitations.",
     date: "February 5, 2026",
     image: `/assets/5feb1.png`,
+    category: "Skilled Migration Visas",
+    subcategory: ""
   },
   {
     id: -13,
@@ -1566,6 +1568,8 @@ export const news = [
       "Check the latest update on South Australia's skilled migration invitations.",
     date: "February 3, 2026",
     image: `/assets/3feb.png`,
+    category: "Skilled Migration Visas",
+    subcategory: ""
   },
   {
     id: -14,
@@ -1577,6 +1581,8 @@ export const news = [
       "Dual Australian-British citizens can now waive the ETA fee when planning a trip to the UK. Check the details and how to apply.",
     date: "February 2, 2026",
     image: `/assets/2feb.jpg`,
+    category: "Other",
+    subcategory: "Other"
   },
   {
     id: -15,
@@ -1587,6 +1593,8 @@ export const news = [
       "Check the latest invitation numbers for Tasmania's skilled migration program in this week's update.",
     date: "january 29, 2026",
     image: `/assets/29jan.png`,
+    category: "Skilled Migration Visas",
+    subcategory: ""
   },
   {
     id: -16,
@@ -1597,6 +1605,8 @@ export const news = [
       "The Northern Territory GSM Nomination Portal is closed for the 2025–26 financial year. Check the details and how to apply.",
     date: "january 28, 2026",
     image: `/assets/28jan.png`,
+    category: "Skilled Migration Visas",
+    subcategory: ""
   },
   {
     id: -17,
@@ -1607,6 +1617,11 @@ export const news = [
       "Check the upcoming tentative Canberra Matrix invitation dates for 2026.",
     date: "january 22, 2026",
     image: `/assets/22jan.png`,
+    category: "Skilled Migration Visas",
+    subcategory: [
+      "Subclass 190", 
+      "Subclass 491",
+    ],
   },
   {
     id: -18,
@@ -1618,6 +1633,8 @@ export const news = [
       "Learn about the closure of NSW Subclass 491 Pathway 1 & Pathway 3 due to strong demand.",
     date: "january 19, 2026",
     image: `/assets/19jan.png`,
+    category: "Skilled Migration Visas",
+    subcategory: "Subclass 491"
   },
   {
     id: -19,
@@ -1628,6 +1645,8 @@ export const news = [
       "Check the latest NSW invitation round updates for 15 January 2026. Discover the points cutoffs, targeted occupations, and visa subclass 190 & 491 insights.",
     date: "january 15, 2026",
     image: `/assets/17jan.png`,
+    category: "Skilled Migration Visas",
+    subcategory: "Subclass 190"
   },
   {
     id: -20,
@@ -1639,5 +1658,7 @@ export const news = [
       "New South Australia trade training rules will require apprenticeships from 2026. Understand what this means for future migration and employment plans.",
     date: "December 17, 2025",
     image: `/assets/20dec.png`,
+    category: "Other",
+    subcategory: "Other"
   },
 ];
