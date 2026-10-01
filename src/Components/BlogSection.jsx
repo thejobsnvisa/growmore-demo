@@ -5,6 +5,15 @@ import { Link } from "react-router-dom";
 const blogs = [
   {
     id: 1,
+    slug: "act-plans-october-invitations-while-nomination-quota-remains-unclear",
+    title: "ACT Plans October Invitations While Nomination Quota Remains Unclear",
+    metaTitle: "ACT Plans October Invitations Amid Nomination Uncertainty",
+    metaDescription: "ACT plans its first 2026–27 skilled migration invitation round for October. Check nomination updates, Canberra Matrix rules and ACT occupation list changes.",
+    date: "Oct 1, 2026",
+    image: `/assets/nb98.png`,
+  },
+  {
+    id: 2,
     slug: "subclass-189-round-expected-by-31-october-2026-hope-for-waiting-skilled-migrants",
     title: "Subclass 189 Round Expected by 31 October 2026: Hope for Waiting Skilled Migrants",
     metaTitle: "Subclass 189 Invitation Round Expected by 31 October 2026",
@@ -13,22 +22,13 @@ const blogs = [
     image: `/assets/nb97.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "australia-462-visa-recent-ballot-selections-held-for-india-and-vietnam",
     title: "Australia 462 Visa: Recent Ballot Selections Held for India and Vietnam",
     metaTitle: "Australia 462 Visa Ballot Selections for India & Vietnam",
     metaDescription: "Check the latest Australia 462 visa ballot selections for India and Vietnam, key dates, eligibility requirements and the 28-day application deadline.",
     date: "Sep 29, 2026",
     image: `/assets/nb96.png`,
-  },
-  {
-    id: 3,
-    slug: "south-australia-dama-extended-until-31-january-2027",
-    title: "South Australia DAMAs Extended Until 31 January 2027",
-    metaTitle: "SA DAMA Extension: What It Means for Employers",
-    metaDescription: "Understand the SA DAMA extension, including occupation lists, concessions and employer-sponsored pathways for eligible skilled workers.",
-    date: "Sep 25, 2026",
-    image: `/assets/nb95.png`,
   },
 ];
 

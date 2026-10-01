@@ -1,5 +1,14 @@
 export const news = [
   {
+    id: 136,
+    slug: "act-plans-october-invitations-while-nomination-quota-remains-unclear",
+    title: "ACT Plans October Invitations While Nomination Quota Remains Unclear",
+    metaTitle: "ACT Plans October Invitations Amid Nomination Uncertainty",
+    metaDescription: "ACT plans its first 2026–27 skilled migration invitation round for October. Check nomination updates, Canberra Matrix rules and ACT occupation list changes.",
+    date: "Oct 1, 2026",
+    image: `/assets/nb98.png`,
+  },
+  {
     id: 135,
     slug: "subclass-189-round-expected-by-31-october-2026-hope-for-waiting-skilled-migrants",
     title: "Subclass 189 Round Expected by 31 October 2026: Hope for Waiting Skilled Migrants",
