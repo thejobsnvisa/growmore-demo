@@ -255,9 +255,9 @@ export const blogs = [
     image: `/assets/102.png`,
     category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  190",
-      "Subclass  491",
-      "Subclass  494",
+      "Subclass 190",
+      "Subclass 491",
+      "Subclass 494",
     ]
   },
   {
@@ -270,7 +270,7 @@ export const blogs = [
     image: `/assets/bg100.png`,
     category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  494",
+      "Subclass 494",
       "Labour Agreement",
     ]
   },
@@ -284,9 +284,9 @@ export const blogs = [
     image: `/assets/bg99.png`,
     category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  494",
-      "Subclass  491",
-      "Subclass  186",
+      "Subclass 494",
+      "Subclass 491",
+      "Subclass 186",
     ]
   },
   {
@@ -299,8 +299,8 @@ export const blogs = [
     image: `/assets/bg98.png`,
       category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  491",
-      "Subclass  190",
+      "Subclass 491",
+      "Subclass 190",
     ]
   },
   {
@@ -313,7 +313,7 @@ export const blogs = [
     image: `/assets/bg97.png`,
      category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  491",
+      "Subclass 491",
       "Partner Visa (Subclass 309/100)",
     ],
   },
@@ -327,7 +327,7 @@ export const blogs = [
     image: `/assets/bg96.png`,
       category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  491",
+      "Subclass 491",
     ],
   },
   {
@@ -340,7 +340,7 @@ export const blogs = [
     image: `/assets/bg95.jpg`,
       category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  485",
+      "Subclass 485",
     ],
   },
   {
@@ -353,8 +353,8 @@ export const blogs = [
     image: `/assets/bg94.png`,
       category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  485",
-      "Subclass  494",
+      "Subclass 485",
+      "Subclass 494",
     ],
   },
   {
@@ -367,7 +367,7 @@ export const blogs = [
     image: `/assets/bg93.jpg`,
       category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  482",
+      "Subclass 482",
     ],
   },
   {
@@ -380,7 +380,7 @@ export const blogs = [
     image: `/assets/bg92.png`,
       category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  482",
+      "Subclass 482",
     ],
   },
   {
@@ -393,7 +393,7 @@ export const blogs = [
     image: `/assets/bg91.png`,
       category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  482",
+      "Subclass 482",
     ],
   },
   {
@@ -406,7 +406,7 @@ export const blogs = [
     image: `/assets/bg90.png`,
       category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  482",
+      "Subclass 482",
     ],
   },
   {
@@ -419,9 +419,9 @@ export const blogs = [
     image: `/assets/bg89.jpg`,
       category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  482",
-      "Subclass  190",
-      "Subclass  491",
+      "Subclass 482",
+      "Subclass 190",
+      "Subclass 491",
     ],
   },
   {
@@ -434,7 +434,7 @@ export const blogs = [
     image: `/assets/bg87.png`,
       category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  482",
+      "Subclass 482",
     ],
   },
   {
@@ -447,7 +447,7 @@ export const blogs = [
     image: `/assets/bg86.png`,
       category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  482",
+      "Subclass 482",
     ],
   },
   {
@@ -473,7 +473,7 @@ export const blogs = [
     image: `/assets/bg84.png`,
       category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  482",
+      "Subclass 482",
     ],
   },
   {
@@ -486,7 +486,7 @@ export const blogs = [
     image: `/assets/bg83.png`,
      category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  482",
+      "Subclass 482",
     ],
   },
   {
@@ -499,7 +499,7 @@ export const blogs = [
     image: `/assets/bg82.png`,
      category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  417",
+      "Subclass 417",
     ],
   },
   {
@@ -512,7 +512,7 @@ export const blogs = [
     image: `/assets/bg81.png`,
      category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  407",
+      "Subclass 407",
     ],
   },
   {
@@ -525,9 +525,9 @@ export const blogs = [
     image: `/assets/bg80.png`,
      category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  190",
-      "Subclass  491",
-      "Subclass  400",
+      "Subclass 190",
+      "Subclass 491",
+      "Subclass 400",
     ],
   },
   {
@@ -540,7 +540,7 @@ export const blogs = [
     image: `/assets/bg79.png`,
      category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  190",
+      "Subclass 190",
     ],
   },
   {
@@ -553,7 +553,7 @@ export const blogs = [
     image: `/assets/bg78.png`,
      category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  190",
+      "Subclass 190",
     ],
   },
   {
@@ -566,7 +566,7 @@ export const blogs = [
     image: `/assets/bg77.png`,
      category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  189",
+      "Subclass 189",
     ],
   },
   {
@@ -579,7 +579,7 @@ export const blogs = [
     image: `/assets/bg76.png`,
      category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  189",
+      "Subclass 189",
     ],
   },
   {
@@ -592,7 +592,7 @@ export const blogs = [
     image: `/assets/bg75.png`,
      category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  189",
+      "Subclass 189",
     ],
   },
   {

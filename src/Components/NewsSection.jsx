@@ -18,8 +18,8 @@ const NewsSection = () => {
     "Family and partner visas",
     "Labour Agreements & DAMA",
     "National Innovation Visa",
-    "Skilled Migration Visas",
-    "Skills Assessment",
+    // "Skilled Migration Visas",
+    // "Skills Assessment",
     "Studying and training visas",
     "Temporary Work Visas",
     "Visitor Visas",
@@ -67,25 +67,25 @@ const NewsSection = () => {
       "Subclass 189",
       "Subclass 491"
     ],
-    "Skilled Migration Visas" : [
-      "Subclass 189",
-      "Subclass 190",
-      "Subclass 400",
-      "Subclass 491",
-      "Subclass 407",
-      "Subclass 417",
-      "Subclass 482"
-    ],
-    "Skills Assessment" : [
-      "Subclass 482",
-      "Subclass 485",
-      "Subclass 494",
-      "Subclass 491",
-      "Partner Visa (Subclass 309/100)",
-      "Subclass 190",
-      "Subclass 186",
-      "Labour Agreement"
-    ],
+    // "Skilled Migration Visas" : [
+    //   "Subclass 189",
+    //   "Subclass 190",
+    //   "Subclass 400",
+    //   "Subclass 491",
+    //   "Subclass 407",
+    //   "Subclass 417",
+    //   "Subclass 482"
+    // ],
+    // "Skills Assessment" : [
+    //   "Subclass 482",
+    //   "Subclass 485",
+    //   "Subclass 494",
+    //   "Subclass 491",
+    //   "Partner Visa (Subclass 309/100)",
+    //   "Subclass 190",
+    //   "Subclass 186",
+    //   "Labour Agreement"
+    // ],
     "Studying and training visas":[
       "Subclass 500",
       "Subclass 600"
