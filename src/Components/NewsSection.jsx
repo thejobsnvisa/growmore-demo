@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { news } from "../data/newsData";
 
 const NewsSection = () => {
-   const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
   const [selectedSubcategory, setSelectedSubcategory] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
@@ -116,7 +116,11 @@ const NewsSection = () => {
           ...(subcategoryMap[selectedCategory] || []),
           ...news
             .filter((blog) => blog.category === selectedCategory)
-            .map((blog) => blog.subcategory)
+            .flatMap((blog) =>
+              Array.isArray(blog.subcategory)
+                ? blog.subcategory
+                : [blog.subcategory]
+            )
             .filter(Boolean),
         ]),
       ];
@@ -124,7 +128,13 @@ const NewsSection = () => {
 
     return [...new Set([
       ...Object.values(subcategoryMap).flat(),
-      ...news.map((blog) => blog.subcategory).filter(Boolean),
+      ...news
+        .flatMap((blog) =>
+          Array.isArray(blog.subcategory)
+            ? blog.subcategory
+            : [blog.subcategory]
+        )
+        .filter(Boolean),
     ])];
   }, [selectedCategory, subcategoryMap]);
 
@@ -132,16 +142,20 @@ const NewsSection = () => {
     const query = searchTerm.trim().toLowerCase();
 
     return news.filter((blog) => {
-      const searchableText = `${blog.title} ${blog.category || ""}    ${Array.isArray(blog.subcategory)
+      const searchableText = `${blog.title} ${blog.category || ""} ${Array.isArray(blog.subcategory)
           ? blog.subcategory.join(" ")
           : blog.subcategory || ""}`.toLowerCase();
       const matchesQuery = !query || searchableText.includes(query);
       const matchesCategory = !selectedCategory || blog.category === selectedCategory;
-      const matchesSubcategory = !selectedSubcategory || blog.subcategory === selectedSubcategory;
+      const matchesSubcategory =
+        !selectedSubcategory ||
+        (Array.isArray(blog.subcategory)
+          ? blog.subcategory.includes(selectedSubcategory)
+          : blog.subcategory === selectedSubcategory);
 
       return matchesQuery && matchesCategory && matchesSubcategory;
     });
-  }, [searchTerm, selectedCategory, selectedSubcategory]);
+  }, [searchTerm, selectedCategory, selectedSubcategory, news]);
 
   const blogsPerPage = 10;
   const totalPages = Math.max(1, Math.ceil(filteredBlogs.length / blogsPerPage));
