@@ -1,5 +1,14 @@
 export const news = [
   {
+    id: 137,
+    slug: "tasmania-latest-invitation-round-issues-72-invitations-on-1-october-2026",
+    title: "Tasmania’s Latest Invitation Round Issues 72 Invitations on 1 October 2026",
+    metaTitle: "Tasmania Invitation Round: 72 Invitations on 1 October 2026",
+    metaDescription: "Tasmania issued 72 skilled migration invitations on 1 October 2026. Check subclass 190 and 491 scores, remaining nomination places and assessment thresholds.",
+    date: "Oct 2, 2026",
+    image: `/assets/nb99.png`,
+  },
+  {
     id: 136,
     slug: "act-plans-october-invitations-while-nomination-quota-remains-unclear",
     title: "ACT Plans October Invitations While Nomination Quota Remains Unclear",
