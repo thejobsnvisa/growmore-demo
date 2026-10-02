@@ -253,7 +253,7 @@ export const blogs = [
     metaDescription: "how Australia invitation rounds work, from submitting an EOI through SkillSelect to receiving an invitation for Subclass 189, 190, or 491 visas.",
     date: "Aug 06, 2026",
     image: `/assets/102.png`,
-    category: "Skilled Migration Visas",
+    category: "Skills Assessment",
     subcategory:[
       "Subclass 190",
       "Subclass 491",
@@ -268,7 +268,7 @@ export const blogs = [
     metaDescription: "Restaurant Managers can still explore Australia PR pathways after CSOL removal. Learn about DAMA, Labour Agreements, Subclass 494 and Other options.",
     date: "Aug 04, 2026",
     image: `/assets/bg100.png`,
-    category: "Skilled Migration Visas",
+    category: "Skills Assessment",
     subcategory:[
       "Subclass 494",
       "Labour Agreement",
@@ -282,7 +282,7 @@ export const blogs = [
     metaDescription: "Find the latest list of Accredited Sponsors in Australia for employer-sponsored visas. Explore trusted sponsors for Subclass 482, 186 and 494 visas.",
     date: "July 31, 2026",
     image: `/assets/bg99.png`,
-    category: "Skilled Migration Visas",
+    category: "Skills Assessment",
     subcategory:[
       "Subclass 494",
       "Subclass 491",
@@ -297,7 +297,7 @@ export const blogs = [
     metaDescription: "how Australia's state nomination process works for Subclass 190 and 491 visas and improve your chances of securing Australia PR.",
     date: "July 28, 2026",
     image: `/assets/bg98.png`,
-      category: "Skilled Migration Visas",
+      category: "Skills Assessment",
     subcategory:[
       "Subclass 491",
       "Subclass 190",
@@ -311,7 +311,7 @@ export const blogs = [
     metaDescription: "how to apply for an Australia Partner Visa, including eligibility, relationship evidence, visa subclasses, and the application process.",
     date: "July 25, 2026",
     image: `/assets/bg97.png`,
-     category: "Skilled Migration Visas",
+     category: "Skills Assessment",
     subcategory:[
       "Subclass 491",
       "Partner Visa (Subclass 309/100)",
@@ -325,7 +325,7 @@ export const blogs = [
     metaDescription: "Work in Australia as a care worker through the Aged Care Labour Agreement. Fast-track permanent residency (Subclass 186) with concessions on fees and English.",
     date: "July 24, 2026",
     image: `/assets/bg96.png`,
-      category: "Skilled Migration Visas",
+      category: "Skills Assessment",
     subcategory:[
       "Subclass 491",
     ],
@@ -338,7 +338,7 @@ export const blogs = [
     metaDescription: "how to get an Australian 482 Visa at zero cost. Learn about legal employer-paid sponsorship rules, fee coverage, and zero-deduction regulations.",
     date: "July 22, 2026",
     image: `/assets/bg95.jpg`,
-      category: "Skilled Migration Visas",
+      category: "Skills Assessment",
     subcategory:[
       "Subclass 485",
     ],
@@ -351,7 +351,7 @@ export const blogs = [
     metaDescription: "Sponsoring overseas workers on the Skills in Demand 482 visa? Master Australia’s strict 28-day Labour Market Testing rules to avoid an automatic nomination refusal.",
     date: "July 18, 2026",
     image: `/assets/bg94.png`,
-      category: "Skilled Migration Visas",
+      category: "Skills Assessment",
     subcategory:[
       "Subclass 485",
       "Subclass 494",
@@ -365,7 +365,7 @@ export const blogs = [
     metaDescription: "Need a skills assessment for Australia PR? Find the right assessing authority and get expert guidance from Growmore Immigration.",
     date: "July 17, 2026",
     image: `/assets/bg93.jpg`,
-      category: "Skilled Migration Visas",
+      category: "Skills Assessment",
     subcategory:[
       "Subclass 482",
     ],
@@ -378,7 +378,7 @@ export const blogs = [
     metaDescription: "Planning to apply for a Subclass 190 Visa? Learn about eligibility, state nomination, visa costs, and the Australia PR process.",
     date: "July 16, 2026",
     image: `/assets/bg92.png`,
-      category: "Skilled Migration Visas",
+      category: "Skills Assessment",
     subcategory:[
       "Subclass 482",
     ],
@@ -391,7 +391,7 @@ export const blogs = [
     metaDescription: "A single error can cause a visa refusal or years of delays. Learn how to avoid critical mistakes with skills assessments, points claims, and the CSOL.",
     date: "July 15, 2026",
     image: `/assets/bg91.png`,
-      category: "Skilled Migration Visas",
+      category: "Skills Assessment",
     subcategory:[
       "Subclass 482",
     ],
@@ -460,7 +460,7 @@ export const blogs = [
     image: `/assets/bg85.png`,
       category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  482",
+      "Subclass 482",
     ],
   },
   {
@@ -605,7 +605,7 @@ export const blogs = [
     image: `/assets/bg74.png`,
      category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  189",
+      "Subclass 189",
     ],
   },
   {
@@ -657,7 +657,7 @@ export const blogs = [
     image: `/assets/bg69.png`,
      category: "Other",
     subcategory:[
-      "Subclass  189",
+      "Subclass 189",
     ],
   },
   {
@@ -670,7 +670,7 @@ export const blogs = [
     image: `/assets/bg68.png`,
      category: "Other",
     subcategory:[
-      "Subclass  189",
+      "Subclass 189",
     ],
   },
   {
@@ -683,7 +683,7 @@ export const blogs = [
     image: `/assets/bg67.jpg`,
      category: "Other",
     subcategory:[
-      "Subclass  189",
+      "Subclass 189",
     ],
   },
   {
@@ -696,7 +696,7 @@ export const blogs = [
     image: `/assets/bg66.png`,
      category: "Other",
     subcategory:[
-      "Subclass  189",
+      "Subclass 189",
     ],
   },
   {
@@ -709,8 +709,8 @@ export const blogs = [
     image: `/assets/bg65.png`,
      category: "Other",
     subcategory:[
-      "Subclass  189",
-      "Subclass  462",
+      "Subclass 189",
+      "Subclass 462",
     ],
   },
   {
@@ -723,7 +723,7 @@ export const blogs = [
     image: `/assets/bg64.png`,
      category: "Other",
     subcategory:[
-      "Subclass  186",
+      "Subclass 186",
     ],
   },
   {
@@ -736,7 +736,7 @@ export const blogs = [
     image: `/assets/bg63.png`,
      category: "Other",
     subcategory:[
-      "Subclass  186",
+      "Subclass 186",
     ],
   },
   {
@@ -749,7 +749,7 @@ export const blogs = [
     image: `/assets/bg62.png`,
      category: "Other",
     subcategory:[
-      "Subclass  186",
+      "Subclass 186",
     ],
   },
   {
@@ -762,7 +762,7 @@ export const blogs = [
     image: `/assets/bg61.png`,
      category: "Other",
     subcategory:[
-      "Subclass  186",
+      "Subclass 186",
     ],
   },
   {
@@ -775,7 +775,7 @@ export const blogs = [
     image: `/assets/bg60.png`,
      category: "Other",
     subcategory:[
-      "Subclass  186",
+      "Subclass 186",
     ],
   },
   {
@@ -788,7 +788,7 @@ export const blogs = [
     image: `/assets/b1.png`,
     category: "Other",
     subcategory:[
-      "Subclass  186",
+      "Subclass 186",
     ],
   },
   {
@@ -801,7 +801,7 @@ export const blogs = [
     image: `/assets/bg31.png`,
     category: "Other",
     subcategory:[
-      "Subclass  186",
+      "Subclass 186",
     ],
   },
   {
@@ -814,7 +814,7 @@ export const blogs = [
     image: `/assets/bg30.png`,
      category: "Other",
     subcategory:[
-      "Subclass  482",
+      "Subclass 482",
     ],
   },
   {
@@ -827,9 +827,9 @@ export const blogs = [
     image: `/assets/bg29.png`,
     category: "Other",
     subcategory:[
-      "Subclass  482",
-      "Subclass  186",
-      "Subclass  494"
+      "Subclass 482",
+      "Subclass 186",
+      "Subclass 494"
     ],
   },
   {
@@ -842,9 +842,9 @@ export const blogs = [
     image: `/assets/bg28.jpg`,
      category: "Other",
     subcategory:[
-      "Subclass  482",
-      "Subclass  190",
-      "Subclass  491"
+      "Subclass 482",
+      "Subclass 190",
+      "Subclass 491"
     ],
   },
   {
@@ -857,7 +857,7 @@ export const blogs = [
     image: `/assets/bg27.png`,
      category: "Other",
     subcategory:[
-      "Subclass  482",
+      "Subclass 482",
     ],
   },
   {
@@ -870,7 +870,7 @@ export const blogs = [
     image: `/assets/bg26.png`,
      category: "Other",
     subcategory:[
-      "Subclass  482",
+      "Subclass 482",
     ],
   },
   {
@@ -883,7 +883,7 @@ export const blogs = [
     image: `/assets/bg25.png`,
      category: "Other",
     subcategory:[
-      "Subclass  482",
+      "Subclass 482",
     ],
   },
   {
@@ -896,9 +896,9 @@ export const blogs = [
     image: `/assets/bg24.png`,
      category: "Other",
     subcategory:[
-      "Subclass  482",
-      "Subclass  186",
-      "Subclass  494"
+      "Subclass 482",
+      "Subclass 186",
+      "Subclass 494"
     ],
   },
   {
@@ -911,7 +911,7 @@ export const blogs = [
     image: `/assets/bg23.png`,
      category: "Other",
     subcategory:[
-      "Subclass  482",
+      "Subclass 482",
     ],
   },
   {
@@ -924,7 +924,7 @@ export const blogs = [
     image: `/assets/bg22.png`,
      category: "Other",
     subcategory:[
-      "Subclass  482",
+      "Subclass 482",
     ],
   },
   {
@@ -937,7 +937,7 @@ export const blogs = [
     image: `/assets/bg21.jpg`,
      category: "Other",
     subcategory:[
-      "Subclass  482",
+      "Subclass 482",
     ],
   },
   {
