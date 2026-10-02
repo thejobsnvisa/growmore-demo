@@ -1,5 +1,14 @@
 export const news = [
   {
+    id: 138,
+    slug: "australia-tightens-student-visa-and-dependant-rules-from-2-october",
+    title: "Australia Tightens Student Visa and Dependant Rules From 2 October",
+    metaTitle: "Australia Tightens Student Visa Rules From 2 October 2026",
+    metaDescription: "Australia tightens Student visa and dependant rules from 2 October 2026, changing onshore applications, family inclusion and subsequent entrants.",
+    date: "Oct 2, 2026",
+    image: `/assets/nb100.png`,
+  },
+  {
     id: 137,
     slug: "tasmania-latest-invitation-round-issues-72-invitations-on-1-october-2026",
     title: "Tasmania’s Latest Invitation Round Issues 72 Invitations on 1 October 2026",

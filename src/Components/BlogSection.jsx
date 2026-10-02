@@ -5,6 +5,15 @@ import { Link } from "react-router-dom";
 const blogs = [
   {
     id: 1,
+    slug: "australia-tightens-student-visa-and-dependant-rules-from-2-october",
+    title: "Australia Tightens Student Visa and Dependant Rules From 2 October",
+    metaTitle: "Australia Tightens Student Visa Rules From 2 October 2026",
+    metaDescription: "Australia tightens Student visa and dependant rules from 2 October 2026, changing onshore applications, family inclusion and subsequent entrants.",
+    date: "Oct 2, 2026",
+    image: `/assets/nb100.png`,
+  },
+  {
+    id: 2,
     slug: "tasmania-latest-invitation-round-issues-72-invitations-on-1-october-2026",
     title: "Tasmania’s Latest Invitation Round Issues 72 Invitations on 1 October 2026",
     metaTitle: "Tasmania Invitation Round: 72 Invitations on 1 October 2026",
@@ -13,22 +22,13 @@ const blogs = [
     image: `/assets/nb99.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "act-plans-october-invitations-while-nomination-quota-remains-unclear",
     title: "ACT Plans October Invitations While Nomination Quota Remains Unclear",
     metaTitle: "ACT Plans October Invitations Amid Nomination Uncertainty",
     metaDescription: "ACT plans its first 2026–27 skilled migration invitation round for October. Check nomination updates, Canberra Matrix rules and ACT occupation list changes.",
     date: "Oct 1, 2026",
     image: `/assets/nb98.png`,
-  },
-  {
-    id: 3,
-    slug: "subclass-189-round-expected-by-31-october-2026-hope-for-waiting-skilled-migrants",
-    title: "Subclass 189 Round Expected by 31 October 2026: Hope for Waiting Skilled Migrants",
-    metaTitle: "Subclass 189 Invitation Round Expected by 31 October 2026",
-    metaDescription: "The next Subclass 189 invitation round is expected by 31 October 2026. Learn what the update means for skilled migrants pursuing Australia PR.",
-    date: "Oct 1, 2026",
-    image: `/assets/nb97.png`,
   },
 ];
 
