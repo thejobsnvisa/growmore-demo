@@ -14,7 +14,7 @@ The changes may affect you if you:
 - already hold a Student visa and want to apply for another Student visa in Australia
 - hold a Student visa as a dependant and want to apply as the primary student
 - want to include your partner or dependent children in a Student visa application
-- are considering bringing your family to Australia after your Student visa is granted
+- are considering bringing your family to Australia as Student visa secondary applicants
 
 The rules also affect applications for the Student Guardian visa (subclass 590) in certain circumstances.
 
@@ -22,11 +22,11 @@ The rules also affect applications for the Student Guardian visa (subclass 590) 
 
 One of the major changes is the restriction on onshore Student visa applications.
 
-Under LIN 26/102, people holding specified temporary visas are generally unable to lodge a Student visa application while they are in Australia.
+Under LIN 26/102, people holding specified temporary visas must apply for a Student visa from outside Australia.
 
 The affected visa subclasses include:
 
-- Subclass 400 Temporary Work (Short Stay Specialist)
+- Subclass 400 Short Stay Specialist
 - Subclass 403 Temporary Work (International Relations), specifically the Domestic Worker (Diplomatic or Consular) stream
 - Subclass 407 Training
 - Subclass 408 Temporary Activity
@@ -34,7 +34,6 @@ The affected visa subclasses include:
 - Subclass 457 Temporary Work (Skilled)
 - Subclass 462 Work and Holiday
 - Subclass 482 Skills in Demand
-- Subclass 482 Temporary Skill Shortage
 - Subclass 485 Temporary Graduate
 - Subclass 600 Visitor
 - Subclass 601 Electronic Travel Authority
@@ -44,11 +43,11 @@ The affected visa subclasses include:
 - Subclass 988 Maritime Crew
 - Subclass 995 Diplomatic (Temporary), where the specified grant criteria apply
 
-## What does this mean?
+### What does this mean?
 
-For example, if a person is in Australia on a subclass 482 visa and wants to apply for a student visa, they can no longer simply lodge the subclass 500 application from Australia if they fall within the class covered by LIN 26/102.
+For example, if a person is in Australia on a subclass 482 visa and wants to apply for a Student visa, they can no longer simply lodge the subclass 500 application from Australia if they fall within the class specified by LIN 26/102.
 
-They will generally need to first leave Australia, then lodge the student visa application outside Australia, and remain outside Australia at the time of visa grant.
+They will generally need to first leave Australia, then lodge the Student visa application outside Australia, and remain outside Australia when the visa is granted.
 
 The same principle applies to other specified visa holders covered by the new instrument.
 
@@ -66,20 +65,20 @@ If the person cannot apply in Australia under the new rules, they generally need
 
 ## Who May Still Apply for Another Student Visa in Australia?
 
-There are several exemptions for current Student visa holders. You may still be able to apply for another Student visa in Australia if you meet one of these categories.
+There are several exemptions for current Student visa holders. You may still be able to apply for another Student visa in Australia if you meet an applicable exemption under the regulations or LIN 26/087.
 
 ### 1. You Need More Time to Complete Your Course
 
-An exemption may apply if you need up to 12 additional months after your original course end date to complete your studies.
+An exemption may apply if you need additional time to complete your studies, including where you will complete the principal course within 12 months after the end date specified in your Confirmation of Enrolment.
 
 Generally, you must:
 
 - hold a current Student visa as the primary student
-- have started your principal course
-- continue studying with the same education provider
-- complete the principal course within the relevant 12-month period
+- have started your principal course or an alternative principal course with the same education provider, where permitted
+- have not completed the relevant principal course
+- complete the principal course within 12 months of the relevant Confirmation of Enrolment end date
 
-If you are studying a package of courses, the course requiring additional time must be the relevant principal course. An alternative course with a different education provider does not qualify under this exemption.
+The exemption is subject to specific conditions, so simply needing more time to study does not automatically allow an onshore application.
 
 ### 2. You Are Sponsored by DFAT or Defence
 
@@ -87,11 +86,11 @@ Students sponsored by the Department of Foreign Affairs and Trade (DFAT) or Defe
 
 ### 3. You Are Applying for a PhD
 
-A current Student visa holder applying for a PhD or another qualifying doctoral degree may qualify for an onshore exemption.
+A current Student visa holder enrolled in a course leading to a doctoral degree may qualify for an onshore exemption.
 
 ### 4. You Are Applying for Primary or Secondary School
 
-Exemptions also apply in certain cases to students applying to study primary or secondary school.
+Certain school students are exempt from the offshore application requirement and may still be able to apply for a further Student visa in Australia.
 
 ### 5. You Are Progressing to a Higher AQF Level
 
@@ -99,13 +98,15 @@ An exemption may apply if you have completed your principal course and are progr
 
 For example, the new course must generally have a higher AQF level than the course you have completed.
 
-Additional requirements apply if your completed course was a higher education course. In that case, the next course must also be a higher education course delivered by a qualifying higher education provider.
+Additional requirements apply if your completed course was a higher education course. In that case, the next course must also be a higher education course delivered by a higher education provider. The applicant must also be enrolled in no more than one further course and meet the other course-progression requirements.
 
 ### 6. You Are Progressing From a Course Without an AQF Level
 
 There are also provisions for students whose completed course did not have an AQF level.
 
 In certain cases, you may qualify by progressing to a course that has an AQF level. Separate provisions also apply to students progressing from school studies.
+
+These exemptions are subject to the specific course-progression requirements in LIN 26/087.
 
 ### 7. Your Education Provider Has Defaulted
 
@@ -117,19 +118,24 @@ You must meet specific requirements relating to your enrolment, the provider def
 
 The second major part of the reform concerns partners and dependent children.
 
-From 2 October 2026, Student visa applicants generally cannot include their partner or dependent children in their Student visa application unless an exemption applies.
+From 2 October 2026, a secondary applicant can apply for a Student visa only in specified circumstances under the regulations and relevant legislative instruments.
+
+This means Student visa applicants generally cannot simply include their partner or dependent children unless they fall within one of the permitted classes.
 
 ## Who Can Still Include Family Members?
 
 There are specific exemptions allowing certain Student visa applicants to include family members.
 
-An exemption may apply where the primary student is:
+These include circumstances where the primary applicant is:
 
-- studying a PhD
-- sponsored by DFAT or Defence
-- receiving a foreign government scholarship
-- an eligible student from a Pacific country
-- an eligible student from an ASEAN member country
+- a Defence student or Foreign Affairs student
+- an eligible student holding a passport from a specified Pacific regional country or ASEAN member country
+- a doctoral student
+- a student whose circumstances meet the provider-default requirements
+- a student who meets the specified completion-of-studies requirements
+- a student whose course is fully funded by a foreign government, where the foreign government scholarship requirements are met
+
+There are also transitional provisions for certain secondary applicants who were already in Australia and held a Student visa as a secondary holder on 2 October 2026, or had applied for that visa before 2 October and were later granted it.
 
 ## Can a Student Bring Their Family Later?
 
@@ -137,29 +143,35 @@ This is another major change.
 
 A current Student visa holder can no longer add their partner or dependent children later as Student visa subsequent entrants.
 
-The Department states that there are no exemptions to this subsequent-entrant restriction.
+The previous subsequent-entrant pathway has been removed.
+
+This means family members who are not eligible under the new secondary-applicant provisions cannot simply be added to the Student visa after it has been granted.
 
 ## What If Family Members Are Already Included in Your Current Student Visa?
 
 There is an important exception for existing family members.
 
-If you already have family members included in your current Student visa and you are applying for another Student visa in Australia, you may be able to include those family members in your next application, provided the relevant requirements are met.
+A secondary applicant who was in Australia and held a Student visa as a secondary holder on 2 October 2026, or who had applied for that visa before 2 October 2026 and was later granted it, may fall within the permitted class under the new rules.
 
-The primary applicant and all family members included in the application must be in the same location when the application is lodged.
+Where a secondary applicant is eligible under the new rules, the primary applicant and the secondary applicant must generally apply at the same time and place and make a combined application.
+
+This means a current Student visa holder cannot generally lodge a new Student visa application first and then add family members later as subsequent entrants.
 
 ## What Happens to Children Born in Australia?
 
 The new rules also cover certain children born in Australia to Student visa holders.
 
-A child born in Australia on or after 2 October 2026 may be included under specific provisions if the parent held the relevant Student visa, or had applied for it and was later granted the visa.
+A child born in Australia on or after 2 October 2026 may fall within a specific secondary-applicant provision where the parent held a Student visa on 2 October 2026, or had applied for a Student visa on that date and was later granted the visa.
 
 The outcome depends on the parent’s visa status and when the visa application was made and granted. So, each case needs to be checked based on the family’s circumstances.
 
 ## What About Applications Lodged Before 2 October 2026?
 
-The new rules do not simply rewrite applications that were already lodged.
+The amendments apply to Student visa applications made on or after 2 October 2026.
 
-The Department of Home Affairs has confirmed that Student visa applications lodged before 2 October 2026, including applications that included family members, continue to be assessed under the rules that applied when those applications were lodged.
+Therefore, the new application requirements should be considered based on the date the relevant visa application was made, together with the applicable transitional and legislative provisions.
+
+Applications made before 2 October 2026 need to be assessed under the requirements that applied to those applications.
 
 ## Need Help with Your Australia Student Visa Pathway?
 
@@ -175,3 +187,4 @@ Speak with our Registered Migration Agent in Australia to discuss your circumsta
 
 - [Changes to Student visa application rules](https://immi.homeaffairs.gov.au/Visa-subsite/files/changes-to-student-visa-applications-factsheet.pdf)
 - [Migration (Student Visa Applications to Be Made from outside Australia) Instrument 2026](https://migrationalliance.com.au/images/easyblog_images/5725/Migration-Student-Visa-Applications-to-be-mde-from-Outside-Australia-Instrument-2026.pdf)
+- [MIA Notice 21 - 2 October 2026](https://www.mia.org.au/Web/Professional-Support/Notices/Notices/2026---27/MIA%20Notice%2021%20-%202%20October%202026.aspx)
