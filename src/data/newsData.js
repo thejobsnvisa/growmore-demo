@@ -1,5 +1,23 @@
 export const news = [
   {
+    id: 138,
+    slug: "australia-tightens-student-visa-and-dependant-rules-from-2-october",
+    title: "Australia Tightens Student Visa and Dependant Rules From 2 October",
+    metaTitle: "Australia Tightens Student Visa Rules From 2 October 2026",
+    metaDescription: "Australia tightens Student visa and dependant rules from 2 October 2026, changing onshore applications, family inclusion and subsequent entrants.",
+    date: "Oct 2, 2026",
+    image: `/assets/nb100.png`,
+  },
+  {
+    id: 137,
+    slug: "tasmania-latest-invitation-round-issues-72-invitations-on-1-october-2026",
+    title: "Tasmania’s Latest Invitation Round Issues 72 Invitations on 1 October 2026",
+    metaTitle: "Tasmania Invitation Round: 72 Invitations on 1 October 2026",
+    metaDescription: "Tasmania issued 72 skilled migration invitations on 1 October 2026. Check subclass 190 and 491 scores, remaining nomination places and assessment thresholds.",
+    date: "Oct 2, 2026",
+    image: `/assets/nb99.png`,
+  },
+  {
     id: 136,
     slug: "act-plans-october-invitations-while-nomination-quota-remains-unclear",
     title: "ACT Plans October Invitations While Nomination Quota Remains Unclear",
@@ -231,6 +249,8 @@ export const news = [
       "ABS opens final consultation on the draft 2027 OSCA update. Learn what proposed occupation changes mean for skilled migrants and employers.",
     date: "Aug 22, 2026",
     image: `/assets/nb75.png`,
+    category: "Other",
+    subcategory: "Other",
   },
   {
     id: 112,
@@ -241,6 +261,8 @@ export const news = [
       "Australia clarifies that study gaps may not automatically affect the Subclass 485 Australian Study Requirement. See key exceptions and eligibility details.",
     date: "Aug 21, 2026",
     image: `/assets/nb74.png`,
+    category: "Other",
+    subcategory: "Subclass 485",
   },
   {
     id: 111,
@@ -251,6 +273,11 @@ export const news = [
       "Tasmania issues 93 invitations in its first 2026–27 state nomination round, with 67 for Subclass 190 and 26 for Subclass 491.",
     date: "Aug 20, 2026",
     image: `/assets/nb73.png`,
+    category: "Skilled Migration Visas",
+    subcategory: [
+      "Subclass 190", 
+      "Subclass 491",
+    ],
   },
   {
     id: 110,
@@ -262,6 +289,11 @@ export const news = [
       "Northern Territory opens 2026–27 GSM nomination applications from 21 August 2026 for eligible Subclass 190 and 491 applicants. Check the latest updates.",
     date: "Aug 20, 2026",
     image: `/assets/nb72.jpg`,
+    category: "Skilled Migration Visas",
+    subcategory: [
+      "Subclass 190", 
+      "Subclass 491",
+    ],
   },
   {
     id: 109,
@@ -272,6 +304,11 @@ export const news = [
       "Tasmania may withdraw approved nominations if false or misleading information is found. Learn how this can affect your visa application.",
     date: "Aug 19, 2026",
     image: `/assets/nb71.jpg`,
+    category: "Skilled Migration Visas",
+    subcategory: [
+      "Subclass 190", 
+      "Subclass 491",
+    ],
   },
   {
     id: 108,
@@ -283,6 +320,11 @@ export const news = [
       "Australia's Indonesia Work and Holiday visa program is moving to a ballot system. Find out when it opens and who can express interest.",
     date: "Aug 14, 2026",
     image: `/assets/nb70.jpg`,
+    category: "Working Holiday Visas",
+    subcategory: [
+      "Subclass 417",
+      "Subclass 462",
+    ],
   },
   {
     id: 107,
@@ -293,6 +335,8 @@ export const news = [
       "Around 6,500 Subclass 407 nominations have been refused. Learn why refusals are rising, what happens next and what affected applicants should do.",
     date: "Aug 14, 2026",
     image: `/assets/nb69.jpg`,
+    category: "Studying and training visas",
+    subcategory: "Subclass 407",
   },
   {
     id: 106,
@@ -303,6 +347,8 @@ export const news = [
       "Subclass 462 visa applications are paused for 24 countries. See affected countries, cap status, what “paused” means and what applicants should do next.",
     date: "Aug 13, 2026",
     image: `/assets/nb68.png`,
+    category: "Working Holiday Visas",
+    subcategory: "Subclass 462",
   },
   {
     id: 105,
@@ -313,6 +359,8 @@ export const news = [
       "Subclass 462 ballot results are out for Indian applicants. Find out what happens after selection, the 28-day visa deadline and PAN card requirements.",
     date: "Aug 11, 2026",
     image: `/assets/nb67.png`,
+    category: "Working Holiday Visas",
+    subcategory: "Subclass 462",
   },
   {
     id: 104,
@@ -324,6 +372,8 @@ export const news = [
       "VETASSESS skills assessment fees will increase from 9 September 2026. Check new fees, affected services, trade occupation exemption and key dates.",
     date: "Aug 10, 2026",
     image: `/assets/nb66.png`,
+    category: "Skills Assessment",
+    subcategory: "Skills Assessment",
   },
   {
     id: 103,
@@ -334,6 +384,8 @@ export const news = [
       "The ABF has sanctioned a NSW aged care provider for recovering sponsorship costs from 482 visa workers, ordering nearly $120,000 in repayments.",
     date: "Aug 07, 2026",
     image: `/assets/nb65.png`,
+    category: "Employer Sponsored Visas",
+    subcategory: "Subclass 482",
   },
   {
     id: 102,
@@ -344,6 +396,8 @@ export const news = [
       "Australia may reform its migration review process under a proposed Bill. Learn the key changes, Senate recommendations, and what they mean for visa applicants.",
     date: "Aug 07, 2026",
     image: `/assets/nb64.jpg`,
+    category: "Other",
+    subcategory: "Other",
   },
   {
     id: 101,
@@ -355,6 +409,8 @@ export const news = [
       "Planning to move to Australia? Gujarat has simplified passport verification by removing routine police station visits, making passport applications faster.",
     date: "Aug 05, 2026",
     image: `/assets/nb63.png`,
+    category: "Other",
+    subcategory: "Other",
   },
   {
     id: 100,
@@ -366,6 +422,11 @@ export const news = [
       "Tasmania opens its 2026–27 State Nomination Program on 17 August with revised priority attributes, weekly invitations and updated ROI requirements.",
     date: "Aug 05, 2026",
     image: `/assets/nb62.jpg`,
+    category: "Skilled Migration Visas",
+    subcategory: [
+      "Subclass 190", 
+      "Subclass 491",
+    ],
   },
   {
     id: 99,
@@ -376,6 +437,8 @@ export const news = [
       "The Department of Home Affairs warns of scammers posing as officers. Learn how the scam works, warning signs, and how to protect yourself.",
     date: "Aug 03, 2026",
     image: `/assets/nb61.png`,
+    category: "Other",
+    subcategory: "Other",
   },
   {
     id: 98,
@@ -387,6 +450,8 @@ export const news = [
       "Learn the latest FNQ DAMA updates, including five-year endorsements, upfront concessions, AI report guidance and employer sponsorship rules.",
     date: "Aug 03, 2026",
     image: `/assets/nb60.png`,
+    category: "Labour Agreements & DAMA",
+    subcategory: "DAMA",
   },
   {
     id: 97,
@@ -398,6 +463,8 @@ export const news = [
       "Australia's MD 117 updates Family visa processing priorities from 25 July 2026. Learn the new priority order for Partner, Child and Parent visas.",
     date: "July 30, 2026",
     image: `/assets/nb59.png`,
+    category: "National Innovation Visa",
+    subcategory: "Subclass 858",
   },
   {
     id: 96,
@@ -408,6 +475,8 @@ export const news = [
       "Australia's MD 117 updates Family visa processing priorities from 25 July 2026. Learn the new priority order for Partner, Child and Parent visas.",
     date: "July 30, 2026",
     image: `/assets/nb58.jpg`,
+    category: "Family and partner visas",
+    subcategory: "Other",
   },
   {
     id: 95,
@@ -419,6 +488,13 @@ export const news = [
       "Australia introduces new skilled visa processing priorities under Ministerial Direction 119. Find out if your PR or work visa application gets priority.",
     date: "July 30, 2026",
     image: `/assets/nb57.png`,
+    category: "Employer Sponsored Visas & Skilled Migration Visas",
+    subcategory: [
+      "Subclass 482",
+      "Subclass 189",
+      "Subclass 190",
+      "Subclass 491",
+    ],
   },
   {
     id: 94,
@@ -429,6 +505,11 @@ export const news = [
       "ACT launches a new Migration Application Portal for 2026–27. Learn about ACT nomination updates, occupation list review, and upcoming changes.",
     date: "July 29, 2026",
     image: `/assets/nb56.png`,
+    category: "Skilled Migration Visas",
+    subcategory: [
+      "Subclass 190", 
+      "Subclass 491",
+    ],
   },
   {
     id: 93,
@@ -440,6 +521,8 @@ export const news = [
       "Affected by the ICAC closure? Eligible Subclass 186 visa applicants may still qualify if delays impacted their application requirements or deadlines.",
     date: "July 27, 2026",
     image: `/assets/nb55.png`,
+    category: "Employer Sponsored Visas",
+    subcategory: "Subclass 186",
   },
   {
     id: 92,
@@ -450,6 +533,11 @@ export const news = [
       "Tasmania's Skilled Migration Program will reopen soon with 2,050 nomination places for eligible Subclass 190 and 491 applicants.",
     date: "July 27, 2026",
     image: `/assets/nb54.png`,
+    category: "Skilled Migration Visas",
+    subcategory: [
+      "Subclass 190", 
+      "Subclass 491",
+    ],
   },
   {
     id: 91,
@@ -461,6 +549,8 @@ export const news = [
       "Indian passport, visa and OCI services have resumed across Australia from 23 July 2026 as VFS Global centres reopen after weeks of disruption.",
     date: "July 23, 2026",
     image: `/assets/nb53.png`,
+    category: "Other",
+    subcategory: "Other",
   },
   {
     id: 90,
@@ -471,6 +561,8 @@ export const news = [
       "Indian Australians can expect relief as Supreme Court clears the way for passport, visa and OCI services to resume in Australia.",
     date: "July 21, 2026",
     image: `/assets/nb52.jpg`,
+    category: "Other",
+    subcategory: "Other",
   },
   {
     id: 89,
@@ -482,6 +574,8 @@ export const news = [
       "Learn why some Aged Parent visa applications are being refused after years of waiting and what it means for Australian parent visa applicants.",
     date: "July 21, 2026",
     image: `/assets/nb51.png`,
+    category: "Family and partner visas",
+    subcategory: "Subclass 804",
   },
   {
     id: 88,
@@ -493,6 +587,8 @@ export const news = [
       "Facing Indian PCC delays in Australia? Learn how Home Affairs will assess visa applications and what options are available for affected applicants.",
     date: "July 20, 2026",
     image: `/assets/nb49.png`,
+    category: "Refugee and humanitarian visas",
+    subcategory: "Subclass 202",
   },
   {
     id: 87,
@@ -504,6 +600,8 @@ export const news = [
       "Facing Indian PCC delays in Australia? Learn how Home Affairs will assess visa applications and what options are available for affected applicants.",
     date: "July 20, 2026",
     image: `/assets/nb48.png`,
+    category: "Other",
+    subcategory: "Other",
   },
   {
     id: 86,
@@ -514,6 +612,8 @@ export const news = [
       "Eligible Rugby League World Cup 2026 participants can apply for a Subclass 408 visa with no Visa Application Charge (VAC) in Australia.",
     date: "July 17, 2026",
     image: `/assets/nb47.png`,
+    category: "Other",
+    subcategory: "Subclass 408",
   },
   {
     id: 85,
@@ -525,6 +625,11 @@ export const news = [
       "Australia advises Working Holiday Visa applicants to apply early as Subclass 417 and 462 visa processing times are taking longer than usual.",
     date: "July 17, 2026",
     image: `/assets/nb46.png`,
+    category: "Visitor Visas",
+    subcategory: [
+      "Subclass 417",
+      "Subclass 462",
+    ],
   },
   {
     id: 84,
@@ -535,6 +640,8 @@ export const news = [
       "The Delhi High Court has cancelled VFS Global's tender for Indian passport and visa services in Australia. Here's what it means for Indians.",
     date: "July 16, 2026",
     image: `/assets/nb45.png`,
+    category: "Other",
+    subcategory: "Other",
   },
   {
     id: 84,
@@ -546,6 +653,8 @@ export const news = [
       "Australia is introducing a Digital Passenger Card to replace paper arrival forms. Learn how it works, the rollout timeline, and what it means for travellers.",
     date: "July 14, 2026",
     image: `/assets/nb43.png`,
+    category: "Other",
+    subcategory: "Other",
   },
   {
     id: 83,
@@ -557,6 +666,12 @@ export const news = [
       "Navigating the regional pathway? Learn exactly how the Department of Home Affairs calculates and counts regional visa places to avoid application traps.",
     date: "July 10, 2026",
     image: `/assets/nb42.png`,
+    category: "Employer Sponsored Visas & Skilled Migration Visas",
+    subcategory: [
+      "Subclass 491",
+      "Subclass 494",
+      "Subclass 187",
+    ],
   },
   {
     id: 82,
@@ -568,6 +683,8 @@ export const news = [
       "Victoria’s Great South Coast DAMA has updated its regional nomination fees. Review the new tiered structure for employers and find out how it impacts your PR pathway sponsorship.",
     date: "July 10, 2026",
     image: `/assets/nb41.png`,
+    category: "Labour Agreements & DAMA",
+    subcategory: "DAMA",
   },
   {
     id: 81,
@@ -579,6 +696,11 @@ export const news = [
       "Missed out on the NT state nomination before allocations were exhausted? Get the latest details on application processing freezes and steps to maximize your EOI for the reopening.",
     date: "July 10, 2026",
     image: `/assets/nb40.jpg`,
+    category: "Skilled Migration Visas",
+    subcategory: [
+      "Subclass 190", 
+      "Subclass 491",
+    ],
   },
   {
     id: 80,
@@ -589,6 +711,8 @@ export const news = [
       "The headline cap is holding steady at 185,000 places, but the internal mix has shifted. Discover which visa subclasses are growing and what it means for your PR points.",
     date: "July 8, 2026",
     image: `/assets/nb39.png`,
+    category: "Other",
+    subcategory: "Other",
   },
   {
     id: 79,
@@ -600,6 +724,8 @@ export const news = [
       "Looking for an alternative path to Australian PR? Explore the newly extended WA Goldfields and South Australia DAMA frameworks for regional visa pathways.",
     date: "July 7, 2026",
     image: `/assets/nb38.png`,
+    category: "Labour Agreements & DAMA",
+    subcategory: "DAMA",
   },
   {
     id: 78,
@@ -610,6 +736,11 @@ export const news = [
       "The 2025–26 ACT Skilled Migration Program has closed. Explore the new nomination portal, revised fees, and critical updates to the Canberra Matrix.",
     date: "July 6, 2026",
     image: `/assets/nb37.png`,
+    category: "Skilled Migration Visas",
+    subcategory: [
+      "Subclass 190", 
+      "Subclass 491",
+    ],
   },
   {
     id: 77,
