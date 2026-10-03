@@ -5,6 +5,15 @@ import { Link } from "react-router-dom";
 const blogs = [
   {
     id: 1,
+    slug: "no-more-card-surcharges-for-australian-visa-payments-from-october",
+    title: "No More Card Surcharges for Australian Visa Payments from October",
+    metaTitle: "Australia Visa Card Surcharges End from October 2026",
+    metaDescription: "From 1 October 2026, the Department of Home Affairs will stop charging card payment surcharges on eligible Australian visa payments.",
+    date: "Oct 3, 2026",
+    image: `/assets/nb101.png`,
+  },
+  {
+    id: 2,
     slug: "australia-tightens-student-visa-and-dependant-rules-from-2-october",
     title: "Australia Tightens Student Visa and Dependant Rules From 2 October",
     metaTitle: "Australia Tightens Student Visa Rules From 2 October 2026",
@@ -13,22 +22,13 @@ const blogs = [
     image: `/assets/nb100.png`,
   },
   {
-    id: 2,
+    id: 3,
     slug: "tasmania-latest-invitation-round-issues-72-invitations-on-1-october-2026",
     title: "Tasmania’s Latest Invitation Round Issues 72 Invitations on 1 October 2026",
     metaTitle: "Tasmania Invitation Round: 72 Invitations on 1 October 2026",
     metaDescription: "Tasmania issued 72 skilled migration invitations on 1 October 2026. Check subclass 190 and 491 scores, remaining nomination places and assessment thresholds.",
     date: "Oct 2, 2026",
     image: `/assets/nb99.png`,
-  },
-  {
-    id: 3,
-    slug: "act-plans-october-invitations-while-nomination-quota-remains-unclear",
-    title: "ACT Plans October Invitations While Nomination Quota Remains Unclear",
-    metaTitle: "ACT Plans October Invitations Amid Nomination Uncertainty",
-    metaDescription: "ACT plans its first 2026–27 skilled migration invitation round for October. Check nomination updates, Canberra Matrix rules and ACT occupation list changes.",
-    date: "Oct 1, 2026",
-    image: `/assets/nb98.png`,
   },
 ];
 

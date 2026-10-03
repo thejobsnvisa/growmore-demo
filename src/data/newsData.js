@@ -1,5 +1,14 @@
 export const news = [
   {
+    id: 139,
+    slug: "no-more-card-surcharges-for-australian-visa-payments-from-october",
+    title: "No More Card Surcharges for Australian Visa Payments from October",
+    metaTitle: "Australia Visa Card Surcharges End from October 2026",
+    metaDescription: "From 1 October 2026, the Department of Home Affairs will stop charging card payment surcharges on eligible Australian visa payments.",
+    date: "Oct 3, 2026",
+    image: `/assets/nb101.png`,
+  },
+  {
     id: 138,
     slug: "australia-tightens-student-visa-and-dependant-rules-from-2-october",
     title: "Australia Tightens Student Visa and Dependant Rules From 2 October",
