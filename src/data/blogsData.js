@@ -1,5 +1,14 @@
 export const blogs = [
   {
+    id: 125,
+    slug: "subclass-491-to-191-visa-what-you-need-to-know-to-apply-for-australia-pr",
+    title: "Subclass 491 to 191 Visa: What You Need to Know to Apply for Australia PR",
+    metaTitle: "Subclass 491 to 191: Your Pathway to Australia PR",
+    metaDescription: "Learn the Subclass 491 to 191 visa requirements in 2026, including visa conditions, ATO Notices of Assessment, income and Australia PR eligibility.",
+    date: "Oct 5, 2026",
+    image: `/assets/bg125.png`,
+  },
+  {
     id: 124,
     slug: "australia-an-immigration-problem-or-an-infrastructure-problem",
     title: "Australia:  An Immigration Problem Or an Infrastructure Problem?",
