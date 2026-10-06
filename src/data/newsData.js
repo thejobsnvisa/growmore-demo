@@ -1,5 +1,19 @@
 export const news = [
   {
+    id: 140,
+    slug: "nt-190-and-491-nominations-mostly-closed-for-2026-27-who-can-still-apply",
+    title: "NT 190 and 491 Nominations Mostly Closed for 2026–27: Who Can Still Apply?",
+    metaTitle: "NT 190 & 491 Nominations Mostly Closed for 2026–27",
+    metaDescription: "NT 190 and 491 nominations are mostly closed for 2026–27. Find out who may still apply under the NT nomination exceptions.",
+    date: "Oct 6, 2026",
+    image: `/assets/nb102.jpg`,
+    category: "Skilled Migration Visas",
+    subcategory: [
+      "Subclass 190",
+      "Subclass 491",
+    ],
+  },
+  {
     id: 139,
     slug: "no-more-card-surcharges-for-australian-visa-payments-from-october",
     title: "No More Card Surcharges for Australian Visa Payments from October",

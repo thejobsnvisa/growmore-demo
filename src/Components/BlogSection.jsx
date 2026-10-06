@@ -4,7 +4,21 @@ import { Link } from "react-router-dom";
 
 const blogs = [
   {
-    id: 1,
+    id: 140,
+    slug: "nt-190-and-491-nominations-mostly-closed-for-2026-27-who-can-still-apply",
+    title: "NT 190 and 491 Nominations Mostly Closed for 2026–27: Who Can Still Apply?",
+    metaTitle: "NT 190 & 491 Nominations Mostly Closed for 2026–27",
+    metaDescription: "NT 190 and 491 nominations are mostly closed for 2026–27. Find out who may still apply under the NT nomination exceptions.",
+    date: "Oct 6, 2026",
+    image: `/assets/nb102.jpg`,
+    category: "Skilled migration visa ",
+    subcategory: [
+      "Subclass 190",
+      "Subclass 491",
+    ],
+  },
+  {
+    id: 139,
     slug: "no-more-card-surcharges-for-australian-visa-payments-from-october",
     title: "No More Card Surcharges for Australian Visa Payments from October",
     metaTitle: "Australia Visa Card Surcharges End from October 2026",
@@ -13,22 +27,13 @@ const blogs = [
     image: `/assets/nb101.png`,
   },
   {
-    id: 2,
+    id: 138,
     slug: "australia-tightens-student-visa-and-dependant-rules-from-2-october",
     title: "Australia Tightens Student Visa and Dependant Rules From 2 October",
     metaTitle: "Australia Tightens Student Visa Rules From 2 October 2026",
     metaDescription: "Australia tightens Student visa and dependant rules from 2 October 2026, changing onshore applications, family inclusion and subsequent entrants.",
     date: "Oct 2, 2026",
     image: `/assets/nb100.png`,
-  },
-  {
-    id: 3,
-    slug: "tasmania-latest-invitation-round-issues-72-invitations-on-1-october-2026",
-    title: "Tasmania’s Latest Invitation Round Issues 72 Invitations on 1 October 2026",
-    metaTitle: "Tasmania Invitation Round: 72 Invitations on 1 October 2026",
-    metaDescription: "Tasmania issued 72 skilled migration invitations on 1 October 2026. Check subclass 190 and 491 scores, remaining nomination places and assessment thresholds.",
-    date: "Oct 2, 2026",
-    image: `/assets/nb99.png`,
   },
 ];
 
