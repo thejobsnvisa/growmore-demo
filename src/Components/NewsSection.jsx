@@ -11,103 +11,35 @@ const NewsSection = () => {
   const [selectedSubcategory, setSelectedSubcategory] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
 
-  const categoryOptions = [
-    "Skilled Migration Visas",
-    "Employer Sponsored Visas",
-    "Employer Sponsored Visas & Skilled Migration Visas",
-    "Family and partner visas",
-    "Labour Agreements & DAMA",
-    "National Innovation Visa",
-    "Skilled Migration Visas",
-    "Skills Assessment",
-    "Studying and training visas",
-    "Temporary Work Visas",
-    "Visitor Visas",
-    "Working Holiday Visas"
-  ];
+  const categoryOptions = useMemo(
+    () => [...new Set(news.map((blog) => blog.category).filter(Boolean))],
+    []
+  );
 
-  const subcategoryMap = useMemo(() => ({
-    "Employer Sponsored Visas": [
-      "DAMA",
-      "Subclass 190",
-      "Subclass 186",
-      "Subclass 494",
-      "Subclass 491",
-      "Subclass 189",
-      "Subclass 417",
-      "Subclass 462",
-      "Labour Agreement",
-      "Other"
-    ],
-    "Employer Sponsored Visas & Skilled Migration Visas": [
-      "Other",
-    ],
-    "Family and partner visas": [
-      "Other"
-    ],
-    "Labour Agreements & DAMA": [
-      "Other",
-      "Partner Visa (Subclass 820/801)",
-      "Subclass 417",
-      "Skills Assessment",
-      "Subclass 408",
-      "Subclass 186",
-      "Subclass 494",
-      "Partner Visa (Subclass 309/100)",
-    ],
-    "National Innovation Visa" : [
-      "Skills Assessment"
-    ],
-    "Other" : [
-      "Skills Assessment",
-      "Subclass 482",
-      "Subclass 462",
-      "Subclass 186",
-      "Subclass 190",
-      "Subclass 189",
-      "Subclass 491"
-    ],
-    "Skilled Migration Visas" : [
-      "Subclass 189",
-      "Subclass 190",
-      "Subclass 400",
-      "Subclass 491",
-      "Subclass 407",
-      "Subclass 417",
-      "Subclass 482"
-    ],
-    "Skills Assessment" : [
-      "Subclass 482",
-      "Subclass 485",
-      "Subclass 494",
-      "Subclass 491",
-      "Partner Visa (Subclass 309/100)",
-      "Subclass 190",
-      "Subclass 186",
-      "Labour Agreement"
-    ],
-    "Studying and training visas":[
-      "Subclass 500",
-      "Subclass 600"
-    ],
-    "Temporary Work Visas":[
-      "Subclass 600"
-    ],
-    "Visitor Visas" : [
-     "Subclass 804",
-     "Subclass 190",
-     "Subclass 858"
-    ],
-    "Working Holiday Visas" : [
-      "Subclass 866",
-      "Subclass 491"
-    ]
-  }), []);
+  const subcategoryMap = useMemo(() => {
+    return news.reduce((acc, blog) => {
+      const category = blog.category;
 
-  const categories = [...new Set([
-    ...categoryOptions,
-    ...news.map((blog) => blog.category).filter(Boolean),
-  ])];
+      if (!category) return acc;
+
+      const subcategories = Array.isArray(blog.subcategory)
+        ? blog.subcategory
+        : [blog.subcategory];
+
+      const normalizedSubcategories = subcategories.filter(Boolean);
+
+      if (!normalizedSubcategories.length) return acc;
+
+      acc[category] = [...new Set([...(acc[category] || []), ...normalizedSubcategories])];
+
+      return acc;
+    }, {});
+  }, []);
+
+  const categories = useMemo(
+    () => [...new Set([...categoryOptions, ...Object.keys(subcategoryMap)])],
+    [categoryOptions, subcategoryMap]
+  );
 
   const availableSubcategories = useMemo(() => {
     if (selectedCategory) {
