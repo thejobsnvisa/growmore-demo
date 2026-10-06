@@ -7,6 +7,11 @@ export const blogs = [
     metaDescription: "Learn the Subclass 491 to 191 visa requirements in 2026, including visa conditions, ATO Notices of Assessment, income and Australia PR eligibility.",
     date: "Oct 5, 2026",
     image: `/assets/bg125.png`,
+    category:"Skilled Migration Visas",
+    subcategory:[
+      "Subclass 491",
+      "Subclass 191",
+    ],
   },
   {
     id: 124,
@@ -16,6 +21,8 @@ export const blogs = [
     metaDescription: "Is Australia facing an immigration or infrastructure problem? Explore migration trends, skilled worker needs, housing pressures and regional challenges.",
     date: "Oct 1, 2026",
     image: `/assets/bg124.png`,
+    category:"Other",
+    subcategory:"Other",
   },
   {
     id: 123,
@@ -25,6 +32,8 @@ export const blogs = [
     metaDescription: "Learn who needs an ACECQA Skills Assessment, occupation requirements, required documents, fees and how to apply for Australian migration.",
     date: "Sep 30, 2026",
     image: `/assets/bg123.png`,
+    category:"Skills Assessment",
+    subcategory:"Skills Assessment",
   },
   {
     id: 122,
@@ -34,6 +43,12 @@ export const blogs = [
     metaDescription: "Learn key employer sponsorship obligations in Australia, including reporting changes, nominated occupations, employment conditions and compliance.",
     date: "Sep 28, 2026",
     image: `/assets/bg122.jpg`,
+    category:"Employer Sponsored Visas",
+    subcategory:[
+      "Subclass 482",
+      "Subclass 186",
+      "Subclass 494",
+    ],
   },
   {
     id: 121,
@@ -43,6 +58,8 @@ export const blogs = [
     metaDescription: "Learn how the Job Ready Program supports VET graduates with TRA skills assessment, workplace experience and skilled migration pathways to Australia PR.",
     date: "Sep 26, 2026",
     image: `/assets/bg121.png`,
+    category:"Other",
+    subcategory:"Other",
   },
   {
     id: 120,
@@ -52,6 +69,8 @@ export const blogs = [
     metaDescription: "Could Australia ease Student visa access? Explore proposed dependant restrictions, student planning levels and what they could mean for international students.",
     date: "Sep 24, 2026",
     image: `/assets/bg120.png`,
+    category:"Studying and training visas",
+    subcategory:"Subclass 500",
   },
   {
     id: 119,
@@ -61,6 +80,15 @@ export const blogs = [
     metaDescription: "Learn about Australia PR pathways for Early Childhood Teachers, including ACECQA, English, skilled visas and employer sponsorship.",
     date: "Sep 23, 2026",
     image: `/assets/bg119.png`,
+    category:"Employer Sponsored Visas & Skilled Migration Visas",
+    subcategory:[
+      "Subclass 482",
+      "Subclass 189",
+      "Subclass 190",
+      "Subclass 491",
+      "Subclass 186",
+      "Subclass 494"
+    ],
   },
   {
     id: 118,
@@ -70,6 +98,8 @@ export const blogs = [
     metaDescription: "Understand the key differences between Australia’s 482 Core Skills and Specialist Skills streams, including occupation requirements, salary thresholds, work experience and eligibility.",
     date: "Sep 18, 2026",
     image: `/assets/bg118.png`,
+    category:"Employer Sponsored Visas",
+    subcategory:"Subclass 482"
   },
   {
     id: 117,
@@ -79,6 +109,8 @@ export const blogs = [
     metaDescription: "Understand the Section 48 visa bar, when it applies and which visas you may still be able to apply for onshore in Australia.",
     date: "Sep 16, 2026",
     image: `/assets/bg117.png`,
+    category:"Other",
+    subcategory:"Other",
   },
   {
     id: 116,
@@ -88,6 +120,8 @@ export const blogs = [
     metaDescription: "Find out what work experience counts for Australian PR, including relevant occupations, part-time work, overseas experience and required evidence.",
     date: "Sep 15, 2026",
     image: `/assets/bg116.png`,
+    category:"Other",
+    subcategory:"Other",
   },
    {
     id: 115,
@@ -97,6 +131,12 @@ export const blogs = [
     metaDescription: "Learn how to prove a genuine position for an Australian employer-sponsored visa, including business need, duties, salary, LMT and supporting evidence.",
     date: "Sep 12, 2026",
     image: `/assets/bg115.jpg`,
+    category:"Employer Sponsored Visas",
+    subcategory:[
+      "Subclass 482",
+      "Subclass 186",
+      "Subclass 494"
+    ],
   },
   {
     id: 114,
@@ -106,6 +146,8 @@ export const blogs = [
     metaDescription: "Learn how to bring family to Australia with Partner, Parent, Child, Visitor and Other family visa options, eligibility requirements and pathways.",
     date: "Sep 9, 2026",
     image: `/assets/bg114.png`,
+    category:"Other",
+    subcategory:"Other",
   },
   {
     id: 113,
@@ -115,6 +157,11 @@ export const blogs = [
     metaDescription: "Learn how to move from a 482 to 186 TRT visa, including 2-year work requirements, employer nomination, English, age and Other PR requirements.",
     date: "Sep 8, 2026",
     image: `/assets/bg113.png`,
+    category:"Employer Sponsored Visas",
+    subcategory:[
+      "Subclass 482",
+      "Subclass 186"
+    ],
   },
   {
     id: 112,
@@ -124,6 +171,8 @@ export const blogs = [
     metaDescription: "Learn about Australia PR for Speech Pathologists, including SPA skills assessment, English requirements, points, state nomination and visa options.",
     date: "Sep 7, 2026",
     image: `/assets/bg112.png`,
+    category:"Other",
+    subcategory:"Other",
   },
   {
     id: 111,
@@ -133,6 +182,12 @@ export const blogs = [
     metaDescription: "Find out whether cleaning companies can sponsor workers for 482, 494 or 186 visas, including suitable occupations and DAMA pathways.",
     date: "Sep 3, 2026",
     image: `/assets/bg111.png`,
+    category : "Employer Sponsored Visas",
+    subcategory:[
+      "Subclass 482",
+      "Subclass 186",
+      "Subclass 494",
+    ],
   },
   {
     id: 110,
@@ -142,6 +197,8 @@ export const blogs = [
     metaDescription: "What happens to your Australian visa after a relationship breakdown? Learn how it may affect Partner, Student, 482, 485 and Other visas.",
     date: "Sep 2, 2026",
     image: `/assets/bg110.png`,
+    category : "Other",
+    subcategory:"Other",
   },
   {
     id: 109,
@@ -151,6 +208,8 @@ export const blogs = [
     metaDescription: "407 nomination refused? Learn about Section 48, withdrawal, ART review and Other visa options before making your next move in Australia.",
     date: "Aug 31, 2026",
     image: `/assets/bg109.png`,
+    category : "Studying and training visas",
+    subcategory:"Subclass 407",
   },
   {
     id: 108,
@@ -160,6 +219,8 @@ export const blogs = [
     metaDescription: "Learn about the 485 visa extension in Australia, including eligibility, regional requirements, stay duration and how to apply for a second 485 visa.",
     date: "Aug 26, 2026",
     image: `/assets/bg108.png`,
+    category : "Other",
+    subcategory:"Subclass 485", 
   },
   {
     id: 107,
@@ -169,7 +230,7 @@ export const blogs = [
     metaDescription: "Explore the updated NT 190 and 491 nomination criteria for 2026–27, including eligibility, residence, employment, study and exceptional circumstances.",
     date: "Aug 20, 2026",
     image: `/assets/bg107.jpg`,
-     category: "Skilled Migration Visas",
+    category: "Skilled Migration Visas",
     subcategory:[
       "Subclass 190",
       "Subclass 491",
