@@ -169,10 +169,10 @@ export const blogs = [
     metaDescription: "Explore the updated NT 190 and 491 nomination criteria for 2026–27, including eligibility, residence, employment, study and exceptional circumstances.",
     date: "Aug 20, 2026",
     image: `/assets/bg107.jpg`,
-     category: "Working Holiday Visas",
+     category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass  866",
-      "Subclass  491",
+      "Subclass 190",
+      "Subclass 491",
     ]
   },
   {
@@ -183,9 +183,9 @@ export const blogs = [
     metaDescription: "Have work experience but no suitable qualification? Learn when RPL may be needed for Australia PR, how it works, evidence required and its link to skills assessment.",
     date: "Aug 17, 2026",
     image: `/assets/bg106.png`,
-     category: "Visitor Visas",
+     category: "Other",
     subcategory:[
-      "Subclass  858",
+      "Other",
     ]
   },
   {
@@ -196,9 +196,9 @@ export const blogs = [
     metaDescription: "Learn how qualified hairdressers can pursue PR in Australia through Subclass 186 Direct Entry or Subclass 190 Skilled Nominated visa pathways.",
     date: "Aug 13, 2026",
     image: `/assets/bg105.png`,
-    category: "Visitor Visas",
+    category: "Employer Sponsored Visas & Skilled Migration Visas",
     subcategory:[
-      "Subclass  804",
+      "Subclass  186",
       "Subclass  190",
     ]
   },
@@ -210,9 +210,9 @@ export const blogs = [
     metaDescription: "Learn how to get an AITSL skills assessment for Australian PR, including requirements, documents, English criteria, fees and application steps.",
     date: "Aug 12, 2026",
     image: `/assets/bg104.jpg`,
-    category: "Temporary Work Visas",
+    category: "Skills Assessment",
     subcategory:[
-      "Subclass  600",
+      "Skills Assessment",
     ]
   },
   {
@@ -223,9 +223,9 @@ export const blogs = [
     metaDescription: "Student and graduate visa holders in Australia could face increased scrutiny, with partners and children potentially affected by future visa policy changes. Understand the possible risks, what these changes could mean for families, and why staying updated on Australia’s immigration policies is important.",
     date: "Aug 11, 2026",
     image: `/assets/bg103.png`,
-    category: "Studying and training visas",
+    category: "Other",
     subcategory:[
-      "Subclass  600",
+      "Subclass 485",
     ]
   },
   {
@@ -236,9 +236,9 @@ export const blogs = [
     metaDescription: "Compare Australia’s 2026–27 and 2022–23 Migration Programs, including employer-sponsored, Subclass 189 and state-nominated visa allocations.",
     date: "Aug 10, 2026",
     image: `/assets/bg102.png`,
-    category: "Studying and training visas",
+    category: "Other",
     subcategory:[
-      "Subclass  500",
+      "Other",
     ]
   },
   {
@@ -249,9 +249,9 @@ export const blogs = [
     metaDescription: "Australia’s demand for IT talent continues to grow. Learn about skilled migration opportunities and visa options for qualified IT professionals.",
     date: "Aug 08, 2026",
     image: `/assets/bg101.png`,
-    category: "Studying and training visas",
+    category: "Other",
     subcategory:[
-      "Subclass  500",
+      "Other",
     ]
   },
   {
@@ -262,11 +262,11 @@ export const blogs = [
     metaDescription: "how Australia invitation rounds work, from submitting an EOI through SkillSelect to receiving an invitation for Subclass 189, 190, or 491 visas.",
     date: "Aug 06, 2026",
     image: `/assets/102.png`,
-    category: "Skills Assessment",
+    category: "Skilled Migration Visas",
     subcategory:[
       "Subclass 190",
-      "Subclass 491",
-      "Subclass 494",
+      "Subclass 491", 
+      "Subclass 189",
     ]
   },
   {
@@ -277,7 +277,7 @@ export const blogs = [
     metaDescription: "Restaurant Managers can still explore Australia PR pathways after CSOL removal. Learn about DAMA, Labour Agreements, Subclass 494 and Other options.",
     date: "Aug 04, 2026",
     image: `/assets/bg100.png`,
-    category: "Skills Assessment",
+    category: "Other",
     subcategory:[
       "Subclass 494",
       "Labour Agreement",
@@ -291,11 +291,11 @@ export const blogs = [
     metaDescription: "Find the latest list of Accredited Sponsors in Australia for employer-sponsored visas. Explore trusted sponsors for Subclass 482, 186 and 494 visas.",
     date: "July 31, 2026",
     image: `/assets/bg99.png`,
-    category: "Skills Assessment",
+    category: "Employer Sponsored Visas",
     subcategory:[
       "Subclass 494",
-      "Subclass 491",
       "Subclass 186",
+      "Subclass 482",
     ]
   },
   {
@@ -306,10 +306,11 @@ export const blogs = [
     metaDescription: "how Australia's state nomination process works for Subclass 190 and 491 visas and improve your chances of securing Australia PR.",
     date: "July 28, 2026",
     image: `/assets/bg98.png`,
-      category: "Skills Assessment",
+      category: "Skilled Migration Visas",
     subcategory:[
       "Subclass 491",
       "Subclass 190",
+      "Subclass 189",
     ]
   },
   {
@@ -320,9 +321,9 @@ export const blogs = [
     metaDescription: "how to apply for an Australia Partner Visa, including eligibility, relationship evidence, visa subclasses, and the application process.",
     date: "July 25, 2026",
     image: `/assets/bg97.png`,
-     category: "Skills Assessment",
+     category: "Family and partner visas",
     subcategory:[
-      "Subclass 491",
+      "Partner Visa (Subclass 820/801)",
       "Partner Visa (Subclass 309/100)",
     ],
   },
@@ -334,9 +335,9 @@ export const blogs = [
     metaDescription: "Work in Australia as a care worker through the Aged Care Labour Agreement. Fast-track permanent residency (Subclass 186) with concessions on fees and English.",
     date: "July 24, 2026",
     image: `/assets/bg96.png`,
-      category: "Skills Assessment",
+      category: "Labour Agreements & DAMA",
     subcategory:[
-      "Subclass 491",
+      "Labour Agreement",
     ],
   },
   {
@@ -347,9 +348,9 @@ export const blogs = [
     metaDescription: "how to get an Australian 482 Visa at zero cost. Learn about legal employer-paid sponsorship rules, fee coverage, and zero-deduction regulations.",
     date: "July 22, 2026",
     image: `/assets/bg95.jpg`,
-      category: "Skills Assessment",
+    category: "Employer Sponsored Visas",
     subcategory:[
-      "Subclass 485",
+      "Subclass 482",
     ],
   },
   {
@@ -360,9 +361,9 @@ export const blogs = [
     metaDescription: "Sponsoring overseas workers on the Skills in Demand 482 visa? Master Australia’s strict 28-day Labour Market Testing rules to avoid an automatic nomination refusal.",
     date: "July 18, 2026",
     image: `/assets/bg94.png`,
-      category: "Skills Assessment",
+    category: "Employer Sponsored Visas",
     subcategory:[
-      "Subclass 485",
+      "Subclass 482",
       "Subclass 494",
     ],
   },
@@ -374,9 +375,9 @@ export const blogs = [
     metaDescription: "Need a skills assessment for Australia PR? Find the right assessing authority and get expert guidance from Growmore Immigration.",
     date: "July 17, 2026",
     image: `/assets/bg93.jpg`,
-      category: "Skills Assessment",
+    category: "Skills Assessment",
     subcategory:[
-      "Subclass 482",
+      "Skills Assessment",
     ],
   },
   {
@@ -387,9 +388,9 @@ export const blogs = [
     metaDescription: "Planning to apply for a Subclass 190 Visa? Learn about eligibility, state nomination, visa costs, and the Australia PR process.",
     date: "July 16, 2026",
     image: `/assets/bg92.png`,
-      category: "Skills Assessment",
+    category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass 482",
+      "Subclass 190",
     ],
   },
   {
@@ -400,9 +401,9 @@ export const blogs = [
     metaDescription: "A single error can cause a visa refusal or years of delays. Learn how to avoid critical mistakes with skills assessments, points claims, and the CSOL.",
     date: "July 15, 2026",
     image: `/assets/bg91.png`,
-      category: "Skills Assessment",
+      category: "Other",
     subcategory:[
-      "Subclass 482",
+      "Other",
     ],
   },
   {
@@ -415,7 +416,7 @@ export const blogs = [
     image: `/assets/bg90.png`,
       category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass 482",
+      "Subclass 491",
     ],
   },
   {
@@ -443,7 +444,7 @@ export const blogs = [
     image: `/assets/bg87.png`,
       category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass 482",
+      "Subclass 189",
     ],
   },
   {
@@ -454,9 +455,9 @@ export const blogs = [
     metaDescription: "With the introduction of the Core Skills Occupation List (CSOL), the old skilled migration framework is breaking down. Discover how the new points test and sector shifts affect you.",
     date: "July 9, 2026",
     image: `/assets/bg86.png`,
-      category: "Skilled Migration Visas",
+    category: "Other",
     subcategory:[
-      "Subclass 482",
+      "Other",
     ],
   },
   {
@@ -467,9 +468,9 @@ export const blogs = [
     metaDescription: "Struggling with standard points-based PR lists? Discover how the Far North Queensland DAMA opens up permanent residency with lenient age, English, and salary rules.",
     date: "July 9, 2026",
     image: `/assets/bg85.png`,
-      category: "Skilled Migration Visas",
+      category: "Labour Agreements & DAMA",
     subcategory:[
-      "Subclass 482",
+      "DAMA",
     ],
   },
   {
@@ -480,7 +481,7 @@ export const blogs = [
     metaDescription: "how to apply for a 482 Visa in Australia. Explore eligibility, requirements, salary thresholds, visa streams, fees, and the application process.",
     date: "July 4, 2026",
     image: `/assets/bg84.png`,
-      category: "Skilled Migration Visas",
+      category: "Employer Sponsored Visas",
     subcategory:[
       "Subclass 482",
     ],
@@ -493,9 +494,9 @@ export const blogs = [
     metaDescription: "Learn how partner skills can add 5 or 10 Australia PR points for Subclass 189, 190 and 491 visas. Check eligibility and improve your PR score.",
     date: "July 3, 2026",
     image: `/assets/bg83.png`,
-     category: "Skilled Migration Visas",
+     category: "Other",
     subcategory:[
-      "Subclass 482",
+      "Other",
     ],
   },
   {
@@ -506,9 +507,9 @@ export const blogs = [
     metaDescription: "Discover who can apply for Australia's Subclass 400 Visa. Learn about eligibility, duration, documents, application process, and English test requirements.",
     date: "Jun 30, 2026",
     image: `/assets/bg82.png`,
-     category: "Skilled Migration Visas",
+     category: "Temporary Work Visas",
     subcategory:[
-      "Subclass 417",
+      "Subclass 400",
     ],
   },
   {
@@ -519,9 +520,9 @@ export const blogs = [
     metaDescription: "What is the Western Australia DAMA? Learn about eligibility, employer sponsorship, occupation lists, concessions, and visa pathways.",
     date: "Jun 27, 2026",
     image: `/assets/bg81.png`,
-     category: "Skilled Migration Visas",
+     category: "Labour Agreements & DAMA",
     subcategory:[
-      "Subclass 407",
+      "DAMA",
     ],
   },
   {
@@ -532,11 +533,9 @@ export const blogs = [
     metaDescription: "Learn the main Australia PR pathways after study, including employer-sponsored visas, skilled migration, and partner visa options.",
     date: "Jun 26, 2026",
     image: `/assets/bg80.png`,
-     category: "Skilled Migration Visas",
+    category: "Other",
     subcategory:[
-      "Subclass 190",
-      "Subclass 491",
-      "Subclass 400",
+      "Other",
     ],
   },
   {
@@ -549,7 +548,9 @@ export const blogs = [
     image: `/assets/bg79.png`,
      category: "Skilled Migration Visas",
     subcategory:[
+      "Subclass 189",
       "Subclass 190",
+      "Subclass 491",
     ],
   },
   {
@@ -560,9 +561,9 @@ export const blogs = [
     metaDescription: "how the National Innovation Visa (Subclass 858) works, who qualifies, nomination requirements, visa benefits, and the steps exceptional professionals, researchers, investors, and entrepreneurs can take to obtain Australia PR.",
     date: "Jun 22, 2026",
     image: `/assets/bg78.png`,
-     category: "Skilled Migration Visas",
+    category: "National Innovation Visa",
     subcategory:[
-      "Subclass 190",
+      "Subclass 858",
     ],
   },
   {
@@ -573,9 +574,9 @@ export const blogs = [
     metaDescription: "PIC 4020 is a critical visa criterion that can lead to visa refusals and exclusion periods. Discover how it works, who it affects, common triggers, and what applicants can do to stay compliant.",
     date: "Jun 20, 2026",
     image: `/assets/bg77.png`,
-     category: "Skilled Migration Visas",
+     category: "Other",
     subcategory:[
-      "Subclass 189",
+      "Other",
     ],
   },
   {
@@ -586,9 +587,9 @@ export const blogs = [
     metaDescription: "Confused by Australia PR myths? Discover the facts behind common misconceptions, understand current visa requirements, and avoid mistakes that could impact your permanent residency journey.",
     date: "Jun 19, 2026",
     image: `/assets/bg76.png`,
-     category: "Skilled Migration Visas",
+    category: "Other",
     subcategory:[
-      "Subclass 189",
+      "Other",
     ],
   },
   {
@@ -599,9 +600,9 @@ export const blogs = [
     metaDescription: "The Minister outlines Australia’s current migration strategy and future plans. Learn about visa changes, migration targets, skilled worker pathways, and upcoming policy developments.",
     date: "Jun 17, 2026",
     image: `/assets/bg75.png`,
-     category: "Skilled Migration Visas",
+     category: "Other",
     subcategory:[
-      "Subclass 189",
+      "Other",
     ],
   },
   {
@@ -612,22 +613,22 @@ export const blogs = [
     metaDescription: "Learn why Australian visas are cancelled, your review rights, appeal options, and how to protect your visa status.",
     date: "Jun 15, 2026",
     image: `/assets/bg74.png`,
-     category: "Skilled Migration Visas",
+     category: "Other",
     subcategory:[
-      "Subclass 189",
+      "Other",
     ],
   },
   {
     id: 73,
     slug: "what-is-the-nt-dama-and-how-can-it-lead-to-australia-pr",
     title: "What Is the NT DAMA and How Can It Lead to Australia PR?",
-    metaTitle: "What Is the NT DAMA and How Can It Lead to Australia PR?",
+    metaTitle:   "What Is the NT DAMA and How Can It Lead to Australia PR?",
     metaDescription: "Explore the NT DAMA, eligible occupations, visa options, concessions, and pathways to Australia PR.",
     date: "Jun 12, 2026",
     image: `/assets/bg73.png`,
-     category: "Other",
+    category: "Labour Agreements & DAMA",
     subcategory:[
-      "Subclass  189",
+      "DAMA",
     ],
   },
   {
@@ -640,7 +641,7 @@ export const blogs = [
     image: `/assets/bg72.png`,
      category: "Other",
     subcategory:[
-      "Subclass  189",
+      "Other",
     ],
   },
   {
@@ -653,7 +654,7 @@ export const blogs = [
     image: `/assets/bg71.png`,
      category: "Other",
     subcategory:[
-      "Subclass  189",
+      "Subclass 866",
     ],
   },
   {
@@ -664,9 +665,9 @@ export const blogs = [
     metaDescription: "A complete guide to Bridging Visa E in Australia. Learn the differences between Subclass 050 and 051, work rights, conditions, and key rules.",
     date: "Jun 09, 2026",
     image: `/assets/bg69.png`,
-     category: "Other",
+     category: "Bridging Visa",
     subcategory:[
-      "Subclass 189",
+      "Bridging Visa",
     ],
   },
   {
@@ -679,7 +680,7 @@ export const blogs = [
     image: `/assets/bg68.png`,
      category: "Other",
     subcategory:[
-      "Subclass 189",
+      "Other",
     ],
   },
   {
@@ -692,7 +693,7 @@ export const blogs = [
     image: `/assets/bg67.jpg`,
      category: "Other",
     subcategory:[
-      "Subclass 189",
+      "Other",
     ],
   },
   {
@@ -703,7 +704,7 @@ export const blogs = [
     metaDescription: "Learn why Subclass 189 applicants with the same points can receive different outcomes. Understand EOI ranking, date of effect, and invitations.",
     date: "Jun 03, 2026",
     image: `/assets/bg66.png`,
-     category: "Other",
+     category: "Skilled Migration Visas",
     subcategory:[
       "Subclass 189",
     ],
@@ -716,9 +717,9 @@ export const blogs = [
     metaDescription: "Planning a Working Holiday visa for Australia? Understand Subclass 417 vs 462, country eligibility, ballot rules, work rights, and future PR options.",
     date: "Jun 01, 2026",
     image: `/assets/bg65.png`,
-     category: "Other",
+     category: "Working Holiday Visas",
     subcategory:[
-      "Subclass 189",
+      "Subclass 417",
       "Subclass 462",
     ],
   },
@@ -730,9 +731,9 @@ export const blogs = [
     metaDescription: "Learn Cook and Chef PR pathways in Australia, TRA skills assessment requirements, and visa options for skilled migrants.",
     date: "May 30, 2026",
     image: `/assets/bg64.png`,
-     category: "Other",
+     category: "Skills Assessment",
     subcategory:[
-      "Subclass 186",
+      "Skills Assessment",
     ],
   },
   {
@@ -743,7 +744,7 @@ export const blogs = [
     metaDescription: "Compare Subclass 186 Direct Entry and TRT pathways for Australia PR, including work experience, employer requirements, and eligibility.",
     date: "May 27, 2026",
     image: `/assets/bg63.png`,
-     category: "Other",
+     category: "Employer Sponsored Visas",
     subcategory:[
       "Subclass 186",
     ],
@@ -756,9 +757,9 @@ export const blogs = [
     metaDescription: "How to improve your VETASSESS skills assessment with proper occupation selection, strong evidence, and ANZSCO-aligned documents.",
     date: "May 26, 2026",
     image: `/assets/bg62.png`,
-     category: "Other",
+     category: "Skills Assessment",
     subcategory:[
-      "Subclass 186",
+      "Skills Assessment",
     ],
   },
   {
@@ -771,7 +772,7 @@ export const blogs = [
     image: `/assets/bg61.png`,
      category: "Other",
     subcategory:[
-      "Subclass 186",
+      "Other",
     ],
   },
   {
@@ -782,9 +783,9 @@ export const blogs = [
     metaDescription: "Learn how Company Specific Labour Agreements work in Australia, including eligibility, concessions, sponsorship requirements, and employer obligations.",
     date: "May 23, 2026",
     image: `/assets/bg60.png`,
-     category: "Other",
+     category: "Labour Agreements & DAMA",
     subcategory:[
-      "Subclass 186",
+      "Labour Agreement",
     ],
   },
   {
@@ -795,9 +796,9 @@ export const blogs = [
     metaDescription: "Discover how Australia’s DAMA program helps employers fill skill shortages and provides skilled workers with unique visa opportunities. Learn about the benefits, eligibility, and application process for both employers and workers under the DAMA framework.",
     date: "May 16, 2026",
     image: `/assets/b1.png`,
-    category: "Other",
+    category: "Labour Agreements & DAMA",
     subcategory:[
-      "Subclass 186",
+      "DAMA",
     ],
   },
   {
@@ -808,9 +809,9 @@ export const blogs = [
     metaDescription: "Explore Industry Labour Agreements Australia, approved occupations, employer-sponsored visas, concessions, and sponsorship requirements.",
     date: "May 15, 2026",
     image: `/assets/bg31.png`,
-    category: "Other",
+    category: "Labour Agreements & DAMA",
     subcategory:[
-      "Subclass 186",
+      "Labour Agreement",
     ],
   },
   {
@@ -821,7 +822,7 @@ export const blogs = [
     metaDescription: "Find out if you can change employers on a 482 visa, how Condition 8607 works, and what rules apply after employment ends in Australia.",
     date: "May 14, 2026",
     image: `/assets/bg30.png`,
-     category: "Other",
+     category: "Employer Sponsored Visas",
     subcategory:[
       "Subclass 482",
     ],
@@ -834,7 +835,7 @@ export const blogs = [
     metaDescription: "Understand employer sponsorship obligations in Australia, including records, payroll, duties, and compliance risks under visa programs.",
     date: "May 12, 2026",
     image: `/assets/bg29.png`,
-    category: "Other",
+    category: "Employer Sponsored Visas",
     subcategory:[
       "Subclass 482",
       "Subclass 186",
@@ -849,9 +850,9 @@ export const blogs = [
     metaDescription: "Master the SkillSelect EOI process for Australia’s 189, 190, and 491 visas. Learn how to calculate points, avoid common errors, and get invited in 2026. Read the expert guide.",
     date: "May 9, 2026",
     image: `/assets/bg28.jpg`,
-     category: "Other",
+     category: "Skilled Migration Visas",
     subcategory:[
-      "Subclass 482",
+      "Subclass 189",
       "Subclass 190",
       "Subclass 491"
     ],
@@ -866,7 +867,7 @@ export const blogs = [
     image: `/assets/bg27.png`,
      category: "Other",
     subcategory:[
-      "Subclass 482",
+      "Other",
     ],
   },
   {
@@ -879,7 +880,7 @@ export const blogs = [
     image: `/assets/bg26.png`,
      category: "Other",
     subcategory:[
-      "Subclass 482",
+      "Other",
     ],
   },
   {
@@ -890,9 +891,9 @@ export const blogs = [
     metaDescription: " Step-by-step guide to TRA Skills Assessment for trade occupations in Australia, covering programs, eligibility, documents, and assessment process.",
     date: "May 6, 2026",
     image: `/assets/bg25.png`,
-     category: "Other",
+     category: "Skills Assessment",
     subcategory:[
-      "Subclass 482",
+      "Skills Assessment",
     ],
   },
   {
@@ -903,7 +904,7 @@ export const blogs = [
     metaDescription: "Find out how sponsorship in Australia works, who is eligible, and what improves your chances for visas like 482, 186, and 494.",
     date: "May 5, 2026",
     image: `/assets/bg24.png`,
-     category: "Other",
+     category: "Employer Sponsored Visas",
     subcategory:[
       "Subclass 482",
       "Subclass 186",
@@ -920,7 +921,7 @@ export const blogs = [
     image: `/assets/bg23.png`,
      category: "Other",
     subcategory:[
-      "Subclass 482",
+      "Other",
     ],
   },
   {
@@ -931,9 +932,9 @@ export const blogs = [
     metaDescription: "Step-by-step VETASSESS skills assessment guide for Australia PR. Learn requirements, documents, process, fees, and outcome details clearly.",
     date: "April 29, 2026",
     image: `/assets/bg22.png`,
-     category: "Other",
+     category: "Skills Assessment",
     subcategory:[
-      "Subclass 482",
+      "Skills Assessment",
     ],
   },
   {
@@ -944,7 +945,7 @@ export const blogs = [
     metaDescription: "Discover why 482 visas get refused. Fix errors in occupation choice, salary, LMT, and documentation to improve approval chances.",
     date: "April 27, 2026",
     image: `/assets/bg21.jpg`,
-     category: "Other",
+     category: "Employer Sponsored Visas",
     subcategory:[
       "Subclass 482",
     ],
@@ -957,9 +958,9 @@ export const blogs = [
     metaDescription: "how the Subclass 407 Training Visa works, eligibility, training types, sponsorship requirements, and how it can support your future Australia PR.",
     date: "April 24, 2026",
     image: `/assets/bg20.png`,
-     category: "Other",
+     category: "Studying and training visas",
     subcategory:[
-      "Skills Assessment",
+      "Subclass 407",
     ],
   },
   {
@@ -972,7 +973,7 @@ export const blogs = [
     image: `/assets/bg19.png`,
      category: "Other",
     subcategory:[
-      "Skills Assessment",
+      "Other",
     ],
   },
   {
@@ -983,9 +984,9 @@ export const blogs = [
     metaDescription: "Environmental engineer secures Australia PR through Subclass 186. Explore the journey and key steps.",
     date: "April 21, 2026",
     image: `/assets/bg18.png`,
-     category: "Other",
+     category: "Employer Sponsored Visas",
     subcategory:[
-      "Skills Assessment",
+      "Subclass 186",
     ],
   },
   {
@@ -996,7 +997,7 @@ export const blogs = [
     metaDescription: "IML skills assessment process explained for senior managers planning to migrate to Australia.",
     date: "April 20, 2026",
     image: `/assets/bg17.png`,
-     category: "Other",
+     category: "Skills Assessment",
     subcategory:[
       "Skills Assessment",
     ],
@@ -1009,9 +1010,9 @@ export const blogs = [
     metaDescription: "Confused about visa options? Use these 3 key questions to choose the right Australian visa.",
     date: "March 31, 2026",
     image: `/assets/bg.jpg`,
-    category: "National Innovation Visa",
+    category: "Other",
     subcategory:[
-      "Skills Assessment",
+      "Other",
     ],
   },
   {
@@ -1022,9 +1023,9 @@ export const blogs = [
     metaDescription: "Complete guide to temporary and permanent partner visas in Australia, including onshore and offshore options.",
     date: "March 30, 2026",
     image: `/assets/bg.1.jpg`,
-    category: "Labour Agreements & DAMA",
+    category: "Family and partner visas",
     subcategory:[
-      "Skills Assessment",
+      "Partner Visa (Subclass 820/801)",
       "Partner Visa (Subclass 309/100)",
     ],
   },
@@ -1036,9 +1037,9 @@ export const blogs = [
     metaDescription: "Discover the easiest PR pathway in Australia in 2026 through Subclass 186 visa.",
     date: "March 25, 2026",
     image: `/assets/bg.2.jpg`,
-    category: "Labour Agreements & DAMA",
+    category: "Employer Sponsored Visas",
     subcategory:[
-      "Skills Assessment",
+      "Subclass 186",
     ],
   },
   {
@@ -1049,9 +1050,9 @@ export const blogs = [
     metaDescription: "Learn how to secure employer sponsorship in Australia, eligibility criteria, and process.",
     date: "March 18, 2026",
     image: `/assets/g1.jpg`,
-    category: "Labour Agreements & DAMA",
+    category: "Employer Sponsored Visas",
     subcategory:[
-      "Skills Assessment",
+      "Subclass 482",
       "Subclass 494",
       "Subclass 186",
     ],
@@ -1064,9 +1065,9 @@ export const blogs = [
     metaDescription: "Explore a real Subclass 494 visa success story and how employer sponsorship helped secure PR.",
     date: "March 14, 2026",
     image: `/assets/g2.jpg`,
-    category: "Labour Agreements & DAMA",
+    category: "Employer Sponsored Visas",
     subcategory:[
-      "Skills Assessment",
+      "Subclass 494",
     ],
   },
   {
@@ -1077,9 +1078,9 @@ export const blogs = [
     metaDescription: "Real success story of moving from 408 visa to Australia PR through Subclass 186.",
     date: "March 7, 2026",
     image: `/assets/g3.jpg`,
-    category: "Labour Agreements & DAMA",
+    category: "Employer Sponsored Visas",
     subcategory:[
-      "Skills Assessment",
+      "Subclass 186",
       "Subclass 408",
     ],
   },
@@ -1091,9 +1092,9 @@ export const blogs = [
     metaDescription: "Step-by-step guide to move from 417 visa to 482 employer-sponsored visa in Australia.",
     date: "March 6, 2026",
     image: `/assets/g4.png`,
-    category: "Labour Agreements & DAMA",
+    category: "Employer Sponsored Visas",
     subcategory:[
-      "Partner Visa (Subclass 820/801)",
+      "Subclass 482",
       "Subclass 417",
     ],
   },
@@ -1105,9 +1106,9 @@ export const blogs = [
     metaDescription: "Explore PR pathways for healthcare professionals in Australia in 2026.",
     date: "February 23, 2026",
     image: `/assets/blog3.jpg`,
-    category: "Labour Agreements & DAMA",
+    category: "Skilled Migration Visas",
     subcategory:[
-      "Partner Visa (Subclass 820/801)",
+      "Subclass 189",
     ],
   },
   {
@@ -1118,9 +1119,9 @@ export const blogs = [
     metaDescription: "ENS 186 direct entry explained as one of the best routes to secure Australia PR.",
     date: "February 19, 2026",
     image: `/assets/b2.jpg`,
-    category: "Labour Agreements & DAMA",
+    category: "Employer Sponsored Visas",
     subcategory:[
-      "Other",
+      "Subclass 186",
     ],
   },
   {
@@ -1131,7 +1132,7 @@ export const blogs = [
     metaDescription: "Detailed review of Australia’s proposed points test changes and impact on migration.",
     date: "February 18, 2026",
     image: `/assets/b3.jpg`,
-    category: "Labour Agreements & DAMA",
+    category: "Other",
     subcategory:[
       "Other",
     ],
@@ -1144,7 +1145,7 @@ export const blogs = [
     metaDescription: "Explore the key benefits of applying for Australian permanent residency in 2026.",
     date: "February 17, 2026",
     image: `/assets/b4.png`,
-    category: "Labour Agreements & DAMA",
+    category: "Other",
     subcategory:[
       "Other",
     ],
@@ -1157,9 +1158,9 @@ export const blogs = [
     metaDescription: "Complete guide to getting PR after a 485 visa in Australia with latest pathways.",
     date: "February 16, 2026",
     image: `/assets/b5.jpg`,
-    category: "Family and partner visas",
+    category: "Other",
     subcategory:[
-      "Other",
+      "Subclass 485",
     ],
   },
   {
@@ -1170,9 +1171,9 @@ export const blogs = [
     metaDescription: "A real story showing how persistence led to success in TRA skills assessment.",
     date: "February 12, 2026",
     image: `/assets/b6.jpg`,
-    category: "Family and partner visas",
+    category: "Skills Assessment",
     subcategory:[
-      "Other",
+      "Skills Assessment",
     ],
   },
   {
@@ -1183,9 +1184,9 @@ export const blogs = [
     metaDescription: "Learn how to write an invitation letter for Australia tourist visa Subclass 600.",
     date: "February 9, 2026",
     image: `/assets/b7.jpg`,
-    category: "Family and partner visas",
+    category: "Visitor Visas",
     subcategory:[
-      "Other",
+      "Subclass 600",
     ],
   },
   {
@@ -1196,9 +1197,9 @@ export const blogs = [
     metaDescription: "Simple guide to Parent Visa 804 Australia including eligibility and process.",
     date: "February 6, 2026",
     image: `/assets/b8.jpg`,
-    category: "Employer Sponsored Visas & Skilled Migration Visas",
+    category: "Family and partner visas",
     subcategory:[
-      "Other",
+      "Subclass 804",
     ],
   },
   {
@@ -1209,9 +1210,9 @@ export const blogs = [
     metaDescription: "Complete guide to Australia skills assessment including eligibility, fees, and timeline.",
     date: "January 13, 2026",
     image: `/assets/b10.jpg`,
-    category: "Employer Sponsored Visas & Skilled Migration Visas",
+    category: "Skills Assessment",
     subcategory:[
-      "Other",
+      "Skills Assessment",
     ],
   },
   {
@@ -1222,9 +1223,9 @@ export const blogs = [
     metaDescription: "Complete guide to Australian Visitor Visa Subclass 600 covering tourist, family & business streams. Apply confidently with trusted Immigration Consultants.",
     date: "January 06, 2026",
     image: `/assets/bg060126.jpg`,
-    category: "Employer Sponsored Visas",
+    category: "Visitor Visas",
     subcategory:[
-      "Other",
+      "Subclass 600",
     ],
   },
   {
@@ -1237,7 +1238,7 @@ export const blogs = [
     image: `/assets/bg050126.jpg`,
     category: "Employer Sponsored Visas",
     subcategory:[
-      "Other",
+      "Subclass 482",
       "Subclass 494",
       "Subclass 186",
     ],
@@ -1252,7 +1253,7 @@ export const blogs = [
     image: `/assets/bg030126.png`,
     category: "Employer Sponsored Visas",
     subcategory:[
-      "Other",
+      "Subclass 482",
     ],
   },
   {
@@ -1263,7 +1264,7 @@ export const blogs = [
     metaDescription: "Visa refused? Learn how to lodge an ART appeal or re-apply in 2026. Expert legal strategies to fix GTE, financial & GS issues. Book your review today!",
     date: "January 03, 2026",
     image: `/assets/bg030125.jpg`,
-    category: "Employer Sponsored Visas",
+    category: "Other",
     subcategory:[
       "Other",
     ],
@@ -1276,7 +1277,7 @@ export const blogs = [
     metaDescription: "Looking for a trusted Australia PR consultant? Get expert immigration advice, visa guidance & step-by-step PR support. 95%+ success rate. Free consultation available!",
     date: "January 01, 2026",
     image: `/assets/bg010125.jpg`,
-    category: "Employer Sponsored Visas",
+    category: "Other",
     subcategory:[
       "Other",
     ],
@@ -1289,9 +1290,9 @@ export const blogs = [
     metaDescription: "Bridging Visas in Australia: types, purpose, work & travel rights, common myths, and how to stay lawful while waiting for your visa.",
     date: "Dec 30, 2025",
     image: `/assets/bg301225.jpg`,
-    category: "Employer Sponsored Visas",
+    category: "Bridging Visa",
     subcategory:[
-      "Other",
+      "Bridging Visa",
     ],
   },
   {
@@ -1304,7 +1305,7 @@ export const blogs = [
     image: `/assets/bg111225.jpg`,
     category: "Employer Sponsored Visas",
     subcategory:[
-      "Other",
+      "Subclass 482",
     ],
   },
   {
@@ -1315,9 +1316,9 @@ export const blogs = [
     metaDescription: "why an Australia work visa consultant improves approval chances, avoids costly mistakes, and helps choose the right visa pathway.",
     date: "Nov 21, 2025",
     image: `/assets/bg211125.jpg`,
-    category: "Employer Sponsored Visas",
+    category: "Employer Sponsored Visas & Skilled Migration Visas",
     subcategory:[
-      "Other",
+      "Subclass 482",
       "Subclass 462",
       "Subclass 417",
       "Subclass 491",
@@ -1336,7 +1337,7 @@ export const blogs = [
     image: `/assets/bg191125.jpg`,
     category: "Employer Sponsored Visas",
     subcategory:[
-      "Other",
+      "Subclass 482",
     ],
   },
   {
@@ -1347,9 +1348,9 @@ export const blogs = [
     metaDescription: "Maximise your chance at Australian regional PR with expert Subclass 491 visa consultants guiding eligibility, points, and applications.",
     date: "Nov 14, 2025",
     image: `/assets/bg141125.jpg`,
-    category: "Employer Sponsored Visas",
+    category: "Skilled Migration Visas",
     subcategory:[
-      "Other",
+      "Subclass 491",
     ],
   },
   {
@@ -1360,9 +1361,9 @@ export const blogs = [
     metaDescription: "how to get Australia PR step-by-step. Our registered migration agents explain eligibility, documents, fees & timelines. Book a free consultation today.",
     date: "Nov 10, 2025",
     image: `/assets/bg101125.jpg`,
-     category: "Employer Sponsored Visas",
+     category: "Skilled Migration Visas",
     subcategory:[
-      "Other",
+      "Subclass 189",
       "Subclass 491",
       "Subclass 190",
     ],
@@ -1377,7 +1378,7 @@ export const blogs = [
     image: `/assets/bg071125.jpg`,
     category: "Employer Sponsored Visas",
     subcategory:[
-      "Other",
+      "Subclass 482",
       "Subclass 494",
       "Subclass 186",
     ],
@@ -1392,7 +1393,7 @@ export const blogs = [
     image: `/assets/bg051125.jpg`,
     category: "Employer Sponsored Visas",
     subcategory:[
-      "Other",
+      "Subclass 186",
     ],
   },
   {
@@ -1405,7 +1406,7 @@ export const blogs = [
     image: `/assets/bg3125.jpg`,
     category: "Employer Sponsored Visas",
     subcategory:[
-      "Other",
+      "Subclass 482",
     ],
   },
   {
@@ -1418,7 +1419,7 @@ export const blogs = [
     image: `/assets/bg271025.jpg`,
     category: "Employer Sponsored Visas",
     subcategory:[
-      "Other",
+      "Subclass 482",
     ],
   },
   {
@@ -1429,9 +1430,9 @@ export const blogs = [
     metaDescription: "Explore the 5 types of Australian labour agreements, how to apply, and which one fits your needs to sponsor or work as a skilled overseas worker.",
     date: "Sep 30, 2025",
     image: `/assets/bg3025.jpg`,
-    category: "Employer Sponsored Visas",
+    category: "Labour Agreements & DAMA",
     subcategory:[
-      "Other",
+      "Labour Agreement",
         ],
   },
   {
@@ -1442,9 +1443,9 @@ export const blogs = [
     metaDescription: "Know the Queensland Skilled Migration Program 2025-26 for the 190/491 visa. Get step-by-step guidance on eligibility, application, and more.",
     date: "Sep 25, 2025",
     image: `/assets/bg2525.jpg`,
-    category: "Employer Sponsored Visas",
+    category: "Skilled Migration Visas",
     subcategory:[
-      "Other",
+      "Subclass 491",
       "Subclass 190",
     ],
   },
@@ -1456,9 +1457,9 @@ export const blogs = [
     metaDescription: "how to pass the VETASSESS skills assessment for management consultants in Australia. Know eligibility, documentation, and the application process.",
     date: "Aug 28, 2025",
     image: `/assets/bg28825.jpg`,
-    category: "Employer Sponsored Visas",
+    category: "Skills Assessment",
     subcategory:[
-      "Labour Agreement",
+      "Skills Assessment",
     ],
   },
   {
@@ -1469,9 +1470,9 @@ export const blogs = [
     metaDescription: "the stepwise process for a painting trade worker to apply for Australia’s Subclass 189 Skilled Independent Visa and get a PR.",
     date: "Aug 27, 2025",
     image: `/assets/bg2725.jpg`,
-    category: "Employer Sponsored Visas",
+    category: "Skilled Migration Visas",
     subcategory:[
-      "Labour Agreement",
+      "Subclass 189",
     ],
   },
   {
@@ -1482,9 +1483,9 @@ export const blogs = [
     metaDescription: "Explore top pathways for UK citizens moving to Australia, which include skilled migration, employer-sponsored visas, and more.",
     date: "Aug 20, 2025",
     image: `/assets/bg2025.jpg`,
-    category: "Employer Sponsored Visas",
+    category: "Other",
     subcategory:[
-      "Labour Agreement",
+      "Other",
     ],
   },
   {
@@ -1497,7 +1498,7 @@ export const blogs = [
     image: `/assets/bg1425.jpg`,
     category: "Employer Sponsored Visas",
     subcategory:[
-      "Labour Agreement",
+      "Subclass 482",
     ],
   },
   {
@@ -1510,7 +1511,7 @@ export const blogs = [
     image: `/assets/bg0725.jpg`,
     category: "Employer Sponsored Visas",
     subcategory:[
-      "DAMA",
+      "Subclass 482",
       "Subclass 186",
       "Subclass 494",
     ],
@@ -1523,9 +1524,9 @@ export const blogs = [
     metaDescription: "Find out more about the Skilled Work Regional (Provisional) Visa (Subclass 491) and Skilled Nominated Visa (Subclass 190) to choose the ideal one.",
     date: "Aug 05, 2025",
     image: `/assets/bg0525.jpg`,
-    category: "Employer Sponsored Visas",
+    category: "Skilled Migration Visas",
     subcategory:[
-      "DAMA",
+      "Subclass 491",
       "Subclass 190",
     ],
   },
@@ -1537,7 +1538,7 @@ export const blogs = [
     metaDescription: "how the DAMA pathway helps employers in regional Australia to fill skill shortages, access visa concessions, and expand their workforce efficiently.",
     date: "july 23, 2025",
     image: `/assets/bg2325.jpg`,
-    category: "Employer Sponsored Visas",
+    category: "Labour Agreements & DAMA",
     subcategory:"DAMA",
   },
   {
@@ -1548,7 +1549,7 @@ export const blogs = [
     metaDescription: "the top benefits of the Designated Area Migration Agreement (DAMA) for skilled workers and explore new opportunities in regional Australia.",
     date: "july 18, 2025",
     image: `/assets/bg1825.jpg`,
-    category: "Employer Sponsored Visas",
+    category: "Labour Agreements & DAMA",
     subcategory:"DAMA",
   },
   {
@@ -1559,8 +1560,8 @@ export const blogs = [
     metaDescription: "how Australia’s latest student visa reforms impact your study plans. Stay compliant and informed with the Albanese Government’s 2025 updates",
     date: "Aug 31, 2023",
     image: `/assets/bg32.jpg`,
-    category: "Employer Sponsored Visas",
-    subcategory:"DAMA",
+    category: "Studying and training visas",
+    subcategory:"Subclass 500",
   },
   {
     id: 2,
@@ -1570,8 +1571,8 @@ export const blogs = [
     metaDescription: "Explore Australia’s 2025 student visa reforms focused on workforce integration. Understand new rules, post-study work rights, and pathways for international students.",
     date: "Aug 31, 2023",
     image: `/assets/bg31.jpg`,
-    category: "Employer Sponsored Visas",
-    subcategory:"DAMA",
+    category: "Studying and training visas",
+    subcategory:"Subclass 500",
   },
   {
     id: 1,
@@ -1581,9 +1582,9 @@ export const blogs = [
     metaDescription: "Get a complete guide to Australia’s employer-sponsored visas. Learn eligibility, visa types, application steps, and how to secure a job with sponsorship in 2025.",
     date: "Aug 18, 2023",
     image: `/assets/bg18.jpg`,
-    category: "Bridging Visa",
+    category: "Employer Sponsored Visas",
     subcategory: [
-      "Bridging Visa",
+      "Subclass 482",
       "Subclass 186",
       "Subclass 494",
     ],
@@ -1596,7 +1597,7 @@ export const blogs = [
     metaDescription: "Explore the Australia Subclass 189 Visa, a points-tested permanent residency visa for skilled workers. Learn eligibility, requirements, benefits, and application steps.",
     date: "Aug 15, 2023",
     image: `/assets/bg185.png`,
-    category: "Bridging Visa",
-    subcategory: "Bridging Visa",
+    category: "Skilled Migration Visas",
+    subcategory: "Subclass 189",
   },
 ];

@@ -34,122 +34,9 @@ const BlogStep = () => {
     setCurrentPage(1);
   };
 
-  const categoryOptions = [
-    "Bridging Visa",
-    "Employer Sponsored Visas",
-    "Employer Sponsored Visas & Skilled Migration Visas",
-    "Family and partner visas",
-    "Labour Agreements & DAMA",
-    "National Innovation Visa",
-    "Skilled Migration Visas",
-    "Skills Assessment",
-    "Studying and training visas",
-    "Temporary Work Visas",
-    "Visitor Visas",
-    "Working Holiday Visas",
-  ];
-
-  const subcategoryMap = {
-    "Bridging Visa": [
-      "Bridging Visa",
-      "Subclass 186",
-      "Subclass 494",
-    ],
-
-    "Employer Sponsored Visas": [
-      "DAMA",
-      "Subclass 190",
-      "Subclass 186",
-      "Subclass 494",
-      "Subclass 491",
-      "Subclass 189",
-      "Subclass 417",
-      "Subclass 462",
-      "Labour Agreement",
-      "Other",
-    ],
-
-    "Employer Sponsored Visas & Skilled Migration Visas": [
-      "Other",
-    ],
-
-    "Family and partner visas": [
-      "Other",
-    ],
-
-    "Labour Agreements & DAMA": [
-      "Other",
-      "Partner Visa (Subclass 820/801)",
-      "Subclass 417",
-      "Skills Assessment",
-      "Subclass 408",
-      "Subclass 186",
-      "Subclass 494",
-      "Partner Visa (Subclass 309/100)",
-    ],
-
-    "National Innovation Visa": [
-      "Skills Assessment",
-    ],
-
-    Other: [
-      "Skills Assessment",
-      "Subclass 482",
-      "Subclass 462",
-      "Subclass 186",
-      "Subclass 190",
-      "Subclass 189",
-      "Subclass 491",
-    ],
-
-    "Skilled Migration Visas": [
-      "Subclass 189",
-      "Subclass 190",
-      "Subclass 400",
-      "Subclass 491",
-      "Subclass 407",
-      "Subclass 417",
-      "Subclass 482",
-    ],
-
-    "Skills Assessment": [
-      "Subclass 482",
-      "Subclass 485",
-      "Subclass 494",
-      "Subclass 491",
-      "Partner Visa (Subclass 309/100)",
-      "Subclass 190",
-      "Subclass 186",
-      "Labour Agreement",
-    ],
-
-    "Studying and training visas": [
-      "Subclass 500",
-      "Subclass 600",
-    ],
-
-    "Temporary Work Visas": [
-      "Subclass 600",
-    ],
-
-    "Visitor Visas": [
-      "Subclass 804",
-      "Subclass 190",
-      "Subclass 858",
-    ],
-
-    "Working Holiday Visas": [
-      "Subclass 866",
-      "Subclass 491",
-    ],
-  };
-
-  // Combine predefined categories with categories from blog data
+  // Build filter options from the blog data.
   const categories = [
-    ...new Set([
-      ...categoryOptions,
-      ...blogs.map((blog) => blog.category).filter(Boolean),
-    ]),
+    ...new Set(blogs.map((blog) => blog.category).filter(Boolean)),
   ];
 
   // Get subcategories based on selected category
@@ -157,8 +44,6 @@ const BlogStep = () => {
     if (selectedCategory) {
       return [
         ...new Set([
-          ...(subcategoryMap[selectedCategory] || []),
-
           ...blogs
             .filter((blog) => blog.category === selectedCategory)
             .flatMap((blog) =>
@@ -173,7 +58,6 @@ const BlogStep = () => {
 
     return [
       ...new Set([
-        ...Object.values(subcategoryMap).flat(),
         ...blogs
           .flatMap((blog) =>
             Array.isArray(blog.subcategory)
@@ -183,7 +67,7 @@ const BlogStep = () => {
           .filter(Boolean),
       ]),
     ];
-  }, [selectedCategory, subcategoryMap, blogs]);
+  }, [selectedCategory]);
 
   // Filter blogs
   const filteredBlogs = useMemo(() => {
@@ -209,7 +93,7 @@ const BlogStep = () => {
 
       return matchesQuery && matchesCategory && matchesSubcategory;
     });
-  }, [searchTerm, selectedCategory, selectedSubcategory, blogs]);
+  }, [searchTerm, selectedCategory, selectedSubcategory]);
 
   const blogsPerPage = 10;
   const totalPages = Math.max(1, Math.ceil(filteredBlogs.length / blogsPerPage));
