@@ -1,5 +1,16 @@
 export const news = [
   {
+    id: 141,
+    slug: "australia-changes-concurrent-enrolment-rules-for-international-students",
+    title: "Australia Changes Concurrent Enrolment Rules for International Students",
+    metaTitle: "Australia Changes Concurrent Enrolment Rules for Students",
+    metaDescription: "Australia has changed concurrent enrolment rules for international students. Learn how the new 12-month restriction affects new and existing enrolments.",
+    date: "Oct 7, 2026",
+    image: `/assets/nb103.png`,
+    category: "Studying and Training Visas",
+    subcategory: "Subclass 500",
+  },
+  {
     id: 140,
     slug: "nt-190-and-491-nominations-mostly-closed-for-2026-27-who-can-still-apply",
     title: "NT 190 and 491 Nominations Mostly Closed for 2026–27: Who Can Still Apply?",

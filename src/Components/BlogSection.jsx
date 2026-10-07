@@ -4,6 +4,17 @@ import { Link } from "react-router-dom";
 
 const blogs = [
   {
+    id: 141,
+    slug: "australia-changes-concurrent-enrolment-rules-for-international-students",
+    title: "Australia Changes Concurrent Enrolment Rules for International Students",
+    metaTitle: "Australia Changes Concurrent Enrolment Rules for Students",
+    metaDescription: "Australia has changed concurrent enrolment rules for international students. Learn how the new 12-month restriction affects new and existing enrolments.",
+    date: "Oct 7, 2026",
+    image: `/assets/nb103.png`,
+    category: "Studying and Training Visas",
+    subcategory: "Subclass 500",
+  },
+  {
     id: 140,
     slug: "nt-190-and-491-nominations-mostly-closed-for-2026-27-who-can-still-apply",
     title: "NT 190 and 491 Nominations Mostly Closed for 2026–27: Who Can Still Apply?",
@@ -11,7 +22,7 @@ const blogs = [
     metaDescription: "NT 190 and 491 nominations are mostly closed for 2026–27. Find out who may still apply under the NT nomination exceptions.",
     date: "Oct 6, 2026",
     image: `/assets/nb102.jpg`,
-    category: "Skilled migration visa ",
+    category: "Skilled Migration Visas",
     subcategory: [
       "Subclass 190",
       "Subclass 491",
@@ -25,15 +36,6 @@ const blogs = [
     metaDescription: "From 1 October 2026, the Department of Home Affairs will stop charging card payment surcharges on eligible Australian visa payments.",
     date: "Oct 3, 2026",
     image: `/assets/nb101.png`,
-  },
-  {
-    id: 138,
-    slug: "australia-tightens-student-visa-and-dependant-rules-from-2-october",
-    title: "Australia Tightens Student Visa and Dependant Rules From 2 October",
-    metaTitle: "Australia Tightens Student Visa Rules From 2 October 2026",
-    metaDescription: "Australia tightens Student visa and dependant rules from 2 October 2026, changing onshore applications, family inclusion and subsequent entrants.",
-    date: "Oct 2, 2026",
-    image: `/assets/nb100.png`,
   },
 ];
 
