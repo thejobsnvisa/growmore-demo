@@ -190,7 +190,7 @@ export const news = [
       "Australia’s MD 122 changes skilled visa processing priorities for 186, 189, 190, 491 and other visas. See the new priority order and key changes.",
     date: "Sep 21, 2026",
     image: `/assets/nb89.png`,
-    category:"mployer Sponsored Visas & Skilled Migration Visas",
+    category:"Employer Sponsored Visas & Skilled Migration Visas",
     subcategory:[
       "Subclass 186",
       "Subclass 189",
