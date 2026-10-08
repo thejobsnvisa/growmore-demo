@@ -46,6 +46,8 @@ export const news = [
     metaDescription: "From 1 October 2026, the Department of Home Affairs will stop charging card payment surcharges on eligible Australian visa payments.",
     date: "Oct 3, 2026",
     image: `/assets/nb101.png`,
+    category: "Other",
+    subcategory: "Other",
   },
   {
     id: 138,
@@ -55,6 +57,8 @@ export const news = [
     metaDescription: "Australia tightens Student visa and dependant rules from 2 October 2026, changing onshore applications, family inclusion and subsequent entrants.",
     date: "Oct 2, 2026",
     image: `/assets/nb100.png`,
+    category: "Studying and training visas",
+    subcategory:"Subclass 500"
   },
   {
     id: 137,
@@ -64,6 +68,11 @@ export const news = [
     metaDescription: "Tasmania issued 72 skilled migration invitations on 1 October 2026. Check subclass 190 and 491 scores, remaining nomination places and assessment thresholds.",
     date: "Oct 2, 2026",
     image: `/assets/nb99.png`,
+     category:"Skilled Migration Visas",
+    subcategory:[
+      "Subclass 190",
+      "Subclass 491"
+    ]
   },
   {
     id: 136,
@@ -73,6 +82,11 @@ export const news = [
     metaDescription: "ACT plans its first 2026–27 skilled migration invitation round for October. Check nomination updates, Canberra Matrix rules and ACT occupation list changes.",
     date: "Oct 1, 2026",
     image: `/assets/nb98.png`,
+    category:"Skilled Migration Visas",
+    subcategory:[
+      "Subclass 190",
+      "Subclass 491"
+    ]
   },
   {
     id: 135,
@@ -82,6 +96,8 @@ export const news = [
     metaDescription: "The next Subclass 189 invitation round is expected by 31 October 2026. Learn what the update means for skilled migrants pursuing Australia PR.",
     date: "Oct 1, 2026",
     image: `/assets/nb97.png`,
+    category: "Skilled Migration Visas",
+    subcategory:"Subclass 189",
   },
   {
     id: 134,
@@ -91,6 +107,8 @@ export const news = [
     metaDescription: "Check the latest Australia 462 visa ballot selections for India and Vietnam, key dates, eligibility requirements and the 28-day application deadline.",
     date: "Sep 29, 2026",
     image: `/assets/nb96.png`,
+    category: "Working Holiday Visas",
+    subcategory:"Subclass 462",
   },
   {
     id: 133,
@@ -100,6 +118,8 @@ export const news = [
     metaDescription: "Understand the SA DAMA extension, including occupation lists, concessions and employer-sponsored pathways for eligible skilled workers.",
     date: "Sep 25, 2026",
     image: `/assets/nb95.png`,
+    category:"Labour Agreements & DAMA",
+    subcategory:"DAMA",
   },
   {
     id: 132,
@@ -109,6 +129,8 @@ export const news = [
     metaDescription: "Australia's LIN 26/081 replaces the previous Child visa instrument. See the latest application, lodgement and Pakistan adoption requirements.",
     date: "Sep 25, 2026",
     image: `/assets/nb94.png`,
+    category:"Other",
+    subcategory:"Other"
   },
   {
     id: 131,
@@ -118,6 +140,8 @@ export const news = [
     metaDescription: "Australia’s new LIN 26/004 sets designated areas for migration. Understand how it differs from designated regional area rules for Subclass 491 and 494 visas.",
     date: "Sep 25, 2026",
     image: `/assets/nb93.png`,
+    category:"Other",
+    subcategory:"Other",
   },
   {
     id: 130,
@@ -127,6 +151,11 @@ export const news = [
     metaDescription: "Tasmania issued 62 invitations on 24 September 2026. Check the latest Subclass 190 and 491 scores, ROI numbers and nomination places.",
     date: "Sep 24, 2026",
     image: `/assets/nb92.png`,
+    category: "Skilled Migration Visas",
+    subcategory:[
+      "Subclass 190",
+      "Subclass 491"
+    ]
   },
   {
     id: 129,
@@ -137,6 +166,8 @@ export const news = [
       "Ministerial Direction 123 changes Australia’s character test, including visa refusal, cancellation, family violence, criminal conduct and Australia PR.",
     date: "Sep 22, 2026",
     image: `/assets/nb91.png`,
+    category:"Other",
+    subcategory:"Other",
   },
   {
     id: 128,
@@ -147,6 +178,8 @@ export const news = [
       "The ATO will access selected Home Affairs visa data from 2026 to support tax and compliance activities. Here’s what visa holders should know.",
     date: "Sep 22, 2026",
     image: `/assets/nb90.png`,
+    category:"Other",
+    subcategory:"Other",
   },
   {
     id: 127,
@@ -157,6 +190,14 @@ export const news = [
       "Australia’s MD 122 changes skilled visa processing priorities for 186, 189, 190, 491 and other visas. See the new priority order and key changes.",
     date: "Sep 21, 2026",
     image: `/assets/nb89.png`,
+    category:"mployer Sponsored Visas & Skilled Migration Visas",
+    subcategory:[
+      "Subclass 186",
+      "Subclass 189",
+      "Subclass 190",
+      "Subclass 491",
+      "Subclass 494",
+    ],
   },
   {
     id: 126,
@@ -167,6 +208,8 @@ export const news = [
       "Learn about the new Subclass 482 visa processing priorities under MD 121, including priority sectors, Specialist Skills and current processing positions.",
     date: "Sep 21, 2026",
     image: `/assets/nb88.png`,
+    category:"Employer Sponsored Visas",
+    subcategory:"Subclass 482",
   },
   {
     id: 125,
@@ -177,6 +220,8 @@ export const news = [
       "Australia announces major migration changes affecting student dependants, Working Holiday visas, visitor visas, skilled migration and visa compliance.",
     date: "Sep 17, 2026",
     image: `/assets/nb87.png`,
+    category:"Other",
+    subcategory:"Other",
   },
   {
     id: 124,
@@ -187,6 +232,11 @@ export const news = [
       "Tasmania invited 63 ROIs for Subclass 190 and 491 on 17 September 2026. See invitation scores, nomination places and latest Tasmania PR updates.",
     date: "Sep 17, 2026",
     image: `/assets/nb86.png`,
+    category:"Skilled Migration Visas",
+    subcategory:[
+      "Subclass 190",
+      "Subclass 491",
+    ],
   },
   {
     id: 123,
@@ -197,6 +247,8 @@ export const news = [
       "ANMAC announces major skills assessment changes, including a new portal, updated assessment types, revised fees and a new agent declaration process.",
     date: "Sep 14, 2026",
     image: `/assets/nb85.png`,
+    category:"Skills Assessment",
+    subcategory:"Skills Assessment",
   },
   {
     id: 122,
@@ -207,6 +259,8 @@ export const news = [
       "North Metropolitan TAFE expands TRA assessment services in WA for electricians and plumbers seeking skills recognition for skilled migration.",
     date: "Sep 11, 2026",
     image: `/assets/nb84.png`,
+    category:"Skills Assessment",
+    subcategory:"Skills Assessment",
   },
   {
     id: 121,
@@ -217,6 +271,11 @@ export const news = [
       "Tasmania issued 66 invitations in its latest 2026-27 state nomination round. See Subclass 190 and 491 scores, priority breakdown and latest updates.",
     date: "Sep 10, 2026",
     image: `/assets/nb83.jpg`,
+    category:"Skilled Migration Visas",
+    subcategory:[
+      "Subclass 190",
+      "Subclass 491",
+    ],
   },
   {
     id: 120,
@@ -227,6 +286,8 @@ export const news = [
       "MIA urges Australia to restore visa processing priority for offshore skilled workers and partners following changes under Ministerial Directions 117 and 119.",
     date: "Sep 5, 2026",
     image: `/assets/nb82.jpg`,
+    category:"Other",
+    subcategory:"Other",
   },
   {
     id: 119,
@@ -237,6 +298,11 @@ export const news = [
       "Tasmania invited 59 ROIs for state nomination on 3 September 2026, including Subclass 190 and 491. Check scores, places and latest updates.",
     date: "Sep 3, 2026",
     image: `/assets/nb81.png`,
+    category:"Skilled Migration Visas",
+    subcategory:[
+      "Subclass 190",
+      "Subclass 491",
+    ],
   },
   {
     id: 118,
@@ -247,6 +313,8 @@ export const news = [
       "TRA has updated its Australian Qualifications by Occupation reference. Check your occupation, qualification and requirements before your TRA skills assessment.",
     date: "Sep 1, 2026",
     image: `/assets/nb80.png`,
+    category:"Skills Assessment",
+    subcategory:"Skills Assessment",
   },
   {
     id: 117,
@@ -257,6 +325,11 @@ export const news = [
       "Tasmania invited 45 ROIs in its latest 2026–27 round. Check Subclass 190 and 491 invitation numbers, scores and what this means for Australia PR.",
     date: "Aug 27, 2026",
     image: `/assets/nb79.png`,
+    category:"Skilled Migration Visas",
+    subcategory:[
+      "Subclass 190",
+      "Subclass 491",
+    ],
   },
   {
     id: 116,
@@ -267,6 +340,8 @@ export const news = [
       "ANU researchers propose major changes to Australia’s PR points test, including more points for age, Australian income, work experience and PhDs.",
     date: "Aug 25, 2026",
     image: `/assets/nb78.png`,
+    category:"Other",
+    subcategory:"Other",
   },
   {
     id: 115,
@@ -277,6 +352,8 @@ export const news = [
       "Planning WA teacher registration after studying at SCU? Learn about the 30 June 2027 deadline and available registration pathways.",
     date: "Aug 24, 2026",
     image: `/assets/nb77.png`,
+    category:"Other",
+    subcategory:"Other",
   },
   {
     id: 114,
@@ -287,6 +364,11 @@ export const news = [
       "Australia Working Holiday Visa applications for Subclass 417 and 462 are taking longer due to high volumes. Check the latest processing update.",
     date: "Aug 22, 2026",
     image: `/assets/nb76.png`,
+    category:"Working Holiday Visas",
+    subcategory:[
+     "Subclass 417",
+     "Subclass 462",
+    ],
   },
   {
     id: 113,
