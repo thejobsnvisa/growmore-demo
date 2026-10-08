@@ -1,5 +1,19 @@
 export const news = [
   {
+    id: 142,
+    slug: "tasmania-latest-invitation-round-61-applicants-invited",
+    title: "Tasmania Latest Invitation Round: 61 Applicants Invited",
+    metaTitle: "Tasmania Invites 61 Applicants in Latest 190 & 491 Round",
+    metaDescription: "Tasmania invited 61 applicants for subclass 190 and 491 on 8 October 2026. See invitation scores, ROI data and what the latest round means.",
+    date: "Oct 8, 2026",
+    image: `/assets/nb104.jpg`,
+    category: "Skilled Migration Visas",
+    subcategory: [
+      "Subclass 190",
+      "Subclass 491",
+    ],
+  },
+  {
     id: 141,
     slug: "australia-changes-concurrent-enrolment-rules-for-international-students",
     title: "Australia Changes Concurrent Enrolment Rules for International Students",
