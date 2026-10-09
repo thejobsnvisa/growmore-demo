@@ -1,5 +1,16 @@
 export const news = [
   {
+    id: 144,
+    slug: "opposition-unveils-australia-first-migration-plan-with-major-visa-reforms",
+    title: "Opposition Unveils Australia-First Migration Plan with Major Visa Reforms",
+    metaTitle: "Australia-First Migration Plan: Major Visa Reforms Proposed",
+    metaDescription: "Australia’s Opposition proposes major visa reforms, including abolishing subclass 485 visas, restricting student dependants and expanding skilled migration.",
+    date: "Oct 9, 2026",
+    image: `/assets/nb106.png`,
+    category: "Other",
+    subcategory: "Other",
+  },
+  {
     id: 143,
     slug: "finally-subclass-189-visa-invitation-round-confirmed-for-15-october-2026",
     title: "Finally, Subclass 189 Visa Invitation Round Confirmed for 15 October 2026",

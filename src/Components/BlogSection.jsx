@@ -4,6 +4,17 @@ import { Link } from "react-router-dom";
 
 const blogs = [
   {
+    id: 144,
+    slug: "opposition-unveils-australia-first-migration-plan-with-major-visa-reforms",
+    title: "Opposition Unveils Australia-First Migration Plan with Major Visa Reforms",
+    metaTitle: "Australia-First Migration Plan: Major Visa Reforms Proposed",
+    metaDescription: "Australia’s Opposition proposes major visa reforms, including abolishing subclass 485 visas, restricting student dependants and expanding skilled migration.",
+    date: "Oct 9, 2026",
+    image: `/assets/nb106.png`,
+    category: "Other",
+    subcategory: "Other",
+  },
+  {
     id: 143,
     slug: "finally-subclass-189-visa-invitation-round-confirmed-for-15-october-2026",
     title: "Finally, Subclass 189 Visa Invitation Round Confirmed for 15 October 2026",
@@ -27,17 +38,6 @@ const blogs = [
       "Subclass 190",
       "Subclass 491",
     ],
-  },
-  {
-    id: 141,
-    slug: "australia-changes-concurrent-enrolment-rules-for-international-students",
-    title: "Australia Changes Concurrent Enrolment Rules for International Students",
-    metaTitle: "Australia Changes Concurrent Enrolment Rules for Students",
-    metaDescription: "Australia has changed concurrent enrolment rules for international students. Learn how the new 12-month restriction affects new and existing enrolments.",
-    date: "Oct 7, 2026",
-    image: `/assets/nb103.png`,
-    category: "Studying and Training Visas",
-    subcategory: "Subclass 500",
   },
 ];
 
