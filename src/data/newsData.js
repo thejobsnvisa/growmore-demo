@@ -1,5 +1,16 @@
 export const news = [
   {
+    id: 143,
+    slug: "finally-subclass-189-visa-invitation-round-confirmed-for-15-october-2026",
+    title: "Finally, Subclass 189 Visa Invitation Round Confirmed for 15 October 2026",
+    metaTitle: "Subclass 189 Visa Invitation Round Confirmed for 15 October",
+    metaDescription: "Australia's next Subclass 189 visa invitation round is scheduled for 15 October 2026. Find out what applicants should do before the round.",
+    date: "Oct 9, 2026",
+    image: `/assets/nb105.jpg`,
+    category: "Skilled Migration Visas",
+    subcategory: "Subclass 189",
+  },
+  {
     id: 142,
     slug: "tasmania-latest-invitation-round-61-applicants-invited",
     title: "Tasmania Latest Invitation Round: 61 Applicants Invited",

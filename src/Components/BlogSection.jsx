@@ -4,6 +4,17 @@ import { Link } from "react-router-dom";
 
 const blogs = [
   {
+    id: 143,
+    slug: "finally-subclass-189-visa-invitation-round-confirmed-for-15-october-2026",
+    title: "Finally, Subclass 189 Visa Invitation Round Confirmed for 15 October 2026",
+    metaTitle: "Subclass 189 Visa Invitation Round Confirmed for 15 October",
+    metaDescription: "Australia's next Subclass 189 visa invitation round is scheduled for 15 October 2026. Find out what applicants should do before the round.",
+    date: "Oct 9, 2026",
+    image: `/assets/nb105.jpg`,
+    category: "Skilled Migration Visas",
+    subcategory: "Subclass 189",
+  },
+  {
     id: 142,
     slug: "tasmania-latest-invitation-round-61-applicants-invited",
     title: "Tasmania Latest Invitation Round: 61 Applicants Invited",
@@ -27,20 +38,6 @@ const blogs = [
     image: `/assets/nb103.png`,
     category: "Studying and Training Visas",
     subcategory: "Subclass 500",
-  },
-  {
-    id: 140,
-    slug: "nt-190-and-491-nominations-mostly-closed-for-2026-27-who-can-still-apply",
-    title: "NT 190 and 491 Nominations Mostly Closed for 2026–27: Who Can Still Apply?",
-    metaTitle: "NT 190 & 491 Nominations Mostly Closed for 2026–27",
-    metaDescription: "NT 190 and 491 nominations are mostly closed for 2026–27. Find out who may still apply under the NT nomination exceptions.",
-    date: "Oct 6, 2026",
-    image: `/assets/nb102.jpg`,
-    category: "Skilled Migration Visas",
-    subcategory: [
-      "Subclass 190",
-      "Subclass 491",
-    ],
   },
 ];
 
