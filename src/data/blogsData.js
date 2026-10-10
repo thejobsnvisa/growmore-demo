@@ -1,4 +1,17 @@
 export const blogs = [
+   {
+    id: 126,
+    slug: "australia-pr-as-a-couple-should-you-apply-as-the-main-applicant-or-your-partner",
+    title: "Australia PR as a Couple: Should You Apply as the Main Applicant or Your Partner?",
+    metaTitle: "Australia PR as a Couple: Who Should Be the Main Applicant?",
+    metaDescription: "Planning Australia PR as a couple? Compare your points, occupation, English, and visa options to decide who should be the main applicant.",
+    date: "Oct 10, 2026",
+    image: `/assets/bg126.jpg`,
+    category:"Other",
+    subcategory:[
+      "Other",
+    ],
+  },
   {
     id: 125,
     slug: "subclass-491-to-191-visa-what-you-need-to-know-to-apply-for-australia-pr",
