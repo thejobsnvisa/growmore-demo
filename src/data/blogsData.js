@@ -1,4 +1,15 @@
 export const blogs = [
+  {
+    id: 127,
+    slug: "no-further-stay-condition-on-your-visitor-visa-what-you-should-know",
+    title: "No Further Stay Condition on Your Visitor Visa: What You Should Know",
+    metaTitle: "No Further Stay Condition on Australian Visitor Visas",
+    metaDescription: "Learn how Condition 8503 affects Australian Visitor visa holders, Parent visa options, waiver eligibility and your ability to apply for another visa onshore.",
+    date: "Oct 12, 2026",
+    image: `/assets/bg127.png`,
+    category:"Other",
+    subcategory: "Other",
+  },
    {
     id: 126,
     slug: "australia-pr-as-a-couple-should-you-apply-as-the-main-applicant-or-your-partner",
