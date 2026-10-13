@@ -1,5 +1,19 @@
 export const news = [
   {
+    id: 146,
+    slug: "victoria-skilled-migration-2026-27-new-points-test-and-priority-occupations-revealed",
+    title: "Victoria Skilled Migration 2026–27: New Points Test and Priority Occupations Revealed",
+    metaTitle: "Victoria Skilled Migration 2026–27: Points Test & Jobs",
+    metaDescription: "Explore Victoria’s 2026–27 Skilled Migration Points Test, scoring criteria and priority occupations for subclass 190 and 491 Australia PR pathways.",
+    date: "Oct 13, 2026",
+    image: `/assets/nb108.png`,
+    category: "Skilled Migration Visas",
+    subcategory: [
+      "Subclass 190",
+      "Subclass 491",
+    ],
+  },
+  {
     id: 145,
     slug: "victoria-announces-roi-and-visa-nomination-fees-for-its-2026-27-migration-program",
     title: "Victoria Announces ROI and Visa Nomination Fees for Its 2026–27 Migration Program",
