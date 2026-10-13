@@ -1,5 +1,19 @@
 export const news = [
   {
+    id: 145,
+    slug: "victoria-announces-roi-and-visa-nomination-fees-for-its-2026-27-migration-program",
+    title: "Victoria Announces ROI and Visa Nomination Fees for Its 2026–27 Migration Program",
+    metaTitle: "Victoria ROI and Nomination Fees 2026–27",
+    metaDescription: "Victoria introduces ROI and visa nomination fees for 2026–27. Check subclass 190 and 491 fees, GST rules and payment conditions before applying.",
+    date: "Oct 13, 2026",
+    image: `/assets/nb107.png`,
+    category: "Skilled Migration Visas",
+    subcategory: [
+      "Subclass 190",
+      "Subclass 491",
+    ],
+  },
+  {
     id: 144,
     slug: "opposition-unveils-australia-first-migration-plan-with-major-visa-reforms",
     title: "Opposition Unveils Australia-First Migration Plan with Major Visa Reforms",

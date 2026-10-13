@@ -4,7 +4,21 @@ import { Link } from "react-router-dom";
 
 const blogs = [
   {
-    id: 144,
+    id: 1,
+    slug: "victoria-announces-roi-and-visa-nomination-fees-for-its-2026-27-migration-program",
+    title: "Victoria Announces ROI and Visa Nomination Fees for Its 2026–27 Migration Program",
+    metaTitle: "Victoria ROI and Nomination Fees 2026–27",
+    metaDescription: "Victoria introduces ROI and visa nomination fees for 2026–27. Check subclass 190 and 491 fees, GST rules and payment conditions before applying.",
+    date: "Oct 13, 2026",
+    image: `/assets/nb107.png`,
+    category: "Skilled Migration Visas",
+    subcategory: [
+      "Subclass 190",
+      "Subclass 491",
+    ],
+  },
+  {
+    id: 2,
     slug: "opposition-unveils-australia-first-migration-plan-with-major-visa-reforms",
     title: "Opposition Unveils Australia-First Migration Plan with Major Visa Reforms",
     metaTitle: "Australia-First Migration Plan: Major Visa Reforms Proposed",
@@ -15,7 +29,7 @@ const blogs = [
     subcategory: "Other",
   },
   {
-    id: 143,
+    id: 3,
     slug: "finally-subclass-189-visa-invitation-round-confirmed-for-15-october-2026",
     title: "Finally, Subclass 189 Visa Invitation Round Confirmed for 15 October 2026",
     metaTitle: "Subclass 189 Visa Invitation Round Confirmed for 15 October",
@@ -24,20 +38,6 @@ const blogs = [
     image: `/assets/nb105.jpg`,
     category: "Skilled Migration Visas",
     subcategory: "Subclass 189",
-  },
-  {
-    id: 142,
-    slug: "tasmania-latest-invitation-round-61-applicants-invited",
-    title: "Tasmania Latest Invitation Round: 61 Applicants Invited",
-    metaTitle: "Tasmania Invites 61 Applicants in Latest 190 & 491 Round",
-    metaDescription: "Tasmania invited 61 applicants for subclass 190 and 491 on 8 October 2026. See invitation scores, ROI data and what the latest round means.",
-    date: "Oct 8, 2026",
-    image: `/assets/nb104.jpg`,
-    category: "Skilled Migration Visas",
-    subcategory: [
-      "Subclass 190",
-      "Subclass 491",
-    ],
   },
 ];
 
