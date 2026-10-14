@@ -1,5 +1,16 @@
 export const blogs = [
   {
+    id: 128,
+    slug: "community-worker-skills-assessment-for-australia-pr-requirements-eligibility",
+    title: "Community Worker Skills Assessment for Australia PR: Requirements & Eligibility",
+    metaTitle: "Community Worker Skills Assessment for Australia PR",
+    metaDescription: "Learn Community Worker skills assessment requirements, eligibility, documents, fees and application steps for Australia PR through skilled migration.",
+    date: "Oct 14, 2026",
+    image: `/assets/bg128.jpg`,
+    category:"Skills Assessment",
+    subcategory: "Skills Assessment",
+  },
+  {
     id: 127,
     slug: "no-further-stay-condition-on-your-visitor-visa-what-you-should-know",
     title: "No Further Stay Condition on Your Visitor Visa: What You Should Know",
