@@ -3,8 +3,19 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-  {
+   {
     id: 1,
+    slug: "nsw-190-visa-program-2026-27-opens-first-invitation-round-expected-in-october",
+    title: "NSW 190 Visa Program 2026–27 Opens: First Invitation Round Expected in October",
+    metaTitle: "NSW 190 Visa 2026–27 Opens: October Invitation Round",
+    metaDescription: "NSW 190 visa nominations are open for 2026–27. Check the updated NSW Skills List, October invitation round and subclass 491 status.",
+    date: "Oct 15, 2026",
+    image: `/assets/nb110.jpg`,
+    category: "Skilled Migration Visas",
+    subcategory: ["Subclass 190", "Subclass 491"],
+  },
+  {
+    id: 2,
     slug: "australia-189-invitation-round-the-long-wait-is-finally-over",
     title: "Australia 189 Invitation Round: The Long Wait Is Finally Over",
     metaTitle: "Australia 189 Invitation Round: Results and Points Scores",
@@ -15,27 +26,13 @@ const blogs = [
     subcategory: "Subclass 189",
   },
   {
-    id: 2,
+    id: 3,
     slug: "victoria-skilled-migration-2026-27-new-points-test-and-priority-occupations-revealed",
     title: "Victoria Skilled Migration 2026–27: New Points Test and Priority Occupations Revealed",
     metaTitle: "Victoria Skilled Migration 2026–27: Points Test & Jobs",
     metaDescription: "Explore Victoria’s 2026–27 Skilled Migration Points Test, scoring criteria and priority occupations for subclass 190 and 491 Australia PR pathways.",
     date: "Oct 13, 2026",
     image: `/assets/nb108.png`,
-    category: "Skilled Migration Visas",
-    subcategory: [
-      "Subclass 190",
-      "Subclass 491",
-    ],
-  },
-  {
-    id: 3,
-    slug: "victoria-announces-roi-and-visa-nomination-fees-for-its-2026-27-migration-program",
-    title: "Victoria Announces ROI and Visa Nomination Fees for Its 2026–27 Migration Program",
-    metaTitle: "Victoria ROI and Nomination Fees 2026–27",
-    metaDescription: "Victoria introduces ROI and visa nomination fees for 2026–27. Check subclass 190 and 491 fees, GST rules and payment conditions before applying.",
-    date: "Oct 13, 2026",
-    image: `/assets/nb107.png`,
     category: "Skilled Migration Visas",
     subcategory: [
       "Subclass 190",

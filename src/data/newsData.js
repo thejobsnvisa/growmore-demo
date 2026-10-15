@@ -1,4 +1,15 @@
 export const news = [
+   {
+    id: 148,
+    slug: "nsw-190-visa-program-2026-27-opens-first-invitation-round-expected-in-october",
+    title: "NSW 190 Visa Program 2026–27 Opens: First Invitation Round Expected in October",
+    metaTitle: "NSW 190 Visa 2026–27 Opens: October Invitation Round",
+    metaDescription: "NSW 190 visa nominations are open for 2026–27. Check the updated NSW Skills List, October invitation round and subclass 491 status.",
+    date: "Oct 15, 2026",
+    image: `/assets/nb110.jpg`,
+    category: "Skilled Migration Visas",
+    subcategory: ["Subclass 190", "Subclass 491"],
+  },
   {
     id: 147,
     slug: "australia-189-invitation-round-the-long-wait-is-finally-over",
