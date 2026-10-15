@@ -5,6 +5,17 @@ import { Link } from "react-router-dom";
 const blogs = [
   {
     id: 1,
+    slug: "australia-189-invitation-round-the-long-wait-is-finally-over",
+    title: "Australia 189 Invitation Round: The Long Wait Is Finally Over",
+    metaTitle: "Australia 189 Invitation Round: Results and Points Scores",
+    metaDescription: "Explore the Australia 189 Invitation Round held on 15 October 2026, with reported occupation-wise points scores, onshore and offshore results.",
+    date: "Oct 15, 2026",
+    image: `/assets/nb109.jpg`,
+    category: "Skilled Migration Visas",
+    subcategory: "Subclass 189",
+  },
+  {
+    id: 2,
     slug: "victoria-skilled-migration-2026-27-new-points-test-and-priority-occupations-revealed",
     title: "Victoria Skilled Migration 2026–27: New Points Test and Priority Occupations Revealed",
     metaTitle: "Victoria Skilled Migration 2026–27: Points Test & Jobs",
@@ -18,7 +29,7 @@ const blogs = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     slug: "victoria-announces-roi-and-visa-nomination-fees-for-its-2026-27-migration-program",
     title: "Victoria Announces ROI and Visa Nomination Fees for Its 2026–27 Migration Program",
     metaTitle: "Victoria ROI and Nomination Fees 2026–27",
@@ -30,17 +41,6 @@ const blogs = [
       "Subclass 190",
       "Subclass 491",
     ],
-  },
-  {
-    id: 3,
-    slug: "opposition-unveils-australia-first-migration-plan-with-major-visa-reforms",
-    title: "Opposition Unveils Australia-First Migration Plan with Major Visa Reforms",
-    metaTitle: "Australia-First Migration Plan: Major Visa Reforms Proposed",
-    metaDescription: "Australia’s Opposition proposes major visa reforms, including abolishing subclass 485 visas, restricting student dependants and expanding skilled migration.",
-    date: "Oct 9, 2026",
-    image: `/assets/nb106.png`,
-    category: "Other",
-    subcategory: "Other",
   },
 ];
 

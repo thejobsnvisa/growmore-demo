@@ -1,5 +1,16 @@
 export const news = [
   {
+    id: 147,
+    slug: "australia-189-invitation-round-the-long-wait-is-finally-over",
+    title: "Australia 189 Invitation Round: The Long Wait Is Finally Over",
+    metaTitle: "Australia 189 Invitation Round: Results and Points Scores",
+    metaDescription: "Explore the Australia 189 Invitation Round held on 15 October 2026, with reported occupation-wise points scores, onshore and offshore results.",
+    date: "Oct 15, 2026",
+    image: `/assets/nb109.jpg`,
+    category: "Skilled Migration Visas",
+    subcategory: "Subclass 189",
+  },
+  {
     id: 146,
     slug: "victoria-skilled-migration-2026-27-new-points-test-and-priority-occupations-revealed",
     title: "Victoria Skilled Migration 2026–27: New Points Test and Priority Occupations Revealed",
