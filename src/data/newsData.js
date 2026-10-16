@@ -1,4 +1,15 @@
 export const news = [
+  {
+    id: 149,
+    slug: "tasmania-190-and-491-invitations-latest-results-and-next-round-date",
+    title: "Tasmania 190 and 491 Invitations: Latest Results and Next Round Date",
+    metaTitle: "Tasmania 190 & 491 Invitations: Latest Results and Next Round Date",
+    metaDescription: "Check Tasmania’s 15 October 2026 invitation results for subclass 190 and 491 visas, lowest ROI scores, invitation numbers, and the next round date.",
+    date: "Oct 16, 2026",
+    image: `/assets/nb111.jpg`,
+    category: "Skilled Migration Visas",
+    subcategory: ["Subclass 190", "Subclass 491"],
+  },
    {
     id: 148,
     slug: "nsw-190-visa-program-2026-27-opens-first-invitation-round-expected-in-october",

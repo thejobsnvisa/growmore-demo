@@ -3,8 +3,19 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-   {
+  {
     id: 1,
+    slug: "tasmania-190-and-491-invitations-latest-results-and-next-round-date",
+    title: "Tasmania 190 and 491 Invitations: Latest Results and Next Round Date",
+    metaTitle: "Tasmania 190 & 491 Invitations: Latest Results and Next Round Date",
+    metaDescription: "Check Tasmania’s 15 October 2026 invitation results for subclass 190 and 491 visas, lowest ROI scores, invitation numbers, and the next round date.",
+    date: "Oct 16, 2026",
+    image: `/assets/nb111.jpg`,
+    category: "Skilled Migration Visas",
+    subcategory: ["Subclass 190", "Subclass 491"],
+  },
+  {
+    id: 2,
     slug: "nsw-190-visa-program-2026-27-opens-first-invitation-round-expected-in-october",
     title: "NSW 190 Visa Program 2026–27 Opens: First Invitation Round Expected in October",
     metaTitle: "NSW 190 Visa 2026–27 Opens: October Invitation Round",
@@ -15,7 +26,7 @@ const blogs = [
     subcategory: ["Subclass 190", "Subclass 491"],
   },
   {
-    id: 2,
+    id: 3,
     slug: "australia-189-invitation-round-the-long-wait-is-finally-over",
     title: "Australia 189 Invitation Round: The Long Wait Is Finally Over",
     metaTitle: "Australia 189 Invitation Round: Results and Points Scores",
@@ -24,20 +35,6 @@ const blogs = [
     image: `/assets/nb109.jpg`,
     category: "Skilled Migration Visas",
     subcategory: "Subclass 189",
-  },
-  {
-    id: 3,
-    slug: "victoria-skilled-migration-2026-27-new-points-test-and-priority-occupations-revealed",
-    title: "Victoria Skilled Migration 2026–27: New Points Test and Priority Occupations Revealed",
-    metaTitle: "Victoria Skilled Migration 2026–27: Points Test & Jobs",
-    metaDescription: "Explore Victoria’s 2026–27 Skilled Migration Points Test, scoring criteria and priority occupations for subclass 190 and 491 Australia PR pathways.",
-    date: "Oct 13, 2026",
-    image: `/assets/nb108.png`,
-    category: "Skilled Migration Visas",
-    subcategory: [
-      "Subclass 190",
-      "Subclass 491",
-    ],
   },
 ];
 
