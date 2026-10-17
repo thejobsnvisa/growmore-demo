@@ -1,5 +1,21 @@
 export const blogs = [
   {
+    id: 129,
+    slug: "parent-visa-options-in-australia-which-visa-is-right-for-your-parents",
+    title: "Parent Visa Options in Australia: Which Visa Is Right for Your Parents",
+    metaTitle: "Parent Visa Australia: Which of the 7 Options Fits?",
+    metaDescription: "Planning to bring your parents to Australia? Compare 7 parent visa options, costs, eligibility and waiting times to understand which pathway may suit your family.",
+    date: "Oct 17, 2026",
+    image: `/assets/bg129.jpg`,
+    category:"Family and Partner Visas",
+    subcategory: [
+      "Subclass 103",
+      "Subclass 804",
+      "Subclass 143",
+      "Subclass 864",
+    ],
+  },
+  {
     id: 128,
     slug: "community-worker-skills-assessment-for-australia-pr-requirements-eligibility",
     title: "Community Worker Skills Assessment for Australia PR: Requirements & Eligibility",
