@@ -1,5 +1,16 @@
 export const blogs = [
   {
+    id: 129,
+    slug: "nsw-skills-list-2026-27-how-many-occupations-are-eligible-for-the-190-visa",
+    title: "NSW Skills List 2026–27: How Many Occupations Are Eligible for the 190 Visa?",
+    metaTitle: "NSW Skills List 2026–27: 190 Visa Occupations Guide",
+    metaDescription: "Explore the NSW Skills List 2026–27, with 78 ANZSCO unit groups expanded into occupations. Check subclass 190 visa eligibility and key requirements.",
+    date: "Oct 19, 2026",
+    image: `/assets/bg129.png`,
+    category:"Skilled Migration Visas",
+    subcategory: "Subclass 190",
+  },
+  {
     id: 128,
     slug: "community-worker-skills-assessment-for-australia-pr-requirements-eligibility",
     title: "Community Worker Skills Assessment for Australia PR: Requirements & Eligibility",
