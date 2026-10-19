@@ -1,6 +1,6 @@
 export const blogs = [
   {
-    id: 129,
+    id: 130,
     slug: "nsw-skills-list-2026-27-how-many-occupations-are-eligible-for-the-190-visa",
     title: "NSW Skills List 2026–27: How Many Occupations Are Eligible for the 190 Visa?",
     metaTitle: "NSW Skills List 2026–27: 190 Visa Occupations Guide",
@@ -9,6 +9,22 @@ export const blogs = [
     image: `/assets/bg129.png`,
     category:"Skilled Migration Visas",
     subcategory: "Subclass 190",
+  },
+  {
+    id: 129,
+    slug: "parent-visa-options-in-australia-which-visa-is-right-for-your-parents",
+    title: "Parent Visa Options in Australia: Which Visa Is Right for Your Parents",
+    metaTitle: "Parent Visa Australia: Which of the 7 Options Fits?",
+    metaDescription: "Planning to bring your parents to Australia? Compare 7 parent visa options, costs, eligibility and waiting times to understand which pathway may suit your family.",
+    date: "Oct 17, 2026",
+    image: `/assets/bg129.jpg`,
+    category:"Family and Partner Visas",
+    subcategory: [
+      "Subclass 103",
+      "Subclass 804",
+      "Subclass 143",
+      "Subclass 864",
+    ],
   },
   {
     id: 128,

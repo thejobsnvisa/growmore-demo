@@ -1,5 +1,16 @@
 export const news = [
   {
+    id: 150,
+    slug: "nsw-skilled-migration-check-the-latest-190-visa-eligibility",
+    title: "NSW Skilled Migration: Check the Latest 190 Visa Eligibility",
+    metaTitle: "NSW Skilled Migration: Latest 190 Visa Eligibility Rules",
+    metaDescription: "Check NSW subclass 190 eligibility for 2026–27, including skills assessment, residency requirements, the updated NSW Skills List and invitation process.",
+    date: "Oct 16, 2026",
+    image: `/assets/nb112.png`,
+    category: "Skilled Migration Visas",
+    subcategory: "Subclass 190",
+  },
+  {
     id: 149,
     slug: "tasmania-190-and-491-invitations-latest-results-and-next-round-date",
     title: "Tasmania 190 and 491 Invitations: Latest Results and Next Round Date",

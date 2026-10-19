@@ -5,6 +5,17 @@ import { Link } from "react-router-dom";
 const blogs = [
   {
     id: 1,
+    slug: "nsw-skilled-migration-check-the-latest-190-visa-eligibility",
+    title: "NSW Skilled Migration: Check the Latest 190 Visa Eligibility",
+    metaTitle: "NSW Skilled Migration: Latest 190 Visa Eligibility Rules",
+    metaDescription: "Check NSW subclass 190 eligibility for 2026–27, including skills assessment, residency requirements, the updated NSW Skills List and invitation process.",
+    date: "Oct 16, 2026",
+    image: `/assets/nb112.png`,
+    category: "Skilled Migration Visas",
+    subcategory: "Subclass 190",
+  },
+  {
+    id: 2,
     slug: "tasmania-190-and-491-invitations-latest-results-and-next-round-date",
     title: "Tasmania 190 and 491 Invitations: Latest Results and Next Round Date",
     metaTitle: "Tasmania 190 & 491 Invitations: Latest Results and Next Round Date",
@@ -14,8 +25,8 @@ const blogs = [
     category: "Skilled Migration Visas",
     subcategory: ["Subclass 190", "Subclass 491"],
   },
-  {
-    id: 2,
+   {
+    id: 3,
     slug: "nsw-190-visa-program-2026-27-opens-first-invitation-round-expected-in-october",
     title: "NSW 190 Visa Program 2026–27 Opens: First Invitation Round Expected in October",
     metaTitle: "NSW 190 Visa 2026–27 Opens: October Invitation Round",
@@ -24,17 +35,6 @@ const blogs = [
     image: `/assets/nb110.jpg`,
     category: "Skilled Migration Visas",
     subcategory: ["Subclass 190", "Subclass 491"],
-  },
-  {
-    id: 3,
-    slug: "australia-189-invitation-round-the-long-wait-is-finally-over",
-    title: "Australia 189 Invitation Round: The Long Wait Is Finally Over",
-    metaTitle: "Australia 189 Invitation Round: Results and Points Scores",
-    metaDescription: "Explore the Australia 189 Invitation Round held on 15 October 2026, with reported occupation-wise points scores, onshore and offshore results.",
-    date: "Oct 15, 2026",
-    image: `/assets/nb109.jpg`,
-    category: "Skilled Migration Visas",
-    subcategory: "Subclass 189",
   },
 ];
 
