@@ -1,5 +1,16 @@
 export const news = [
   {
+    id: 151,
+    slug: "nsw-190-invitation-round-happened-today-which-occupations-received-invitations",
+    title: "NSW 190 Invitation Round Happened Today: Which Occupations Received Invitations?",
+    metaTitle: "NSW 190 Invitation Round: Occupations and Points 2026",
+    metaDescription: "Explore reported NSW 190 invitation results for 21 October 2026, including occupations, points scores and key steps for skilled migration applicants.",
+    date: "Oct 21, 2026",
+    image: `/assets/nb113.png`,
+    category: "Skilled Migration Visas",
+    subcategory: "Subclass 190",
+  },
+  {
     id: 150,
     slug: "nsw-skilled-migration-check-the-latest-190-visa-eligibility",
     title: "NSW Skilled Migration: Check the Latest 190 Visa Eligibility",
