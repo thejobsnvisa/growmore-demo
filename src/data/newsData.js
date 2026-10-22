@@ -1,5 +1,16 @@
 export const news = [
   {
+    id: 152,
+    slug: "south-australia-general-skilled-migration-program-update",
+    title: "South Australia’s General Skilled Migration Program Update",
+    metaTitle: "South Australia Opens 2026–27 Skilled Migration ROIs",
+    metaDescription: "South Australia opens ROIs for its 2026–27 skilled migration program. Check eligibility, priority industries, nomination streams and application fees.",
+    date: "Oct 22, 2026",
+    image: `/assets/nb114.jpg`,
+    category: "Skilled Migration Visas",
+    subcategory: ["Subclass 190", "Subclass 491"]
+  },
+  {
     id: 151,
     slug: "nsw-190-invitation-round-happened-today-which-occupations-received-invitations",
     title: "NSW 190 Invitation Round Happened Today: Which Occupations Received Invitations?",
