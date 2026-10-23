@@ -5,6 +5,17 @@ import { Link } from "react-router-dom";
 const blogs = [
   {
     id: 1,
+    slug: "latest-tasmania-state-nomination-invitation-update-23-october-2026",
+    title: "Latest Tasmania State Nomination Invitation Update: 23 October 2026",
+    metaTitle: "Latest Tasmania State Nomination Update: 23 October 2026",
+    metaDescription: "Check Tasmania's latest 23 October 2026 nomination update, including Subclass 190 and 491 invitations, points scores, available places and processing figures.",
+    date: "Oct 23, 2026",
+    image: `/assets/nb115.png`,
+    category: "Skilled Migration Visas",
+    subcategory: ["Subclass 190", "Subclass 491"]
+  },
+  {
+    id: 2,
     slug: "south-australia-general-skilled-migration-program-update",
     title: "South Australia’s General Skilled Migration Program Update",
     metaTitle: "South Australia Opens 2026–27 Skilled Migration ROIs",
@@ -15,24 +26,13 @@ const blogs = [
     subcategory: ["Subclass 190", "Subclass 491"]
   },
   {
-    id: 2,
+    id: 3,
     slug: "nsw-190-invitation-round-happened-today-which-occupations-received-invitations",
     title: "NSW 190 Invitation Round Happened Today: Which Occupations Received Invitations?",
     metaTitle: "NSW 190 Invitation Round: Occupations and Points 2026",
     metaDescription: "Explore reported NSW 190 invitation results for 21 October 2026, including occupations, points scores and key steps for skilled migration applicants.",
     date: "Oct 21, 2026",
     image: `/assets/nb113.png`,
-    category: "Skilled Migration Visas",
-    subcategory: "Subclass 190",
-  },
-  {
-    id: 3,
-    slug: "nsw-skilled-migration-check-the-latest-190-visa-eligibility",
-    title: "NSW Skilled Migration: Check the Latest 190 Visa Eligibility",
-    metaTitle: "NSW Skilled Migration: Latest 190 Visa Eligibility Rules",
-    metaDescription: "Check NSW subclass 190 eligibility for 2026–27, including skills assessment, residency requirements, the updated NSW Skills List and invitation process.",
-    date: "Oct 16, 2026",
-    image: `/assets/nb112.png`,
     category: "Skilled Migration Visas",
     subcategory: "Subclass 190",
   },

@@ -1,5 +1,16 @@
 export const news = [
   {
+    id: 153,
+    slug: "latest-tasmania-state-nomination-invitation-update-23-october-2026",
+    title: "Latest Tasmania State Nomination Invitation Update: 23 October 2026",
+    metaTitle: "Latest Tasmania State Nomination Update: 23 October 2026",
+    metaDescription: "Check Tasmania's latest 23 October 2026 nomination update, including Subclass 190 and 491 invitations, points scores, available places and processing figures.",
+    date: "Oct 23, 2026",
+    image: `/assets/nb115.png`,
+    category: "Skilled Migration Visas",
+    subcategory: ["Subclass 190", "Subclass 491"]
+  },
+  {
     id: 152,
     slug: "south-australia-general-skilled-migration-program-update",
     title: "South Australia’s General Skilled Migration Program Update",
