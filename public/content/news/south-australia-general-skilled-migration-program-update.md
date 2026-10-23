@@ -25,7 +25,7 @@ For the 2026–27 General Skilled Migration (GSM) program, South Australia will 
 
 Candidates with skills and experience in these industries may receive priority consideration based on their occupation eligibility and the relevant nomination requirements.
 
-For the complete list of occupations eligible for South Australia’s skilled migration program, refer to the full South Australian Skilled Occupation List here.
+For the complete list of occupations eligible for South Australia’s skilled migration program, refer to the full [South Australian Skilled Occupation List](https://migration.sa.gov.au/before-applying/work-in-sa/occupation-lists/occupations-list) here.
 
 ## South Australia’s State Nomination Streams
 
