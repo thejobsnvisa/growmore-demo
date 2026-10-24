@@ -1,5 +1,16 @@
 export const blogs = [
   {
+    id: 131,
+    slug: "nsw-orana-dama-explore-a-regional-pathway-with-visa-concessions",
+    title: "NSW Orana DAMA: Explore a Regional Pathway with Visa Concessions",
+    metaTitle: "NSW Orana DAMA: Eligibility, Concessions & PR",
+    metaDescription: "Explore NSW Orana DAMA eligibility, 129 eligible occupations, visa concessions on age, English and salary requirements, and potential pathways to Australian PR.",
+    date: "Oct 24, 2026",
+    image: `/assets/bg130.png`,
+    category:"Labour Agreements and DAMA",
+    subcategory: "DAMA",
+  },
+  {
     id: 130,
     slug: "nsw-skills-list-2026-27-how-many-occupations-are-eligible-for-the-190-visa",
     title: "NSW Skills List 2026–27: How Many Occupations Are Eligible for the 190 Visa?",
