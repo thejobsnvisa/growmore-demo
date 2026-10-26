@@ -5,6 +5,17 @@ import { Link } from "react-router-dom";
 const blogs = [
   {
     id: 1,
+    slug: "victoria-subclass-190-visa-nomination-program-is-now-open-for-2026-27",
+    title: "Victoria’s Subclass 190 Visa Nomination Program Is Now Open for 2026–27",
+    metaTitle: "Victoria Subclass 190 Visa Nomination Opens for 2026–27",
+    metaDescription: "Victoria’s Subclass 190 nomination program is now open for 2026–27, with 900 places available. Check eligibility, allocation and nomination fees.",
+    date: "Oct 26, 2026",
+    image: `/assets/nb116.png`,
+    category: "Skilled Migration Visas",
+    subcategory: ["Subclass 190", "Subclass 491"]
+  },
+  {
+    id: 2,
     slug: "latest-tasmania-state-nomination-invitation-update-23-october-2026",
     title: "Latest Tasmania State Nomination Invitation Update: 23 October 2026",
     metaTitle: "Latest Tasmania State Nomination Update: 23 October 2026",
@@ -15,7 +26,7 @@ const blogs = [
     subcategory: ["Subclass 190", "Subclass 491"]
   },
   {
-    id: 2,
+    id: 3,
     slug: "south-australia-general-skilled-migration-program-update",
     title: "South Australia’s General Skilled Migration Program Update",
     metaTitle: "South Australia Opens 2026–27 Skilled Migration ROIs",
@@ -24,17 +35,6 @@ const blogs = [
     image: `/assets/nb114.jpg`,
     category: "Skilled Migration Visas",
     subcategory: ["Subclass 190", "Subclass 491"]
-  },
-  {
-    id: 3,
-    slug: "nsw-190-invitation-round-happened-today-which-occupations-received-invitations",
-    title: "NSW 190 Invitation Round Happened Today: Which Occupations Received Invitations?",
-    metaTitle: "NSW 190 Invitation Round: Occupations and Points 2026",
-    metaDescription: "Explore reported NSW 190 invitation results for 21 October 2026, including occupations, points scores and key steps for skilled migration applicants.",
-    date: "Oct 21, 2026",
-    image: `/assets/nb113.png`,
-    category: "Skilled Migration Visas",
-    subcategory: "Subclass 190",
   },
 ];
 

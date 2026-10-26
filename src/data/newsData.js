@@ -1,5 +1,16 @@
 export const news = [
   {
+    id: 154,
+    slug: "victoria-subclass-190-visa-nomination-program-is-now-open-for-2026-27",
+    title: "Victoria’s Subclass 190 Visa Nomination Program Is Now Open for 2026–27",
+    metaTitle: "Victoria Subclass 190 Visa Nomination Opens for 2026–27",
+    metaDescription: "Victoria’s Subclass 190 nomination program is now open for 2026–27, with 900 places available. Check eligibility, allocation and nomination fees.",
+    date: "Oct 26, 2026",
+    image: `/assets/nb116.png`,
+    category: "Skilled Migration Visas",
+    subcategory: ["Subclass 190", "Subclass 491"]
+  },
+  {
     id: 153,
     slug: "latest-tasmania-state-nomination-invitation-update-23-october-2026",
     title: "Latest Tasmania State Nomination Invitation Update: 23 October 2026",
