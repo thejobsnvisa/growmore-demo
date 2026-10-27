@@ -5,6 +5,17 @@ import { Link } from "react-router-dom";
 const blogs = [
   {
     id: 1,
+    slug: "south-australia-state-nomination-2026-27-eligibility-criteria-for-each-stream",
+    title: "South Australia State Nomination 2026–27: Eligibility Criteria for Each Stream",
+    metaTitle: "South Australia State Nomination 2026–27: Eligibility Guide",
+    metaDescription: "Explore South Australia's 2026–27 state nomination eligibility criteria for all four streams, including onshore graduates, skilled workers and offshore applicants.",
+    date: "Oct 27, 2026",
+    image: `/assets/nb118.png`,
+    category: "Skilled Migration Visas",
+    subcategory: ["Subclass 190", "Subclass 491"],
+  },
+  {
+    id: 2,
     slug: "india-is-now-part-of-biometrics-checks-for-australian-visas",
     title: "India Is Now Part of Biometrics Checks for Australian Visas",
     metaTitle: "Australia Visa Biometrics in India: New Rules 2026",
@@ -15,24 +26,13 @@ const blogs = [
     subcategory: "Other",
   },
   {
-    id: 2,
+    id: 3,
     slug: "victoria-subclass-190-visa-nomination-program-is-now-open-for-2026-27",
     title: "Victoria’s Subclass 190 Visa Nomination Program Is Now Open for 2026–27",
     metaTitle: "Victoria Subclass 190 Visa Nomination Opens for 2026–27",
     metaDescription: "Victoria’s Subclass 190 nomination program is now open for 2026–27, with 900 places available. Check eligibility, allocation and nomination fees.",
     date: "Oct 26, 2026",
     image: `/assets/nb116.png`,
-    category: "Skilled Migration Visas",
-    subcategory: ["Subclass 190", "Subclass 491"]
-  },
-  {
-    id: 3,
-    slug: "latest-tasmania-state-nomination-invitation-update-23-october-2026",
-    title: "Latest Tasmania State Nomination Invitation Update: 23 October 2026",
-    metaTitle: "Latest Tasmania State Nomination Update: 23 October 2026",
-    metaDescription: "Check Tasmania's latest 23 October 2026 nomination update, including Subclass 190 and 491 invitations, points scores, available places and processing figures.",
-    date: "Oct 23, 2026",
-    image: `/assets/nb115.png`,
     category: "Skilled Migration Visas",
     subcategory: ["Subclass 190", "Subclass 491"]
   },

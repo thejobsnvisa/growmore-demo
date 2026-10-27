@@ -1,5 +1,16 @@
 export const news = [
   {
+    id: 156,
+    slug: "south-australia-state-nomination-2026-27-eligibility-criteria-for-each-stream",
+    title: "South Australia State Nomination 2026–27: Eligibility Criteria for Each Stream",
+    metaTitle: "South Australia State Nomination 2026–27: Eligibility Guide",
+    metaDescription: "Explore South Australia's 2026–27 state nomination eligibility criteria for all four streams, including onshore graduates, skilled workers and offshore applicants.",
+    date: "Oct 27, 2026",
+    image: `/assets/nb118.png`,
+    category: "Skilled Migration Visas",
+    subcategory: ["Subclass 190", "Subclass 491"],
+  },
+  {
     id: 155,
     slug: "india-is-now-part-of-biometrics-checks-for-australian-visas",
     title: "India Is Now Part of Biometrics Checks for Australian Visas",
