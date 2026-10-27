@@ -5,6 +5,17 @@ import { Link } from "react-router-dom";
 const blogs = [
   {
     id: 1,
+    slug: "india-is-now-part-of-biometrics-checks-for-australian-visas",
+    title: "India Is Now Part of Biometrics Checks for Australian Visas",
+    metaTitle: "Australia Visa Biometrics in India: New Rules 2026",
+    metaDescription: "Australia expands visa biometrics checks to India from 26 October 2026. Learn about fingerprints, the Immi App, VFS centres and affected applicants.",
+    date: "Oct 27, 2026",
+    image: `/assets/nb117.png`,
+    category: "Other",
+    subcategory: "Other",
+  },
+  {
+    id: 2,
     slug: "victoria-subclass-190-visa-nomination-program-is-now-open-for-2026-27",
     title: "Victoria’s Subclass 190 Visa Nomination Program Is Now Open for 2026–27",
     metaTitle: "Victoria Subclass 190 Visa Nomination Opens for 2026–27",
@@ -15,24 +26,13 @@ const blogs = [
     subcategory: ["Subclass 190", "Subclass 491"]
   },
   {
-    id: 2,
+    id: 3,
     slug: "latest-tasmania-state-nomination-invitation-update-23-october-2026",
     title: "Latest Tasmania State Nomination Invitation Update: 23 October 2026",
     metaTitle: "Latest Tasmania State Nomination Update: 23 October 2026",
     metaDescription: "Check Tasmania's latest 23 October 2026 nomination update, including Subclass 190 and 491 invitations, points scores, available places and processing figures.",
     date: "Oct 23, 2026",
     image: `/assets/nb115.png`,
-    category: "Skilled Migration Visas",
-    subcategory: ["Subclass 190", "Subclass 491"]
-  },
-  {
-    id: 3,
-    slug: "south-australia-general-skilled-migration-program-update",
-    title: "South Australia’s General Skilled Migration Program Update",
-    metaTitle: "South Australia Opens 2026–27 Skilled Migration ROIs",
-    metaDescription: "South Australia opens ROIs for its 2026–27 skilled migration program. Check eligibility, priority industries, nomination streams and application fees.",
-    date: "Oct 22, 2026",
-    image: `/assets/nb114.jpg`,
     category: "Skilled Migration Visas",
     subcategory: ["Subclass 190", "Subclass 491"]
   },

@@ -1,5 +1,16 @@
 export const news = [
   {
+    id: 155,
+    slug: "india-is-now-part-of-biometrics-checks-for-australian-visas",
+    title: "India Is Now Part of Biometrics Checks for Australian Visas",
+    metaTitle: "Australia Visa Biometrics in India: New Rules 2026",
+    metaDescription: "Australia expands visa biometrics checks to India from 26 October 2026. Learn about fingerprints, the Immi App, VFS centres and affected applicants.",
+    date: "Oct 27, 2026",
+    image: `/assets/nb117.png`,
+    category: "Other",
+    subcategory: "Other",
+  },
+  {
     id: 154,
     slug: "victoria-subclass-190-visa-nomination-program-is-now-open-for-2026-27",
     title: "Victoria’s Subclass 190 Visa Nomination Program Is Now Open for 2026–27",
