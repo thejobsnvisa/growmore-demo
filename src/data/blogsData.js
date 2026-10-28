@@ -1,16 +1,5 @@
 export const blogs = [
   {
-    id: 132,
-    slug: "lost-your-job-on-a-482-or-494-visa-what-should-you-do-next",
-    title: "Lost Your Job on a 482 or 494 Visa? What Should You Do Next",
-    metaTitle: "Lost Your Job on a 482 or 494 Visa? What to Do Next",
-    metaDescription: "Lost your job on a 482 or 494 visa in Australia? Understand the 180-day rule, visa conditions, new employer options and next steps.",
-    date: "Oct 28, 2026",
-    image: `/assets/bg131.png`,
-    category:"Employer Sponsored Visas",
-    subcategory: ["Subclass 482", "Subclass 494"],
-  },
-  {
     id: 131,
     slug: "nsw-orana-dama-explore-a-regional-pathway-with-visa-concessions",
     title: "NSW Orana DAMA: Explore a Regional Pathway with Visa Concessions",
