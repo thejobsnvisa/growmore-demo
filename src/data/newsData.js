@@ -1,5 +1,16 @@
 export const news = [
   {
+    id: 157,
+    slug: "tasmania-invites-more-skilled-migrants-in-latest-october-29-round",
+    title: "Tasmania Invites More Skilled Migrants in Latest October 29 Round",
+    metaTitle: "Tasmania Invites 90 Skilled Migrants in October 29 Round",
+    metaDescription: "Tasmania issued 90 Subclass 190 and 491 invitations on 29 October 2026. Check the latest points scores and six-week rolling average update.",
+    date: "Oct 29, 2026",
+    image: `/assets/nb119.jpg`,
+    category: "Skilled Migration Visas",
+    subcategory: ["Subclass 190", "Subclass 491"],
+  },
+  {
     id: 156,
     slug: "south-australia-state-nomination-2026-27-eligibility-criteria-for-each-stream",
     title: "South Australia State Nomination 2026–27: Eligibility Criteria for Each Stream",

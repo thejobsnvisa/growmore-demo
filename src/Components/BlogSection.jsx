@@ -5,6 +5,17 @@ import { Link } from "react-router-dom";
 const blogs = [
   {
     id: 1,
+    slug: "tasmania-invites-more-skilled-migrants-in-latest-october-29-round",
+    title: "Tasmania Invites More Skilled Migrants in Latest October 29 Round",
+    metaTitle: "Tasmania Invites 90 Skilled Migrants in October 29 Round",
+    metaDescription: "Tasmania issued 90 Subclass 190 and 491 invitations on 29 October 2026. Check the latest points scores and six-week rolling average update.",
+    date: "Oct 29, 2026",
+    image: `/assets/nb119.jpg`,
+    category: "Skilled Migration Visas",
+    subcategory: ["Subclass 190", "Subclass 491"],
+  },
+  {
+    id: 2,
     slug: "south-australia-state-nomination-2026-27-eligibility-criteria-for-each-stream",
     title: "South Australia State Nomination 2026–27: Eligibility Criteria for Each Stream",
     metaTitle: "South Australia State Nomination 2026–27: Eligibility Guide",
@@ -15,7 +26,7 @@ const blogs = [
     subcategory: ["Subclass 190", "Subclass 491"],
   },
   {
-    id: 2,
+    id: 3,
     slug: "india-is-now-part-of-biometrics-checks-for-australian-visas",
     title: "India Is Now Part of Biometrics Checks for Australian Visas",
     metaTitle: "Australia Visa Biometrics in India: New Rules 2026",
@@ -24,17 +35,6 @@ const blogs = [
     image: `/assets/nb117.png`,
     category: "Other",
     subcategory: "Other",
-  },
-  {
-    id: 3,
-    slug: "victoria-subclass-190-visa-nomination-program-is-now-open-for-2026-27",
-    title: "Victoria’s Subclass 190 Visa Nomination Program Is Now Open for 2026–27",
-    metaTitle: "Victoria Subclass 190 Visa Nomination Opens for 2026–27",
-    metaDescription: "Victoria’s Subclass 190 nomination program is now open for 2026–27, with 900 places available. Check eligibility, allocation and nomination fees.",
-    date: "Oct 26, 2026",
-    image: `/assets/nb116.png`,
-    category: "Skilled Migration Visas",
-    subcategory: ["Subclass 190", "Subclass 491"]
   },
 ];
 
