@@ -1,5 +1,16 @@
 export const news = [
   {
+    id: 159,
+    slug: "good-news-for-trade-students-south-australia-reverses-section-45a-enforcement-approach",
+    title: "Good News for Trade Students: South Australia Reverses Section 45A Enforcement Approach",
+    metaTitle: "Good News for Trade Students in South Australia: Rules Reversed",
+    metaDescription: "South Australia reverses its Section 45A enforcement approach, bringing greater certainty for students and RTOs offering institution-based trade courses.",
+    date: "Oct 30, 2026",
+    image: `/assets/nb121.jpg`,
+    category: "Studying and Training Visas",
+    subcategory: "Subclass 500",
+  },
+  {
     id: 158,
     slug: "subclass-407-visa-applicants-must-lodge-applications-from-offshore",
     title: "Subclass 407 Visa Applicants Must Lodge Applications from Offshore",
