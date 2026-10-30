@@ -1,5 +1,16 @@
 export const news = [
   {
+    id: 158,
+    slug: "subclass-407-visa-applicants-must-lodge-applications-from-offshore",
+    title: "Subclass 407 Visa Applicants Must Lodge Applications from Offshore",
+    metaTitle: "Subclass 407 Visa Applicants Must Apply from Offshore",
+    metaDescription: "From 12 November 2026, most Subclass 407 visa applicants must apply from outside Australia and be offshore when their visa is granted.",
+    date: "Oct 30, 2026",
+    image: `/assets/nb120.jpg`,
+    category: "Studying and Training Visas",
+    subcategory: "Subclass 407",
+  },
+  {
     id: 157,
     slug: "tasmania-invites-more-skilled-migrants-in-latest-october-29-round",
     title: "Tasmania Invites More Skilled Migrants in Latest October 29 Round",

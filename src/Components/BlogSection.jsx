@@ -5,6 +5,17 @@ import { Link } from "react-router-dom";
 const blogs = [
   {
     id: 1,
+    slug: "subclass-407-visa-applicants-must-lodge-applications-from-offshore",
+    title: "Subclass 407 Visa Applicants Must Lodge Applications from Offshore",
+    metaTitle: "Subclass 407 Visa Applicants Must Apply from Offshore",
+    metaDescription: "From 12 November 2026, most Subclass 407 visa applicants must apply from outside Australia and be offshore when their visa is granted.",
+    date: "Oct 30, 2026",
+    image: `/assets/nb120.jpg`,
+    category: "Studying and Training Visas",
+    subcategory: "Subclass 407",
+  },
+  {
+    id: 2,
     slug: "tasmania-invites-more-skilled-migrants-in-latest-october-29-round",
     title: "Tasmania Invites More Skilled Migrants in Latest October 29 Round",
     metaTitle: "Tasmania Invites 90 Skilled Migrants in October 29 Round",
@@ -15,7 +26,7 @@ const blogs = [
     subcategory: ["Subclass 190", "Subclass 491"],
   },
   {
-    id: 2,
+    id: 3,
     slug: "south-australia-state-nomination-2026-27-eligibility-criteria-for-each-stream",
     title: "South Australia State Nomination 2026–27: Eligibility Criteria for Each Stream",
     metaTitle: "South Australia State Nomination 2026–27: Eligibility Guide",
@@ -24,17 +35,6 @@ const blogs = [
     image: `/assets/nb118.png`,
     category: "Skilled Migration Visas",
     subcategory: ["Subclass 190", "Subclass 491"],
-  },
-  {
-    id: 3,
-    slug: "india-is-now-part-of-biometrics-checks-for-australian-visas",
-    title: "India Is Now Part of Biometrics Checks for Australian Visas",
-    metaTitle: "Australia Visa Biometrics in India: New Rules 2026",
-    metaDescription: "Australia expands visa biometrics checks to India from 26 October 2026. Learn about fingerprints, the Immi App, VFS centres and affected applicants.",
-    date: "Oct 27, 2026",
-    image: `/assets/nb117.png`,
-    category: "Other",
-    subcategory: "Other",
   },
 ];
 
