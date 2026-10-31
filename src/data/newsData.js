@@ -1,5 +1,16 @@
 export const news = [
    {
+    id: 161,
+    slug: "queenslands-2026-27-skilled-migration-program-is-set-to-open-on-6-november",
+    title: "Queensland’s 2026–27 Skilled Migration Program Is Set to Open on 6 November",
+    metaTitle: "Queensland Skilled Migration Program 2026–27: ROI Opens Soon",
+    metaDescription: "Queensland's 2026–27 Skilled Migration Program opens for ROIs on 6 November. Check updated eligibility, work experience and document requirements.",
+    date: "Oct 31, 2026",
+    image: `/assets/ng122.jpg`,
+    category: "Skilled Migration Visas",
+    subcategory: ["Subclass 190","Subclass 491"],
+  },
+   {
     id: 160,
     slug: "protection-visa-applicants-cannot-apply-bridging-visa-b-from-1-novemeber-2026",
     title: "Protection Visa Applicants cannot apply Bridging Visa B from 1 November 2026",

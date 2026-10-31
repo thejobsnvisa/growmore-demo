@@ -4,7 +4,18 @@ import { Link } from "react-router-dom";
 
 const blogs = [
    {
-    id: 0,
+    id: 1,
+    slug: "queenslands-2026-27-skilled-migration-program-is-set-to-open-on-6-november",
+    title: "Queensland’s 2026–27 Skilled Migration Program Is Set to Open on 6 November",
+    metaTitle: "Queensland Skilled Migration Program 2026–27: ROI Opens Soon",
+    metaDescription: "Queensland's 2026–27 Skilled Migration Program opens for ROIs on 6 November. Check updated eligibility, work experience and document requirements.",
+    date: "Oct 31, 2026",
+    image: `/assets/ng122.jpg`,
+    category: "Skilled Migration Visas",
+    subcategory: ["Subclass 190","Subclass 491"],
+  },
+   {
+    id: 2,
     slug: "protection-visa-applicants-cannot-apply-bridging-visa-b-from-1-novemeber-2026",
     title: "Protection Visa Applicants cannot apply Bridging Visa B from 1 November 2026",
     metaTitle: "Protection Visa Applicants Face BVB Ban from 1 November 2026",
@@ -15,7 +26,7 @@ const blogs = [
     subcategory: ["Bridging Visa","Subclass 866"],
   },
   {
-    id: 1,
+    id: 3,
     slug: "good-news-for-trade-students-south-australia-reverses-section-45a-enforcement-approach",
     title: "Good News for Trade Students: South Australia Reverses Section 45A Enforcement Approach",
     metaTitle: "Good News for Trade Students in South Australia: Rules Reversed",
@@ -24,17 +35,6 @@ const blogs = [
     image: `/assets/nb121.jpg`,
     category: "Studying and Training Visas",
     subcategory: "Subclass 500",
-  },
-  {
-    id: 2,
-    slug: "subclass-407-visa-applicants-must-lodge-applications-from-offshore",
-    title: "Subclass 407 Visa Applicants Must Lodge Applications from Offshore",
-    metaTitle: "Subclass 407 Visa Applicants Must Apply from Offshore",
-    metaDescription: "From 12 November 2026, most Subclass 407 visa applicants must apply from outside Australia and be offshore when their visa is granted.",
-    date: "Oct 30, 2026",
-    image: `/assets/nb120.jpg`,
-    category: "Studying and Training Visas",
-    subcategory: "Subclass 407",
   },
 ];
 
