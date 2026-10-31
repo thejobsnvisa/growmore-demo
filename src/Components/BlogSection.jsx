@@ -3,6 +3,17 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
+   {
+    id: 0,
+    slug: "protection-visa-applicants-cannot-apply-bridging-visa-b-from-1-novemeber-2026",
+    title: "Protection Visa Applicants cannot apply Bridging Visa B from 1 November 2026",
+    metaTitle: "Protection Visa Applicants Face BVB Ban from 1 November 2026",
+    metaDescription: "New Bridging Visa B rules from 1 November 2026 restrict protection visa applicants from applying for a BVB. Check who is affected and what changes.",
+    date: "Oct 31, 2026",
+    image: `/assets/ng121.jpg`,
+    category: "other",
+    subcategory: ["Bridging Visa","Subclass 866"],
+  },
   {
     id: 1,
     slug: "good-news-for-trade-students-south-australia-reverses-section-45a-enforcement-approach",
@@ -24,17 +35,6 @@ const blogs = [
     image: `/assets/nb120.jpg`,
     category: "Studying and Training Visas",
     subcategory: "Subclass 407",
-  },
-  {
-    id: 3,
-    slug: "tasmania-invites-more-skilled-migrants-in-latest-october-29-round",
-    title: "Tasmania Invites More Skilled Migrants in Latest October 29 Round",
-    metaTitle: "Tasmania Invites 90 Skilled Migrants in October 29 Round",
-    metaDescription: "Tasmania issued 90 Subclass 190 and 491 invitations on 29 October 2026. Check the latest points scores and six-week rolling average update.",
-    date: "Oct 29, 2026",
-    image: `/assets/nb119.jpg`,
-    category: "Skilled Migration Visas",
-    subcategory: ["Subclass 190", "Subclass 491"],
   },
 ];
 
