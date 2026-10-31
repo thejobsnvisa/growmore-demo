@@ -34,7 +34,6 @@ The occupation lists are based on the 2013 ANZSCO classification, in line with t
 
 For the 2026–27 program, the work experience requirements are: 
 
-Nomination pathway 
 | Nomination pathway | Required work experience |
 | --- | --- |
 | Subclass 190 visa | 9 out of the last 12 months |
