@@ -1,6 +1,6 @@
 export const news = [
-  {
-    id: 159,
+   {
+    id: 160,
     slug: "protection-visa-applicants-cannot-apply-bridging-visa-b-from-1-novemeber-2026",
     title: "Protection Visa Applicants cannot apply Bridging Visa B from 1 November 2026",
     metaTitle: "Protection Visa Applicants Face BVB Ban from 1 November 2026",
@@ -8,7 +8,18 @@ export const news = [
     date: "Oct 31, 2026",
     image: `/assets/ng121.jpg`,
     category: "other",
-    subcategory:["Bridging Visa","Subclass 866"],
+    subcategory: ["Bridging Visa","Subclass 866"],
+  },
+  {
+    id: 159,
+    slug: "good-news-for-trade-students-south-australia-reverses-section-45a-enforcement-approach",
+    title: "Good News for Trade Students: South Australia Reverses Section 45A Enforcement Approach",
+    metaTitle: "Good News for Trade Students in South Australia: Rules Reversed",
+    metaDescription: "South Australia reverses its Section 45A enforcement approach, bringing greater certainty for students and RTOs offering institution-based trade courses.",
+    date: "Oct 30, 2026",
+    image: `/assets/nb121.jpg`,
+    category: "Studying and Training Visas",
+    subcategory: "Subclass 500",
   },
   {
     id: 158,
