@@ -1,5 +1,16 @@
 export const news = [
   {
+    id: 159,
+    slug: "protection-visa-applicants-cannot-apply-bridging-visa-b-from-1-novemeber-2026",
+    title: "Protection Visa Applicants cannot apply Bridging Visa B from 1 November 2026",
+    metaTitle: "Protection Visa Applicants Face BVB Ban from 1 November 2026",
+    metaDescription: "New Bridging Visa B rules from 1 November 2026 restrict protection visa applicants from applying for a BVB. Check who is affected and what changes.",
+    date: "Oct 31, 2026",
+    image: `/assets/ng121.jpg`,
+    category: "other",
+    subcategory:["Bridging Visa","Subclass 866"],
+  },
+  {
     id: 158,
     slug: "subclass-407-visa-applicants-must-lodge-applications-from-offshore",
     title: "Subclass 407 Visa Applicants Must Lodge Applications from Offshore",
