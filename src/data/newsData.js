@@ -1,4 +1,15 @@
 export const news = [
+  {
+    id: 162,
+    slug: "australia-releases-official-subclass-189-skillselect-data-20000-invitations-issued",
+    title: "Australia Releases Official Subclass 189 SkillSelect Data: 20,000 Invitations Issued",
+    metaTitle: "Australia Subclass 189: 20,000 SkillSelect Invitations Issued",
+    metaDescription: "Australia issued 20,000 Subclass 189 invitations on 15 October 2026. Check occupation-wise minimum points scores and tie-break dates.",
+    date: "Nov 2, 2026",
+    image: `/assets/ng123.png`,
+    category: "Skilled Migration Visa",
+    subcategory: "Subclass 189",
+  },
    {
     id: 161,
     slug: "queenslands-2026-27-skilled-migration-program-is-set-to-open-on-6-november",

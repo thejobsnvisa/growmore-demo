@@ -5,6 +5,17 @@ import { Link } from "react-router-dom";
 const blogs = [
    {
     id: 1,
+    slug: "australia-releases-official-subclass-189-skillselect-data-20000-invitations-issued",
+    title: "Australia Releases Official Subclass 189 SkillSelect Data: 20,000 Invitations Issued",
+    metaTitle: "Australia Subclass 189: 20,000 SkillSelect Invitations Issued",
+    metaDescription: "Australia issued 20,000 Subclass 189 invitations on 15 October 2026. Check occupation-wise minimum points scores and tie-break dates.",
+    date: "Nov 2, 2026",
+    image: `/assets/ng123.png`,
+    category: "Skilled Migration Visa",
+    subcategory: "Subclass 189",
+  },
+   {
+    id: 2,
     slug: "queenslands-2026-27-skilled-migration-program-is-set-to-open-on-6-november",
     title: "Queensland’s 2026–27 Skilled Migration Program Is Set to Open on 6 November",
     metaTitle: "Queensland Skilled Migration Program 2026–27: ROI Opens Soon",
@@ -15,7 +26,7 @@ const blogs = [
     subcategory: ["Subclass 190","Subclass 491"],
   },
    {
-    id: 2,
+    id: 3,
     slug: "protection-visa-applicants-cannot-apply-bridging-visa-b-from-1-novemeber-2026",
     title: "Protection Visa Applicants cannot apply Bridging Visa B from 1 November 2026",
     metaTitle: "Protection Visa Applicants Face BVB Ban from 1 November 2026",
@@ -24,17 +35,6 @@ const blogs = [
     image: `/assets/ng121.jpg`,
     category: "other",
     subcategory: ["Bridging Visa","Subclass 866"],
-  },
-  {
-    id: 3,
-    slug: "good-news-for-trade-students-south-australia-reverses-section-45a-enforcement-approach",
-    title: "Good News for Trade Students: South Australia Reverses Section 45A Enforcement Approach",
-    metaTitle: "Good News for Trade Students in South Australia: Rules Reversed",
-    metaDescription: "South Australia reverses its Section 45A enforcement approach, bringing greater certainty for students and RTOs offering institution-based trade courses.",
-    date: "Oct 30, 2026",
-    image: `/assets/nb121.jpg`,
-    category: "Studying and Training Visas",
-    subcategory: "Subclass 500",
   },
 ];
 
