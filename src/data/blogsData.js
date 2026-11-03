@@ -1,5 +1,16 @@
 export const blogs = [
   {
+    id: 133,
+    slug: "queensland-state-nominated-migration-program-2026-27-onshore-and-offshore-eligibility",
+    title: "Queensland State Nominated Migration Program 2026–27 Onshore and Offshore Eligibility",
+    metaTitle: "Queensland State Nomination 2026–27: Onshore & Offshore Eligibility",
+    metaDescription: "Explore Queensland's 2026–27 state nomination eligibility for onshore and offshore applicants across five skilled migration pathways for subclass 190 and 491.",
+    date: "Nov 3, 2026",
+    image: `/assets/bg132.png`,
+    category:"Skilled Migration Visa",
+    subcategory: ["Subclass 190", "Subclass 491"],
+  },
+  {
     id: 132,
     slug: "lost-your-job-on-a-482-or-494-visa-what-should-you-do-next",
     title: "Lost Your Job on a 482 or 494 Visa? What Should You Do Next",
