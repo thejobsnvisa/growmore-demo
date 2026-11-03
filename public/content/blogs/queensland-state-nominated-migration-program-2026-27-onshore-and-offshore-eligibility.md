@@ -10,7 +10,7 @@ Let’s take a closer look at the eligibility requirements for all five pathways
 
 This pathway is for skilled professionals currently living outside Australia who want to obtain Queensland nomination. Depending on their nominated occupation, eligible applicants may be considered for the Skilled Nominated visa (subclass 190) or Skilled Work Regional (Provisional) visa (subclass 491). 
 
-**Eligibility criteria:** 
+## Eligibility criteria: 
 
 * **Occupation:** You must have a valid skills assessment for an occupation on the Queensland Offshore Skilled Occupation List. 
 
@@ -122,7 +122,7 @@ Important: Although employment in any Skill Level 1 occupation can meet the path
 
 * **Queensland commitment:** You must commit to living and working in Queensland for at least two years after a subclass 190 grant, or Regional Queensland for at least three years after a subclass 491 grant. 
 
-**5.Small Business Owners in Regional Queensland (Subclass 491 Only)** 
+## 5.Small Business Owners in Regional Queensland (Subclass 491 Only)
 
 This pathway is for eligible migrants who currently live and operate a qualifying small business in regional Queensland. Unlike the other four pathways, it is exclusively for subclass 491 nomination. The business must have been started before 19 September 2025 and must satisfy the applicable establishment, ownership, profitability and turnover requirements. 
 
@@ -157,7 +157,5 @@ This pathway is for eligible migrants who currently live and operate a qualifyin
 Growmore Immigration can assist with assessing your eligibility for Queensland's subclass 190 and 491 nomination pathways, reviewing your occupation, skills assessment, employment history and points claims, and preparing your Registration of Interest (ROI). 
 
 Contact our registered migration agent in Australia for professional guidance on Queensland state nomination. 
-
-**Email: info@growmore.one | WhatsApp: +61 434 202 021 | Phone: +61 3 8764 3334**
 
 Disclaimer: This article is intended for general informational purposes only and does not constitute immigration advice. Eligibility requirements and visa criteria may change. For advice specific to your circumstances, consult a Registered Migration Agent in Australia or an Australian immigration lawyer. 
