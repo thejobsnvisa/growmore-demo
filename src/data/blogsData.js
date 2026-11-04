@@ -1,5 +1,16 @@
 export const blogs = [
   {
+    id: 134,
+    slug:"australia-subclass-189-invitation-round-total-80-occupations-invited-at-65-and-70-points",
+    title:"Australia Subclass 189 Invitation Round: Total 80 Occupations Invited at 65 and 70 Points",
+    metaTitle:"Subclass 189 Results: 80 Occupations Invited at 65 & 70 Points",
+    metaDescription:"Explore Australia's October 2026 Subclass 189 results, with 80 occupations invited at 65 and 70 points, including minimum scores and tie-break dates.",
+    date: "Nov 4, 2026",
+    image: `/assets/bg133.png`,
+    category:"Skilled Migration Visa",
+    subcategory: "Subclass 189",
+  },
+  {
     id: 133,
     slug: "queensland-state-nominated-migration-program-2026-27-onshore-and-offshore-eligibility",
     title: "Queensland State Nominated Migration Program 2026–27 Onshore and Offshore Eligibility",
