@@ -1,5 +1,16 @@
 export const news = [
   {
+    id: 163,
+    slug: "tasmania-state-nomination-update-96-invitations-issued-on-5-november-2026",
+    title: "Tasmania State Nomination Update: 96 Invitations Issued on 5 November 2026",
+    metaTitle: "Tasmania Issues 96 State Nomination Invitations ",
+    metaDescription: "Tasmania issued 96 Subclass 190 and 491 invitations on 5 November 2026. Check points scores, nomination places and updated assessment rules.",
+    date: "Nov 5, 2026",
+    image: `/assets/ng124.jpg`,
+    category: "Skilled Migration Visa",
+    subcategory:["Subclass 190","Subclass 491"],
+  },
+  {
     id: 162,
     slug: "australia-releases-official-subclass-189-skillselect-data-20000-invitations-issued",
     title: "Australia Releases Official Subclass 189 SkillSelect Data: 20,000 Invitations Issued",

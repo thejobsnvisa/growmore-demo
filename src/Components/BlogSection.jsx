@@ -5,6 +5,17 @@ import { Link } from "react-router-dom";
 const blogs = [
    {
     id: 1,
+    slug: "tasmania-state-nomination-update-96-invitations-issued-on-5-november-2026",
+    title: "Tasmania State Nomination Update: 96 Invitations Issued on 5 November 2026",
+    metaTitle: "Tasmania Issues 96 State Nomination Invitations ",
+    metaDescription: "Tasmania issued 96 Subclass 190 and 491 invitations on 5 November 2026. Check points scores, nomination places and updated assessment rules.",
+    date: "Nov 5, 2026",
+    image: `/assets/ng124.jpg`,
+    category: "Skilled Migration Visa",
+    subcategory:["Subclass 190","Subclass 491"],
+  },
+  {
+    id: 2,
     slug: "australia-releases-official-subclass-189-skillselect-data-20000-invitations-issued",
     title: "Australia Releases Official Subclass 189 SkillSelect Data: 20,000 Invitations Issued",
     metaTitle: "Australia Subclass 189: 20,000 SkillSelect Invitations Issued",
@@ -15,7 +26,7 @@ const blogs = [
     subcategory: "Subclass 189",
   },
    {
-    id: 2,
+    id: 3,
     slug: "queenslands-2026-27-skilled-migration-program-is-set-to-open-on-6-november",
     title: "Queensland’s 2026–27 Skilled Migration Program Is Set to Open on 6 November",
     metaTitle: "Queensland Skilled Migration Program 2026–27: ROI Opens Soon",
@@ -24,17 +35,6 @@ const blogs = [
     image: `/assets/ng122.jpg`,
     category: "Skilled Migration Visas",
     subcategory: ["Subclass 190","Subclass 491"],
-  },
-   {
-    id: 3,
-    slug: "protection-visa-applicants-cannot-apply-bridging-visa-b-from-1-novemeber-2026",
-    title: "Protection Visa Applicants cannot apply Bridging Visa B from 1 November 2026",
-    metaTitle: "Protection Visa Applicants Face BVB Ban from 1 November 2026",
-    metaDescription: "New Bridging Visa B rules from 1 November 2026 restrict protection visa applicants from applying for a BVB. Check who is affected and what changes.",
-    date: "Oct 31, 2026",
-    image: `/assets/ng121.jpg`,
-    category: "other",
-    subcategory: ["Bridging Visa","Subclass 866"],
   },
 ];
 
