@@ -1,5 +1,16 @@
 export const blogs = [
   {
+    id: 135,
+    slug:"can-you-get-an-australian-visa-after-45-explore-your-options",
+    title:"Can You Get an Australian Visa After 45? Explore Your Options",
+    metaTitle:"Australian Visa After 45: Explore Your Visa Options",
+    metaDescription:"Explore Australian visa options after 45, including subclass 482, DAMA, partner and parent visas, and understand age limits and PR eligibility.",
+    date: "Nov 7, 2026",
+    image: `/assets/bg134.png`,
+    category:"Other",
+    subcategory: "Other",
+  },
+  {
     id: 134,
     slug:"australia-subclass-189-invitation-round-total-80-occupations-invited-at-65-and-70-points",
     title:"Australia Subclass 189 Invitation Round: Total 80 Occupations Invited at 65 and 70 Points",
