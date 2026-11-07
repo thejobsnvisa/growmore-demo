@@ -29,7 +29,7 @@ const Navbar = () => {
 
   return (
     <nav ref={navRef} className="fixed left-0  top-0 z-100 w-full bg-white shadow-md">
-      <div className="max-w-8xl mx-auto px-4 lg:px-6 xl:px-10">
+      <div className="max-w-8xl mx-auto px-4 lg:px-6 xl:px-6 2xl:px-10">
         <div className="flex items-center justify-between h-20">
           <Link to="/" onClick={closeAll}>
             <img
@@ -40,7 +40,7 @@ const Navbar = () => {
           </Link>
 
           {/* Desktop Menu */}
-          <ul className="hidden xl:flex items-center xl:space-x-6 2xl:space-x-8 text-[14px] xl:text-[15px] font-medium text-[#1F4E55]">
+          <ul className="hidden xl:flex items-center xl:space-x-4 2xl:space-x-8 text-[14px] xl:text-[15px] font-medium text-[#1F4E55]">
             <li>
               <Link to="/" onClick={closeAll} className="hover:text-[#8FD07D]">
                 Home
