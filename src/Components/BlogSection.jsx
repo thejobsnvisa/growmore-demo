@@ -3,8 +3,19 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-   {
+  {
     id: 1,
+    slug: "how-to-become-a-standard-business-sponsor-in-australia-complete-guide",
+    title: "How to Become a Standard Business Sponsor in Australia: Complete Guide",
+    metaTitle: "How to Become a Standard Business Sponsor in Australia",
+    metaDescription: "Learn how to become a Standard Business Sponsor in Australia, including eligibility requirements, documents, application steps and sponsorship benefits.",
+    date: "Nov 11, 2026",
+    image: `/assets/ng126.jpg`,
+    category: "Employer Sponsored visas",
+    subcategory:["Subclass 482","Subclass 494"],
+  },
+  {
+    id: 2,
     slug: "tasmania-state-nomination-update-96-invitations-issued-on-5-november-2026",
     title: "Tasmania State Nomination Update: 96 Invitations Issued on 5 November 2026",
     metaTitle: "Tasmania Issues 96 State Nomination Invitations ",
@@ -15,7 +26,7 @@ const blogs = [
     subcategory:["Subclass 190","Subclass 491"],
   },
   {
-    id: 2,
+    id: 3,
     slug: "australia-releases-official-subclass-189-skillselect-data-20000-invitations-issued",
     title: "Australia Releases Official Subclass 189 SkillSelect Data: 20,000 Invitations Issued",
     metaTitle: "Australia Subclass 189: 20,000 SkillSelect Invitations Issued",
@@ -24,17 +35,6 @@ const blogs = [
     image: `/assets/ng123.png`,
     category: "Skilled Migration Visa",
     subcategory: "Subclass 189",
-  },
-   {
-    id: 3,
-    slug: "queenslands-2026-27-skilled-migration-program-is-set-to-open-on-6-november",
-    title: "Queensland’s 2026–27 Skilled Migration Program Is Set to Open on 6 November",
-    metaTitle: "Queensland Skilled Migration Program 2026–27: ROI Opens Soon",
-    metaDescription: "Queensland's 2026–27 Skilled Migration Program opens for ROIs on 6 November. Check updated eligibility, work experience and document requirements.",
-    date: "Oct 31, 2026",
-    image: `/assets/ng122.jpg`,
-    category: "Skilled Migration Visas",
-    subcategory: ["Subclass 190","Subclass 491"],
   },
 ];
 

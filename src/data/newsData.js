@@ -1,5 +1,16 @@
 export const news = [
   {
+    id: 164,
+    slug: "how-to-become-a-standard-business-sponsor-in-australia-complete-guide",
+    title: "How to Become a Standard Business Sponsor in Australia: Complete Guide",
+    metaTitle: "How to Become a Standard Business Sponsor in Australia",
+    metaDescription: "Learn how to become a Standard Business Sponsor in Australia, including eligibility requirements, documents, application steps and sponsorship benefits.",
+    date: "Nov 11, 2026",
+    image: `/assets/ng126.jpg`,
+    category: "Employer Sponsored visas",
+    subcategory:["Subclass 482","Subclass 494"],
+  },
+  {
     id: 163,
     slug: "tasmania-state-nomination-update-96-invitations-issued-on-5-november-2026",
     title: "Tasmania State Nomination Update: 96 Invitations Issued on 5 November 2026",
