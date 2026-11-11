@@ -3,16 +3,16 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-  {
+   {
     id: 1,
-    slug: "how-to-become-a-standard-business-sponsor-in-australia-complete-guide",
-    title: "How to Become a Standard Business Sponsor in Australia: Complete Guide",
-    metaTitle: "How to Become a Standard Business Sponsor in Australia",
-    metaDescription: "Learn how to become a Standard Business Sponsor in Australia, including eligibility requirements, documents, application steps and sponsorship benefits.",
+    slug: "bvb-travel-periods-to-be-shorter-for-employer-sponsored-visa-applicants-from-30-nov-2026",
+    title: "BVB Travel Periods to Be Shorter for Employer-Sponsored Visa Applicants from 30 Nov 2026",
+    metaTitle: "BVB Travel Rules 2026: Shorter Periods for Sponsored Applicants",
+    metaDescription: "BVB travel periods will be shorter from 30 November 2026 for Subclass 482, 186 and 494 applicants. Learn about the updated travel requirements.",
     date: "Nov 11, 2026",
-    image: `/assets/ng126.jpg`,
-    category: "Employer Sponsored visas",
-    subcategory:["Subclass 482","Subclass 494"],
+    image: `/assets/ng125.jpg`,
+    category: "Bridging visa",
+    subcategory:"Bridging visa",
   },
   {
     id: 2,
