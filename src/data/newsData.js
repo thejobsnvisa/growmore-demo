@@ -7,7 +7,7 @@ export const news = [
     metaTitle: "BVB Travel Rules 2026: Shorter Periods for Sponsored Applicants",
     metaDescription: "BVB travel periods will be shorter from 30 November 2026 for Subclass 482, 186 and 494 applicants. Learn about the updated travel requirements.",
     date: "Nov 11, 2026",
-    image: `/assets/ng125.jpg`,
+    image: `/assets/ng125.png`,
     category: "Bridging visa",
     subcategory:"Bridging visa",
   },

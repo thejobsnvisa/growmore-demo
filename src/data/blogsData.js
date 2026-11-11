@@ -1,5 +1,16 @@
 export const blogs = [
   {
+    id: 136,
+    slug:"still-working-through-the-amc-exams-a-189-pr-pathway-for-health-service-managers",
+    title:"Still Working Through the AMC Exams? A 189 PR Pathway for Health Service Managers",
+    metaTitle:"Primary Health Organisation Manager PR Australia: 189 Visa",
+    metaDescription:"Explore the subclass 189 PR pathway for overseas doctors without AMC exams. Check VETASSESS requirements, qualifications and healthcare management experience.",
+    date: "Nov 11, 2026",
+    image: `/assets/bg135.png`,
+    category:"Skilled migration visas",
+    subcategory: "Subclass 189",
+  },
+  {
     id: 135,
     slug:"can-you-get-an-australian-visa-after-45-explore-your-options",
     title:"Can You Get an Australian Visa After 45? Explore Your Options",
