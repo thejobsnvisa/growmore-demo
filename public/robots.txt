@@ -1,8 +1,28 @@
+
+# ==========================================
+# Growmore Immigration - Robots.txt
+# Website: https://www.growmore.one
+# ==========================================
+
+# Allow all standard search engine crawlers
+User-agent: *
+Allow: /
+
+# Google Search
+User-agent: Googlebot
+Allow: /
+
+# Bing Search
+User-agent: Bingbot
+Allow: /
+
+# ChatGPT Search - Allow indexing and discovery
 User-agent: OAI-SearchBot
 Allow: /
 
+# Block OpenAI AI training crawler
 User-agent: GPTBot
 Disallow: /
 
+# Sitemap location
 Sitemap: https://www.growmore.one/sitemap.xml
- 
