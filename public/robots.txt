@@ -1,6 +1,8 @@
 User-agent: OAI-SearchBot
 Allow: /
- 
+
+User-agent: GPTBot
+Disallow: /
+
 Sitemap: https://www.growmore.one/sitemap.xml
- 
  
