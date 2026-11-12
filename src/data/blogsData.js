@@ -1,15 +1,15 @@
 export const blogs = [
-   {
-    id: 137,
-    slug:"how-to-become-a-standard-business-sponsor-in-australia-complete-guide",
-    title:"How to Become a Standard Business Sponsor in Australia: Complete Guide",
-    metaTitle:"How to Become a Standard Business Sponsor in Australia",
-    metaDescription:"Learn how to become a Standard Business Sponsor in Australia, including eligibility requirements, documents, application steps and sponsorship benefits.",
-    date: "Nov 12, 2026",
-    image: `/assets/bg136.png`,
-    category:"Employer Sponsored visas",
-    subcategory: ["Subclass 482","Subclass 494"],
-  },
+  //  {
+  //   id: 137,
+  //   slug:"how-to-become-a-standard-business-sponsor-in-australia-complete-guide",
+  //   title:"How to Become a Standard Business Sponsor in Australia: Complete Guide",
+  //   metaTitle:"How to Become a Standard Business Sponsor in Australia",
+  //   metaDescription:"Learn how to become a Standard Business Sponsor in Australia, including eligibility requirements, documents, application steps and sponsorship benefits.",
+  //   date: "Nov 12, 2026",
+  //   image: `/assets/bg136.png`,
+  //   category:"Employer Sponsored visas",
+  //   subcategory: ["Subclass 482","Subclass 494"],
+  // },
   {
     id: 136,
     slug:"still-working-through-the-amc-exams-a-189-pr-pathway-for-health-service-managers",
