@@ -1,5 +1,15 @@
 export const news = [
-  
+  {
+    id: 165,
+    slug: "485-subsequent-entrant-applications-closed-from-13-nov",
+    title: "485 Subsequent Entrant Applications CLOSED from 13 Nov",
+    metaTitle: "485 Subsequent Entrant Visa Closed from 13 November 2026",
+    metaDescription: "Australia closes separate 485 subsequent entrant applications from 13 November 2026. Learn about the six exceptions and new family visa rules.",
+    date: "Nov 12, 2026",
+    image: `/assets/ng126.jpg`,
+    category: "Other",
+    subcategory:"Subclass 485",
+  },
   {
     id: 164,
     slug: "bvb-travel-periods-to-be-shorter-for-employer-sponsored-visa-applicants-from-30-nov-2026",
