@@ -3,8 +3,19 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-  {
+    {
     id: 1,
+    slug:"how-to-become-a-standard-business-sponsor-in-australia-complete-guide",
+    title:"How to Become a Standard Business Sponsor in Australia: Complete Guide",
+    metaTitle:"How to Become a Standard Business Sponsor in Australia",
+    metaDescription:"Learn how to become a Standard Business Sponsor in Australia, including eligibility requirements, documents, application steps and sponsorship benefits.",
+    date: "Nov 13, 2026",
+    image: `/assets/bg136.png`,
+    category:"Employer Sponsored visas",
+    subcategory: ["Subclass 482","Subclass 494"],
+  },
+  {
+    id: 2,
     slug: "485-subsequent-entrant-applications-closed-from-13-nov",
     title: "485 Subsequent Entrant Applications CLOSED from 13 Nov",
     metaTitle: "485 Subsequent Entrant Visa Closed from 13 November 2026",
@@ -15,7 +26,7 @@ const blogs = [
     subcategory:"Subclass 485",
   },
   {
-    id: 2,
+    id: 3,
     slug: "bvb-travel-periods-to-be-shorter-for-employer-sponsored-visa-applicants-from-30-nov-2026",
     title: "BVB Travel Periods to Be Shorter for Employer-Sponsored Visa Applicants from 30 Nov 2026",
     metaTitle: "BVB Travel Rules 2026: Shorter Periods for Sponsored Applicants",
@@ -24,17 +35,6 @@ const blogs = [
     image: `/assets/ng125.png`,
     category: "Bridging visa",
     subcategory:"Bridging visa",
-  },
-  {
-    id: 3,
-    slug: "tasmania-state-nomination-update-96-invitations-issued-on-5-november-2026",
-    title: "Tasmania State Nomination Update: 96 Invitations Issued on 5 November 2026",
-    metaTitle: "Tasmania Issues 96 State Nomination Invitations ",
-    metaDescription: "Tasmania issued 96 Subclass 190 and 491 invitations on 5 November 2026. Check points scores, nomination places and updated assessment rules.",
-    date: "Nov 5, 2026",
-    image: `/assets/ng124.jpg`,
-    category: "Skilled Migration Visa",
-    subcategory:["Subclass 190","Subclass 491"],
   },
 ];
 
