@@ -1,15 +1,15 @@
 export const news = [
-     {
-    id: 166,
-    slug:"how-to-become-a-standard-business-sponsor-in-australia-complete-guide",
-    title:"How to Become a Standard Business Sponsor in Australia: Complete Guide",
-    metaTitle:"How to Become a Standard Business Sponsor in Australia",
-    metaDescription:"Learn how to become a Standard Business Sponsor in Australia, including eligibility requirements, documents, application steps and sponsorship benefits.",
-    date: "Nov 13, 2026",
-    image: `/assets/ng127.jpg`,
-    category:"Employer Sponsored visas",
-    subcategory: ["Subclass 482","Subclass 494"],
-  },
+  //    {
+  //   id: 166,
+  //   slug:"how-to-become-a-standard-business-sponsor-in-australia-complete-guide",
+  //   title:"How to Become a Standard Business Sponsor in Australia: Complete Guide",
+  //   metaTitle:"How to Become a Standard Business Sponsor in Australia",
+  //   metaDescription:"Learn how to become a Standard Business Sponsor in Australia, including eligibility requirements, documents, application steps and sponsorship benefits.",
+  //   date: "Nov 13, 2026",
+  //   image: `/assets/ng127.jpg`,
+  //   category:"Employer Sponsored visas",
+  //   subcategory: ["Subclass 482","Subclass 494"],
+  // },
   {
     id: 165,
     slug: "485-subsequent-entrant-applications-closed-from-13-nov",
