@@ -6,7 +6,7 @@ export const blogs = [
     metaTitle:"Australian PR Travel Rules: What to Check Before Travelling",
     metaDescription:"Planning overseas travel as an Australian PR holder? Check your travel facility expiry, RRV requirements and options to return to Australia.",
     date: "Nov 13, 2026",
-    image: `/assets/bg136.png`,
+    image: `/assets/bg136.jpg`,
     category:"Other",
     subcategory: "Other",
   },

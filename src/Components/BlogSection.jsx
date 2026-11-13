@@ -10,7 +10,7 @@ const blogs = [
     metaTitle:"How to Become a Standard Business Sponsor in Australia",
     metaDescription:"Learn how to become a Standard Business Sponsor in Australia, including eligibility requirements, documents, application steps and sponsorship benefits.",
     date: "Nov 13, 2026",
-    image: `/assets/bg136.png`,
+    image: `/assets/ng127.jpg`,
     category:"Employer Sponsored visas",
     subcategory: ["Subclass 482","Subclass 494"],
   },
