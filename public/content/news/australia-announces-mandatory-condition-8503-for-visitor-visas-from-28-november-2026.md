@@ -78,7 +78,7 @@ Applicants should not assume that they can obtain a waiver simply because they w
 
 The new regulations will commence on: 
 
-**Effective Date: 28 November 2026** 
+Effective Date: 28 November 2026 
 
 The official legislative instrument was made on 12 November 2026 and registered on 13 November 2026. 
 
@@ -98,34 +98,6 @@ Applicants should:
 
 With the new regulations approaching, understanding the No Further Stay condition will be particularly important for future visitor visa applicants. 
 
-Contact Growmore Global to discuss your visa pathways. 
+Contact Growmore Immigration to discuss your visa pathways. 
 
 Disclaimer: This video is for general information and educational purposes only. Visa conditions and immigration rules may vary depending on individual circumstances. Always refer to official Australian Government updates and consult a Registered Migration Agent before making any immigration decisions. No visa outcome or waiver approval is guaranteed. 
-
-## FAQs 
-
-**Q1. What is Condition 8503 on an Australian Visitor Visa?** 
-
-Condition 8503, also known as the No Further Stay condition, restricts visa holders from being granted most other substantive visas while they are in Australia. It generally prevents visitors from switching to another visa while remaining in Australia. 
-
-**Q2. Which Australian Visitor Visa subclasses will be affected by the new Condition 8503 rules?**
-
-The new regulations will affect specified applications under three visitor visa subclasses: 
-
-* Subclass 600 – Visitor Visa 
-* Subclass 601 – Electronic Travel Authority (ETA) 
-* Subclass 651 – eVisitor 
-
-**Q3. When will the new mandatory Condition 8503 rules come into effect?** 
-
-The new regulations will commence on 28 November 2026. They will apply to relevant visitor visa applications lodged on or after this date. 
-
-**Q4. Will existing Australian Visitor Visa holders be affected by the new Condition 8503 rules?**
-
-No. According to the transitional provisions, the new amendments apply to visa applications made on or after 28 November 2026. Existing visa holders will continue to be subject to the conditions specified in their individual visa grant notices. 
-
-**Q5. Can Condition 8503 be waived after it has been imposed on an Australian Visitor Visa?**
-
-Yes, Condition 8503 may be waived in limited circumstances. A waiver may be considered if compelling and compassionate circumstances arise after the visa grant, are beyond the visa holder's control and result in a major change in their circumstances. However, approval is not guaranteed, and each request is assessed individually. 
-
- 
