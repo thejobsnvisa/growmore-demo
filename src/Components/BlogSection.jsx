@@ -4,6 +4,17 @@ import { Link } from "react-router-dom";
 
 const blogs = [
     {
+    id: 0,
+    slug:"australia-announces-mandatory-condition-8503-for-visitor-visas-from-28-november-2026",
+    title:"Australia Announces Mandatory Condition 8503 for Visitor Visas from 28 November 2026",
+    metaTitle:"Australia Visitor Visa Update 2026: Mandatory Condition 8503 Rules",
+    metaDescription:"Australia introduces new Condition 8503 rules from 28 November 2026 for specified Subclass 600, 601 and 651 visitor visa applications.",
+    date: "Nov 14, 2026",
+    image: `/assets/ng128.jpg`,
+    category:"Australia Immigration News",
+    subcategory:"Other",
+  },
+  {
     id: 1,
     slug: "485-subsequent-entrant-applications-closed-from-13-nov",
     title: "485 Subsequent Entrant Applications CLOSED from 13 Nov",
@@ -24,17 +35,6 @@ const blogs = [
     image: `/assets/ng125.png`,
     category: "Bridging visa",
     subcategory:"Bridging visa",
-  },
-  {
-    id: 3,
-    slug: "tasmania-state-nomination-update-96-invitations-issued-on-5-november-2026",
-    title: "Tasmania State Nomination Update: 96 Invitations Issued on 5 November 2026",
-    metaTitle: "Tasmania Issues 96 State Nomination Invitations ",
-    metaDescription: "Tasmania issued 96 Subclass 190 and 491 invitations on 5 November 2026. Check points scores, nomination places and updated assessment rules.",
-    date: "Nov 5, 2026",
-    image: `/assets/ng124.jpg`,
-    category: "Skilled Migration Visa",
-    subcategory:["Subclass 190","Subclass 491"],
   },
 ];
 

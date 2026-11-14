@@ -10,6 +10,17 @@ export const news = [
   //   category:"Employer Sponsored visas",
   //   subcategory: ["Subclass 482","Subclass 494"],
   // },
+      {
+    id: 166,
+    slug:"australia-announces-mandatory-condition-8503-for-visitor-visas-from-28-november-2026",
+    title:"Australia Announces Mandatory Condition 8503 for Visitor Visas from 28 November 2026",
+    metaTitle:"Australia Visitor Visa Update 2026: Mandatory Condition 8503 Rules",
+    metaDescription:"Australia introduces new Condition 8503 rules from 28 November 2026 for specified Subclass 600, 601 and 651 visitor visa applications.",
+    date: "Nov 14, 2026",
+    image: `/assets/ng128.jpg`,
+    category:"Australia Immigration News",
+    subcategory:"Other",
+  },
   {
     id: 165,
     slug: "485-subsequent-entrant-applications-closed-from-13-nov",
