@@ -3,8 +3,19 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-    {
-    id: 0,
+     {
+    id: 1,
+    slug:"how-to-become-a-standard-business-sponsor-in-australia-complete-guide",
+    title:"How to Become a Standard Business Sponsor in Australia: Complete Guide",
+    metaTitle:"How to Become a Standard Business Sponsor in Australia",
+    metaDescription:"Learn how to become a Standard Business Sponsor in Australia, including eligibility requirements, documents, application steps and sponsorship benefits.",
+    date: "Nov 16, 2026",
+    image: `/assets/ng127.jpg`,
+    category:"Employer Sponsored visas",
+    subcategory: ["Subclass 482","Subclass 494"],
+  },
+      {
+    id: 2,
     slug:"australia-announces-mandatory-condition-8503-for-visitor-visas-from-28-november-2026",
     title:"Australia Announces Mandatory Condition 8503 for Visitor Visas from 28 November 2026",
     metaTitle:"Australia Visitor Visa Update 2026: Mandatory Condition 8503 Rules",
@@ -15,7 +26,7 @@ const blogs = [
     subcategory:"Other",
   },
   {
-    id: 1,
+    id: 3,
     slug: "485-subsequent-entrant-applications-closed-from-13-nov",
     title: "485 Subsequent Entrant Applications CLOSED from 13 Nov",
     metaTitle: "485 Subsequent Entrant Visa Closed from 13 November 2026",
@@ -24,17 +35,6 @@ const blogs = [
     image: `/assets/ng126.jpg`,
     category: "Other",
     subcategory:"Subclass 485",
-  },
-  {
-    id: 2,
-    slug: "bvb-travel-periods-to-be-shorter-for-employer-sponsored-visa-applicants-from-30-nov-2026",
-    title: "BVB Travel Periods to Be Shorter for Employer-Sponsored Visa Applicants from 30 Nov 2026",
-    metaTitle: "BVB Travel Rules 2026: Shorter Periods for Sponsored Applicants",
-    metaDescription: "BVB travel periods will be shorter from 30 November 2026 for Subclass 482, 186 and 494 applicants. Learn about the updated travel requirements.",
-    date: "Nov 11, 2026",
-    image: `/assets/ng125.png`,
-    category: "Bridging visa",
-    subcategory:"Bridging visa",
   },
 ];
 
