@@ -3,8 +3,19 @@ import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const blogs = [
-     {
+  {
     id: 1,
+    slug:"new-rules-for-working-holiday-maker-visas-set-to-take-effect",
+    title:"New Rules for Working Holiday Maker Visas Set to Take Effect",
+    metaTitle:"Working Holiday Visa Changes 2027: New Rules Explained",
+    metaDescription:"Australia introduces new Working Holiday visa rules from March 2027, including registration, invitations and increased specified work requirements.",
+    date: "Nov 17, 2026",
+    image: `/assets/ng129.jpg`,
+    category:"Working holiday visas",
+    subcategory: ["Subclass 417","Subclass 462"],
+  },
+     {
+    id: 2,
     slug:"how-to-become-a-standard-business-sponsor-in-australia-complete-guide",
     title:"How to Become a Standard Business Sponsor in Australia: Complete Guide",
     metaTitle:"How to Become a Standard Business Sponsor in Australia",
@@ -15,7 +26,7 @@ const blogs = [
     subcategory: ["Subclass 482","Subclass 494"],
   },
       {
-    id: 2,
+    id: 3,
     slug:"australia-announces-mandatory-condition-8503-for-visitor-visas-from-28-november-2026",
     title:"Australia Announces Mandatory Condition 8503 for Visitor Visas from 28 November 2026",
     metaTitle:"Australia Visitor Visa Update 2026: Mandatory Condition 8503 Rules",
@@ -24,17 +35,6 @@ const blogs = [
     image: `/assets/ng128.jpg`,
     category:"Australia Immigration News",
     subcategory:"Other",
-  },
-  {
-    id: 3,
-    slug: "485-subsequent-entrant-applications-closed-from-13-nov",
-    title: "485 Subsequent Entrant Applications CLOSED from 13 Nov",
-    metaTitle: "485 Subsequent Entrant Visa Closed from 13 November 2026",
-    metaDescription: "Australia closes separate 485 subsequent entrant applications from 13 November 2026. Learn about the six exceptions and new family visa rules.",
-    date: "Nov 12, 2026",
-    image: `/assets/ng126.jpg`,
-    category: "Other",
-    subcategory:"Subclass 485",
   },
 ];
 

@@ -1,4 +1,15 @@
 export const news = [
+  {
+    id: 168,
+    slug:"new-rules-for-working-holiday-maker-visas-set-to-take-effect",
+    title:"New Rules for Working Holiday Maker Visas Set to Take Effect",
+    metaTitle:"Working Holiday Visa Changes 2027: New Rules Explained",
+    metaDescription:"Australia introduces new Working Holiday visa rules from March 2027, including registration, invitations and increased specified work requirements.",
+    date: "Nov 17, 2026",
+    image: `/assets/ng129.jpg`,
+    category:"Working holiday visas",
+    subcategory: ["Subclass 417","Subclass 462"],
+  },
      {
     id: 167,
     slug:"how-to-become-a-standard-business-sponsor-in-australia-complete-guide",
