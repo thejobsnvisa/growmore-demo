@@ -7,7 +7,7 @@ export const news = [
     metaDescription:"Australia introduces new Working Holiday visa rules from March 2027, including registration, invitations and increased specified work requirements.",
     date: "Nov 17, 2026",
     image: `/assets/ng129.jpg`,
-    category:"Working holiday visas",
+    category:"Working Holiday Visas",
     subcategory: ["Subclass 417","Subclass 462"],
   },
      {
@@ -62,7 +62,7 @@ export const news = [
     metaDescription: "Tasmania issued 96 Subclass 190 and 491 invitations on 5 November 2026. Check points scores, nomination places and updated assessment rules.",
     date: "Nov 5, 2026",
     image: `/assets/ng124.jpg`,
-    category: "Skilled Migration Visa",
+    category: "Skilled Migration Visas",
     subcategory:["Subclass 190","Subclass 491"],
   },
   {
@@ -73,7 +73,7 @@ export const news = [
     metaDescription: "Australia issued 20,000 Subclass 189 invitations on 15 October 2026. Check occupation-wise minimum points scores and tie-break dates.",
     date: "Nov 2, 2026",
     image: `/assets/ng123.png`,
-    category: "Skilled Migration Visa",
+    category: "Skilled Migration Visas",
     subcategory: "Subclass 189",
   },
    {
@@ -106,7 +106,7 @@ export const news = [
     metaDescription: "South Australia reverses its Section 45A enforcement approach, bringing greater certainty for students and RTOs offering institution-based trade courses.",
     date: "Oct 30, 2026",
     image: `/assets/nb121.jpg`,
-    category: "Studying and Training Visas",
+    category: "Studying and training visas",
     subcategory: "Subclass 500",
   },
   {
@@ -117,7 +117,7 @@ export const news = [
     metaDescription: "From 12 November 2026, most Subclass 407 visa applicants must apply from outside Australia and be offshore when their visa is granted.",
     date: "Oct 30, 2026",
     image: `/assets/nb120.jpg`,
-    category: "Studying and Training Visas",
+    category: "Studying and training visas",
     subcategory: "Subclass 407",
   },
   {
@@ -313,7 +313,7 @@ export const news = [
     metaDescription: "Australia has changed concurrent enrolment rules for international students. Learn how the new 12-month restriction affects new and existing enrolments.",
     date: "Oct 7, 2026",
     image: `/assets/nb103.png`,
-    category: "Studying and Training Visas",
+    category: "Studying and training visas",
     subcategory: "Subclass 500",
   },
   {

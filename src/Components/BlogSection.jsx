@@ -11,7 +11,7 @@ const blogs = [
     metaDescription:"Australia introduces new Working Holiday visa rules from March 2027, including registration, invitations and increased specified work requirements.",
     date: "Nov 17, 2026",
     image: `/assets/ng129.jpg`,
-    category:"Working holiday visas",
+    category:"Working Holiday visas",
     subcategory: ["Subclass 417","Subclass 462"],
   },
      {
