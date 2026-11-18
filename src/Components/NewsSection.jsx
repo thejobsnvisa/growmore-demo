@@ -1,11 +1,13 @@
 import { useMemo, useState } from "react";
-import { FaCalendar } from "react-icons/fa";
 import { CiSearch } from "react-icons/ci";
 import { VscRefresh } from "react-icons/vsc";
 import { Link } from "react-router-dom";
-import { news } from "../data/newsData";
+import { useNewsData } from "../hooks/useNewsData";
+import { LuArrowLeft, LuArrowRight } from "react-icons/lu";
 
 const NewsSection = () => {
+  const { news: newsData = [], loading, error } = useNewsData();
+  const news = Array.isArray(newsData) ? newsData : [];
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
   const [selectedSubcategory, setSelectedSubcategory] = useState("");
@@ -89,12 +91,20 @@ const NewsSection = () => {
     });
   }, [searchTerm, selectedCategory, selectedSubcategory, news]);
 
-  const blogsPerPage = 10;
+  const blogsPerPage = 9;
   const totalPages = Math.max(1, Math.ceil(filteredBlogs.length / blogsPerPage));
   const safeCurrentPage = Math.min(currentPage, totalPages);
   const indexOfLastBlog = safeCurrentPage * blogsPerPage;
   const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
   const currentBlogs = filteredBlogs.slice(indexOfFirstBlog, indexOfLastBlog);
+
+  const goToPreviousPage = () => {
+    setCurrentPage((page) => (page > 1 ? page - 1 : page));
+  };
+
+  const goToNextPage = () => {
+    setCurrentPage((page) => (page < totalPages ? page + 1 : page));
+  };
 
   const handleCategoryChange = (value) => {
     setSelectedCategory(value);
@@ -119,8 +129,27 @@ const NewsSection = () => {
     setCurrentPage(1);
   };
 
+  if (loading) {
+    return (
+      <section className="bg-white py-20 mb-40">
+        <div className="max-w-[1400px] mx-auto px-6 md:px-12 grid grid-cols-1 justify-items-center gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {[...Array(6)].map((_, idx) => (
+            <div
+              key={idx}
+              className="xl:h-[242px] h-[200px] w-full max-w-[450px] rounded-2xl bg-slate-100 animate-pulse"
+            />
+          ))}
+        </div>
+      </section>
+    );
+  }
+
+  if (error) {
+    return <div className="py-20 text-center text-red-500 font-medium">{error}</div>;
+  }
+
   return (
-    <section className="bg-white py-20">
+    <section className="bg-white py-20 mb-40 lg:mb-[155px] md:mb-40 xl:mb-50">
       <div className="max-w-[1400px] mx-auto px-6 md:px-12">
         <div className="mb-8 flex w-full flex-col items-center gap-3">
                   <div className="flex w-full max-w-[900px] flex-col gap-3">
@@ -251,80 +280,66 @@ const NewsSection = () => {
                 </div>
         
         {/* BLOG GRID */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 justify-items-center gap-8 md:grid-cols-2 lg:grid-cols-3">
           {currentBlogs.map((blog) => (
             <div
-              key={blog.id}
-              className="group bg-white rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 overflow-hidden flex flex-col"
+              key={blog.id || blog.slug}
+              className="group relative xl:h-[242px] h-[200px] w-full max-w-[450px] overflow-hidden rounded-2xl shadow-md transition-all duration-300 hover:shadow-xl"
             >
-              {/* Image */}
-              <div className="overflow-hidden rounded-t-3xl">
-                <img
-                  src={blog.image}
-                  alt={blog.title}
-                  className="w-full aspect-[18/10]  object-cover p-4 sm:p-4 rounded-3xl"
-                />
-              </div>
-
-              {/* Content */}
-              <div className="p-6 flex flex-col flex-grow">
-                <h3 className="text-xl font-semibold text-[#163c3d] mb-6">
+              <img
+                src={blog.image}
+                alt={blog.title}
+                className="absolute inset-0 aspect-[24/10] w-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+              <div className="absolute inset-x-0 mt-[-15px] bottom-0 flex items-end justify-between gap-3 h-[74px] bg-[#FFFFFF33] px-4 pb-3 pt-12 backdrop-blur-[12px]">
+                <h3 className="max-w-[280px] text-sm font-semibold leading-5 text-slate-800">
                   {blog.title}
                 </h3>
-
-                <p className="text-gray-500 text-sm mb-6 flex items-center gap-2">
-                  <FaCalendar className="h-4 w-4 text-[#7cc576]" />
-                  {blog.date}
-                </p>
-
-                <div className="mt-auto">
-                  <Link to={`/news/${blog.slug}/`}>
-                    <button className="group text-[#6dc7d1] font-semibold flex items-center gap-2 justify-end w-full transition-all duration-300">
-                      <span className="relative">
-                        READ MORE
-                        <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#6dc7d1] transition-all duration-300 group-hover:w-full"></span>
-                      </span>
-                      <span className="transition-transform duration-300 group-hover:translate-x-1">
-                        →
-                      </span>
-                    </button>
-                  </Link>
-                </div>
+                <Link
+                  to={`/news/${blog.slug}/`}
+                  aria-label={`Read ${blog.title}`}
+                  className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-slate-100 text-slate-500 font-bold transition-transform duration-300 group-hover:translate-x-1"
+                >
+                  <LuArrowRight className="h-6 w-6" />
+                </Link>
               </div>
             </div>
           ))}
         </div>
 
-     {/* ✅ PAGINATION */}
-<div className="flex justify-center items-center  mt-12">
+        <div className="mt-12 flex items-center justify-center gap-3">
+          <button
+            type="button"
+            onClick={goToPreviousPage}
+            disabled={safeCurrentPage === 1}
+            aria-label="Previous page"
+            className={`flex h-9 w-9 items-center justify-center rounded-full bg-sky-100 font-bold ${
+              safeCurrentPage === 1
+                ? "text-blue-400 cursor-not-allowed"
+                : "text-cyan-700 hover:text-green-500 cursor-pointer"
+            }`}
+          >
+            <LuArrowLeft className="h-6 w-6" />
+          </button>
 
-  {/* PREV */}
-  <button
-    onClick={() => setCurrentPage((prev) => prev - 1)}
-    disabled={currentPage === 1}
-    className={`px-5 py-2 rounded-lg transition ${
-      currentPage === 1
-        ? "text-blue-400 cursor-pointer hover:text-green-500"
-        : "text-black hover:text-green-500 cursor-pointer"
-    }`}
-  >
-    Prev
-  </button>
+          <span className="rounded-full bg-slate-100 px-3 py-1 text-slate-400 text-[18px]">
+            {safeCurrentPage} / {totalPages}
+          </span>
 
-  {/* NEXT */}
-  <button
-    onClick={() => setCurrentPage((prev) => prev + 1)}
-    disabled={currentPage === totalPages}
-    className={`px-5 py-2 rounded-lg transition ${
-      currentPage === totalPages
-        ? "text-blue-400 cursor-pointer hover:text-green-500"
-        : "text-black hover:text-green-500 cursor-pointer"
-    }`}
-  >
-    Next
-  </button>
-
-</div>
+          <button
+            type="button"
+            onClick={goToNextPage}
+            disabled={safeCurrentPage === totalPages}
+            aria-label="Next page"
+            className={`flex h-9 w-9 items-center justify-center rounded-full bg-sky-100 font-bold ${
+              safeCurrentPage === totalPages
+                ? "text-blue-400 cursor-not-allowed"
+                : "text-cyan-700 hover:text-green-500 cursor-pointer"
+            }`}
+          >
+            <LuArrowRight className="h-6 w-6" />
+          </button>
+        </div>
 
       </div>
     </section>
