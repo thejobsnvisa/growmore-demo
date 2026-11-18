@@ -1,116 +1,167 @@
+
 const fs = require("fs");
 const path = require("path");
 
 (async () => {
-  // Import blog and news data
-  const { blogs } = await import("../src/data/blogsData.js");
-  const { news } = await import("../src/data/newsData.js");
+  try {
+    const { blogs } = await import("../src/data/blogsData.js");
+    const { news } = await import("../src/data/newsData.js");
 
-  const distDir = path.join(process.cwd(), "dist");
+    const distDir = path.join(process.cwd(), "dist");
 
-  // Read the base Vite HTML
-  const template = fs.readFileSync(
-    path.join(distDir, "index.html"),
-    "utf8"
-  );
+    const templatePath = path.join(distDir, "index.html");
 
-  function createPage({
-  route,
-  title,
-  description,
-  image,
-}) {
-  // Remove duplicate trailing slashes
-  const cleanRoute = route.replace(/\/+$/, "");
-
-  const pageDir = path.join(
-    distDir,
-    cleanRoute.replace(/^\/+/, "")
-  );
-
-  fs.mkdirSync(pageDir, {
-    recursive: true,
-  });
-
-
-    const imageUrl = image.startsWith("http")
-      ? image
-      : `https://www.growmore.one${image}`;
-
-    let html = template;
-
-    // ---------- TITLE ----------
-    html = html.replace(
-      /<title>.*?<\/title>/i,
-      `<title>${title}</title>`
-    );
-
-    // If there isn't a title tag
-    if (!html.includes("<title>")) {
-      html = html.replace(
-        "</head>",
-        `<title>${title}</title></head>`
-      );
+    if (!fs.existsSync(templatePath)) {
+      throw new Error("dist/index.html not found. Run vite build first.");
     }
 
-    const meta = `
-<meta name="description" content="${description}" />
+    const template = fs.readFileSync(templatePath, "utf8");
 
-<link rel="canonical" href="https://www.growmore.one${route}/" />
+    const SITE_URL = "https://www.growmore.one";
 
-<meta property="og:type" content="article" />
-<meta property="og:title" content="${title}" />
-<meta property="og:description" content="${description}" />
-<meta property="og:image" content="${imageUrl}" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
-<meta property="og:url" content="https://www.growmore.one${route}/" />
+    function escapeHtml(value = "") {
+      return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/"/g, "&quot;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+    }
 
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="${title}" />
-<meta name="twitter:description" content="${description}" />
-<meta name="twitter:image" content="${imageUrl}" />
-`;
+    function normalizeRoute(route) {
+      const clean = `/${String(route || "")
+        .replace(/^\/+|\/+$/g, "")}`;
 
-    html = html.replace(
-      "</head>",
-      `${meta}\n</head>`
-    );
+      return clean === "/" ? "/" : `${clean}/`;
+    }
 
-    fs.writeFileSync(
-      path.join(pageDir, "index.html"),
-      html
-    );
+    function setMeta(html, attribute, key, content) {
+      const escapedContent = escapeHtml(content);
+      const regex = new RegExp(
+        `<meta\\s+[^>]*${attribute}=["']${key}["'][^>]*>`,
+        "i"
+      );
 
-    console.log("Generated:", route);
+      const tag = `<meta ${attribute}="${key}" content="${escapedContent}" />`;
+
+      if (regex.test(html)) {
+        return html.replace(regex, tag);
+      }
+
+      return html.replace("</head>", `  ${tag}\n</head>`);
+    }
+
+    function createPage({ route, title, description, image }) {
+      const normalizedRoute = normalizeRoute(route);
+      const canonicalUrl = `${SITE_URL}${normalizedRoute}`;
+
+      const imageUrl = image
+        ? /^https?:\/\//i.test(image)
+          ? image
+          : `${SITE_URL}/${String(image).replace(/^\/+/, "")}`
+        : "";
+
+      const relativePath = normalizedRoute.replace(/^\/+|\/+$/g, "");
+
+      const pageDir = path.join(distDir, relativePath);
+
+      fs.mkdirSync(pageDir, { recursive: true });
+
+      let html = template;
+
+      const safeTitle = escapeHtml(title || "Growmore Immigration");
+      const safeDescription = escapeHtml(
+        description || title || "Growmore Immigration"
+      );
+
+      // Page title
+      html = html.replace(
+        /<title>[\s\S]*?<\/title>/i,
+        `<title>${safeTitle}</title>`
+      );
+
+      if (!/<title>/i.test(html)) {
+        html = html.replace(
+          "</head>",
+          `<title>${safeTitle}</title>\n</head>`
+        );
+      }
+
+      // Description
+      html = setMeta(html, "name", "description", safeDescription);
+
+      // Open Graph
+      html = setMeta(html, "property", "og:type", "article");
+      html = setMeta(html, "property", "og:title", safeTitle);
+      html = setMeta(html, "property", "og:description", safeDescription);
+      html = setMeta(html, "property", "og:url", canonicalUrl);
+
+      if (imageUrl) {
+        html = setMeta(html, "property", "og:image", imageUrl);
+      }
+
+      // Twitter
+      html = setMeta(
+        html,
+        "name",
+        "twitter:card",
+        "summary_large_image"
+      );
+      html = setMeta(html, "name", "twitter:title", safeTitle);
+      html = setMeta(html, "name", "twitter:description", safeDescription);
+
+      if (imageUrl) {
+        html = setMeta(html, "name", "twitter:image", imageUrl);
+      }
+
+      // Canonical URL
+      const canonicalTag =
+        `<link rel="canonical" href="${escapeHtml(canonicalUrl)}" />`;
+
+      if (/<link\s+[^>]*rel=["']canonical["'][^>]*>/i.test(html)) {
+        html = html.replace(
+          /<link\s+[^>]*rel=["']canonical["'][^>]*>/i,
+          canonicalTag
+        );
+      } else {
+        html = html.replace("</head>", `  ${canonicalTag}\n</head>`);
+      }
+
+      fs.writeFileSync(
+        path.join(pageDir, "index.html"),
+        html,
+        "utf8"
+      );
+
+      console.log("Generated:", normalizedRoute);
+    }
+
+    // Generate individual blog pages
+    (blogs || []).forEach((blog) => {
+      if (!blog.slug) return;
+
+      createPage({
+        route: `/blogs/${blog.slug}`,
+        title: blog.metaTitle || blog.title,
+        description: blog.metaDescription || blog.title,
+        image: blog.image,
+      });
+    });
+
+    // Generate individual news pages
+    (news || []).forEach((item) => {
+      if (!item.slug) return;
+
+      createPage({
+        route: `/news/${item.slug}`,
+        title: item.metaTitle || item.title,
+        description: item.metaDescription || item.title,
+        image: item.image,
+      });
+    });
+
+    console.log("Static blog and news metadata pages generated successfully.");
+  } catch (error) {
+    console.error("Static page generation failed:", error);
+    process.exit(1);
   }
-
-  // Individual blogs
-  blogs.forEach((blog) => {
-    createPage({
-      route: `/blogs/${blog.slug}`,
-      title: blog.metaTitle || blog.title,
-      description:
-        blog.metaDescription ||
-        blog.title,
-      image: blog.image,
-    });
-  });
-
-  // Individual news
-  news.forEach((item) => {
-    createPage({
-      route: `/news/${item.slug}`,
-      title:
-        item.metaTitle || item.title,
-      description:
-        item.metaDescription ||
-        item.title,
-      image: item.image,
-    });
-  });
-
-  console.log(
-    "✅ Static pages generated successfully."
-  );
 })();
