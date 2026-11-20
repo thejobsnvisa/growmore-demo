@@ -1,4 +1,3 @@
- `
 ## Salary Thresholds Rise for Employer-Sponsored Visas from 1 July 2026
 
 If you are an employer sponsoring skilled workers or a professional planning to apply for an Australian visa, the upcoming salary threshold changes will affect you directly.
