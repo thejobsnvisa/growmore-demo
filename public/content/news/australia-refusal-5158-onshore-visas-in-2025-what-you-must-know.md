@@ -1,4 +1,3 @@
-
 ## Australia Refusal 5,158 Onshore Visas in 2025: What You Must Know
 
 Australia’s Department of Home Affairs has officially released visa cancellation figures for the entire year of 2025, and the numbers are significant. A total of **5,158 visas were cancelled for people already living inside Australia** between 1 January and 31 December 2025.

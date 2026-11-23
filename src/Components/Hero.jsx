@@ -82,7 +82,7 @@ const Hero = () => {
         source: "Website Hero Form",
       };
 
-      const BASE_URL = "https://growmore-1.vercel.app";
+      const BASE_URL = "https://growmore-one-eta.vercel.app";
 
       const response = await fetch(`${BASE_URL}/api/lead`, {
         method: "POST",

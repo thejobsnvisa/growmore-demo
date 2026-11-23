@@ -1804,7 +1804,7 @@ export const news = [
       "Australia Opens Subclass 192 Tuvalu Ballot on 1 May With 280 Places",
     metaTitle: "Australia Opens Subclass 192 Tuvalu Ballot From 1 May 2026",
     metaDescription:
-      "AAustralia opens Subclass 192 Tuvalu ballot from 1 May to 1 June 2026 with 280 PR places. Learn eligibility, process, and how to apply.",
+      "Australia opens Subclass 192 Tuvalu ballot from 1 May to 1 June 2026 with 280 PR places. Learn eligibility, process, and how to apply.",
     date: "April 17, 2026",
     image: `/assets/26.jpg`,
     category: "Other",
