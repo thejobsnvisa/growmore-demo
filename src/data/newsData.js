@@ -920,7 +920,7 @@ export const news = [
   },
   {
     id: 94,
-    slug: " ",
+    slug: "act-announces-new-migration-portal-for-2026-27-migration-program",
     title: "ACT Announces New Migration Portal for 2026–27 Migration Program",
     metaTitle: "ACT Migration Portal Launch for 2026–27 Program",
     metaDescription:

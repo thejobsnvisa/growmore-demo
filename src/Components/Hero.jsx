@@ -242,7 +242,7 @@ const Hero = () => {
 
                 <div className="flex justify-center sm:justify-start">
                   <RecaptchaComponent
-                    sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY}
+                    sitekey="6LeK8-8sAAAAAIUPJMbq0lcRSGrV3YJCbRNrNO3b"
                     ref={recaptchaRef}
                   />
                 </div>

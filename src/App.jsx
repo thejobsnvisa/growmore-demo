@@ -1,11 +1,11 @@
-import React, { Suspense, lazy, useEffect, useRef } from "react";
+import { Suspense, lazy } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import ScrollToTop from "./Components/ScrollToTop";
-import PageTracker, { trackWidgetEvent } from "./PageTracker";
+import PageTracker from "./PageTracker";
 
 /* ---------- Lazy Load Pages ---------- */
 const Home = lazy(() => import("./Pages/Home"));
@@ -73,78 +73,78 @@ function Loader() {
 
 /* ---------- App ---------- */
 function App() {
-  // 1. Define a React Ref to target the custom ElevenLabs element safely
-  const widgetRef = useRef(null);
+  // // 1. Define a React Ref to target the custom ElevenLabs element safely
+  // const widgetRef = useRef(null);
 
-  useEffect(() => {
-    const scriptSrc = "https://unpkg.com/@elevenlabs/convai-widget-embed";
-    let script = document.querySelector(`script[src="${scriptSrc}"]`);
+  // useEffect(() => {
+  //   const scriptSrc = "https://unpkg.com/@elevenlabs/convai-widget-embed";
+  //   let script = document.querySelector(`script[src="${scriptSrc}"]`);
 
-    const bindShadowClick = () => {
-      const widget = document.querySelector("elevenlabs-convai");
-      if (!widget || widget.__shadowClickBound) return;
+  //   const bindShadowClick = () => {
+  //     const widget = document.querySelector("elevenlabs-convai");
+  //     if (!widget || widget.__shadowClickBound) return;
 
-      console.log("🎯 ElevenLabs Element located. Intercepting Shadow UI...");
+  //     console.log("🎯 ElevenLabs Element located. Intercepting Shadow UI...");
 
-      // Set a small polling interval to wait until the component renders its internal Shadow DOM
-      const shadowInterval = setInterval(() => {
-        if (widget.shadowRoot) {
-          // ElevenLabs renders their main active interactive container internally
-          const _START_CALL_BTN = widget.shadowRoot.querySelector('.elevenlabs-convai-start-button') || 
-                               widget.shadowRoot.querySelector('button') ||
-                               widget.shadowRoot.activeElement;
+  //     // Set a small polling interval to wait until the component renders its internal Shadow DOM
+  //     const shadowInterval = setInterval(() => {
+  //       if (widget.shadowRoot) {
+  //         // ElevenLabs renders their main active interactive container internally
+  //         const _START_CALL_BTN = widget.shadowRoot.querySelector('.elevenlabs-convai-start-button') || 
+  //                              widget.shadowRoot.querySelector('button') ||
+  //                              widget.shadowRoot.activeElement;
 
-          // If the internal shadow DOM elements are ready, attach click binding directly
-          if (widget.shadowRoot.innerHTML.includes('Start a call') || widget.shadowRoot.innerHTML.includes('svg')) {
-            clearInterval(shadowInterval);
+  //         // If the internal shadow DOM elements are ready, attach click binding directly
+  //         if (widget.shadowRoot.innerHTML.includes('Start a call') || widget.shadowRoot.innerHTML.includes('svg')) {
+  //           clearInterval(shadowInterval);
             
-            // Listen to all click interactions originating from within the closed Shadow DOM box
-            widget.shadowRoot.addEventListener('click', () => {
-              console.log("💥 Deep Shadow DOM Click Action Intercepted!");
+  //           // Listen to all click interactions originating from within the closed Shadow DOM box
+  //           widget.shadowRoot.addEventListener('click', () => {
+  //             console.log("💥 Deep Shadow DOM Click Action Intercepted!");
               
-              // Direct state check fallback to match click behavior
-              const isCurrentlyActive = widget.status === "active" || widget.getAttribute("status") === "active";
+  //             // Direct state check fallback to match click behavior
+  //             const isCurrentlyActive = widget.status === "active" || widget.getAttribute("status") === "active";
               
-              if (!isCurrentlyActive) {
-                trackWidgetEvent("Voice Agent: Conversation Started");
-              } else {
-                trackWidgetEvent("Voice Agent: Conversation Ended");
-              }
-            });
+  //             if (!isCurrentlyActive) {
+  //               trackWidgetEvent("Voice Agent: Conversation Started");
+  //             } else {
+  //               trackWidgetEvent("Voice Agent: Conversation Ended");
+  //             }
+  //           });
 
-            widget.__shadowClickBound = true;
-            console.log("🚀 Secure Shadow DOM event pipeline linked successfully.");
-          }
-        }
-      }, 500);
-    };
+  //           widget.__shadowClickBound = true;
+  //           console.log("🚀 Secure Shadow DOM event pipeline linked successfully.");
+  //         }
+  //       }
+  //     }, 500);
+  //   };
 
-    // Use a MutationObserver to target the runtime injection lifecycle
-    const observer = new MutationObserver(() => {
-      const widget = document.querySelector("elevenlabs-convai");
-      if (widget) {
-        bindShadowClick();
-        observer.disconnect();
-      }
-    });
+  //   // Use a MutationObserver to target the runtime injection lifecycle
+  //   const observer = new MutationObserver(() => {
+  //     const widget = document.querySelector("elevenlabs-convai");
+  //     if (widget) {
+  //       bindShadowClick();
+  //       observer.disconnect();
+  //     }
+  //   });
 
-    observer.observe(document.body, { childList: true, subtree: true });
+  //   observer.observe(document.body, { childList: true, subtree: true });
 
-    if (!script) {
-      script = document.createElement("script");
-      script.src = scriptSrc;
-      script.async = true;
-      script.type = "text/javascript";
-      document.body.appendChild(script);
-    } else {
-      const existingWidget = document.querySelector("elevenlabs-convai");
-      if (existingWidget) bindShadowClick();
-    }
+  //   if (!script) {
+  //     script = document.createElement("script");
+  //     script.src = scriptSrc;
+  //     script.async = true;
+  //     script.type = "text/javascript";
+  //     document.body.appendChild(script);
+  //   } else {
+  //     const existingWidget = document.querySelector("elevenlabs-convai");
+  //     if (existingWidget) bindShadowClick();
+  //   }
 
-    return () => {
-      observer.disconnect();
-    };
-  }, []);
+  //   return () => {
+  //     observer.disconnect();
+  //   };
+  // }, []);
 
   return (
     <Router>
@@ -243,9 +243,7 @@ function App() {
         </Routes>
       </Suspense>
 
-      {/* 4. Link the ref to the Web Component */}
-      <elevenlabs-convai 
-        ref={widgetRef} 
+      <elevenlabs-convai
         agent-id="agent_5201ksmd3c0zfkg82bgbk6p727yn" 
       />
       <Footer />
