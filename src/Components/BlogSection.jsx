@@ -1,44 +1,108 @@
-import React from "react";
+import { useEffect, useState } from "react";
+import Papa from "papaparse";
 import { FaCalendar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const blogs = [
-  {
-    id: 1,
-    slug:"new-rules-for-working-holiday-maker-visas-set-to-take-effect",
-    title:"New Rules for Working Holiday Maker Visas Set to Take Effect",
-    metaTitle:"Working Holiday Visa Changes 2027: New Rules Explained",
-    metaDescription:"Australia introduces new Working Holiday visa rules from March 2027, including registration, invitations and increased specified work requirements.",
-    date: "Nov 17, 2026",
-    image: `/assets/ng129.jpg`,
-    category:"Working Holiday visas",
-    subcategory: ["Subclass 417","Subclass 462"],
-  },
-     {
-    id: 2,
-    slug:"how-to-become-a-standard-business-sponsor-in-australia-complete-guide",
-    title:"How to Become a Standard Business Sponsor in Australia: Complete Guide",
-    metaTitle:"How to Become a Standard Business Sponsor in Australia",
-    metaDescription:"Learn how to become a Standard Business Sponsor in Australia, including eligibility requirements, documents, application steps and sponsorship benefits.",
-    date: "Nov 16, 2026",
-    image: `/assets/ng127.jpg`,
-    category:"Employer Sponsored visas",
-    subcategory: ["Subclass 482","Subclass 494"],
-  },
-      {
-    id: 3,
-    slug:"australia-announces-mandatory-condition-8503-for-visitor-visas-from-28-november-2026",
-    title:"Australia Announces Mandatory Condition 8503 for Visitor Visas from 28 November 2026",
-    metaTitle:"Australia Visitor Visa Update 2026: Mandatory Condition 8503 Rules",
-    metaDescription:"Australia introduces new Condition 8503 rules from 28 November 2026 for specified Subclass 600, 601 and 651 visitor visa applications.",
-    date: "Nov 14, 2026",
-    image: `/assets/ng128.jpg`,
-    category:"Australia Immigration News",
-    subcategory:"Other",
-  },
-];
+const SHEET_URL = import.meta.env.VITE_NEWS_SHEET_URL;
+const CACHE_KEY = "live_news_cache_v3";
+
+const normalizeSubcategories = (value) => {
+  if (!value) return [];
+
+  return [
+    ...new Set(
+      String(value)
+        .split(/[,;\n]/)
+        .map((item) => item.trim())
+        .filter(Boolean)
+    ),
+  ];
+};
+
+const getCachedNews = () => {
+  try {
+    const cached = sessionStorage.getItem(CACHE_KEY);
+    return cached ? JSON.parse(cached) : [];
+  } catch {
+    return [];
+  }
+};
 
 const BlogSection = () => {
+  const [blogs, setBlogs] = useState(getCachedNews);
+  const [loading, setLoading] = useState(
+    () => Boolean(SHEET_URL) && getCachedNews().length === 0
+  );
+  const [error, setError] = useState(() =>
+    SHEET_URL ? null : "Missing VITE_NEWS_SHEET_URL in .env file"
+  );
+
+  useEffect(() => {
+    if (!SHEET_URL) return;
+
+    Papa.parse(SHEET_URL, {
+      download: true,
+      header: true,
+      skipEmptyLines: true,
+      complete: (results) => {
+        const getField = (row, key) => {
+          const foundKey = Object.keys(row).find(
+            (column) => column.trim().toLowerCase() === key.toLowerCase()
+          );
+          return foundKey ? row[foundKey] : "";
+        };
+
+        const latestBlogs = results.data
+          .filter((row) => {
+            const slug = getField(row, "slug");
+            const title = getField(row, "title");
+            const status = getField(row, "status") || "published";
+
+            return (
+              slug.trim() &&
+              title.trim() &&
+              status.trim().toLowerCase() === "published"
+            );
+          })
+          .map((row) => {
+            const title = getField(row, "title").trim();
+            const rawSubcategory =
+              getField(row, "sub category") ||
+              getField(row, "subcategory") ||
+              getField(row, "subCategory");
+
+            return {
+              id: Number(getField(row, "id")) || 0,
+              slug: getField(row, "slug").trim(),
+              title,
+              category: getField(row, "category").trim(),
+              subCategory: normalizeSubcategories(rawSubcategory),
+              metaTitle: (getField(row, "metaTitle") || title).trim(),
+              metaDescription: (getField(row, "metaDescription") || title).trim(),
+              date: getField(row, "date").trim(),
+              image: getField(row, "image").trim(),
+              content: getField(row, "content").trim(),
+            };
+          })
+          .sort((a, b) => a.id - b.id)
+          .slice(-3);
+
+        setBlogs(latestBlogs);
+        try {
+          sessionStorage.setItem(CACHE_KEY, JSON.stringify(latestBlogs));
+        } catch {
+          // Continue without caching if session storage is unavailable.
+        }
+        setError(null);
+        setLoading(false);
+      },
+      error: () => {
+        setError("Failed to load news articles.");
+        setLoading(false);
+      },
+    });
+  }, []);
+
   return (
     <section className="bg-white py-20">
       <div className="max-w-[1400px] mx-auto px-6 md:px-12">
@@ -52,6 +116,8 @@ const BlogSection = () => {
           Latest <span className="text-[#8fd07c] font-semibold">Insights</span>{" "}
           and Immigration <span className="font-semibold">Updates</span>
         </h2>
+        {loading && <p className="text-gray-500">Loading latest articles...</p>}
+        {error && <p className="text-gray-500">{error}</p>}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {blogs.map((blog) => (
             <div
