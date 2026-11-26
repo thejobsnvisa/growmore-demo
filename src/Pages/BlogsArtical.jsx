@@ -1,75 +1,36 @@
-import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useEffect } from "react";
+import { Link, useParams } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import {
-  FaCalendar,
-  FaWhatsapp,
-  FaEnvelope,
-  FaPhone,
-  FaArrowLeft,
-} from "react-icons/fa";
-import { blogs } from "../data/blogsData";
-import CommentSection from "../Components/CommentSection";
-import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
 import rehypeRaw from "rehype-raw";
+import { useBlogsData } from "../hooks/useBlogsData";
+import CommentSection from "../Components/CommentSection";
+import { Helmet } from "react-helmet-async";
 
 const BlogsArticle = () => {
   const { slug } = useParams();
-  const [content, setContent] = useState("");
-
-  const article = blogs.find((item) => item.slug === slug);
+  const { blogs, loading } = useBlogsData();
 
   useEffect(() => {
     window.scrollTo(0, 0);
+  }, [slug]);
 
-    if (article) {
-      let isMounted = true;
-
-      // ✅ Use BASE_URL to handle /growmore-one/ or / automatically
-      const baseUrl = import.meta.env.BASE_URL;
-      const filePath = `${baseUrl}content/blogs/${slug}.md`.replace(
-        /\/+/g,
-        "/",
-      );
-
-      fetch(filePath)
-        .then((res) => {
-          if (!res.ok) throw new Error("File not found");
-          return res.text();
-        })
-        .then((text) => {
-          if (isMounted) {
-            // Check if the response is actually HTML (GitHub's 404 page)
-            if (
-              text.trim().startsWith("<!doctype html>") ||
-              text.trim().startsWith("<html")
-            ) {
-              throw new Error(
-                "Wrong file path - received HTML instead of Markdown",
-              );
-            }
-            setContent(text);
-          }
-        })
-        .catch((err) => {
-          console.error("Fetch error:", err);
-          setContent(
-            "# Content Not Found\nPlease check that the file exists in `public/content/blogs/`.",
-          );
-        });
-
-      return () => {
-        isMounted = false;
-      };
-    }
-  }, [slug, article]);
-
-  if (!article)
+  if (loading) {
     return (
-      <div className="py-20 text-center font-bold">Metadata not found.</div>
+      <div className="min-h-screen py-20 text-center text-slate-500 font-jakarta">
+        Loading article...
+      </div>
     );
+  }
+
+  const article = blogs.find((item) => item.slug === slug);
+
+  if (!article) {
+    return (
+      <div className="py-20 text-center font-bold">Article not found.</div>
+    );
+  }
+
 
   return (
     <>
@@ -229,7 +190,7 @@ const BlogsArticle = () => {
                 ),
               }}
             >
-              {content}
+              {article.content}
             </ReactMarkdown>
           </div>
           {/* CONTACT BAR */}

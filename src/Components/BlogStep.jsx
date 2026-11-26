@@ -1,11 +1,13 @@
 import { useState, useMemo } from "react";
 import { FaCalendar } from "react-icons/fa";
-import { blogs } from "../data/blogsData";
+import { useBlogsData } from "../hooks/useBlogsData";
 import { Link } from "react-router-dom";
 import { CiSearch } from "react-icons/ci";
 import { VscRefresh } from "react-icons/vsc";
+import { LuArrowLeft, LuArrowRight } from "react-icons/lu";
 
 const BlogStep = () => {
+  const { blogs = [], loading, error } = useBlogsData();
   const [currentPage, setCurrentPage] = useState(1);
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
@@ -95,7 +97,7 @@ const BlogStep = () => {
     });
   }, [searchTerm, selectedCategory, selectedSubcategory]);
 
-  const blogsPerPage = 10;
+  const blogsPerPage = 9;
   const totalPages = Math.max(1, Math.ceil(filteredBlogs.length / blogsPerPage));
   const safeCurrentPage = Math.min(currentPage, totalPages);
 
@@ -103,6 +105,33 @@ const BlogStep = () => {
   const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
 
   const currentBlogs = filteredBlogs.slice(indexOfFirstBlog, indexOfLastBlog);
+
+  const goToPreviousPage = () => {
+    setCurrentPage((page) => (page > 1 ? page - 1 : page));
+  };
+
+  const goToNextPage = () => {
+    setCurrentPage((page) => (page < totalPages ? page + 1 : page));
+  };
+
+  if (loading) {
+    return (
+      <section className="bg-white py-20">
+        <div className="max-w-[1400px] mx-auto px-6 md:px-12 grid grid-cols-1 justify-items-center gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {[...Array(6)].map((_, index) => (
+            <div
+              key={index}
+              className="h-[200px] w-full max-w-[450px] rounded-3xl bg-slate-100 animate-pulse"
+            />
+          ))}
+        </div>
+      </section>
+    );
+  }
+
+  if (error) {
+    return <div className="py-20 text-center text-red-500 font-medium">{error}</div>;
+  }
 
   return (
     <section className="bg-white py-20">
@@ -282,31 +311,39 @@ const BlogStep = () => {
             </div>
           ))}
         </div>
-        <div className="flex justify-center items-center  mt-12">
+        <div className="mt-12 flex items-center justify-center gap-3">
           {/* PREV */}
           <button
-            onClick={() => setCurrentPage((prev) => prev - 1)}
-            disabled={currentPage === 1}
-            className={`px-5 py-2 rounded-lg transition ${
-              currentPage === 1
-                ? "text-blue-400 cursor-pointer hover:text-green-500"
-                : "text-black hover:text-green-500 cursor-pointer"
+            type="button"
+            onClick={goToPreviousPage}
+            disabled={safeCurrentPage === 1}
+            aria-label="Previous page"
+            className={`flex h-9 w-9 items-center justify-center rounded-full bg-sky-100 font-bold ${
+              safeCurrentPage === 1
+                ? "text-blue-400 cursor-not-allowed"
+                : "text-cyan-700 hover:text-green-500 cursor-pointer"
             }`}
           >
-            Prev
+            <LuArrowLeft className="h-6 w-6" />
           </button>
+
+          <span className="rounded-full bg-slate-100 px-3 py-1 text-[18px] text-slate-400">
+            {safeCurrentPage} / {totalPages}
+          </span>
 
           {/* NEXT */}
           <button
-            onClick={() => setCurrentPage((prev) => prev + 1)}
-            disabled={currentPage === totalPages}
-            className={`px-5 py-2 rounded-lg transition ${
-              currentPage === totalPages
-                ? "text-blue-400 cursor-pointer hover:text-green-500"
-                : "text-black hover:text-green-500 cursor-pointer"
+            type="button"
+            onClick={goToNextPage}
+            disabled={safeCurrentPage === totalPages}
+            aria-label="Next page"
+            className={`flex h-9 w-9 items-center justify-center rounded-full bg-sky-100 font-bold ${
+              safeCurrentPage === totalPages
+                ? "text-blue-400 cursor-not-allowed"
+                : "text-cyan-700 hover:text-green-500 cursor-pointer"
             }`}
           >
-            Next
+            <LuArrowRight className="h-6 w-6" />
           </button>
         </div>
       </div>
