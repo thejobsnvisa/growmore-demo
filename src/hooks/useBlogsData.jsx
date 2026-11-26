@@ -46,7 +46,7 @@ export function useBlogsData() {
       skipEmptyLines: true,
 
       complete: (results) => {
-        console.log("RAW CSV ROWS FROM GOOGLE SHEET:", results.data);
+        console.log("RAW BLOG CSV ROWS FROM GOOGLE SHEET:", results.data);
 
         const formatted = results.data
           .filter((row) => {
@@ -89,7 +89,7 @@ export function useBlogsData() {
 
             if (!content) {
               console.warn(
-                `[useNewsData] Warning: Article "${title}" has empty content!`
+                `[useBlogsData] Warning: Blog "${title}" has empty content!`
               );
             }
 
@@ -111,7 +111,7 @@ export function useBlogsData() {
           })
           .sort((a, b) => b.id - a.id);
 
-        console.log("FORMATTED NEWS WITH MULTIPLE SUBCATEGORIES:", formatted);
+        console.log("FORMATTED BLOGS WITH MULTIPLE SUBCATEGORIES:", formatted);
 
         setBlogs(formatted);
 
@@ -126,7 +126,7 @@ export function useBlogsData() {
 
       error: (err) => {
         console.error("Error fetching Google Sheet:", err);
-        setError("Failed to load news articles.");
+        setError("Failed to load blog articles.");
         setLoading(false);
       },
     });
