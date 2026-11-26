@@ -22,7 +22,28 @@ const BlogArticle = () => {
     );
   }
 
-  const article = blogs.find((item) => item.slug === slug);
+  const normalizeSlug = (value) => {
+    const path = String(value ?? "").split(/[?#]/)[0].replace(/\/+$/, "");
+    let lastSegment = path.split("/").pop() || path;
+
+    try {
+      lastSegment = decodeURIComponent(lastSegment);
+    } catch {
+      // Keep the original segment if it contains malformed URL encoding.
+    }
+
+    return lastSegment
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "");
+  };
+
+  const requestedSlug = normalizeSlug(slug);
+  const article = (Array.isArray(blogs) ? blogs : []).find((item) =>
+    [item.slug, item.title, item.url, item.link, item.path, item.permalink].some(
+      (value) => value && normalizeSlug(value) === requestedSlug
+    )
+  );
 
   if (!article) {
     return (
