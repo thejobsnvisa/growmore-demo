@@ -84,7 +84,7 @@ const BlogSection = () => {
               content: getField(row, "content").trim(),
             };
           })
-          .sort((a, b) => a.id - b.id)
+          .sort((a, b) => b.id - a.id)
           .slice(-3);
 
         setBlogs(latestBlogs);
