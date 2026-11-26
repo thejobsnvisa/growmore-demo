@@ -1,14 +1,13 @@
-import { useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useEffect} from "react";
+import { Link, useParams } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { useNewsData } from "../hooks/useNewsData";
 import CommentSection from "../Components/CommentSection";
 import { Helmet } from "react-helmet-async";
-import { LuCalendarDays } from "react-icons/lu";
 
 const NewsArticle = () => {
-  const { slug } = useParams();
+ const { slug } = useParams();
   const { news, loading } = useNewsData();
 
   useEffect(() => {
@@ -30,187 +29,201 @@ const NewsArticle = () => {
       <div className="py-20 text-center font-bold">Article not found.</div>
     );
   }
-
   return (
     <>
-      <Helmet prioritizeSeoTags>
-        <title>{article.metaTitle || article.title}</title>
+     <Helmet prioritizeSeoTags>
+  <title>{article.metaTitle || article.title}</title>
 
-        <meta
-          name="description"
-          content={article.metaDescription || article.title}
+  <meta
+    name="description"
+    content={article.metaDescription || article.title}
+  />
+
+  <link
+    rel="canonical"
+    href={`https://www.growmore.one/news/${slug}/`}
+    key="canonical"
+  />
+
+  <meta property="og:type" content="article" />
+
+  <meta
+    property="og:title"
+    content={article.metaTitle || article.title}
+  />
+
+  <meta
+    property="og:description"
+    content={article.metaDescription || article.title}
+  />
+
+  <meta
+    property="og:image"
+    content={article.image}
+  />
+
+  <meta
+    property="og:url"
+    content={`https://www.growmore.one/news/${slug}/`}
+    key="og-url"
+  />
+
+  <meta name="robots" content="index, follow" />
+</Helmet>
+    <div className="min-h-screen bg-white font-jakarta text-[#042325]">
+      
+      {/* HEADER */}
+      <section className="bg-[#28535B] py-14 text-white">
+        <div className="max-w-5xl mx-auto px-6">
+
+          <h1 className="text-[28px] md:text-[32px] font-semibold leading-snug">
+            {article.title}
+          </h1>
+
+        </div>
+      </section>
+
+      {/* CONTENT */}
+      <section className="py-12 max-w-5xl mx-auto px-6">
+        
+        {/* IMAGE */}
+        <img
+          src={article.image}
+          alt={article.title}
+          className="w-full rounded-lg mb-8 object-cover max-h-[640px]"
         />
 
-        <link
-          rel="canonical"
-          href={`https://growmoreglobalvisa.com/news/${slug}/`}
-          key="canonical"
+        {/* MARKDOWN CONTENT */}
+       <div>
+  <ReactMarkdown
+    remarkPlugins={[remarkGfm]}
+    components={{
+      h2: ({ ...props }) => (
+        <h2
+          className="text-[#28535B] text-[20px] font-semibold mt-8 mb-3"
+          {...props}
         />
+      ),
 
-        <meta property="og:type" content="article" />
-
-        <meta
-          property="og:title"
-          content={article.metaTitle || article.title}
+      p: ({ ...props }) => (
+        <p
+          className="text-[15px] leading-[1.7] text-[#333] mb-4"
+          {...props}
         />
+      ),
 
-        <meta
-          property="og:description"
-          content={article.metaDescription || article.title}
+      ul: ({ ...props }) => (
+        <ul className="pl-5 mb-4 list-disc" {...props} />
+      ),
+
+      li: ({ ...props }) => (
+        <li className="mb-2 marker:text-[#333333]" {...props} />
+      ),
+
+      strong: ({ ...props }) => (
+        <strong
+          className="font-semibold text-[#042325]"
+          {...props}
         />
+      ),
 
-        <meta property="og:image" content={article.image} />
-
-        <meta
-          property="og:url"
-          content={`https://growmoreglobalvisa.com/news/${slug}/`}
-          key="og-url"
+      a: ({ ...props }) => (
+        <a
+          className="text-[#2ED09B] underline"
+          target="_blank"
+          
+          {...props}
         />
+      ),
 
-        <meta name="robots" content="index, follow" />
-      </Helmet>
+      // ✅ TABLE SUPPORT STARTS HERE
 
-      <div className="min-h-screen bg-white font-jakarta text-[#042325]">
-        {/* HEADER */}
-        <section className="bg-slate-100 min-h-[170px] w-full max-w-[1321px] mx-auto px-4 sm:px-6 py-10 sm:py-14 text-sky-800 rounded-2xl sm:rounded-[34px] mt-6">
-          <div className="max-w-7xl mx-auto flex flex-col items-center text-center">
-            <h1 className="text-xl sm:text-2xl md:text-[32px] font-semibold leading-snug break-words">
-              {article.title}
-            </h1>
+      table: ({ ...props }) => (
+        <div className="overflow-x-auto my-6 border border-gray-300 rounded-lg">
+          <table
+            className="w-full text-sm border-collapse"
+            {...props}
+          />
+        </div>
+      ),
 
-            <p className="text-gray-500 text-sm mt-4 sm:mt-6 flex items-center gap-2">
-              <LuCalendarDays className="h-4 w-4 text-slate-400" />{" "}
-              {article.date}
-            </p>
-          </div>
-        </section>
+      thead: ({ ...props }) => (
+        <thead className="bg-gray-200" {...props} />
+      ),
 
-        {/* CONTENT */}
-        <section className="py-12 max-w-5xl mx-auto px-6">
-          {/* IMAGE */}
-          {article.image && (
-            <img
-              src={article.image}
-              alt={article.title}
-              className="w-full rounded-4xl mb-8 object-cover max-h-[640px]"
-            />
-          )}
+      th: ({ ...props }) => (
+        <th
+          className="border border-gray-300 px-4 py-2 text-left font-semibold text-[#333]"
+          {...props}
+        />
+      ),
 
-          {/* MARKDOWN CONTENT */}
-          <div>
-            <ReactMarkdown
-              remarkPlugins={[remarkGfm]}
-              components={{
-                h2: ({ ...props }) => (
-                  <h2
-                    className="text-[#28535B] text-[20px] font-semibold mt-8 mb-3"
-                    {...props}
-                  />
-                ),
+      td: ({ ...props }) => (
+        <td
+          className="border border-gray-300 px-4 py-2 text-[#333]"
+          {...props}
+        />
+      ),
 
-                p: ({ ...props }) => (
-                  <p
-                    className="text-[15px] leading-[1.7] text-[#333] mb-4"
-                    {...props}
-                  />
-                ),
+      tr: ({ ...props }) => (
+        <tr className="hover:bg-gray-50 transition" {...props} />
+      ),
 
-                ul: ({ ...props }) => (
-                  <ul className="pl-5 mb-4 list-disc" {...props} />
-                ),
-
-                li: ({ ...props }) => (
-                  <li className="mb-2 marker:text-[#333333]" {...props} />
-                ),
-
-                strong: ({ ...props }) => (
-                  <strong className="font-semibold text-[#042325]" {...props} />
-                ),
-
-                a: ({ ...props }) => (
-                  <a
-                    className="text-[#2ED09B] underline"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    {...props}
-                  />
-                ),
-
-                table: ({ ...props }) => (
-                  <div className="overflow-x-auto my-6 border border-gray-300 rounded-lg">
-                    <table
-                      className="w-full text-sm border-collapse"
-                      {...props}
-                    />
+      // ✅ TABLE SUPPORT ENDS HERE
+    }}
+  >
+    {article.content}
+  </ReactMarkdown>
+</div>
+        {/* CONTACT BAR */}
+      <div className="w-full bg-[#2ED09B]  rounded-lg p-5 shadow-sm my-8">
+                <div className="flex flex-col md:flex-row justify-start items-center gap-2 md:gap-4  pl-3 text-black font-semibold text-center text-[15px] sm:text-[17px]">
+                  <div className="flex items-center">
+                    <span>Email: </span>
+                    <a
+                      href="mailto:info@growmore.one"
+                      className="ml-1 text-blue-500 transition-colors"
+                    >
+                      info@growmore.one
+                    </a>
                   </div>
-                ),
 
-                thead: ({ ...props }) => (
-                  <thead className="bg-gray-200" {...props} />
-                ),
+                  <span className="hidden md:inline text-black">|</span>
 
-                th: ({ ...props }) => (
-                  <th
-                    className="border border-gray-300 px-4 py-2 text-left font-semibold text-[#333]"
-                    {...props}
-                  />
-                ),
+                  <div className="flex items-center">
+                    <span>WhatsApp: </span>
+                    <a
+                      href="https://wa.me/61434202021"
+                      className="ml-1 text-blue-500 "
+                    >
+                      +61 434 202 021
+                    </a>
+                  </div>
 
-                td: ({ ...props }) => (
-                  <td
-                    className="border border-gray-300 px-4 py-2 text-[#333]"
-                    {...props}
-                  />
-                ),
+                  <span className="hidden md:inline text-black">|</span>
 
-                tr: ({ ...props }) => (
-                  <tr className="hover:bg-gray-50 transition" {...props} />
-                ),
-              }}
-            >
-              {article.content}
-            </ReactMarkdown>
-          </div>
-
-          {/* CONTACT BAR */}
-          <div className="w-full bg-[#2ED09B] rounded-lg p-5 shadow-sm my-8">
-            <div className="flex flex-col md:flex-row justify-start items-center gap-2 md:gap-4 pl-3 text-black font-semibold text-center text-[15px] sm:text-[17px]">
-              <div className="flex items-center">
-                <span>Email: </span>
-                <a
-                  href="mailto:study@growmore.one"
-                  className="ml-1 text-blue-500 transition-colors"
-                >
-                  study@growmore.one
-                </a>
+                  <div className="flex items-center">
+                    <span>Phone: </span>
+                    <a
+                      href="tel:+61387643334"
+                      className="ml-1 text-black "
+                    >
+                      +61 3 8764 3334
+                    </a>
+                  </div>
+                </div>
               </div>
 
-              <span className="hidden md:inline text-black">|</span>
+        {/* BUTTON */}
+            <Link to="/book-consultation">
+                <button className="bg-[#5dc2d3] text-white rounded-full hover:bg-black transition px-12 py-4 text-sm font-bold shadow-lg">
+                  Book Consultation →
+                </button>
+              </Link>
 
-              <div className="flex items-center">
-                <span>WhatsApp: </span>
-                <a
-                  href="https://wa.me/919081899669"
-                  className="ml-1 text-blue-500"
-                >
-                  (+91) 9081899669
-                </a>
-              </div>
-
-              <span className="hidden md:inline text-black">|</span>
-
-              <div className="flex items-center">
-                <span>Phone: </span>
-                <a href="tel:+919081899668" className="ml-1 text-black">
-                  (+91) 9081899668
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <CommentSection />
-        </section>
-      </div>
+       <CommentSection/>
+      </section>
+    </div>
     </>
   );
 };
