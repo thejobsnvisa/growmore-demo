@@ -1,16 +1,19 @@
 import { useState } from "react";
-import { FaCalendar } from "react-icons/fa";
-import { useBlogsData } from "../hooks/useBlogsData";
 import { Link } from "react-router-dom";
+import { useBlogsData } from "../hooks/useBlogsData";
 import { LuArrowLeft, LuArrowRight } from "react-icons/lu";
 
 const BlogStep = () => {
-  const { blogs = [], loading, error } = useBlogsData();
+  const { blogs, loading, error } = useBlogsData();
   const [currentPage, setCurrentPage] = useState(1);
+
   const blogsPerPage = 9;
+
   const indexOfLastBlog = currentPage * blogsPerPage;
   const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
+
   const currentBlogs = blogs.slice(indexOfFirstBlog, indexOfLastBlog);
+
   const totalPages = Math.max(1, Math.ceil(blogs.length / blogsPerPage));
 
   const goToPreviousPage = () => {
@@ -23,12 +26,12 @@ const BlogStep = () => {
 
   if (loading) {
     return (
-      <section className="bg-white py-20">
+      <section className="bg-white py-20 mb-40">
         <div className="max-w-[1400px] mx-auto px-6 md:px-12 grid grid-cols-1 justify-items-center gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {[...Array(6)].map((_, index) => (
+          {[...Array(6)].map((_, idx) => (
             <div
-              key={index}
-              className="h-[200px] w-full max-w-[450px] rounded-3xl bg-slate-100 animate-pulse"
+              key={idx}
+              className="xl:h-[242px] h-[200px] w-full max-w-[450px] rounded-2xl bg-slate-100 animate-pulse"
             />
           ))}
         </div>
@@ -37,56 +40,43 @@ const BlogStep = () => {
   }
 
   if (error) {
-    return <div className="py-20 text-center text-red-500 font-medium">{error}</div>;
+    return (
+      <div className="py-20 text-center text-red-500 font-medium">{error}</div>
+    );
   }
 
   return (
-    <section className="bg-white py-20">
+    <section className="bg-white py-20 mb-40 lg:mb-[155px] md:mb-40 xl:mb-50 ">
       <div className="max-w-[1400px] mx-auto px-6 md:px-12">
-        {/* Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* BLOG GRID */}
+        <div className="grid grid-cols-1 justify-items-center gap-8 md:grid-cols-2 lg:grid-cols-3">
           {currentBlogs.map((blog) => (
             <div
-              key={blog.id}
-              className="group bg-white rounded-3xl shadow-md hover:shadow-2xl transition-all duration-500 overflow-hidden flex flex-col"
+              key={blog.id || blog.slug}
+              className="group relative xl:h-[242px] h-[200px] w-full max-w-[450px] overflow-hidden rounded-[30px] bg-[linear-gradient(69.28deg,_#F4FFF6_4.06%,_#E8FAFF_92.34%)] shadow-[0px_4px_14px_rgba(0,0,0,0.12)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0px_8px_22px_rgba(0,0,0,0.15)]"
             >
-              {/* Image */}
-              <div className="overflow-hidden rounded-t-3xl">
-                 <img
-                  src={blog.image}
-                  alt={blog.title}
-                  className="w-full aspect-[18/10] object-cover p-4 sm:p-4 rounded-3xl"
-                />
-              </div>
-
-              {/* Content */}
-              <div className="p-6 flex flex-col flex-grow">
-                <h3 className="text-lg font-semibold text-[#163c3d] mb-4 leading-snug">
+              <img
+                src={blog.image}
+                alt={blog.title}
+                className="absolute inset-0 aspect-[24/10] w-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+              <div className="absolute inset-x-0 mt-[-15px] bottom-0 flex items-end justify-between gap-3 h-[74px] bg-[#FFFFFF33] px-4 pb-3 pt-12 backdrop-blur-[12px]">
+                <h3 className="max-w-[280px] text-sm font-semibold leading-5 text-slate-800">
                   {blog.title}
                 </h3>
-
-                <p className="text-gray-500 text-sm mb-6 flex items-center gap-2">
-                  <FaCalendar className="h-4 w-4 text-[#7cc576]" /> {blog.date}
-                </p>
-
-                {/* Push button to bottom */}
-                <div className="mt-auto">
-                  <Link to={`/blogs/${blog.slug}`}>
-                    <button className="group text-[#6dc7d1] font-semibold flex items-center gap-2 justify-end w-full transition-all duration-300">
-                      <span className="relative">
-                        READ MORE
-                        <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#6dc7d1] transition-all duration-300 group-hover:w-full"></span>
-                      </span>
-                      <span className="transition-transform duration-300 group-hover:translate-x-1">
-                        →
-                      </span>
-                    </button>
-                  </Link>
-                </div>
+                <Link
+                  to={`/blogs/${blog.slug}/`}
+                  aria-label={`Read ${blog.title}`}
+                  className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-slate-100 text-slate-500 font-bold transition-transform duration-300 group-hover:translate-x-1"
+                >
+                  <LuArrowRight className="h-6 w-6" />
+                </Link>
               </div>
             </div>
           ))}
         </div>
+
+        {/* PAGINATION */}
         <div className="mt-12 flex items-center justify-center gap-3">
           {/* PREV */}
           <button
@@ -103,11 +93,10 @@ const BlogStep = () => {
             <LuArrowLeft className="h-6 w-6" />
           </button>
 
-          <span className="rounded-full bg-slate-100 px-3 py-1 text-[18px] text-slate-400">
+          <span className="rounded-full bg-slate-100 px-3 py-1 text-slate-400 text-[18px]">
             {currentPage} / {totalPages}
           </span>
 
-          {/* NEXT */}
           <button
             type="button"
             onClick={goToNextPage}
