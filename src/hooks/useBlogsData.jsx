@@ -1,14 +1,11 @@
-
 import { useState, useEffect } from "react";
 import Papa from "papaparse";
 
 const SHEET_URL = import.meta.env.VITE_BLOGS_SHEET_URL;
 const CACHE_KEY = "live_blogs_cache_v3";
 
-// Normalize multiple subcategories from Excel / Google Sheets
 const normalizeSubcategories = (value) => {
   if (!value) return [];
-
   return [
     ...new Set(
       String(value)
@@ -39,97 +36,71 @@ export function useBlogsData() {
 
   useEffect(() => {
     if (!SHEET_URL) return;
+    let isMounted = true;
 
     Papa.parse(SHEET_URL, {
       download: true,
       header: true,
-      skipEmptyLines: true,
+      skipEmptyLines: "greedy",
+      transformHeader: (header) => header.trim().toLowerCase(),
 
       complete: (results) => {
-        console.log("RAW BLOG CSV ROWS FROM GOOGLE SHEET:", results.data);
+        if (!isMounted) return;
 
         const formatted = results.data
           .filter((row) => {
-            const getVal = (key) => {
-              const foundKey = Object.keys(row).find(
-                (k) => k.trim().toLowerCase() === key.toLowerCase()
-              );
-
-              return foundKey ? row[foundKey] : "";
-            };
-
-            const slug = getVal("slug");
-            const title = getVal("title");
-            const status = getVal("status") || "published";
-
-            return (
-              slug?.trim() &&
-              title?.trim() &&
-              status.trim().toLowerCase() === "published"
-            );
+            const slug = row.slug?.trim();
+            const title = row.title?.trim();
+            const status = (row.status || "published").trim().toLowerCase();
+            return Boolean(slug && title && status === "published");
           })
           .map((row) => {
-            const getField = (key) => {
-              const foundKey = Object.keys(row).find(
-                (k) => k.trim().toLowerCase() === key.toLowerCase()
-              );
-
-              return foundKey ? row[foundKey] : "";
-            };
-
-            const title = getField("title").trim();
-            const content = getField("content").trim();
-
-            const rawSubcategory =
-              getField("sub category") ||
-              getField("subcategory") ||
-              getField("subCategory");
-
-            const subcategories = normalizeSubcategories(rawSubcategory);
+            const title = row.title.trim();
+            const content = (row.content || "").trim();
+            const rawSubcategory = row["sub category"] || row.subcategory || "";
 
             if (!content) {
-              console.warn(
-                `[useBlogsData] Warning: Blog "${title}" has empty content!`
-              );
+              console.warn(`[useBlogsData] Warning: Blog "${title}" has empty content!`);
             }
 
             return {
-              id: Number(getField("id")) || 0,
-              slug: getField("slug").trim(),
+              id: Number(row.id) || 0,
+              slug: row.slug.trim(),
               title,
-              category: getField("category").trim(),
-
-              // Multiple subcategories are now stored as an array
-              subCategory: subcategories,
-
-              metaTitle: (getField("metaTitle") || title).trim(),
-              metaDescription: (getField("metaDescription") || title).trim(),
-              date: getField("date").trim(),
-              image: getField("image").trim(),
+              category: (row.category || "").trim(),
+              subCategory: normalizeSubcategories(rawSubcategory),
+              metaTitle: (row.metatitle || title).trim(),
+              metaDescription: (row.metadescription || title).trim(),
+              date: (row.date || "").trim(),
+              image: (row.image || "").trim(),
               content,
             };
           })
           .sort((a, b) => b.id - a.id);
 
-        console.log("FORMATTED BLOGS WITH MULTIPLE SUBCATEGORIES:", formatted);
-
         setBlogs(formatted);
 
-        sessionStorage.setItem(
-          CACHE_KEY,
-          JSON.stringify(formatted)
-        );
+        try {
+          sessionStorage.setItem(CACHE_KEY, JSON.stringify(formatted));
+        } catch (storageErr) {
+          console.warn("[useBlogsData] Failed to cache blogs in sessionStorage:", storageErr);
+        }
 
         setError(null);
         setLoading(false);
       },
 
       error: (err) => {
+        if (!isMounted) return;
         console.error("Error fetching Google Sheet:", err);
         setError("Failed to load blog articles.");
         setLoading(false);
       },
     });
+
+    return () => {
+      isMounted = false;
+    };
   }, []);
 
   return { blogs, loading, error };
