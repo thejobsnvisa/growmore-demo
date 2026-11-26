@@ -85,7 +85,7 @@ const BlogSection = () => {
             };
           })
           .sort((a, b) => b.id - a.id)
-          .slice(-3);
+          .slice(0, 3);
 
         setBlogs(latestBlogs);
         try {
