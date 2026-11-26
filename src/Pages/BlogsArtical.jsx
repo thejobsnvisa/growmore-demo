@@ -93,88 +93,88 @@ const BlogArticle = () => {
           className="w-full rounded-lg mb-8 object-cover max-h-[640px]"
         />
 
-        {/* MARKDOWN CONTENT */}
-       <div>
-  <ReactMarkdown
-    remarkPlugins={[remarkGfm]}
-    components={{
-      h2: ({ ...props }) => (
-        <h2
-          className="text-[#28535B] text-[20px] font-semibold mt-8 mb-3"
-          {...props}
-        />
-      ),
-
-      p: ({ ...props }) => (
-        <p
-          className="text-[15px] leading-[1.7] text-[#333] mb-4"
-          {...props}
-        />
-      ),
-
-      ul: ({ ...props }) => (
-        <ul className="pl-5 mb-4 list-disc" {...props} />
-      ),
-
-      li: ({ ...props }) => (
-        <li className="mb-2 marker:text-[#333333]" {...props} />
-      ),
-
-      strong: ({ ...props }) => (
-        <strong
-          className="font-semibold text-[#042325]"
-          {...props}
-        />
-      ),
-
-      a: ({ ...props }) => (
-        <a
-          className="text-[#2ED09B] underline"
-          target="_blank"
-          
-          {...props}
-        />
-      ),
-
-      // ✅ TABLE SUPPORT STARTS HERE
-
-      table: ({ ...props }) => (
-        <div className="overflow-x-auto my-6 border border-gray-300 rounded-lg">
-          <table
-            className="w-full text-sm border-collapse"
-            {...props}
-          />
-        </div>
-      ),
-
-      thead: ({ ...props }) => (
-        <thead className="bg-gray-200" {...props} />
-      ),
-
-      th: ({ ...props }) => (
-        <th
-          className="border border-gray-300 px-4 py-2 text-left font-semibold text-[#333]"
-          {...props}
-        />
-      ),
-
-      td: ({ ...props }) => (
-        <td
-          className="border border-gray-300 px-4 py-2 text-[#333]"
-          {...props}
-        />
-      ),
-
-      tr: ({ ...props }) => (
-        <tr className="hover:bg-gray-50 transition" {...props} />
-      ),
-
-      // ✅ TABLE SUPPORT ENDS HERE
-    }}
-  >
-    {article.content}
-  </ReactMarkdown>
-</div>
+       {/* MARKDOWN CONTENT */}
+              <div>
+         <ReactMarkdown
+           remarkPlugins={[remarkGfm]}
+           components={{
+             h2: ({ ...props }) => (
+               <h2
+                 className="text-[#28535B] text-[20px] font-semibold mt-8 mb-3"
+                 {...props}
+               />
+             ),
+       
+             p: ({ ...props }) => (
+               <p
+                 className="text-[15px] leading-[1.7] text-[#333] mb-4"
+                 {...props}
+               />
+             ),
+       
+             ul: ({ ...props }) => (
+               <ul className="pl-5 mb-4 list-disc" {...props} />
+             ),
+       
+             li: ({ ...props }) => (
+               <li className="mb-2 marker:text-[#333333]" {...props} />
+             ),
+       
+             strong: ({ ...props }) => (
+               <strong
+                 className="font-semibold text-[#042325]"
+                 {...props}
+               />
+             ),
+       
+             a: ({ ...props }) => (
+               <a
+                 className="text-[#2ED09B] underline"
+                 target="_blank"
+                 
+                 {...props}
+               />
+             ),
+       
+             // ✅ TABLE SUPPORT STARTS HERE
+       
+             table: ({ ...props }) => (
+               <div className="overflow-x-auto my-6 border border-gray-300 rounded-lg">
+                 <table
+                   className="w-full text-sm border-collapse"
+                   {...props}
+                 />
+               </div>
+             ),
+       
+             thead: ({ ...props }) => (
+               <thead className="bg-gray-200" {...props} />
+             ),
+       
+             th: ({ ...props }) => (
+               <th
+                 className="border border-gray-300 px-4 py-2 text-left font-semibold text-[#333]"
+                 {...props}
+               />
+             ),
+       
+             td: ({ ...props }) => (
+               <td
+                 className="border border-gray-300 px-4 py-2 text-[#333]"
+                 {...props}
+               />
+             ),
+       
+             tr: ({ ...props }) => (
+               <tr className="hover:bg-gray-50 transition" {...props} />
+             ),
+       
+             // ✅ TABLE SUPPORT ENDS HERE
+           }}
+         >
+           {article.content}
+         </ReactMarkdown>
+       </div>
         {/* CONTACT BAR */}
       <div className="w-full bg-[#2ED09B]  rounded-lg p-5 shadow-sm my-8">
                 <div className="flex flex-col md:flex-row justify-start items-center gap-2 md:gap-4  pl-3 text-black font-semibold text-center text-[15px] sm:text-[17px]">
